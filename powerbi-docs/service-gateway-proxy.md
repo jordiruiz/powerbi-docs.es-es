@@ -1,0 +1,128 @@
+---
+title: "Configuración de proxy para la puerta de enlace de datos local"
+description: "Información sobre la configuración de proxy para la puerta de enlace de datos local."
+services: powerbi
+documentationcenter: 
+author: davidiseminger
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: na
+ms.workload: powerbi
+ms.date: 09/06/2017
+ms.author: davidi
+ms.openlocfilehash: 6fb6250f8cd82c7057abe3f9cf9792dc733ea4b6
+ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 11/15/2017
+---
+# <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configuración de proxy para la puerta de enlace de datos local
+El entorno de trabajo puede requerir que pase por un proxy para acceder a Internet. Esto podría impedir a la puerta de enlace de datos local conectarse al servicio.
+
+## <a name="does-your-network-use-a-proxy"></a>¿Usa su red un proxy?
+La siguiente entrada de superuser.com describe cómo puede intentar determinar si tiene un proxy en la red.
+
+[¿Cómo sé qué servidor proxy estoy usando? (SuperUser.com)](https://superuser.com/questions/346372/how-do-i-know-what-proxy-server-im-using)
+
+## <a name="configuration-file-location-and-default-configuration"></a>Ubicación del archivo de configuración y configuración predeterminada
+La información de proxy se configura dentro de un archivo de configuración de .NET. La ubicación, y los nombres de archivo, será diferentes dependiendo de la puerta de enlace que esté usando.
+
+### <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
+Hay dos archivos de configuración principales que participan en la puerta de enlace de datos local.
+
+**Configuración**
+
+El primero es para las pantallas de configuración, que en realidad configuran la puerta de enlace. Si tiene problemas para configurar la puerta de enlace, este es el archivo al que tendrá que recurrir.
+
+    C:\Program Files\On-premises data gateway\enterprisegatewayconfigurator.exe.config
+
+**Servicio de Windows**
+
+El segundo es para el servicio de Windows real, que interactúa con el servicio Power BI y controla las solicitudes.
+
+    C:\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config
+
+### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
+> [!NOTE]
+> Hay una nueva versión de la puerta de enlace personal para Power BI, denominada **Puerta de enlace de datos local (modo personal)**. En esta sección del artículo se describe la versión anterior de la puerta de enlace personal, denominada **Power BI Gateway - Personal**, que se va a retirar y dejará de funcionar a partir del 31 de julio de 2017. Para más información acerca de la nueva versión de la puerta de enlace personal, incluido cómo instalar la nueva versión, consulte el artículo [**Puerta de enlace de datos local (modo personal)**](service-gateway-personal-mode.md).
+> 
+> 
+
+La puerta de enlace personal se puede instalar de una de dos maneras. Como un servicio de Windows (admin) o como una aplicación en modo usuario. Esto se determina durante la instalación. Por consiguiente, los archivos de configuración pueden estar en una de las dos ubicaciones, dependiendo de cómo se instalara la puerta de enlace. Deseará comprobar ambas ubicaciones.
+
+**Configuración**
+
+El primero es para las pantallas de configuración, que en realidad configuran la puerta de enlace. Si tiene problemas para configurar la puerta de enlace, este es el archivo al que tendrá que recurrir.
+
+Para el *servicio de Windows*, será la siguiente.
+
+    C:\Program Files\Power BI Personal Gateway\1.0\Configurator\GWConfig.exe.config
+    C:\Program Files\Power BI Personal Gateway\1.0\Configurator\PowerBIGatewayAgentCmdLine.exe.config
+
+Para la *aplicación de modo usuario*, será la siguiente.
+
+    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Configurator\GWConfig.exe.config
+    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Configurator\PowerBIGatewayAgentCmdLine.exe.config
+
+**Servicio de Windows**
+
+El segundo es para el servicio de Windows real, que interactúa con el servicio Power BI y controla las solicitudes.
+
+Para el *servicio de Windows*, será la siguiente.
+
+    C:\Program Files\Power BI Personal Gateway\1.0\Gateway\diawp.exe.config
+
+Para la *aplicación de modo usuario*, será la siguiente.
+
+    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Gateway\diawp.exe.config
+
+## <a name="configuring-proxy-settings"></a>Configuración de proxy
+La configuración de proxy predeterminada es la siguiente.
+
+    <system.net>
+        <defaultProxy useDefaultCredentials="true" />
+    </system.net>
+
+La configuración predeterminada funciona con autenticación de Windows. Si el proxy usa otra forma de autenticación, debe cambiar la configuración. Si no está seguro, póngase en contacto con el administrador de la red.
+
+Para obtener más información sobre la configuración de los elementos de proxy para los archivos de configuración de .NET, consulte [<defaultProxy> (Elemento, Configuración de red)](https://msdn.microsoft.com/library/kd3cf2ex.aspx).
+
+## <a name="changing-the-gateway-service-account-to-a-domain-user"></a>Cambiar la cuenta de servicio de la puerta de enlace de un usuario de dominio
+Al configurar los ajustes de proxy para utilizar las credenciales predeterminadas, como se explicó anteriormente, pueden producirse problemas de autenticación con el proxy. Esto se debe a que la cuenta de servicio predeterminada es el servicio SID y no un usuario de dominio autenticado. Puede cambiar la cuenta de servicio de la puerta de enlace para permitir la autenticación correcta con el servidor proxy.
+
+> [!NOTE]
+> Se recomienda que use una cuenta de servicio administrada para evitar tener que restablecer las contraseñas. Obtenga información acerca de cómo crear una [cuenta de servicio administrada](https://technet.microsoft.com/library/dd548356.aspx) dentro de Active Directory.
+> 
+> 
+
+### <a name="change-the-on-premises-data-gateway-service-account"></a>Cambiar la cuenta de servicio de la puerta de enlace de datos local
+1. Cambiar la cuenta de servicio de Windows para el **servicio de la puerta de enlace de datos local**.
+   
+    La cuenta predeterminada para este servicio es *NT SERVICE\PBIEgwService*. Podrá cambiarlo a una cuenta de usuario de dominio en su dominio de Active Directory. También puede utilizar una cuenta de servicio administrada para evitar tener que cambiar la contraseña.
+   
+    Puede cambiar la cuenta en la pestaña **Inicio de sesión** de las propiedades del servicio de Windows.
+2. Reinicie el **servicio de la puerta de enlace de datos local**.
+   
+    Desde un símbolo del sistema de administrador, emita los siguientes comandos.
+   
+        net stop PBIEgwService
+   
+        net start PBIEgwService
+3. Inicie el **configurador de la puerta de enlace de datos local**. Puede seleccionar el botón de inicio de Windows y buscar la *puerta de enlace de datos local*.
+4. Inicie sesión en Power BI.
+5. Restaure la puerta de enlace con su clave de recuperación.
+   
+    Esto permitirá a la nueva cuenta de servicio descifrar las credenciales almacenadas para los orígenes de datos.
+
+## <a name="next-steps"></a>Pasos siguientes
+[Puerta de enlace de datos local (modo personal)](service-gateway-personal-mode.md)
+[Información de firewall](service-gateway-onprem-tshoot.md#firewall-or-proxy)  
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+

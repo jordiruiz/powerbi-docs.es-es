@@ -1,0 +1,66 @@
+documentType: Tutorial
+title: "Introducción a DAX"
+metadata:
+  title: "Introducción a DAX | Microsoft Power BI"
+  description: Aprenda a crear y trabajar con DAX de manos de un conocido experto.
+  audience: Business User
+  level: Beginner
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: >
+    Aprenda a crear y trabajar con DAX de manos de un conocido experto.
+  ms.openlocfilehash: 5723e4a56974ab25eb43f3130755f6bccb71214c
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 11/15/2017
+- title: "Introducción a DAX"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/lRhOJP3bZCo?rel=0]
+
+
+    [!INCLUDE [](includes/7-1-intro-to-dax.md)]
+- title: "Tipos de cálculos DAX"
+  durationInMinutes: 22
+  content: >
+    > [!Video https://www.youtube.com/embed/BVlijY68wp8?rel=0]
+
+
+    [!INCLUDE [](includes/7-2-dax-calculation-types.md)]
+- title: Funciones DAX
+  durationInMinutes: 17
+  content: >
+    > [!Video https://www.youtube.com/embed/siTnzquk1SU?rel=0]
+
+
+    [!INCLUDE [](includes/7-3-dax-functions.md)]
+- title: Uso de variables en expresiones DAX
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/kd4tgKxhRTU?rel=0]
+
+
+    [!INCLUDE [](includes/7-4-dax-expressions.md)]
+- title: Relaciones de tablas y DAX
+  durationInMinutes: 13
+  content: >
+    > [!Video https://www.youtube.com/embed/yec1f5A08mc?rel=0]
+
+
+    [!INCLUDE [](includes/7-5-table-relationships-and-dax.md)]
+- title: Filtrado y tablas DAX
+  durationInMinutes: 32
+  content: >
+    > [!Video https://www.youtube.com/embed/6eAoDI4VDFs?rel=0]
+
+
+    [!INCLUDE [](includes/7-6-dax-tables-and-filtering.md)]
+- content: "Ha completado la sección **Introducción a DAX** del curso de Aprendizaje guiado de Microsoft Power BI.\0"

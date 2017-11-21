@@ -1,0 +1,61 @@
+documentType: Tutorial
+title: Power BI y Excel
+metadata:
+  title: Power BI y Excel | Microsoft Power BI
+  description: Use Excel y Power BI de forma conjunta y cree objetos visuales e informes eficaces y conectados.
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: publishingandsharing
+  nextTutorialTitle: "Publicación y uso compartido"
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: >
+    Use Excel y Power BI de forma conjunta y cree objetos visuales e informes eficaces y conectados.
+  ms.openlocfilehash: 2d734b12d3ff197addff0a0cf39b1f399d70e3a6
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 11/15/2017
+- title: "Introducción al uso de datos de Excel en Power BI"
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/TWVqSlkjVPw?rel=0]
+
+
+    [!INCLUDE [](includes/5-1-intro-excel-data.md)]
+- title: Carga de datos de Excel en Power BI
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/8-z6QoaNL3A?rel=0]
+
+
+    [!INCLUDE [](includes/5-2-upload-excel.md)]
+- title: "Importación de Power View y Power Pivot a Power BI"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/nVkpj0tB4Yk?rel=0]
+
+
+    [!INCLUDE [](includes/5-3-import-powerpivot-powerview.md)]
+- title: "Conexión de OneDrive para la Empresa a Power BI"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/WK7OZF-hVZA?rel=0]
+
+
+    [!INCLUDE [](includes/5-4-connect-onedrive-for-business.md)]
+- title: 'Excel en Power BI: resumen'
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/HNhK9XMuyO4?rel=0]
+
+
+    [!INCLUDE [](includes/5-8-excel-data-summary.md)]
+- content: "Ha completado la sección **Power BI y Excel** del curso de Aprendizaje guiado de Microsoft Power BI.\0"

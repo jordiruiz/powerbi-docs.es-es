@@ -1,0 +1,96 @@
+documentType: Tutorial
+title: "Exploración de datos"
+metadata:
+  title: "Exploración de datos | Microsoft Power BI"
+  description: Aprenda a buscar, conectar e interactuar con datos en Power BI.
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: powerbiandexcel
+  nextTutorialTitle: Power BI y Excel
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: >
+    Aprenda a buscar, conectar e interactuar con datos en Power BI.
+  ms.openlocfilehash: 04fc3f0a47ab4194031b6e2bb65eacc0ac89d5f5
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 11/15/2017
+- title: "Introducción al servicio Power BI"
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/B2vd4MQrz4M?rel=0]
+
+
+    [!INCLUDE [](includes/4-0-intro-power-bi-service.md)]
+- title: Quick Insights en Power BI
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/et_MLSL2sA8?rel=0]
+
+
+    [!INCLUDE [](includes/4-1a-quick-insights.md)]
+- title: "Creación y configuración de un panel"
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/lJKgWnvl6bQ?rel=0]
+
+
+    [!INCLUDE [](includes/4-2-create-configure-dashboards.md)]
+- title: "Formulación de preguntas a los datos en lenguaje natural"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/qMf7OLJfCz8?rel=0]
+
+
+    [!INCLUDE [](includes/4-3-asking-questions-natural-language.md)]
+- title: "Creación de sugerencias personalizadas de preguntas y respuestas"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/E1mIAyEXuF4?rel=0]
+
+
+    [!INCLUDE [](includes/4-3a-suggested-questions.md)]
+- title: "Uso compartido de paneles con el resto de la organización"
+  durationInMinutes: 7
+  content: >
+    > [!Video https://www.youtube.com/embed/0tUwn8DHo3s?rel=0]
+
+
+    [!INCLUDE [](includes/4-4-share-dashboards.md)]
+- title: "Visualización de objetos visuales e iconos en pantalla completa"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/LoApjhwTse0?rel=0]
+
+
+    [!INCLUDE [](includes/4-4b-display-visuals-tiles-fullscreen.md)]
+- title: "Edición de los detalles de un icono y adición de widgets"
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/XhqVbHqd5jQ?rel=0]
+
+
+    [!INCLUDE [](includes/4-4d-change-tile-details.md)]
+- title: "Obtención de más espacio en el panel"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/c31gZkyvC54?rel=0]
+
+
+    [!INCLUDE [](includes/4-4e-get-more-dashboard-space.md)]
+- title: "Instalación y configuración de una puerta de enlace personal"
+  durationInMinutes: 11
+  content: >
+    > [!Video https://www.youtube.com/embed/xjcO5tNvjGs?rel=0]
+
+
+    [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
+- content: "Ha completado la sección **Exploración de datos** del curso de Aprendizaje guiado de Power BI.\0"
