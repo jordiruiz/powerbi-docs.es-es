@@ -12,10 +12,6 @@
           href: service-free-vs-pro.md
         - name: Orígenes de datos de Power BI
           href: service-get-data.md
-        - name: Vídeos de Power BI
-          href: videos.md
-        - name: Seminarios web de Power BI
-          href: webinars.md
         - name: La nueva experiencia de navegación de Power BI
           href: service-the-new-power-bi-experience.md
         - name: 10 sugerencias para obtener ayuda
@@ -278,7 +274,7 @@
           href: service-how-to-q-and-a.md
         - name: 'Tutorial: Introducción a Preguntas y respuestas de Power BI'
           href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: Uso de Preguntas y respuestas con datos de Power BI Gateway - Enterprise (vista previa)
+        - name: Uso de Preguntas y respuestas con datos de Power BI Gateway - Enterprise (versión preliminar)
           href: service-q-and-a-direct-query.md
         - name: Funcionamiento correcto de los datos con Preguntas y respuestas en Power BI
           href: service-prepare-data-for-q-and-a.md
@@ -322,7 +318,7 @@
           href: service-organizational-content-pack-manage-update-delete.md
         - name: Búsqueda y conexión a un paquete de contenido organizativo
           href: service-organizational-content-pack-find-and-open.md
-        - name: 'Paquetes de contenido organizativos: copiar, actualizar y obtener acceso'
+        - name: 'Paquetes de contenido de la organización: Copia, actualización y acceso'
           href: service-organizational-content-pack-copy-refresh-access.md
         - name: Quitar la conexión a un paquete de contenido organizativo.
           href: service-organizational-content-pack-disconnect.md
@@ -406,10 +402,6 @@
           href: power-bi-visualization-export-data.md
         - name: Cambio del tipo de visualización en un informe de Power BI
           href: power-bi-report-change-visualization-type.md
-        - name: Agregar una visualización personalizada a un informe de Power BI
-          href: power-bi-report-add-custom-visual.md
-        - name: Descarga y uso de objetos visuales personalizados de la Tienda Office
-          href: service-custom-visuals-office-store.md
         - name: Introducción a las propiedades de eje y formato de color
           href: service-getting-started-with-color-formatting-and-axis-properties.md
         - name: Sugerencias y trucos para el formato de color en Power BI
@@ -428,7 +420,7 @@
           href: service-add-hyperlink-to-text-box.md
         - name: Histogramas
           href: service-histograms.md
-        - name: Sugerencias y trucos para las visualizaciones de mapa de Power BI
+        - name: Sugerencias y trucos para las visualizaciones de mapas de Power BI
           href: power-bi-map-tips-and-tricks.md
         - name: Cuadros de texto en informes de Power BI
           href: power-bi-reports-add-text-and-shapes.md
@@ -478,7 +470,7 @@
           href: service-excel-workbook-files.md
         - name: Obtención de datos de archivos de Power BI Desktop
           href: service-desktop-files.md
-        - name: Obtención de datos de archivos .CSV (valores separados por comas)
+        - name: Obtención de datos de archivos .csv (valores separados por comas)
           href: service-comma-separated-value-files.md
         - name: Transmisión en tiempo real en Power BI (vista previa)
           href: service-real-time-streaming.md
@@ -524,15 +516,15 @@
           href: service-gateway-getting-started.md
         - name: Instrucciones para implementar una puerta de enlace de datos
           href: service-gateway-deployment-guidance.md
-        - name: On-premises Data Gateway (Puerta de enlace de datos local)
+        - name: Puerta de enlace de datos local
           href: service-gateway-onprem.md
-        - name: On-premises Data Gateway - in-depth (Detalles sobre la puerta de enlace de datos local)
+        - name: Detalles sobre la puerta de enlace de datos local
           href: service-gateway-onprem-indepth.md
-        - name: On-Premises Data Gateway FAQ (Preguntas más frecuentes sobre la puerta de enlace de datos local)
+        - name: Preguntas más frecuentes sobre la puerta de enlace de datos local
           href: service-gateway-onprem-faq.md
         - name: Puerta de enlace de datos local (modo personal)
           href: service-gateway-personal-mode.md
-        - name: Troubleshooting the On-Premises Data Gateway (Solución de problemas con la puerta de enlace de datos local)
+        - name: Solución de problemas con la puerta de enlace de datos local
           href: service-gateway-onprem-tshoot.md
         - name: Power BI Gateway - Personal
           href: personal-gateway.md
@@ -572,6 +564,8 @@
           href: service-admin-portal.md
         - name: Auditoría de Power BI
           href: service-admin-auditing.md
+        - name: Uso de Azure AD B2B
+          href: service-admin-azure-ad-b2b.md
         - name: Búsqueda de usuarios que hayan iniciado sesión
           href: service-admin-access-usage.md
         - name: Seguridad de nivel de fila con Power BI
@@ -602,7 +596,7 @@
           href: service-admin-office-365-dedicated-known-issues.md
         - name: Solución de problemas de Analizar en Excel
           href: desktop-troubleshooting-analyze-in-excel.md
-        - name: Troubleshooting the On-Premises Data Gateway (Solución de problemas con la puerta de enlace de datos local)
+        - name: Solución de problemas con la puerta de enlace de datos local
           href: service-gateway-onprem-tshoot.md
         - name: Solución de problemas de Power BI Gateway - Personal
           href: service-admin-troubleshooting-power-bi-personal-gateway.md
@@ -658,7 +652,7 @@
           href: desktop-enter-data-directly-into-desktop.md
         - name: Conectarse a Excel en Power BI Desktop
           href: desktop-connect-excel.md
-        - name: Datos de Analysis Services multidimensionales en Power BI Desktop
+        - name: Datos multidimensionales de Analysis Services en Power BI Desktop
           href: desktop-ssas-multidimensional.md
         - name: Conectarse a archivos CSV en Power BI Desktop
           href: desktop-connect-csv.md
@@ -682,7 +676,7 @@
           href: desktop-use-directquery.md
         - name: Power BI y DirectQuery
           href: desktop-directquery-about.md
-        - name: Orígenes de datos admitidos por DirectQuery
+        - name: Orígenes de datos compatibles con DirectQuery
           href: desktop-directquery-data-sources.md
         - name: DirectQuery para las bases de datos Oracle y Teradata
           href: desktop-directquery-for-oracle-teradata.md
@@ -696,7 +690,7 @@
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: DirectQuery para las bases de datos Oracle y Teradata
           href: desktop-directquery-for-oracle-teradata.md
-        - name: Uso del conector de SAP BW en Power BI Desktop (vista previa)
+        - name: Uso del conector de SAP BW en Power BI Desktop (versión preliminar)
           href: desktop-sap-bw-connector.md
         - name: Usar vínculos de OneDrive para la Empresa en Power BI Desktop
           href: desktop-use-onedrive-business-links.md
@@ -758,8 +752,6 @@
           href: desktop-insights.md
         - name: Marcadores en Power BI
           href: desktop-bookmarks.md
-        - name: Agregar un objeto visual personalizado a un informe (Desktop)
-          href: power-bi-custom-visuals-use.md
         - name: Uso de temas de informes
           href: desktop-report-themes.md
         - name: Uso de medidas rápidas
@@ -772,7 +764,7 @@
           href: desktop-grouping-and-binning.md
         - name: Gráficos de la barra de herramientas
           href: desktop-ribbon-charts.md
-        - name: Uso del nuevo objeto visual Matrix
+        - name: Uso del nuevo objeto visual Matriz
           href: desktop-matrix-visual.md
         - name: Crear objetos visuales de Power BI con R
           href: desktop-r-visuals.md
@@ -964,8 +956,6 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Revisar la seguridad y la privacidad de los objetos visuales personalizados
           href: service-custom-visuals-review-for-security-and-privacy.md
-        - name: Publicación de objetos visuales personalizados en la Tienda Office
-          href: developer/office-store.md
         - name: Obtención de un objeto visual personalizado certificado
           href: power-bi-custom-visuals-certified.md
     - name: Insertar datos en un panel
@@ -1104,6 +1094,8 @@
           href: report-server/quickstart-embed.md
     - name: Referencia
       items:
+        - name: API de REST
+          href: report-server/rest-api.md
         - name: WMI
           href: 'https://go.microsoft.com/fwlink/?linkid=848719'
         - name: API de SOAP
@@ -1114,5 +1106,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848723'
 - name: Recursos
   items:
+    - name: Vídeos de Power BI
+      href: videos.md
+    - name: Seminarios web de Power BI
+      href: webinars.md
     - name: Notas del producto
       href: whitepapers.md
