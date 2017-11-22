@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/01/2017
+ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: ee26744fe74fa536b7310ae0d1fbbc40d51e86a9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 81a52b1810b2c35f67420741f3f89585626aa577
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
 Consulte esta página para obtener información sobre los problemas conocidos y las características publicadas recientemente del **servicio Power BI**. Para obtener información sobre novedades, vea:
@@ -601,7 +601,6 @@ Eche un vistazo al [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/pow
 
 **7 de mayo de 2015**
 
-* Ahora ya puede usar el paquete de contenido de **Visual Studio Online** para Power BI, para obtener información sobre los proyectos de equipo de TFVC y GIT. Puede leer la [documentación](service-connect-to-visual-studio.md) o la [entrada de blog](http://blogs.msdn.com/b/powerbi/archive/2015/05/07/gain-understanding-and-insights-into-projects-in-visual-studio-online-with-power-bi.aspx) para obtener más información.
 * Actualizamos nuestro aspecto para que tenga un diseño más moderno, con una imagen nueva y fresca que, sin embargo, se centra en lo que realmente importa: los datos y la información.
 
 **28 de abril de 2015**

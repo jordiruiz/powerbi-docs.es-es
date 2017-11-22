@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 1ef54451275b1c7fe1e84c330a4bea95f0bca820
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2663c9f2adf69ce224de90feb822b7cfedc935a5
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Troubleshooting the On-Premises Data Gateway (Solución de problemas con la puerta de enlace de datos local)
 En este artículo se examinan algunos problemas comunes que pueden producirse al usar la **puerta de enlace de datos local**.
@@ -170,10 +170,6 @@ Esto se puede deber a diversos escenarios.
 2. La cuenta no aparece en la pestaña **Usuarios** del origen de datos dentro de la configuración de puerta de enlace. Deberá ponerse en contacto con el Administrador de la puerta de enlace para que lo agregue a la lista.
 3. El archivo de Power BI Desktop contiene varios orígenes de datos y no todos están configurados con la puerta de enlace de datos. Debe hacer que cada origen de datos esté definido con la puerta de enlace para que esta aparezca en la actualización programada.
 
-> [!WARNING]
-> Si uno de los orígenes de datos requiere autenticación OAuth, no podrá configurarlo con la puerta de enlace de datos local. Actualmente no se admite la autenticación OAuth con la puerta de enlace de datos local. Debe quitar de Power BI Desktop el origen de datos que requiere autenticación OAuth para poder configurar la actualización programada.
-> 
-> 
 
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>Error: los datos sin comprimir recibidos en el cliente de puerta de enlace han superado el límite.
 El límite exacto es de 10 GB de datos sin comprimir por tabla. Si surge este problema, existen opciones para optimizar y evitar el problema. En concreto, puede reducir el uso de valores de cadena muy repetitivos y largos; en su lugar, utilice una clave normalizada o quite la columna (si no está en uso).

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: c3e8c4d110bccf1ed8a992b22bd1014a770d5bb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c48e7042f16ac43619a7a0a6708a54f0575d795f
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="using-r-in-query-editor"></a>Uso de R en el Editor de consultas
 En el **Editor de consultas** de Power BI Desktop, puede usar **R**, un lenguaje de programación usado ampliamente por estadistas, científicos de datos y analistas de datos. Esta integración de R en el **Editor de consultas** permite limpiar datos con R y realizar acciones avanzadas, como analizar y dar forma a datos en conjuntos de datos, incluidas la operación de completar datos que faltan, las predicciones y la agrupación en clústeres, por nombrar algunas. **R** es un lenguaje eficaz y puede usarse en el **Editor de consultas** para preparar el modelo de datos y crear informes.
@@ -56,7 +56,7 @@ Para mostrar cómo usar **R** en el **Editor de consultas**, vamos a usar un eje
        output$completedValues <- completedData$"SMI missing values"
    
    > [!NOTE]
-> Para que el anterior código de script funcione correctamente, debe tener instalada la biblioteca *mice* en el entorno de R. Para instalar dicha biblioteca, ejecute lo siguiente en la instalación de R: |      > install.packages('mice')
+   > Para que el anterior código de script funcione correctamente, debe tener instalada la biblioteca *mice* en el entorno de R. Para instalar dicha biblioteca, ejecute lo siguiente en la instalación de R: |      > install.packages('mice')
    > 
    > 
    
@@ -72,7 +72,6 @@ Para mostrar cómo usar **R** en el **Editor de consultas**, vamos a usar un eje
    
    Una vez hecho, en el área **Campos** se muestra una columna nueva llamada *completedValues*. Observe que algunos elementos de datos faltan, como en las filas 15 y 18. En la sección siguiente, veremos cómo R controla esta situación.
    
-   Aviso
 
 Con solo cinco líneas de script de R, el **Editor de consultas** ha rellenado los valores que faltaban con un modelo predictivo.
 

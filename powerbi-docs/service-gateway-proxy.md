@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 6fb6250f8cd82c7057abe3f9cf9792dc733ea4b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 77ae086d4b9c86f0d5ec4c0515ad96919160059d
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configuración de proxy para la puerta de enlace de datos local
 El entorno de trabajo puede requerir que pase por un proxy para acceder a Internet. Esto podría impedir a la puerta de enlace de datos local conectarse al servicio.
@@ -48,40 +48,6 @@ El primero es para las pantallas de configuración, que en realidad configuran l
 El segundo es para el servicio de Windows real, que interactúa con el servicio Power BI y controla las solicitudes.
 
     C:\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config
-
-### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
-> [!NOTE]
-> Hay una nueva versión de la puerta de enlace personal para Power BI, denominada **Puerta de enlace de datos local (modo personal)**. En esta sección del artículo se describe la versión anterior de la puerta de enlace personal, denominada **Power BI Gateway - Personal**, que se va a retirar y dejará de funcionar a partir del 31 de julio de 2017. Para más información acerca de la nueva versión de la puerta de enlace personal, incluido cómo instalar la nueva versión, consulte el artículo [**Puerta de enlace de datos local (modo personal)**](service-gateway-personal-mode.md).
-> 
-> 
-
-La puerta de enlace personal se puede instalar de una de dos maneras. Como un servicio de Windows (admin) o como una aplicación en modo usuario. Esto se determina durante la instalación. Por consiguiente, los archivos de configuración pueden estar en una de las dos ubicaciones, dependiendo de cómo se instalara la puerta de enlace. Deseará comprobar ambas ubicaciones.
-
-**Configuración**
-
-El primero es para las pantallas de configuración, que en realidad configuran la puerta de enlace. Si tiene problemas para configurar la puerta de enlace, este es el archivo al que tendrá que recurrir.
-
-Para el *servicio de Windows*, será la siguiente.
-
-    C:\Program Files\Power BI Personal Gateway\1.0\Configurator\GWConfig.exe.config
-    C:\Program Files\Power BI Personal Gateway\1.0\Configurator\PowerBIGatewayAgentCmdLine.exe.config
-
-Para la *aplicación de modo usuario*, será la siguiente.
-
-    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Configurator\GWConfig.exe.config
-    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Configurator\PowerBIGatewayAgentCmdLine.exe.config
-
-**Servicio de Windows**
-
-El segundo es para el servicio de Windows real, que interactúa con el servicio Power BI y controla las solicitudes.
-
-Para el *servicio de Windows*, será la siguiente.
-
-    C:\Program Files\Power BI Personal Gateway\1.0\Gateway\diawp.exe.config
-
-Para la *aplicación de modo usuario*, será la siguiente.
-
-    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Gateway\diawp.exe.config
 
 ## <a name="configuring-proxy-settings"></a>Configuración de proxy
 La configuración de proxy predeterminada es la siguiente.

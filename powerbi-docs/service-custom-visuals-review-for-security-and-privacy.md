@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 40c2c713615f6e9e5378d36b6b228dc864bcb57c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 20a697cbc4698e237f3ac09b031ea0c4cb734a52
+ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="review-custom-visuals-for-security-and-privacy"></a>Revisar la seguridad y la privacidad de los objetos visuales personalizados
 Antes de habilitar un objeto visual personalizado, debe revisar la seguridad y privacidad de dicho objeto visual para asegurarse de que se ajustará a los estándares de su organización.
@@ -102,9 +102,6 @@ El código **JavaScript** o **TypeScript** puede presentar riesgos para la segur
 ## <a name="next-steps"></a>Pasos siguientes
 [Visualizaciones en Power BI](power-bi-report-visualizations.md)  
 [Visualizaciones personalizadas en Power BI](power-bi-custom-visuals.md)  
-[Descarga y uso de objetos visuales personalizados de la Tienda Office](service-custom-visuals-office-store.md)  
-[Add a custom visualization to a report (Power BI Desktop) (Agregar una visualización personalizada a un informe [Power BI Desktop])](power-bi-custom-visuals-use.md)  
-[Add a custom visualization to a report (Power BI Service) (Agregar una visualización personalizada a un informe [Power BI Service])](power-bi-report-add-custom-visual.md)  
 [Publicación de objetos visuales personalizados en la Tienda Office](developer/office-store.md)  
 [Getting started with custom visuals developer tools (Introducción a las herramientas de desarrollo de objetos visuales personalizados)](service-custom-visuals-getting-started-with-developer-tools.md)  
 [Obtención de un objeto visual personalizado certificado](power-bi-custom-visuals-certified.md)    

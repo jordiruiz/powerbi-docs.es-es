@@ -17,13 +17,13 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/28/2017
 ms.author: mihart
-ms.openlocfilehash: 42c0e7ad17f9cfd7b4a19862a33c382a608fef3f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ecd984ab23c4480b2e615635a8d2f337e2a9a50f
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
-# <a name="sales--marketing-sample-for-power-bi-take-a-tour"></a>Ejemplo de ventas y marketing para Power BI: un paseo
+# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Ejemplo de ventas y marketing para Power BI: un paseo
 El **Ejemplo de ventas y marketing** muestra un panel y un informe de una empresa de fabricación ficticia denominada VanArsdel Ltd. Este panel lo creó el director de marketing (CMO) de VanArsdel para disponer de información actualizada sobre el sector, y la cuota de mercado, el volumen de productos, las ventas y las opiniones sobre su compañía.
 
 Aunque la competencia de VanArsdel es notable, sigue siendo líder del mercado en su sector. El director de marketing desea aumentar la cuota de mercado y descubrir nuevas oportunidades de crecimiento. Sin embargo, por alguna razón, la cuota de mercado de VanArsdel comenzó a disminuir y sufrió importantes caídas en junio.
