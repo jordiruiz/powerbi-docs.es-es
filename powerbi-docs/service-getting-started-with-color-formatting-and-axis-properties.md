@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: a40f1fba503ca9bc76f77381fe977d6944b595a1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 04b9a745d3969ab42c2a02c9b3cc28a65cd4d69c
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Introducción a las propiedades de eje y formato de color
 En **Power BI**, puede cambiar el color de la serie de datos, los puntos de datos e incluso el fondo de las visualizaciones. También puede cambiar cómo se presentan los ejes x e y, con lo que tendrá control total sobre cómo aparecen los paneles e informes.
@@ -82,7 +82,7 @@ Los cambios se muestran en la siguiente imagen. Vaya, es un gráfico realmente b
 ¿No está del todo contento con el cambio que acaba de crear? Use **CTRL+Z** para deshacerlo, de la manera habitual.
 
 ## <a name="changing-axis-properties"></a>Cambio de las propiedades del eje
-A menudo resulta útil modificar el eje X o del eje Y. De igual forma que al trabajar con colores, puede modificar un eje seleccionando el icono de flecha abajo, situado a la izquierda del eje que quiere cambiar, tal como se muestra en la siguiente imagen.  
+A menudo, resulta útil modificar el eje X o el eje Y. De igual forma que al trabajar con colores, puede modificar un eje seleccionando el icono de flecha abajo, situado a la izquierda del eje que quiere cambiar, tal como se muestra en la siguiente imagen.  
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_7a.png)
 
 Si desea contraer las opciones del **eje X** , seleccione el icono de flecha arriba situado junto al **eje X**.
@@ -97,6 +97,7 @@ Hay todo tipo de colores para elegir y muchas otras personalizaciones que puede 
 > 
 > 
 
+## <a name="next-step"></a>Paso siguiente
 Para obtener más información, consulte el artículo siguiente:  
 
 * [Sugerencias y trucos para el formato de color en Power BI](service-tips-and-tricks-for-color-formatting.md)  

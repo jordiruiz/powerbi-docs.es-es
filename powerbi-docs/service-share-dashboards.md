@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/14/2017
 ms.author: maggies
-ms.openlocfilehash: 9c88c70de013679ea27faae17a3672c0d172b2a9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Uso compartido de paneles de Power BI con compañeros y otros usuarios
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece [varias maneras de colaborar y distribuir sus paneles](service-how-to-collaborate-distribute-dashboards-reports.md) y, el uso compartido, es solo una de ellas.
@@ -63,7 +63,7 @@ Observe cómo Amanda comparte su panel con compañeros tanto de su empresa como 
    
    Cuando los destinatarios externos a su organización hacen clic en el vínculo, ven el panel, pero no en el portal habitual de Power BI. Consulte [Compartir un panel con personas fuera de la organización](service-share-dashboards.md#share-a-dashboard-with-people-outside-your-organization) a continuación para más información.
 
-## <a name="who-has-access-to-a-dashboard-i-shared"></a>¿Quién tiene acceso a un panel compartido?
+## <a name="who-has-access-to-a-dashboard-you-shared"></a>¿Quién tiene acceso a un panel que ha compartido?
 En ocasiones necesitará ver a las personas con las que ha compartido un panel y ver con quiénes lo han compartido esas personas.
 
 1. En la lista de paneles o en el panel propiamente dicho, seleccione **Compartir** ![Icono Compartir](media/service-share-dashboards/power-bi-share-icon.png). 
@@ -113,9 +113,7 @@ Aspectos que hay que tener en cuenta sobre el uso compartido de paneles:
 * Todo el mundo puede manualmente [actualizar los datos del panel](refresh-data.md).
 * Si usa Office 365 para el correo electrónico, puede compartir datos con los miembros de un grupo de distribución. Para ello, escriba la dirección de correo electrónico asociada al grupo de distribución.
 * Los compañeros que tengan su mismo dominio de correo electrónico y con aquellos que, pese a tener un dominio distinto, estén registrados en el mismo inquilino, pueden compartir el panel con otros. Por ejemplo, supongamos que los dominios contoso.com y contoso2.com están registrados en el mismo inquilino. Si su dirección de correo electrónico es konrads@contoso.com, entonces ravali@contoso.com y gustav@contoso2.com pueden compartir, siempre y cuando se les diera permiso para compartir.
-* Si sus compañeros ya tienen acceso a un panel específico, puede enviar un vínculo directo a este con solo copiar la dirección URL cuando se encuentre dentro. Por ejemplo:   
-  
-    https://powerbi.com/Dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx
+* Si sus compañeros ya tienen acceso a un panel específico, puede enviar un vínculo directo a este con solo copiar la dirección URL cuando se encuentre dentro. Por ejemplo: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * Del mismo modo, si sus compañeros ya tienen acceso a un panel específico, puede [enviar un vínculo directo al informe subyacente](service-share-reports.md). 
 
 ## <a name="next-steps"></a>Pasos siguientes

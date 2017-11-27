@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 7f5b5114951265e2dd76dbbd8a33045d44e21989
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9bff028c0db75e4c0e4f3b2fe97b4ed19c0d1518
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accesibilidad a informes de Power BI Desktop
 **Power BI Desktop** presenta características que permiten a las personas con discapacidades utilizar los informes de **Power BI Desktop** e interactuar con ellos con más facilidad. Estas características incluyen la capacidad de interactuar con el informe mediante el teclado o un lector de pantalla, la tabulación para centrar la atención en varios objetos de una página y el uso apropiado de marcadores en las visualizaciones.
@@ -76,7 +76,7 @@ Las siguientes sugerencias pueden ayudarlo a crear informes de **Power BI Deskto
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 Hay algunos problemas conocidos y limitaciones para las características de accesibilidad, que se describen en la lista siguiente:
 
-* JAWS solo se admite en los informes que se ven en el **servicio Power BI**, incluido cualquier informe insertado. El equipo de **Power BI Desktop** está trabajando activamente para que esté disponible igualmente en informes que se vean en **Power BI Desktop**.
+* JAWS solo se admite en los informes que se ven en el **servicio Power BI**, incluidos los informes insertados. JAWS también se admite en **Power BI Desktop**; sin embargo, debe abrir el lector de pantalla antes de abrir cualquier archivo de **Power BI Desktop** para que la pantalla de lectura funcione correctamente.
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Uso de los temas para los informes en Power BI Desktop (versión preliminar)](desktop-report-themes.md)

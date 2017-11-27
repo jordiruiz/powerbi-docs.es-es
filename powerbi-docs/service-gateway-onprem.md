@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/02/2017
 ms.author: davidi
-ms.openlocfilehash: c7053cbf6dd4cc44424d447eefc060d119a98aa4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8d592a620f7a18cad3d70a09e6cd7a960683f860
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
 La puerta de enlace de datos local actúa como un puente, proporcionando la transferencia de datos rápida y segura entre los datos locales (datos que no están en la nube) y los servicios Power BI, Microsoft Flow, Logic Apps y PowerApps.
@@ -52,7 +52,7 @@ Puede usar una conexión activa con instancias tabulares o multidimensionales.
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>Descargar e instalar la puerta de enlace de datos local
-Para descargar la puerta de enlace, seleccione **Puerta de enlace de datos** en el menú Descargas. Descargue la [Puerta de enlace de datos local](http://go.microsoft.com/fwlink/?LinkID=820925).
+Para descargar la puerta de enlace, seleccione **Puerta de enlace de datos** en el menú Descargas. Descargue la [puerta de enlace de datos local](http://go.microsoft.com/fwlink/?LinkID=820925).
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: b425e7ea2cffeff31cc8cf49330ca3835d92165c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f82bcc9d9add1683f593da6457fde2a4bbce2e02
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Incorporación de una columna de un ejemplo en Power BI Desktop
 A partir de la versión de abril de 2017 de **Power BI Desktop**, puede agregar nuevas columnas de datos al modelo mediante el **Editor de consultas** simplemente proporcionando uno o varios valores de ejemplo para la nueva columna. Puede crear un ejemplo de columna a partir de una selección actual, o bien proporcionando datos de todas las columnas (o las seleccionadas) de una tabla determinada.
@@ -83,26 +83,29 @@ Hay muchas transformaciones que están disponibles al utilizar **Agregar columna
 
 * **Referencia**
   
-  * La referencia a una columna concreta [lo que incluye el recorte la limpieza (a fecha de junio de 2017) y las transformaciones de mayúsculas)]
+  * Referencia a una columna específica (incluidas las transformaciones de recorte, limpieza y aplicación de mayúsculas)
+
 * **Transformaciones de texto**
   
   * Combinar (admite la combinación de cadenas literales y valores de columnas enteras)
   * Sustituir
   * Longitud
-  * Extraer
-    
+  * Extraer   
     * Primeros caracteres
     * Últimos caracteres
     * Intervalo
     * Texto antes del delimitador
     * Texto después del delimitador
     * Texto entre delimitadores
-  * Las siguientes **transformaciones de texto** admitidas están disponibles a partir de la versión de **Power BI Desktop** de junio de 2017:
-    
     * Longitud
 
+* Las siguientes **transformaciones de texto** admitidas están disponibles a partir de la versión de **Power BI Desktop** de noviembre de 2017:
+    
+  * Quitar caracteres
+  * Mantener caracteres
+
 > [!NOTE]
-> Todas las transformaciones de *texto* tienen en cuenta la posible necesidad de recortar, limpiar (a fecha de junio de 2017) o aplicar una transformación de mayúsculas en el valor de columna.
+> Todas las transformaciones de *texto* tienen en cuenta la posible necesidad de recortar, limpiar o aplicar una transformación de mayúsculas en el valor de columna.
 > 
 > 
 
@@ -118,8 +121,6 @@ Hay muchas transformaciones que están disponibles al utilizar **Agregar columna
   * Semana del mes
   * Semana del año
   * Año
-* Las siguientes **transformaciones de fechas** adicionales admitidas están disponibles a partir de la versión de **Power BI Desktop** de junio de 2017:
-  
   * Antigüedad
   * Inicio del año
   * Final del año
@@ -133,13 +134,13 @@ Hay muchas transformaciones que están disponibles al utilizar **Agregar columna
   * Día del mes
   * Inicio del día
   * Final del día
+
+
 * **Transformaciones de tiempo**
   
   * Hora
   * Minuto
-  * Segundo
-* **Transformaciones de fecha, hora y zona horaria**: las siguientes transformaciones admitidas están disponibles a partir de la versión de **Power BI Desktop** de julio de 2017:
-  
+  * Segundo  
   * A la hora local
 
 > [!NOTE]
@@ -147,7 +148,8 @@ Hay muchas transformaciones que están disponibles al utilizar **Agregar columna
 > 
 > 
 
-* **Transformaciones de números**: las siguientes transformaciones admitidas están disponibles a partir de la versión de **Power BI Desktop** de julio de 2017:
+* **Transformaciones de número** 
+
   * Valor absoluto
   * Arcocoseno
   * Arcoseno
@@ -175,3 +177,10 @@ Hay muchas transformaciones que están disponibles al utilizar **Agregar columna
   * Sumar
   * Tangente
 
+* La siguiente **transformación de número** admitida está disponible a partir de la versión de **Power BI Desktop** de noviembre de 2017:
+
+  * Creación de depósitos y rangos
+
+* **General**
+  
+  * Columna condicional

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: c69c3baff3c0ce00b06c5a6af43be8488133d42e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c676fafe2274139efdc7b4a5be5174b86ade5b50
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos para el SSO (inicio de sesión único) de Power BI en orígenes de datos locales
 Puede lograr una conectividad de inicio de sesión único perfecta con la habilitación de la actualización de los informes y paneles de Power BI con datos locales, mediante la configuración de la puerta de enlace de datos local con Kerberos. La puerta de enlace de datos local facilita el inicio de sesión único (SSO) con DirectQuery, que utiliza para conectarse a los orígenes de datos locales.
@@ -60,6 +60,15 @@ Estos son los detalles adicionales sobre estos pasos:
    > En relación con el SID de servicio, si AAD DirSync o AAD Connect están configurados y las cuentas de usuario están sincronizadas, el servicio de puerta de enlace no necesita realizar búsquedas de AD locales en tiempo de ejecución y puede usar el SID de servicio local (en lugar de requerir una cuenta de dominio) para el servicio de puerta de enlace.  Los pasos de configuración de la delegación restringida de Kerberos que se describen en este documento son los mismos (simplemente se aplican en función del SID de servicio, en lugar de la cuenta de dominio).
    > 
    > 
+
+
+> [!NOTE]
+> Para habilitar SSO para SAP HANA, debe aplicar a SAP las siguientes dos correcciones de configuración específicas de HANA:
+>    1. Actualice el servidor de SAP HANA con la revisión 122.13 de HANA, publicada por SAP a finales de octubre de 2017. 
+>    2. En el equipo de puerta de enlace, instale el controlador ODBC de HANA más reciente de SAP.  La versión mínima es HANA ODBC versión 2.00.020.00, de agosto de 2017.
+> 
+
+
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>Errores de una configuración de Kerberos incompleta
 Si el servidor de base de datos y la puerta de enlace subyacentes no están configurados correctamente para la **delegación restringida de Kerberos**, puede recibir el mensaje de error siguiente:

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: b222addc2e72308e94a3d8836c8e9039c7208bae
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22c5b8f64ef24f6ef6ff918058a56dc36fefddfa
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Combinar datos y darles forma en Power BI Desktop
 Con **Power BI Desktop**, puede conectarse a muchos tipos diferentes de orígenes de datos y después darles forma a los datos para satisfacer sus necesidades. *Forma de datos* significa transformar los datos, por ejemplo, al cambiar el nombre de columnas o tablas, convertir texto en números, quitar filas, configurar una primera fila como encabezado, etcétera. *Combinación de datos* significa conectarse a dos o más orígenes de datos, darles forma según sea necesario y después consolidarlos en una consulta útil.
@@ -30,7 +30,7 @@ Este documento muestra cómo formar una consulta mediante Power BI Desktop y res
 
 Es útil saber que el **editor de consultas** en Power BI Desktop hace un amplio uso de los menús contextuales, así como de la cinta de opciones. La mayor parte de lo que se puede seleccionar en la cinta **Transformar** también está disponible en el menú que aparece al hacer clic con el botón secundario en un elemento (por ejemplo, una columna).
 
-## <a name="shape-data"></a>Dar forma a datos
+## <a name="shape-data"></a>Dar forma a los datos
 Al dar forma a los datos en el Editor de consultas, se proporcionan instrucciones paso a paso (que el Editor de consultas lleva a cabo automáticamente) para ajustar los datos a medida que el Editor de consultas los carga y presenta. El origen de datos original no se ve afectado; únicamente la vista de los datos se ajusta o *se forma*.
 
 Los pasos especificados (como cambiar el nombre de una tabla, transformar un tipo de datos o eliminar columnas) se registran en el Editor de consultas y, cada vez que este se conecta al origen de datos, dichos pasos se vuelven a aplicar para que los datos siempre muestren la forma que eligió. Este proceso se produce siempre que se use la característica del editor de consultas de Power BI Desktop, o cuando alguien más use su consulta compartida, como en el servicio **Power BI** . Estos pasos se capturan, de manera secuencial, en la sección **Pasos aplicados** del panel **Configuración de consulta**.
@@ -160,11 +160,11 @@ Aparece la ventana **Quitar las primeras filas** , lo cual permite especificar e
 
 ![](media/desktop-shape-and-combine-data/shapecombine_usefirstrowasheaders.png)
 
-    >[!NOTE]
-    >This is a good time to point out that the *sequence* of applied steps in Query Editor is important, and can affect how the data is shaped. It’s also important to consider how one step may impact another subsequent step; if you remove a step from the Applied Steps, subsequent steps may not behave as originally intended, because of the impact of the query’s sequence of steps.
+>[!NOTE]
+>Es un buen momento para señalar que la *secuencia* de los pasos aplicados en el Editor de consultas es importante y puede afectar a la manera en que se da forma a los datos. También es importante tener en cuenta cómo un paso puede afectar a otro paso posterior; si quita un paso de los Pasos aplicados, es posible que los pasos siguientes no tengan el efecto buscado originalmente, debido al impacto de la secuencia de pasos de la consulta.
 
-    >[!NOTE]
-    >When you resize the Query Editor window to make the width smaller, some ribbon items are condensed to make the best use of visible space. When you increase the width of the Query Editor window, the ribbon items expand to make the most use of the increased ribbon area.
+>[!NOTE]
+>Al cambiar el tamaño de la ventana del editor de consultas para reducir el ancho, algunos elementos de la cinta se comprimen para optimizar el uso del espacio visible. Al aumentar el ancho de la ventana del editor de consultas, se expanden los elementos de la cinta para hacer el mayor uso posible del área aumentada de la cinta.
 
 * Cambiar el nombre de las columnas y la tabla misma: como de costumbre, hay un par de formas de cambiar el nombre de una columna. Seleccione primero la columna **Cambiar nombre** en la pestaña **Transformar** de la cinta de opciones o haga clic con el botón derecho y seleccione **Cambiar nombre…** en el menú que aparece. La siguiente imagen tiene flechas que apuntan a ambas opciones; solo necesitará elegir una.
 

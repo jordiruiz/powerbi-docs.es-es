@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bf1ac9f953dc00422e65f84d25f74bfa54c05628
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8f009e382321d296191d861245e005c1ffb7ee33
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introducción a Power BI Desktop
 Esta es la **Guía de introducción de Power BI Desktop**. En este breve paseo introductorio por Power BI Desktop se familiarizará con su funcionamiento y sus capacidades. Al final, será capaz de crear modelos de datos eficaces, junto con increíbles informes, que expandirán sus esfuerzos de inteligencia empresarial. 
@@ -108,12 +108,12 @@ Para obtener más información sobre cómo conectarse a datos, consulte [Conecta
 
 En la siguiente sección, ajustaremos los datos de acuerdo con nuestras necesidades. El proceso de ajustar datos conectados se conoce como *dar forma* a los datos.
 
-## <a name="shape-and-combine-data"></a>Combinar y dar forma a datos
+## <a name="shape-and-combine-data"></a>Dar forma a los datos y combinarlos
 Ahora que nos hemos conectado a un origen de datos, es necesario ajustar los datos según se requiere. Ajustar a veces significa *transformar* los datos, por ejemplo, al cambiar el nombre de columnas o tablas, convertir texto en números, quitar filas, configurar una primera fila como encabezado, etcétera.
 
 El Editor de consultas de Power BI Desktop hace un amplio uso de los menús contextuales, además de tener las tareas disponibles en la cinta de opciones. La mayor parte de lo que se puede seleccionar en la cinta **Transformar** también está disponible en el menú que aparece al hacer clic con el botón secundario en un elemento (por ejemplo, una columna).
 
-## <a name="shape-data"></a>Dar forma a datos
+## <a name="shape-data"></a>Dar forma a los datos
 Al dar forma a los datos en el **Editor de consultas**, se proporcionan instrucciones paso a paso (que el **Editor de consultas** lleva a cabo automáticamente) para ajustar los datos a medida que el **Editor de consultas** los carga y presenta. El origen de datos original no se ve afectado; únicamente la vista de los datos se ajusta o se *forma*.
 
 Los pasos especificados (como cambiar el nombre de una tabla, transformar un tipo de datos o eliminar columnas) se registran en el **Editor de consultas**y, cada vez que este se conecta al origen de datos, dichos pasos se vuelven a aplicar para que los datos siempre muestren la forma que eligió. Este proceso se produce siempre que se use la consulta en Power BI Desktop, o cuando alguien más use su consulta compartida, como en el servicio **Power BI** . Estos pasos se capturan, de manera secuencial, en el panel **Configuración de consulta** en **Pasos aplicados**.
@@ -182,8 +182,8 @@ Primero, seleccionamos **Editar**y, a continuación:
 
 * *Usar la primera fila como encabezado* : puesto que se eliminaron las primeras tres filas, queremos que la fila superior actual sea el encabezado.
 
->[!NOTE]
->Es un buen momento para señalar que la *secuencia* de los pasos aplicados en el **Editor de consultas** es importante y puede afectar a la manera en que se da forma a los datos. También es importante tener en cuenta cómo un paso puede afectar a otro paso posterior; si quita un paso de los **Pasos aplicados**, es posible que los pasos siguientes no tengan el efecto buscado originalmente, debido al impacto de la secuencia de pasos de la consulta.
+    >[!NOTE]
+    >Es un buen momento para señalar que la *secuencia* de los pasos aplicados en el **Editor de consultas** es importante y puede afectar a la manera en que se da forma a los datos. También es importante tener en cuenta cómo un paso puede afectar a otro paso posterior; si quita un paso de los **Pasos aplicados**, es posible que los pasos siguientes no tengan el efecto buscado originalmente, debido al impacto de la secuencia de pasos de la consulta.
 
 * *Cambiar el nombre de las columnas y la tabla*: como de costumbre, existe un par de formas para cambiar el nombre de una columna. Puede elegir la que prefiera.
 

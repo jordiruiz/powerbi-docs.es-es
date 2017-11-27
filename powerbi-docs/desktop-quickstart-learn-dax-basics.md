@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 761f25f92151c2bc2bd6557757de97e6ad8dd54d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ed0d4087912d1f4f6f1b4f6690c3cacd478beae3
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Aspectos básicos de DAX en Power BI Desktop
 Este artículo está destinado a usuarios sin experiencia en Power BI Desktop. Su objetivo es proporcionar una introducción rápida y fácil al uso de expresiones de análisis de datos (DAX) para solucionar una variedad de problemas de análisis de datos y cálculo básico. Abordaremos información conceptual, una serie de tareas que puede completar y algunos cuestionarios para probar lo que ha aprendido. Al finalizar este artículo, debe tener una buena comprensión de los conceptos fundamentales más importantes en DAX.
@@ -88,46 +88,37 @@ Vamos a crear una fórmula simple. Esta tarea le ayudará a entender mejor la si
 
 ### <a name="task-create-a-measure-formula"></a>Tarea: Crear una fórmula de medida
 Para completar esta tarea, deberá abrir el archivo de muestra de ventas de Contoso de Power BI Desktop.
-
-**1.**  En la vista Informes, en la lista de campos, haga clic con el botón derecho en la tabla **Sales** y, a continuación, haga clic en **Nueva medida**.
-
-**2.**  En la barra de fórmulas, reemplace **Medida** con un nuevo nombre de medida: **Ventas del trimestre anterior**.
-
-**3.**  Después del signo igual, escriba **SUM** seguido de un paréntesis de apertura.
-
-> En su lugar de escribir un nombre de columna para sumar inmediatamente, vamos a escribir a otra función, para *filtrar* los datos que deseamos sumar.
-> 
-> 
-
-**4.**  Entre paréntesis, escriba **CALCULATE**, seguido de un paréntesis de apertura.
-
-> Usará la función CALCULATE para filtrar los importes que deseamos sumar mediante un argumento que pasamos a la función CALCULATE. Esto es lo que se conoce como funciones anidadas. La función CALCULATE tiene al menos dos argumentos. El primero es la expresión que se evalúa y el segundo, un filtro.
-> 
-> 
-
-**5.**  Entre los paréntesis **()** de la función **CALCULATE** escriba **Sales[SalesAmount]**. Este es el primer argumento de expresión de nuestra función CALCULATE.
-
-**6.** Escriba una coma (**,**) para especificar el primer filtro y, después, escriba **PREVIOUSQUARTER** seguido de un paréntesis de apertura.
-
-> Utilizará la función de inteligencia de tiempo PREVIOUSQUARTER para filtrar los resultados de la suma para el trimestre anterior.
-> 
-> 
-
-**7.** Entre los paréntesis **()** para la función PREVIOUSQUARTER, escriba **Calendar[DateKey]**.
-
-> La función PREVIOUSQUARTER tiene un argumento, una columna que contiene un intervalo de fechas contiguas.
-> 
-> 
-
-**8.** Asegúrese de que los dos argumentos que se pasan a la función PREVIOUSQUARTER y a la función CALCULATE se cierran con dos paréntesis de cierre **))**.
-
-La fórmula debe tener el siguiente aspecto:
-
-> **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
-> 
-> 
-
-**9.** Haga clic en la marca de verificación ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) en la barra de fórmulas o presione Entrar para validar la fórmula y agregarla al modelo.
+    
+1.  En la vista Informes, en la lista de campos, haga clic con el botón derecho en la tabla **Sales** y, a continuación, haga clic en **Nueva medida**.
+    
+2.  En la barra de fórmulas, reemplace **Medida** con un nuevo nombre de medida: **Ventas del trimestre anterior**.
+    
+3.  Después del signo igual, escriba **SUM** seguido de un paréntesis de apertura.
+    
+    En su lugar de escribir un nombre de columna para sumar inmediatamente, vamos a escribir a otra función, para *filtrar* los datos que deseamos sumar.
+    
+4.  Entre paréntesis, escriba **CALCULATE**, seguido de un paréntesis de apertura.
+    
+    Usará la función CALCULATE para filtrar los importes que deseamos sumar mediante un argumento que pasamos a la función CALCULATE. Esto es lo que se conoce como funciones anidadas. La función CALCULATE tiene al menos dos argumentos. El primero es la expresión que se evalúa y el segundo, un filtro.
+   
+5.  Entre los paréntesis **()** de la función **CALCULATE** escriba **Sales[SalesAmount]**. Este es el primer argumento de expresión de nuestra función CALCULATE.
+    
+6.  Escriba una coma (**,**) para especificar el primer filtro y, después, escriba **PREVIOUSQUARTER** seguido de un paréntesis de apertura.
+    
+    Utilizará la función de inteligencia de tiempo PREVIOUSQUARTER para filtrar los resultados de la suma para el trimestre anterior.
+    
+7.  Entre los paréntesis **()** para la función PREVIOUSQUARTER, escriba **Calendar[DateKey]**.
+    
+    La función PREVIOUSQUARTER tiene un argumento, una columna que contiene un intervalo de fechas contiguas.
+    >
+    
+8.  Asegúrese de que los dos argumentos que se pasan a la función PREVIOUSQUARTER y a la función CALCULATE se cierran con dos paréntesis de cierre **))**.
+    
+   La fórmula debe tener el siguiente aspecto:
+    
+    **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
+    
+9. Haga clic en la marca de verificación ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) en la barra de fórmulas o presione Entrar para validar la fórmula y agregarla al modelo.
 
 ¡Lo logró! Acaba de crear una medida usando DAX (¡y no una de las fáciles!). Lo que hará esta fórmula es calcular el total de ventas del trimestre anterior, según los filtros aplicados en un informe. Por ejemplo, si incluimos SalesAmount y nuestra nueva medida de ventas del trimestre anterior en un gráfico y, a continuación, agregamos Year y QuarterOfYear como segmentaciones de datos, obtendríamos algo parecido a esto:
 
@@ -224,7 +215,7 @@ Ahora que tiene conocimientos básicos de los conceptos más importantes en DAX,
 
 DAX se usa desde hace varios años en otras herramientas de Microsoft BI, como los modelos tabulares de Power Pivot y Analysis Services, por lo que hay una gran cantidad de información disponible. Puede encontrar más información en libros, notas de producto y blogs tanto de Microsoft como de profesionales líderes de BI. El [Wiki del Centro de recursos de DAX de TechNet](http://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) también es un excelente punto de partida.
 
-### <a name="quickquiz-answers"></a>Respuestas de los cuestionarios rápidos:
+### <a name="quickquiz-answers"></a>Respuestas de los cuestionarios rápidos
 Sintaxis:
 
 1. Valida e introduce la medida en el modelo.

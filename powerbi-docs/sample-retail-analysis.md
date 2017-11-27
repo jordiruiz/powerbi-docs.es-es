@@ -17,14 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/27/2017
 ms.author: mihart
-ms.openlocfilehash: 338f45ec7aa4564dfd17678b5c5296a08c078334
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: cfd085913ea1ef2cf08942ca4570f98eba34a3d4
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de venta directa para Power BI: un paseo
-## <a name="about-the-retail-analysis-sample"></a>Acerca del ejemplo de análisis de venta directa
+
 Este panel de ejemplo del sector y el informe subyacente analizan datos de venta directa de artículos vendidos en varias tiendas y distritos. Las métricas comparan el rendimiento de este año con el del año pasado en estas áreas: ventas, unidades, margen bruto y varianza, así como análisis de nuevas tiendas. Estos son datos reales y anónimos de obviEnce ([www.obvience.com](http://www.obvience.com)).
 
 También puede [descargar únicamente el conjunto de datos (libro de Excel) para este ejemplo](http://go.microsoft.com/fwlink/?LinkId=529778).
@@ -134,7 +134,7 @@ La última área que deseamos explorar es nuestro crecimiento: las nuevas tienda
 
 Se trata de un entorno seguro en el que experimentar. Siempre puede elegir no guardar los cambios. Pero si los guarda, siempre puede ir a Obtener datos para obtener una copia nueva de este ejemplo.
 
-## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: conectarse a sus propios datos
+## <a name="connect-to-your-data"></a>Conexión con los datos
 Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecer recomendaciones sobre los datos de venta directa. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Más información sobre [cómo empezar a usar Power BI](service-get-started.md).
 
 ## <a name="next-steps"></a>Pasos siguientes

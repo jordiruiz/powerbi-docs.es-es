@@ -17,14 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/31/2017
 ms.author: mihart
-ms.openlocfilehash: d810383c87dae59e3993cef638497e64fd398dc7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 81f7b4a68b66a2bfbdf285007ff4ff636c326a6c
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="dashboards-in-power-bi-service"></a>Paneles del servicio Power BI
-## <a name="what-is-a-dashboard"></a>¿Qué es un panel?
+
 Un ***panel*** de Power BI tiene una sola página, a menudo denominada lienzo, que usa visualizaciones para contar una historia. Dado que se limita a una sola página, un panel bien diseñado contiene únicamente los elementos más importantes de esa historia.
 
 ![](media/service-dashboards/power-bi-dashboard2.png)
@@ -64,7 +64,7 @@ Los [informes](service-reports.md) suelen confundirse con paneles, ya que son ig
 | Se pueden crear visualizaciones |Se limita a agregar widgets al panel mediante "Agregar icono" |Se pueden crear muchos tipos diferentes de objetos visuales, agregar objetos visuales personalizados, editarlos, etc. con permisos de edición |
 | Personalización |Se puede hacer una serie de cosas con las visualizaciones (iconos) como mover y organizar, cambiar el tamaño, agregar vínculos, cambiar el nombre, eliminar y mostrar en pantalla completa, pero los datos y visualizaciones en sí son de solo lectura |En la Vista de lectura, se puede publicar, insertar, filtrar, exportar, descargar como .pbix, ver contenido relacionado, generar códigos QR, analizar en Excel, etc.  En la Vista de edición, se puede hacer todo lo que se ha mencionado hasta ahora y mucho más. |
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>***Creadores*** de paneles y ***consumidores*** de paneles
+## <a name="dashboard-creators-and-dashboard-consumers"></a>Creadores de paneles y consumidores de paneles
 En función de su rol, es posible que sea alguien que crea paneles para su propio uso o para compartir con compañeros de trabajo. Desea información sobre cómo crear y compartir paneles. O bien, es posible que sea alguien que recibe los paneles de otras personas. Desea información sobre cómo comprender e interactuar con el panel.
 
 Estos son algunos de los temas, por rol, que le ayudarán a comenzar.

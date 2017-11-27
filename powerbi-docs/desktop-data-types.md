@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 71822f5d3e40eae4f43df5ab7129796e2a9d87b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da685cf95adb9d9f5bd4891f9447cbfe76759182
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de datos en Power BI Desktop
 Este artículo describe los tipos de datos admitidos en Power BI Desktop y Expresiones de análisis de datos (DAX). 
@@ -30,6 +30,7 @@ Cuando se cargan datos en Power BI Desktop, intentará convertir el tipo de dato
 
 Esto es importante porque algunas funciones DAX tienen requisitos de tipo de datos especiales. Aunque en muchos casos DAX convertirá implícitamente un tipo de datos para usted, hay algunos casos donde no puede.  Por ejemplo, si una función DAX requiere un tipo de datos de fecha y el tipo de datos para la columna es de texto, la función DAX no funcionará correctamente.  Por lo tanto, es importante y útil obtener el tipo de datos correcto para una columna. Las conversiones implícitas se describen más adelante en este artículo.
 
+## <a name="determine-and-specify-a-columns-data-type"></a>Determinar y especificar el tipo de datos de una columna
 En Power BI Desktop, puede determinar y especificar un tipo de datos de una columna en el Editor de consultas en la vista de datos o la vista de informes:
 
 **Tipos de datos del Editor de consultas**
@@ -67,10 +68,10 @@ Power BI Desktop admite cinco tipos de datos de fecha y hora en la vista de cons
 ### <a name="text-type"></a>Tipo de texto
 **Texto** : cadena de datos de caracteres Unicode. Pueden ser cadenas, números o fechas representadas en un formato de texto. La longitud de cadena máxima es de 268.435.456 caracteres Unicode (256 caracteres mega) o 536.870.912 bytes.
 
-### <a name="truefalse-type"></a>Tipo Verdadero/Falso
+### <a name="truefalse-type"></a>Tipo verdadero/falso
 **Verdadero/Falso** : un valor booleano de Verdadero o Falso.
 
-### <a name="blanksnulls-type"></a>Tipo En blanco/NULL
+### <a name="blanksnulls-type"></a>Tipo de valores en blanco/NULL
 **En blanco** : es un tipo de datos en DAX que representa y reemplaza a los valores NULL de SQL. Puede crear un espacio en blanco con la función [BLANK](http://msdn.microsoft.com/library/ee634820.aspx) y probarlos con la función lógica [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
 
 ### <a name="table-data-type"></a>Tipo de datos de tabla

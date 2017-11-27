@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 68df3ee83a8a9b8268cbced98830a467066add92
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f372903886ab8f92e6954b5bdb370e7f48c204eb
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Crear objetos visuales de Power BI con R
 Con **Power BI Desktop**, puede usar **R** para visualizar los datos.
@@ -30,7 +30,7 @@ Con **Power BI Desktop**, puede usar **R** para visualizar los datos.
 **Power BI Desktop** no incluye, implementa ni instala el motor de **R**. Para ejecutar scripts de R en **Power BI Desktop**, deberá instalar **R** en el equipo local por separado. Puede descargar e instalar **R** gratuitamente desde varias ubicaciones, incluyendo la [página de descarga de Revolution Open](https://mran.revolutionanalytics.com/download/) y el [repositorio de CRAN](https://cran.r-project.org/bin/windows/base/). La versión actual de Scripting de R en **Power BI Desktop** admite caracteres Unicode, así como espacios (caracteres vacíos) en la ruta de instalación.
 
 ## <a name="enable-r-visuals"></a>Habilitar objetos visuales de R
-1. Para habilitar los objetos visuales de R, seleccione **Archivo > Opciones y configuración > Opciones** y, en la página **Opciones** que aparece, asegúrese de que la instalación local de R esté especificada en la sección **Scripting de R** de la ventana **Opciones**, como se muestra en la imagen siguiente. En la imagen siguiente, la instalación local de la ruta de acceso de R es **C:\Program Files\R\R-3.2.0** y esa ruta de acceso se proporciona explícitamente en el cuadro de texto. Asegúrese de que la ruta de acceso que se muestra refleje correctamente la instalación local de R que quiera que use **Power BI Desktop**.
+Para habilitar los objetos visuales de R, seleccione **Archivo > Opciones y configuración > Opciones** y, en la página **Opciones** que aparece, asegúrese de que la instalación local de R esté especificada en la sección **Scripting de R** de la ventana **Opciones**, como se muestra en la imagen siguiente. En la imagen siguiente, la instalación local de la ruta de acceso de R es **C:\Program Files\R\R-3.2.0** y esa ruta de acceso se proporciona explícitamente en el cuadro de texto. Asegúrese de que la ruta de acceso que se muestra refleje correctamente la instalación local de R que quiera que use **Power BI Desktop**.
    
    ![](media/desktop-r-visuals/r-visuals-2.png)
 
@@ -42,18 +42,18 @@ Cuando se especifica la instalación de R, ya está listo para empezar a crear o
    ![](media/desktop-r-visuals/r-visuals-3.png)
 2. Al agregar un objeto visual de R a un informe, **Power BI Desktop** hace lo siguiente:
    
-   a) Una imagen de marcador de posición de objeto visual de R aparece en el lienzo de informes.
+   - Una imagen de marcador de posición de objeto visual de R aparece en el lienzo de informes.
    
-   b) El **editor de scripts de R** aparece en la parte inferior del panel central.
+   - El **editor de scripts de R** aparece en la parte inferior del panel central.
    
    ![](media/desktop-r-visuals/r-visuals-4.png)
 3. A continuación, agregue los campos que quiera usar en el script de R a la sección **Valores** del área **Campos**, tal como lo haría con cualquier otro objeto visual de **Power BI Desktop**. Solo los campos que se hayan agregado al área **Campos** estarán disponibles para el script de R, y podrá agregar nuevos campos o quitar los campos innecesarios del área **Campos** mientras trabaja en el script de R en el **editor de scripts de R de Power BI Desktop**. **Power BI Desktop** detecta automáticamente los campos que agrega o quita.
-
-> [!NOTE]
-> El tipo de agregación predeterminado para objetos visuales de R es *No resumir*.
-> 
-> 
-
+   
+   > [!NOTE]
+   > El tipo de agregación predeterminado para objetos visuales de R es *No resumir*.
+   > 
+   > 
+   
 1. Ahora puede usar los datos seleccionados para crear un trazado. Cuando selecciona campos, el **editor de scripts de R** genera un código de enlace de scripts de R auxiliar basado en las selecciones realizadas en la sección de color gris en la parte superior del panel del editor. Al seleccionar o quitar campos adicionales, el código auxiliar del editor de scripts de R se genera o elimina automáticamente según corresponda.
    
    En el ejemplo que se muestra en la imagen siguiente, se seleccionaron tres campos: hp, gear y drat. Como resultado de esas selecciones, el editor de scripts de R generó el siguiente código de enlace:
@@ -66,7 +66,7 @@ Cuando se especifica la instalación de R, ya está listo para empezar a crear o
    ![](media/desktop-r-visuals/r-visuals-5.png)
    
    > [!TIP]
-> En ciertos casos, puede que no quiera que se produzca una agrupación automática o que quiera que aparezcan todas las filas, incluso las duplicadas. En ese caso, puede agregar un campo de índice al conjunto de datos que haga que todas las filas se consideren únicas y evite la agrupación.
+   > En ciertos casos, puede que no quiera que se produzca una agrupación automática o que quiera que aparezcan todas las filas, incluso las duplicadas. En ese caso, puede agregar un campo de índice al conjunto de datos que haga que todas las filas se consideren únicas y evite la agrupación.
    > 
    > 
    
@@ -76,7 +76,7 @@ Cuando se especifica la instalación de R, ya está listo para empezar a crear o
     Al seleccionar **Ejecutar**, **Power BI Desktop** identifica el trazado y lo presenta en el lienzo.
    Dado que el proceso se ejecuta en la instalación local de R, asegúrese de que estén instalados los paquetes necesarios.
    
-    **Power BI Desktop** vuelve a trazar los objetos visuales cuando se produce alguno de los siguientes eventos:
+   **Power BI Desktop** vuelve a trazar los objetos visuales cuando se produce alguno de los siguientes eventos:
    
    * **Ejecutar** está seleccionado en la barra de título del **editor de scripts de R**
    * Siempre que se produce un cambio de datos, debido a la actualización, filtrado o resaltado de datos
