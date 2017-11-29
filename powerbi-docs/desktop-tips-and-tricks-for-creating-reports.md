@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: davidi
-ms.openlocfilehash: c95261c7e29f73b8c68083d2a239e10abaf674e5
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f157a5efad5af44d4b97149c379211695800cfd9
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugerencias y trucos para crear informes en Power BI Desktop
 Para sacar el máximo provecho a los datos, a veces es necesario un poco de ayuda adicional. Hemos recopilado algunos consejos y trucos que puede usar al crear informes con Microsoft Power BI Desktop *y* con las ediciones de Microsoft Excel 2016 o Excel 2013 Pro-Plus con el complemento Power Pivot habilitado y Power Query instalado y habilitado. 
@@ -94,7 +94,10 @@ Asegúrese de que el tipo de datos es un número para la columna agregada result
 
 Definición de histogramas que permitan el resaltado: el resaltado es cuando los objetos visuales están vinculados entre sí de manera que cuando un usuario selecciona un punto de datos de un objeto visual, otros objetos visuales de la página del informe se resaltan o se filtran puntos de datos relacionados con el punto de datos seleccionado.  Puesto que vamos a manipular los datos en tiempo de consulta, necesitamos crear una relación entre las tablas y asegurarse de que sabemos qué elemento de detalle está relacionado con el cubo del histograma y viceversa.
 
-Inicie el proceso con la opción "Referencia" de la consulta que tiene el campo a partir del cual desea generar un histograma.  Asigne a la nueva consulta el nombre "Cubos".  En este ejemplo, llamaremos a la consulta original "Detalles".  A continuación, quite todas las columnas excepto la columna que se va a usar como cubo del histograma.  Ahora use la característica "Quitar duplicados" en la consulta que se encuentra en el menú contextual que aparece al seleccionar la columna. De este modo, los demás valores serán los únicos valores de la columna.   Si tiene números decimales, puede usar la primera sugerencia para definir cubos para crear un histograma que permita obtener un conjunto de cubos fáciles de administrar.  Ahora, compruebe los datos que se muestran en la vista previa de la consulta.  Si ve valores en blanco o nulos deberá corregirlos antes de crear una relación.  Consulte "Creación de una relación si mis datos tienen valores nulos o en blanco".   El uso de este enfoque puede ser problemático debido a la necesidad de ordenar.  Para obtener los cubos ordenados correctamente, vea "Ordenación: conseguir que las categorías aparezcan en el orden deseado".  Nota: conviene pensar en el criterio de ordenación antes de crear los elementos visuales.   
+Inicie el proceso con la opción "Referencia" de la consulta que tiene el campo a partir del cual desea generar un histograma.  Asigne a la nueva consulta el nombre "Cubos".  En este ejemplo, llamaremos a la consulta original "Detalles".  A continuación, quite todas las columnas excepto la columna que se va a usar como cubo del histograma.  Ahora use la característica "Quitar duplicados" en la consulta que se encuentra en el menú contextual que aparece al seleccionar la columna. De este modo, los demás valores serán los únicos valores de la columna.   Si tiene números decimales, puede usar la primera sugerencia para definir cubos para crear un histograma que permita obtener un conjunto de cubos fáciles de administrar.  Ahora, compruebe los datos que se muestran en la vista previa de la consulta.  Si ve valores en blanco o nulos deberá corregirlos antes de crear una relación.  Consulte "Creación de una relación si mis datos tienen valores nulos o en blanco".   El uso de este enfoque puede ser problemático debido a la necesidad de ordenar.  Para obtener los cubos ordenados correctamente, vea "Ordenación: conseguir que las categorías aparezcan en el orden deseado".  
+
+>[!NOTE]
+>Conviene pensar en el criterio de ordenación antes de crear los objetos visuales.   
 
 El siguiente paso del proceso es definir una relación entre las consultas de "Cubos" y "Detalles" en la columna de cubos.  En Power BI Desktop, haga clic en **Administrar relaciones** en la cinta de opciones.  Cree una relación según la cual los cubos se situarán en la tabla izquierda y los detalles en la tabla derecha. A continuación, seleccione el campo que va a usar para el histograma. 
 

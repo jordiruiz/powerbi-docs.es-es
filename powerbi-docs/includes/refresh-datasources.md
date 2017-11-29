@@ -1,4 +1,4 @@
-### <a name="on-premises-data-gateway"></a>On-premises Data Gateway (Puerta de enlace de datos local)
+### <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
 | **Origen de datos** |
 | --- |
 | Modelo tabular de Analysis Services |
