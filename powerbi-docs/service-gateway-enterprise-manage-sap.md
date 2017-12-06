@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: 04c6ecbc1a7802720430c1ee29ec0410abfa54b0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d65bdf17997809cd4bcaa2718da42ba41398bcf4
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="manage-your-sap-hana-data-source"></a>Administrar el origen de datos SAP HANA
-Después de instalar la puerta de enlace de datos local, debe agregar los orígenes de datos que se pueden usar con la puerta de enlace. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de SAP HANA para la actualización programada o para DirectQuery.
+Una vez que haya instalado la puerta de enlace de datos local, tendrá que agregar orígenes de datos que se puedan usar con ella. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de SAP HANA para la actualización programada o para DirectQuery.
 
 ## <a name="download-and-install-the-gateway"></a>Descargar e instalar la puerta de enlace
 Puede descargar la puerta de enlace desde el servicio Power BI. Seleccione **Descargas** > **Puerta de enlace de datos** o vaya a la [página de descarga de la puerta de enlace](https://go.microsoft.com/fwlink/?LinkId=698861).
@@ -121,6 +121,6 @@ Si aparece en la pestaña **Usuarios** del origen de datos configurado dentro de
 ## <a name="next-steps"></a>Pasos siguientes
 [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)  
 [Detalles sobre la puerta de enlace de datos local](service-gateway-onprem-indepth.md)  
-[Troubleshooting the On-Premises Data Gateway (Solución de problemas con la puerta de enlace de datos local)](service-gateway-onprem-tshoot.md)  
+[Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

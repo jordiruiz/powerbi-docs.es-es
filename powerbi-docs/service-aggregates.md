@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/23/2017
 ms.author: mihart
-ms.openlocfilehash: 42f9ec1dd56c2317bec07abde9822fc2b5340c07
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c1b926e129e8d82edd9c329a51623908c4e7c9e0
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="aggregates-in-power-bi"></a>Agregados en Power BI
 ## <a name="what-is-an-aggregate"></a>¿Qué es un agregado?
@@ -115,7 +115,11 @@ R: Lo más probable es que el propietario del conjunto de datos *no* haya clasif
 
 R: Otra posibilidad es que el campo esté en un *depósito* que solo permite valores de categoría.  En ese caso, las únicas opciones que tendrá disponibles serán recuento y recuento distinto.
 
-R: Y una tercera posibilidad es que esté usando el campo para un eje. Por ejemplo, en un eje del gráfico de barras, Power BI muestra una barra para cada valor distinto, y en ningún caso agrega los valores de campo. NOTA: La excepción a esta regla son los gráficos de dispersión, que *requieren* valores agregados para los ejes X e Y.
+R: Y una tercera posibilidad es que esté usando el campo para un eje. Por ejemplo, en un eje del gráfico de barras, Power BI muestra una barra para cada valor distinto, y en ningún caso agrega los valores de campo. 
+
+>[!NOTE]
+>La excepción a esta regla son los gráficos de dispersión, que *requieren* valores agregados para los ejes X e Y.
+
 
 P: Tengo un diagrama de dispersión y quiero que mi campo *no* se agregue.  ¿Cómo lo hago?
 

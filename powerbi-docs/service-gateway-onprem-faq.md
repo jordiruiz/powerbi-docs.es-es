@@ -17,13 +17,13 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: 063fd92829c6b642fc33e578026d109d891b8fd5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: bf814b03c4e973afce7115ae111da520af498347
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
-# <a name="on-premises-data-gateway-faq"></a>On-Premises Data Gateway FAQ (Preguntas más frecuentes sobre la puerta de enlace de datos local)
+# <a name="on-premises-data-gateway-faq"></a>Preguntas más frecuentes sobre la puerta de enlace de datos local
 <!-- Shared FAQ shared Include -->
 [!INCLUDE [gateway-onprem-faq-shared-include](./includes/gateway-onprem-faq-shared-include.md)]
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/15/2017
 **Respuesta:** No. Esa capacidad no se admite en este momento.
 
 **Pregunta:** ¿Puedo usar la puerta de enlace para la conexión a una instancia multidimensional (OLAP)?  
-**Respuesta:** Sí. La puerta de enlace de datos local admite conexiones dinámicas a los modelos tabulares y multidimensionales de Analysis Services.
+**Respuesta:** Sí. La puerta de enlace de datos local admite conexiones dinámicas a los modelos tabular y multidimensional de Analysis Services.
 
 **Pregunta:** ¿Qué ocurre si instalo la puerta de enlace en un equipo en un dominio distinto del de mi servidor local que usa la autenticación de Windows?  
 **Respuesta:** No hay nada seguro en este caso. Todo depende de la relación de confianza entre los dos dominios. Si los dos dominios diferentes están en un modelo de dominio de confianza, la puerta de enlace podría ser capaz de conectarse al servidor de Analysis Services y se podría resolver el nombre de usuario efectivo. Si no es así, se puede producir un error de inicio de sesión.
@@ -60,7 +60,7 @@ ms.lasthandoff: 11/15/2017
 **Pregunta:** ¿Necesito actualizar la puerta de enlace personal?
 **Respuesta:** No, puede seguir usando la puerta de enlace personal para Power BI.
 
-**Pregunta:** ¿Con qué frecuencia se actualizan los iconos de un panel en Power BI cuando se conecta a través de la puerta de enlace de datos local?  
+**Pregunta:** ¿Con qué frecuencia se actualizan los iconos de un panel de Power BI cuando se conecta a través de la puerta de enlace de datos local?  
 **Respuesta:** Cada diez minutos aproximadamente. Es la frecuencia de las conexiones DirectQuery. Esto no significa que un icono emite una consulta en el servidor local y muestra datos nuevos cada diez minutos.
 
 **Pregunta:** ¿Puedo cargar libros de Excel con modelos de datos de Power Pivot que se conectan a orígenes de datos locales? ¿Necesito una puerta de enlace para este escenario?  
@@ -78,6 +78,6 @@ ms.lasthandoff: 11/15/2017
 ## <a name="next-steps"></a>Pasos siguientes
 [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)  
 [Detalles sobre la puerta de enlace de datos local](service-gateway-onprem-indepth.md)  
-[Troubleshooting the On-Premises Data Gateway (Solución de problemas con la puerta de enlace de datos local)](service-gateway-onprem-tshoot.md)  
+[Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 12/04/2017
 ms.author: asaxton
-ms.openlocfilehash: bec336dbc4b028f23acb9ba34f920a10b7869c23
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 03c19f34b9fab240a67cd8ed4d4b7ca3f66bb966
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Escala de tiempo del soporte técnico para el servidor de informes de Power BI
 El servidor de informes de Power BI se lanzará varias veces al año. Habrá actualizaciones críticas y de seguridad disponibles hasta que la próxima versión esté disponible con carácter general (GA). Una vez lanzada la versión siguiente, la anterior seguirá recibiendo actualizaciones de seguridad durante el resto de los 12 meses que dura la versión.
@@ -31,7 +31,7 @@ Esta directiva de soporte técnico nos permite ofrecer innovación a nuestros cl
 * Fase de servicio de actualizaciones críticas y de seguridad: cuando ejecute la versión más reciente del servidor de informes de Power BI, recibirá actualizaciones críticas y de seguridad.
 * Fase de servicio de actualizaciones de seguridad (solamente): una vez lanzada una nueva versión, el soporte técnico para versiones anteriores se reducirá a las actualizaciones de seguridad solo durante lo que quede del ciclo de vida de soporte técnico de doce (12) meses (se muestra en la figura 1).
 
-    ![Gráfico que ilustra el período de tiempo del soporte técnico](media/support-timeline/reportserver-support-lifecycle.png)
+    ![Gráfico que ilustra el período de tiempo del soporte técnico](media/support-timeline/report-server-support-timeline.png)
 
 ## <a name="version-history"></a>Historial de versiones
 | **Versión** | **Fecha de disponibilidad** | **Fecha de finalización del soporte técnico** |

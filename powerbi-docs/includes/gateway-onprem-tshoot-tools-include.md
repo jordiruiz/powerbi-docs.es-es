@@ -4,7 +4,7 @@
 ### <a name="collecting-logs-from-the-gateway-configurator"></a>Recopilación de registros desde el configurador de puertas de enlace
 Hay varios registros que se pueden recopilar para la puerta de enlace y esto debería ser siempre lo que hiciera en primer lugar. La manera más sencilla de recopilar registros después de instalar la puerta de enlace es a través de la interfaz de usuario. En la interfaz de usuario **Puerta de enlace de datos local**, seleccione **Diagnósticos** y, a continuación, seleccione el vínculo **Exportar registros** situado cerca de la parte inferior de la página, como se muestra en la siguiente imagen.
 
-![on-prem-data-gateway-UI-logs](./media/gateway-onprem-tshoot-tools-include/gateway-onprem-UI-logs.png)
+![On-prem-data-gateway-UI-logs](./media/gateway-onprem-tshoot-tools-include/gateway-onprem-UI-logs.png)
 
 **Registros de instalador**
 
@@ -12,16 +12,16 @@ Hay varios registros que se pueden recopilar para la puerta de enlace y esto deb
 
 **Registros de configuración**
 
-    %localappdata%\Microsoft\on-premises data gateway\GatewayConfigurator*.log
+    %localappdata%\Microsoft\On-premises Data Gateway\GatewayConfigurator*.log
 
 **Registros del servicio de puerta de enlace de datos local**
 
-    C:\Users\PBIEgwService\AppData\Local\Microsoft\on-premises data gateway\Gateway*.log
+    C:\Users\PBIEgwService\AppData\Local\Microsoft\On-premises Data Gateway\Gateway*.log
 
 ### <a name="event-logs"></a>Registros de eventos
 Los registros de eventos del **Servicio de puerta de enlace de datos local** se encuentran en **Registros de aplicaciones y servicios**.
 
-![on-prem-data-gateway-event-logs](./media/gateway-onprem-tshoot-tools-include/on-prem-data-gateway-event-logs.png)
+![On-prem-data-gateway-event-logs](./media/gateway-onprem-tshoot-tools-include/on-prem-data-gateway-event-logs.png)
 
 <a name="fiddler" />
 

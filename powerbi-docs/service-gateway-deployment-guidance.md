@@ -17,18 +17,18 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: a96651f55860fd057d50d77dc4dffab4da91cdc5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 3caf9f8aef802e8423f6a3940e55aba99331b912
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Guía para la implementación de una puerta de enlace de datos para Power BI
-Este artículo proporciona instrucciones y algunas consideraciones para implementar una puerta de enlace de datos en el entorno de red. Una **puerta de enlace** es un software que facilita el acceso a los datos que residen en una red privada y local para su uso posterior en un servicio en la nube como Power BI. Este artículo le guía a través de la implementación y proporciona instrucciones para la configuración de la **puerta de enlace de datos local**.
+Este artículo proporciona instrucciones y algunas consideraciones para implementar una puerta de enlace de datos en el entorno de red. Una **puerta de enlace** es un software que facilita el acceso a los datos que residen en una red privada y local para su uso posterior en un servicio en la nube como Power BI. Este artículo le guía a través de la implementación de la **puerta de enlace de datos local** y le proporciona instrucciones para su configuración.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
 
-Para más información acerca de la **puerta de enlace de datos local**, incluido un vínculo para su instalación, consulte la siguiente [entrada del blog](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
+Para más información acerca de la **puerta de enlace de datos local**, incluido un vínculo para su instalación, consulte la siguiente [entrada de blog](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
 
 ## <a name="installation-considerations-for-the-on-premises-data-gateway"></a>Consideraciones para la instalación de la puerta de enlace de datos local
 Antes de entrar en los detalles de instalación e implementación, hay una serie de consideraciones que debe tener en cuenta. En las siguientes secciones se describen aspectos importantes a tener en cuenta.
@@ -52,7 +52,7 @@ Dependiendo del tipo de conexión en uso, la utilización de la puerta de enlace
 * Para **Actualización programada**: según el tamaño de la consulta y el número de actualizaciones que se producen al día, puede elegir entre permanecer con los requisitos mínimos de hardware recomendados o actualizar a una máquina de rendimiento superior. Si una consulta determinada no se dobla, las transformaciones se producen en el equipo de la puerta de enlace y, por lo tanto, la máquina de la puerta de enlace se beneficia de tener más RAM disponible.
 * Para **DirectQuery**: se enviará una consulta cada vez que cualquier usuario abre el informe o examine datos. Por lo que si prevé que más de 1.000 usuarios tendrán acceso a los datos simultáneamente, querrá asegurarse de que el equipo tiene componentes de hardware sólidos y eficaces. Más núcleos de CPU darán como resultado un mejor rendimiento para una conexión **DirectQuery**.
 
-Los requisitos para el equipo en el que instale una **puerta de enlace de datos local** son los siguientes:
+Estos son los requisitos para el equipo en el se instala una **puerta de enlace de datos local**:
 
 **Mínimo:**
 
@@ -90,7 +90,7 @@ Estos contadores son accesibles desde el **Monitor de rendimiento de Windows** y
 #### <a name="logs"></a>Registros
 Los registros de configuración y del servicio proporcionan otra dimensión sobre lo que sucede con la puerta de enlace. Compruebe siempre los registros de la puerta de enlace cuando la conexión no funcione según lo esperado, ya que no todos los mensajes de error aparecen en el servicio Power BI.
 
-Una manera fácil de ver todos los archivos de registro en el equipo local es usar el botón *Exportar registros* situado en la **puerta de enlace de datos local al volver a abrir la puerta de enlace después de terminar la instalación inicial y, a continuación, seleccionar **Diagnósticos > Exportar registros**.
+Una forma fácil de ver todos los archivos de registro en el equipo local es usar el botón *Exportar registros* de la **puerta de enlace de datos local** al volver a abrir la puerta de enlace después de terminar la instalación inicial y, después, seleccionar **Diagnósticos > Exportar registros**.
 
 #### <a name="additional-logging"></a>Registro adicional
 De forma predeterminada la puerta de enlace realiza el registro básico. Si está investigando problemas de la puerta de enlace y necesita más información acerca de los detalles de la conexión de consulta, puede habilitar temporalmente el *registro detallado* para recopilar información de registro adicional. Para ello, en la puerta de enlace instalada seleccione **Diagnósticos > Registro adicional**.
@@ -134,7 +134,7 @@ Para recuperar la puerta de enlace, asegúrese de que usted es un administrador 
 Después de iniciar sesión, seleccione la opción **Migrar una puerta de enlace existente**. A continuación, debe elegir la puerta de enlace que desea recuperar o migrar y, finalmente, proporcione la clave de recuperación y seleccione Configurar. Una vez que se realiza este paso, la puerta de enlace anterior se reemplazará por la nueva puerta de enlace y la puerta de enlace nueva heredará su nombre y todos los orígenes de datos que se han configurado previamente. Todos los orígenes de datos pasarán ahora a través de la nueva máquina, sin necesidad de volver a publicar nada. La conmutación automática por error no está admitida aún, pero es una característica que el equipo de puertas de enlace está considerando activamente.
 
 #### <a name="administrators"></a>Administradores
-Puede encontrar una lista de administradores de la puerta de enlace en el **servicio Power BI**. Cuando inicie sesión en el **servicio Power BI, seleccione **Configuración** (el icono de engranaje) > "Administrar puertas de enlace" -> Interfaz de usuario de puerta de enlace.  
+Puede encontrar una lista de administradores de la puerta de enlace en el **servicio Power BI**. Cuando haya iniciado sesión en el servicio **Power BI**, seleccione **Configuración** (el icono del engranaje) **> Administrar puertas de enlace > Gateway UI** (Interfaz de usuario de puerta de enlace).  
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_05.png)
 

@@ -17,15 +17,15 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: b1cb5bda9b80cb08ece111959884b840ff8d42cc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5c2274852c041b07a0ab4a09ed00c2dfa5d64cef
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 > [!NOTE]
-> Hay una nueva versión de la puerta de enlace personal para Power BI, denominada **Puerta de enlace de datos local (modo personal)**. En el artículo siguiente se describe la versión anterior de la puerta de enlace personal, denominada **Power BI Gateway - Personal**, que se va a retirar y dejará de funcionar a partir del 31 de julio de 2017. Para más información acerca de la nueva versión de la puerta de enlace personal, incluido cómo instalar la nueva versión, consulte el artículo [**Puerta de enlace de datos local (modo personal)**](service-gateway-personal-mode.md).
+> Hay una nueva versión de la puerta de enlace personal para Power BI, denominada **puerta de enlace de datos local (modo personal)**. En el artículo siguiente se describe la versión anterior de la puerta de enlace personal, denominada **Power BI Gateway - Personal**, que se va a retirar y dejará de funcionar a partir del 31 de julio de 2017. Para más información acerca de la nueva versión de la puerta de enlace personal, incluido cómo instalar la nueva versión, consulte el artículo [**Puerta de enlace de datos local (modo personal)**](service-gateway-personal-mode.md).
 > 
 > 
 
@@ -35,7 +35,7 @@ Se instala y se ejecuta como un servicio en el equipo. Como servicio, se ejecuta
 
 Cuando Power BI actualiza los datos de un origen de datos local, la puerta de enlace garantiza que su cuenta de Power BI tiene los permisos adecuados para conectarse a los datos y consultarlos desde el origen.
 
-La transferencia de datos entre Power BI y la puerta de enlace se protege mediante [Azure Service Bus](http://azure.microsoft.com/documentation/services/service-bus/). Service Bus crea un canal seguro entre el servicio de Power BI y el equipo. Dado que la puerta de enlace proporciona esta conexión segura, normalmente no es necesario abrir un puerto en el firewall.
+La transferencia de datos entre Power BI y la puerta de enlace se protege mediante [Azure Service Bus](http://azure.microsoft.com/documentation/services/service-bus/). Service Bus crea un canal seguro entre el servicio Power BI y el equipo. Dado que la puerta de enlace proporciona esta conexión segura, normalmente no es necesario abrir un puerto en el firewall.
 
 Antes de entrar en detalles acerca de la puerta de enlace, veamos algunos de los términos usados en Power BI:
 
@@ -43,7 +43,7 @@ Un *conjunto de datos* son datos que se cargan en el servicio de Power BI desde 
 
 Un *origen de datos* es la ubicación de donde proceden realmente los datos que carga en un conjunto de datos. Puede ser cualquier elemento; una base de datos, una hoja de cálculo de Excel, un servicio web, etc. Con los libros de Excel, puede crear una hoja de cálculo simple con filas de datos y se considerará un origen de datos. También puede usar Power Query o Power Pivot en Excel para conectarse a los datos y consultarlos tanto de orígenes de datos en línea como locales, todo en el mismo libro. Con Power BI Desktop, Obtener datos se usa para conectarse a los datos y consultarlos tanto de orígenes de datos en línea como locales.
 
-La puerta de enlace personal se instala mediante la puerta de enlace de datos local. Puede descargarla en la [página de la puerta de enlace de Power BI](https://powerbi.microsoft.com/gateway/).
+La puerta de enlace personal se instala a través de la puerta de enlace de datos local. Puede descargarla en la [página de la puerta de enlace de Power BI](https://powerbi.microsoft.com/gateway/).
 
 ## <a name="do-i-need-a-gateway"></a>¿Necesito una puerta de enlace?
 Antes de instalar una puerta de enlace, es importante saber si realmente la necesita. Realmente depende de los orígenes de datos:
@@ -89,18 +89,18 @@ Analicemos cada paso más detenidamente.
 
 ### <a name="download-and-install-a-gateway"></a>Descargar e instalar una puerta de enlace
 > [!NOTE]
-> Hay una nueva versión de la puerta de enlace personal para Power BI, denominada **Puerta de enlace de datos local (modo personal)**. En este artículo se describe la versión anterior de la puerta de enlace personal, denominada **Power BI Gateway - Personal**, que se va a retirar y dejará de funcionar a partir del 31 de julio de 2017. Para más información acerca de la nueva versión de la puerta de enlace personal, incluido cómo instalar la nueva versión, consulte el artículo [**Puerta de enlace de datos local (modo personal)**](service-gateway-personal-mode.md).
+> Hay una nueva versión de la puerta de enlace personal para Power BI, denominada **puerta de enlace de datos local (modo personal)**. En este artículo se describe la versión anterior de la puerta de enlace personal, denominada **Power BI Gateway - Personal**, que se va a retirar y dejará de funcionar a partir del 31 de julio de 2017. Para más información acerca de la nueva versión de la puerta de enlace personal, incluido cómo instalar la nueva versión, consulte el artículo [**Puerta de enlace de datos local (modo personal)**](service-gateway-personal-mode.md).
 > 
 > 
 
-Se le pedirá que instale una puerta de enlace al hacer clic en ACTUALIZAR AHORA o PROGRAMAR ACTUALIZACIÓN para un conjunto de datos compatible por primera vez. O bien, para descargar la puerta de enlace, seleccione **Puerta de enlace de datos** en el menú Descargas. Descargue la [Puerta de enlace de datos local](http://go.microsoft.com/fwlink/?LinkID=820925).
+Se le pedirá que instale una puerta de enlace al hacer clic en ACTUALIZAR AHORA o PROGRAMAR ACTUALIZACIÓN para un conjunto de datos compatible por primera vez. O bien, para descargar la puerta de enlace, seleccione **Puerta de enlace de datos** en el menú Descargas. Descargue la [puerta de enlace de datos local](http://go.microsoft.com/fwlink/?LinkID=820925).
 
 Seleccione **Puerta de enlace personal** en lugar de **Puerta de enlace de datos local** para tener una puerta de enlace para usted.
 
 La instalación de una puerta de enlace no tiene ningún secreto. Deberá seleccionar una ubicación para instalarla, y leer y aceptar el contrato de licencia, igual que con cualquier otra aplicación. Sin embargo, existen algunas cosas importantes que debe saber. En particular, el tipo de equipo donde se instala la puerta de enlace y el tipo de cuenta con la que se inicia sesión en Windows en el equipo.
 
 > [!NOTE]
-> La puerta de enlace debe tener acceso al origen de datos. Si la máquina personal no se puede conectar con el origen de datos, tal vez le interese considerar la posibilidad de instalar una [puerta de enlace de datos local](service-gateway-onprem.md) en una máquina que tenga acceso al origen de datos. Un ejemplo de esto sería SQL Server instalado en una máquina virtual (VM) hospedada en Azure. Su máquina personal podría no tener acceso a la máquina virtual. En su lugar, podría instalar la puerta de enlace de datos local en la máquina virtual y configurar el origen de datos dentro del servicio Power BI.
+> La puerta de enlace debe tener acceso al origen de datos. Si la máquina personal no se puede conectar al origen de datos, puede considerar la posibilidad de instalar una [puerta de enlace de datos local](service-gateway-onprem.md) en una máquina que tenga acceso al origen de datos. Un ejemplo de esto sería SQL Server instalado en una máquina virtual (VM) hospedada en Azure. Su máquina personal podría no tener acceso a la máquina virtual. En su lugar, podría instalar la puerta de enlace de datos local en la máquina virtual y configurar el origen de datos en el servicio Power BI.
 > 
 > 
 
@@ -187,8 +187,7 @@ Si necesita crear una lista blanca de direcciones IP en lugar de dominios, puede
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Puerta de enlace de datos local (modo personal): la nueva versión de la puerta de enlace personal](service-gateway-personal-mode.md)
-
-[Configuración de proxy para Power BI Gateways](service-gateway-proxy.md)  
+[Configuración de proxy para la puerta de enlace de datos local](service-gateway-proxy.md)  
 [Power BI Premium](service-premium.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

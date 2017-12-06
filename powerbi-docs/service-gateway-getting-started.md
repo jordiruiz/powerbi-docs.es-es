@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/25/2017
 ms.author: davidi
-ms.openlocfilehash: 617dcbf1d149966369aa0d1566094f6ce820a40a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a93f24dc621dc5b044473fd16cc635fdef987a62
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>Introducción a Power BI Gateways
-Asistente para la guía de **Introducción a Power BI Gateways**. Este breve tutorial le permitirá familiarizarse con lo que hace una puerta de enlace, cómo funciona y cómo obtener su propia puerta de enlace instalada, configurada y en ejecución.  
+Bienvenido a la guía **Introducción a Power BI Gateways**. Este breve tutorial le permitirá familiarizarse con lo que hace una puerta de enlace, cómo funciona y cómo obtener su propia puerta de enlace instalada, configurada y en ejecución.  
 
 ![](media/service-gateway-getting-started/gw_gettingstarted_0a.png)
 
@@ -42,9 +42,9 @@ En otras ocasiones, es posible que se encuentre en una organización con todo ti
 Afortunadamente, Power BI ofrece dos puertas de enlace, que se adaptan muy bien a cada uno de esos escenarios. Estas dos ofertas de puertas de enlace de Power BI son las siguientes:
 
 * **Puerta de enlace de datos local (modo personal)**: permite que un usuario se conecte a los orígenes y no pueda compartirlos con otros usuarios. Solo puede utilizarse con Power BI.
-* **Puerta de enlace de datos local**: permite que varios usuarios se conecten a varios orígenes de datos locales y puede usarse en Power BI, **PowerApps**, Flow y Azure Logic Apps, todo ello con una instalación de puerta de enlace única.
+* **Puerta de enlace de datos local**: permite que varios usuarios se conecten a varios orígenes de datos locales y que los puedan usar Power BI, PowerApps, Flow y Azure Logic Apps, todo ello con la instalación de una sola puerta de enlace.
 
-Ambas puertas de enlace realizan una función similar: facilitan el acceso a datos que residen en una red privada local, para que los datos se puedan utilizar en los servicios en la nube como Power BI. La puerta de enlace personal puede utilizarse por una persona y solo por Power BI, la **puerta de enlace de datos local** puede utilizarse por muchos usuarios y muchos servicios.
+Ambas puertas de enlace realizan una función similar: facilitan el acceso a datos que residen en una red privada local, para que los datos se puedan utilizar en los servicios en la nube como Power BI. La puerta de enlace personal solo pueden utilizarla una persona y Power BI, mientras que la **puerta de enlace de datos local** pueden utilizarla muchos usuarios y muchos servicios.
 
 Hay que realizar tres acciones, o fases, para que funcione una puerta de enlace:
 
@@ -161,8 +161,8 @@ Bien, ahora ya tiene una puerta de enlace instalada y está listo para agregar o
 ## <a name="next-steps"></a>Pasos siguientes
 [Puerta de enlace de datos local](service-gateway-onprem.md)  
 [Detalles sobre la puerta de enlace de datos local](service-gateway-onprem-indepth.md)  
-[Puerta de enlace de datos local (modo personal)](service-gateway-personal-mode.md)
-
+[Puerta de enlace de datos de local (modo personal)](service-gateway-personal-mode.md)
 [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)  
+
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

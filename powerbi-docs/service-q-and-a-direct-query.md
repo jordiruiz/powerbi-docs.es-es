@@ -17,17 +17,17 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/28/2017
 ms.author: mihart
-ms.openlocfilehash: b24f877fd6e6642bb24d7769a23cacc05f327637
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 453a2a9dd4ea5e41d404d3e81cebbff7c35f1b6c
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="enable-qa-for-live-connections"></a>Habilitación de preguntas y respuestas para conexiones dinámicas
-## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>¿Qué es la puerta de enlace de datos local?  ¿Qué es una conexión dinámica?
+## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>¿Qué es una puerta de enlace de datos local?  ¿Qué es una conexión dinámica?
 Los conjuntos de datos de Power BI se pueden importar a Power BI, o bien puede crear una conexión dinámica con ellos. Con frecuencia, los conjuntos de datos de conexión dinámica se conocen como "locales". Las conexiones dinámicas se administran mediante una [puerta de enlace](service-gateway-onprem.md) y los datos y las consultas se envían de un lado a otro mediante consultas dinámicas.
 
-## <a name="qa-for-on-premises-data-gateway-datasets"></a>Preguntas y respuestas sobre los conjuntos de datos de la puerta de enlace de datos local
+## <a name="qa-for-on-premises-data-gateway-datasets"></a>Preguntas y respuestas acerca de los conjuntos de datos de la puerta de enlace de datos local
 Si quiere usar Preguntas y respuestas con los conjuntos de datos a los que tiene acceso a través de una puerta de enlace, primero debe habilitarlos.
 
 Una vez que lo haga, Power BI crea un índice del origen de datos y carga un subconjunto de esos datos a Power BI para habilitar la formulación de preguntas. Puede que la creación del índice inicial demore varios minutos; además, Power BI mantiene y actualiza automáticamente el índice a medida que cambian los datos. El uso de Preguntas y respuestas con estos conjuntos de datos se comporta del mismo modo que con los datos publicados en Power BI. En ambos casos, se admite el conjunto completo de características disponibles en la experiencia de Preguntas y respuestas, incluido el uso del origen de datos con Cortana.
@@ -60,9 +60,9 @@ Cuando habilita Preguntas y respuestas para los datos locales, se almacena un su
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 Existen varias limitaciones durante la fase de vista previa de esta característica:
 
-* Inicialmente, la característica solo está disponible para orígenes de datos tabulares de SQL Server 2016 Analysis Services. La característica está optimizada para trabajar con datos tabulares. Parte de la funcionalidad está disponible para orígenes de datos multidimensionales, pero la experiencia completa de preguntas y respuestas no se admite todavía para este tipo de origen de datos. Está previsto el lanzamiento de orígenes de datos adicionales compatibles con la puerta de enlace de datos local durante la versión preliminar pública.
+* Inicialmente, la característica solo está disponible para orígenes de datos tabulares de SQL Server 2016 Analysis Services. La característica está optimizada para trabajar con datos tabulares. Parte de la funcionalidad está disponible para orígenes de datos multidimensionales, pero la experiencia completa de preguntas y respuestas no se admite todavía para este tipo de origen de datos. Los orígenes de datos adicionales compatibles con la puerta de enlace de datos local se lanzarán durante la versión preliminar pública.
 * La compatibilidad total con la seguridad de nivel de fila definida en SQL Server Analysis Services no estará disponible inicialmente en la versión preliminar pública. Cuando se formulan preguntas en Preguntas y respuestas, la característica "Autocompletar" de las preguntas mientras se escribe puede mostrar los valores de cadena a los que un usuario no tiene acceso. Sin embargo, se respeta la RLS definida en el modelo para los objetos visuales de informe y gráfico, por lo que ningún dato numérico subyacente queda expuesto. En próximas actualizaciones se lanzarán opciones para controlar este comportamiento.
-* Solo se admiten conexiones dinámicas con la puerta de enlace de datos local. Como resultado, no se puede usar dicha puerta con la puerta de enlace personal.
+* Las conexiones dinámicas solo se admiten con la puerta de enlace de datos local. Como resultado, no se puede usar dicha puerta con la puerta de enlace personal.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)  

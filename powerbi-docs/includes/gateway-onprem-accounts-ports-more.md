@@ -45,7 +45,7 @@ Aquí se muestra una lista de los nombres de dominio completos utilizados por la
 > 
 
 ## <a name="forcing-https-communication-with-azure-service-bus"></a>Forzar la comunicación HTTPS con Azure Service Bus
-Puede obligar a la puerta de enlace a comunicarse con Azure Service Bus a través de HTTPS, en lugar de TCP directo, lo que puede afectar al rendimiento. Para ello, modifique el archivo *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*, para lo que debe cambiar el valor de `AutoDetect` a `Https`, como se muestra en el fragmento de código que se encuentra inmediatamente después de este párrafo. Este archivo se encuentra, de forma predeterminada, en *C:\Archivos de programa\On-premises data gateway*.
+Puede obligar a la puerta de enlace a comunicarse con Azure Service Bus a través de HTTPS en vez de TCP directo. lo que puede afectar al rendimiento. Para ello, modifique el archivo *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*, para lo que debe cambiar el valor de `AutoDetect` a `Https`, como se muestra en el fragmento de código que se encuentra inmediatamente después de este párrafo. Este archivo se encuentra, de forma predeterminada, en *C:\Archivos de programa\On-premises data gateway*.
 
 ```
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
@@ -55,7 +55,7 @@ Puede obligar a la puerta de enlace a comunicarse con Azure Service Bus a travé
 
 El valor del parámetro *ServiceBusSystemConnectivityModeString* distingue mayúsculas de minúsculas. Los valores válidos son *AutoDetect* y *Https*.
 
-Como alternativa, puede forzar a la puerta de enlace a adoptar este comportamiento mediante la interfaz de usuario de la puerta de enlace a partir de la versión de [marzo de 2017](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/). En la interfaz de usuario de la puerta de enlace, seleccione **Red** y cambie **Azure Service Bus connectivity mode** (Modo de conectividad de Azure Service Bus) a **Activado**.
+Como alternativa, puede forzar a la puerta de enlace a adoptar este comportamiento mediante la interfaz de usuario de la puerta de enlace, a partir de la versión de [marzo de 2017](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/). En la interfaz de usuario de la puerta de enlace, seleccione **Red** y cambie **Modo de conectividad de Azure Service Bus** a **Activado**.
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_01.png)
 
@@ -66,9 +66,9 @@ Para referencias futuras puede reiniciar el servicio de *puerta de enlace de Win
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
 ## <a name="support-for-tls-1112"></a>Compatibilidad con TLS 1.1 y 1.2
-Con la actualización de agosto de 2017 y posteriores, la puerta de enlace de datos local usa Seguridad de la capa de transporte (TLS) 1.1 o 1.2 para comunicarse con el **servicio Power BI** de forma predeterminada. Las versiones anteriores de la puerta de enlace de datos local usa TLS 1.0 de forma predeterminada. El 15 de enero de 2018 la compatibilidad con TLS 1.0 terminará, incluida la capacidad de la puerta de enlace de interactuar con el **servicio Power BI** mediante TLS 1.0, por lo que debe actualizar las instalaciones de la puerta de enlace de datos local a la versión de agosto de 2017 o a otra más reciente para asegurarse de que las puertas de enlace sigan funcionando.
+Con la actualización de agosto de 2017 y posteriores, la puerta de enlace de datos local usa Seguridad de la capa de transporte (TLS) 1.1 o 1.2 para comunicarse con el **servicio Power BI** de forma predeterminada. Las versiones anteriores de la puerta de enlace de datos local usan TLS 1.0 de forma predeterminada. El 15 de enero de 2018 la compatibilidad con TLS 1.0 terminará, incluida la capacidad de la puerta de enlace para interactuar con el **servicio Power BI** mediante TLS 1.0, por lo que antes de esa fecha debe actualizar las instalaciones de la puerta de enlace de datos local a la versión de agosto de 2017, o a otra más reciente, para asegurarse de que las puertas de enlace siguen funcionando.
 
-Es importante tener en cuenta que TLS 1.0 seguirá siendo compatible con la puerta de enlace de datos local antes del 1 de noviembre y la puerta de enlace la utilizará como un mecanismo de reserva. Para asegurarse de que todo el tráfico de la puerta de enlace usa TLS 1.1 o 1.2 (y para impedir el uso de TLS 1.0 en la puerta de enlace), debe agregar o modificar las siguientes claves de registro en la máquina que ejecuta el servicio de puerta de enlace:
+Es importante tener en cuenta que la versión TLS 1.0 seguirá siendo compatible con la puerta de enlace de datos local antes del 1 de noviembre y la puerta de enlace la utilizará como un mecanismo de reserva. Para asegurarse de que todo el tráfico de la puerta de enlace usa TLS 1.1 o 1.2 (y para impedir el uso de TLS 1.0 en la puerta de enlace), debe agregar o modificar las siguientes claves de registro en la máquina que ejecuta el servicio de puerta de enlace:
 
         [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
         [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001

@@ -8,8 +8,8 @@ El informe y los datos, incluidas las visualizaciones, las consultas y las medid
 
 ![](media/4-1-publish-reports/4-1_2.png)
 
-> NOTA: A los informes de Power BI Desktop se les suele llamar "archivos **.pbix**", ya que esta es la extensión que se les asigna en Windows.
-> 
+> [!NOTE]
+> A los informes de Power BI Desktop se les suele llamar "archivos **.pbix**", ya que esta es la extensión que se les asigna en Windows.
 > 
 
 Una vez finalizada la carga, un cuadro de diálogo le informará de que el proceso de publicación se realizó correctamente y le dará un vínculo que le llevará directamente al informe en el servicio Power BI, en un explorador web.

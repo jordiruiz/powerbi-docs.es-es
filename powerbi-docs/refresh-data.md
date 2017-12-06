@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: ab8b9810029691c13e668710b651843e685006e4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 Asegurarse de que siempre dispone de los datos más recientes suele ser fundamental para tomar las decisiones correctas. Es probable que ya haya usado Obtener datos de Power BI para cargar y conectarse a algunos datos, creado algunos informes y un panel. Ahora, quiere asegurarse de que los datos son realmente los más recientes y mejores.
@@ -165,7 +165,7 @@ Con la puerta de enlace datos local se pueden emitir consultas desde Power BI a 
 
 Cuando se conecta a un origen de datos de SQL Service Analysis Services (SSAS) mediante una conexión dinámica, a diferencia de lo que ocurre con DirectQuery, la conexión dinámica a un origen SSAS se puede ejecutar en la memoria caché, incluso al cargar un informe. Este comportamiento mejora el rendimiento de carga del informe. Puede solicitar los datos más recientes desde el origen de datos de SSAS mediante el botón **Actualizar**. Los propietarios de orígenes de datos de SSAS pueden configurar la frecuencia de actualización programada de la cache para el conjunto de datos para garantizar que los informes son siempre los más actualizados. 
 
-Cuando se configura un origen de datos con la puerta de enlace de datos local, el origen de datos se puede usar como opción de actualización programada. Debe realizarse así, en lugar de utilizar la puerta de enlace personal.
+Cuando se configura un origen de datos con la puerta de enlace de datos local, dicho origen de datos se puede usar como opción de actualización programada. Debe realizarse así, en lugar de utilizar la puerta de enlace personal.
 
 > [!NOTE]
 > Si el conjunto de datos está configurado para una conexión dinámica o de DirectQuery, los conjuntos de datos se actualizarán aproximadamente cada hora o cuando se produzca la interacción con los datos. Puede ajustar manualmente la *frecuencia de actualización* en la opción *Actualización de caché programada* del servicio Power BI.
@@ -181,10 +181,10 @@ Cuando se configura un origen de datos con la puerta de enlace de datos local, e
 | Oracle |Sí |Sí |Sí |
 | Teradata |Sí |Sí |Sí |
 
-Para obtener más información, consulte [On-premises Data Gateway](service-gateway-onprem.md) (Puerta de enlace de datos local).
+Para más información, consulte [Puerta de enlace de datos local](service-gateway-onprem.md)
 
 ## <a name="databases-in-the-cloud"></a>Bases de datos en la nube
-Con DirectQuery, hay una conexión dinámica entre Power BI y la base de datos en la nube. Cuando se interactúa con una visualización, las consultas se envían desde Power BI directamente a la base de datos. A continuación, se devuelven los datos actualizados y se actualizan las visualizaciones. Además, como el servicio de Power BI y el origen de datos están en la nube, no es necesaria una Personal Gateway.
+Con DirectQuery, hay una conexión dinámica entre Power BI y la base de datos en la nube. Cuando se interactúa con una visualización, las consultas se envían desde Power BI directamente a la base de datos. A continuación, se devuelven los datos actualizados y se actualizan las visualizaciones. Además, como el servicio Power BI y el origen de datos están en la nube, no es necesaria una Personal Gateway.
 
 Si no hay ninguna interacción del usuario en una visualización, los datos se actualizan automáticamente cada hora aproximadamente. Puede cambiar esa frecuencia de actualización mediante la opción *Actualización de caché programada* que permite establecer la frecuencia de actualización.
 
@@ -243,7 +243,7 @@ En este caso, puede actualizar los datos del conjunto de datos de SalesReport.xl
 > 
 > 
 
-Para obtener más información, consulte [Obtención de datos de archivos de libro de Excel](service-excel-workbook-files.md), [Power BI Gateway - Personal](personal-gateway.md), [On-premises Data Gateway](service-gateway-onprem.md) (Puerta de enlace de datos local), [Actualización de un conjunto de datos creado a partir de un libro de Excel en una unidad local](refresh-excel-file-local-drive.md).
+Para más información, consulte [Obtención de datos de archivos de libro de Excel](service-excel-workbook-files.md), [Power BI Gateway - Personal](personal-gateway.md), [Puerta de enlace de datos local](service-gateway-onprem.md), [Actualización de un conjunto de datos creado a partir de un libro de Excel en una unidad local](refresh-excel-file-local-drive.md).
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>Archivo de escritorio de Power BI Desktop con datos procedentes de una fuente de OData
 En este caso, usa Obtener datos de Power BI Desktop para conectarse a e importar datos del censo desde una fuente de OData.  Crea varios informes de Power BI Desktop y luego denomina al archivo WACensus y lo guarda en un recurso compartido de la empresa. A continuación, publica el archivo en el servicio Power BI.

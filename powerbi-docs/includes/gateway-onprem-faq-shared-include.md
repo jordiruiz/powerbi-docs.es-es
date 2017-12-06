@@ -1,6 +1,6 @@
 ## <a name="general"></a>General
 **Pregunta:** ¿Cuál es el nombre real del servicio de Windows?  
-**Respuesta:** La puerta de enlace se denomina “servicio de puerta de enlace de datos local” en Servicios.
+**Respuesta:** La puerta de enlace se denomina "servicio de puerta de enlace de datos local" en Servicios
 
 **Pregunta:** ¿Cuáles son los requisitos para la puerta de enlace?  
 **Respuesta:** Consulte la sección de requisitos del [artículo de puerta de enlace](../service-gateway-onprem.md) principal.

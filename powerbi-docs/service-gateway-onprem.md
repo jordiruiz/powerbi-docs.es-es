@@ -1,6 +1,6 @@
 ---
 title: Puerta de enlace de datos local
-description: "Se trata de información general sobre la puerta de enlace de datos local para Power BI. Puede usar esta puerta de enlace para trabajar con orígenes de datos DirectQuery. También puede usar esta puerta de enlace para actualizar conjuntos de datos en la nube con datos locales."
+description: "Esta es información general acerca de la puerta de enlace de datos local para Power BI. Puede usar esta puerta de enlace para trabajar con orígenes de datos DirectQuery. También puede usar esta puerta de enlace para actualizar conjuntos de datos en la nube con datos locales."
 services: powerbi
 documentationcenter: 
 author: davidiseminger
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/02/2017
 ms.author: davidi
-ms.openlocfilehash: 8d592a620f7a18cad3d70a09e6cd7a960683f860
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: e905fa099537f49a9a8e69a9d3121f955b74864f
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
 La puerta de enlace de datos local actúa como un puente, proporcionando la transferencia de datos rápida y segura entre los datos locales (datos que no están en la nube) y los servicios Power BI, Microsoft Flow, Logic Apps y PowerApps.
@@ -93,7 +93,7 @@ Cuando agrega un origen de datos a la puerta de enlace, debe proporcionar las cr
 ## <a name="troubleshooting"></a>Solución de problemas
 Si tiene problemas al instalar y configurar una puerta de enlace, asegúrese de consultar [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md). Si cree que tiene un problema con el firewall, consulte la sección [Firewall o proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) del artículo de solución de problemas.
 
-Si cree que tiene problemas de proxy, con la puerta de enlace, consulte [Configuración de proxy para Power BI Gateways](service-gateway-proxy.md).
+Si cree que tiene problemas de proxy, con la puerta de enlace, consulte [Configuración de proxy para la puerta de enlace de datos local](service-gateway-proxy.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Administrar el origen de datos: Analysis Services](service-gateway-enterprise-manage-ssas.md)  

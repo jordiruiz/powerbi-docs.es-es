@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/25/2017
 ms.author: davidi
-ms.openlocfilehash: 23799e0fcaf2dfc64f8ab7d47aa7d30b3d6ecf17
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 268c06569199bc00b28918b46a142942c9e03ba6
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Usar DirectQuery en Power BI Desktop
 Con **Power BI Desktop**, cuando se conecta al origen de datos, siempre es posible importar una copia de los datos en **Power BI Desktop**. Para algunos orígenes de datos, existe un enfoque alternativo: conectarse directamente al origen de datos mediante **DirectQuery**.
@@ -82,7 +82,7 @@ Deben tenerse en cuenta los tres puntos siguientes al usar **DirectQuery**:
 ## <a name="publish-to-the-power-bi-service"></a>Publicación en el servicio Power BI
 Los informes creados mediante **DirectQuery** se pueden publicar en el servicio Power BI.
 
-Si el origen de datos usado no necesita **Puerta de enlace de datos local** (**Azure SQL Database**, **Azure SQL Data Warehouse** o **Redshift**), se deben proporcionar credenciales para que el informe publicado se muestre en el servicio Power BI.
+Si el origen de datos usado no necesita la **puerta de enlace de datos local** (**Azure SQL Database**, **Azure SQL Data Warehouse** o **Redshift**), se deben proporcionar credenciales para que el informe publicado se muestre en el servicio Power BI.
 
 Para proporcionar credenciales, seleccione el icono de engranaje de **Configuración** en Power BI y elija **Configuración**.
 
@@ -94,7 +94,7 @@ Power BI muestra la ventana **Configuración**. Desde esta, seleccione la pesta�
 
 Hasta que se proporcionan las credenciales, se genera un error al abrir un informe publicado o explorar un conjunto de datos creado con una conexión de **DirectQuery** en dichos orígenes de datos.
 
-En el caso de orígenes de datos que no sean **Azure SQL Database**, **Azure SQL Data Warehouse** y **Redshift** que usan DirectQuery, se debe instalar **Puerta de enlace de datos local** y se debe registrar el origen de datos para establecer una conexión de datos. Puede [obtener más información acerca de Puerta de enlace de datos local](http://go.microsoft.com/fwlink/p/?LinkID=627094).
+En el caso de los orígenes de datos que no sean **Azure SQL Database**, **Azure SQL Data Warehouse** y **Redshift** que usan DirectQuery, se debe instalar una **puerta de enlace de datos local** y se debe registrar el origen de datos para establecer una conexión de datos. Puede [obtener más información acerca de la puerta de enlace de datos local](http://go.microsoft.com/fwlink/p/?LinkID=627094).
 
 ## <a name="next-steps"></a>Pasos siguientes
 Para más información sobre **DirectQuery**, revise los siguientes recursos:

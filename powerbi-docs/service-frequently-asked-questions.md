@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: e4cd07ca9917e7039fa2d179bbeeaf7962492f93
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 61d74fb9c25abb0cbc5135795d5567016f88b0c0
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Preguntas más frecuentes acerca de Power BI
 * Si tiene otras preguntas, [pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/).
@@ -52,7 +52,7 @@ Aunque no es una manera directa de descubrirlo, puede ver el informe de Aplicaci
 > 
 
 ## <a name="what-is-power-bi-desktop"></a>¿Qué es Power BI Desktop?
-[Power BI Desktop](https://powerbi.microsoft.com/designer) es una aplicación de escritorio gratuita que se puede instalar directamente en un equipo. Power BI Desktop funciona junto con el servicio de Power BI proporcionando exploración avanzada de datos, modelado y creación de informes con visualizaciones altamente interactivas. Puede guardar su trabajo en un archivo y publicar los datos e informes directamente en el sitio de Power BI para compartirlos con otros usuarios.
+[Power BI Desktop](https://powerbi.microsoft.com/designer) es una aplicación de escritorio gratuita que se puede instalar directamente en un equipo. Power BI Desktop funciona junto con el servicio Power BI proporcionando exploración avanzada de datos, modelado y creación de informes con visualizaciones altamente interactivas. Puede guardar su trabajo en un archivo y publicar los datos e informes directamente en el sitio de Power BI para compartirlos con otros usuarios.
 
 ## <a name="what-do-i-need-to-use-power-bi"></a>¿Qué se necesita para usar Power BI?
 Solo un explorador web y una dirección de correo electrónico del trabajo.
@@ -75,7 +75,7 @@ Sí, si la adquisición se realiza directamente a Microsoft, las organizaciones 
 El servicio Power BI [https://powerbi.com](https://powerbi.com) no está disponible como un servicio en la nube privado interno. Sin embargo, tiene otras tres opciones para ver y trabajar con datos de forma local. 
 
 ### <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
-Con Power BI y Power BI Desktop, puede conectarse de forma segura a sus propios orígenes de datos locales. Con la [puerta de enlace de datos local](service-gateway-onprem.md), puede conectarse a su servidor de SQL Server Analysis Services local y otros orígenes de datos en directo. También puede establecer una actualización programada con una puerta de enlace centralizada. Si una puerta de enlace no está disponible, puede actualizar los datos desde los orígenes de datos locales mediante [Power BI Gateway - Personal](personal-gateway.md).
+Con Power BI y Power BI Desktop, puede conectarse de forma segura a sus propios orígenes de datos locales. Con la [puerta de enlace de datos local](service-gateway-onprem.md), puede conectarse en directo su servidor de SQL Server Analysis Services local y a otros orígenes de datos. También puede establecer una actualización programada con una puerta de enlace centralizada. Si una puerta de enlace no está disponible, puede actualizar los datos desde los orígenes de datos locales mediante [Power BI Gateway - Personal](personal-gateway.md).
 
 ### <a name="power-bi-report-server"></a>Servidor de informes de Power BI
 El servidor de informes de Power BI es una solución que puede implementar a nivel local para crear, publicar y administrar informes, y posteriormente entregarlos a distintos usuarios de maneras diferentes: en un explorador web, en su dispositivo móvil o, en forma de correo electrónico, en su bandeja de entrada. Obtenga más información sobre el [servidor de informes de Power BI](report-server/get-started.md).
@@ -105,7 +105,7 @@ Los [paquetes de contenido de servicios](service-connect-to-services.md) son sol
 Los [paquetes de contenido de la organización](service-organizational-content-pack-introduction.md) proporcionan a usuarios, profesionales de BI e integradores de sistemas las herramientas que necesitan para crear sus propios paquetes de contenido para compartir paneles, informes y conjuntos de datos diseñados específicamente en su organización.
 
 ## <a name="what-do-i-need-to-install-in-order-to-use-power-bi"></a>¿Qué es necesario instalar para poder usar Power BI?
-Para usar el servicio de Power BI de forma gratuita, solo necesita un explorador web y correo electrónico.
+Para usar el servicio Power BI de forma gratuita, solo necesita un explorador web y correo electrónico.
 
 Para explorar datos y crear informes en Power BI Desktop, descargue [Power BI Desktop](http://powerbi.microsoft.com/designer) de forma gratuita.
 

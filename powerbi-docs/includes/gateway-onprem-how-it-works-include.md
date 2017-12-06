@@ -1,5 +1,5 @@
 ## <a name="how-the-gateway-works"></a>Cómo funciona la puerta de enlace
-![on-prem-data-gateway-how-it-works](./media/gateway-onprem-how-it-works-include/on-prem-data-gateway-how-it-works.png)
+![On-prem-data-gateway-how-it-works](./media/gateway-onprem-how-it-works-include/on-prem-data-gateway-how-it-works.png)
 
 Veamos primero lo que sucede cuando un usuario interactúa con un elemento conectado a un origen de datos local. 
 

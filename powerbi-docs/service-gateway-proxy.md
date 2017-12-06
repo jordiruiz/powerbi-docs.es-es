@@ -1,5 +1,5 @@
 ---
-title: "Configuración de proxy para la puerta de enlace de datos local"
+title: "Configuración de los valores del proxy para la puerta de enlace de datos local"
 description: "Información sobre la configuración de proxy para la puerta de enlace de datos local."
 services: powerbi
 documentationcenter: 
@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 77ae086d4b9c86f0d5ec4c0515ad96919160059d
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 1598a2580c24623abc1bbb5fb5a3590ab0f2a6f6
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/23/2017
 ---
-# <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configuración de proxy para la puerta de enlace de datos local
-El entorno de trabajo puede requerir que pase por un proxy para acceder a Internet. Esto podría impedir a la puerta de enlace de datos local conectarse al servicio.
+# <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configuración de los valores del proxy para la puerta de enlace de datos local
+El entorno de trabajo puede requerir que pase por un proxy para acceder a Internet. Esto puede impedir que la puerta de enlace de datos local se conecte al servicio.
 
 ## <a name="does-your-network-use-a-proxy"></a>¿Usa su red un proxy?
 La siguiente entrada de superuser.com describe cómo puede intentar determinar si tiene un proxy en la red.
@@ -56,9 +56,9 @@ La configuración de proxy predeterminada es la siguiente.
         <defaultProxy useDefaultCredentials="true" />
     </system.net>
 
-La configuración predeterminada funciona con autenticación de Windows. Si el proxy usa otra forma de autenticación, debe cambiar la configuración. Si no está seguro, póngase en contacto con el administrador de la red.
+La configuración predeterminada funciona con la autenticación de Windows. Si el proxy usa otra forma de autenticación, debe cambiar la configuración. Si no está seguro, póngase en contacto con el administrador de la red.
 
-Para obtener más información sobre la configuración de los elementos de proxy para los archivos de configuración de .NET, consulte [<defaultProxy> (Elemento, Configuración de red)](https://msdn.microsoft.com/library/kd3cf2ex.aspx).
+Para más información acerca de la configuración de los elementos de proxy para los archivos de configuración de .NET, consulte [<defaultProxy> (Elemento, Configuración de red)](https://msdn.microsoft.com/library/kd3cf2ex.aspx).
 
 ## <a name="changing-the-gateway-service-account-to-a-domain-user"></a>Cambiar la cuenta de servicio de la puerta de enlace de un usuario de dominio
 Al configurar los ajustes de proxy para utilizar las credenciales predeterminadas, como se explicó anteriormente, pueden producirse problemas de autenticación con el proxy. Esto se debe a que la cuenta de servicio predeterminada es el servicio SID y no un usuario de dominio autenticado. Puede cambiar la cuenta de servicio de la puerta de enlace para permitir la autenticación correcta con el servidor proxy.
@@ -68,13 +68,13 @@ Al configurar los ajustes de proxy para utilizar las credenciales predeterminada
 > 
 > 
 
-### <a name="change-the-on-premises-data-gateway-service-account"></a>Cambiar la cuenta de servicio de la puerta de enlace de datos local
-1. Cambiar la cuenta de servicio de Windows para el **servicio de la puerta de enlace de datos local**.
+### <a name="change-the-on-premises-data-gateway-service-account"></a>Cambio de la cuenta de servicio de puerta de enlace de datos local
+1. Cambie la cuenta de servicio de Windows del **servicio de puerta de enlace de datos local**.
    
     La cuenta predeterminada para este servicio es *NT SERVICE\PBIEgwService*. Podrá cambiarlo a una cuenta de usuario de dominio en su dominio de Active Directory. También puede utilizar una cuenta de servicio administrada para evitar tener que cambiar la contraseña.
    
     Puede cambiar la cuenta en la pestaña **Inicio de sesión** de las propiedades del servicio de Windows.
-2. Reinicie el **servicio de la puerta de enlace de datos local**.
+2. Reinicie el **servicio de puerta de enlace de datos local**.
    
     Desde un símbolo del sistema de administrador, emita los siguientes comandos.
    

@@ -16,11 +16,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: f3ebba5d1f8e47094865b51edd60f1f036098af4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c8e97f43089f5fd803b8c15ddf60927da7353797
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="configuring-scheduled-refresh"></a>Configuración de la actualización programada
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/15/2017
 
 Si el conjunto de datos admite la actualización programada mediante Actualizar ahora y Programar actualización, hay algunos requisitos y opciones importantes que se deben considerar para que la actualización se realice correctamente. Y son: **Conexión de puerta de enlace**, **Credenciales de origen de datos** y **Programar actualización**. Analicemos cada uno detenidamente.
 
-Se describen las opciones disponibles para [Power BI Gateway - Personal](personal-gateway.md) y la [puerta de enlace de datos local](service-gateway-onprem.md).
+Se describen las opciones disponibles tanto para [Power BI Gateway - Personal](personal-gateway.md) como para la [puerta de enlace de datos local](service-gateway-onprem.md).
 
 Para llegar a la pantalla Programar actualización, puede hacer lo siguiente.
 
@@ -68,8 +68,8 @@ Solo es necesario que inicie sesión en los orígenes de datos la primera vez qu
 
 Cuando existe algún problema, suele deberse a que la puerta de enlace está sin conexión porque no pudo iniciar sesión en Windows e iniciar el servicio o porque Power BI no pudo iniciar sesión en los orígenes de datos para consultar los datos actualizados. Si se produce un error en la actualización, compruebe la configuración del conjunto de datos. Si el servicio de la puerta de enlace está sin conexión, verá el error en el estado de la puerta de enlace. Si Power BI no puede iniciar sesión en los orígenes de datos, verá un error en Credenciales del origen de datos.
 
-### <a name="on-premises-data-gateway"></a>On-premises Data Gateway (Puerta de enlace de datos local)
-Si utiliza la puerta de enlace de datos local para actualizar los datos, no es necesario proporcionar credenciales dado que el administrador de la puerta de enlace las define para el origen de datos.
+### <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
+Si utiliza la puerta de enlace de datos local para actualizar los datos, no es preciso que especifique sus credenciales, ya que el administrador de la puerta de enlace las define para el origen de datos.
 
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
@@ -122,7 +122,7 @@ Algunos conjuntos de datos se admiten con diferentes puertas de enlace en la act
 ## <a name="troubleshooting"></a>Solución de problemas
 A veces, la actualización de datos no funciona según lo previsto. Normalmente se trata de un problema relacionado con una puerta de enlace. Consulte en los artículos de solución de problemas relacionados con la puerta de enlace las herramientas y los problemas conocidos.
 
-[Troubleshooting the On-Premises Data Gateway (Solución de problemas con la puerta de enlace de datos local)](service-gateway-onprem-tshoot.md)
+[Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)
 
 [Solución de problemas de Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
@@ -130,7 +130,7 @@ A veces, la actualización de datos no funciona según lo previsto. Normalmente 
 [Actualizar datos en Power BI](refresh-data.md)  
 [Power BI Gateway - Personal](personal-gateway.md)  
 [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)  
-[Troubleshooting the On-Premises Data Gateway (Solución de problemas con la puerta de enlace de datos local)](service-gateway-onprem-tshoot.md)  
+[Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)  
 [Solución de problemas de Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

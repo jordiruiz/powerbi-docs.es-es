@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: e03538061190290b251319a6919b918edc6c38fc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 58cfc6feb510dc9dc335b473b40ee4a7f341ee10
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Administrar el origen de datos: Analysis Services
-Después de instalar la puerta de enlace de datos local, debe agregar los orígenes de datos que se pueden usar con la puerta de enlace. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de Analysis Services para la actualización programada o las conexiones dinámicas.
+Una vez que haya instalado la puerta de enlace de datos local, tendrá que agregar orígenes de datos que se puedan usar con ella. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de Analysis Services para la actualización programada o las conexiones dinámicas.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ownIGbcRAAU" frameborder="0" allowfullscreen></iframe>
 
@@ -46,7 +46,7 @@ Puede usar una conexión activa con instancias tabulares o multidimensionales.
 * Las acciones y los conjuntos con nombre no se exponen en Power BI, pero todavía puede conectarse a los cubos multidimensionales que también contengan acciones o conjuntos con nombre, y crear objetos visuales e informes.
 
 ## <a name="add-a-gateway"></a>Agregar una puerta de enlace
-Para agregar una puerta de enlace, simplemente [descargue](https://go.microsoft.com/fwlink/?LinkId=698861) e instale la puerta de enlace en un servidor de su entorno. Una vez haya instalado la puerta de enlace, se mostrará en las listas de puertas de enlace en **Administrar puertas de enlace**.
+Para agregar una puerta de enlace, simplemente [descárguela](https://go.microsoft.com/fwlink/?LinkId=698861) e instálela en un servidor de su entorno. Una vez haya instalado la puerta de enlace, se mostrará en las listas de puertas de enlace en **Administrar puertas de enlace**.
 
 > [!NOTE]
 > La opción **Administrar puertas de enlace** no se mostrará hasta que sea administrador de una puerta de enlace como mínimo. Esto puede suceder si alguien le agrega como administrador o si instala y configura una puerta de enlace.
@@ -158,7 +158,7 @@ En el **servicio Power BI** ocurre lo siguiente:
 > 
 > 
 
-En la puerta de enlace de datos local con asignación de usuario personalizado configurable, realice lo siguiente:
+En la puerta de enlace de datos local con asignación de usuario personalizado configurable, siga estos pasos:
 
 1. Localice la instancia de Active Directory que quiere buscar (automática o configurable).
 2. Busque el atributo de la persona de AD (como *Correo electrónico*) en función de la cadena del UPN entrante ("firstName.lastName@contoso.com") del **servicio Power BI**.
@@ -169,14 +169,14 @@ En la puerta de enlace de datos local con asignación de usuario personalizado c
 Cómo configurar la puerta de enlace para realizar la búsqueda de AD:
 
 1. Descargue e instale la puerta de enlace más reciente.
-2. En la puerta de enlace, debe cambiar el **servicio de puerta de enlace de datos local** para que se ejecute con una cuenta de dominio (en lugar de con una cuenta de servicio local; en caso contrario, la búsqueda de AD no funcionará correctamente en tiempo de ejecución). Para que el cambio se aplique, debe reiniciar el servicio Gateway.  Vaya a la aplicación Gateway en su equipo (busque "puerta de enlace de datos local"). Para ello, vaya a **Configuración del servicio > Cambiar cuenta de servicio**. Asegúrese de que tiene la clave de recuperación para esta puerta de enlace, ya que necesitará restaurarla en el mismo equipo, a menos que desee crear una nueva puerta de enlace en su lugar. 
+2. En la puerta de enlace, debe cambiar el **servicio de puerta de enlace de datos local** para que se ejecute con una cuenta de dominio (en lugar de con una cuenta de servicio local; en caso contrario, la búsqueda de AD no funcionará correctamente en el runtime). Para que el cambio se aplique, habrá que reiniciar el servicio de puerta de enlace.  Vaya a la aplicación Gateway en su equipo (busque "puerta de enlace de datos local"). Para ello, vaya a **Configuración del servicio > Cambiar cuenta de servicio**. Asegúrese de que tiene la clave de recuperación para esta puerta de enlace, ya que necesitará restaurarla en el mismo equipo, a menos que desee crear una nueva puerta de enlace en su lugar. 
 3. Navegue hasta la carpeta de instalación de la puerta de enlace, *C:\Archivos de programa\Puerta de enlace de datos local* como administrador, para asegurarse de que tiene permisos de escritura, y edite el archivo siguiente:
    
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. Edite los dos valores de configuración siguientes según *sus* configuraciones de atributos de Active Directory de los usuarios de AD. Los valores de configuración que se muestran a continuación son solo ejemplos: es necesario especificarlos según la configuración de Active Directory. 
    
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
-5. Reinicie el servicio **Puerta de enlace de datos local** para que surta efecto el cambio de configuración.
+5. Reinicie el servicio de **puerta de enlace de datos local** para que se aplique el cambio en la configuración.
 
 ### <a name="working-with-mapping-rules"></a>Trabajar con reglas de asignación
 Para crear una regla de asignación, escriba un valor para **Nombre original** y **Nuevo nombre** y, a continuación, seleccione **Agregar**.
@@ -192,7 +192,7 @@ Cuando seleccione un elemento en la lista, puede reordenarlo utilizando los **ic
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard"></a>Uso del carácter comodín (*)
+### <a name="using-wildcard-"></a>Uso del carácter comodín (*)
 Puede usar un carácter comodín para su cadena **Reemplazar (nombre original)**. Únicamente se puede usar solo y no puede ir acompañado de ninguna otra parte de la cadena. Así, podrá usar todos los usuarios y pasar un valor único al origen de datos. Esto es útil si quiere que todos los usuarios de su organización usen el mismo usuario en su entorno local.
 
 ### <a name="test-a-mapping-rule"></a>Prueba de una regla de asignación
@@ -221,7 +221,7 @@ En la pestaña Administradores, de la puerta de enlace, puede agregar y quitar u
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings8.png)
 
 ## <a name="manage-users"></a>Administrar usuarios
-En la pestaña Usuarios, del origen de datos, puede agregar y quitar usuarios o grupos de seguridad que pueden usar este origen de datos.
+En la pestaña Usuarios del origen de datos puede agregar y quitar los usuarios o grupos de seguridad que pueden usar este origen de datos.
 
 > [!NOTE]
 > La lista de usuarios solo controla quién tiene permiso para publicar informes. Los propietarios de informes pueden crear paneles o paquetes de contenido y compartirlos con otros usuarios.
@@ -255,6 +255,6 @@ Si aparece en la pestaña **Usuarios** del origen de datos configurado dentro de
 ## <a name="next-steps"></a>Pasos siguientes
 [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)  
 [Detalles sobre la puerta de enlace de datos local](service-gateway-onprem-indepth.md)  
-[Troubleshooting the On-Premises Data Gateway (Solución de problemas con la puerta de enlace de datos local)](service-gateway-onprem-tshoot.md)  
+[Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

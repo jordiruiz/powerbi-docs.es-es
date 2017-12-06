@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: ed75e0eea452f73017259ec9c86c5a8371853fa3
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: acdf174ecf580593e05a784f49122dd33b484cfa
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="troubleshooting-tile-errors"></a>Solución de problemas de errores de icono
 A continuación se muestran los errores comunes que pueden producirse con los iconos y una explicación.
@@ -69,7 +69,7 @@ Este suele ser un problema transitorio. Si lo intenta más tarde y se sigue most
 Si sigue teniendo problemas, [póngase en contacto con el soporte técnico](https://support.powerbi.com) para que lo investiguen más a fondo.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Troubleshooting the On-Premises Data Gateway (Solución de problemas con la puerta de enlace de datos local)](service-gateway-onprem-tshoot.md)  
+[Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)  
 [Solución de problemas de Power BI Personal Gateway](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

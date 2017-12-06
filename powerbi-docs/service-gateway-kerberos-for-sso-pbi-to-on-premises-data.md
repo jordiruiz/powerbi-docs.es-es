@@ -17,14 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: c676fafe2274139efdc7b4a5be5174b86ade5b50
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: c00281d6b9e8a75df3b08cf1f99d0c9357129816
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos para el SSO (inicio de sesión único) de Power BI en orígenes de datos locales
-Puede lograr una conectividad de inicio de sesión único perfecta con la habilitación de la actualización de los informes y paneles de Power BI con datos locales, mediante la configuración de la puerta de enlace de datos local con Kerberos. La puerta de enlace de datos local facilita el inicio de sesión único (SSO) con DirectQuery, que utiliza para conectarse a los orígenes de datos locales.
+Puede lograr una conectividad de inicio de sesión único perfecta con la habilitación de la actualización de los informes y paneles de Power BI con datos locales, mediante la configuración de la puerta de enlace de datos local con Kerberos. La puerta de enlace de datos local facilita el inicio de sesión único (SSO) mediante DirectQuery, que es lo que utiliza para conectarse a los orígenes de datos locales.
 
 Se admiten actualmente los siguiente orígenes de datos, SQL Server, SAP HANA y Teradata, basados en la [delegación restringida de Kerberos](https://technet.microsoft.com/library/jj553400.aspx).
 
@@ -85,19 +85,19 @@ El resultado es que, debido a la insuficiente configuración de Kerberos, la pue
 Deben configurarse varios elementos para que la delegación restringida de Kerberos funcione correctamente, incluidos los *nombres principales de servicio* (SPN) y la configuración de delegación de cuentas de servicio.
 
 ### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>Requisito previo 1: Instalación y configuración de la puerta de enlace de datos local
-Esta versión de la puerta de enlace de datos local admite la actualización en contexto, así como la recepción de la configuración de las puertas de enlace existentes.
+Esta versión de la puerta de enlace de datos local admite la actualización in situ, así como la adquisición de la configuración de las puertas de enlace existentes.
 
-### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Requisito previo 2: Ejecución del servicio de Windows de puerta de enlace como una cuenta de dominio
+### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Requisito previo 2: Ejecución del servicio de Windows de puerta de enlace como cuenta de dominio
 En una instalación estándar, la puerta de enlace se ejecuta como una cuenta de servicio de la máquina local (en concreto, *NT Service\PBIEgwService*) como se muestra en la siguiente imagen:
 
 ![](media/service-gateway-kerberos-for-sso-pbi-to-on-premises-data/kerberos-sso-on-prem_04.png)
 
 Para habilitar la **delegación restringida de Kerberos**, debe ejecutar la puerta de enlace como una cuenta de dominio, a menos que AAD ya esté sincronizado con su Active Directory local (mediante AAD DirSync o AAD Connect). Para que este cambio de cuenta funcione correctamente, tiene dos opciones:
 
-* Si ha comenzado con una versión anterior de la puerta de enlace de datos local, siga con precisión los cinco pasos en secuencia (incluida la ejecución de la configuración de la puerta de enlace en el paso 3) que se describen en el siguiente artículo:
+* Si comenzó con una versión anterior de la puerta de enlace de datos local, siga al pie de la letra los cinco pasos en secuencia (incluida la ejecución de la configuración de la puerta de enlace en el paso 3) que se describen en el siguiente artículo:
   
   * [Cambio de la cuenta de servicio de la puerta de enlace a un usuario de dominio](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/#changing-the-gateway-service-account-to-a-domain-user)
-  * Si ya instaló la versión preliminar de la puerta de enlace de datos local, hay un nuevo enfoque a través de la interfaz de usuario para cambiar la cuenta de servicio directamente desde dentro de la configuración de la puerta de enlace. Consulte la sección **Cambio de la puerta de enlace a una cuenta de dominio** cerca del final de este artículo.
+  * Si ya ha instalado la versión preliminar de la puerta de enlace de datos local, hay un nuevo enfoque a través de la interfaz de usuario para cambiar de cuenta de servicio directamente desde dentro del configurador de la puerta de enlace. Consulte la sección **Cambio de la puerta de enlace a una cuenta de dominio** cerca del final de este artículo.
 
 > [!NOTE]
 > Si AAD DirSync o AAD Connect están configurados y las cuentas de usuario están sincronizadas, el servicio de puerta de enlace no necesita realizar búsquedas de AD locales en tiempo de ejecución y puede usar el SID de servicio local (en lugar de requerir una cuenta de dominio) para el servicio de puerta de enlace. Los pasos de configuración de la delegación restringida de Kerberos que se describen en este artículo son los mismos que esa configuración (simplemente se aplican en función del SID de servicio, en lugar de la cuenta de dominio).
@@ -118,10 +118,10 @@ Tenga en cuenta que debe ser un administrador de dominio para realizar esos dos 
 En las siguientes secciones se describen estos pasos.
 
 ### <a name="configure-an-spn-for-the-gateway-service-account"></a>Configuración de un SPN para la cuenta de servicio de la puerta de enlace
-En primer lugar, determine si ya se creó un SPN para la cuenta de dominio que se usa como la cuenta de servicio de la puerta de enlace, pero siguiendo estos pasos:
+En primer lugar, determine si ya se ha creado un nombre de entidad de seguridad de servicio para la cuenta de dominio que se usa como la cuenta de servicio de la puerta de enlace, pero siguiendo estos pasos:
 
 1. Como administrador de dominio, inicie **Usuarios y equipos de Active Directory**
-2. Haga clic con el botón derecho en el dominio, seleccione **Buscar** y escriba el nombre de cuenta de la cuenta de servicio de la puerta de enlace
+2. Haga clic con el botón derecho en el dominio, seleccione **Buscar** y escriba el nombre de la cuenta de servicio de la puerta de enlace
 3. En el resultado de la búsqueda, haga clic con el botón derecho en la cuenta de servicio de la puerta de enlace y seleccione **Propiedades**.
    
    * Si la pestaña **Delegación** está visible en el cuadro de diálogo **Propiedades**, ya se ha creado un SPN y puede pasar a la siguiente subsección sobre cómo configurar la delegación.
@@ -134,10 +134,10 @@ Imagine, por ejemplo, que la cuenta de servicio de la puerta de enlace es "PBIEg
 
 Con ese paso completado, podemos continuar con la configuración de las opciones de delegación.
 
-### <a name="configure-delegation-settings-on-the-gateway-service-account"></a>Configuración de las opciones de delegación en la cuenta de servicio de la puerta de enlace
-El segundo requisito de configuración es la configuración de la delegación en la cuenta de servicio de la puerta de enlace. Hay varias herramientas que puede usar para realizar estos pasos. En este artículo, vamos a usar **Usuarios y equipos de Active Directory**, que es un complemento de Microsoft Management Console (MMC) que puede usar para administrar y publicar información en el directorio y está disponible en los controladores de dominio de forma predeterminada. También puede habilitarlo a través de la configuración de las **Características de Windows** en otros equipos.
+### <a name="configure-delegation-settings-on-the-gateway-service-account"></a>Configuración de los valores de delegación en la cuenta de servicio de la puerta de enlace
+El segundo requisito de la configuración es la configuración de la delegación en la cuenta de servicio de la puerta de enlace. Hay varias herramientas que puede usar para realizar estos pasos. En este artículo, vamos a usar **Usuarios y equipos de Active Directory**, que es un complemento de Microsoft Management Console (MMC) que puede usar para administrar y publicar información en el directorio y está disponible en los controladores de dominio de forma predeterminada. También puede habilitarlo a través de la configuración de las **Características de Windows** en otros equipos.
 
-Es necesario configurar la **delegación restringida de Kerberos** con tránsito de protocolo. Con la delegación restringida, debe ser explícito con los servicios que desea delegar: por ejemplo, solo SQL Server o el servidor de SAP HANA aceptarán llamadas de delegación de la cuenta de servicio de la puerta de enlace.
+Es necesario configurar la **delegación restringida de Kerberos** con tránsito de protocolo. Con la delegación restringida, es preciso ser explícito con los servicios a los que desea delegar (por ejemplo, solo SQL Server o el servidor de SAP HANA aceptarán llamadas de delegación de la cuenta de servicio de la puerta de enlace).
 
 En esta sección se da por supuesto que ya ha configurado los SPN de los orígenes de datos subyacentes (como SQL Server, SAP HANA, Teradata, etc.). Para obtener información sobre cómo configurar los SPN del servidor del origen de datos, consulte la documentación técnica para el servidor de base de datos respectivo. También puede buscar en la entrada de blog que describe [ *¿Qué SPN requiere la aplicación?*](https://blogs.msdn.microsoft.com/psssql/2010/06/23/my-kerberos-checklist/)
 
@@ -177,7 +177,7 @@ Con esos nombres y configuración de ejemplo, los pasos de configuración son lo
     
     Haga clic con el botón derecho y abra las **Propiedades** de **Suplantar a un cliente tras la autenticación** y compruebe la lista de cuentas. Debe incluir la cuenta de servicio de la puerta de enlace (**PBIEgwTest\GatewaySvc**).
 17. En la lista de directivas en **Asignación de derechos de usuario**, seleccione **Actuar como parte del sistema operativo (SeTcbPrivilege)**. Asegúrese también de que la cuenta de servicio de la puerta de enlace está incluida en la lista de cuentas.
-18. Reinicie el proceso del servicio de **Puerta de enlace de datos local**.
+18. Reinicie el proceso del servicio de la **puerta de enlace de datos local**.
 
 ## <a name="running-a-power-bi-report"></a>Ejecución de un informe de Power BI
 Después de completar todos los pasos de configuración que se describen anteriormente en este artículo, puede utilizar la página **Administrar puerta de enlace** en Power BI para configurar el origen de datos y, en **Configuración avanzada**, habilitar SSO y, a continuación, publicar informes y el enlace de conjuntos de datos en ese origen de datos.
@@ -187,9 +187,9 @@ Después de completar todos los pasos de configuración que se describen anterio
 Esta configuración funciona en la mayoría de los casos. Sin embargo, con Kerberos puede haber distintas configuraciones en función de su entorno. Si todavía no se pudo cargar el informe, debe ponerse en contacto con el administrador de dominio para investigar en profundidad.
 
 ## <a name="switching-the-gateway-to-a-domain-account"></a>Cambio de la puerta de enlace a una cuenta de dominio
-Anteriormente en este artículo, analizamos el cambio de la puerta de enlace de una cuenta de servicio local para que se ejecute como una cuenta de dominio, usando la interfaz de usuario **Puerta de enlace de datos local**. Estos son los pasos necesarios para hacerlo.
+En este artículo ya se ha analizado el cambio de la puerta de enlace de una cuenta de servicio local para que se ejecute como una cuenta de dominio, usando la interfaz de usuario de la **puerta de enlace de datos local**. Estos son los pasos necesarios para hacerlo.
 
-1. Inicie la herramienta de configuración **Puerta de enlace de datos local**.
+1. Inicie la herramienta de configuración de la **puerta de enlace de datos local**.
    
    ![](media/service-gateway-kerberos-for-sso-pbi-to-on-premises-data/kerberos-sso-on-prem_10.png)
 2. Seleccione el botón **Inicio de sesión** situado en la página principal e inicie sesión con su cuenta de Power BI.
@@ -199,7 +199,7 @@ Anteriormente en este artículo, analizamos el cambio de la puerta de enlace de 
    ![](media/service-gateway-kerberos-for-sso-pbi-to-on-premises-data/kerberos-sso-on-prem_11.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-Para más información sobre la **Puerta de enlace de datos local** y **DirectQuery**, consulte los recursos siguientes:
+Para más información acerca de la **puerta de enlace de datos local** y **DirectQuery**, consulte los recursos siguientes:
 
 * [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)
 * [DirectQuery en Power BI](desktop-directquery-about.md)

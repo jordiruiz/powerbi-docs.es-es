@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/28/2017
 ms.author: davidi
-ms.openlocfilehash: a606798e613bbfa4c1f304d89afa5f8ebd02f81d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9a2f191dcf88d3506ab0724c0916064b31fbf3f0
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Preguntas más frecuentes sobre Power BI para clientes en la nube de Alemania
 El **servicio Power BI** tiene una versión disponible para los clientes de la Unión Europea o pertenecientes al Acuerdo Europeo de Libre Comercio (UE/AELC) a la que a menudo se hace referencia como Microsoft Cloud Deutschland (MCD). La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la UE/AELC y es distinta de la versión comercial del **servicio Power BI** o de los servicios Power BI proporcionados a clientes gubernamentales.
@@ -42,7 +42,7 @@ Las siguientes preguntas y respuestas proporcionan información importante para 
 4. **¿Hay algún servicio gratis en el servicio Power BI para la nube de Alemania?**
    
    No. No ofrecemos versiones de licencia gratis en el servicio Power BI para la nube de Alemania. Sin embargo, le animamos a que se suscriba a la [oferta de Power BI gratis en la nube pública](https://powerbi.microsoft.com/get-started/) si con esta se satisfacen sus necesidades empresariales.
-5. **¿Puedo usar Power BI Desktop, Power BI Mobile, Puerta de enlace de datos local y Publisher para Excel con el servicio Power BI para la nube de Alemania?**
+5. **¿Puedo usar Power BI Desktop, Power BI Mobile, la puerta de enlace de datos local y Publisher para Excel con el servicio Power BI para la nube de Alemania?**
    
    Sí. Hemos actualizado nuestros productos para clientes de Power BI para que funcionen sin problemas con el servicio Power BI para la nube de Alemania. Inicie sesión con su cuenta del servicio Power BI para la nube de Alemania para empezar a usar los productos para clientes. Puede descargar la versión más reciente de los productos para clientes desde las ubicaciones siguientes:
    

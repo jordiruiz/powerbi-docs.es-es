@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/02/2017
 ms.author: davidi
-ms.openlocfilehash: 644078dc61a69cf27cb93b29409546d61e1706f2
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 95fccd70b536a26baf93bf4735750e5599e3021f
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---sql-server"></a>Administrar el origen de datos: SQL Server
-Después de instalar la puerta de enlace de datos local, puede agregar los orígenes de datos que se pueden usar con la puerta de enlace. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de SQL Server para la actualización programada o para DirectQuery.
+Después de instalar la puerta de enlace de datos local puede agregar los orígenes de datos que se pueden usar con la puerta de enlace. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de SQL Server para la actualización programada o para DirectQuery.
 
 ## <a name="download-and-install-the-gateway"></a>Descargar e instalar la puerta de enlace
 Puede descargar la puerta de enlace desde el servicio Power BI. Seleccione **Descargas** > **Puerta de enlace de datos** o vaya a la [página de descarga de la puerta de enlace](https://go.microsoft.com/fwlink/?LinkId=698861).
@@ -32,7 +32,7 @@ Puede descargar la puerta de enlace desde el servicio Power BI. Seleccione **Des
 ![](media/service-gateway-enterprise-manage-sql/powerbi-download-data-gateway.png)
 
 ## <a name="add-a-gateway"></a>Agregar una puerta de enlace
-Para agregar una puerta de enlace, simplemente [descargue](https://go.microsoft.com/fwlink/?LinkId=698861) e instale la puerta de enlace en un servidor de su entorno. Una vez haya instalado la puerta de enlace, se mostrará en las listas de puertas de enlace en **Administrar puertas de enlace**.
+Para agregar una puerta de enlace, simplemente [descárguela](https://go.microsoft.com/fwlink/?LinkId=698861) e instálela en un servidor de su entorno. Una vez haya instalado la puerta de enlace, se mostrará en las listas de puertas de enlace en **Administrar puertas de enlace**.
 
 > [!NOTE]
 > La opción **Administrar puertas de enlace** no se mostrará hasta que sea administrador de una puerta de enlace como mínimo. Esto se produce cuando se le agrega como administrador a una puerta de enlace, o si instala y configura una puerta de enlace usted mismo.
@@ -128,7 +128,7 @@ Si aparece en la pestaña **Usuarios** del origen de datos configurado dentro de
 ## <a name="next-steps"></a>Pasos siguientes
 * [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)  
 * [Detalles sobre la puerta de enlace de datos local](service-gateway-onprem-indepth.md)  
-* [Troubleshooting the On-Premises Data Gateway (Solución de problemas con la puerta de enlace de datos local)](service-gateway-onprem-tshoot.md)
+* [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)
 * [Uso de Kerberos para el SSO (inicio de sesión único) de Power BI en orígenes de datos locales](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md). 
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

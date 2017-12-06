@@ -1,6 +1,6 @@
 ---
-title: "Troubleshooting the On-Premises Data Gateway (Solución de problemas con la puerta de enlace de datos local)"
-description: "Este artículo proporciona métodos para solucionar los problemas que tiene con la puerta de enlace de datos local. Proporciona posibles soluciones a problemas conocidos, así como herramientas para ayudarle."
+title: "Solución de problemas con la puerta de enlace de datos local"
+description: "En este artículo se indican distintas formas de solucionar los problemas que surjan con la puerta de enlace de datos local. Proporciona posibles soluciones a problemas conocidos, así como herramientas para ayudarle."
 services: powerbi
 documentationcenter: 
 author: davidiseminger
@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 2663c9f2adf69ce224de90feb822b7cfedc935a5
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 62405898f06a75fdad9da1f635f01bebdb445d2e
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
-# <a name="troubleshooting-the-on-premises-data-gateway"></a>Troubleshooting the On-Premises Data Gateway (Solución de problemas con la puerta de enlace de datos local)
-En este artículo se examinan algunos problemas comunes que pueden producirse al usar la **puerta de enlace de datos local**.
+# <a name="troubleshooting-the-on-premises-data-gateway"></a>Solución de problemas con la puerta de enlace de datos local
+En este artículo se examinan algunos problemas comunes que pueden aparecer al usar la **puerta de enlace de datos local**.
 
 <!-- Shared Community & support links Include -->
 [!INCLUDE [gateway-onprem-tshoot-support-links-include](./includes/gateway-onprem-tshoot-support-links-include.md)]
@@ -82,9 +82,9 @@ Para corregir este problema, haga lo siguiente.
 4. Opcionalmente, aplique la clave de recuperación para restaurar una puerta de enlace existente.
 
 ### <a name="support-for-tls-1112"></a>Compatibilidad con TLS 1.1 y 1.2
-Con la actualización de agosto de 2017 y posteriores, la puerta de enlace de datos local usa Seguridad de la capa de transporte (TLS) 1.1 o 1.2 para comunicarse con el **servicio Power BI** de forma predeterminada. Las versiones anteriores de la puerta de enlace de datos local usa TLS 1.0 de forma predeterminada. El 1 de noviembre de 2017 la compatibilidad con TLS 1.0 terminará, por lo que debe actualizar las instalaciones de la puerta de enlace de datos local a la versión de agosto de 2017 o a otra más reciente para asegurarse de que las puertas de enlace sigan funcionando.
+Con la actualización de agosto de 2017 y posteriores, la puerta de enlace de datos local usa Seguridad de la capa de transporte (TLS) 1.1 o 1.2 para comunicarse con el **servicio Power BI** de forma predeterminada. Las versiones anteriores de la puerta de enlace de datos local usan TLS 1.0 de forma predeterminada. El 1 de noviembre de 2017 terminará la compatibilidad con TLS 1.0, por lo que antes de esa fecha debe actualizar las instalaciones de la puerta de enlace de datos local a la versión de agosto de 2017, o a otra más reciente, para asegurarse de que las puertas de enlace siguen funcionando.
 
-Es importante tener en cuenta que TLS 1.0 seguirá siendo compatible con la puerta de enlace de datos local antes del 1 de noviembre y la puerta de enlace la utilizará como un mecanismo de reserva. Para asegurarse de que todo el tráfico de la puerta de enlace usa TLS 1.1 o 1.2 (y para impedir el uso de TLS 1.0 en la puerta de enlace), debe agregar o modificar las siguientes claves de registro en la máquina que ejecuta el servicio de puerta de enlace:
+Es importante tener en cuenta que la versión TLS 1.0 seguirá siendo compatible con la puerta de enlace de datos local antes del 1 de noviembre y la puerta de enlace la utilizará como un mecanismo de reserva. Para asegurarse de que todo el tráfico de la puerta de enlace usa TLS 1.1 o 1.2 (y para impedir el uso de TLS 1.0 en la puerta de enlace), debe agregar o modificar las siguientes claves de registro en la máquina que ejecuta el servicio de puerta de enlace:
 
         [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
         [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
@@ -114,7 +114,7 @@ Este error puede producirse por diferentes motivos. Asegúrese de validar que pu
 
 En **Mostrar detalles**, verá el código de error **DM_GWPipeline_UnknownError**.
 
-También puede buscar en los Registros de eventos > **Registros de aplicaciones y servicios** > **On-premises Data Gateway Service** (Servicio de puerta de enlace de datos local) para obtener más información.
+Para más información, también puede mirar en Registros de eventos > **Registros de aplicaciones y servicios** > **Servicio de puerta de enlace de datos local**.
 
 ### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Error: Hemos detectado un error al intentar conectar con <server>. Detalles: "We reached the data gateway, but the gateway can't access the on-premises data source." (Se conectó con la puerta de enlace de datos, pero esta no puede acceder al origen de datos local)
 No se pudo establecer la conexión al origen de datos especificado. Asegúrese de validar la información proporcionada para ese origen de datos.
@@ -169,7 +169,6 @@ Esto se puede deber a diversos escenarios.
 1. El nombre del servidor y de la base de datos no coinciden con lo que se especificó en Power BI Desktop y el origen de datos configurado para la puerta de enlace. Estos valores deben ser iguales. No distinguen mayúsculas de minúsculas.
 2. La cuenta no aparece en la pestaña **Usuarios** del origen de datos dentro de la configuración de puerta de enlace. Deberá ponerse en contacto con el Administrador de la puerta de enlace para que lo agregue a la lista.
 3. El archivo de Power BI Desktop contiene varios orígenes de datos y no todos están configurados con la puerta de enlace de datos. Debe hacer que cada origen de datos esté definido con la puerta de enlace para que esta aparezca en la actualización programada.
-
 
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>Error: los datos sin comprimir recibidos en el cliente de puerta de enlace han superado el límite.
 El límite exacto es de 10 GB de datos sin comprimir por tabla. Si surge este problema, existen opciones para optimizar y evitar el problema. En concreto, puede reducir el uso de valores de cadena muy repetitivos y largos; en su lugar, utilice una clave normalizada o quite la columna (si no está en uso).

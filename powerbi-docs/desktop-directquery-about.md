@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: a2e533cccca9ec8748ab1a9c37ce5ff1577b357c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2a499418572582388552e6a258051b2abddfc1bd
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="using-directquery-in-power-bi"></a>Uso de DirectQuery en Power BI
 Puede conectarse a todo tipo de orígenes de datos distintos cuando usa **Power BI Desktop** o el **servicio Power BI** y puede establecer esas conexiones de datos de distintas formas. Puede *importar* datos a Power BI, que es la forma más común de obtener datos, o bien puede conectarse directamente a los datos en su repositorio de origen original, que se conoce como **DirectQuery**. En este artículo se describe **DirectQuery** y sus funcionalidades, incluidos los temas siguientes:
@@ -87,7 +87,7 @@ La situación descrita en el párrafo anterior también se aplica a las conexion
 
 El comportamiento de los informes sobre SSAS, después de la publicación en el **servicio Power BI**, es similar a los informes de DirectQuery de las siguientes maneras:
 
-* Cuando se abre un informe existente en el **servicio Power BI** o se crea un informe nuevo, se consulta el origen SSAS subyacente (requiriendo posiblemente una puerta de enlace de datos local)
+* Cuando se abre un informe existente en el **servicio Power BI** o se crea un informe nuevo, se consulta el origen SSAS subyacente (que posiblemente necesite una puerta de enlace de datos local)
 * Los iconos de panel se actualizan automáticamente según una programación (como cada hora o según la frecuencia definida)
 
 Sin embargo, también hay diferencias importantes, entre las que se incluyen que, para las conexiones dinámicas, la identidad del usuario que abre el informe siempre se pasará al origen SSAS subyacente.

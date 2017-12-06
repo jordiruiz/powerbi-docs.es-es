@@ -1,6 +1,6 @@
 ---
 title: Detalles sobre la puerta de enlace de datos local
-description: "Este artículo examina en profundidad la puerta de enlace local. Describe cómo funciona el servicio con Azure Active Directory y Active Directory local cuando se trabaja con Analysis Services"
+description: "En este artículo se examina la puerta de enlace global en profundidad. Describe cómo funciona el servicio con Azure Active Directory y Active Directory local cuando se trabaja con Analysis Services"
 services: powerbi
 documentationcenter: 
 author: davidiseminger
@@ -17,18 +17,18 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: c030f1b18b654be6bba6a7bf2d10af322567c4d1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ca1761c0708681e6b413ba679980bacb3931e01d
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Detalles sobre la puerta de enlace de datos local
 Los usuarios de su organización pueden acceder a los datos locales (para los que ya tienen permiso de acceso), pero antes de que puedan conectarse al origen de datos local, es necesario instalar y configurar una puerta de enlace de datos local. La puerta de enlace facilita la comunicación interna entre un usuario en la nube y el origen de datos local, y de vuelta a la nube de una manera rápida y segura.
 
 La instalación y configuración de la puerta de enlace suele estar a cargo de un administrador. Puede requerir un conocimiento especial de los servidores locales y, en algunos casos, también se requieren permisos de administrador del servidor.
 
-En este artículo no se proporcionan instrucciones paso a paso acerca de cómo instalar y configurar una puerta de enlace. Para ello, asegúrese de ver [On-premises data gateway](service-gateway-onprem.md) (Puerta de enlace de datos local). El objetivo de este artículo es profundizar acerca del funcionamiento de la puerta de enlace. También se ofrece información detallada sobre los nombres de usuario y la seguridad en Azure Active Directory y Analysis Services, e información sobre cómo el servicio en la nube usa la puerta de enlace, Active Directory y la dirección de correo con la que un usuario inicia sesión, para conectarse de forma segura y consultar los datos locales.
+En este artículo no se proporcionan instrucciones paso a paso acerca de cómo instalar y configurar una puerta de enlace. Para eso, asegúrese de consultar [Puerta de enlace de datos local](service-gateway-onprem.md). El objetivo de este artículo es profundizar acerca del funcionamiento de la puerta de enlace. También se ofrece información detallada sobre los nombres de usuario y la seguridad en Azure Active Directory y Analysis Services, e información sobre cómo el servicio en la nube usa la puerta de enlace, Active Directory y la dirección de correo con la que un usuario inicia sesión, para conectarse de forma segura y consultar los datos locales.
 
 <!-- Shared Requirements Include -->
 [!INCLUDE [gateway-onprem-requirements-include](./includes/gateway-onprem-how-it-works-include.md)]
@@ -119,13 +119,13 @@ Algunas veces no se puede instalar la puerta de enlace. O es posible que la puer
 
 En otros casos, es posible que haya problemas con el tipo de dirección de correo electrónico con el que los usuarios inician sesión, o que Analysis Services no pueda resolver un nombre de usuario efectivo. Si tiene varios dominios con confianzas entre ellos y la puerta de enlace está en uno y Analysis Services en otro, en ocasiones esto puede causar algunos problemas.
 
-No ahondaremos aquí en cómo resolver los problemas de la puerta de enlace. Para ello hemos preparado una serie de pasos en el artículo [Troubleshooting the On-premises Data Gateway](service-gateway-onprem-tshoot.md) (Solución de problemas con la puerta de enlace de datos local). Esperamos que no tenga problemas. Pero si los tiene, le será provechoso comprender cómo funciona todo esto junto con el artículo de solución de problemas.
+En lugar de ahondar aquí en cómo solucionar los problemas de la puerta de enlace, hemos incluido en otro artículo, [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md), una serie de pasos para hacerlo. Esperamos que no tenga problemas. Pero si los tiene, le será provechoso comprender cómo funciona todo esto junto con el artículo de solución de problemas.
 
 <!-- Account and Port information -->
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Troubleshooting the On-Premises Data Gateway (Solución de problemas con la puerta de enlace de datos local)](service-gateway-onprem-tshoot.md)  
+[Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)  
 [Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/)  
 [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

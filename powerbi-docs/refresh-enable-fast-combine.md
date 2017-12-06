@@ -17,15 +17,15 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 9ec0e5582de9c93a64b1ff02ef6d7f406b941284
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 11f233321f9be1db5afccad02edbe33900a555ca
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Deshabilitar la configuración de privacidad en Power BI Gateway - Personal
 > [!NOTE]
-> Hay una nueva versión de la puerta de enlace personal para Power BI, denominada **Puerta de enlace de datos local (modo personal)**. En el artículo siguiente se describe la versión anterior de la puerta de enlace personal, denominada **Power BI Gateway - Personal**, que se va a retirar y dejará de funcionar a partir del 31 de julio de 2017. Para más información acerca de la nueva versión de la puerta de enlace personal, incluido cómo instalar la nueva versión, consulte el artículo [**Puerta de enlace de datos local (modo personal)**](service-gateway-personal-mode.md). Combinación rápida también está disponible en la nueva versión de la puerta de enlace personal y se describe también en dicho artículo.
+> Hay una nueva versión de la puerta de enlace personal para Power BI, denominada **puerta de enlace de datos local (modo personal)**. En el artículo siguiente se describe la versión anterior de la puerta de enlace personal, denominada **Power BI Gateway - Personal**, que se va a retirar y dejará de funcionar a partir del 31 de julio de 2017. Para más información acerca de la nueva versión de la puerta de enlace personal, incluido cómo instalar la nueva versión, consulte el artículo [**Puerta de enlace de datos local (modo personal)**](service-gateway-personal-mode.md). Combinación rápida también está disponible en la nueva versión de la puerta de enlace personal y se describe también en dicho artículo.
 > 
 > 
 
@@ -50,7 +50,7 @@ Para más información sobre los niveles de privacidad y la opción Combinación
 Al activar Combinación rápida se ignorará el valor de privado y se podrá producir la ejecución.
 
 ## <a name="turn-on-fast-combine"></a>Activar Combinación rápida
-Puede usar los pasos siguientes para habilitar Combinación rápida para la puerta de enlace personal. La puerta de enlace de datos local no tiene esta configuración.
+Puede usar los pasos siguientes para habilitar Combinación rápida para la puerta de enlace personal. La puerta de enlace de datos local no tiene este valor.
 
 1. Abra **ConnectorConfig.xml**.  Puede tratarse de una de estas dos ubicaciones en el equipo.  Si es administrador en el equipo, será la siguiente.
    

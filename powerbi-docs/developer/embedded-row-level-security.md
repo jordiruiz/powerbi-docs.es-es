@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/09/2017
 ms.author: asaxton
-ms.openlocfilehash: 1f59bd4e0178b1fe1b67f57b085de69da1b06951
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Uso de la seguridad de nivel de fila con contenido insertado de Power BI
 La seguridad de nivel de fila (RLS) se puede usar para restringir el acceso a los datos por el usuario dentro de un informe o un conjunto de datos, lo que permite que varios usuarios diferentes usen el mismo informe mientras ven datos diferentes. Se puede hacer uso de RLS al insertar informes desde Power BI.
@@ -132,9 +132,9 @@ La seguridad de nivel de fila se puede usar con conexiones dinámicas de Analysi
 
 La identidad efectiva que se proporciona para la propiedad del nombre de usuario debe ser la de un usuario de Windows con permisos en el servidor de Analysis Services.
 
-**Configuración de puerta de enlace de datos local**
+**Configuración de una puerta de enlace de datos local**
 
-Se usa una [puerta de enlace de datos local](../service-gateway-onprem.md) cuando se trabaja con conexiones activas de Analysis Services. Cuando se genera un token de inserción, con una identidad mostrada, la cuenta maestra debe aparecer como administrador de la puerta de enlace. Si no aparece la cuenta maestra, la seguridad de nivel de fila no se aplicará a los datos. Un usuario de la puerta de enlace distinto del administrador puede proporcionar roles, pero deberá especificar su propio nombre de usuario para la identidad efectiva.
+Una [puerta de enlace de datos local](../service-gateway-onprem.md) se usa cuando se trabaja con conexiones dinámicas de Analysis Services. Cuando se genera un token de inserción, con una identidad mostrada, la cuenta maestra debe aparecer como administrador de la puerta de enlace. Si no aparece la cuenta maestra, la seguridad de nivel de fila no se aplicará a los datos. Un usuario de la puerta de enlace distinto del administrador puede proporcionar roles, pero deberá especificar su propio nombre de usuario para la identidad efectiva.
 
 **Uso de roles**
 

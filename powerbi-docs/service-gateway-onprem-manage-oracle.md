@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: bbe163f310eb839a3e815d34c72c981257f5b627
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 820bd1fabbb2770b938160420ac0e5bf97ece703
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---oracle"></a>Administrar el origen de datos: Oracle
-Después de instalar la puerta de enlace de datos local, debe agregar los orígenes de datos que se pueden usar con la puerta de enlace. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de Oracle tanto para la actualización programada como para DirectQuery.
+Una vez que haya instalado la puerta de enlace de datos local, tendrá que agregar orígenes de datos que se puedan usar con ella. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de Oracle tanto para la actualización programada como para DirectQuery.
 
 ## <a name="download-and-install-the-gateway"></a>Descargar e instalar la puerta de enlace
 Puede descargar la puerta de enlace desde el servicio Power BI. Seleccione **Descargas** > **Puerta de enlace de datos** o vaya a la [página de descarga de la puerta de enlace](https://go.microsoft.com/fwlink/?LinkId=698861).
@@ -41,7 +41,7 @@ En el caso de las versiones de **32 bits** de Power BI Desktop, use el vínculo 
 
 * [Oracle Data Access Components (ODAC) de 32 bits con Oracle Developer Tools para Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
-En el caso de las versiones de **64 bits** de Power BI Desktop, o bien en el caso de la puerta de enlace de datos local, use el vínculo siguiente para descargar e instalar el cliente de **64 bits** de Oracle:
+En el caso de las versiones de **64 bits** de Power BI Desktop o en el de la puerta de enlace de datos local, use el siguiente vínculo para descargar e instalar el cliente de Oracle de **64 bits**:
 
 * [ODAC 12.2c versión 1 (12.2.0.1.0) de 64 bits para Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
@@ -72,7 +72,7 @@ CONTOSO =
 ```
 
 ## <a name="add-a-gateway"></a>Agregar una puerta de enlace
-Para agregar una puerta de enlace, simplemente [descargue](https://go.microsoft.com/fwlink/?LinkId=698861) e instale la puerta de enlace en un servidor de su entorno. Una vez haya instalado la puerta de enlace, se mostrará en las listas de puertas de enlace en **Administrar puertas de enlace**.
+Para agregar una puerta de enlace, simplemente [descárguela](https://go.microsoft.com/fwlink/?LinkId=698861) e instálela en un servidor de su entorno. Una vez haya instalado la puerta de enlace, se mostrará en las listas de puertas de enlace en **Administrar puertas de enlace**.
 
 > [!NOTE]
 > La opción **Administrar puertas de enlace** no se mostrará hasta que sea administrador de una puerta de enlace como mínimo. Esto puede suceder si alguien le agrega como administrador o si instala y configura una puerta de enlace.
@@ -176,12 +176,12 @@ Estos errores se pueden producir si el cliente de Oracle no está instalado o si
 > 
 > 
 
-Para obtener información sobre la solución de problemas relativos a la puerta de enlace, consulte [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md).
+Para más información acerca de la solución de problemas relativos a la puerta de enlace, consulte [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)  
 [Detalles sobre la puerta de enlace de datos local](service-gateway-onprem-indepth.md)  
-[Troubleshooting the On-Premises Data Gateway (Solución de problemas con la puerta de enlace de datos local)](service-gateway-onprem-tshoot.md)  
+[Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)  
 [Power BI Premium](service-premium.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

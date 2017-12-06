@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 7e959054300dafcab5f38bfce121fe0ac91dca06
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 9ea93980a095ca4e626b6f8071d044448af59635
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: Crear columnas calculadas en Power BI Desktop
 A veces los datos que se está analizando simplemente no contienen un determinado campo necesario para obtener los resultados buscados. Aquí es donde entran en escena las columnas calculadas. Las columnas calculadas utilizar fórmulas de expresiones de análisis de datos (DAX) para definir los valores de una columna. Estos valores pueden ser prácticamente cualquier cosa, ya sea que reúnan los valores de texto de un par de columnas diferentes situadas en otra parte del modelo o que calculen un valor numérico a partir de otros valores. Por ejemplo, supongamos que sus datos tienen columnas de ciudad y estado (como campos en la lista de campos), pero desea un único campo de ubicación que presente ambos valores como uno solo, como Miami, Florida. Para esto es precisamente que sirven las columnas calculadas.

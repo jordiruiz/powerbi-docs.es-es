@@ -1,4 +1,4 @@
-## <a name="install-the-on-premises-data-gateway"></a>Instalar la puerta de enlace de datos local
+## <a name="install-the-on-premises-data-gateway"></a>Instalación de la puerta de enlace de datos local
 La puerta de enlace de datos se instala y se ejecuta en el equipo. Es mejor instalar la puerta de enlace en un equipo que puede dejarse en ejecución todo el tiempo.
 
 > [!NOTE]
@@ -20,7 +20,7 @@ Hay algunas cosas que debe saber sobre la instalación de cualquiera de los modo
 * se pueden instalar varias puertas de enlace de datos locales en equipos diferentes y administrarlas todas desde la misma interfaz de administración de puertas de enlace de Power BI (excepto en el modo personal, consulte el siguiente punto)
 * solo puede tener una puerta de enlace en modo personal en ejecución por cada usuario de Power BI. Si instala otra puerta de enlace en modo personal para el mismo usuario, incluso en un equipo diferente, la instalación más reciente reemplazará la ya existente.
 
-![on-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
+![On-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
 
 Estos son algunos aspectos que tener en cuenta antes de instalar la puerta de enlace.
 
@@ -29,11 +29,11 @@ Estos son algunos aspectos que tener en cuenta antes de instalar la puerta de en
 
 Después de instalar la puerta de enlace, debe iniciar sesión con su cuenta profesional o educativa.
 
-![on-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
+![On-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
 
 Después de iniciar sesión, tendrá la opción de configurar una nueva puerta de enlace o migrar, restaurar o tomar el control de una puerta de enlace existente.
 
-![on-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
+![On-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
 
 ## <a name="configure-a-new-gateway"></a>Configurar una nueva puerta de enlace
 1. Escriba un **nombre** para la puerta de enlace.
@@ -45,7 +45,7 @@ Después de iniciar sesión, tendrá la opción de configurar una nueva puerta d
 > 
 > 
 
-![on-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
+![On-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
 
 ### <a name="migrate-restore-or-take-over-an-existing-gateway"></a>Migrar, restaurar o tomar el control de una puerta de enlace existente
 Debe seleccionar la puerta de enlace que desea recuperar y proporcionar la clave de recuperación que se ha usado para crear la puerta de enlace.
