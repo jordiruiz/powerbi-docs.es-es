@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: b4e0e67158237acc70bad5bd3c9528f457cd94b5
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 2d780c04a207f67b4f0f7c06672f993df3818275
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-security"></a>Seguridad de Power BI
 Para obtener una explicación detallada de la seguridad de Power BI, [descargue las notas del producto de seguridad de Power BI](http://go.microsoft.com/fwlink/?LinkId=829185):
@@ -49,10 +49,10 @@ El clúster **back-end** informa de cómo interactúan los clientes autenticados
 ## <a name="data-storage-security"></a>Seguridad del almacenamiento de datos
 Power BI utiliza dos repositorios principales para almacenar y administrar datos: los datos cargados por los usuarios se envían normalmente a **Azure Blob Storage** y todos los metadatos, así como los artefactos para el propio sistema, se almacenan en **Azure SQL Database**.
 
-La línea de puntos en la imagen del clúster del **back-end** anterior aclara el límite entre los dos únicos componentes a los que los usuarios pueden obtener acceso (a la izquierda de la línea de puntos) y los roles a los que únicamente puede obtener acceso el sistema. Cuando un usuario autenticado se conecta al servicio Power BI, la conexión y cualquier solicitud del cliente se acepta y administra mediante el rol **Puerta de enlace** (para que lo administre finalmente **Azure API Management**), que luego interactúa en nombre del usuario con el resto del servicio Power BI. Por ejemplo, cuando un cliente intenta ver un panel, el rol **Puerta de enlace** acepta la solicitud y, a continuación, envía de forma independiente una solicitud al rol **Presentación** para recuperar los datos necesarios para que el explorador muestre el panel.
+La línea de puntos en la imagen del clúster del **back-end** anterior aclara el límite entre los dos únicos componentes a los que los usuarios pueden obtener acceso (a la izquierda de la línea de puntos) y los roles a los que únicamente puede obtener acceso el sistema. Cuando un usuario autenticado se conecta al servicio de Power BI, la conexión y cualquier solicitud del cliente se acepta y administra mediante el rol **Puerta de enlace** (para que lo administre finalmente **Azure API Management**), que luego interactúa en nombre del usuario con el resto del servicio de Power BI. Por ejemplo, cuando un cliente intenta ver un panel, el rol **Puerta de enlace** acepta la solicitud y, a continuación, envía de forma independiente una solicitud al rol **Presentación** para recuperar los datos necesarios para que el explorador muestre el panel.
 
 ## <a name="user-authentication"></a>Autenticación de usuarios
-Power BI usa Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) para autenticar a los usuarios que inician sesión en el servicio Power BI y, a su vez, usa las credenciales de inicio de sesión de Power BI siempre que un usuario intenta obtener acceso a recursos que requieren autenticación. Los usuarios inician sesión en el servicio Power BI con la dirección de correo electrónico usada para establecer la cuenta de Power BI; Power BI usa ese correo electrónico de inicio de sesión como *nombre de usuario eficaz*, que pasa a recursos cuando un usuario intenta conectarse a los datos. El *nombre de usuario establecido* se asigna después a un *nombre principal de usuario* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) y se resuelve en la cuenta de dominio de Windows asociada, en la que se aplica la autenticación.
+Power BI usa Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) para autenticar a los usuarios que inician sesión en el servicio Power BI y, a su vez, usa las credenciales de inicio de sesión de Power BI siempre que un usuario intenta obtener acceso a recursos que requieren autenticación. Los usuarios inician sesión en el servicio de Power BI con la dirección de correo electrónico usada para establecer la cuenta de Power BI; Power BI usa ese correo electrónico de inicio de sesión como *nombre de usuario eficaz*, que pasa a recursos cuando un usuario intenta conectarse a los datos. El *nombre de usuario establecido* se asigna después a un *nombre principal de usuario* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) y se resuelve en la cuenta de dominio de Windows asociada, en la que se aplica la autenticación.
 
 Para las organizaciones que usaron mensajes de correo electrónico de trabajo para el inicio de sesión de Power BI (como *david@contoso.com*, el *nombre de usuario eficaz* para la asignación de UPN es sencillo. Las organizaciones que no usaron correos electrónicos de trabajo para el inicio de sesión de Power BI (como *david@contoso.onmicrosoft.com*, la asignación entre AAD y las credenciales locales) requerirán una [sincronización de directorios](https://technet.microsoft.com/library/jj573653.aspx) para funcionar correctamente.
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 5c2274852c041b07a0ab4a09ed00c2dfa5d64cef
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: fc062387282bf01fd06a9e3d2420ac748c0bc592
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 > [!NOTE]
@@ -35,7 +35,7 @@ Se instala y se ejecuta como un servicio en el equipo. Como servicio, se ejecuta
 
 Cuando Power BI actualiza los datos de un origen de datos local, la puerta de enlace garantiza que su cuenta de Power BI tiene los permisos adecuados para conectarse a los datos y consultarlos desde el origen.
 
-La transferencia de datos entre Power BI y la puerta de enlace se protege mediante [Azure Service Bus](http://azure.microsoft.com/documentation/services/service-bus/). Service Bus crea un canal seguro entre el servicio Power BI y el equipo. Dado que la puerta de enlace proporciona esta conexión segura, normalmente no es necesario abrir un puerto en el firewall.
+La transferencia de datos entre Power BI y la puerta de enlace se protege mediante [Azure Service Bus](http://azure.microsoft.com/documentation/services/service-bus/). Service Bus crea un canal seguro entre el servicio de Power BI y el equipo. Dado que la puerta de enlace proporciona esta conexión segura, normalmente no es necesario abrir un puerto en el firewall.
 
 Antes de entrar en detalles acerca de la puerta de enlace, veamos algunos de los términos usados en Power BI:
 

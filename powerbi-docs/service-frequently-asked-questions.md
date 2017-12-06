@@ -15,18 +15,17 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 61d74fb9c25abb0cbc5135795d5567016f88b0c0
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 1fc6e666753ae45931604a1113f340115ec18269
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Preguntas más frecuentes acerca de Power BI
 * Si tiene otras preguntas, [pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/).
 * ¿Sigue teniendo problemas? Visite la [página de soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
-* También puede hacer clic en el icono para **ponerse en contacto con usted** ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) situado en la esquina inferior derecha de esta ventana del explorador.
 
 ## <a name="what-is-microsoft-power-bi"></a>¿Qué es Microsoft Power BI?
 [Power BI](https://powerbi.microsoft.com/) es un servicio de análisis empresarial basado en la nube que permite a cualquier persona visualizar y analizar datos de forma más rápida, eficaz y consciente. Conecta a los usuarios a una gran variedad de datos a través de paneles fáciles de usar, informes interactivos y visualizaciones atractivas que hacen que los datos cobren vida.
@@ -52,7 +51,7 @@ Aunque no es una manera directa de descubrirlo, puede ver el informe de Aplicaci
 > 
 
 ## <a name="what-is-power-bi-desktop"></a>¿Qué es Power BI Desktop?
-[Power BI Desktop](https://powerbi.microsoft.com/designer) es una aplicación de escritorio gratuita que se puede instalar directamente en un equipo. Power BI Desktop funciona junto con el servicio Power BI proporcionando exploración avanzada de datos, modelado y creación de informes con visualizaciones altamente interactivas. Puede guardar su trabajo en un archivo y publicar los datos e informes directamente en el sitio de Power BI para compartirlos con otros usuarios.
+[Power BI Desktop](https://powerbi.microsoft.com/designer) es una aplicación de escritorio gratuita que se puede instalar directamente en un equipo. Power BI Desktop funciona junto con el servicio de Power BI proporcionando exploración avanzada de datos, modelado y creación de informes con visualizaciones altamente interactivas. Puede guardar su trabajo en un archivo y publicar los datos e informes directamente en el sitio de Power BI para compartirlos con otros usuarios.
 
 ## <a name="what-do-i-need-to-use-power-bi"></a>¿Qué se necesita para usar Power BI?
 Solo un explorador web y una dirección de correo electrónico del trabajo.
@@ -105,7 +104,7 @@ Los [paquetes de contenido de servicios](service-connect-to-services.md) son sol
 Los [paquetes de contenido de la organización](service-organizational-content-pack-introduction.md) proporcionan a usuarios, profesionales de BI e integradores de sistemas las herramientas que necesitan para crear sus propios paquetes de contenido para compartir paneles, informes y conjuntos de datos diseñados específicamente en su organización.
 
 ## <a name="what-do-i-need-to-install-in-order-to-use-power-bi"></a>¿Qué es necesario instalar para poder usar Power BI?
-Para usar el servicio Power BI de forma gratuita, solo necesita un explorador web y correo electrónico.
+Para usar el servicio de Power BI de forma gratuita, solo necesita un explorador web y correo electrónico.
 
 Para explorar datos y crear informes en Power BI Desktop, descargue [Power BI Desktop](http://powerbi.microsoft.com/designer) de forma gratuita.
 
@@ -156,5 +155,4 @@ Al igual que muchos otros servicios y software de Microsoft, Power BI permite de
 ## <a name="next-steps"></a>Pasos siguientes
 * ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 * ¿Sigue teniendo problemas? Visite la [página de soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
-* También puede hacer clic en el icono **Contacto** ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) situado en la esquina inferior derecha de esta ventana del explorador.
 

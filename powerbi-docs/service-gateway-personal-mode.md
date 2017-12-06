@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/14/2017
+ms.date: 12/14/2017
 ms.author: davidi
-ms.openlocfilehash: 4162ebf02ad401242d724cb90b0f68920db435f6
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: e3072e4a99c04e977579274c6d95f5bb1007e870
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Puerta de enlace de datos local (modo personal)
 Puede utilizar orígenes de datos local y crear informes y paneles de Power BI mediante una puerta de enlace. Una **puerta de enlace** es un software que facilita el acceso a los datos que se almacenan en una red local privada, y que después le permite usar esos datos en servicios en línea como el **servicio Power BI**. La **puerta de enlace de datos local (modo personal)** es una actualización reciente de la puerta de enlace de Power BI, que permite a los usuarios instalar una puerta de enlace en su propio equipo y obtener acceso a los datos locales.
@@ -123,13 +123,13 @@ La compatibilidad con Spark está prevista para la segunda mitad del año 2017.
   * **Respuesta**: Sí, con la nueva versión ambas se pueden ejecutar de forma simultánea.
 * ¿Se puede ejecutar la **puerta de enlace de datos local (modo personal)** como un servicio?
   
-  * **Respuesta:** No, la **puerta de enlace de datos local (modo personal)** solo puede ejecutarse como una aplicación. Si necesita ejecutar la puerta de enlace como un servicio o en modo de administrador, deberá considerar la posibilidad de ejecutar la [**puerta de enlace de datos local**](service-gateway-onprem.md) (conocida anteriormente como Enterprise Gateway).
+  * **Respuesta:** No. la **puerta de enlace de datos local (modo personal)** solo puede ejecutarse como una aplicación. Si necesita ejecutar la puerta de enlace como un servicio o en modo de administrador, deberá considerar la posibilidad de ejecutar la [**puerta de enlace de datos local**](service-gateway-onprem.md) (conocida anteriormente como Enterprise Gateway).
 * ¿Con qué frecuencia se actualiza la **puerta de enlace de datos local (modo personal)**?
   
-  * **Respuesta**: Tenemos previsto actualizar cada mes la puerta de enlace personal.
+  * **Respuesta**: tenemos previsto actualizar cada mes la puerta de enlace personal.
 * ¿Por qué se me pide actualizar mis credenciales?
   
-  * **Respuesta**: Muchas situaciones pueden desencadenar una solicitud de credenciales. La más común es que haya vuelto a instalar la **puerta de enlace de datos local (modo personal)** en un equipo diferente la puerta de enlace **Power BI - Personal**. También podría haber ocurrido un problema en el origen de datos y Power BI no pudo realizar una conexión de prueba, o se ha agotado el tiempo de espera o se produjo un error del sistema. Puede actualizar las credenciales en el **servicio Power BI** en el **icono de engranaje** y seleccionando **Configuración** y **Conjuntos de datos**; ahora busque el conjunto de datos en cuestión y haga clic en *Actualizar credenciales*.
+  * **Respuesta**: muchas situaciones pueden desencadenar una solicitud de credenciales. La más común es que haya vuelto a instalar la **puerta de enlace de datos local (modo personal)** en un equipo diferente la puerta de enlace **Power BI - Personal**. También podría haber ocurrido un problema en el origen de datos y Power BI no pudo realizar una conexión de prueba, o se ha agotado el tiempo de espera o se produjo un error del sistema. Puede actualizar las credenciales en el **servicio Power BI** en el **icono de engranaje** y seleccionando **Configuración** y **Conjuntos de datos**; ahora busque el conjunto de datos en cuestión y haga clic en *Actualizar credenciales*.
 * ¿Durante cuánto tiempo estará sin conexión mi puerta de enlace personal anterior durante la actualización?
   
   * **Respuesta**: la actualización de la puerta de enlace personal a la nueva versión solo debería tardar unos minutos. 

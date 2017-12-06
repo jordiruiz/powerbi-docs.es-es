@@ -126,11 +126,11 @@ Los conjuntos de datos almacenados en caché hacen referencia a los archivos PBI
 #### <a name="directquery-dataset--report"></a>Informe y conjunto de datos DirectQuery
 **Flujo**
 
-1. Llame a GET https://api.powerbi.com/v1.0/collections/ {collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources y guarde la cadena de conexión recibida.
+1. Llame a GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources y guarde la cadena de conexión recibida.
 2. Llame a la API Download PBIX para descargar los archivos PBIX desde el área de trabajo de PaaS.
 3. Guarde los archivos PBIX.
 4. Llame a Import PBIX para importar los archivos PBIX al área de trabajo de SaaS.
-5. Actualice la cadena de conexión mediante una llamada a POST https://api.powerbi.com/v1.0/myorg/datasets/ {dataset_id}/Default.SetAllConnections
+5. Actualice la cadena de conexión mediante una llamada a POST htps://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
 6. Obtenga el identificador de GW y el identificador del origen de datos mediante una llamada a GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. Actualice las credenciales del usuario mediante una llamada a PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
