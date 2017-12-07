@@ -42,7 +42,7 @@ En este tutorial, descubrirá cómo importar una tabla de datos desde una págin
   * Paso 2: Crear una visualización de mapa
 
 ## <a name="task-1-connect-to-a-web-data-source"></a>Tarea 1: Conectarse a un origen de datos de web
- En la tarea 1, importe una tabla de resumen de torneo desde la página de Wikipedia Eurocopa en la siguiente ubicación: https://es.wikipedia.org/wiki/Eurocopa
+ En la tarea 1, importe una tabla de resumen de torneo desde la página de Wikipedia Eurocopa en la siguiente ubicación: http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship
 
 ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
