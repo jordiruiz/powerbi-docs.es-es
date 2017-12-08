@@ -252,8 +252,6 @@
           href: service-insight-types.md
         - name: Optimizar los datos para Power BI Quick Insights
           href: service-insights-optimize.md
-        - name: Visualizar un icono de panel en el modo de pantalla completa (modo de televisión)
-          href: service-tile-fullscreen-mode.md
         - name: Paneles destacados en Power BI
           href: service-dashboard-featured.md
         - name: Crear una vista de teléfono de un panel
