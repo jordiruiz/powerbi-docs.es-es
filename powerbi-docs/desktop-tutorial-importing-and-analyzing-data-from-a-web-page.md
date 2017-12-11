@@ -49,7 +49,7 @@ En este tutorial, descubrirá cómo importar una tabla de datos desde una págin
 ### <a name="add-a-wikipedia-page-data-source"></a>Agregar un origen de datos de la página de Wikipedia
 1. En el cuadro de diálogo **Introducción** o en la pestaña **Inicio** de la cinta de opciones , elija **Obtener datos**.
 2. Se abrirá el cuadro de diálogo **Obtener datos** , donde puede elegir entre una amplia gama de orígenes de datos para importar datos en Power BI Desktop. Vamos a seleccionar **Web** , que está disponible en el grupo **Todos** u **Otros** .
-3. En el cuadro de diálogo **Contenido web**, en el cuadro de texto **URL**, pegue la dirección URL de Wikipedia (https://es.wikipedia.org/wiki/Eurocopa).
+3. En el cuadro de diálogo **Contenido web**, en el cuadro de texto **URL**, pegue la dirección URL de Wikipedia (http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship).
 4. Haga clic en **Aceptar**.
 
 Tras establecer la conexión con la página web, verá una lista de tablas disponibles en esta página de Wikipedia en el cuadro de diálogo **Navegador** . Puede hacer clic en cada una de estas tablas para obtener una vista previa de los datos.
