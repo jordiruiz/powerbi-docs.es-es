@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Uso de la seguridad de nivel de fila con contenido insertado de Power BI
 La seguridad de nivel de fila (RLS) se puede usar para restringir el acceso a los datos por el usuario dentro de un informe o un conjunto de datos, lo que permite que varios usuarios diferentes usen el mismo informe mientras ven datos diferentes. Se puede hacer uso de RLS al insertar informes desde Power BI.
@@ -130,7 +130,7 @@ Ahora, una vez encajadas todas las piezas, cuando alguien inicie sesión en la a
 ## <a name="working-with-analysis-services-live-connections"></a>Trabajo con conexiones activas de Analysis Services
 La seguridad de nivel de fila se puede usar con conexiones dinámicas de Analysis Services para servidores locales. Hay algunos conceptos específicos que debe conocer al usar este tipo de conexión.
 
-La identidad efectiva que se proporciona para la propiedad del nombre de usuario debe ser la de un usuario de Windows con permisos en el servidor de Analysis Services.
+La identidad efectiva que se proporciona para la propiedad username debe ser la de un usuario de Windows con permisos en el servidor de Analysis Services.
 
 **Configuración de una puerta de enlace de datos local**
 
@@ -141,11 +141,11 @@ Una [puerta de enlace de datos local](../service-gateway-onprem.md) se usa cuand
 Los roles se pueden proporcionar con la identidad en un token de inserción. Si no se proporciona ningún rol, se utilizará el nombre de usuario que se proporcionó para resolver los roles asociados.
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
-* La asignación de usuarios a roles, dentro del servicio Power BI, no afecta a RLS cuando se usa un token de inserción.
+* La asignación de usuarios a roles dentro del servicio Power BI no afecta a RLS cuando se usa un token de inserción.
 * Aunque el servicio Power BI no aplicará valores de RLS a administradores o miembros con permisos de edición, cuando se suministre una identidad con un token de inserción, se aplicará a todos los datos.
 * Pasar la información de identidad, al llamar a GenerateToken, solo se admite para lectura y escritura de informes. Próximamente habrá compatibilidad con otros recursos.
 * Se admiten las conexiones activas de Analysis Services para los servidores locales.
-* No se admiten las conexiones dinámicas de Azure Analysis Services.
+* Las conexiones activas de Azure Analysis Services admiten el filtrado por rol, pero no el filtrado dinámico por nombre de usuario.
 * If the underlying dataset doesn’t require RLS, the GenerateToken request must **not** contain an effective identity.
 * Si el conjunto de datos subyacente es un modelo de nube (modelo en caché o DirectQuery), la identidad efectiva debe incluir al menos un rol. En caso contrario, no se producirá la asignación de roles.
 * Solo se puede proporcionar una identidad en la lista de identidades. En el futuro se usará una lista para permitir tokens de identidad múltiple para la inserción de paneles.
