@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 7f01ed805358b5b74a32ae26fb757f592c617088
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
 Consulte esta página para obtener información sobre los problemas conocidos y las características publicadas recientemente del **servicio Power BI**. Para obtener información sobre novedades, vea:
@@ -167,7 +167,7 @@ Para obtener todos los detalles, [visite el blog del equipo de Power BI](https:/
 
 **28 de abril de 2016**
 
-* [Información rápida en iconos del panel](service-insights.md#run-quick-insights-on-a-dashboard-tile): al ver un icono en el modo Enfoque, haga clic en Obtener información para buscar el icono y los datos relacionados para correlaciones, valores atípicos, tendencias, estacionalidad, cambiar puntos en tendencias y factores principales automáticamente, en segundos.
+* [Información rápida en iconos del panel](service-insights.md): al ver un icono en el modo Enfoque, haga clic en Obtener información para buscar el icono y los datos relacionados para correlaciones, valores atípicos, tendencias, estacionalidad, cambiar puntos en tendencias y factores principales automáticamente, en segundos.
 
 Para obtener todos los detalles, [visite el blog del equipo de Power BI](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/).
 
@@ -192,7 +192,7 @@ Para obtener todos los detalles, [visite el blog del equipo de Power BI](https:/
 
 ***Paneles***
 
-* [Icono de vídeo Vimeo](service-dashboard-add-widget.md): En el panel, agregue un icono que contenga un reproductor insertado de Vimeo.
+* [Icono de vídeo Vimeo](service-dashboard-add-widget.md): En el panel, agregue un icono que contenga un reproductor incrustado de Vimeo.
 
 ***Analizar en Excel***
 

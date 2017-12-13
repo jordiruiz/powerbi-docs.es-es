@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: f505b27043e357b5cf1c01a0779634a948905dfc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d8dc99fec9851dc6f5d3786d2fc1d615e4ee22b4
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="printing-from-power-bi-service"></a>Imprimir desde el servicio Power BI
 Imprima todo un panel, un icono de panel, una página de informe o un objeto visual de informe desde el servicio Power BI. Solo se puede imprimir una página de informe a la vez; no es posible imprimir todo el informe de una vez.
@@ -54,7 +54,7 @@ En este vídeo, Amanda realiza impresiones desde su panel e informe. Luego, siga
 1. [Abra el icono en Modo de enfoque](service-focus-mode.md) seleccionando el botón de puntos suspensivos y el icono de enfoque ![](media/service-print/power-bi-focus-icon.png).
    
     ![](media/service-print/menu-options.png)
-2. Abra el icono en [modo de pantalla completa](service-tile-fullscreen-mode.md), para lo que debe seleccionar el icono de pantalla completa ![](media/service-print/power-bi-full-screen-icon.png) en la barra de navegación superior.
+2. Abra el icono en [modo de pantalla completa](service-fullscreen-mode.md), para lo que debe seleccionar el icono de pantalla completa ![](media/service-print/power-bi-full-screen-icon.png) en la barra de navegación superior.
 3. Mantenga el mouse sobre el icono para que se muestren las opciones de menú.
    
     ![](media/service-print/menu-options-new.png)
