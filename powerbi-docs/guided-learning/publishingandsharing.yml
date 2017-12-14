@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: "Publicación y uso compartido"
 metadata:
@@ -12,16 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/06/2017
   ms.author: davidi
+  ms.openlocfilehash: c7204f34360f22f75c43ed65271d1263071719b9
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 12/06/2017
 items:
 - durationInMinutes: 1
   content: "Los datos son más eficaces cuando se comparten con otros. Aprenda a publicar, exportar, compartir y distribuir sus análisis de datos de Power BI.\n"
-  ms.openlocfilehash: 2320f09340fc26313b06ffba3ae0bc6c23e05845
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
-  ms.translationtype: HT
-  ms.contentlocale: es-ES
-  ms.lasthandoff: 11/15/2017
 - title: "Introducción a los paquetes de contenido, la seguridad y los grupos"
   durationInMinutes: 2
   content: >
@@ -32,7 +33,7 @@ items:
 - title: "Publicación de informes de Power BI Desktop"
   durationInMinutes: 2
   content: >
-    > [!Video https://www.youtube.com/embed/et_MLSL2sA8?rel=0]
+    > [!Video https://www.youtube.com/embed/i0zAvCRLScI?rel=0]
 
 
     [!INCLUDE [](includes/4-1-publish-reports.md)]
@@ -60,7 +61,7 @@ items:
 - title: "Creación de grupos en Power BI"
   durationInMinutes: 5
   content: >
-    > [!Video https://www.youtube.com/embed/-758Lnhj9DRo?rel=0]
+    > [!Video https://www.youtube.com/embed/758Lnhj9DRo?rel=0]
 
 
     [!INCLUDE [](includes/6-1-create-groups.md)]
@@ -103,4 +104,4 @@ items:
   durationInMinutes: 4
   content: >
     [!INCLUDE [](includes/6-5-guided-learning-completion.md)]
-- content: "Ha completado la sección **Publicación y uso compartido** del curso de Aprendizaje guiado de Power BI.\0"
+- content: "Ha completado la sección **Publicación y uso compartido** del curso de Aprendizaje guiado de Power BI. Si desea una introducción a DAX, el lenguaje usado para crear consultas de Power BI, continúe en el siguiente tutorial.\0"

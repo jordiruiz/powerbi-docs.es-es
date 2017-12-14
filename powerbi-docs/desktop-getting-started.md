@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 8f009e382321d296191d861245e005c1ffb7ee33
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: c0689b969c1956d0344afb2bc8aef7bda32c159e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introducción a Power BI Desktop
 Esta es la **Guía de introducción de Power BI Desktop**. En este breve paseo introductorio por Power BI Desktop se familiarizará con su funcionamiento y sus capacidades. Al final, será capaz de crear modelos de datos eficaces, junto con increíbles informes, que expandirán sus esfuerzos de inteligencia empresarial. 
@@ -43,6 +43,10 @@ Si tiene prisa, puede realizar un reconocimiento visual de la guía en un par de
 
 Para obtener una comprensión más completa puede leer cada sección, llevar a cabo los pasos descritos y crear su propio archivo de Power BI Desktop, que podrá publicar en el servicio **Power BI** y compartirlo con otros usuarios.
 
+>[!NOTE]
+>También hay una versión independiente y especializada de **Power BI** llamada [ **Power BI Report Server**](report-server/get-started.md), que es para clientes que necesitan que sus datos e informes permanezcan en el entorno local. Para su uso con esa versión especializada, también hay una versión independiente y especializada de **Power BI Desktop** llamada **Power BI Desktop para Power BI Report Server**, que solo funciona con la versión Report Server de Power BI. En este artículo se describe la versión **Power BI Desktop** estándar.
+
+
 ## <a name="how-power-bi-desktop-works"></a>Funcionamiento de Power BI Desktop
 Con Power BI Desktop, puede *conectarse a datos* (que normalmente son varios orígenes de datos), *dar forma a dichos datos* (con las consultas que crean modelos de datos precisos y convincente) y usar modelos para *crear informes* (que otros pueden aprovechar, compartir y usar como punto de partida).
 
@@ -51,6 +55,8 @@ Una vez que haya completado los pasos (conectarse a datos, darles forma, crear e
 Power BI Desktop centraliza, simplifica y agiliza lo que de otro modo podría ser un proceso de diseño y creación de repositorios e informes de inteligencia empresarial disperso, arduo y desconectado.
 
 ¿Listo para probarlo? Comencemos.
+
+
 
 ## <a name="install-and-run-power-bi-desktop"></a>Instalar y ejecutar Power BI Desktop
 Puede descargar Power BI Desktop desde el servicio **Power BI**, seleccionando el icono de **engranaje**. A continuación, seleccione **Power BI Desktop**.

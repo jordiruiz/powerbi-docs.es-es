@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 022f085d12d7dc872052ca9205deca264b1c0418
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2a7b4cc652e600b9a368f6f7eda657c06e131da3
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="share-power-bi-reports-with-your-coworkers"></a>Uso compartido de informes de Power BI con los compañeros
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece [varias maneras de colaborar y distribuir sus informes](service-how-to-collaborate-distribute-dashboards-reports.md) y, el uso compartido, es solo una de ellas.
@@ -68,13 +68,14 @@ Puede compartir un informe con compañeros de su mismo dominio de correo electr�
    
    En nuestro ejemplo, el nombre de la tabla es **Almacén**, el nombre del campo es **Territorio** y el valor por el que quiere filtrar es **NC**:
    
-    ?filter=Almacen/Territorio eq NC
+    ?filter=Tienda/Territorio eq 'NC'
    
    ![Dirección URL de informe filtrado](media/service-share-reports/power-bi-filter-url3.png)
    
-   El explorador agrega caracteres especiales para representar espacios y barras diagonales, así que es resultado es:
+   El explorador agrega caracteres especiales para representar espacios, apóstrofos y barras diagonales, así que es resultado es:
    
-   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-10a61f70f2f5/ReportSection2?filter=Almacén%252FTerritorio%20eq%20NC
+   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-10a61f70f2f5/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
+
 3. Envíe esta dirección URL a sus compañeros. 
    
    Cuando ellos seleccionan el vínculo, Power BI abre una versión de solo lectura del informe filtrado.

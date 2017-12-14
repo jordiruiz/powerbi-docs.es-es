@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/28/2017
 ms.author: asaxton
-ms.openlocfilehash: 3ee74e9a7f2f174b37e582089e0d9a1d6c433831
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 180e80ee327342b26849aa63a3910337737ac9ad
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Administración de Power BI en su organización
 Microsoft Power BI permite a los usuarios visualizar datos, compartir descubrimientos y colaborar mediante nuevas e intuitivas formas. Para obtener más información, consulte [Introducción a Power BI](service-get-started.md).
@@ -60,6 +60,7 @@ Para más información sobre el rol de administrador de servicio Power BI, consu
 * [¿Hay aspectos adicionales para los que debería estar preparado?](#are-there-any-additional-things-i-should-be-prepared-for)
 * [¿Es gratis? ¿Se me cobrarán estas licencias?](#is-this-free-will-i-be-charged-for-these-licenses)
 * [¿Dónde se encuentra mi inquilino de Power BI?](#where-is-my-power-bi-tenant-located)
+* [¿Qué es el Acuerdo de Nivel de Servicio de Power BI?](#what-is-the-power-bi-sla)
 
 **Seguridad en Power BI**
 
@@ -255,6 +256,9 @@ Las licencias **Power BI (gratis)** son para la versión gratuita de Power BI. S
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>¿Dónde se encuentra mi inquilino de Power BI?
 Para información sobre cómo averiguar dónde se encuentra el inquilino de Power BI, también conocido como región de datos, vea [¿Dónde se encuentra mi inquilino de Power BI?](service-admin-where-is-my-tenant-located.md)
+
+### <a name="what-is-the-power-bi-sla"></a>¿Qué es el Acuerdo de Nivel de Servicio?
+Para más información sobre el Acuerdo de Nivel de Servicio, consulte el artículo [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) (Documentación y términos de licencias) en la sección **Licensing** del sitio web Microsoft Licensing.
 
 ## <a name="security-in-power-bi"></a>Seguridad en Power BI
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>¿Cumple Power BI los requisitos de cumplimiento nacionales, regionales y específicos del sector?

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: e84c5045906cb91f028f0c33b5af8164871d8882
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: bdba3cb9a7dc64dbf71a48a7ae2223e74c302b70
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Usar herramientas de desarrollo para crear objetos visuales personalizados
 Los objetos visuales personalizados le permiten satisfacer las necesidades de los usuarios y adaptarse al diseño de su aplicación. Descubra cómo crear un objeto visual personalizado para Power BI con las herramientas de desarrollo.
@@ -347,8 +347,8 @@ Obtenga más información sobre [Less](http://lesscss.org/).
 ## <a name="debugging"></a>Depuración
 Para obtener sugerencias sobre cómo depurar el objeto visual personalizado, consulte la [guía de depuración](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md).
 
-## <a name="submit-your-visual-to-the-office-store"></a>Envío de un objeto visual a la Tienda Office
-Puede solicitar que un objeto visual se incluya en la Tienda Office. Para más información acerca de este proceso, consulte [Publish custom visuals to the Office store](developer/office-store.md) (Publicar objetos visuales personalizados en la tienda Office).
+## <a name="submit-your-visual-to-appsource"></a>Envío de un objeto visual a AppSource
+Puede enumerar los objetos visuales para que los usen otras personas y enviarlos a AppSource. Para más información acerca de este proceso, consulte [Publicación de objetos visuales personalizados en la Tienda Office](developer/office-store.md).
 
 ## <a name="troubleshooting"></a>Solución de problemas
 **No se ha encontrado el comando de pbiviz (o errores similares)**

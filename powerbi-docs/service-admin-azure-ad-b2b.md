@@ -15,19 +15,25 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 5dabaa09923203c31572b413f8674b76028b7483
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b16bae6cc8932a488920949815833def5980c1f3
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir contenido de Power BI a usuarios externos invitados con Azure AD B2B
 
 Power BI se integra con Azure Active Directory Business-to-business (Azure AD B2B) para permitir una distribución segura de contenido de Power BI para usuarios invitados de fuera de la organización manteniendo, aún así, el control sobre los datos internos.
 
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
+
+> [!NOTE]
+> Esta característica no está disponible actualmente en Power BI Mobile. 
+> 
+> 
+
 
 ## <a name="invite-guest-users"></a>Invitar a usuarios externos
 

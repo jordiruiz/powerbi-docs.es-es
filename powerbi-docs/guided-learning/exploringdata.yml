@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: "Exploración de datos"
 metadata:
@@ -12,17 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: >
-    Aprenda a buscar, conectar e interactuar con datos en Power BI.
-  ms.openlocfilehash: 04fc3f0a47ab4194031b6e2bb65eacc0ac89d5f5
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.openlocfilehash: 67e0b44ff76a8e32de0e6f460afe1fb45954dbb7
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
+items:
+- durationInMinutes: 1
+  content: "Le damos la bienvenida al tutorial de **exploración de los datos**. Aprenderá a buscar datos y a conectarse e interactuar con ellos en Power BI.\n"
 - title: "Introducción al servicio Power BI"
   durationInMinutes: 2
   content: >
@@ -93,4 +93,4 @@ items:
 
 
     [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
-- content: "Ha completado la sección **Exploración de datos** del curso de Aprendizaje guiado de Power BI.\0"
+- content: "Esta sección de **exploración de los datos** del curso de Aprendizaje guiado le ha preparado para trabajar con diferentes tipos de datos. En el siguiente tutorial, aprenderá a usar un origen de datos común: Excel.\0"

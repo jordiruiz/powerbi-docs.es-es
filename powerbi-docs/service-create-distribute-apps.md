@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 58af226f6c3d93fffc805e23fcf1bda0d055058d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 29a089e13c2dd687a2caf19f43b1aae28e397a20
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Crear y publicar aplicaciones con los paneles e informes de Power BI
 
@@ -32,7 +32,7 @@ Los usuarios empresariales suelen necesitar varios paneles e informes de Power B
 
 Con las aplicaciones de Power BI, ahora en versión preliminar, puede crear colecciones de paneles e informes y publicar estas aplicaciones para toda la organización o a grupos o usuarios específicos. Los creadores de informes o los administradores verán lo fácil que es administrar permisos sobre colecciones de paneles con las aplicaciones.
 
-Los usuarios empresariales obtienen las aplicaciones de varias maneras diferentes. Si el administrador de Power BI le concede permiso, puede instalarlas automáticamente en las cuentas de Power BI de sus compañeros de trabajo. En caso contrario, pueden instalar estas aplicaciones desde Microsoft AppSource, o bien puede enviarles un vínculo directo. Ellos pueden buscar y volver a su contenido fácilmente porque está todo en un lugar. Obtienen las actualizaciones automáticamente y se puede controlar la frecuencia con la que se actualizan los datos. Obtenga información sobre la [experiencia de aplicación para usuarios empresariales](service-install-use-apps.md).
+Los usuarios empresariales instalan estas aplicaciones desde Microsoft AppSource, o bien puede enviarles un vínculo directo. Ellos pueden buscar y volver a su contenido fácilmente porque está todo en un lugar. Obtienen las actualizaciones automáticamente y se puede controlar la frecuencia con la que se actualizan los datos. Obtenga información sobre la [experiencia de aplicación para usuarios empresariales](service-install-use-apps.md).
 
 ### <a name="apps-and-organizational-content-packs"></a>Aplicaciones y paquetes de contenido organizativos
 Las aplicaciones son la evolución de los paquetes de contenido organizativos. Si ya tiene paquetes de contenido organizativos, estos seguirán funcionando en paralelo con las aplicaciones.
@@ -119,7 +119,7 @@ Cuando los paneles e informes del área de trabajo de la aplicación estén list
    
      ![Contenido de la aplicación](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Finalmente, en **Acceso**, puede decidir quién tiene acceso a la aplicación: ya sea todas las personas de la organización, usuarios específicos o listas de distribución de correo electrónico. Si tiene permisos, puede decidir instalar automáticamente la aplicación para los destinatarios.
+4. Finalmente, en **Acceso**, puede decidir quién tiene acceso a la aplicación: ya sea todas las personas de la organización, usuarios específicos o grupos de seguridad de Active Directory. 
    
      ![Acceso a la aplicación](media/service-create-distribute-apps/power-bi-apps-access.png)
 
@@ -127,7 +127,7 @@ Cuando los paneles e informes del área de trabajo de la aplicación estén list
    
      ![Finalización de la aplicación](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-Los usuarios empresariales para los que ha publicado la aplicación la pueden encontrar de varias maneras diferentes. En primer lugar, si pudo instalarla automáticamente, aparecerá en Aplicaciones en su cuenta de Power BI.  Puede enviarles el vínculo directo a la aplicación o pueden buscarla en Microsoft AppSource, donde pueden ver todas las aplicaciones a las que tienen acceso. Después de eso, siempre que vayan a Aplicaciones, verán la aplicación en la lista.
+Los usuarios empresariales para los que ha publicado la aplicación la pueden encontrar de dos maneras diferentes. Puede enviarles el vínculo directo a la aplicación o pueden buscarla en Microsoft AppSource, donde pueden ver todas las aplicaciones a las que tienen acceso. Después de eso, siempre que vayan a Aplicaciones, verán la aplicación en la lista.
 
 Obtenga información sobre la [experiencia de aplicación para usuarios empresariales](service-install-use-apps.md).
 

@@ -1,6 +1,6 @@
 ---
-title: "Publicación de objetos visuales personalizados en la Tienda Office"
-description: Aprenda a publicar objetos visuales personalizados en la Tienda Office que otros usuarios puedan detectar y utilizar.
+title: Publicar objetos visuales personalizados en AppSource
+description: Aprenda a publicar objetos visuales personalizados en AppSource para que otros usuarios puedan descubrirlos y usarlos.
 services: powerbi
 documentationcenter: 
 author: guyinacube
@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/20/2017
+ms.date: 12/5/2017
 ms.author: asaxton
-ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: 0d3608d30fdf689c2121e65c5c4cafb861c88c2e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/06/2017
 ---
-# <a name="publish-custom-visuals-to-the-office-store"></a>Publicación de objetos visuales personalizados en la Tienda Office
-Aprenda a publicar objetos visuales personalizados en la Tienda Office que otros usuarios puedan detectar y utilizar.
+# <a name="publish-custom-visuals-to-appsource"></a>Publicar objetos visuales personalizados en AppSource
+Aprenda a publicar objetos visuales personalizados en AppSource para que otros usuarios puedan descubrirlos y usarlos. Office
 
-Una vez que haya creado un objeto visual personalizado, puede publicarlo en la Tienda Office para que otros usuarios lo detecten y lo usen. Para ello, es preciso prepararlo con anterioridad. Para más información acerca de cómo crear un objeto visual personalizado, consulte [Uso de herramientas de desarrollo para crear objetos visuales personalizados](../service-custom-visuals-getting-started-with-developer-tools.md).
+Una vez que haya creado un objeto visual personalizado, puede publicarlo en AppSource para que otros usuarios lo detecten y lo usen. Para ello, es preciso prepararlo con anterioridad. Para más información acerca de cómo crear un objeto visual personalizado, consulte [Uso de herramientas de desarrollo para crear objetos visuales personalizados](../service-custom-visuals-getting-started-with-developer-tools.md).
 
-![](media/office-store/powerbi-custom-visual-store.png)
+![](media/office-store/AppSource_01.jpg)
 
-¿Qué es la Tienda Office? En pocas palabras, es el lugar donde se buscan aplicaciones (complementos) para el software de Office 365. La [Tienda Office](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) conecta millones de usuarios de Office 365 a soluciones que les ayudan a realizar su trabajo de forma más eficaz, minuciosa o atractiva que antes.
+¿Qué es AppSource? En pocas palabras, es el lugar donde podrá encontrar aplicaciones SaaS y complementos para sus productos y servicios de Microsoft. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) conecta millones de usuarios de productos como Office 365, Azure, Dynamics 365 o Cortana Intelligence con soluciones que les ayudan a realizar su trabajo de forma más eficaz, minuciosa o atractiva que antes.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparación de objetos visuales para su envío
 Una vez que haya acabado de codificar y probar el objeto visual y lo haya empaquetado en un archivo pbiviz, también debe preparar los siguientes elementos antes de enviarlo.
@@ -53,18 +53,18 @@ Todo comienza con el envío de un correo electrónico al equipo de envío de obj
 Adjunte tanto el archivo .pbiviz como el archivo .pbix del informe de ejemplo. El equipo de Power BI responderá con instrucciones y un archivo XML del paquete de la aplicación que se debe cargar. Dicho paquete se requiere para enviar cualquier objeto visual a través del Centro para desarrolladores de Office.
 
 > [!NOTE]
-> Para mejorar la calidad y garantizar que los informes existentes se interrumpen, las actualizaciones de los objetos visuales existentes tardará un dos semanas más en llegar al entorno de producción tras su aprobación en la tienda.
+> Para mejorar la calidad y garantizar que los informes existentes no se interrumpan, las actualizaciones de los objetos visuales existentes tardará un dos semanas más en llegar al entorno de producción tras su aprobación en la tienda.
 > 
 > 
 
-## <a name="submitting-to-the-office-store"></a>Envío a la Tienda Office
-Una vez que obtenga el XML del paquete de la aplicación del equipo de Power BI, navegue al [Centro para desarrolladores de Office](https://sellerdashboard.microsoft.com/Application/Summary) para enviar el objeto visual a la Tienda Office.
+## <a name="submitting-to-appsource"></a>Envío a AppSource
+Una vez que obtenga el código XML del paquete de la aplicación del equipo de Power BI, vaya al [Centro para desarrolladores](https://sellerdashboard.microsoft.com/Application/Summary) para enviar el objeto visual a AppSource.
 
 > [!NOTE]
 > Para iniciar sesión en el [Centro para desarrolladores de Office](https://dev.office.com/) es preciso tener una cuenta de desarrollador de Office válida. Una cuenta de desarrollador de Office debe ser una cuenta Microsoft (Live ID, por ejemplo, hotmail.com o outlook.com).
 > 
 > [!IMPORTANT]
-> Debe enviar un correo electrónico con los archivos .pbiviz y .pbix al equipo de Power BI antes de realizar el envío a la Tienda Office. Esto es por lo que el equipo de Power BI carga los archivos en el servidor de recursos compartidos público. De no hacerse así, la Tienda Office no podrá recuperar los archivos. Los archivos deben enviarse cada vez que se envíe un objeto visual nuevo, que se actualice uno existente y que se corrijan los envíos que ha rechazado la Tienda Office.
+> Debe enviar un correo electrónico con los archivos .pbiviz y .pbix al equipo de Power BI antes de realizar el envío a AppSource. Esto permite al equipo de Power BI cargar los archivos en el servidor de recursos compartidos público. De lo contrario, la tienda no podrá recuperar los archivos. Los archivos deben enviarse cada vez que se envíe un objeto visual nuevo, que se actualice uno existente y que se corrijan los envíos que han sido rechazados.
 > 
 > 
 

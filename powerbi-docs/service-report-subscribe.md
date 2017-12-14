@@ -16,16 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/26/2017
+ms.date: 11/21/2017
 ms.author: mihart
-ms.openlocfilehash: cfba13cca4152825e81d4be0f46a9cd26a48d157
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8faa60dee8c1785d5560ac34c5eb50288488e893
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Suscripción a un informe o panel de Power BI
-Nunca antes ha sido tan fácil mantenerse al día de los paneles e informes más importantes. Suscríbase a las páginas de informes y paneles que más le interesen y Power BI le enviará por correo electrónico una instantánea a la bandeja de entrada. Puede indicarle a Power BI la frecuencia con la que quiere recibir los mensajes de correo electrónico: desde una vez al día hasta una vez por semana.
+Nunca antes ha sido tan fácil mantenerse al día de los paneles e informes más importantes. Suscríbase a las páginas de informes y paneles que más le interesen y Power BI le enviará por correo electrónico una instantánea a la bandeja de entrada. Puede indicarle a Power BI la frecuencia con la que quiere recibir los mensajes de correo electrónico: desde una vez al día hasta una vez por semana. El correo electrónico y la instantánea usarán el idioma configurado en Power BI. Si no se ha definido ningún idioma, Power BI usa el idioma actual del explorador.
+
+Para ver o configurar las preferencias de idioma, seleccione el icono de engranaje ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Configuración > General > Idioma**.
+
+![](media/service-report-subscribe/power-bi-language.png)
 
 > [!NOTE]
 > Solo se pueden crear suscripciones en el servicio Power BI. Cuando reciba el correo electrónico, incluirá un vínculo para "ir al informe/panel". En los dispositivos móviles con aplicaciones de Power BI instaladas, al seleccionar este vínculo, se inicia la aplicación (en lugar de la acción predeterminada de abrir el informe o el panel en el sitio web de Power BI).

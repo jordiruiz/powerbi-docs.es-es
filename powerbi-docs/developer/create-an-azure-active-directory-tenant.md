@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 3e48f08237767a4c0cc5e1a8ddfc70a9087fbc1c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 11/30/2017
+ms.author: mihart
+ms.openlocfilehash: 22d939dbd0a582611f2f4e90e2306456376e211b
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Crear un inquilino de Azure Active Directory para su uso con Power BI
 Aprenda a crear un nuevo inquilino de Azure Active Directory (Azure AD) para su uso con su aplicación personalizada mediante la API de REST de Power BI.
@@ -33,7 +33,7 @@ Una vez que tenga un inquilino de Azure AD, puede definir una aplicación y asig
 Es posible que su organización ya tenga un inquilino de Azure AD que puede usar para la aplicación. Puede hacer uso de ese inquilino para las necesidades de su aplicación o puede crear un nuevo inquilino específicamente para ella. Este artículo explica cómo crear un nuevo inquilino.
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Crear un inquilino de Azure Active Directory
-Para integrar Power BI en su aplicación personalizada, debe definir primero una aplicación en Azure AD. Para ello, necesita un directorio en Azure AD. Este es el inquilino. Si su organización aún no tiene un inquilino por el hecho de no estar usando Power BI u Office 365, deberá crear uno. También deberá crear uno si no desea que la aplicación se combine con el inquilino de su organización. Esto le permitirá mantener las cosas de forma independiente.
+Para integrar Power BI en su aplicación personalizada, debe definir primero una aplicación en Azure AD. Para ello, necesita un directorio en Azure AD. Este es el inquilino. Si su organización aún no tiene un inquilino porque no usa Power BI u Office 365, [deberá crear uno](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). También deberá crear uno si no desea que la aplicación se combine con el inquilino de su organización. Esto le permitirá mantener las cosas de forma independiente.
 
 O bien, puede crear un inquilino solo con fines de prueba.
 

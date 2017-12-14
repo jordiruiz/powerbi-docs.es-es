@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1ee8cc60d5c18cb09915029088824ade89d2b39f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>¿Cómo debo compartir paneles e informes y colaborar en ellos en Power BI?
 Cuando crea paneles e informes y, a veces,  colabora en ellos con sus compañeros, puede que luego desee que otros usuarios tengan también acceso a ellos. ¿Cuál es la mejor manera de distribuirlos?
@@ -54,7 +54,7 @@ Supongamos que desea distribuir el panel a un público amplio. Junto con sus com
 
 ![Icono de publicar aplicación](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Es muy fácil buscar e instalar aplicaciones en el servicio Power BI ([https://powerbi.com](https://powerbi.com)). Puede enviar a los usuarios de la empresa un vínculo directo a la aplicación, o bien pueden buscarla en AppSource. Si el administrador de Power BI le concede permisos, puede instalar una aplicación automáticamente en las cuentas de Power BI de sus compañeros de trabajo. Obtenga más información sobre la [publicación de las aplicaciones](service-create-distribute-apps.md#publish-your-app). 
+Es muy fácil buscar e instalar aplicaciones en el servicio Power BI ([https://powerbi.com](https://powerbi.com)). Puede enviar a los usuarios de la empresa un vínculo directo a la aplicación, o bien pueden buscarla en AppSource. Obtenga más información sobre cómo [publicar aplicaciones](service-create-distribute-apps.md#publish-your-app). 
 
 Después de instalar una aplicación, pueden verla en sus exploradores o dispositivos móviles.
 

@@ -1,5 +1,5 @@
 ---
-title: "Contenido de Power BI Pro: ¿qué es?"
+title: "¿Qué es Power BI Premium?"
 description: "Power BI Premium cuenta con capacidad dedicada para su organización o equipo, lo que le ofrece un rendimiento más confiable y mayores volúmenes de datos, sin tener que adquirir licencias por usuario."
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/10/2017
+ms.date: 12/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 816f1151b6f49ace8151f1c26aee18a8c746ff08
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7c1536693490252029d51ddc619eaa7266095403
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-premium---what-is-it"></a>¿Qué es Power BI Premium?
 Power BI Premium proporciona recursos dedicados para ejecutar el servicio Power BI para su organización o equipo, lo que le ofrece un rendimiento más confiable y mayores volúmenes de datos. Premium también permite la distribución generalizada del contenido sin necesidad de adquirir licencias para cada usuario.
@@ -69,9 +69,13 @@ Power BI Premium está disponible en las configuraciones de nodo con capacidades
 
 * Se pueden usar nodos P para las implementaciones de servicio o insertadas
 * Se pueden usar nodos EM solo para implementaciones insertadas
+* EM1 y EM2 
+* Los vínculos de esta tabla solo funcionan correctamente para los usuarios que son administradores globales de Office 365. Los demás recibirán un error 404. 
 
 | Nodo de capacidad | Núcleos totales<br/>*(Back-end y front-end)* | Núcleos de back-end | Núcleos de front-end | Límites de conexiones dinámicas/DirectQuery | Representaciones de páginas máximas en horas punta | Disponibilidad |
 | --- | --- | --- | --- | --- | --- | --- |
+| [EM1 (mes a mes)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 núcleo virtual |0,5 núcleos, 2,5 GB RAM |5 núcleos |3,75 por segundo |150-300 |Disponible |
+| [EM2 (mes a mes)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 núcleos V |1 núcleo, 5 GB de RAM |1 núcleo |7,5 por segundo |301-600 |Disponible |
 | [EM3 (mes a mes)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 núcleos V |2 núcleos, 10 GB de RAM |2 núcleos | |601-1200 |Disponible |
 | [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 núcleos V |4 núcleos, 25 GB de RAM |4 núcleos |30 por segundo |1201-2400 |Disponible (también está disponible [mes a mes](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)) |
 | [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 núcleos V |8 núcleos, 50 GB de RAM |8 núcleos |60 por segundo |2401-4800 |Disponible |

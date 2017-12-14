@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: a5542e7a4c0b1d5014a6fce0042c07fec7398ab4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e60ff6d06e4ac0cddf398ccfc1d30e4d97e0773c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Uso de marcadores para compartir información detallada y crear historias en Power BI (versión preliminar)
 El uso de **marcadores** en Power BI le permite capturar la vista configurada actualmente de una página del informe, incluidos los filtros y el estado de los objetos visuales y, posteriormente, volver a ese estado simplemente seleccionando el marcador guardado. 
@@ -153,6 +153,7 @@ En esta versión preliminar de los **marcadores**, hay algunas limitaciones y co
 * Si agrega un objeto visual en una página de informe después de crear un marcador, se mostrará el objeto visual en su estado predeterminado. Esto también significa que si se introduce una segmentación de datos en una página en la que previamente creó marcadores, la segmentación de datos se comportará según su estado predeterminado.
 * Si se desplaza por los objetos visuales después de haber creado un marcador se reflejará en este. 
 * *Deberá* crear al menos un marcador en el informe cuando lo publique en el **servicio Power BI**, para que los marcadores estén disponibles en el servicio. Se trata de un requisito obligatorio para cada informe que publique.
+* Como los marcadores son una característica en versión preliminar, aún no están disponibles en [**Power BI Desktop para Report Server**](report-server/quickstart-create-powerbi-report.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 Para más información acerca de las características que son similares o que interactúan con los marcadores, eche un vistazo a los siguientes artículos:

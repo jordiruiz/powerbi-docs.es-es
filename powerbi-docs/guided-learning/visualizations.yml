@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: Visualizaciones
 metadata:
@@ -12,16 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "Las visualizaciones dan vida a los datos y revelan una información que solo la pueden revelar unas increíbles y sorprendentes representaciones de objetos visuales. Esta sección muestra cómo.\n"
-  ms.openlocfilehash: e63bc13ecb7f9a0e296188c3a328e0cd19c83184
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.openlocfilehash: 9104611f4ab91a2d212715820a0f5119f8f1503b
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
+items:
+- durationInMinutes: 1
+  content: "Las visualizaciones dan vida a los datos y revelan una información que solo la pueden revelar unas increíbles y sorprendentes representaciones de objetos visuales. En esta sección del curso de Aprendizaje Guiado de **Power BI** se muestra cómo comenzar a usarlos.\n"
 - title: "Introducción a los objetos visuales en Power BI"
   durationInMinutes: 2
   content: >
@@ -155,4 +156,4 @@ items:
 
 
     [!INCLUDE [](includes/3-11h-r-visual-integration.md)]
-- content: "Ha completado la sección **Visualizaciones** del curso de Aprendizaje guiado de Power BI.\0"
+- content: "Buen trabajo. Ha finalizado la sección **Visualizaciones** del curso de **Aprendizaje guiado** y ya está preparado para el siguiente tutorial: **Exploración de los datos**.\0"

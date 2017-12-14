@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: dcb262d110025f2c36c4029227b353132c4dafb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2c249cac17e8fe6da35634c78837e3ca16e70a5c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Usar vínculos de OneDrive para la Empresa en Power BI Desktop
 Muchas personas tienen los libros de Excel almacenados en la unidad de OneDrive para la Empresa que sería ideal para su uso con Power BI Desktop. Con **Power BI Desktop**, puede usar los vínculos en línea para archivos de **Excel** almacenados en **OneDrive para la Empresa** para crear informes y elementos visuales. Puede usar una cuenta de grupo de **OneDrive para la Empresa** o la cuenta personal de **OneDrive para la Empresa**.
@@ -37,7 +37,7 @@ La obtención de un vínculo en línea desde **OneDrive para la Empresa** requie
    > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. En **Excel**, seleccione **Archivo > Información** y seleccione el vínculo encima del botón **Proteger libro**. Seleccione **Copiar vínculo al portapapeles**.
+2. En **Excel**, seleccione **Archivo > Información** y seleccione el vínculo encima del botón **Proteger libro**. Seleccione **Copiar vínculo al portapapeles** (su versión podría decir **Copiar ruta al portapapeles**).
    
    ![](media/desktop-use-onedrive-business-links/odb-links_03.png)
 
