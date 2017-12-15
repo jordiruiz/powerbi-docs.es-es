@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 29a089e13c2dd687a2caf19f43b1aae28e397a20
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Crear y publicar aplicaciones con los paneles e informes de Power BI
 
@@ -120,8 +120,6 @@ Cuando los paneles e informes del área de trabajo de la aplicación estén list
      ![Contenido de la aplicación](media/service-create-distribute-apps/power-bi-apps-content.png)
 
 4. Finalmente, en **Acceso**, puede decidir quién tiene acceso a la aplicación: ya sea todas las personas de la organización, usuarios específicos o grupos de seguridad de Active Directory. 
-   
-     ![Acceso a la aplicación](media/service-create-distribute-apps/power-bi-apps-access.png)
 
 5. Cuando seleccione **Finalizar**, verá un mensaje que confirma que está listo para publicar. En el cuadro de diálogo de operación correcta, puede copiar la dirección URL, que es un vínculo directo a la aplicación, y enviársela a los usuarios con los que la ha compartido.
    
