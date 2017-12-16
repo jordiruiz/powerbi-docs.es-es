@@ -4,13 +4,13 @@
 
 Esta es la última sección (y el tema final, a menos que quiera aprender DAX) del curso, así que, si las ha completado todas en orden, puede sentirse orgulloso. Buen trabajo. Ahora, ya está familiarizado con todos estos **conceptos importantes**:
 
-* Definición de [Power BI](0-0-what-is-power-bi.md)
-* [Bloques de creación](0-0b-building-blocks-power-bi.md) de Power BI
-* [Obtención](1-2-connect-to-data-sources-in-power-bi-desktop.md) y [modelado](2-1-intro-modeling-data.md) de datos
-* [Visualizaciones](3-1-intro-visualizations.md)
-* [Exploración de datos](4-0-intro-power-bi-service.md) en el servicio Power BI
-* Uso de [Excel y Power BI](5-1-intro-excel-data.md) juntos
-* [Publicación y uso compartido](6-0-intro-content-packs-groups.md) del trabajo
+* Definición de [Power BI](../gettingstarted.yml#step-1)
+* [Bloques de creación](../gettingstarted.yml#step-3) de Power BI
+* [Obtención](../gettingdata.yml#step-3) y [modelado](../modeling.yml#step-1) de datos
+* [Visualizaciones](../visualizations.yml#step-1)
+* [Exploración de datos](../exploringdata.yml#step-1) en el servicio Power BI
+* Uso de [Excel y Power BI](../powerbiandexcel.yml#step-1) juntos
+* [Publicación y uso compartido](../publishingandsharing.yml#step-1) del trabajo
 
 Ha adquirido una gran cantidad de conocimientos, así que ya está preparado para comenzar a ponerlos en práctica. Si hace clic en los **vínculos siguientes, podrá realizar descargas** o **conectar el explorador al servicio Power BI**:
 

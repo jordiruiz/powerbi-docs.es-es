@@ -32,5 +32,5 @@ Sin embargo, si quiero puedo editar el panel, el informe e incluso el conjunto d
 
 Los paquetes de contenido son una forma sencilla de reaprovechar el contenido que otras personas de su organización han creado.
 
-En la siguiente lección: [Creación de un paquete de contenido en Power BI](6-4-update-content-pack.md).
+Pasemos a la siguiente lección.
 
