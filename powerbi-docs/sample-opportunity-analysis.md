@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: c51984aed112b62143ab132672b331cd0f97c7a1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de oportunidades para Power BI: un paseo
 El **ejemplo de seguimiento de oportunidades** contiene un panel (y un informe asociado) para una empresa de software que tiene dos canales de ventas: el de la *venta directa* y *a través de asociados*. La jefa de ventas creó este panel para hacer un seguimiento de las oportunidades y los ingresos por región, tamaño del acuerdo y canal.
@@ -38,7 +38,8 @@ Se basa en dos medidas de ingresos:
 
 Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Estos son datos reales y anónimos de obviEnce ([www.obvience.com)](http://www.obvience.com/).
 
-También puede [descargar únicamente el conjunto de datos (libro de Excel) para este ejemplo](http://go.microsoft.com/fwlink/?LinkId=529782).  
+>[!Note] 
+También puede [descargar únicamente el conjunto de datos (libro de Excel) para este ejemplo](http://go.microsoft.com/fwlink/?LinkId=529782). El libro contiene hojas de Power View que puede ver y modificar.  Para ver los datos sin procesar, seleccione **Power Pivot > Administrar**. 
 
 ![](media/sample-opportunity-analysis/opportunity1.png)
 

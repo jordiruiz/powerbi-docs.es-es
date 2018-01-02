@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: cfd085913ea1ef2cf08942ca4570f98eba34a3d4
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 09e245e625c9e0859f93837e56b564218e327926
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de venta directa para Power BI: un paseo
 
 Este panel de ejemplo del sector y el informe subyacente analizan datos de venta directa de artículos vendidos en varias tiendas y distritos. Las métricas comparan el rendimiento de este año con el del año pasado en estas áreas: ventas, unidades, margen bruto y varianza, así como análisis de nuevas tiendas. Estos son datos reales y anónimos de obviEnce ([www.obvience.com](http://www.obvience.com)).
 
-También puede [descargar únicamente el conjunto de datos (libro de Excel) para este ejemplo](http://go.microsoft.com/fwlink/?LinkId=529778).
+[!Note] También puede [descargar únicamente el conjunto de datos (libro de Excel) para este ejemplo](http://go.microsoft.com/fwlink/?LinkId=529778). El libro contiene hojas de Power View que puede ver y modificar.  Para ver los datos sin procesar seleccione **Power Pivot > Administrar**. 
 
 ![](media/sample-retail-analysis/retail1.png)
 

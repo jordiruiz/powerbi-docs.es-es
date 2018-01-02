@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: ef064c636880db5d1b6c6106fe742972a7ed3a3c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0bb540a4c27729999bbb1780a7d5a203d67d3a7c
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Ejemplo de recursos humanos para Power BI: un paseo
 El departamento de recursos humanos tiene el mismo modelo de informe en distintas empresas, incluso cuando se diferencian en sector o tamaño. En este ejemplo se examinan las nuevas contrataciones, los empleados activos y los empleados que cesaron su actividad laboral con el fin de detectar posibles tendencias en la estrategia de contratación. Nuestros principales objetivos son comprender:
@@ -36,7 +36,7 @@ Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Powe
 
 ¿Desea seguir adelante? En el [servicio Power BI](https://powerbi.com), vaya a **Obtener datos > Ejemplos > Ejemplo de recursos humanos > Conectar** para obtener su propia copia del ejemplo.
 
-También puede [descargar únicamente el conjunto de datos (libro de Excel)](http://go.microsoft.com/fwlink/?LinkId=529780) para este ejemplo.
+También puede [descargar únicamente el conjunto de datos (libro de Excel)](http://go.microsoft.com/fwlink/?LinkId=529780) para este ejemplo. El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar seleccione **Power Pivot > Administrar**.
 
 ## <a name="new-hires"></a>Nuevas contrataciones
 En primer lugar, veamos las nuevas contrataciones.

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: 576ddfbbf52a2738dd32597479ffd03d554a5256
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 957e7c05907f1fc75eddeb271c664f898203e591
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de compra para Power BI: un paseo
 En este panel de ejemplo del sector y en el informe subyacente se analizan los gastos que tiene una empresa de fabricación en proveedores por categoría y ubicación. En el ejemplo, exploramos estas áreas:
@@ -36,7 +36,7 @@ Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Powe
 
 ¿Desea seguir adelante? En el [servicio Power BI](https://powerbi.com), vaya a **Obtener datos > Ejemplos > Ejemplo de análisis de adquisiciones > Conectar** para obtener su propia copia del ejemplo.
 
-También puede [descargar únicamente el conjunto de datos (libro de Excel)](http://go.microsoft.com/fwlink/?LinkId=529784) para este ejemplo.
+[!Note] También puede [descargar únicamente el conjunto de datos (libro de Excel)](http://go.microsoft.com/fwlink/?LinkId=529784) para este ejemplo. El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar seleccione **Power Pivot > Administrar**.
 
 ## <a name="spending-trends"></a>Tendencias de gastos
 Veamos primero las tendencias de gastos por categoría y ubicación.  

@@ -146,7 +146,7 @@ Los roles se pueden proporcionar con la identidad en un token de inserción. Si 
 * Pasar la información de identidad, al llamar a GenerateToken, solo se admite para lectura y escritura de informes. Próximamente habrá compatibilidad con otros recursos.
 * Se admiten las conexiones activas de Analysis Services para los servidores locales.
 * Las conexiones activas de Azure Analysis Services admiten el filtrado por rol, pero no el filtrado dinámico por nombre de usuario.
-* If the underlying dataset doesn’t require RLS, the GenerateToken request must **not** contain an effective identity.
+* Si el conjunto de datos subyacente no requiere RLS, la solicitud GenerateToken **no** debe contener una identidad efectiva.
 * Si el conjunto de datos subyacente es un modelo de nube (modelo en caché o DirectQuery), la identidad efectiva debe incluir al menos un rol. En caso contrario, no se producirá la asignación de roles.
 * Solo se puede proporcionar una identidad en la lista de identidades. En el futuro se usará una lista para permitir tokens de identidad múltiple para la inserción de paneles.
 

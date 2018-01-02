@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/17/2017
 ms.author: asaxton
-ms.openlocfilehash: 17e8c8dd467b7dc349a373ec986dd3e2715c2f73
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6dd0191a480274e7a9b03b182113edd4c734c2ef
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Adquisición de Power BI Premium
 Obtenga información sobre cómo adquirir la capacidad de Power BI Premium para su organización.
@@ -65,11 +65,11 @@ También puede seleccionar los siguientes vínculos que le llevarán directament
 
 | Vínculos directos de compra |
 | --- |
-| [SKU de EM3 (mes a mes)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |
-| [SKU de P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |
-| [SKU de P1 (mes a mes)](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) |
-| [SKU de P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |
-| [SKU de P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |
+| [SKU EM3 (mes a mes)](https://portal.office.com/commerce/completeorder.aspx?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |
+| [SKU de P1](https://portal.office.com/commerce/completeorder.aspx?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |
+| [SKU P1 (mes a mes)](https://portal.office.com/commerce/completeorder.aspx?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) |
+| [SKU de P2](https://portal.office.com/commerce/completeorder.aspx?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |
+| [SKU de P3](https://portal.office.com/commerce/completeorder.aspx?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |
 
 Después de completar la compra, la pantalla de servicios de compra mostrará que el elemento se ha adquirido y que está activo.
 

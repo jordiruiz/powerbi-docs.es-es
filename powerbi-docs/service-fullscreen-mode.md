@@ -1,6 +1,6 @@
 ---
-title: "Mostrar paneles, iconos de paneles y páginas de informes en modo de pantalla completa"
-description: "Mostrar paneles, iconos de paneles y páginas de informes en modo de pantalla completa, también conocido como *modo de televisión*."
+title: "Muestra de paneles, iconos de paneles, páginas de informes y visualizaciones de informes en modo de pantalla completa"
+description: "Muestre paneles, iconos de paneles, objetos visuales de informes y páginas de informes en modo de pantalla completa, también conocido como *modo de televisión*."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 87fbe780991969f5fe3e9a31af58e54015d13678
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: a8d1a49a341b98778a6ad08c823397f420b2475e
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="full-screen-mode-in-power-bi"></a>Modo de pantalla completa en Power BI
 ## <a name="what-is-full-screen-mode"></a>¿Qué es el modo de pantalla completa?
@@ -89,7 +89,7 @@ Vea cómo Amanda abre su panel y navega por él en modo de pantalla completa y, 
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Paneles en Power BI](service-dashboards.md)  
-[Modo de enfoque para paneles e iconos de paneles](service-focus-mode.md)    
+[Modo de enfoque](service-focus-mode.md)    
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

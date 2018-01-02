@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/07/2017
 ms.author: asaxton
-ms.openlocfilehash: b16bae6cc8932a488920949815833def5980c1f3
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 147ec28e64cf271843fcffdd14abe005345170e0
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir contenido de Power BI a usuarios externos invitados con Azure AD B2B
 
@@ -30,10 +30,7 @@ Power BI se integra con Azure Active Directory Business-to-business (Azure AD B2
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
 
 > [!NOTE]
-> Esta característica no está disponible actualmente en Power BI Mobile. 
-> 
-> 
-
+> Esta característica no está disponible actualmente en las aplicaciones móviles de Power BI. En un dispositivo móvil, puede ver el contenido de Power BI compartido mediante Azure AD B2B en un explorador. 
 
 ## <a name="invite-guest-users"></a>Invitar a usuarios externos
 
@@ -99,6 +96,12 @@ Asignar una licencia de Power BI Pro al usuario invitado, dentro de su inquilino
 El usuario invitado ya tiene una licencia de Power BI Pro asignada dentro del inquilino.
 
 ![El usuario invitado aporta su propia licencia](media/service-admin-azure-ad-b2b/license-approach3.png)
+
+## <a name="limitations"></a>Limitaciones
+
+* Los invitados B2B externos solo pueden consumir contenido. Los invitados B2B externos pueden ver aplicaciones, paneles, informes, exportar los datos y crear suscripciones de correo electrónico para los paneles e informes. No pueden acceder a áreas de trabajo ni publicar su propio contenido.
+* Esta característica no está disponible actualmente en las aplicaciones móviles de Power BI. En un dispositivo móvil, puede ver el contenido de Power BI compartido mediante Azure AD B2B en un explorador.
+* No se admite el uso de usuarios invitados con Power BI en nubes soberanas (gubernamentales).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

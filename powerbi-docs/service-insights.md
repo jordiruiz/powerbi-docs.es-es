@@ -1,6 +1,6 @@
 ---
-title: "Consiga información rápida en Power BI"
-description: "Documentación para ejecutar y trabajar con información rápida con el servicio Power BI."
+title: "Generación automática de información sobre los datos con Power BI"
+description: "Vea cómo obtener información detallada acerca de los conjuntos de datos y los iconos del panel."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,32 +16,32 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/01/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 8b069f29737992817d20396007864cc8c005ca99
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fb498f2b3320b96958467a9db851f119dba20ce7
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
-# <a name="quick-insights-with-power-bi"></a>Quick Insights con Power BI
-¿Tiene un nuevo conjunto de datos y no está muy seguro de por dónde debe empezar?  ¿Necesita para crear un panel rápidamente?  ¿Quiere buscar información rápidamente que puede que le falte?
+# <a name="automatically-generate-data-insights-with-power-bi"></a>Generación automática de información sobre los datos con Power BI
+¿Tiene un nuevo conjunto de datos y no está muy seguro de por dónde debe empezar?  ¿Necesita crear un panel rápidamente?  ¿Quiere buscar información que puede que le falte?
 
-Ejecute Quick Insights para generar visualizaciones interactivas interesantes basadas en los datos. La información rápida se puede ejecutar en un conjunto de datos entero (Información rápida) o en un icono de panel específico (Información con ámbito). Información rápida se puede ejecutar hasta en una información.
+Extraiga información rápida para generar visualizaciones interactivas interesantes basadas en los datos. Se puede extraer información detallada de un conjunto de datos completo (información rápida) o del icono de un panel específico (información con ámbito). Puede incluso extraer información detallada a partir de información detallada.
 
-> **NOTA**: Información rápida no funciona con DirectQuery, solo con los datos cargados en Power BI.
+> **NOTA**: La información detallada no funciona con DirectQuery, solo con los datos cargados en Power BI.
 > 
 > 
 
-La característica Información rápida se basa en un creciente [conjunto de algoritmos de análisis avanzados](service-insight-types.md) desarrollado en combinación con Microsoft Research, que vamos a seguir usando para que más personas encuentren información en sus datos de formas nuevas e intuitivas.
+La característica de información detallada se basa en un creciente [conjunto de algoritmos de análisis avanzados](service-insight-types.md) desarrollado en combinación con Microsoft Research, que vamos a seguir usando para que más personas encuentren información en sus datos de formas nuevas e intuitivas.
 
-## <a name="run-quick-insights-on-a-dataset"></a>Ejecutar Quick Insights en un conjunto de datos
-En el siguiente fragmento de vídeo, se puede ver que Amanda ejecuta información rápida en un conjunto de datos, abre una información en modo de enfoque, ancla una parte de esta información rápida como un icono en su panel y obtiene información rápida para un objeto visual.
+## <a name="run-quick-insights-on-a-dataset"></a>Extracción de información rápida de un conjunto de datos
+Vea a Amanda extraer información rápida de un conjunto de datos, abrir la información en modo de enfoque, anclar una de estas piezas de información como un icono en su panel y, por último, obtener información detallada de un icono del panel.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/et_MLSL2sA8" frameborder="0" allowfullscreen></iframe>
 
 
-Ahora es su turno. Explore Información rápida mediante el [Ejemplo de análisis de calidad de proveedores](sample-supplier-quality.md).
+Ahora es su turno. Explore la característica de información detallada con el [Ejemplo de análisis de calidad de proveedores](sample-supplier-quality.md).
 
 1. En la pestaña **Conjuntos de datos**, seleccione el botón de puntos suspensivos (...) y elija **Obtener información**.
    
@@ -55,18 +55,18 @@ Ahora es su turno. Explore Información rápida mediante el [Ejemplo de análisi
    
     ![](media/service-insights/pbi_autoinsightsuccess.png)
    
-   > **NOTA**: Algunos conjuntos de datos no pueden generar información rápida porque los datos no son estadísticamente significativos.  Para obtener más información, consulte [Optimizar los datos para Información rápida](service-insights-optimize.md).
+   > **NOTA**: Algunos conjuntos de datos no pueden generar información porque los datos no son estadísticamente significativos.  Para más información, consulte [Optimización de los datos para información detallada](service-insights-optimize.md).
    > 
    > 
-4. Las visualizaciones se muestran en un lienzo especial de **información rápida** con un máximo 32 tarjetas de información independientes. Cada tarjeta tiene un gráfico o un gráfico con una breve descripción.
+1. Las visualizaciones se muestran en un lienzo especial de **información rápida** con un máximo 32 tarjetas de información independientes. Cada tarjeta tiene un gráfico o un gráfico con una breve descripción.
    
     ![](media/service-insights/power-bi-insights.png)
 
-## <a name="interact-with-the-quick-insight-cards"></a>Interactuar con las tarjetas de Información rápida
+## <a name="interact-with-the-insight-cards"></a>Interacción con las tarjetas de información
   ![](media/service-insights/pbi_hover.png)
 
 1. Mantenga el puntero sobre una tarjeta y seleccione el icono de anclaje para agregar la visualización a un panel.
-2. Mantenga el puntero sobre una tarjeta y seleccione el icono Modo enfocado para mostrar la pantalla completa de la tarjeta.
+2. Mantenga el puntero sobre una tarjeta, seleccione los puntos suspensivos (...) y elija **Ver información**. Se abrirá la pantalla completa de información.
    
     ![](media/service-insights/power-bi-insight-focus.png)
 3. En el Modo enfocado, puede:
@@ -75,30 +75,24 @@ Ahora es su turno. Explore Información rápida mediante el [Ejemplo de análisi
      
         ![](media/service-insights/power-bi-insights-filter-new.png)
    * Ancle la tarjeta de información a un panel seleccionando el icono de pin ![](media/service-insights/power-bi-pin-icon.png) o mediante **Anclar visualización**.
-   * Ejecute Información rápida en la propia tarjeta. A esto se le conoce como **Información rápida con ámbito**. En la esquina superior derecha, seleccione el icono de bombilla ![](media/service-insights/power-bi-bulb-icon.png) u **Obtener información**.
+   * Información en la propia tarjeta. A esto se le conoce como **información con ámbito**. En la esquina superior derecha, seleccione el icono de bombilla ![](media/service-insights/power-bi-bulb-icon.png) u **Obtener información**.
      
        ![](media/service-insights/pbi-autoinsights-tile.png)
      
-     La información rápida se muestra a la izquierda y las tarjetas nuevas, que usan exclusivamente los datos de esa información rápida, se muestran a la derecha.
+     A la izquierda, se muestra la información y, a la derecha, nuevas tarjetas basadas solo en los datos de esa única información.
      
        ![](media/service-insights/power-bi-insights-on-insights-new.png)
-4. Para volver al lienzo original de Información rápida, en la esquina superior izquierda, seleccione **Salir del modo enfocado**.
+4. Para volver al lienzo original de información, en la esquina superior izquierda, seleccione **Salir del modo de enfoque**.
 
-## <a name="run-quick-insights-on-a-dashboard-tile"></a>Ejecutar Información rápida en un icono del panel
-En lugar de buscar información en un conjunto de datos entero, limite la búsqueda a los datos utilizados para crear un único icono de panel. A esto se le conoce como **Información rápida con ámbito**.
+## <a name="run-insights-on-a-dashboard-tile"></a>Información en un icono del panel
+En lugar de buscar información en un conjunto de datos entero, limite la búsqueda a los datos utilizados para crear un único icono de panel. A esto también se le conoce como **información con ámbito**.
 
 1. Abra un panel.
-2. Seleccione un icono y [abra el icono en modo Enfoque](service-focus-mode.md).
-3. En la esquina superior derecha, seleccione **Obtener información**.
+2. Mantenga el puntero encima de un icono. Seleccione el botón de puntos suspensivos (...) y elija **Ver información**. El icono se abre en [modo de enfoque](service-focus-mode.md) con las tarjetas de información a la derecha.    
    
-    ![](media/service-insights/pbi-autoinsights-tile.png)
-4. Power BI muestra las tarjetas de información en el lado derecho del icono.
-   
-    ![](media/service-insights/pbi-insights-tile.png)
-5. ¿Alguna información capta su interés? Seleccione esa tarjeta de información para profundizar aún más. La información rápida seleccionada aparece a la izquierda, mientras que las nuevas tarjetas de información, que usan exclusivamente esa información rápida, se muestran a la derecha.
-6. Siga profundizando en los datos y, cuando encuentre una información rápida interesante, ancle su objeto visual al panel, para lo que debe seleccionar **Anclar visualización** en la esquina superior derecha. También puede enviar comentarios para que el propietario del conjunto de datos sepa si una información rápida concreta ha sido, o no, de ayuda.
-   
-    ![](media/service-insights/useful.png)
+    ![](media/service-insights/pbi-insights-tile.png)    
+4. ¿Alguna información capta su interés? Seleccione esa tarjeta de información para profundizar aún más. A la izquierda, se muestra la información seleccionada y, a la derecha, nuevas tarjetas de información, basadas solo en los datos de esa única información.    
+6. Siga profundizando en los datos y, cuando encuentre una información interesante, ancle esta al panel mediante la selección de **Anclar objeto visual** en la esquina superior derecha.
 
 ## <a name="next-steps"></a>Pasos siguientes
 Si es propietario de un conjunto de datos, [optimícelo para información rápida](service-insights-optimize.md)

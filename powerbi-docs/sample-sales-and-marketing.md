@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/05/2017
 ms.author: mihart
-ms.openlocfilehash: ecd984ab23c4480b2e615635a8d2f337e2a9a50f
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Ejemplo de ventas y marketing para Power BI: un paseo
 El **Ejemplo de ventas y marketing** muestra un panel y un informe de una empresa de fabricación ficticia denominada VanArsdel Ltd. Este panel lo creó el director de marketing (CMO) de VanArsdel para disponer de información actualizada sobre el sector, y la cuota de mercado, el volumen de productos, las ventas y las opiniones sobre su compañía.
@@ -30,7 +30,7 @@ Aunque la competencia de VanArsdel es notable, sigue siendo líder del mercado e
 
 Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Estos son datos reales y anónimos de obviEnce (www.obvience.com).
 
-También puede [descargar únicamente el conjunto de datos (libro de Excel) para este ejemplo](http://go.microsoft.com/fwlink/?LinkId=529785).
+[!Note] También puede [descargar únicamente el conjunto de datos (libro de Excel) para este ejemplo](http://go.microsoft.com/fwlink/?LinkId=529785). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar seleccione **Power Pivot > Administrar**.
 
 ![](media/sample-sales-and-marketing/sales1.png)
 
