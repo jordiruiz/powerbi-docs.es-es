@@ -454,10 +454,8 @@
           href: power-bi-visualization-treemaps.md
         - name: 'Tutorial: Gráficos de cascada en Power BI'
           href: power-bi-visualization-waterfall-charts.md
-        - name: Creación de un icono grande de número para un panel de Power BI mediante una pregunta
-          href: power-bi-visualization-big-number.md
-        - name: Creación de un icono grande de número a partir de un informe de Power BI
-          href: power-bi-visualization-big-number-report.md
+        - name: 'Tutorial: Tarjetas (iconos grandes de números) en Power BI'
+          href: power-bi-visualization-card.md
         - name: Crear análisis y visualizaciones avanzados con scripts R en Power BI
           href: service-r-visuals.md
     - name: Datos de los archivos
@@ -938,6 +936,8 @@
           href: developer/integrate-report.md
         - name: Integrar un contenido en la aplicación (la aplicación posee los datos)
           href: developer/embed-sample-for-customers.md
+        - name: Inserción de diseños personalizados en una aplicación
+          href: developer/embedded-custom-layout.md
         - name: Crear un inquilino de Azure Active Directory
           href: developer/create-an-azure-active-directory-tenant.md
         - name: Registrar una aplicación

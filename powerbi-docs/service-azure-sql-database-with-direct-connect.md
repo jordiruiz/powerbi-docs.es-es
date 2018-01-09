@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 12/18/2017
 ms.author: asaxton
-ms.openlocfilehash: 83613f0ed915a03b65b90d4bf61e37568b922182
-ms.sourcegitcommit: c2deaff54434da67698a14cc00172a2119ed1a56
+ms.openlocfilehash: 6ee8ab6d30d84857de9cd415ee58caade4e94a57
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database con DirectQuery
 Obtenga información sobre cómo puede conectarse directamente a Azure SQL Database y crear informes que usan datos activos. Puede mantener los datos en el origen y no en Power BI.
@@ -31,9 +31,9 @@ Con DirectQuery, las consultas se envían a Azure SQL Database a medida que expl
 **Notas:**
 
 * Especifique el nombre completo del servidor cuando se conecte (consulte más abajo para obtener más detalles)
-* Asegúrese de que las reglas de firewall para la base de datos están configuradas en "[Permitir el acceso a los servicios de Azure](https://msdn.microsoft.com/library/azure/ee621782.aspx)".
+* Asegúrese de que las reglas de firewall para la base de datos están configuradas en "[Permitir el acceso a los servicios de Azure](https://msdn.microsoft.com/library/azure/ee621782.aspx)"
 * Cada acción, como seleccionar una columna o agregar un filtro, enviará una consulta a la base de datos
-* Los iconos se actualizan aproximadamente cada 15 minutos (no es necesario programar la actualización). Se puede ajustar en la configuración avanzada al conectarse.
+* Los iconos se actualizan cada hora (no es necesario programar la actualización). Se puede ajustar en la configuración avanzada al conectarse.
 * Preguntas y respuestas no está disponible para conjuntos de datos de DirectQuery.
 * Los cambios de esquema no se recogen automáticamente
 
@@ -42,12 +42,19 @@ Estas restricciones y notas pueden cambiar mientras seguimos mejorando las exper
 ## <a name="power-bi-desktop-and-directquery"></a>Power BI Desktop y DirectQuery
 Para conectarse a Azure SQL Database mediante DirectQuery, debe usar Power BI Desktop. Este enfoque proporciona capacidades y flexibilidad adicionales. Los informes creados mediante Power BI Desktop se pueden publicar en el servicio Power BI. Puede obtener más información sobre cómo conectarse a [Azure SQL Database mediante DirectQuery](desktop-use-directquery.md) en Power BI Desktop. 
 
-## <a name="connecting-through-power-bi"></a>Conexión a través de Power BI
-Ya no puede conectarse a Azure SQL Database directamente desde el servicio Power BI. Al seleccionar el [conector de Azure SQL Database](https://app.powerbi.com/getdata/bigdata/azure-sql-database-with-live-connect), deberá realizar la conexión en Power BI Desktop. Después puede publicar los informes de Power BI Desktop en el servicio Power BI. 
+## <a name="single-sign-on"></a>Inicio de sesión único
 
-![](media/service-azure-sql-database-with-direct-connect/azure-sql-database-in-power-bi.png)
+Después de publicar un conjunto de datos DirectQuery de Azure SQL en el servicio, puede habilitar el inicio de sesión único (SSO) a través de OAuth2 de Azure Active Directory (Azure AD) para los usuarios finales. 
 
-### <a name="finding-parameter-values"></a>Buscar valores de parámetro
+Para habilitar el inicio de sesión único, vaya a la configuración del conjunto de datos, abra la pestaña **Orígenes de datos** y active la casilla SSO.
+
+![Configuración del cuadro de diálogo de Azure SQL con DirectQuery](media/service-azure-sql-database-with-direct-connect/sso-dialog.png)
+
+Cuando se habilita la opción SSO y los usuarios pueden acceder a los informes creados sobre el origen de datos, Power BI envía sus credenciales autenticadas de Azure AD en las consultas a la instancia de Azure SQL Database. Esto permite a Power BI respetar la configuración de seguridad establecida en el nivel de origen de datos.
+
+La opción SSO surte efecto en todos los conjuntos de datos que usan este origen de datos. No afecta el método de autenticación utilizado para los escenarios de importación.
+
+## <a name="finding-parameter-values"></a>Buscar valores de parámetro
 El nombre completo del servidor y el nombre de la base de datos pueden encontrarse en Azure Portal.
 
 ![](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
@@ -59,4 +66,3 @@ El nombre completo del servidor y el nombre de la base de datos pueden encontrar
 [Introducción a Power BI](service-get-started.md)  
 [Obtener datos para Power BI](service-get-data.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
-

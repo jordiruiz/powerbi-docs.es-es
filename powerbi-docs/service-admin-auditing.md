@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/28/2017
+ms.date: 12/12/2017
 ms.author: asaxton
-ms.openlocfilehash: 49df0d0a44ceae3e36f45f6523f39a0b5bb1b6a0
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="using-auditing-within-your-organization"></a>Usar la auditoría dentro de su organización
 
@@ -35,6 +35,16 @@ Puede filtrar los datos de auditoría por intervalo de fechas, usuario, panel, i
 
 > [!NOTE]
 > La característica de auditoría de Power BI es una versión preliminar y está disponible en todas las regiones de datos.
+
+## <a name="requirements"></a>Requisitos
+Debe cumplir estos requisitos para tener acceso a los registros de auditoría:
+
+- Para acceder a la sección de auditoría del Centro de seguridad y cumplimiento de Office 365, debe tener una licencia de Exchange Online (que se incluye con las suscripciones de Office 365 Enterprise E3 y E5).
+- Debe ser un administrador global o tener un rol de administrador de Exchange que proporcione acceso al registro de auditoría. 
+
+  Los roles de administrador de Exchange se controlan mediante el centro de administración de Exchange. Para más información, vea [Permisos en Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx).
+
+- Si tiene acceso al registro de auditoría pero no es un administrador global o un administrador del servicio Power BI, no tendrá acceso al portal de administración de Power BI. En este caso, deberá obtener un vínculo directo al Centro de seguridad y cumplimiento de Office 365.
 
 ## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Habilitar la funcionalidad de auditoría en el Portal de administración de Power BI
 
@@ -70,8 +80,8 @@ Para auditar los registros de Power BI, debe visitar el Centro de seguridad y cu
    ![](media/service-admin-auditing/powerbi-admin.png)
 
 3. Seleccione **Registros de auditoría**.
-4. 
-5. Seleccione **Ir al Centro de administración de O365**.
+ 
+4. Seleccione **Ir al Centro de administración de O365**.
    
    ![](media/service-admin-auditing/audit-log-o365-admin-center.png)
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/02/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 30fc0731f819f063aa04e856e8acc75a69f64a59
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3750d733967301f952fd092d2d1d0a2b9d1b2238
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="analytics-pane-in-power-bi-service"></a>Panel de análisis del servicio Power BI
 Con el panel **Análisis** en **Servicio Power BI**, puede agregar *líneas de referencia* dinámicas a visualizaciones y destacar las tendencias o detalles importantes.
@@ -44,33 +44,34 @@ Con el panel **Analytics**, puede crear los siguientes tipos de líneas de refer
 * Línea mediana
 * Línea de percentil
 
-Las secciones siguientes muestran cómo se puede usar el panel **Analytics** y las líneas de referencia dinámicas en las visualizaciones.
 
 Para ver las líneas de referencia dinámicas disponibles para un objeto visual, siga estos pasos:
 
 1. Seleccione o cree un objeto visual y, después, seleccione el icono **Análisis** ![](media/service-analytics-pane/power-bi-analytics-icon.png)desde el panel **Visualizaciones**.
+
 2. Seleccione la flecha hacia abajo para el tipo de línea que desea crear para expandir sus opciones. En este caso, seleccionaremos **Línea promedio**.
    
-   ![](media/service-analytics-pane/power-bi-add.png)
-3. Para crear una nueva línea, seleccione **+ Agregar**. A continuación, puede especificar un nombre para la línea haciendo doble clic en el cuadro de texto y escribiendo su nombre.
+   ![agregar línea promedio](media/service-analytics-pane/power-bi-add.png)
+
+3. Para crear una nueva línea, seleccione **+ Agregar** y decida la medida que se usará para crear la línea.  La lista desplegable **Medida** se rellena automáticamente con los datos disponibles de la visualización seleccionada. Vamos a usar **Abrir recuento de tiendas**.
+
+5. Tiene todo tipo de opciones para la línea, como el color, la transparencia, el estilo y la posición (con respecto a los elementos de datos del objeto visual). Si desea etiquetar la línea, asígnele un título y, a continuación, mueva el control deslizante **Etiqueta de datos** a **Activado**.  En este caso, asignaremos el título *Avg # Open Stores* (Nº de almacenes abiertos promedio) a la línea y personalizaremos algunas de las otras opciones como se muestra a continuación.
    
-   Tiene todo tipo de opciones para la línea, como el *color*, la *transparencia*, el *estilo* y la *posición* (con respecto a los elementos de datos del objeto visual); también puede definir si quiere incluir la etiqueta. Asimismo, puede seleccionar en qué **Medida** del objeto visual se debe basar la línea seleccionándola en el menú desplegable **Medida**, que se rellena automáticamente con los elementos de datos del objeto visual. En este caso, seleccionaremos *Open store count* (Número de almacenes abiertos) como medida, lo etiquetaremos como *Avg # Open Stores* (Nº de almacenes abiertos promedio) y personalizaremos algunas de las otras opciones, como se muestra a continuación.
-   
-   ![](media/service-analytics-pane/power-bi-average-line.png)
-4. Si desea hacer que aparezca una etiqueta de datos, active el control deslizante de **Etiqueta de datos**. Al hacerlo, obtendrá una gran variedad de opciones adicionales para la etiqueta de datos.
-5. Observe el número que aparece junto al elemento **Línea promedio** en el panel **Analytics**. Eso le indica cuántas líneas dinámicas tiene actualmente en el objeto visual y de qué tipo son. Si agregamos una **línea constante** como objetivo del número de almacenes de 9, puede ver que en el panel **Análisis** se muestra que ahora también tenemos una línea de referencia de **línea constante** aplicada a este objeto visual.
+   ![personalizar el análisis de la línea promedio](media/service-analytics-pane/power-bi-average-line2.png)
+
+1. Observe el número que aparece junto al elemento **Línea promedio** en el panel **Analytics**. Eso le indica cuántas líneas dinámicas tiene actualmente en el objeto visual y de qué tipo son. Si agregamos una **línea constante** como objetivo del número de almacenes de 9, puede ver que en el panel **Análisis** se muestra que ahora también tenemos una línea de referencia de **línea constante** aplicada a este objeto visual.
    
    ![](media/service-analytics-pane/power-bi-reference-lines.png)
    
-   Si el objeto visual seleccionado no puede tener líneas de referencia dinámica aplicadas (en este caso, un objeto visual de **Mapa**), verá lo siguiente al seleccionar el panel **Analytics**.
-   
-   ![](media/service-analytics-pane/power-bi-no-lines.png)
 
 Hay todo tipo de información interesante que puede resaltar mediante la creación de líneas de referencia dinámicas con el panel **Analysis**.
 
-Estamos planeando más características y funcionalidades, como la ampliación de los objetos visuales que pueden tener líneas de referencia dinámicas aplicadas. Vuelva con regularidad para ver las novedades.
+## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 
-## <a name="limitations"></a>Limitaciones
+Si el objeto visual seleccionado no puede tener líneas de referencia dinámica aplicadas (en este caso, un objeto visual de **Mapa**), verá lo siguiente al seleccionar el panel **Analytics**.
+   
+![el análisis no está disponible](media/service-analytics-pane/power-bi-no-lines.png)
+
 La capacidad de usar líneas de referencia dinámicas se basa en el tipo de objeto visual que se está usando. En la siguiente lista se muestra qué líneas dinámicas están disponibles en estos momentos para los objetos visuales:
 
 El uso completo de líneas dinámicas está disponible en los siguientes objetos visuales:

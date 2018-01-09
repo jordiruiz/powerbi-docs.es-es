@@ -15,15 +15,18 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: e12b14a73ba63d64d39f296db602e57ceedc5523
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3d6c3f59611a515ea6a2188457cc80c31a7693ce
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Idiomas y países o regiones admitidos para Power BI
+
+Este artículo proporciona las listas de idiomas y países o regiones admitidos para el servicio Power BI, Power BI Desktop, y documentación de Power BI.
+
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Países y regiones en los que Power BI está disponible
 Para ver los países y las regiones en los que Power BI está disponible, consulte esta [lista de disponibilidad internacional](https://products.office.com/business/international-availability). 
 
@@ -75,7 +78,7 @@ El servicio Power BI (en el explorador) está disponible en los siguientes 42 id
 * Ucraniano - українська
 * Vietnamita - Tiếng Việt
 
-## <a name="whats-translated"></a>Qué se traduce
+### <a name="whats-translated"></a>Qué se traduce
 Los menús, botones, mensajes y otros elementos de la experiencia se traducen a su idioma, lo que facilita la navegación y la interacción con Power BI.
 
 En este momento, algunas características solo están disponibles en inglés:
@@ -85,22 +88,22 @@ En este momento, algunas características solo están disponibles en inglés:
 
 Permanezca atento mientras seguimos trabajando para incorporar más características en otros idiomas. 
 
-## <a name="choose-your-language-in-the-power-bi-service"></a>Elegir el idioma en el servicio Power BI
+### <a name="choose-your-language-in-the-power-bi-service"></a>Elegir el idioma en el servicio Power BI
 1. En el servicio Power BI, seleccione el icono **Configuración** ![icono Configuración](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Configuración**.
 2. En la ficha **General** > **Idioma**.
 3. Seleccione su idioma > **Aplicar**.
 
-## <a name="choose-your-language-in-the-browser"></a>Elegir el idioma en el explorador
+### <a name="choose-your-language-in-the-browser"></a>Elegir el idioma en el explorador
 Power BI detecta el idioma según las preferencias de idioma del equipo. La forma de acceder a estas preferencias y cambiarlas puede variar según el sistema operativo y el explorador. Aquí se muestra cómo acceder a estas preferencias en Internet Explorer y Google Chrome.
 
-### <a name="internet-explorer-version-11"></a>Internet Explorer (versión 11)
+#### <a name="internet-explorer-version-11"></a>Internet Explorer (versión 11)
 1. Haga clic en el botón **Herramientas** en la esquina superior derecha de la ventana del explorador:
    
    ![Botón Herramientas de Internet Explorer](media/supported-languages-countries-regions/languages1.png)
 2. Haga clic en **Opciones de Internet**.
 3. En el cuadro de diálogo Opciones de Internet, en la pestaña General, en Apariencia, haga clic en el botón **Idiomas** .
 
-### <a name="google-chrome-version-42"></a>Google Chrome (versión 42)
+#### <a name="google-chrome-version-42"></a>Google Chrome (versión 42)
 1. Haga clic en el botón de menú en la esquina superior derecha de la ventana del explorador:
    
    ![Botón de menú de Chrome](media/supported-languages-countries-regions/languages2.png)
@@ -144,7 +147,7 @@ El idioma que elija para Power BI Desktop afectará al formato de presentación 
 
 Para cambiar el idioma en Power BI Desktop debe volver a la página de descarga y descargarla en un idioma diferente.
 
-### <a name="choose-the-locale-to-be-used-when-importing-data-into-power-bi-desktop"></a>Elección de la configuración regional que se usará al importar datos a Power BI Desktop
+### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Elección de la configuración regional para importar datos en Power BI Desktop
 Tanto si se descarga Power BI Desktop como si lo instala desde la Tienda Windows, puede elegir una configuración regional para un informe concreto que sea distinta de la de su versión de Power BI Desktop. Esto hace que cambie la forma en que se interpretan los datos cuando se importan desde el origen de datos. Por ejemplo, esto permite saber si "3/4/2017" se interpreta como 3 de abril o como 4 de marzo. 
 
 1. En Power BI Desktop, vaya a **Archivo** > **Opciones y configuración** > **Opciones**.
@@ -153,6 +156,22 @@ Tanto si se descarga Power BI Desktop como si lo instala desde la Tienda Windows
    
    ![Cuadro de diálogo Opciones de Power BI Desktop](media/supported-languages-countries-regions/pbi_supptdlangs_locale.png)
 4. Seleccione **Aceptar**.
+
+### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>Elección del idioma del modelo en Power BI Desktop
+
+Además de establecer el idioma de la aplicación Power BI Desktop, también puede establecer el idioma del modelo. El idioma del modelo afecta principalmente a dos cosas:
+
+- A cómo se comparan y cómo se ordenan cadenas. Por ejemplo, como el turco tiene dos letras "i", dependiendo de la intercalación de la base de datos, los dos pueden terminar en un puesto diferente al ordenarse. 
+- El idioma que usa Power BI Desktop al crear tablas de fechas ocultas a partir de campos de fecha. Por ejemplo, los campos se llaman Month/Monat/Mois, etc.
+
+Aquí se muestra cómo establecer el idioma del modelo.
+
+1. En Power BI Desktop, vaya a **Archivo** > **Opciones y configuración** > **Opciones**.
+2. En **Global**, seleccione **Configuración Regional**.
+3. En el cuadro **Idioma del modelo**, seleccione un idioma diferente. 
+
+    ![Establecer el idioma del modelo en Power BI Desktop](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
+
 
 ## <a name="languages-for-the-help-documentation"></a>Idiomas para la documentación de ayuda
 La ayuda está traducida a estos 10 idiomas: 

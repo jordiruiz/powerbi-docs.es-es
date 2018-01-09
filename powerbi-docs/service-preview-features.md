@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/02/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 7038587e567b2d8377f1ef77583f7baa9695fa58
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6f63dd502e84433c8ecc40e28d0f518845546f90
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="opt-in-for-power-bi-preview-features"></a>Participación en las características de vista previa de Power BI
 ## <a name="what-are-preview-features"></a>¿Qué son las *características de vista previa*?
@@ -33,22 +33,16 @@ A medida que introducimos mejoras en Power BI, publicamos algunas funcionalidade
 > 
 > 
 
-## <a name="current-previews-available"></a>Vistas previas disponibles actualmente
-**Versión preliminar de los mapas de ArcGIS para Power BI**: con la combinación de ArcGIS Maps y Power BI, los mapas no se limitan a ser una representación de puntos, sino que alcanzan un nivel completamente nuevo.
-[Paseo por ArcGIS Maps de Esri en el servicio Power BI y Power BI Desktop](power-bi-visualization-arcgis.md).
-
-## <a name="turn-the-arcgis-preview-feature-on-and-off"></a>Activación (y desactivación) de la característica ArcGIS (versión preliminar)
+## <a name="find-previews-and-turn-them-on-and-off"></a>Busque versiones preliminares y actívelas (o desactívelas)
 1. Abra el menú Configuración, seleccione el icono de engranaje en la esquina superior derecha de la pantalla de Power BI y elija **Configuración**.
    
    ![](media/service-preview-features/power-bi-settings.png).
-2. Seleccione la pestaña **General** y elija **características de vista previa**.
+2. Seleccione la pestaña **General**. Si existen versiones preliminares, verá una opción para **Características de versión preliminar** o verá una característica de versión preliminar a la izquierda.  En este ejemplo, hay una característica de versión preliminar de ArcGIS Maps. 
    
    ![](media/service-preview-features/power-bi-preview-arcgis.png)
-3. Seleccione el botón de opción **Activar** para probar la nueva experiencia. Haga clic en **Aplicar**.
-4. Para desactivar las características de vista previa, siga los pasos 1 y 2 anteriores y, en el paso 3, seleccione **Desactivar** > **Aplicar**.
+3. Seleccione el botón de opción **Activar**, o marque la casilla, para probar la nueva experiencia. Después, seleccione **Aplicar**.
+4. Para desactivar las características de versión preliminar, siga los pasos 1 y 3 anteriores y, en el paso 3, elija **Desactivar**, o desactive la casilla, y seleccione **Aplicar**.
 
-## <a name="next-steps"></a>Pasos siguientes
-[Nueva experiencia de navegación de Power BI](service-the-new-power-bi-experience.md)
 
 ¿Tiene preguntas o comentarios? [Visite el foro de la comunidad de Power BI](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview).
 

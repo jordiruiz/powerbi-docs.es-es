@@ -1,6 +1,6 @@
 ---
-title: "Configuración de presentación de página en un informe de Power BI"
-description: "Configuración de presentación de página en un informe de Power BI"
+title: "Configuración de la presentación de página y configuración de la vista de página de un informe"
+description: "Configuración de la presentación de página y configuración de la vista de página de un informe"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 1dd9c77d0af4c3f606f195c3f4199f774292d668
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Configuración de presentación de página en un informe de Power BI
 Sabemos que es fundamental lograr un diseño de informe perfecto hasta el último detalle. En ocasiones, esto puede resultar complicado, porque cada persona ve estos informes en pantallas con relaciones de aspecto y tamaños diferentes. 
@@ -32,21 +32,43 @@ La vista de pantalla predeterminada es **Ajustar a la página** y el tamaño de 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
 
 
-## <a name="page-view-settings"></a>Configuración de Vista de página
-![](media/power-bi-report-display-settings/power-bi-change-page-view-new.png)
+## <a name="where-to-find-page-view-settings-in-power-bi-service-and-power-bi-desktop"></a>Dónde encontrar la configuración de la vista de página en el servicio Power BI y en Power BI Desktop
+La configuración de la vista de página está disponible en el servicio Power BI y en Power BI Desktop, pero la interfaz es ligeramente diferente. Las dos secciones siguientes explican dónde se pueden buscar las opciones de Vista en cada herramienta de Power BI.
 
-La configuración de *Vista de página* controla la presentación de la página del informe en relación con la ventana del explorador.  Puede elegir entre:
+### <a name="in-power-bi-desktop"></a>En Power BI Desktop
+En la vista de informe, seleccione la pestaña **Vista** para abrir la configuración de la vista de página, así como la configuración del diseño de teléfono.
+
+  ![panel Selección](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
+
+### <a name="in-power-bi-service-apppowerbicom"></a>En el servicio Power BI (app.powerbi.com)
+En el servicio Power BI, abra un informe y seleccione **Vista** en la barra de menús de la parte superior izquierda.
+
+![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
+
+La configuración de Vista de página está disponible en [Vista de lectura](service-interact-with-a-report-in-reading-view.md) y [Vista de edición](service-interact-with-a-report-in-editing-view.md). En la vista de edición, el propietario de un informe puede asignar una configuración de vista de página a las páginas individuales del informe y esa configuración se guarda con el informe. Cuando los compañeros abren ese informe en la vista de lectura, ven las páginas del informe con la configuración del propietario.  En la vista de lectura, los compañeros pueden cambiar *algunas* opciones de la vista de página, pero los cambios no se guardarán cuando cierre el informe.
+
+##    <a name="page-view-settings"></a>Configuración de la vista de página
+El primer conjunto de opciones de la *vista de página* controla la presentación de la página del informe en relación con la ventana del explorador.  Puede elegir entre:
 
 * **Ajustar a la página** (valor predeterminado): el contenido se escala para ajustarse mejor a la página
 * **Ajustar a ancho**: el contenido se escala para ajustarse al ancho de la página
 * **Tamaño real**: se muestra el contenido en tamaño completo
 
-La configuración de Vista de página está disponible en [Vista de lectura](service-interact-with-a-report-in-reading-view.md) y [Vista de edición](service-interact-with-a-report-in-editing-view.md). En Vista de edición, el propietario de un informe puede asignar a una configuración de Vista de página a las páginas individuales del informe y esa configuración se guarda con el informe. Cuando una compañera abre ese informe en Vista de lectura, ve las páginas del informe con la configuración del propietario.  Sin embargo, mientras trabaja con el informe en Vista de lectura, puede cambiar temporalmente la configuración de Vista de página.  Una vez que abandona el informe, la configuración de Vista de página volverá a la establecida por el propietario del informe.
+El segundo conjunto de opciones de la *vista de página* controla la posición de los objetos en el lienzo del informe
+
+* **Mostrar líneas de cuadrícula**: permite activar las líneas de cuadrícula para ayudarle a colocar los objetos en el lienzo del informe
+* **Ajustar a la cuadrícula**: se usa con **Mostrar líneas de cuadrícula** para colocar y alinear de forma precisa objetos en el lienzo del informe 
+* **Bloquear objetos**: permite bloquear todos los objetos en el lienzo para que no se puedan mover ni cambiar de tamaño
+* **Panel de selección**: el panel de selección enumera todos los objetos del lienzo y puede decidir qué se va a mostrar y que se va a ocultar
+
+    ![panel Selección](media/power-bi-report-display-settings/power-bi-selection-pane.png)
+
+
 
 ## <a name="page-size-settings"></a>Configuración de Tamaño de página
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-El control de configuración de *Tamaño de página* controla la relación de aspecto de pantalla y el tamaño real (en píxeles).  La configuración de tamaño de página solo está disponible en la vista de edición.
+La configuración del *tamaño de página* solo está disponible para los propietarios de los informes. En el servicio Power BI (app.powerbi.com), esto significa que puede abrir el informe en la [vista de edición](service-reading-view-and-editing-view.md). Este control de configuración controla la relación de aspecto de pantalla y el tamaño real (en píxeles) del lienzo del informe.   
 
 * Relación 4:3
 * Relación 16:9 (valor predeterminado)

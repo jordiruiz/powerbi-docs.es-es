@@ -15,36 +15,27 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/09/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 40528aa3401f690daed17fa9bf73cd6c90edcf62
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2dcf3b50b9019880a9a7a11c863bed88783214c7
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="searching-and-sorting-content-in-power-bi"></a>Búsqueda y ordenación de contenido en Power BI
-Una combinación de características de organización automatizada, etiquetado de usuarios, búsqueda y ordenación de Power BI le permite encontrar rápidamente lo que necesita en el servicio Power BI.
+# <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navegación: búsqueda, detección y ordenación de contenido en el servicio Power BI
+Hay muchas maneras de navegar por el contenido en el servicio Power BI. El contenido de las áreas de trabajo está organizado por tipos: paneles, informes, libros y conjuntos de datos.  Y también se organiza el contenido por usos: favoritos, reciente, aplicaciones, compartido conmigo y destacado. Estos diferentes métodos de acceso al contenido le permiten encontrar rápidamente lo que necesita en el servicio Power BI.  
 
-## <a name="how-power-bi-helps-you-navigate-your-content"></a>Cómo le ayuda Power BI a navegar por su contenido
-El servicio Power BI organiza el contenido de varias maneras.  En primer lugar, lo separa en paneles, informes, libros y conjuntos de datos. Verá esta organización en muchas de las pantallas de Power BI. Luego, el servicio Power BI clasifica el contenido de tal forma que sea aún más fácil encontrar lo que necesita, rápidamente. Eche un vistazo a la barra de navegación izquierda.
+>[!NOTE] 
+>Este artículo se aplica al servicio Power BI (app.powerbi.com) y no a Power BI Desktop.
 
-![](media/service-navigation-search-filter-sort/power-bi-newnav.png)
+## <a name="navigation-within-workspaces"></a>Navegación en áreas de trabajo
 
-El contenido que crea para uso propio se encuentra disponible en **Mi área de trabajo**, el contenido que crea y comparte con un grupo está disponible en una **área de trabajo de la aplicación**, el contenido al que quiere acceder rápidamente se guarda en **Favoritos**, el contenido que comparten con usted está disponible en **Compartido conmigo** y el contenido visto por última vez está también disponible en **Reciente**.
+El servicio Power BI separa el contenido del área de trabajo por tipos: paneles, informes, libros y conjuntos de datos. Verá esta organización cuando seleccione un área de trabajo. En este ejemplo, el área de trabajo de la aplicación se denomina "Sales and marketing app sample" y contiene 2 paneles, 6 informes, 1 libro y 5 conjuntos de datos.
 
-Para más información, consulte [Cómo se organiza el contenido en el servicio Power BI](service-basic-concepts.md)
+![](media/service-navigation-search-filter-sort/workspaces.gif)
 
-> **NOTA**: Otra manera de organizar el contenido es seleccionar el panel que espera ver más a menudo y establecerlo como su panel *destacado*. Cada vez que abra el servicio Power BI, este es el panel que verá primero. Para más información, consulte [Panel destacado](service-dashboard-featured.md).
-> 
-> 
-
-## <a name="favorite-dashboards-and-apps"></a>Aplicaciones y paneles favoritos
-¿Tiene un número de paneles y aplicaciones que visita con frecuencia? Si los [establece como *favoritos*](service-dashboard-favorite.md), siempre estarán disponibles desde la barra de navegación izquierda.
-
-![](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png).
-
-El uso de favoritos se describe con más detalle en el artículo [Favoritos en el servicio Power BI](service-dashboard-favorite.md).
+________________________________________
 
 ## <a name="searching-and-sorting-in-workspaces"></a>Búsqueda y ordenación en áreas de trabajo
 Un área de trabajo tiene cuatro pestañas de contenido: Paneles, Informes, Libros y Conjuntos de datos.  Cada una de estas pestañas contiene un campo de búsqueda y un botón de ordenación.  Es posible que al empezar a usar el servicio Power BI, no las considere útiles porque solo tendrá uno o dos elementos por pestaña.  Sin embargo, con el tiempo puede terminar con listas largas de contenido.  Use la búsqueda y la ordenación para encontrar fácilmente lo que necesita.
@@ -58,6 +49,20 @@ Un área de trabajo tiene cuatro pestañas de contenido: Paneles, Informes, Libr
   
    ![](media/service-navigation-search-filter-sort/power-bi-sort-alpha.png)
 
+## <a name="navigation-using-the-left-navbar"></a>Navegación mediante la barra de navegación izquierda
+La barra de navegación de la izquierda clasifica el contenido de tal forma que es aún más fácil encontrar lo que necesita, rápidamente.  
+
+![](media/service-navigation-search-filter-sort/power-bi-newnav.png)
+
+
+
+El contenido que crea para uso propio se encuentra disponible en **Mi área de trabajo**, el contenido que crea y comparte con un grupo está disponible en un área de trabajo **Aplicaciones**, el contenido que comparten con usted está disponible en **Compartido conmigo** y el contenido visto por última vez está disponible en **Reciente**.
+
+Además, puede etiquetar el contenido como [favorito](service-dashboard-favorite.md) y [destacado](service-dashboard-featured.md). Seleccione el panel que espera ver más a menudo y establézcalo como su panel *destacado*. Cada vez que abra el servicio Power BI, este es el panel que verá primero. ¿Tiene un número de paneles y aplicaciones que visita con frecuencia? Si los establece como favoritos, siempre estarán disponibles en la barra de navegación izquierda.
+
+![](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png).
+
+
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 * En los conjuntos de datos, **Ordenar por** no está disponible por propietario.
 
@@ -65,4 +70,3 @@ Un área de trabajo tiene cuatro pestañas de contenido: Paneles, Informes, Libr
 [Power BI: Conceptos básicos](service-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
-

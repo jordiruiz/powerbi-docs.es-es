@@ -1,6 +1,6 @@
 ---
-title: Tipos de Quick Insights compatibles con Power BI
-description: Quick Insights con Power BI.
+title: "Tipos de información compatibles con Power BI"
+description: "Información rápida y Ver información con Power BI."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/03/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 13f5614cf121b17d8ae4dff9653f5789372f7f49
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 53e5e67da9bacd9fc9dcbb770747823647aa3a3c
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="types-of-quick-insights-supported-by-power-bi"></a>Tipos de Quick Insights compatibles con Power BI
-## <a name="how-does-quick-insights-work"></a>¿Cómo funciona Quick Insights?
+# <a name="types-of-insights-supported-by-power-bi"></a>Tipos de información compatibles con Power BI
+## <a name="how-does-insights-work"></a>¿Cómo funciona la búsqueda de información?
 Power BI busca rápidamente en distintos subconjuntos del conjunto de datos al tiempo que aplica un conjunto de algoritmos sofisticados para detectar información de posible interés. Power BI examina tanto como puede un conjunto de datos en el tiempo asignado.
 
-Puede ejecutar Quick Insights en un conjunto de datos o icono (Related Insights).   
+Puede ejecutar la información en un conjunto de datos o en un icono de panel.   
 
-## <a name="what-types-of-quick-insights-can-we-find"></a>¿Qué tipos de instancias de información rápida se pueden buscar?
+## <a name="what-types-of-insights-can-we-find"></a>¿Qué tipos de información se puede buscar?
 Estos son algunos de los algoritmos que se usan:
 
 ## <a name="category-outliers-topbottom"></a>Valores atípicos de categoría (superior o inferior)
@@ -78,9 +78,9 @@ En el caso de los datos de una serie temporal, detecta si hay determinadas fecha
 ![](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Power BI Quick Insights](service-insights.md)
+[Información de Power BI](service-insights.md)
 
-Si es propietario de un conjunto de datos, [optimícelo para información rápida](service-insights-optimize.md)
+Si es propietario de un conjunto de datos, [optimícelo para información](service-insights-optimize.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/30/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6c096cfb76a1d8697cef3d157efcda41e57a1510
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b18157f28dcaf2e9b130bdc3bd5547312e45a4f9
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Permitir que Cortana acceda a los informes de Power BI (y sus conjuntos de datos subyacentes)
 Ha leído el artículo [Introducción a Cortana para Power BI](service-cortana-intro.md) (si no es así, quizás desee leerlo primero y volver). Y ahora desea probarlo por usted mismo.  Antes de formular preguntas con lenguaje natural en Cortana y encontrar respuestas en datos almacenados en ***informes*** de Power BI, existen algunas condiciones. En concreto, debe hacer lo siguiente.
@@ -47,11 +47,10 @@ Deberá conectarse al servicio Power BI (no Power BI Desktop) y repetir estos pa
 2. El conjunto de datos asociado con este informe es **Contoso Sales**.
    
     ![Conjunto de datos Contoso Sales](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. En la esquina superior derecha del servicio Power BI, seleccione el icono de engranaje y elija **Configuración**.
+3. A la derecha del nombre del conjunto de datos, seleccione los **puntos suspensivos (...) > Configuración**.  
    
-    ![Elegir configuración](media/service-cortana-enable/power-bi-cortana-settings.png)
-4. Seleccione la pestaña **Conjuntos de datos** y elija el conjunto de datos que se va a habilitar para Cortana de la lista de la izquierda.
-5. Seleccione **Preguntas y respuestas y Cortana** > **Permitir que Cortana acceda a este conjunto de datos** > **Aplicar**.
+    ![Elegir configuración](media/service-cortana-enable/power-bi-settings-cortana.png)
+4. Seleccione **Preguntas y respuestas y Cortana** > **Permitir que Cortana acceda a este conjunto de datos** > **Aplicar**.
    
    ![Acceso de Cortana al conjunto de datos](media/service-cortana-enable/power-bi-cortana-enable-new.png)
    
@@ -67,16 +66,19 @@ Deberá conectarse al servicio Power BI (no Power BI Desktop) y repetir estos pa
 ## <a name="add-your-power-bi-credentials-to-windows"></a>Incorporación de las credenciales de Power BI a Windows
 Debe ejecutar Windows 10 versión 1511 o posterior.
 
-1. Determine qué versión de Windows 10 está ejecutando. Abra **Configuración** > **Sistema** > **Acerca de**.
-   
+1. Determine qué versión de Windows 10 está ejecutando. Abra **Configuración**.
+    ![Abra Configuración de Windows](media/service-cortana-enable/power-bi-cortana-windows.png)
+
+    A continuación, seleccione **Sistema > Acerca de**. Hacia la parte inferior de la pantalla verá **Especificaciones de Windows > Versión**
+
    * Si tiene Windows 10 versión 1511 (actualización de noviembre de 2015 de Windows 10) hasta 1607, agregue su cuenta profesional o educativa y su cuenta de Microsoft (complete los pasos 2 y 3 siguientes).
    * Si tiene Windows 10 versión 1607 (actualización de Windows 10 de julio de 2016) o una versión posterior, agregue su cuenta profesional o educativa (complete solo el paso 2 a continuación).
-2. Agregue la cuenta profesional o educativa a Cortana.
+1. Agregue la cuenta profesional o educativa a Cortana.
    
    * Abra **Configuración** > **Cuentas**.
      
        ![Configuración > Cuentas](media/service-cortana-enable/power-bi-windows-accounts.png)
-   * Desplácese hasta la parte inferior y seleccione **Agregar una cuenta profesional o educativa**.
+   * Desplácese hasta la parte inferior y seleccione **Agregar una cuenta profesional o educativa**. O bien, en la página **Cuentas** seleccione  **Obtener acceso a trabajo o escuela > Conectar**.
      
      ![Agregar cuenta profesional](media/service-cortana-enable/power-bi-add-work-account2.png)
 

@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/30/2017
+ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
-ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
+ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Uso de la seguridad de nivel de fila con contenido insertado de Power BI
-La seguridad de nivel de fila (RLS) se puede usar para restringir el acceso a los datos por el usuario dentro de un informe o un conjunto de datos, lo que permite que varios usuarios diferentes usen el mismo informe mientras ven datos diferentes. Se puede hacer uso de RLS al insertar informes desde Power BI.
+La seguridad de nivel de fila (RLS) se puede usar para restringir el acceso de usuarios a los datos de paneles, iconos, informes y conjuntos de datos. Varios usuarios diferentes pueden trabajar con esos mismos artefactos mientras ven otros datos distintos. La inserción admite RLS.
 
-Si va a realizar la inserción para usuarios que no son de Power BI (la aplicación posee los datos), que es normalmente un escenario de ISV, este es el artículo que necesita. Deberá configurar el token de inserción para considerar el usuario y el rol. Siga leyendo para saber cómo hacerlo.
+Si va a realizar una inserción para usuarios que no son de Power BI (la aplicación posee los datos), que es normalmente un escenario de ISV, este es el artículo que necesita. Deberá configurar el token de inserción para considerar el usuario y el rol. Siga leyendo para saber cómo hacerlo.
 
 Si va a realizar la inserción para usuarios de Power BI (el usuario posee los datos), dentro de su organización, RLS funciona igual que dentro del servicio de Power BI directamente. No tiene que hacer nada más en la aplicación. Para más información, consulte [Seguridad de nivel de fila (RLS) con Power BI](../service-admin-rls.md).
 
@@ -34,7 +34,7 @@ Si va a realizar la inserción para usuarios de Power BI (el usuario posee los d
 
 Para aprovechar las ventajas de RLS, es importante que comprenda tres conceptos principales: usuarios, roles y reglas. Analicemos cada uno de ellos detenidamente:
 
-**Usuarios**: son los usuarios finales reales que ven los informes. En Power BI Embedded, los usuarios se identifican por la propiedad de nombre de usuario de un token de inserción.
+**Usuarios**: los usuarios finales que ven el artefacto (panel, icono, informe o conjunto de datos). En Power BI Embedded, los usuarios se identifican por la propiedad de nombre de usuario de un token de inserción.
 
 **Roles**: los usuarios pertenecen a roles. Un rol es un contenedor de reglas y se puede designar algo como *Representante de ventas* o *Rep. de ventas*. Los roles se crean en Power BI Desktop. Para más información, consulte [Seguridad de nivel de fila (RLS) con Power BI Desktop](../desktop-rls.md).
 
@@ -85,11 +85,11 @@ Ahora que tiene configurados los roles de Power BI Desktop, es necesario hacer a
 
 La aplicación autentica y autoriza a los usuarios y los tokens de inserción se usan para conceder a ese usuario acceso a un informe específico de Power BI Embedded. Power BI Embedded no tiene ninguna información específica sobre quién es el usuario. Para que RLS funcione, es necesario pasar algún contexto adicional como parte del token de inserción en forma de identidades. Esto se hace mediante la API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
 
-La API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) acepta una lista de identidades con indicación de los conjuntos de datos pertinentes. Actualmente solo se puede proporcionar una identidad. En un futuro se agregará compatibilidad con varios conjuntos de datos, para la inserción de paneles. Para que RLS funcione, deberá pasar lo siguiente como parte de la identidad.
+La API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) acepta una lista de identidades con indicación de los conjuntos de datos pertinentes. Para que RLS funcione, deberá pasar lo siguiente como parte de la identidad.
 
 * **nombre de usuario (obligatorio)**: una cadena que se puede usar para ayudar a identificar el usuario al aplicar reglas de RLS. Se puede mostrar un único usuario.
 * **roles (obligatorio)**: una cadena que contiene los roles que se seleccionarán al aplicar reglas de seguridad de nivel de fila. Si se pasa más de un rol, se deben pasar como una matriz de cadenas.
-* **conjunto de datos (obligatorio)**: el conjunto de datos que es aplicable al informe que se va a insertar. Se puede proporcionar un único conjunto de datos en la lista de conjuntos de datos. En un futuro se admitirán varios conjuntos de datos para la inserción de paneles.
+* **conjunto de datos (obligatorio)**: el conjunto de datos que es aplicable al artefacto que se va a insertar. 
 
 Puede crear el token de inserción mediante el método **GenerateTokenInGroup** de **PowerBIClient.Reports**. Actualmente, solo se admiten informes.
 
@@ -125,7 +125,7 @@ Si llama a la API de REST, la API actualizada acepta ahora una matriz JSON adici
 }
 ```
 
-Ahora, una vez encajadas todas las piezas, cuando alguien inicie sesión en la aplicación para ver este informe, solo podrá ver los datos para los que tiene permiso, tal como se define en la seguridad de nivel de fila.
+Ahora, una vez encajadas todas las piezas, cuando alguien inicie sesión en la aplicación para ver este artefacto, solo podrá ver los datos para los que tiene permiso, tal como se define en la seguridad de nivel de fila.
 
 ## <a name="working-with-analysis-services-live-connections"></a>Trabajo con conexiones activas de Analysis Services
 La seguridad de nivel de fila se puede usar con conexiones dinámicas de Analysis Services para servidores locales. Hay algunos conceptos específicos que debe conocer al usar este tipo de conexión.
@@ -143,12 +143,11 @@ Los roles se pueden proporcionar con la identidad en un token de inserción. Si 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 * La asignación de usuarios a roles dentro del servicio Power BI no afecta a RLS cuando se usa un token de inserción.
 * Aunque el servicio Power BI no aplicará valores de RLS a administradores o miembros con permisos de edición, cuando se suministre una identidad con un token de inserción, se aplicará a todos los datos.
-* Pasar la información de identidad, al llamar a GenerateToken, solo se admite para lectura y escritura de informes. Próximamente habrá compatibilidad con otros recursos.
 * Se admiten las conexiones activas de Analysis Services para los servidores locales.
 * Las conexiones activas de Azure Analysis Services admiten el filtrado por rol, pero no el filtrado dinámico por nombre de usuario.
 * Si el conjunto de datos subyacente no requiere RLS, la solicitud GenerateToken **no** debe contener una identidad efectiva.
-* Si el conjunto de datos subyacente es un modelo de nube (modelo en caché o DirectQuery), la identidad efectiva debe incluir al menos un rol. En caso contrario, no se producirá la asignación de roles.
-* Solo se puede proporcionar una identidad en la lista de identidades. En el futuro se usará una lista para permitir tokens de identidad múltiple para la inserción de paneles.
+* Si el conjunto de datos subyacente es un modelo de nube (modelo en caché o DirectQuery), la identidad efectiva debe incluir al menos un rol ya que, de lo contrario, la asignación de roles no se producirá.
+* Una lista de identidades habilita varios tokens de identidad para la inserción del panel. Para todos los demás artefactos, la lista contiene una sola identidad.
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

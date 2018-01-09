@@ -16,17 +16,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: dbf65dba335be077518a46f2a5bafdd7e85dcb79
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: fe85f52bccc164fee896d1fd3e690264867b54fa
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Duplicar una página del informe en Power BI
-1. En Power BI, abra un informe en [Vista de edición](service-reading-view-and-editing-view.md) y [cree una visualización](power-bi-report-add-visualizations-i.md) si el informe aún no tiene ninguna. 
-2. En la barra de control superior, seleccione el icono **Duplicar esta página** .
+Duplicar una página de informe requiere permisos de edición sobre este. En el servicio Power BI, esto significa abrir el informe en la [Vista de edición](service-reading-view-and-editing-view.md). 
+
+
+1. En Power BI, abra un informe que tenga al menos una página. 
+
+2. En la barra de control superior, seleccione **Duplicar esta página**.
    
    ![](media/power-bi-report-copy-paste-page/pbi_duplicate_new.png)
    
@@ -37,8 +41,9 @@ ms.lasthandoff: 11/15/2017
 
 ### <a name="next-steps"></a>Pasos siguientes
 Obtenga más información sobre [Visualizaciones en informes de Power BI](power-bi-report-visualizations.md)
+[Agregar una nueva página a un informe](power-bi-report-add-page.md) 
 
-[Power BI: Conceptos básicos](service-basic-concepts.md)
+[Power BI: Conceptos básicos](service-basic-concepts.md) 
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

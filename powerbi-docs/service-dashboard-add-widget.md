@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/31/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 20760bec773c6f1d2a3cbbfaefd0651b97cbe601
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Agregar imagen, texto, vídeo y mucho más al panel
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -42,7 +42,7 @@ El control **Agregar icono** permite agregar directamente una imagen, un cuadro 
 Supongamos que desea incluir el logotipo de su empresa, u otra imagen, en el panel. Debe guardar el archivo de imagen en línea y vincularse a él. Asegúrese de que no se necesitan credenciales especiales para tener acceso al archivo de imagen. Por ejemplo, OneDrive y SharePoint requieren autenticación, por lo que las imágenes almacenadas allí no se puede agregar a un panel de esta manera.  
 
 1. Seleccione **Imagen** > **Siguiente**.
-2. Agregue información de la imagen al panel **Detalles del icono** .
+2. Agregue información de la imagen a la ventana **Agregar icono de imagen**.
    
     ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
@@ -56,16 +56,16 @@ Supongamos que desea incluir el logotipo de su empresa, u otra imagen, en el pan
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Agregar un cuadro de texto o un encabezado de panel
 1. Seleccione **Cuadro de texto > Siguiente**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-text-box-new.png)
-   
    > **NOTA**: Para agregar un encabezado de panel, escriba el encabezado en el cuadro de texto y aumente el tamaño de la fuente.
-   > 
    > 
 2. Dé formato al cuadro de texto:
    
    * Para mostrar un título sobre el cuadro de texto, seleccione **Mostrar el título y el subtítulo** y escriba un título y/o un subtítulo.
    * Especificar y formatee el contenido del cuadro de texto.  
-   * De manera opcional, establezca un vínculo personalizado para el título.  Sin embargo, en este ejemplo se agregaron hipervínculos en el texto del cuadro, por lo que debe dejar desactivada la opción **Establecer vínculo personalizado** .
+   * De manera opcional, establezca un vínculo personalizado para el título. Un vínculo personalizado puede ser un sitio externo o un panel o informe del área de trabajo. Sin embargo, en este ejemplo se agregaron hipervínculos en el texto del cuadro, por lo que debe dejar desactivada la opción **Establecer vínculo personalizado**.
+
+     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+   
 3. Seleccione **Aplicar**.  En el panel, cambie el tamaño del cuadro de texto y muévalo según sea necesario.
    
    ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
@@ -74,7 +74,7 @@ Supongamos que desea incluir el logotipo de su empresa, u otra imagen, en el pan
 Al agregar un icono de vídeo de YouTube o Vimeo al panel, el vídeo se reproduce en el panel.
 
 1. Seleccione **Vídeo > Siguiente**.
-2. Agregue información del vídeo al panel **Detalles del icono** .
+2. Agregue información del vídeo al panel **Agregar icono de vídeo**.
    
     ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
@@ -100,7 +100,7 @@ Pegue o escriba en cualquier contenido HTML.  Power BI lo agrega como un icono a
    
    * Para mostrar un título sobre la imagen, seleccione *Mostrar el título y el subtítulo* y escriba un título y/o un subtítulo.
    * Escriba el código para insertar. En este ejemplo, vamos a copiar y pegar una fuente de Twitter.
-   * Seleccione **Aplicar**.  En el panel, cambie el tamaño del icono de contenido web y muévalo según sea necesario.
+3. Seleccione **Aplicar**.  En el panel, cambie el tamaño del icono de contenido web y muévalo según sea necesario.
      
       ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 

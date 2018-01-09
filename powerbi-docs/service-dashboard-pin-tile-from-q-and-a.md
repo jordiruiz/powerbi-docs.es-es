@@ -1,5 +1,5 @@
 ---
-title: Anclar un icono a un panel de Power BI desde Preguntas y respuestas
+title: Anclar un icono a un panel desde Preguntas y respuestas
 description: "Documentación sobre cómo anclar un icono a un panel de Power BI desde el cuadro de preguntas de Preguntas y respuestas."
 services: powerbi
 documentationcenter: 
@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/09/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f37c0f9e433f1ac8c6bb8f7f3fa4b513fb4b4652
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8a876c5a05fcdadff1a874148f5d56465bcc8c62
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Anclar un icono a un panel desde Preguntas y respuestas
 ## <a name="how-to-pin-a-tile-from-qa"></a>Cómo anclar un icono de preguntas y respuestas
 Preguntas y respuestas es la herramienta de creación de informes ad hoc de Power BI. ¿Necesita buscar una determinada información? Formule una pregunta sobre los datos y recibirá una respuesta en forma de visualización.
 
-> **NOTA**: Para continuar, abra el [Ejemplo Análisis de venta directa](sample-retail-analysis.md).
+Preguntas y respuestas está disponible en los paneles y los informes. En este artículo, se abrirá Preguntas y respuestas desde un panel. Los paneles están disponibles en el servicio Power BI, pero no en Power BI Desktop. Para continuar, abra el [panel de ejemplo de análisis de venta directa](sample-retail-analysis.md).
 > 
 > 
 
@@ -40,8 +40,10 @@ Preguntas y respuestas es la herramienta de creación de informes ad hoc de Powe
    el cuadro de pregunta le ofrece sugerencias.
 4. Para agregar el gráfico al panel como un icono, seleccione el icono de anclaje ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) de la parte superior derecha del lienzo.
 5. Ancle el icono a un panel existente o a un nuevo panel. 
-   
-   * Panel existente: seleccione el nombre del panel en la lista desplegable. Las opciones se limitarán a esos paneles que estén dentro del área de trabajo actual.
+
+   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+
+   * Panel existente: seleccione el nombre del panel en la lista desplegable. Las opciones se limitarán solo a esos paneles que estén dentro del área de trabajo actual.
    * Nuevo panel: escriba el nombre del nuevo panel y se agregará al área de trabajo actual.
 6. Seleccione **Anclar**.
    

@@ -1,6 +1,6 @@
 ---
 title: Paneles destacados en Power BI
-description: "Documentación sobre cómo crear un panel destacado en Power BI"
+description: "Documentación sobre cómo crear un panel destacado en el servicio Power BI"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,25 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f87f13c71d60a8edc831a1fd9cc7d0a1d5656634
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 81ea6b32c6f61299c410325a432c521d8b402549
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="featured-dashboards-in-power-bi"></a>Paneles destacados en Power BI
+# <a name="featured-dashboards-in-power-bi-service"></a>Paneles destacados en el servicio Power BI
 ## <a name="create-a-featured-dashboard"></a>Creación de un panel destacado
-Muchos de los usuarios tienen un panel que visitan con más frecuencia que otros.  Puede ser el panel que usa para administrar el negocio o quizás contenga una agregación de iconos de muchos paneles e informes distintos.
+Muchos de los usuarios tienen un panel que visitan con más frecuencia que otros.  Puede ser el panel que usa para administrar el negocio o quizás uno que contenga una agregación de iconos de muchos paneles e informes distintos.
 
 ![](media/service-dashboard-featured/power-bi-feature-nav.png)
 
 Cuando selecciona un panel para que sea *destacado*, cada vez que abra el servicio Power BI, se abrirá mostrando ese panel.  
 
-> **NOTA**: También puede seleccionar algunos paneles para establecerlos como *favoritos*. Consulte [Paneles favoritos](service-dashboard-favorite.md).
-> 
-> 
+También puede seleccionar algunos paneles para establecerlos como *favoritos*. Consulte [Paneles favoritos](service-dashboard-favorite.md).
+
+> [!NOTE] 
+>Este tema se aplica al servicio Power BI no a Power BI Desktop.
 
 Si aún no ha configurado un panel destacado, Power BI se abrirá en el último panel que haya usado.  
 
@@ -70,6 +71,8 @@ Si decide que no desea que haya ningún panel designado como destacado, esta es 
 2. En la barra de menús superior, seleccione **Deshabilitar destacado**.
    
     ![](media/service-dashboard-featured/power-bi-unfeature.png)
+
+Ahora Power BI se abrirá en el último panel que haya usado.  
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Paneles favoritos](service-dashboard-favorite.md)

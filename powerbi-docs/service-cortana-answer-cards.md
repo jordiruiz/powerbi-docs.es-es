@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/29/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 2abaa2ae00b353af46c267083f879cbf9536b397
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 79e10c7d47eb5105e0c3e79bd3451315eae6d27e
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Usar el servicio Power BI o Power BI Desktop para crear una página de respuesta personalizada para Cortana
 Use las funcionalidades completas de Power BI para crear páginas de informe especiales, denominadas *páginas de respuestas de Cortana* (en ocasiones llamadas también tarjetas de respuestas de Cortana), diseñadas específicamente para responder las preguntas de Cortana.
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
-> [!NOTE]
+> [!IMPORTANT]
 > Si va a probar la versión preliminar del **panel** de Cortana y Power BI, puede ignorar el resto de este artículo. No hay ningún requisito de instalación especial de Cortana para que pueda realizar búsquedas en los paneles de Power BI.
 > 
 > 
@@ -63,7 +63,7 @@ El tamaño de una *página de respuestas* de un informe es específico para que 
    > Para mejorar los resultados, evite usar palabras que también sean nombres de columna.
    > 
    > 
-6. Si el informe tiene filtros de nivel de página, puede establecer la opción **Requerir selección única**. Cortana solo mostrará este informe como respuesta si uno, y solo uno, de los elementos de filtro se especifica en la pregunta.
+6. Si el informe tiene filtros de nivel de página, puede que desee establecer la opción **Requerir selección única**. Cortana solo mostrará este informe como respuesta si uno, y solo uno, de los elementos de filtro se especifica en la pregunta. **Requerir selección única** se puede encontrar en la parte inferior del panel **Filtros**.
    
    > [!NOTE]
    > No tendrá que configurar **Requerir selección única** para solicitar a Cortana que muestre un informe con los filtros de nivel de página.  Por ejemplo, "mostrar las ventas de Charlotte Lindseys" mostrará la página de respuesta sin tener en cuenta el valor de Requerir selección única.

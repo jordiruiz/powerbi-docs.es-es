@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/19/2017
 ms.author: mihart
-ms.openlocfilehash: fb40b2576176b772c841cea3347909aaf34af375
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="export-data-from-visualizations"></a>Exportar datos de visualizaciones
 Si quiere ver los datos que se usan para crear una visualización, puede [mostrar estos datos en Power BI](service-reports-show-data.md) o exportarlos a Excel como un archivo .xlsx o .csv.   
@@ -84,7 +84,7 @@ Para poder continuar, abra el [informe de ejemplo de análisis de adquisiciones]
    ![](media/power-bi-visualization-export-data/power-bi-export-data8.png)
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
-* El número máximo de filas que se puede exportar desde **Power BI Desktop** a .csv es 30 000.
+* El número máximo de filas que se pueden exportar desde **Power BI Desktop** y el **servicio Power BI** a .csv es 30 000.
 * El número máximo de filas que se puede exportar a .xlsx desde el **servicio Power BI** es de 30 000 para usuarios de la versión gratuita y 150 000 para usuarios de Power BI Pro.
 * Cuando use DirectQuery, la cantidad máxima de datos que se pueden exportar es de 16 MB. Debido a esto puede que se exporte un número de filas inferior al máximo, especialmente si hay muchas columnas, los datos son difíciles de comprimir o debido a otros factores que hacen que aumente el tamaño y se reduzca el número de filas exportadas.
 * Power BI solo admite la exportación en objetos visuales que utilizan agregados básicos. La exportación no está disponible en los objetos visuales que usan medidas de informe o modelo.

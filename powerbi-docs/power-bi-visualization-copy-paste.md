@@ -15,16 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 7eea8b8299561b65a6af704489d4c69c33ca27b4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8b1efc64dc471bafa410f41c94f7e06d638fe9e0
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="copy-and-paste-a-visualization-in-power-bi"></a>Copia y pegado de una visualización en Power BI
-1. En Power BI, abra un informe en [Vista de edición](service-reading-view-and-editing-view.md) y [cree una visualización](power-bi-report-add-visualizations-i.md) si el informe aún no tiene ninguna. 
+# <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Copia y pegado de una visualización en el servicio Power BI y en Power BI Desktop
+Copiar y pegar una visualización requiere permisos de edición sobre el informe. En el servicio Power BI, esto significa abrir el informe en la [Vista de edición](service-reading-view-and-editing-view.md).
+
+1. Abra un informe que tenga al menos una visualización.  
+
 2. Seleccione la visualización y use **Ctrl + C** para copiar y **Ctrl + V** para pegar.  
    ![](media/power-bi-visualization-copy-paste/copypasteviznew.gif)
 

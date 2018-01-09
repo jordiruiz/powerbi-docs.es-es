@@ -1,6 +1,6 @@
 ---
 title: "Agregar un hipervínculo a un cuadro de texto de un informe"
-description: "Incorporación de un hipervínculo a un cuadro de texto en Power BI"
+description: "Incorporación de un hipervínculo a un cuadro de texto del servicio Power BI y de Power BI Desktop"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 846e6625345bbecb2611615f929f0b55338830e2
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 9533985238fa9fb40bbab4e9ddd459aaaaffc135
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Agregar un hipervínculo a un cuadro de texto de un informe
-Los cuadros de texto se pueden agregar a informes, anclar a paneles desde informes y agregar directamente a paneles. Es posible agregar hipervínculos a un cuadro de texto independientemente de su ubicación. **En este tema se tratan los cuadros de texto de los informes.**
+Los cuadros de texto se pueden agregar a informes, anclar a paneles desde informes y agregar directamente a paneles. Es posible agregar hipervínculos a un cuadro de texto independientemente de su ubicación. **Este tema trata acerca de los cuadros de texto en los informes del servicio Power BI (no Power BI Desktop).**
 
 > **NOTA**: para más información sobre los hipervínculos en matrices y tablas de Power BI, consulte [Hipervínculos en tablas](power-bi-hyperlinks-in-tables.md). Para más información sobre cómo agregar cuadros de texto a su **panel**, consulte [Agregar un icono directamente desde el panel ](service-dashboard-add-widget.md). 
 > 
@@ -47,7 +47,7 @@ Los cuadros de texto se pueden agregar a informes, anclar a paneles desde inform
    
    ![](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
    
-   * En el cuadro de texto, seleccione el hipervínculo para mostrar la dirección URL.
+   * Coloque el cursor en cualquier lugar en el texto resaltado para mostrar la dirección URL.  
      
       ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
    * Seleccione la dirección URL para abrir la página en una ventana de explorador nueva.

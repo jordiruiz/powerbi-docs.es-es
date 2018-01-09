@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 9dc9cb883e1d62c282501e628f52c13267d830b6
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4c4c31f6289f6b3d12b619b7c6c297d861177fbf
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="favorite-dashboards-in-the-power-bi-service"></a>Paneles favoritos en el servicio Power BI
 Al convertir en *favorito* un panel, puede acceder a él desde todas las áreas de trabajo.  Los favoritos suelen ser los que se visitan con más frecuencia.
@@ -50,7 +50,7 @@ Vea a Amanda agregar favoritos a su espacio de trabajo; después, siga las instr
    ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
 ## <a name="working-with-favorites"></a>Uso de *Favoritos*
-1. Para ver los cinco favoritos más reciente, en cualquier área de trabajo, seleccione la flecha situada a la derecha de **Favoritos**.  Ahí puede seleccionar un panel para abrirlo. Solo se enumeran los cinco favoritos más recientes (en orden alfabético). Si tiene más de cinco, seleccione **Ver todos** para abrir la pantalla Favoritos (vea el siguiente punto). 
+1. Para acceder a los favoritos, en cualquier área de trabajo, seleccione la flecha flotante situada a la derecha de **Favoritos**.  Ahí puede seleccionar un panel para abrirlo. Solo se enumeran cinco favoritos (en orden alfabético). Si tiene más de cinco, seleccione **Ver todos** para abrir la pantalla Favoritos (vea el punto 2 a continuación). 
    
    ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
 2. Para ver **todos** los paneles que ha agregado como favoritos, seleccione **Favoritos** en el panel de navegación de la izquierda, o bien haga clic en el icono Favoritos ![](media/service-dashboard-favorite/power-bi-favorites-icon.png).  

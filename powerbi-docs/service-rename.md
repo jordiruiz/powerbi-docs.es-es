@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: d39fd80b834afc37fb1db43a083f9037a3b83ef1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 33954aab1d6e79efc985f3e0d3c4d026f529b691
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Cambiar el nombre de prácticamente cualquier cosa en el servicio Power BI
 Este artículo le enseña a cambiar el nombre de un panel, un informe, una página de informe, un libro, un conjunto de datos, una aplicación y un área de trabajo en el servicio Power BI.
@@ -40,7 +40,7 @@ Este artículo le enseña a cambiar el nombre de un panel, un informe, una pági
 | Contenido en **Compartido conmigo** |No |No |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>Cambiar el nombre de un panel, un informe o un libro
-1. Empiece en un área de trabajo y seleccione la pestaña **Paneles**, **Informes** o **Libros**. Mantenga el puntero sobre el elemento cuyo nombre vaya a cambiar y seleccione el icono de engranaje ![](media/service-rename/powerbi-cog-icon.png).
+1. Empiece en un área de trabajo y seleccione la pestaña **Paneles**, **Informes** o **Libros**. Mantenga el puntero sobre el elemento cuyo nombre vaya a cambiar y seleccione el icono de engranaje ![](media/service-rename/powerbi-cog-icon.png). Si no aparece ningún icono de engranaje, no tiene permisos para cambiar el nombre.
    
    ![](media/service-rename/power-bi-workspace-dashboards.png)
 2. En la página Configuración, escriba el nuevo nombre y seleccione **Guardar**.
@@ -67,7 +67,7 @@ Este artículo le enseña a cambiar el nombre de un panel, un informe, una pági
 Cualquier persona con permisos de administrador puede cambiar el nombre de un área de trabajo de la aplicación.
 
 1. Empiece en el área de trabajo cuyo nombre desee cambiar.
-2. En la esquina superior derecha, seleccione el botón de puntos suspensivos (…) y elija **Edit workspace** (Editar área de trabajo).  
+2. En la esquina superior derecha, seleccione el botón de puntos suspensivos (…) y elija **Edit workspace** (Editar área de trabajo). Si no aparece esta opción, no tiene permisos para cambiar el nombre de esta área de trabajo. 
    
     ![](media/service-rename/power-bi-edit-workspace.png)
 3. Escriba un nuevo nombre para el área de trabajo y seleccione **Guardar**.

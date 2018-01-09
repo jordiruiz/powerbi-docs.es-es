@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: c1801db4135d6d97a940e593de37ca2886194b53
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Gráficos de dispersión y de burbujas de Power BI (tutorial)
 Un gráfico de dispersión siempre tiene dos ejes de valores con el fin de mostrar un conjunto de datos numéricos en un eje horizontal y otro conjunto de valores numéricos a lo largo de un eje vertical. El gráfico muestra puntos en la intersección de un valor numérico x e y, y combina estos valores en puntos de datos únicos. Estos puntos de datos pueden estar distribuidos uniformemente o de forma desigual entre el eje horizontal, en función de los datos.
@@ -47,25 +47,30 @@ Un gráfico de burbujas reemplaza los puntos de datos con burbujas, cuyo *tamañ
 * para usarlos con cuadrantes.
 
 ## <a name="create-a-scatter-chart"></a>Crear un gráfico de dispersión
+Vea este vídeo para ver como Will crea un gráfico de dispersión y, después, siga los pasos que se indican a continuación para crear uno propio.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Abra el ejemplo de análisis de minoristas en la [vista de edición](service-interact-with-a-report-in-editing-view.md) y [agregue una nueva página de informe](power-bi-report-add-page.md).
-2. En el panel Campos, seleccione **Ventas** > **Ventas por metro cuadrado** y **Ventas** > **Porcentaje de varianza total de ventas**.
-3. En el panel Campos, seleccione **Distrito > Distrito**.
+
+Estas instrucciones usan el Ejemplo de análisis de minoristas. Para poder continuar, [descargue el ejemplo](sample-datasets.md) del servicio Power BI (app.powerbi.com) o Power BI Desktop.   
+
+1. Comience en una [página de informe en blanco ](power-bi-report-add-page.md) y seleccione los campos **Sales** \> **Sales Per Sq Ft** y **Sales**  >  **Total Sales Variance %**. Si está utilizando el servicio Power BI, asegúrese de que abre el informe en [Vista de edición](service-interact-with-a-report-in-editing-view.md).
+ 
+2. En el panel Campos, seleccione **Distrito > Distrito**.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_pre_convert.png)
+    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 4. Conviértalo en un gráfico de dispersión. En el panel Visualización, seleccione el icono Gráfico de dispersión.
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
 5. Arrastre **Distrito** desde **Detalles** a **Leyenda**.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_new.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
 Ahora tenemos un gráfico de dispersión que traza el porcentaje de varianza total de ventas a lo largo del eje Y, y traza las ventas por metro cuadrado en el eje X.  Los colores del punto de datos representan distritos.  Ahora vamos a agregar una tercera dimensión.
 
 ## <a name="create-a-bubble-chart"></a>Crear un gráfico de burbujas
 1. En el panel Campos, arrastre **Ventas** > **Ventas de este año** > **Valor** al área **Tamaño**. 
    
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_size.png)
+   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
 2. Mantenga el mouse encima de una burbuja.  El tamaño de la burbuja refleja el valor de **Ventas de este año**.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
