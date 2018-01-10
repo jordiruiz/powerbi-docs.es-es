@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 4dd18fba5b5e3da0f8973a77166551086cc3f3cf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8285cbbc2d8dee653863cad50036da58362c32d1
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Integración de un informe en una aplicación para la organización
 Aprenda a integrar, o insertar, un informe en una aplicación web mediante llamadas a la API de REST, junto con la API de JavaScript de Power BI cuando la inserción se realiza para la organización.
@@ -54,7 +54,7 @@ Dentro de la aplicación, primero tendrá que obtener un **token de acceso**, de
 Para obtener un informe de **Power BI**, utilice la operación [Obtener informes](https://msdn.microsoft.com/library/mt634543.aspx) que obtiene una lista de informes de **Power BI**. En la lista de informes, puede obtener un identificador de informe.
 
 ### <a name="get-reports-using-an-access-token"></a>Obtención de informes mediante un token de acceso
-Con el **token de acceso** que recuperó en el [paso 2](#step-2-get-an-access-token-from-azure-ad), puede llamar a la operación [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) (Obtener informes). La operación [Obtener informes](https://msdn.microsoft.com/library/mt634543.aspx) devuelve una lista de informes. Puede obtener un informe de la lista de informes. A continuación se muestra un método de C# completo para obtener un informe. Para ver ejemplos de cómo usar la API de REST de Power BI, consulte [API de REST de Power BI en APIARY](http://docs.powerbi.apiary.io/).
+Con el **token de acceso** que recuperó en el [paso 2](#step-2-get-an-access-token-from-azure-ad), puede llamar a la operación [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) (Obtener informes). La operación [Obtener informes](https://msdn.microsoft.com/library/mt634543.aspx) devuelve una lista de informes. Puede obtener un informe de la lista de informes. A continuación se muestra un método de C# completo para obtener un informe. 
 
 Para realizar la llamada de API de REST, debe incluir un encabezado *Autorización* con el formato de *Portador {token de acceso}*.
 

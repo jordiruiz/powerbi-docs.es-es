@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d409633129c6c203e897d76c0acf043bf09ea29d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: bd358b8e986313ba665326de0ff2722e0113554d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="add-a-filter-to-a-power-bi-report-in-editing-view"></a>Incorporación de un filtro a un informe en Power BI
 > [!TIP]
@@ -30,13 +30,13 @@ ms.lasthandoff: 11/13/2017
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>Diferencias entre los filtros de informes en la Vista de edición en comparación con la Vista de lectura
-Existen dos modos de interactuar con los informes: la [Vista de lectura](service-interact-with-a-report-in-reading-view.md) y la [Vista de edición](service-interact-with-a-report-in-editing-view.md).  Y las funcionalidades de filtrado disponibles dependen del modo en el que se encuentre.
+Existen dos modos de interactuar con los informes: la [Vista de lectura](service-reading-view-and-editing-view.md) y la [Vista de edición](service-interact-with-a-report-in-editing-view.md).  Y las funcionalidades de filtrado disponibles dependen del modo en el que se encuentre.
 
 * En la Vista de edición, puede agregar filtros de informes, de páginas y de objetos visuales. Al guardar el informe, los filtros se guardan con él. Las personas que examinen el informe en la Vista de lectura pueden interactuar con los filtros que agregue, pero no guardar los cambios.
 * En la Vista de lectura, puede interactuar con cualquier filtro de informe, página y objeto visual que ya exista en el informe, pero no podrá guardar los cambios en los filtros.
 
 > [!NOTE]
-> En este artículo se describe cómo crear filtros en la **Vista de edición** del informe.  Para obtener más información sobre los filtros en la Vista de lectura, consulte [Interacción con un informe en la vista de lectura en Power BI](service-interact-with-a-report-in-reading-view.md).
+> En este artículo se describe cómo crear filtros en la **Vista de edición** del informe.  Para obtener más información sobre los filtros en la Vista de lectura, consulte [Interacción con un informe en la vista de lectura en Power BI](service-reading-view-and-editing-view.md).
 > 
 > 
 
@@ -146,7 +146,7 @@ Si no ve el panel Campos, asegúrese de que se encuentra en la [vista de edició
 
   [Filtrado y resaltado en informes](power-bi-reports-filters-and-highlighting.md)
 
-[Interacción con filtros y resaltado en la Vista de lectura del informe](service-interact-with-a-report-in-reading-view.md)
+[Interacción con filtros y resaltado en la Vista de lectura del informe](service-reading-view-and-editing-view.md)
 
 [Cambiar el filtro cruzado y el resaltado cruzado entre los objetos visuales de los informes](service-reports-visual-interactions.md)
 

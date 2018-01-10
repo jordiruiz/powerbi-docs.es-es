@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: ffaf4439f48b23dcff8e965b5bea1aeaf19afcc0
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Uso de la seguridad de nivel de fila con contenido insertado de Power BI
 La seguridad de nivel de fila (RLS) se puede usar para restringir el acceso de usuarios a los datos de paneles, iconos, informes y conjuntos de datos. Varios usuarios diferentes pueden trabajar con esos mismos artefactos mientras ven otros datos distintos. La inserción admite RLS.
@@ -91,7 +91,7 @@ La API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) acepta 
 * **roles (obligatorio)**: una cadena que contiene los roles que se seleccionarán al aplicar reglas de seguridad de nivel de fila. Si se pasa más de un rol, se deben pasar como una matriz de cadenas.
 * **conjunto de datos (obligatorio)**: el conjunto de datos que es aplicable al artefacto que se va a insertar. 
 
-Puede crear el token de inserción mediante el método **GenerateTokenInGroup** de **PowerBIClient.Reports**. Actualmente, solo se admiten informes.
+Puede crear el token de inserción mediante el método **GenerateTokenInGroup** de **PowerBIClient.Reports**. 
 
 Por ejemplo, podría cambiar el ejemplo [PowerBIEmbedded_AppOwnsData](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data). La *línea 76 y 77 de Home\HomeController.cs* se podría actualizar de:
 

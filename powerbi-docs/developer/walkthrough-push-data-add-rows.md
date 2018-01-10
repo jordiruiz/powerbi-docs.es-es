@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: d9fa2984eecfac026cf01a47d73ec6c5950e02d3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02c0ac505f542d9c4a346ae7aee72533789d5599
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Paso 5: Agregar filas a una tabla de Power BI
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).
 
-En el **paso 4** de Insertar datos en un conjunto de datos, [Obtener un conjunto de datos para agregar filas a una tabla de Power BI](walkthrough-push-data-get-datasets.md), ha utilizado la operación [Obtener conjuntos de datos](https://msdn.microsoft.com/library/mt203567.aspx) operación y Newtonsoft.Json para obtener un identificador de conjunto de datos. En este paso, el identificador de conjunto de datos se usa con la operación [Agregar filas](https://msdn.microsoft.com/library/mt203561.aspx) para agregar filas a un conjunto de datos de **Power BI**. Para ver ejemplos de cómo usar la API de REST de Power BI, consulte [API de REST de Power BI en APIARY](http://docs.powerbi.apiary.io/).
+En el **paso 4** de Insertar datos en un conjunto de datos, [Obtener un conjunto de datos para agregar filas a una tabla de Power BI](walkthrough-push-data-get-datasets.md), ha utilizado la operación [Obtener conjuntos de datos](https://msdn.microsoft.com/library/mt203567.aspx) operación y Newtonsoft.Json para obtener un identificador de conjunto de datos. En este paso, el identificador de conjunto de datos se usa con la operación [Agregar filas](https://msdn.microsoft.com/library/mt203561.aspx) para agregar filas a un conjunto de datos de **Power BI**. 
 
 Al llamar a la operación [Agregar filas](https://msdn.microsoft.com/library/mt203561.aspx), se agregan filas a un conjunto de datos.
 
@@ -319,6 +319,5 @@ A continuación se muestra la [lista de código completa](#code).
 [Insertar datos en un panel de Power BI](walkthrough-push-data.md)  
 [Información general sobre la API de REST de Power BI](overview-of-power-bi-rest-api.md)  
 [Referencia de la API de REST de Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
-[API de REST de Power BI en APIARY](http://docs.powerbi.apiary.io/)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

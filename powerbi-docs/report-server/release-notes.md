@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: ffd0d1ce38a989121225a666ca4aa924df130216
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: aa0f8870396980edfdb85739e0459c365d1e2163
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="power-bi-report-server-release-notes"></a>Notas de la versión del servidor de informes de Power BI
 En este tema se describe las limitaciones del servidor de informes de Power BI y los problemas que pueden aparecer al usarlo.

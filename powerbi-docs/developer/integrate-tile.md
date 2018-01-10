@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Integración de un icono en una aplicación (el usuario es propietario de los datos)
 Aprenda a integrar, o insertar, un icono en una aplicación web mediante llamadas a la API de REST, junto con la API de JavaScript de Power BI cuando la inserción se realiza para la organización.
@@ -56,7 +56,7 @@ Para obtener un icono de **Power BI**, utilice la operación [Get Tiles](https:/
 Para poder obtener el icono, es preciso recuperar un identificador del panel. Para obtener información acerca de cómo recuperar un panel, consulte [Integrar un panel en una aplicación](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Obtención de iconos mediante un token de acceso
-Con el **token de acceso** que recuperó en el [paso 2](#step-2-get-an-access-token-from-azure-ad), puede llamar a la operación [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Obtener iconos). La operación [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Obtener iconos) devuelve una lista de iconos. Puede obtener cualquier icono en la lista de iconos. A continuación se muestra un método de C# completo para obtener un icono. Para ver ejemplos de cómo usar la API de REST de Power BI, consulte [API de REST de Power BI en APIARY](http://docs.powerbi.apiary.io/).
+Con el **token de acceso** que recuperó en el [paso 2](#step-2-get-an-access-token-from-azure-ad), puede llamar a la operación [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Obtener iconos). La operación [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Obtener iconos) devuelve una lista de iconos. Puede obtener cualquier icono en la lista de iconos. A continuación se muestra un método de C# completo para obtener un icono. 
 
 Para realizar la llamada de API de REST, debe incluir un encabezado *Autorización* con el formato de *Portador {token de acceso}*.
 

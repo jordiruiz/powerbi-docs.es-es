@@ -16,11 +16,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalación y uso de aplicaciones con los paneles e informes de Power BI
 En Power BI, las *aplicaciones* permiten reunir paneles e informes relacionados en un solo lugar. Los usuarios de la organización pueden crear y distribuir aplicaciones con información empresarial clave. Los [servicios externos](service-connect-to-services.md) que puede que ya esté usando, como Google Analytics y Microsoft Dynamics CRM, ofrecen también aplicaciones de Power BI. 
@@ -63,7 +63,7 @@ También puede buscar e instalar todas las aplicaciones a las que tenga acceso d
 3. Seleccione **Get it now** (Obtenerla ahora) para agregarla a la página Aplicaciones. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interacción con los paneles e informes en la aplicación
-Ahora podrá explorar los datos de los paneles e informes en la aplicación. Tiene acceso a todas las interacciones estándar de Power BI como el filtrado, el resaltado, la ordenación y la exploración en profundidad. Más información sobre la [interacción con informes de Power BI](service-interact-with-a-report-in-reading-view.md). 
+Ahora podrá explorar los datos de los paneles e informes en la aplicación. Tiene acceso a todas las interacciones estándar de Power BI como el filtrado, el resaltado, la ordenación y la exploración en profundidad. Más información sobre la [interacción con informes de Power BI](service-reading-view-and-editing-view.md). 
 
 No puede guardar los cambios que realice, pero siempre puede [exportar los datos a Excel ](power-bi-visualization-export-data.md) desde una tabla o desde otro objeto visual de un informe.
 

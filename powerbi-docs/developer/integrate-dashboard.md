@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: f3968fd9fb89e868754bb6025a23fdbd028a3965
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fdcefb11187e92063f239967cf4d245347f54683
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Integrar un panel en una aplicación para la organización
 Aprenda a integrar, o insertar, un panel en una aplicación web mediante llamadas a la API de REST, junto con la API de JavaScript de Power BI cuando la inserción se realiza para la organización.
@@ -56,7 +56,7 @@ Para obtener un panel de **Power BI**, utilice la operación [Obtener paneles](h
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Obtener paneles con un token de acceso
-Con el **token de acceso** que recuperó en el [paso 2](#step-2-get-an-access-token-from-azure-ad), puede llamar a la operación [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) (Obtener paneles). La operación [Obtener paneles](https://msdn.microsoft.com/library/mt465739.aspx) devuelve una lista de paneles. Solo puede obtener un panel de la lista de paneles. A continuación se muestra un método de C# completo para obtener un panel. Para ver ejemplos de cómo usar la API de REST de Power BI, consulte [API de REST de Power BI en APIARY](http://docs.powerbi.apiary.io/).
+Con el **token de acceso** que recuperó en el [paso 2](#step-2-get-an-access-token-from-azure-ad), puede llamar a la operación [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) (Obtener paneles). La operación [Obtener paneles](https://msdn.microsoft.com/library/mt465739.aspx) devuelve una lista de paneles. Solo puede obtener un panel de la lista de paneles. A continuación se muestra un método de C# completo para obtener un panel. 
 
 Para realizar la llamada de API de REST, debe incluir un encabezado *Autorización* con el formato de *Portador {token de acceso}*.
 

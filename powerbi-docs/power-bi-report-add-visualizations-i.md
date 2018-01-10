@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: c8baa19eef8210a375e77acee379389ccd5dbade
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 82519877ac9a9603d87f20fc3f1155af34421078
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>Parte I, Incorporación de visualizaciones a un informe de Power BI (tutorial)
 En este artículo, se ofrece una introducción rápida a la creación de una visualización en un informe.  Para ver contenido más avanzado, [consulte la parte II](power-bi-report-add-visualizations-ii.md). Vea cómo Amanda demuestra algunas maneras de crear, editar y dar formato a objetos visuales en el lienzo del informe. A continuación, inténtelo usted usando el [ejemplo de marketing y ventas](sample-datasets.md) para crear su propio informe.
@@ -64,7 +64,7 @@ En este artículo, se ofrece una introducción rápida a la creación de una vis
    
    Continuar con la [parte II del tutorial que le muestra cómo agregar visualizaciones a un informe de Power BI](power-bi-report-add-visualizations-ii.md).
    
-   [Interactuar con las visualizaciones](service-interact-with-a-report-in-reading-view.md) en el informe.
+   [Interactuar con las visualizaciones](service-reading-view-and-editing-view.md) en el informe.
    
    [Hacer más cosas incluso con visualizaciones](power-bi-report-visualizations.md).
    

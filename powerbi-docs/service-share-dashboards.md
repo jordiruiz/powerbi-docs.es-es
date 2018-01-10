@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 01/08/2018
 ms.author: maggies
-ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: d0fbe2ca891096cf8b1ae2145260c3341c451658
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Uso compartido de paneles de Power BI con compañeros y otros usuarios
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece [varias maneras de colaborar y distribuir sus paneles](service-how-to-collaborate-distribute-dashboards-reports.md) y, el uso compartido, es solo una de ellas.
@@ -110,7 +110,7 @@ Si envía un vínculo desde una aplicación móvil de Power BI a personas fuera 
 Aspectos que hay que tener en cuenta sobre el uso compartido de paneles:
 
 * Por lo general, usted y sus compañeros ven los mismos datos en el panel. Por lo tanto, si tiene permisos para ver más datos que ellos, podrán ver todos sus datos en su panel. Sin embargo, si se aplica la [seguridad de nivel de fila (RLS)](service-admin-rls.md) al conjunto de datos subyacente a un panel, se usan las credenciales de cada persona para determinar los datos a los que puede tener acceso.
-* Todos los usuarios con quienes comparte su panel pueden verlo e interactuar con sus informes en [Diseño de lectura](service-report-open-in-reading-view.md). No pueden crear informes ni guardar cambios en los informes existentes.
+* Todos los usuarios con quienes comparte su panel pueden verlo e interactuar con sus informes en [Diseño de lectura](service-reading-view-and-editing-view.md). No pueden crear informes ni guardar cambios en los informes existentes.
 * Nadie puede ver ni descargar el conjunto de datos.
 * Todo el mundo puede manualmente [actualizar los datos del panel](refresh-data.md).
 * Si usa Office 365 para el correo electrónico, puede compartir datos con los miembros de un grupo de distribución. Para ello, escriba la dirección de correo electrónico asociada al grupo de distribución.

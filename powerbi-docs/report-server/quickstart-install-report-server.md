@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 2e616369333d3bb2747ec20eb2072b69d5b9f9d5
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 934b4d3f2da44a161cd76d14c9f042aaf697f26d
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>Inicio rápido: instalar un servidor de informes de Power BI
 Instalar un servidor de Power BI es muy rápido. Desde la descarga hasta la instalación y configuración, estará listo y en ejecución en pocos minutos.

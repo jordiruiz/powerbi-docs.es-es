@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d974fbac281fc8f1d74553d1342f7056fa8d7b03
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Informes en Power BI
 ## <a name="what-is-a-power-bi-report"></a>¿Qué es un informe de Power BI?
@@ -71,7 +71,7 @@ Estos son algunos de los temas, por rol, que le ayudarán a comenzar.
 
 ### <a name="if-you-will-be-receiving-and-consuming-reports"></a>Si va a recibir y consumir informes
 * Comience con un [paseo por el servicio Power BI](service-basic-concepts.md) para saber dónde se encuentran los informes y las herramientas de informes.
-* Aprenda a [abrir un informe](service-report-open-in-reading-view.md) y manejar toda la interacción disponible en [Vista de lectura](service-dashboard-tiles.md).
+* Aprenda a [abrir un informe](service-report-open.md) y manejar toda la interacción disponible en [Vista de lectura](service-reading-view-and-editing-view.md).
 * Familiarícese con los informes viendo uno de nuestros [ejemplos](sample-tutorial-connect-to-the-samples.md).  
 * ¿Ya no necesita el informe? Puede [quitarlo](service-delete.md).
 * Para ver qué conjunto de datos está usando el informe y qué paneles tienen iconos anclados desde el informe, [vea el contenido relacionado](service-related-content.md).
