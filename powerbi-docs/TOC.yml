@@ -350,14 +350,10 @@
           href: service-analyze-in-excel.md
         - name: Cambiar cómo interactúan los objetos visuales en un informe
           href: service-reports-visual-interactions.md
-        - name: Apertura de un informe de Power BI en la vista de lectura
-          href: service-report-open-in-reading-view.md
-        - name: Cambio de la vista de lectura a la vista de edición en Power BI
+        - name: Apertura de un informe de Power BI en vista de Lectura o Edición
           href: service-reading-view-and-editing-view.md
         - name: Interacción con un informe en la vista de edición en Power BI
           href: service-interact-with-a-report-in-editing-view.md
-        - name: Interacción con un informe en la vista de lectura en Power BI
-          href: service-interact-with-a-report-in-reading-view.md
         - name: Sugerencias y trucos para crear informes en el servicio Power BI
           href: power-bi-reports-tips-and-tricks-for-creating.md
         - name: Panel de análisis
@@ -1006,8 +1002,6 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Recursos
       items:
-        - name: Apiary
-          href: 'https://go.microsoft.com/fwlink/?linkid=848278'
         - name: Demostración de inserción de JavaScript
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Ejemplos
@@ -1052,6 +1046,8 @@
           href: report-server/data-sources.md
         - name: Conexión a orígenes de datos
           href: report-server/connect-data-sources.md
+        - name: 'Acceso a conjuntos de datos compartidos como fuentes de OData '
+          href: report-server/access-dataset-odata.md
         - name: Configuración de actualización programada
           href: report-server/configure-scheduled-refresh.md
         - name: Agregar comentarios a un informe
