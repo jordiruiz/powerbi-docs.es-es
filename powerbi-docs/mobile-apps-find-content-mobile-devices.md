@@ -1,6 +1,6 @@
 ---
 title: "Busque paneles, informes y aplicaciones en las aplicaciones móviles de Power BI"
-description: "Obtenga información sobre dónde se encuentran sus paneles e informes en las aplicaciones móviles de Power BI, dependiendo de su procedencia."
+description: "Obtenga información sobre dónde se encuentran sus paneles, informes y aplicaciones en las aplicaciones móviles de Power BI, dependiendo de su procedencia."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6dca860e4711d85b4b53c31c91ba4cba20bbe6e7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Busque sus paneles, informes y aplicaciones en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -49,7 +49,7 @@ Puede tener conexiones a uno o varios servidores de informes de Power BI o de SQ
 ## <a name="3-apps"></a>3 Aplicaciones
 Una aplicación es una colección de paneles y de informes creada específicamente por su organización para presentar las métricas clave para una toma de decisiones más rápida y más fácil orientada a datos. Es muy fácil buscar e instalar aplicaciones en el servicio Power BI ([https://powerbi.com](https://powerbi.com)). Una vez instaladas, podrá visualizarlas desde cualquier dispositivo. 
 
-![Nueva navegación de Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-apps.png)
+![Nueva navegación de Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
 Con las aplicaciones obtendrá automáticamente todas las actualizaciones del autor y este controlará la frecuencia de actualización de los datos. No tiene que preocuparse de actualizar e implementar los cambios del autor.
 

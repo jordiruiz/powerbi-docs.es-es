@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: fb498f2b3320b96958467a9db851f119dba20ce7
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 01e4f19cc1a3a57179be37cf0f36adf15ac47fdc
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Generación automática de información sobre los datos con Power BI
 ¿Tiene un nuevo conjunto de datos y no está muy seguro de por dónde debe empezar?  ¿Necesita crear un panel rápidamente?  ¿Quiere buscar información que puede que le falte?
@@ -71,7 +71,7 @@ Ahora es su turno. Explore la característica de información detallada con el [
     ![](media/service-insights/power-bi-insight-focus.png)
 3. En el Modo enfocado, puede:
    
-   * [filtrar](service-interact-with-a-report-in-reading-view.md) las visualizaciones.  Para mostrar los filtros, en la esquina superior derecha, seleccione la flecha para expandir el panel Filtros.
+   * Filtrar las visualizaciones.  Para mostrar los filtros, en la esquina superior derecha, seleccione la flecha para expandir el panel Filtros.
      
         ![](media/service-insights/power-bi-insights-filter-new.png)
    * Ancle la tarjeta de información a un panel seleccionando el icono de pin ![](media/service-insights/power-bi-pin-icon.png) o mediante **Anclar visualización**.

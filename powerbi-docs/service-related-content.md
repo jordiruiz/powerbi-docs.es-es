@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 4610523d7c18246394974083c948b7bc018b4da1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Visualización del contenido relacionado en el servicio Power BI
 El panel **Contenido relacionado** muestra cómo está interconectado el contenido del servicio Power BI: paneles, informes y conjuntos de datos.  Y lo que es mejor, desde este panel que puede realizar tareas comunes, como actualizar, cambiar nombres, generar información detallada y mucho más. Seleccione un panel o un informe relacionado, y se abrirán en el área de trabajo de Power BI.   
@@ -74,7 +74,7 @@ En un área de trabajo, seleccione la pestaña **Informes** y, luego, elija el i
 <br>
 **Método 2**
 
-Abra el informe en la [vista de lectura](service-interact-with-a-report-in-reading-view.md) y seleccione ![](media/service-related-content/power-bi-view-related-new.png) en la barra de menús superior.
+Abra el informe en la [vista de lectura](service-reading-view-and-editing-view.md) y seleccione ![](media/service-related-content/power-bi-view-related-new.png) en la barra de menús superior.
 
 Se abre el panel **Contenido relacionado**. Muestra el conjunto de datos asociado y todos los paneles que tienen, al menos, un icono anclado desde el informe. Para este informe, hay visualizaciones ancladas a dos paneles diferentes.
 
@@ -97,7 +97,7 @@ Desde aquí, pueda realizar una acción directa en el contenido relacionado.  Po
 
 ## <a name="limitations-and-troubleshooting"></a>Limitaciones y solución de problemas
 * Si el explorador no tiene suficiente espacio, no verá una opción **Ver relacionados**, pero seguirá viendo el icono de Ver relacionados ![](media/service-related-content/power-bi-view-related-icon-new.png). Seleccione el icono para abrir el panel **Contenido relacionado**.
-* Para abrir el contenido relacionado de un informe, debe estar en la [vista de lectura](service-interact-with-a-report-in-reading-view.md).
+* Para abrir el contenido relacionado de un informe, debe estar en la [vista de lectura](service-reading-view-and-editing-view.md).
 * El contenido relacionado no está disponible en Power BI Desktop.
 * La característica Contenido relacionado no funciona con los conjuntos de datos de streaming.
 

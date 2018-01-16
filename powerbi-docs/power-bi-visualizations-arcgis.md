@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/23/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 511f01494410215451d9f77ff637c7cfce8e89b3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interactuación con mapas de ArcGIS en Power BI
 Este tema se escribe desde el punto de vista de una persona que *consume* un mapa de ArcGIS en el servicio Power BI, Desktop o para dispositivos móviles. Si un creador comparte un mapa de ArcGIS con usted, existen numerosas maneras de interactuar con el mapa.  Para más información acerca de cómo crear un mapa de ArcGIS, consulte el [tutorial de mapas ArcGIS de Esri](power-bi-visualization-arcgis.md).
@@ -62,7 +62,7 @@ ArcGIS Maps para Power BI permite tres modos de selección. Se puede seleccionar
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>Interactuación con un mapa de ArcGIS
-Las características disponibles dependen de si es el *creador* (persona que realizó el mapa) o el *consumidor* (alguien ha compartido un mapa de ArcGIS con usted). Si interactúa con un mapa de ArcGIS como consumidor (también conocido como [Reading view](service-interact-with-a-report-in-reading-view.md), Vista de lectura), estas son las acciones disponibles.
+Las características disponibles dependen de si es el *creador* (persona que realizó el mapa) o el *consumidor* (alguien ha compartido un mapa de ArcGIS con usted). Si interactúa con un mapa de ArcGIS como consumidor (también conocido como [Vista de lectura](service-reading-view-and-editing-view.md)), estas son las acciones disponibles.
 
 * Como sucede con otros tipos de visualización, puede [anclar en paneles](service-dashboard-pin-tile-from-report.md), [ver](service-reports-show-data.md) y/o [exportar los datos subyacentes](power-bi-visualization-export-data.md), así como ver el mapa en [modo de enfoque](service-focus-mode.md) y [pantalla completa](service-fullscreen-mode.md).    
 * Expanda el panel **Filters** (Filtros) para explorar el mapa mediante filtros. Al cerrar el informe, no se guardarán los filtros aplicados.    

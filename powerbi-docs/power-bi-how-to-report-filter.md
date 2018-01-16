@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/29/2017
 ms.author: mihart
-ms.openlocfilehash: 3710b8136a5f8f00d78047d9468dce0d6e68377f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Ver el panel Filtros del informe
 En este artículo se analiza en profundidad el panel Filtros del informe. Verá el panel en la Vista de edición y en la Vista de lectura de los informes de Power BI.
@@ -29,7 +29,7 @@ En este artículo se analiza en profundidad el panel Filtros del informe. Verá 
 Hay muchas maneras diferentes de filtrar los datos en Power BI, por eso es recomendable leer primero el artículo [Filtros y resaltado](power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="working-with-filters"></a>Trabajo con filtros
-Los informes se pueden abrir en [Vista de edición](service-interact-with-a-report-in-editing-view.md) o [Vista de lectura](service-interact-with-a-report-in-reading-view.md). En la Vista de edición, los propietarios de informes pueden [agregar filtros a un informe](power-bi-report-add-filter.md), de modo que dichos filtros se guarden con el informe. Las personas que ven el informe en la vista de lectura pueden interactuar con los filtros, pero no pueden guardar los cambios de filtro en el informe.
+Los informes se pueden abrir en la [vista de edición o la vista de lectura](service-reading-view-and-editing-view.md). En la Vista de edición, los propietarios de informes pueden [agregar filtros a un informe](power-bi-report-add-filter.md), de modo que dichos filtros se guarden con el informe. Las personas que ven el informe en la vista de lectura pueden interactuar con los filtros, pero no pueden guardar los cambios de filtro en el informe.
 
 ## <a name="filters-in-reading-view"></a>Filtros en la Vista de lectura
 Al abrir un informe en la Vista de lectura, el panel Filtros se muestra en la parte derecha del lienzo del informe. Si no ve el panel, seleccione la flecha que encontrará en la esquina superior derecha para expandirlo.
@@ -122,7 +122,7 @@ Si los valores de campo representan una fecha o una hora, puede especificar una 
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Filtrado y resaltado en informes](power-bi-reports-filters-and-highlighting.md)  
-[Interacción con filtros y resaltado en la Vista de lectura del informe](service-interact-with-a-report-in-reading-view.md)  
+[Interacción con filtros y resaltado en la Vista de lectura del informe](service-reading-view-and-editing-view.md)  
 [Creación de filtros en la Vista de edición de los informes](power-bi-report-add-filter.md)  
 [Cambiar el filtro cruzado y el resaltado cruzado entre los objetos visuales de los informes](service-reports-visual-interactions.md)
 

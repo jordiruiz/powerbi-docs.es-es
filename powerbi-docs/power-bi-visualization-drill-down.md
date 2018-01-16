@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/18/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 83c63ee2bed5ae7674223cf2fc3f9241308926e9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22dc1c9b703b500625a5aed23b6187fd3f616dde
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>Exploración en profundidad en una visualización de Power BI
 ## <a name="drill-down-requires-a-hierarchy"></a>La exploración en profundidad requiere una jerarquía
@@ -54,7 +54,7 @@ Hay dos formas distintas de explorar en profundidad y rastrear agrupando datos e
 ## <a name="method-1-for-drill-down"></a>Método 1 para explorar en profundidad
 Este método usa los iconos de exploración que aparecen en las esquinas superiores de la misma visualización.
 
-1. En Power BI, abra un informe en [Vista de lectura](service-report-open-in-reading-view.md) o [Vista de edición](service-reading-view-and-editing-view.md). La exploración en profundidad requiere una visualización con una jerarquía. 
+1. En Power BI, abra un informe en [Vista de lectura o Vista de edición](service-reading-view-and-editing-view.md). La exploración en profundidad requiere una visualización con una jerarquía. 
    
    En la animación siguiente se muestra una jerarquía.  La visualización tiene una jerarquía formada por el territorio, la ciudad, el código postal y el nombre de la ciudad. Cada territorio tiene una o varias ciudades, cada ciudad tiene uno o más códigos postales, y así sucesivamente. De forma predeterminada, la visualización muestra solo los datos de territorio, porque *Territory* (Territorio) aparece en primer lugar en la lista.
    
@@ -75,7 +75,7 @@ Este método usa los iconos de exploración que aparecen en las esquinas superio
 ## <a name="method-2-for-drill-down"></a>Método 2 para explorar en profundidad
 Este método usa la lista desplegable **Explorar** en la barra de menús superior de Power BI.
 
-1. En Power BI, abra un informe en [Vista de lectura](service-report-open-in-reading-view.md) o [Vista de edición](service-reading-view-and-editing-view.md). La exploración en profundidad requiere una visualización con una jerarquía. 
+1. En Power BI, abra un informe en [Vista de lectura o Vista de edición](service-reading-view-and-editing-view.md). La exploración en profundidad requiere una visualización con una jerarquía. 
    
    En la imagen siguiente se muestra una jerarquía.  La visualización tiene una jerarquía formada por el territorio, la ciudad, el código postal y el nombre de la ciudad. Cada territorio tiene una o varias ciudades, cada ciudad tiene uno o más códigos postales, y así sucesivamente. De forma predeterminada, la visualización muestra solo los datos de territorio, porque *Territory* (Territorio) aparece en primer lugar en la lista.
    

@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 57c441c489bf71db4b45bdfb96821b3cc2dcdec3
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Configuración de presentación de página en un informe de Power BI
 Sabemos que es fundamental lograr un diseño de informe perfecto hasta el último detalle. En ocasiones, esto puede resultar complicado, porque cada persona ve estos informes en pantallas con relaciones de aspecto y tamaños diferentes. 
@@ -45,7 +45,7 @@ En el servicio Power BI, abra un informe y seleccione **Vista** en la barra de m
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-La configuración de Vista de página está disponible en [Vista de lectura](service-interact-with-a-report-in-reading-view.md) y [Vista de edición](service-interact-with-a-report-in-editing-view.md). En la vista de edición, el propietario de un informe puede asignar una configuración de vista de página a las páginas individuales del informe y esa configuración se guarda con el informe. Cuando los compañeros abren ese informe en la vista de lectura, ven las páginas del informe con la configuración del propietario.  En la vista de lectura, los compañeros pueden cambiar *algunas* opciones de la vista de página, pero los cambios no se guardarán cuando cierre el informe.
+La configuración de Vista de página está disponible en [la vista de lectura y la vista de edición](service-reading-view-and-editing-view.md). En la vista de edición, el propietario de un informe puede asignar una configuración de vista de página a las páginas individuales del informe y esa configuración se guarda con el informe. Cuando los compañeros abren ese informe en la vista de lectura, ven las páginas del informe con la configuración del propietario.  En la vista de lectura, los compañeros pueden cambiar *algunas* opciones de la vista de página, pero los cambios no se guardarán cuando cierre el informe.
 
 ##    <a name="page-view-settings"></a>Configuración de la vista de página
 El primer conjunto de opciones de la *vista de página* controla la presentación de la página del informe en relación con la ventana del explorador.  Puede elegir entre:
