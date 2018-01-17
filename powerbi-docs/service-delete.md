@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: e2f1ca5abf05c92e76497d7b50600e6ef12e03fc
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: 2994e61407bd858792e73019472cd6752abb401d
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminar prácticamente cualquier cosa en el servicio Power BI
 Este artículo le enseña a eliminar un panel, un informe, un libro, un conjunto de datos, una aplicación, una visualización y un área de trabajo en el servicio Power BI.
@@ -141,7 +141,7 @@ Al eliminarse una aplicación de la página con la lista de aplicaciones, no se 
 En este artículo se trata cómo eliminar los principales bloques de creación del servicio Power BI. Pero hay más cosas que puede eliminar en Power BI.  
 
 * [Quitar el panel destacado](service-dashboard-featured.md#change-the-featured-dashboard)
-* [Quitar un panel de Favoritos](service-dashboard-favorite.md#unfavorite-a-dashboard)
+* [Quitar un panel de Favoritos](service-dashboard-favorite.md)
 * [Eliminar una página del informe](service-delete.md)
 * [Quitar un icono de panel](service-dashboard-edit-tile.md)
 * [Eliminar una visualización de informe](service-delete.md)

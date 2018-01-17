@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/18/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 029d93df808163ab5ff3015161121dafbbfa175d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fef71ea3c0a3ffb73411be9d14a0a0bf02efc25c
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Etiquetado de códigos de barras en Power BI Desktop para las aplicaciones móviles
 En Power BI Desktop, puede [clasificar datos](desktop-data-categorization.md) en una columna, de modo que Power BI Desktop sepa cómo tratar los valores en objetos visuales en un informe. También puede clasificar una columna como **Código de barras**. Cuando usted o sus compañeros [escaneen un código de barras en un producto con la aplicación Power BI](mobile-apps-scan-barcode-iphone.md) en su iPhone, verán cualquier informe que incluya ese código de barras. Cuando abra el informe en la aplicación móvil, Power BI filtra automáticamente el informe con los datos relacionados con ese código de barras.
