@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: ced415662c2dc39b6491cb79d121f3cd77719fe4
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
+ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registro de cambios del servidor de informes de Power BI
 
@@ -32,6 +32,13 @@ Para obtener información detallada sobre las nuevas características, consulte 
 ## <a name="october-2017"></a>Octubre de 2017
 
 - **Servidor de informes de Power BI**
+    - *Versión 1.1.6582.41691 (compilación 14.0.600.442), fecha de publicación: 10 de enero de 2018*
+        - Actualizaciones de seguridad
+        - Correcciones de errores
+            - Corrección del error que provocaba que GetParameters devolviese 400.
+            - Corrección de la configuración de conjuntos de datos compartidos en informes paginados existentes (RDL).
+            - Corrección de la excepción ExecutionNotFoundException al exportar informes con valores de parámetros distintos a PDF.
+
     - *Versión 1.1.6551.5155 (compilación 14.0.600.438), fecha de publicación: 11 de diciembre de 2017*
         - Correcciones de errores
             - Error al guardar los datos después de la actualización para determinados informes de Power BI Desktop.
@@ -61,6 +68,9 @@ Para obtener información detallada sobre las nuevas características, consulte 
             - Mejoras de accesibilidad
 
 - **Power BI Desktop (optimizado para Power BI Report Server)**
+    - *Versión: 2.51.4885.2501 (octubre de 2017), fecha de publicación: 10 de enero de 2018*
+        - Actualizaciones de seguridad
+
     - *Versión: 2.51.4885.1423 (octubre de 2017), publicado: 17 de noviembre de 2017*
         - Correcciones de errores
             - Corrección del error por el que Power BI Desktop de 32 bits no se puede ejecutar en sistemas operativos x86
@@ -74,6 +84,9 @@ Para obtener información detallada sobre las nuevas características, consulte 
 ## <a name="june-2017"></a>Junio de 2017
 
 - **Servidor de informes de Power BI**
+    - *Compilación 14.0.600.309, fecha de publicación: 10 de enero de 2018*
+        - Actualizaciones de seguridad
+
     - *Compilación 14.0.600.305, publicado: 19 de septiembre de 2017*  
         - Correcciones de errores
             - Actualización a la versión más reciente del [control Web de mapas de Bing](https://msdn.microsoft.com/library/mt712542.aspx)
@@ -87,6 +100,10 @@ Para obtener información detallada sobre las nuevas características, consulte 
 
     - *Compilación 14.0.600.271, publicado: 12 de junio de 2017*
         - Versión inicial del servidor de informes de Power BI
+
+- **Power BI Desktop (optimizado para Power BI Report Server)**
+    - *Versión: 2.47.4766.4901 (junio de 2017), fecha de publicación: 10 de enero de 2018*
+        - Actualizaciones de seguridad
 
 ## <a name="next-steps"></a>Pasos siguientes
 

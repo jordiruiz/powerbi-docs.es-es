@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/19/2017
+ms.date: 01/11/2018
 ms.author: asaxton
-ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: e614273c21dd5c222816700f0d42888e661ba1e0
+ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Inserción de paneles, informes e iconos de Power BI
 
@@ -138,6 +138,9 @@ Si las inserciones están destinadas para los clientes, debe hacer lo siguiente.
 * Si usa un inquilino independiente para el desarrollo, tendrá que asegurarse de que las áreas de trabajo de la aplicación, junto con los paneles e informes, estén disponibles en el entorno de producción. Asegúrese de que creó la aplicación en Azure AD para el inquilino de producción y de que se le asignaron los permisos de aplicación adecuados, tal como se indica en el paso 1.
 * Adquiera la capacidad que se adapte a sus necesidades. Puede usar la tabla siguiente para saber qué SKU de la capacidad de Power BI Embedded puede necesitar. Para obtener más información, vea [Embedded analytics capacity planning whitepaper](https://aka.ms/pbiewhitepaper) (Notas del producto sobre el planeamiento de la capacidad de análisis de inserción). Cuando esté listo para comprar, vaya a [Microsoft Azure Portal](https://portal.azure.com). Para más información acerca de cómo crear la capacidad de Power BI Embedded, consulte [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Creación de capacidad de Power BI Embedded en Azure Portal).
 
+> [!IMPORTANT]
+> Dado que la inserción de tokens está pensada solo para propósitos de pruebas, el número de tokens que puede generar una cuenta maestra de Power BI es limitado. Debe [adquirirse capacidad](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para escenarios de inserción para producción. No hay ningún límite en la generación de tokens de inserción cuando se compra una capacidad.
+
 | Nodo de capacidad | Núcleos totales<br/>*(Back-end y front-end)* | Núcleos de back-end | Núcleos de front-end | Límites de conexiones dinámicas/DirectQuery | Representaciones de páginas máximas en horas punta |
 | --- | --- | --- | --- | --- | --- |
 | A1 |1 núcleo V |.5 núcleos, 3 GB de RAM |5 núcleos | 5 por segundo |1-300 |
@@ -152,6 +155,8 @@ Si las inserciones están destinadas para los clientes, debe hacer lo siguiente.
     ![Asignación de un área de trabajo de la aplicación a una capacidad](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * Implemente la aplicación actualizada en producción y empiece a insertar paneles e informes de Power BI.
+
+
 
 ## <a name="admin-settings"></a>Configuración de administración
 

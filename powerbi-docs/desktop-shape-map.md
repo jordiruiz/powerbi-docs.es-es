@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/16/2018
 ms.author: davidi
-ms.openlocfilehash: 70cb015b0f5c4aa952c33c6dd94da5292f9678d7
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 258962cbc9ea60b31676a1bcfb10f7906c6e0f74
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de formas en Power BI Desktop (versión preliminar)
 En Power BI Desktop, puede crear un objeto visual **Mapa de formas** para mostrar comparaciones relativas de las regiones en un mapa al aplicar colores diferentes para distintas regiones. A diferencia del objeto visual **Mapa**, **Mapa de formas** no puede mostrar ubicaciones geográficas precisas de los puntos de datos en un mapa; en su lugar, su propósito principal es mostrar comparaciones relativas de regiones en un mapa al colorearlas de forma diferente.
 
-Los objetos visuales **Mapa de formas** se basan en mapas ESRI/TopoJSON, que tienen la capacidad atractiva de usar mapas personalizados que puede crear, como organizaciones geográficas y de ubicación, planos y otros. La capacidad de usar mapas personalizados no está disponible en esta versión preliminar de **Mapa de formas**, pero se habilitarán los mapas personalizados cuando esta característica deje de ser de versión preliminar, que se espera que sea con la siguiente actualización mensual de Power BI Desktop.
+Los objetos visuales **Mapa de formas** se basan en mapas ESRI/TopoJSON, que tienen la capacidad atractiva de usar mapas personalizados que puede crear, como organizaciones geográficas y de ubicación, planos y otros. La capacidad de usar mapas personalizados no está disponible en esta versión preliminar de **Mapa de formas**.
 
 ## <a name="creating-shape-maps"></a>Crear mapas de formas
 Puede probar el control **Mapa de formas** con los mapas que se proporcionan en esta versión preliminar o puede usar su propio mapa personalizado siempre que cumpla los requisitos descritos en la sección siguiente denominada **Usar mapas personalizados**.
@@ -95,8 +95,9 @@ Puede especificar una nueva columna al escribir un nuevo nombre de columna (en l
 Hay algunas consideraciones y requisitos para esta versión preliminar de **Mapa de formas**:
 
 * El objeto visual **Mapa de formas** está en versión preliminar y debe habilitarse en Power BI Desktop. Para habilitar el **Mapa de formas**, seleccione **Archivo > Opciones y configuración > Opciones > Características de versión preliminar** y, después, seleccione la casilla **Mapa de formas**.
-* Actualmente, también debe tener el depósito **Valores** establecido para que la clasificación **Leyenda** funcione correctamente. Esperamos mejorar este comportamiento en la versión final de **Mapa de formas**.
-* La versión de lanzamiento de **Mapa de formas** tendrá una interfaz de usuario que muestre las claves de mapa del mapa seleccionado actualmente. En esta versión preliminar, puede hacer referencia a las claves de región de mapa en las tablas que se encuentran en la siguiente sección **Claves de región** de este artículo.
+* Actualmente, también debe tener el depósito **Valores** establecido para que la clasificación **Leyenda** funcione correctamente.
+* La versión de lanzamiento final de **Mapa de formas** tendrá una interfaz de usuario que muestre las claves de mapa del mapa seleccionado actualmente (no hay fecha establecida para la versión final, y **Mapa de formas** todavía está en versión preliminar). En esta versión preliminar, puede hacer referencia a las claves de región de mapa en las tablas que se encuentran en la siguiente sección **Claves de región** de este artículo.
+* El objeto visual **Mapa de formas** podrá trazar hasta un máximo de 1000 puntos de datos.
 
 ## <a name="region-keys"></a>Claves de región
 Use las siguientes **claves de región** en esta versión preliminar para probar **Mapa de formas**.

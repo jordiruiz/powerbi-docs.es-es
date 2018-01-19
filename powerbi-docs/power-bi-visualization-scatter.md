@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Gráficos de dispersión y de burbujas de Power BI (tutorial)
 Un gráfico de dispersión siempre tiene dos ejes de valores con el fin de mostrar un conjunto de datos numéricos en un eje horizontal y otro conjunto de valores numéricos a lo largo de un eje vertical. El gráfico muestra puntos en la intersección de un valor numérico x e y, y combina estos valores en puntos de datos únicos. Estos puntos de datos pueden estar distribuidos uniformemente o de forma desigual entre el eje horizontal, en función de los datos.
@@ -75,6 +75,14 @@ Ahora tenemos un gráfico de dispersión que traza el porcentaje de varianza tot
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. Si quiere, puede [dar formato a los colores de visualización, etiquetas, títulos, fondo, etc](service-getting-started-with-color-formatting-and-axis-properties.md).
+
+## <a name="accessibility"></a>Accesibilidad
+
+Puede hacer que su gráfico de dispersión o burbujas sea más accesible para las personas con discapacidades gracias a *Formas de marcador*. 
+
+Para seleccionar la forma del marcador, seleccione la sección **Formato** del panel **Visualizaciones**, expanda la sección **Formas** y seleccione una forma de marcador.
+
+![Forma de marcador](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**El gráfico de dispersión solo tiene un punto de datos**

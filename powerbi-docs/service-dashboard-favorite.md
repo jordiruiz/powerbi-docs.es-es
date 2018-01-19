@@ -1,6 +1,6 @@
 ---
-title: Favoritos en el servicio Power BI (paneles)
-description: "Documentación acerca de cómo establecer paneles como favoritos en el servicio Power BI"
+title: Favoritos en el servicio Power BI (paneles, informes, aplicaciones)
+description: "Documentación acerca de cómo establecer como favoritos paneles, informes y aplicaciones en el servicio Power BI"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 4c4c31f6289f6b3d12b619b7c6c297d861177fbf
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: 79a47126c43f61d3495a948bf1a30f3d918429f3
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/11/2018
 ---
-# <a name="favorite-dashboards-in-the-power-bi-service"></a>Paneles favoritos en el servicio Power BI
-Al convertir en *favorito* un panel, puede acceder a él desde todas las áreas de trabajo.  Los favoritos suelen ser los que se visitan con más frecuencia.
+# <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Agregar a Favoritos aplicaciones, informes y paneles en el servicio Power BI
+Al marcar contenido como *favorito*, puede acceder a él desde todas las áreas de trabajo.  Los favoritos suelen ser el contenido que se visita más a menudo.
 
 > [!NOTE]
 > Este tema se aplica al servicio Power BI no a Power BI Desktop.
@@ -34,40 +34,50 @@ Al convertir en *favorito* un panel, puede acceder a él desde todas las áreas 
 
 También puede seleccionar un solo panel como [Panel destacado](service-dashboard-featured.md) en Power BI.
 
-## <a name="add-a-dashboard-as-a-favorite"></a>Incorporación de un panel como *favorito*
+## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Agregar un panel o informe como *favorito*
 Vea a Amanda agregar favoritos a su espacio de trabajo; después, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
 
-1. Abra un panel que use con frecuencia. Hasta los paneles que se han compartido con usted pueden incluirse en la lista de *favoritos*.
-2. En la esquina superior derecha del servicio Power BI, seleccione **Favoritos** o el icono de la estrella ![](media/service-dashboard-favorite/power-bi-favorite-icon.png).
+1. Abra un panel o informe que use con frecuencia. El contenido que se ha compartido con usted también puede marcarse como *favorito*.
+2. En la esquina superior derecha del servicio Power BI, seleccione **Agregar a favoritos** o el icono de estrella ![](media/service-dashboard-favorite/power-bi-favorite-icon.png).
    
    ![](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
    
-   Un panel también puede incorporarse a los favoritos desde la pestaña **Paneles** del área de trabajo.
+   También puede marcar como favorito un panel o informe desde la pestaña de vista de contenido **Paneles** o **Informes** del área de trabajo.
    
    ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
+## <a name="add-an-app-as-a-favorite"></a>Agregar una aplicación como *favorita*
+
+1. Seleccione **Aplicaciones** en el panel de navegación izquierdo.
+
+  ![](media/service-dashboard-favorite/power-bi-favorite-apps.png)
+
+2. Mueva el puntero sobre una aplicación para que se muestren más detalles.  Seleccione el icono de estrella ![](media/service-dashboard-favorite/power-bi-favorite-icon.png) para marcarla como favorita.
+   
+   ![](media/service-dashboard-favorite/power-bi-favorite-app.png)
+
 ## <a name="working-with-favorites"></a>Uso de *Favoritos*
-1. Para acceder a los favoritos, en cualquier área de trabajo, seleccione la flecha flotante situada a la derecha de **Favoritos**.  Ahí puede seleccionar un panel para abrirlo. Solo se enumeran cinco favoritos (en orden alfabético). Si tiene más de cinco, seleccione **Ver todos** para abrir la pantalla Favoritos (vea el punto 2 a continuación). 
+1. Para acceder a los favoritos, en cualquier área de trabajo, seleccione la flecha flotante situada a la derecha de **Favoritos**.  Ahí puede seleccionar un elemento favorito para abrirlo. Solo se enumeran cinco favoritos (en orden alfabético). Si tiene más de cinco, seleccione **Ver todo** para abrir la pantalla Favoritos (vea el punto 2 a continuación). 
    
    ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
-2. Para ver **todos** los paneles que ha agregado como favoritos, seleccione **Favoritos** en el panel de navegación de la izquierda, o bien haga clic en el icono Favoritos ![](media/service-dashboard-favorite/power-bi-favorites-icon.png).  
+2. Para ver **todo** el contenido que ha agregado como favorito, seleccione **Favoritos** en el panel de navegación izquierdo, o bien haga clic en el icono Favoritos ![](media/service-dashboard-favorite/power-bi-favorites-icon.png).  
    
     ![](media/service-dashboard-favorite/power-bi-favorites-screen.png)
    
-   Aquí puede seleccionar un panel para abrirlo, o bien compartir un panel con compañeros de trabajo.
+   Aquí podrá llevar a cabo acciones, como abrirlos, identificar a los propietarios e incluso compartirlos con sus compañeros.
 
-## <a name="unfavorite-a-dashboard"></a>Quitar un panel de Favoritos
-¿No usa un panel tanto como antes?  Puede quitarlo de sus favoritos. Al hacerlo, desaparece de la lista de favoritos, pero no de Power BI.
+## <a name="unfavorite-content"></a>Quitar contenido de Favoritos
+¿Ya no usa un informe tanto como antes?  Puede quitarlo de sus favoritos. Al quitar contenido de Favoritos, desaparece de la lista, pero no de Power BI.
 
 1. En el panel de navegación izquierdo, seleccione **Favoritos** para abrir la pantalla **Favoritos**.
    
    ![](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
-2. Seleccione la estrella amarilla que hay junto al panel para quitarlo de la lista de favoritos.
+2. Seleccione la estrella amarilla que hay junto al contenido para quitarlo de Favoritos.
 
-> **Nota**: también puede quitar un panel de la lista de favoritos desde el propio panel. En la esquina superior derecha del panel, verá una estrella amarilla y la palabra **Quitar de Favoritos**. Selecciónela para quitar el panel de la lista de favoritos. 
+> **NOTA**: También puede quitar un panel, un informe o la aplicación. Solo tiene que abrir y seleccionar el icono amarillo.   
 > 
 > 
 

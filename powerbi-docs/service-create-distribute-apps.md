@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Crear y publicar aplicaciones con los paneles e informes de Power BI
 
@@ -53,12 +53,7 @@ Las *áreas de trabajo de aplicación* son los lugares donde se crean las aplica
 
 Puede agregar compañeros a estas áreas de trabajo como miembros o administradores. Todos los miembros y los administradores del área de trabajo de la aplicación necesitan licencias de Power BI Pro. En el área de trabajo, es posible colaborar en paneles, informes y otros artículos que planee publicar para un público más amplio, o incluso para toda la organización. 
 
-Cuando el contenido está listo, puede publicar la aplicación. Puede enviar un vínculo directo a esa audiencia más amplia, o pueden encontrar la aplicación en la pestaña Aplicaciones, en **Descargar y explorar más aplicaciones de AppSource**. Estas personas no puede modificar los contenidos de la aplicación, pero pueden interactuar con ella bien en el servicio de Power BI o en una de las aplicaciones móviles: pueden filtrar, resaltar y ordenar los datos por sí mismos. 
-
-### <a name="how-are-app-workspaces-different-from-group-workspaces"></a>¿En qué se diferencian las áreas de trabajo de la aplicación y las áreas de trabajo de grupo?
-Todas las áreas de trabajo de grupo existentes pueden actuar como áreas de trabajo de la aplicación y se pueden publicar aplicaciones desde cualquiera de estas áreas de trabajo. Esta es una de las diferencias entre áreas de trabajo de la aplicación y áreas de trabajo de grupo: un área de trabajo de aplicación se crea como un lugar para crear y hospedar una aplicación específica. Hay una relación uno a uno entre la aplicación y los contenidos del área de trabajo de la aplicación. Todo el contenido del área de trabajo de la aplicación estará en la aplicación cuando la publique. 
-
-Ahora que comprende las aplicaciones y las áreas de trabajo de aplicación, vamos a empezar a crear y publicar una aplicación. 
+Si el contenido está listo, elija en qué paneles e informes quiere publicarlo y publique la aplicación. Puede enviar un vínculo directo a esa audiencia más amplia, o pueden encontrar la aplicación en la pestaña Aplicaciones, en **Descargar y explorar más aplicaciones de AppSource**. Estas personas no puede modificar los contenidos de la aplicación, pero pueden interactuar con ella bien en el servicio de Power BI o en una de las aplicaciones móviles: pueden filtrar, resaltar y ordenar los datos por sí mismos. 
 
 ## <a name="create-an-app-workspace"></a>Crear un área de trabajo de la aplicación
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]

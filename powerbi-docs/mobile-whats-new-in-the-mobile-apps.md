@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: b2df6825232f51a53bada3676faf598d6bc5d70b
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -31,6 +31,11 @@ Para obtener información sobre novedades, vea:
 * [Novedades en el servicio Power BI](service-whats-new.md)  
 
 ## <a name="december-2017"></a>Diciembre de 2017
+
+### <a name="improved-security-management"></a>Administración de la seguridad mejorada 
+
+Con el objetivo de proteger mejor los datos de su organización, hemos agregado compatibilidad con el acceso condicional (AC) y la administración de dispositivos móviles (MDM) de Microsoft Intune en dispositivos Android. Ya está disponible en iOS.
+
 ### <a name="improved-permission-management"></a>Administración de permisos mejorada
 
 Hemos hecho una serie de cambios que permiten administrar con más precisión los permisos de usuario de los conjuntos de datos, paneles e informes.
