@@ -266,26 +266,36 @@
           href: service-data-classification.md
     - name: Realizar preguntas de los datos
       items:
-        - name: Preguntas y respuestas en Power BI
-          href: service-q-and-a.md
-        - name: Uso de Preguntas y respuestas de Power BI
-          href: service-how-to-q-and-a.md
-        - name: 'Tutorial: Introducción a Preguntas y respuestas de Power BI'
-          href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: Uso de Preguntas y respuestas con datos de Power BI Gateway - Enterprise (versión preliminar)
-          href: service-q-and-a-direct-query.md
-        - name: Funcionamiento correcto de los datos con Preguntas y respuestas en Power BI
-          href: service-prepare-data-for-q-and-a.md
-        - name: Introducción a Cortana para Power BI
-          href: service-cortana-intro.md
-        - name: Permitir Cortana para Power BI
-          href: service-cortana-enable.md
-        - name: Crear las preguntas destacadas para Preguntas y respuestas de Power BI
-          href: service-q-and-a-create-featured-questions.md
-        - name: Sugerencias y trucos para hacer preguntas con Preguntas y respuestas en Power BI
-          href: service-q-and-a-tips.md
-        - name: Solución de problemas de Cortana
-          href: service-cortana-troubleshoot.md
+        - name: Información general
+          items:
+            - name: Preguntas y respuestas en Power BI
+              href: power-bi-q-and-a.md
+            - name: Introducción a Cortana para Power BI
+              href: service-cortana-intro.md
+        - name: Inicio rápido
+          items:
+            - name: Introducción a Preguntas y respuestas de Power BI
+              href: power-bi-visualization-introduction-to-q-and-a.md
+        - name: Tutoriales
+          items:
+            - name: Uso de Preguntas y respuestas para crear visualizaciones e informes
+              href: power-bi-tutorial-q-and-a.md
+        - name: Cómo
+          items:
+            - name: Uso de Preguntas y respuestas con datos de Power BI Gateway - Enterprise (versión preliminar)
+              href: service-q-and-a-direct-query.md
+            - name: Funcionamiento correcto de los datos con Preguntas y respuestas en Power BI
+              href: service-prepare-data-for-q-and-a.md
+            - name: Permitir Cortana para Power BI
+              href: service-cortana-enable.md
+            - name: Crear las preguntas destacadas para Preguntas y respuestas de Power BI
+              href: service-q-and-a-create-featured-questions.md
+        - name: Recursos
+          items:
+            - name: Sugerencias y trucos para hacer preguntas con Preguntas y respuestas en Power BI
+              href: service-q-and-a-tips.md
+            - name: Solución de problemas de Cortana
+              href: service-cortana-troubleshoot.md
     - name: Compartir su trabajo
       items:
         - name: ¿Cómo debo compartir paneles e informes y colaborar en ellos?
