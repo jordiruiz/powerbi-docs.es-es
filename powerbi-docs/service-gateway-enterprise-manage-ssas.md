@@ -192,7 +192,7 @@ Cuando seleccione un elemento en la lista, puede reordenarlo utilizando los **ic
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard-"></a>Uso del carácter comodín (*)
+### <a name="using-wildcard-"></a>Uso del carácter comodín (\*)
 Puede usar un carácter comodín para su cadena **Reemplazar (nombre original)**. Únicamente se puede usar solo y no puede ir acompañado de ninguna otra parte de la cadena. Así, podrá usar todos los usuarios y pasar un valor único al origen de datos. Esto es útil si quiere que todos los usuarios de su organización usen el mismo usuario en su entorno local.
 
 ### <a name="test-a-mapping-rule"></a>Prueba de una regla de asignación
