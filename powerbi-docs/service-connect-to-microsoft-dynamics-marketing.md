@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 5ef00013299be73b809a84bfbc977a3666d7e49c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2800dc496d32c099024db0960c87912afb3b79d7
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Conexión a Microsoft Dynamics Marketing con Power BI
 El paquete de contenido de Microsoft Dynamics Marketing para Power BI permite tener acceso a los datos y analizarlos fácilmente desde Dynamics Marketing. El paquete de contenido usa un modelo descriptivo encima de la fuente de OData, con todas las entidades y las medidas necesarias, como, por ejemplo, programas, campañas, contactos de marketing y empresas, clientes potenciales, interacciones con estos, puntuación de clientes potenciales, sitios web y mensajes de correo electrónico de marketing, observaciones relativas al comportamiento, presupuestos, transacciones financieras, KPI de rendimiento, etc. 
@@ -53,7 +53,7 @@ Conéctese al [paquete de contenido de Dynamics Marketing](https://app.powerbi.c
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](service-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
 * [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
 * Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.

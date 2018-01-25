@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
 Consulte esta página para obtener información sobre los problemas conocidos y las características publicadas recientemente del **servicio Power BI**. Para obtener información sobre novedades, vea:
@@ -470,7 +470,7 @@ Consulte nuestro [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/13/power
 
 **6 de octubre de 2015**
 
-* Con Preguntas y respuestas de Power BI, puede explorar los datos mediante preguntas sencillas e intuitivas, así como recibir respuestas en forma de gráficos interactivos. Con esta versión, hemos agregado una característica que le ayudarán a empezar a trabajar con Preguntas y respuestas de Power BI, aunque no sepa nada acerca de los datos. Para comenzar, [diríjase a cualquier panel y haga clic en el vínculo “Cómo se pregunta” junto a un cuadro de pregunta de Preguntas y respuestas](service-how-to-q-and-a.md). Power BI presenta una serie de sugerencias basadas en los datos.
+* Con Preguntas y respuestas de Power BI, puede explorar los datos mediante preguntas sencillas e intuitivas, así como recibir respuestas en forma de gráficos interactivos. Con esta versión, hemos agregado una característica que le ayudarán a empezar a trabajar con Preguntas y respuestas de Power BI, aunque no sepa nada acerca de los datos. Para comenzar, [diríjase a cualquier panel y haga clic en el vínculo “Cómo se pregunta” junto a un cuadro de pregunta de Preguntas y respuestas](power-bi-tutorial-q-and-a.md). Power BI presenta una serie de sugerencias basadas en los datos.
 * Hace dos semanas se introdujo compatibilidad para la inserción de formas en el lienzo de informes en Power BI Desktop. Esta semana, nos complace anunciar que ahora puede agregar formas a su lienzo de informes al crear o editar informes en la aplicación web de Power BI.
 * Hemos agregado la opción para desactivar la notificación de correo electrónico cuando se comparte un panel. Solo tiene que desactivar la casilla "Enviar notificación por correo electrónico a los destinatarios " en el cuadro de diálogo del recurso compartido de Power BI. Se incluirá una dirección URL: cópiela y compártala con sus compañeros para concederles acceso al panel.
 * Microsoft Dynamics NAV es una solución de administración empresarial para organizaciones pequeñas y medianas. Ofrece a los clientes una solución completa para sus negocios con mayor control sobre sus operaciones financieras y los procesos empresariales. El paquete de contenido de Power BI proporciona informes integrados para los usuarios de Dynamics NAV, como ventas y beneficios, canalización de oportunidades, rentabilidad y mucho más. Estas métricas se organizan en un panel que puede personalizarse completamente, lo que le permite conectarse fácilmente y comenzar a explorar los datos inmediatamente.

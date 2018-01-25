@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: cde6ca545d37b2ba490578bf43e7de95b10931d7
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 007d4f6f5181722e23e280e1a57d305d7f069155
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>Conexión a ClickDimensions con Power BI
 El paquete de contenido de ClickDimensions para Power BI permite a los usuarios utilizar datos de marketing de ClickDimensions en Power BI, de forma que los equipos de administración obtienen información detallada del éxito de sus esfuerzos de ventas y marketing. Visualice y analice las interacciones de correo electrónico, las visitas web y los envíos de formularios en los paneles e informes de Power BI.
@@ -50,7 +50,7 @@ Conéctese al [paquete de contenido de ClickDimensions](https://app.powerbi.com/
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](service-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
 * [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
 * Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.

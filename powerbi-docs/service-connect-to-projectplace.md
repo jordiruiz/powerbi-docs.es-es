@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 3327c193828dcdc28c2dd5b93c56615fdb367c70
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: aec56a34194d9ed6217384d8d05cbe2ce64080b2
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-projectplace-by-planview-with-power-bi"></a>Conexión a Projectplace de Planview con Power BI
 Con el paquete de contenido Projectplace de Planview, puede visualizar su proyecto de colaboración de maneras completamente nuevas directamente en Power BI. Use sus credenciales de inicio de sesión de Projectplace para ver las estadísticas clave del proyecto, averiguar cuáles son los miembros del equipo más activos y productivos, e identificar tarjetas y actividades en riesgo en proyectos de su cuenta de Projectplace, todo ello de manera interactiva. También puede ampliar el panel integrado y los informes para obtener la información más importante para usted.
@@ -55,7 +55,7 @@ Con el paquete de contenido Projectplace de Planview, puede visualizar su proyec
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](service-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
 * [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
 * Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.

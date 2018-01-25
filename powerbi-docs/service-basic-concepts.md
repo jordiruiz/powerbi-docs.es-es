@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: be245be7c8f83cb363e93a5d2bc452418f436e37
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+ms.openlocfilehash: 405be2083b26659f1f26ec04e72319ca5981bdf0
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI: conceptos básicos del servicio Power BI
 
@@ -120,7 +120,7 @@ En el ejemplo siguiente, he seleccionado el área de trabajo de la aplicación "
 * [Informes en las aplicaciones móviles de Power BI](mobile-reports-in-the-mobile-apps.md)
 
 ## <a name="dashboards"></a>Paneles
-Un *panel* es algo que usted crea **en el servicio Power BI** o que un compañero de trabajo crea **en este** y comparte con usted. Es un lienzo individual que contiene uno o varios iconos y widgets. Cada icono anclado desde un informe o desde [Preguntas y respuestas](service-q-and-a.md) muestra una [visualización](power-bi-report-visualizations.md) única creada a partir de un conjunto de datos y anclada al panel. Además, pueden anclarse páginas de informe completas a un panel como un único icono. Hay muchas maneras de agregar iconos al panel; demasiadas para tratarlas en este tema de información general. Para más información, vea [Iconos del panel en Power BI](service-dashboard-tiles.md). 
+Un *panel* es algo que usted crea **en el servicio Power BI** o que un compañero de trabajo crea **en este** y comparte con usted. Es un lienzo individual que contiene uno o varios iconos y widgets. Cada icono anclado desde un informe o desde [Preguntas y respuestas](power-bi-q-and-a.md) muestra una [visualización](power-bi-report-visualizations.md) única creada a partir de un conjunto de datos y anclada al panel. Además, pueden anclarse páginas de informe completas a un panel como un único icono. Hay muchas maneras de agregar iconos al panel; demasiadas para tratarlas en este tema de información general. Para más información, vea [Iconos del panel en Power BI](service-dashboard-tiles.md). 
 
 ¿Por qué se crean paneles?  Estas son solo algunas de las razones:
 
@@ -207,7 +207,7 @@ Preguntas y respuestas busca una respuesta en los conjuntos de datos conectados 
 
 ![Cuadro de pregunta de Preguntas y respuestas](media/service-basic-concepts/power-bi-qna.png)
 
-Tan pronto como empieza a escribir la pregunta, Preguntas y respuestas lo dirige a la página de Preguntas y respuestas. A medida que escribe, Preguntas y respuestas le ayuda a formular la pregunta correcta y a encontrar la mejor respuesta a través de sus funciones para reformular, autorellenar, hacer sugerencias y mucho más. Cuando tenga una visualización (respuesta) satisfactoria, la puede anclar al panel. Para más información, consulte [Preguntas y respuestas en Power BI](service-q-and-a.md).
+Tan pronto como empieza a escribir la pregunta, Preguntas y respuestas lo dirige a la página de Preguntas y respuestas. A medida que escribe, Preguntas y respuestas le ayuda a formular la pregunta correcta y a encontrar la mejor respuesta a través de sus funciones para reformular, autorellenar, hacer sugerencias y mucho más. Cuando tenga una visualización (respuesta) satisfactoria, la puede anclar al panel. Para más información, consulte [Preguntas y respuestas en Power BI](power-bi-q-and-a.md).
 
 ### <a name="4-icon-buttons"></a>4. **Botones de iconos** 
 Los iconos en la esquina superior derecha son los recursos para las configuraciones, notificaciones, descargas, obtener ayuda y proporcionar comentarios al equipo de Power BI. Seleccione la flecha doble para abrir el panel en modo de **pantalla completa**.  
@@ -217,7 +217,7 @@ Los iconos en la esquina superior derecha son los recursos para las configuracio
 ### <a name="5-dashboard-title-navigation-path-aka-breadcrumbs"></a>5. **Título del panel** (ruta de navegación)
 No siempre es fácil averiguar qué áreas de trabajo y paneles están activos. Por eso, Power BI crea una ruta de navegación para usted.  En este ejemplo se muestra el área de trabajo (Mi área de trabajo) y el título del panel (Ejemplo de análisis de venta directa).  Si se abre un informe, el nombre de este se anexa al final de la ruta de navegación.  Cada sección de la ruta de acceso es un hipervínculo activo.  
 
-Observe el icono "C" después del título del panel. Este panel tiene una [etiqueta de clasificación de datos](/service-data-classification.md) que pone "confidencial". La etiqueta permite identificar la confidencialidad y el nivel de seguridad de los datos. Si el administrador ha activado la clasificación de datos, cada panel tendrá un conjunto de etiquetas predeterminado. Los propietarios del panel deben cambiar la etiqueta para que coincida con el nivel de seguridad apropiado de su panel.
+Observe el icono "C" después del título del panel. Este panel tiene una [etiqueta de clasificación de datos](service-data-classification.md) que pone "confidencial". La etiqueta permite identificar la confidencialidad y el nivel de seguridad de los datos. Si el administrador ha activado la clasificación de datos, cada panel tendrá un conjunto de etiquetas predeterminado. Los propietarios del panel deben cambiar la etiqueta para que coincida con el nivel de seguridad apropiado de su panel.
 
 ![](media/service-basic-concepts/power-bi-title.png)
 

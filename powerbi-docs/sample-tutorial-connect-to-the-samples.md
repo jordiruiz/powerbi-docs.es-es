@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/27/2017
 ms.author: mihart
-ms.openlocfilehash: 6d043f21635308def7b119c072a7f99c118e901d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d92edce9ae1332c4a0c73be5db93201c9b87dc86
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="the-power-bi-samples-a-tutorial"></a>Tutorial: Uso de los ejemplos de Power BI
 <!-- Shared newnav Include -->
@@ -91,7 +91,7 @@ Ahora, explore el panel, el conjunto de datos y los informes por su cuenta. Hay 
     ![](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Si el icono se ha creado mediante [Preguntas y respuestas de Power BI](service-q-and-a.md), se abrirá la página de Preguntas y respuestas en su lugar.
+   > Si el icono se ha creado mediante [Preguntas y respuestas de Power BI](power-bi-q-and-a.md), se abrirá la página de Preguntas y respuestas en su lugar.
    > 
    > 
 4. De vuelta en la pestaña **Conjuntos de datos**, tiene varias opciones para explorar el conjunto de datos.  No podrá abrirla y ver todas las filas y columnas (como podría hacer en Power BI Desktop o Excel).  Cuando un usuario comparte un paquete de contenido con sus compañeros, normalmente lo que desea es compartir la información, no dar a sus compañeros acceso directo a los datos. Pero eso no significa que no pueda explorar el conjunto de datos.  

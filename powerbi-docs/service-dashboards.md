@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/31/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 81f7b4a68b66a2bfbdf285007ff4ff636c326a6c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 800808a8c09166b8a5b1389b9a54fb57cfa13b12
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="dashboards-in-power-bi-service"></a>Paneles del servicio Power BI
 
@@ -82,7 +82,7 @@ Power BI Pro es necesario tanto para compartir un panel como para ver un panel c
 * Obtenga información acerca de los [iconos de panel](service-dashboard-tiles.md) y lo que ocurre al seleccionar uno.
 * ¿No le gusta el aspecto de un panel?  También puede [cambiar su tamaño, moverlo y cambiar el nombre de los iconos](service-dashboard-edit-tile.md).
 * ¿Desea realizar un seguimiento de un icono de panel individual y recibir un mensaje de correo electrónico al alcanzar un umbral determinado? [Cree alertas en iconos](service-set-data-alerts.md).
-* Diviértase preguntando a su panel. Aprenda a utilizar [Preguntas y respuestas de Power BI](service-how-to-q-and-a.md) para formular una pregunta sobre los datos y recibir una respuesta en forma de visualización.
+* Diviértase preguntando a su panel. Aprenda a utilizar [Preguntas y respuestas de Power BI](power-bi-tutorial-q-and-a.md) para formular una pregunta sobre los datos y recibir una respuesta en forma de visualización.
 
 > [!TIP]
 > Si no encuentra lo que está buscando aquí, utilice la tabla de contenido de la izquierda.

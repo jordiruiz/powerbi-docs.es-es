@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: yshoukry
-ms.openlocfilehash: 096b48f69529ae17bdc37be5484e90f47a769264
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a2faefa9ebd62ef50e530dcad91482918f94d6d2
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Paquete de contenido SQL Database Auditing para Power BI
 El paquete de contenido de [Azure SQL Database Auditing](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/) para Power BI permite comprender la actividad de las bases de datos y obtener información sobre las discrepancias y las anomalías que podrían indicar problemas empresariales o posibles infracciones de seguridad. 
@@ -68,7 +68,7 @@ Conéctese al [paquete de contenido de SQL Database Auditing](https://app.powerb
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](service-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
 * [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
 * Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.

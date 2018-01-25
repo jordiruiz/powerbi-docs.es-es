@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 876308b0eea6b36878c89a1047ec54fa2849fc5d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: cae1e27b46f9c9156a8108568e5700dadbb5afd3
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Conexión a Xero con Power BI
 Xero es un software de contabilidad en línea fácil de usar que está diseñado específicamente para pequeñas empresas. Cree visualizaciones atractivas según las operaciones financieras de Xero con este paquete de contenido de Power BI. En el panel predeterminado se incluyen muchas métricas de pequeña empresa, como la posición de efectivo, los ingresos frente a los gastos, la tendencia de beneficios y pérdidas, los días de deudor y el rendimiento de las inversiones.
@@ -52,7 +52,7 @@ Conéctese al [paquete de contenido de Xero](https://app.powerbi.com/getdata/ser
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](service-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
 * [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
 * Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.

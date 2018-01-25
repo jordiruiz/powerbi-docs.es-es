@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 822d38dc84ca4473bae64339b8dafc1414bc856b
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d506b45cf2a5c41ab1a6d05edb233c214606a316
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Conexión a Insightly con Power BI
 Visualice y comparta los datos de CRM Insightly en Power BI con el paquete de contenido de Insightly. Conéctese a Power BI mediante la clave de API de Insightly para ver y generar informes y paneles a partir de los datos de CRM. Con Power BI, puede analizar los datos de nuevas maneras, crear gráficos eficaces y mostrar contactos, clientes potenciales y organizaciones en un mapa.
@@ -47,7 +47,7 @@ Conéctese al [paquete de contenido de Insightly](https://app.powerbi.com/getdat
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](service-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
 * [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
 * Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.

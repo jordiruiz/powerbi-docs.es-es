@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 27749be1cb344ad731af2b2747dfee4bc24fab08
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: efb0bde571926d2e3e671aeca36ac148d1dd6710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Conexión a Alpine Metrics Sales Predictions con Power BI
 Alpine Metrics proporciona una moderna optimización del proceso de ventas predictivo en la nube y a petición para organizaciones de ventas grandes y pequeñas. El paquete de contenido de predicciones de ventas de Alpine Metrics para Power BI incluye métricas como las ventas y los riesgos potenciales y previstos, lo que permite un conocimiento más profundo hacia el futuro de su negocio. 
@@ -49,7 +49,7 @@ Conéctese al [paquete de contenido de predicciones de ventas de Alpine Metrics]
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](service-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
 * [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
 * Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.

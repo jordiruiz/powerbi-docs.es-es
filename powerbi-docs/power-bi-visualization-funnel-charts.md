@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 01/29/2018
 ms.author: mihart
-ms.openlocfilehash: 91c185a082cebc6a9196e0e86898fe366363f8c2
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 5447b23f7d7dd50bf0d9f9e0cfcc84ea9ad0cc8a
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="funnel-charts-tutorial"></a>Gráficos de embudo (tutorial)
 Los gráficos de embudo ayudan a visualizar un proceso lineal con fases secuenciales conectadas. Por ejemplo, un embudo de ventas que realiza el seguimiento de los clientes a través de las distintas fases: Cliente potencial \> Cliente potencial calificado \> Cliente interesado \> Contrato \> Cierre.  De un vistazo, la forma del embudo indica el estado del proceso del que está realizando el seguimiento.
@@ -54,7 +54,7 @@ Gráficos de embudo:
 ## <a name="create-a-basic-funnel-chart"></a>Crear un gráfico de embudo básico
 Vea este vídeo para ver cómo Guillermo crea un gráfico de embudo con el Ejemplo de marketing y ventas.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/maTzOJSRB3g" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qKRZPBnaUXM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 Ahora cree su propio gráfico de embudo que muestre la cantidad de oportunidades que cada uno de nosotros tiene en nuestras fases de ventas.

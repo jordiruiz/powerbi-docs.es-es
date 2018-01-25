@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: b94ede61185e2029e259fd851eaa022737346210
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 6d398a7594cfde65d878cbd317a2669b945da9e6
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Usar la agrupación y la discretización en Power BI Desktop
 Cuando **Power BI Desktop** crea objetos visuales, agrega los datos en fragmentos (o **grupos**) en función de los valores que se encuentran en los datos subyacentes. A menudo esto es suficiente, pero puede haber ocasiones en las que quiera refinar la manera en que se presentan los fragmentos. Por ejemplo, tal vez le interese colocar tres categorías de productos en una categoría mayor (un *grupo*). También podría querer ver las cifras de ventas en tamaños de discretización de 1 000 000 dólares, en lugar de 923 983 dólares divididos uniformemente.
@@ -69,7 +69,7 @@ Cuando seleccione **Aceptar**, observará que aparece un campo nuevo en el panel
 
 ![](media/desktop-grouping-and-binning/grouping-binning_7.png)
 
-Para ver la **discretización** en acción, eche un vistazo a este [vídeo](https://youtu.be/UXEYSvgvMaQ?t=12m17s).
+Para ver la **discretización** en acción, eche un vistazo a este [vídeo](https://www.youtube.com/watch?v=BRvdZSfO0DY).
 
 Esto es todo lo que necesita saber para usar la **agrupación** y la **discretización** para asegurarse de que en los objetos visuales de los informes se muestran los datos tal y como usted quiere.
 

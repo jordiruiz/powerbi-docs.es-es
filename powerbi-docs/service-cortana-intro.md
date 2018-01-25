@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/13/2017
+ms.date: 01/13/2018
 ms.author: mihart
-ms.openlocfilehash: d64ab6b9a94171c99eb0956efce89f59b5174d41
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 648880925f343032c24cda612da58ef2fdadcf80
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Busque y vea rápidamente datos de Power BI mediante Cortana para Power BI
 Use Cortana en los dispositivos Windows 10 para obtener respuestas instantáneas a sus preguntas empresariales importantes. Mediante la integración con Power BI, Cortana puede recuperar información clave directamente de los informes y paneles de Power BI. Basta con la versión de Windows 10 de noviembre de 2015 o una posterior, Cortana, Power BI y acceso a un conjunto de datos como mínimo.
@@ -70,7 +70,7 @@ Si el panel tiene un título con más de una palabra, Cortana solo devolverá es
 ### <a name="cortana-and-reports"></a>Cortana y los informes
  Cortana puede encontrar respuestas en los informes que tienen [páginas diseñadas específicamente para que las muestre Cortana](service-cortana-answer-cards.md). Solo tiene que formular preguntas mediante el título o las palabras clave de alguna de estas páginas de informe especiales.  
 
-La tecnología subyacente de los informes utiliza [Preguntas y respuestas de Microsoft Power BI](service-q-and-a.md).
+La tecnología subyacente de los informes utiliza [Preguntas y respuestas de Microsoft Power BI](power-bi-q-and-a.md).
 
 Cuando formula una pregunta en Cortana, Power BI responde a partir de las páginas de informe diseñadas específicamente para Cortana. Las posibles respuestas dependen de Cortana en ese momento, de las *tarjetas de respuestas* que haya creado directamente en Power BI.  Para explorar más detalladamente una respuesta, simplemente abra un resultado en Power BI.
 

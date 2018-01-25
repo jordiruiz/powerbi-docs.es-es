@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: e9fda17bd9560ac564cb6b3ae6c34b986a6bc2aa
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Vista de lectura y vista de edición de informes del servicio Power BI
 En el servicio Power BI (no en Power BI Desktop) existen dos modos para ver e interactuar con los informes: la vista de lectura y la vista de edición. La vista de lectura está disponible para todos los usuarios y está diseñada especialmente para los *consumidores* de datos, mientras que la vista de edición solo está disponible para los propietarios y *creadores* de informes. 
@@ -56,7 +56,7 @@ La vista de edición se ha diseñado para los *creadores* de informes. Aquí es 
 | [Opciones de **vista** de informes](power-bi-report-display-settings.md) | Sí, con algunas excepciones. | Sí, todos, incluidas las líneas de cuadrícula, el ajuste y el bloqueo. |
 | [Crear una programación de actualización](refresh-data.md) | No  | Sí |
 | [Suscribirse a un informe](service-report-subscribe.md) | Sí | No |
-| [Preguntas y respuestas: Formular preguntas en informes](service-q-and-a.md) | No  | Sí |
+| [Preguntas y respuestas: Formular preguntas en informes](power-bi-q-and-a.md) | No  | Sí |
 | [Ver las métricas de uso](service-usage-metrics.md) | Sí, en el lienzo del informe. | Sí, en la lista de informes (vista de contenido) |
 | [Ver relacionados](service-related-content.md) | Sí, en el lienzo del informe. | Sí, en la lista de informes (vista de contenido) |
 | [Guardar un informe](service-report-save.md) | Sí, pero únicamente con **Guardar como**. | Sí |

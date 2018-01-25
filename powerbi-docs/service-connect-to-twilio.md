@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 344ed348f087ead10a8fa4a2c297909e8da628f4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c9a257ad413ff659ab763b26688a22c8461949eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>Conexión a Twilio con Power BI
 El paquete de contenido de Microsoft Twilio para Power BI permite extraer los datos en Power BI y crear un [panel de Twilio](https://powerbi.microsoft.com/integrations/twilio) preconfigurado y un informe que muestra información sobre los datos. También puede crear informes personalizados y paneles en el conjunto de datos creado por Power BI. Los datos se actualizarán una vez al día por lo que siempre está mirando los datos más recientes.
@@ -47,7 +47,7 @@ Conéctese al [paquete de contenido de Twilio](https://app.powerbi.com/getdata/s
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](service-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
 * [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
 * Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.

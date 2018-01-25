@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 647b042d10768f4ecbb3083384efa9000202a11f
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 Asegurarse de que siempre dispone de los datos más recientes suele ser fundamental para tomar las decisiones correctas. Es probable que ya haya usado Obtener datos de Power BI para cargar y conectarse a algunos datos, creado algunos informes y un panel. Ahora, quiere asegurarse de que los datos son realmente los más recientes y mejores.
@@ -112,7 +112,7 @@ Mantener los archivos en OneDrive o SharePoint Online, y conectarse a ellos desd
 | Obtener datos (en la cinta de opciones) se usa para consultar y conectarse a datos de cualquier origen de datos en línea de los indicados. |No |Sí |No (ver más adelante) |
 | Obtener datos se usa para conectarse a una base de datos dinámica de Analysis Services y explorarla. |Sí |No |Sí |
 | Obtener datos se utiliza para conectarse a un origen de datos DirectQuery local compatible y explorarlo. |Sí |No |Sí |
-| Obtener datos sirve para consultar y conectarse a datos de Azure SQL Database, Azure SQL Data Warehouse o Azure HDInsight Spark. |Sí, cada hora |No |No |
+| Obtener datos sirve para consultar y conectarse a datos de Azure SQL Database, Azure SQL Data Warehouse o Azure HDInsight Spark. |Sí |Sí |No |
 | Obtener datos se usa para conectarse a datos de cualquier origen de datos local enumerado, excepto en el caso de un archivo Hadoop (HDFS) y Microsoft Exchange, y consultarlos. |No |Sí |Sí |
 
 > [!NOTE]
@@ -184,7 +184,7 @@ Cuando se configura un origen de datos con la puerta de enlace de datos local, d
 Para más información, consulte [Puerta de enlace de datos local](service-gateway-onprem.md)
 
 ## <a name="databases-in-the-cloud"></a>Bases de datos en la nube
-Con DirectQuery, hay una conexión dinámica entre Power BI y la base de datos en la nube. Cuando se interactúa con una visualización, las consultas se envían desde Power BI directamente a la base de datos. A continuación, se devuelven los datos actualizados y se actualizan las visualizaciones. Además, como el servicio Power BI y el origen de datos están en la nube, no es necesaria una Personal Gateway.
+Con DirectQuery, hay una conexión dinámica entre Power BI y la base de datos en la nube. Cuando se interactúa con una visualización, las consultas se envían desde Power BI directamente a la base de datos. A continuación, se devuelven los datos actualizados y se actualizan las visualizaciones. Además, como el servicio de Power BI y el origen de datos están en la nube, no es necesaria una Personal Gateway.
 
 Si no hay ninguna interacción del usuario en una visualización, los datos se actualizan automáticamente cada hora aproximadamente. Puede cambiar esa frecuencia de actualización mediante la opción *Actualización de caché programada* que permite establecer la frecuencia de actualización.
 

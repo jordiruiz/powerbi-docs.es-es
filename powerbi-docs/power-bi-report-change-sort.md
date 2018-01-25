@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 13da4602306b1218baee81909d37897524f6dfc9
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: aeb22c23b0ef22afd44592c1ceb90537878042d9
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Cambio del modo de ordenar un gráfico en un informe de Power BI
 En un informe de Power BI, puede ordenar la mayoría de las visualizaciones alfabéticamente por los nombres de las categorías del gráfico, o bien por los valores numéricos de cada categoría. Por ejemplo, este gráfico se ordena por nombre de tienda.
@@ -32,11 +32,12 @@ Es fácil cambiar el criterio de ordenación y pasar de una categoría (nombre d
 
 1. Seleccione el botón de puntos suspensivos (…) y elija **Ordenar por Sales Per Sq Ft**.
 2. Si es necesario, seleccione el icono de orden ![](media/power-bi-report-change-sort/sorticon.png) para cambiar a **Descendente**.
-   
+
    ![](media/power-bi-report-change-sort/sortby.gif)
-   
+
    **NOTA**: no todos los elementos visuales se pueden ordenar.  Por ejemplo, los siguientes objetos visuales no se pueden ordenar: Gráfico de rectángulos, Mapa, Mapa coroplético, Dispersión, Medidor, Tarjeta, Tarjeta de varias filas y Cascada.
 
+<a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>Ordenación siguiendo otros criterios
 Es posible que, a veces, quiera ordenar el objeto visual mediante un campo diferente o siguiendo otros criterios.  Por ejemplo, quizás quiera ordenarlo por mes (y no en orden alfabético) o por números enteros en lugar de dígitos (ejemplo, 0, 1, 9, 20 y no 0, 1, 20, 9).  
 
@@ -52,4 +53,3 @@ Más información sobre [Visualizaciones en Power BI](power-bi-report-visualizat
 [Power BI: Conceptos básicos](service-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
-
