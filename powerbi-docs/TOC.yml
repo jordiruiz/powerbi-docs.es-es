@@ -308,9 +308,9 @@
           href: service-organizational-content-pack-introduction.md
         - name: Creación y publicación de un paquete de contenido organizativo (tutorial)
           href: service-organizational-content-pack-create-and-publish.md
-        - name: Uso compartido de un panel con compañeros de trabajo y otros usuarios
+        - name: Compartir los paneles e informes
           href: service-share-dashboards.md
-        - name: Uso compartido de un informe con compañeros
+        - name: Compartir un informe filtrado
           href: service-share-reports.md
         - name: Publicar desde Power BI en la Web
           href: service-publish-to-web.md
