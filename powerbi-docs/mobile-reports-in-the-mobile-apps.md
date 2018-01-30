@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/23/2018
 ms.author: maggies
-ms.openlocfilehash: 3515a57f88db1c8a7b12706680c0aade8b2cdbfa
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -50,7 +50,7 @@ Los informes de Power BI se almacenan en distintos lugares de la aplicación mó
   ![Informe de teléfono en modo horizontal](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Visualización de informes optimizados para teléfonos
-Los autores de informes de Power BI pueden crear un diseño de informe optimizado especialmente para teléfonos. En una lista de informes, un informe optimizado tiene un icono especial ![Icono de informe de teléfono](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+Los autores de informes de Power BI pueden crear un diseño de informe optimizado especialmente para teléfonos. Se ha agregado funcionalidad a las páginas de informes optimizadas para teléfonos; por ejemplo, puede explorar en profundidad y ordenar los objetos visuales en el modo de enfoque y puede tener acceso a los [filtros que el autor del informe ha agregado a la página del informe](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). En una lista de informes, un informe optimizado tiene un icono especial ![icono de informe de teléfono](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
 ![Abrir informe de teléfono](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -58,7 +58,7 @@ Al ver el informe en un teléfono, se abre en la vista vertical.
 
 ![Informe en vista vertical](media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
 
-Un informe puede tener una combinación de páginas optimizadas y no optimizadas para teléfonos. Por lo tanto, al desplazarse por el informe, la vista cambiará de vertical a horizontal para cada página.
+ Un informe puede tener una combinación de páginas optimizadas y no optimizadas para teléfonos. Por lo tanto, al desplazarse por el informe, la vista cambiará de vertical a horizontal para cada página.
 
 Más información sobre los [informes optimizados para la vista de teléfono](mobile-apps-view-phone-report.md).
 

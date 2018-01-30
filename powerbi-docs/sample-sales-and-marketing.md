@@ -15,24 +15,54 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Ejemplo de ventas y marketing para Power BI: un paseo
+
+## <a name="overview-of-the-sales-and-marketing-sample"></a>Introducción al Ejemplo de marketing y ventas
 El **Ejemplo de ventas y marketing** muestra un panel y un informe de una empresa de fabricación ficticia denominada VanArsdel Ltd. Este panel lo creó el director de marketing (CMO) de VanArsdel para disponer de información actualizada sobre el sector, y la cuota de mercado, el volumen de productos, las ventas y las opiniones sobre su compañía.
 
 Aunque la competencia de VanArsdel es notable, sigue siendo líder del mercado en su sector. El director de marketing desea aumentar la cuota de mercado y descubrir nuevas oportunidades de crecimiento. Sin embargo, por alguna razón, la cuota de mercado de VanArsdel comenzó a disminuir y sufrió importantes caídas en junio.
 
 Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Estos son datos reales y anónimos de obviEnce (www.obvience.com).
 
-[!Note] También puede [descargar únicamente el conjunto de datos (libro de Excel) para este ejemplo](http://go.microsoft.com/fwlink/?LinkId=529785). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar seleccione **Power Pivot > Administrar**.
-
 ![](media/sample-sales-and-marketing/sales1.png)
+
+## <a name="prerequisites"></a>Requisitos previos
+
+ Para poder usar el ejemplo, primero debe descargarlo como un paquete de contenido, un archivo .pbix o un libro de Excel.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Obtención del paquete de contenido de este ejemplo
+
+1. Abra el servicio Power BI (app.powerbi.com) e inicie sesión.
+2. En la esquina inferior izquierda, seleccione **Obtener datos**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. En la página que aparece, seleccione el icono **Ejemplos**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Seleccione **Ejemplo de marketing y ventas** y, a continuación, elija **Conectar**.  
+  
+   ![Ejemplo de marketing y ventas](media/sample-sales-and-marketing/sales9.png)
+   
+5. Power BI importa el paquete de contenido y agrega un nuevo panel, informe y conjunto de datos en el área de trabajo actual. El contenido nuevo viene indicado con un asterisco amarillo. 
+   
+   ![Asterisco](media/sample-sales-and-marketing/sales10.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Obtención del archivo .pbix de este ejemplo
+
+Como alternativa, puede descargar el ejemplo como un archivo .pbix, que está diseñado para su uso con Power BI Desktop. 
+
+ * [Ejemplo de marketing y ventas](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Obtención del libro de Excel de este ejemplo
+También puede [descargar únicamente el conjunto de datos (libro de Excel)](http://go.microsoft.com/fwlink/?LinkId=529785) para este ejemplo. El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar seleccione **Power Pivot > Administrar**.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>¿Qué indica el panel?
 Comencemos nuestro paseo por el panel. Revisaremos los iconos que el director de marketing decidió anclar. Vemos información sobre la cuota de mercado, las ventas y las opiniones sobre la empresa. Además, podemos ver datos desglosados por región, hora y competencia.
@@ -48,21 +78,21 @@ Comencemos nuestro paseo por el panel. Revisaremos los iconos que el director de
 #### <a name="which-segments-drive-our-sales-does-it-match-the-industry-trend"></a>¿Qué segmentos impulsan nuestras ventas? ¿Coincide con la tendencia del sector?
 1. Seleccione el icono "Total de unidades en general por segmento" para abrir Preguntas y respuestas.
 2. Escriba **para VanArsdel** al final de la consulta existente. Preguntas y respuestas interpreta la pregunta y muestra un gráfico actualizado con la respuesta. Nuestro volumen de productos procede de las categorías Comodidad y Moderación.
-   
+
    ![](media/sample-sales-and-marketing/sales2.png)
 3. Nuestra cuota en las categorías **Moderación** y **Comodidad** es muy alta. Son los segmentos en los que competimos.
 4. Vuelva al panel seleccionando el nombre del panel en la barra de navegación superior (rutas).
 
 #### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>¿Qué aspecto tiene la cuota de mercado del total de unidades por categoría (frente a región)?
-1. Observe el icono "Total de unidades hasta la fecha por fabricante y región". ¿Cuál es el aspecto de la cuota de mercado del total de unidades por categoría? 
-   
+1. Observe el icono "Total de unidades hasta la fecha por fabricante y región". ¿Cuál es el aspecto de la cuota de mercado del total de unidades por categoría?
+
    ![](media/sample-sales-and-marketing/sales3.png)
 2. En el cuadro de preguntas de la parte superior del panel, escriba la pregunta **Total de unidades por fabricante y categoría en 2014 como gráfico de rectángulos**. Observe cómo se actualiza la visualización a medida que escribe la pregunta.
    ![](media/sample-sales-and-marketing/totalunitsbymanufacturerandcategoryfor2014asatreemap-new.png)
 3. Para comparar las conclusiones, ancle el gráfico en el panel. Resulta muy interesante descubrir que, en 2014, VanArsdel solo vendió productos pertenecientes a la categoría **Urbano** .
 4. Vuelva al panel.
 
-Los paneles también constituyen una puerta de entrada a los informes.  Si un icono se creó a partir de un informe subyacente, al hacer clic en dicho icono, se abrirá el informe. 
+Los paneles también constituyen una puerta de entrada a los informes.  Si un icono se creó a partir de un informe subyacente, al hacer clic en dicho icono, se abrirá el informe.
 
 En nuestro panel, la línea de R12M (12 meses consecutivos) muestra que nuestra cuota de mercado ya no aumenta a lo largo del tiempo (de hecho, incluso disminuye un poco). ¿Y por qué se produjo una fuerte caída de la cuota de mercado en junio? Si desea investigar en profundidad, haga clic en esta visualización para abrir el informe subyacente.
 
@@ -72,7 +102,7 @@ En nuestro panel, la línea de R12M (12 meses consecutivos) muestra que nuestra 
 
 1. Observe el gráfico de columnas "Total de unidades por mes e isVanArsdel" de la parte inferior. La columna en color negro representa a VanArsdel (nuestros productos) y la verde es la competencia. La competencia no experimenta la caída de junio de 2014 que sufre VanArsdel.
 2. El gráfico de barras "Total de volumen de categorías por segmento" del centro de la parte derecha está filtrado para muestrar los dos segmentos principales de VanArsdel. Observe cómo se creó este filtro:  
-   
+
    a.  Expanda el panel de filtros de la derecha.  
    b.  Haga clic para seleccionar la visualización.  
    c.  En Filtros de nivel visual, fíjese en que **Segmento** está filtrado para incluir solo **Comodidad** y **Moderación**.  
@@ -112,4 +142,3 @@ Se trata de un entorno seguro en el que experimentar. Siempre puede elegir no gu
 
 ## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: conectarse a sus propios datos
 Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecerle información detallada sobre los datos de ventas y marketing. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Más información sobre [cómo empezar a usar Power BI](service-get-started.md).  
-

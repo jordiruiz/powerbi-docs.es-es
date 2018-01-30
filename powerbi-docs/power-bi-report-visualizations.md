@@ -1,6 +1,6 @@
 ---
-title: Visualizaciones en Power BI
-description: "Documentación sobre visualizaciones (elementos visuales) en Microsoft Power BI."
+title: "Introducción a las visualizaciones de informes en el servicio Power BI y en Power BI Desktop"
+description: "Introducción a las visualizaciones de informes (objetos visuales) en Microsoft Power BI."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,16 +16,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7b23ec8bf284de5419db98c326b206e205e253ec
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: bb9244268a0a68f7b15877ae7ff567fe35cb2a1a
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
-# <a name="visualizations-in-power-bi"></a>Visualizaciones en Power BI
-Las visualizaciones de datos (también conocidas como objetos visuales) permiten interactuar con sus datos para buscar información de la empresa. Cree y modifique visualizaciones en los informes y ánclelas a sus paneles.   
+# <a name="visualizations-in-power-bi-reports"></a>Visualizaciones en informes de Power BI
+Las visualizaciones (también conocidas como objetos visuales) muestran información que se ha descubierto en los datos. Un informe de Power BI puede tener una sola página con un objeto visual o podría tener páginas enteras de objetos visuales. En el servicio Power BI, los objetos visuales pueden ser [anclados desde los informes en los paneles](service-dashboard-pin-tile-from-report.md). 
+
+Es importante hacer distinción entre *creadores* del informe y *consumidores* del informe. La persona que crea o modifica el informe es un creador.  Los creadores tienen permisos de edición en el informe y el conjunto de datos subyacente. En Power BI Desktop, esto significa que puede abrir el conjunto de datos en la vista de datos y crear objetos visuales en la vista de informe. En el servicio Power BI, esto significa que puede abrir el conjunto de datos o el informe en el editor de informes en la [vista de edición](service-reading-view-and-editing-view.md). Si un informe o un panel se ha [compartido con usted](service-shared-with-me.md), será un **consumidor** del informe. Podrá ver e interactuar con el informe y los objetos visuales, pero no podrá guardar los cambios.
+
+Existen muchos tipos diferentes de objetos visuales disponibles directamente desde el panel de VISUALIZACIONES de Power BI. 
+
+![](media/power-bi-report-visualizations/power-bi-visualizations.png)
+
+Y para más opciones, visite el [sitio de la comunidad de Microsoft AppSource](https://appsource.microsoft.com) para buscar y descargar [objetos visuales personalizados](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) proporcionados por Microsoft y la comunidad.    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -36,13 +44,13 @@ Las visualizaciones de datos (también conocidas como objetos visuales) permiten
 [Cree visualizaciones](power-bi-report-add-visualizations-i.md) de las páginas de los informes. Examine la [lista de visualizaciones disponibles y los tutoriales disponibles sobre visualizaciones](power-bi-visualization-types-for-reports-and-q-and-a.md). 
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Cargar una visualización personalizada y usarla en Power BI
-Agregue una visualización personalizada que creó usted mismo o que encontró en la [Tienda Office](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). ¿Se siente creativo? Investigue el código fuente y use nuestras herramientas de desarrollo para crear un nuevo tipo de visualización y [compartirlo con la comunidad](http://visuals.powerbi.com).
+Agregue una visualización personalizada creada por usted mismo o que haya encontrado en el [sitio de la comunidad de Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). ¿Se siente creativo? Investigue el código fuente y use nuestras [herramientas de desarrollo](service-custom-visuals-getting-started-with-developer-tools.md) para crear un nuevo tipo de visualización y [compartirlo con la comunidad](developer/office-store.md).
 
 ## <a name="change-the-visualization-type"></a>Cambiar el tipo de visualización
 Intente [cambiar el tipo de visualización](power-bi-report-change-visualization-type.md) para ver cuál funciona mejor con sus datos.
 
 ## <a name="pin-the-visualization"></a>Anclar la visualización
-Cuando tenga la visualización que desea, puede [anclarla a un panel](service-dashboard-pin-tile-from-report.md) como un icono. Si cambia la visualización del informe después de anclarla, el icono en el panel no cambia.
+En el servicio Power BI, cuando tenga la visualización que desea, puede [anclarla a un panel](service-dashboard-pin-tile-from-report.md) como un icono. Si cambia la visualización que se va a utilizar en el informe después de anclarla, el icono del panel no cambia: si era un gráfico de líneas, se mantiene como un gráfico de líneas, incluso si se cambia a un gráfico de anillos en el informe.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

@@ -1,5 +1,5 @@
 ---
-title: Crear las preguntas destacadas para Preguntas y respuestas de Power BI
+title: "Cómo crear las preguntas destacadas para Preguntas y respuestas de Power BI"
 description: "Documentación sobre cómo crear preguntas destacadas para Preguntas y respuestas de Power BI."
 services: powerbi
 documentationcenter: 
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 4b8a606cd110c13a615be88d49f04e68b3f2cbe6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: e6a83796afe6afab02ec463d3dd2074d1fdc529a
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Crear las preguntas destacadas para Preguntas y respuestas de Power BI
-Si tiene un conjunto de datos, puede agregarle sus propias preguntas destacadas.  Preguntas y respuestas de Power BI mostrará esas preguntas a los compañeros que usen el conjunto de datos.  Las preguntas destacadas proporcionan a los compañeros ideas acerca de los tipos de preguntas que pueden hacer sobre el conjunto de datos. Usted elige las preguntas destacadas que agrega: puede agregar preguntas comunes, preguntas que muestren resultados interesantes o preguntas difíciles de expresar.
+Si tiene un conjunto de datos, puede agregarle sus propias preguntas destacadas.  Preguntas y respuestas de Power BI mostrará esas preguntas a los compañeros que usan (*consumen*) el conjunto de datos.  Las preguntas destacadas proporcionan a los compañeros ideas acerca de los tipos de preguntas que pueden hacer sobre el conjunto de datos. Usted elige las preguntas destacadas que agrega: puede agregar preguntas comunes, preguntas que muestren resultados interesantes o preguntas difíciles de expresar.
 
 Vea cómo Will agrega algunas preguntas destacadas a Preguntas y respuestas de Power BI y luego las usa para explorar su conjunto de datos. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
 
@@ -33,7 +33,6 @@ Vea cómo Will agrega algunas preguntas destacadas a Preguntas y respuestas de P
 
 > [!NOTE]
 > Las preguntas destacadas de Preguntas y respuestas están disponibles para su uso en la [aplicación Microsoft Power BI para iOS en dispositivos iPad, iPhone y iPod Touch](mobile-apps-ios-qna.md) y en la versión preliminar de Preguntas y respuestas de Power BI Desktop. Sin embargo, la creación de preguntas solo está disponible en el servicio Power BI (app.powerbi.com).
-> 
 > 
 
 Este artículo usa el [ejemplo de análisis de minoristas](sample-datasets.md).
@@ -54,7 +53,7 @@ Este artículo usa el [ejemplo de análisis de minoristas](sample-datasets.md).
    ![](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Pasos siguientes
-[Preguntas y respuestas en Power BI](service-q-and-a.md)  
+[Preguntas y respuestas en Power BI](power-bi-q-and-a.md)  
 [Tutorial: Introducción a Preguntas y respuestas de Power BI](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI: Conceptos básicos](service-basic-concepts.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

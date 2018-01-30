@@ -1,6 +1,6 @@
 ---
 title: "Métricas de uso para paneles e informes"
-description: "Documentación sobre cómo ver las métricas de uso para informes y paneles de Power BI. Medir y aumentar el impacto con métricas de uso para los creadores de contenido."
+description: "Cómo ver, guardar y utilizar las métricas de uso para los informes y paneles de Power BI. Medir y aumentar el impacto con métricas de uso para los creadores de contenido."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,39 +16,37 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 04709b76b8e3e464b5384fa2bf137cd79b0749a7
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.openlocfilehash: 36a79b6ec984ee663868c5f20efaa8cd5b596d2a
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Métricas de uso para paneles e informes
 Si desea crear paneles e informes, las métricas de uso le ayudan a conocer su impacto. Al ejecutar métricas de uso de panel o métricas de uso de informe, verá cómo se usan estos paneles e informes en toda la organización; qué es lo que se está utilizando, por quién y con qué finalidad.  
 
 > [!NOTE]
 > Las métricas de uso harán un seguimiento del uso de los informes que se insertan en SharePoint Online. También realizarán un seguimiento de los paneles e informes insertados mediante los flujos de trabajo "el usuario posee las credenciales" y "la aplicación posee las credenciales". Las métricas de uso no realizarán un seguimiento del uso de los informes insertados mediante [Publicar en la Web](service-publish-to-web.md).
-> 
-> 
 
 Estos informes de métricas de uso son de solo lectura. Sin embargo, puede personalizar un informe de métricas de uso mediante la opción "Guardar como". Se crea un conjunto de datos y el informe de solo lectura se convierte en un informe de Power BI con todas las características, que puede editar. No solo el informe personalizado contiene métricas para el panel o el informe seleccionado, sino que al quitar el filtro predeterminado, ya tiene acceso a las métricas de uso para todos los paneles o informes en el área de trabajo seleccionada.
 
 ![](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ## <a name="why-are-usage-metrics-important-to-me"></a>¿Por qué son importantes para mí las métricas de uso?
- Conocer cómo se usa el contenido le ayuda a demostrar su impacto y a priorizar sus esfuerzos. Las métricas de uso pueden mostrarle que un segmento considerable de la organización utiliza a diario uno de sus informes y también que un panel que creó no lo está viendo nadie. Este tipo de comentario es muy valioso a la hora de dirigir los esfuerzos de trabajo que realiza.
+Conocer cómo se usa el contenido le ayuda a demostrar su impacto y a priorizar sus esfuerzos. Las métricas de uso pueden mostrarle que un segmento considerable de la organización utiliza a diario uno de sus informes y también que un panel que creó no lo está viendo nadie. Este tipo de comentario es muy valioso a la hora de dirigir los esfuerzos de trabajo que realiza.
 
 La ejecución de informes de métricas de uso solo está disponible en el servicio Power BI.  Sin embargo, si guarda un informe de métricas de uso o lo ancla a un panel, podrá abrirlo e interactuar con ese informe en dispositivos móviles.
 
-> **NOTA**: La característica Métricas de uso captura información de uso de todos los usuarios, tanto la versión gratuita como Pro. Sin embargo, se requiere una licencia Pro para ejecutar y tener acceso a los datos de métricas de uso.
-> 
-> 
+### <a name="prerequisites"></a>Requisitos previos
+- La característica Métricas de uso captura información de uso de todos los usuarios, tanto de la versión gratuita como de la profesional. Sin embargo, se requiere una licencia Pro para ejecutar y tener acceso a los datos de métricas de uso.
+- Se proporcionan métricas de uso en paneles o informes en el área de trabajo seleccionada. Para obtener acceso a los datos de métricas de uso de un determinado panel o informe, debe:    
+    • Tener acceso de edición en ese panel o informe   
+    • Contar con una licencia Pro
 
 ## <a name="about-the-usage-metrics-report"></a>Información acerca del informe de métricas de uso
-Se proporcionan métricas de uso en paneles o informes en el área de trabajo seleccionada. Para obtener acceso a datos de métricas de uso para un determinado panel o informe, debe:    
-•   Tener acceso de edición en ese panel o informe   
-•   Contar con una licencia Pro
+
 
 Cuando se selecciona **Métricas de uso** o el icono ![](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png), Power BI genera un informe previamente creado con métricas de uso del contenido para los últimos 90 días.  El informe es similar a los informes de Power BI con los que está familiarizado, pero está diseñado para que sea informativo y no interactivo. Podrá segmentarlo en función de cómo han obtenido acceso sus usuarios finales: si ha sido a través de la Web o de una aplicación móvil, etc. A medida que los paneles e informes evolucionen, evolucionará igualmente el informe de métricas de uso, que se actualiza a diario con nuevos datos.  
 
@@ -68,8 +66,9 @@ Para profundizar en los datos del informe, o para crear sus propios informes con
     ![](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
 4. Para abrir los resultados, seleccione **Ver métricas de uso**.
    
-    Las métricas de uso serán un eficaz aliado mientras se trabaja para implementar y mantener los informes y paneles de Power BI. ¿Se pregunta qué páginas del informe son las más útiles y cuáles se deben eliminar gradualmente? Puede segmentar por página del informe para averiguarlo. ¿Se pregunta si debe crear un diseño móvil para el panel? El informe de métricas de uso le indica cuántos usuarios tienen acceso a su contenido a través de las aplicaciones móviles en comparación con los que acceden a través del explorador web.
-5. También puede anclar visualizaciones a un panel para que pueda supervisarlas más fácilmente o compartirlas con otras personas.
+    Las métricas de uso serán un eficaz aliado mientras se trabaja para implementar y mantener los informes y paneles de Power BI. ¿Se pregunta qué páginas del informe son las más útiles y cuáles se deben eliminar gradualmente? Puede segmentar por **página del informe** para averiguarlo. ¿Se pregunta si debe crear un diseño móvil para el panel? Puede segmentar por **Plataformas** para descubrir cuántos usuarios tienen acceso a su contenido a través de las aplicaciones móviles en comparación con los que acceden a través del explorador web.
+
+5. Si lo desea, mantenga el puntero sobre una visualización y seleccione el icono de anclaje para agregar la visualización a un panel. O bien, en la barra de menús superior, seleccione la **página Anclar elemento activo** para agregar la página completa a un panel. Desde el panel puede supervisar las métricas de uso más fácilmente o compartirlas con otras personas.
    
    > **NOTE**: Si ancla un icono desde un informe de métricas de uso a un panel, ese panel no se podrá agregar a una aplicación o paquete de contenido.
    > 
@@ -101,7 +100,10 @@ Para profundizar en los datos del informe, o para crear sus propios informes con
 ![](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
 ## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Guardar el informe de métricas de uso como un informe con todas las características de Power BI (personalizar)
-Use **Guardar como** para convertir el informe de métricas de uso en un informe de Power BI con todas las características, que se puede personalizar y compartir. Después de crear una copia personalizada, obtendrá acceso completo al conjunto de datos subyacente, lo que le permite personalizar totalmente el informe de métricas de uso para sus necesidades específicas. Puede incluso usar Power BI Desktop para crear informes de métricas de uso personalizadas mediante la [conexión dinámica a la característica del servicio Power BI](https://powerbi.microsoft.com/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop).
+
+![](media/service-usage-metrics/power-bi-save-as.png)
+
+Use **Guardar como** para convertir el informe de métricas de uso en un informe de Power BI con todas las características, que se puede personalizar y compartir. Después de crear una copia personalizada, obtendrá acceso completo al conjunto de datos subyacente, lo que le permite personalizar el informe de métricas de uso para sus necesidades específicas. Puede incluso usar Power BI Desktop para crear informes de métricas de uso personalizadas mediante la [conexión dinámica a la característica del servicio Power BI](https://powerbi.microsoft.com/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop).
 
 Más aún, el conjunto de datos subyacente incluye los detalles de uso para todos los paneles o informes en el área de trabajo. Esto ofrece un nuevo mundo de posibilidades. Por ejemplo, podría crear un informe que comparara todos los paneles en el área de trabajo basándose en el uso. O bien, podría crear un panel de métricas de uso para la aplicación Power BI agregando el uso a todo el contenido distribuido dentro de esa aplicación.  Consulte [Quitar el filtro para ver todos los datos de métricas de uso en el área de trabajo](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace) a continuación.
 
@@ -109,26 +111,23 @@ Más aún, el conjunto de datos subyacente incluye los detalles de uso para todo
 Cuando Power BI crea el informe completo, también crea un nuevo conjunto de datos **formado por todos los paneles e informes que se encuentran en el área de trabajo actual** a los que se ha tenido acceso en los últimos 90 días. Por ejemplo, supongamos que tiene un área de trabajo denominada "Sales" que contiene tres paneles y dos informes, y crea un informe de métricas de uso en el panel "Northeast". A continuación, usa **Guardar como** para personalizar y convertirlo en un informe completo. El conjunto de datos para ese nuevo informe contiene las métricas de uso *no solo para el panel con el nombre "Northeast"* sino para los tres paneles en el área de trabajo "Sales". De forma predeterminada, el informe mostrará datos del panel "Northeast" y deberá [quitar un filtro](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace) (un solo clic) para mostrar los datos de los tres paneles.
 
 ### <a name="create-a-copy-of-the-usage-report-using-save-as"></a>Crear una copia del informe de uso con "Guardar como"
-Cuando crea una copia con "Guardar como" (personalizar), Power BI convierte el informe de solo lectura pregenerado en un informe completo.  A primera vista, parece exactamente el mismo. Sin embargo, ya puede abrir el informe en vista de edición, agregar nuevas visualizaciones, filtros y páginas, modificar o eliminar visualizaciones existentes, y mucho más. Power BI también crea un conjunto de datos nuevo que contiene las métricas de uso para todos los paneles o informes en esa área de trabajo.
+Cuando crea una copia con "Guardar como" (personalizar), Power BI convierte el informe de solo lectura pregenerado en un informe completo.  A primera vista, parece exactamente el mismo. Sin embargo, ya puede abrir el informe en vista de edición, agregar nuevas visualizaciones, filtros y páginas, modificar o eliminar visualizaciones existentes, y mucho más. Power BI guarda el nuevo informe y el conjunto de datos en el área de trabajo actual. En el ejemplo siguiente, el área de trabajo actual es **mihart**.
 
-> **SUGERENCIA**: Para permitir que Power BI tenga acceso a las métricas de uso de todos los informes o paneles en el área de trabajo, [quite el filtro para ver todos los datos de métricas de uso en el área de trabajo](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace).
-> 
-> 
 
-1. En el informe de métricas de uso pregenerado, seleccione **Archivo > Guardar como**. Power BI convierte el informe de métricas de uso en un informe con todas las características de Power BI. A esto se le denomina informe de métricas de uso *personalizado*.
+1. En el informe de métricas de uso pregenerado, seleccione **Archivo > Guardar como**. Power BI convierte el informe de métricas de uso en un informe con todas las características de Power BI. A esto se le denomina informe de métricas de uso *personalizado*. El informe de uso personalizado y el conjunto de datos se guardan en el área de trabajo actual, que se llama **mihart*.
    
     ![](media/service-usage-metrics/power-bi-save-as.png)
 2. Abra el informe en vista de edición e [interactúe con él como lo haría con cualquier otro informe de Power BI](service-interact-with-a-report-in-editing-view.md). Por ejemplo, agregar nuevas páginas y crear nuevas visualizaciones, agregar filtros, dar formato a las fuentes y colores, etc.
    
     ![](media/service-usage-metrics/power-vi-editing-view.png)
-3. O bien, abra el nuevo conjunto de datos y genere un informe desde el principio.
+3. O bien, comience con el nuevo conjunto de datos y genere un informe desde el principio.
    
     ![](media/service-usage-metrics/power-bi-new-dataset.png)
-4. El nuevo informe se guarda en el área de trabajo actual y se agrega también a la lista de contenido **Recientes**.
+4. El nuevo informe se guarda en el área de trabajo actual (mihart) y se agrega también a la lista de contenido **Recientes**.
    
     ![](media/service-usage-metrics/power-bi-new-report.png)
 
-### <a name="remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace"></a>Quitar el filtro para ver todos los datos de métricas de uso en el área de trabajo
+### <a name="remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace"></a>Elimine el filtro para ver ***todos*** los datos de métricas de uso del área de trabajo
 Para ver las métricas de todos los paneles o informes en el área de trabajo, tendrá que quitar un filtro. De forma predeterminada, el informe personalizado se filtra para mostrar métricas solo del panel o informe que se usó para crearlo.
 
 Si, por ejemplo, se utiliza el panel denominado "European sales" para crear este nuevo informe personalizado, se mostrarán solo los datos de uso del panel "European sales". Para quitar el filtro y los datos de todos los paneles en esa área de trabajo:

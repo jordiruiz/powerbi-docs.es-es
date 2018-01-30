@@ -1,6 +1,6 @@
 ---
-title: "Introducción a Preguntas y respuestas de Power BI (tutorial)"
-description: "Tutorial: Introducción a Preguntas y respuestas del servicio Power BI con el ejemplo de análisis de venta directa"
+title: "Guía de inicio rápido: Introducción a Preguntas y respuestas de Power BI"
+description: "Guía de inicio rápido: Introducción a Preguntas y respuestas en el servicio Power BI con el Ejemplo de análisis de minoristas"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,17 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 01/16/2018
 ms.author: mihart
-ms.openlocfilehash: 2038fb5bd4a21235c3026c8506ae30b8c3e287e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63c6479ed5f0bb9e882900fc5a653f08ad6a823
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
-# <a name="get-started-with-power-bi-qa-tutorial"></a>Introducción a Preguntas y respuestas de Power BI (tutorial)
-## <a name="tutorial-use-power-bi-qa-with-the-retail-analysis-sample"></a>Tutorial: Uso de Preguntas y respuestas de Power BI con el ejemplo de análisis de minoristas
-A veces, la manera más rápida de obtener una respuesta de sus datos es formular una pregunta con un lenguaje natural.  En este tutorial veremos 2 formas distintas de crear la misma visualización: creándola en un informe y preguntando con Preguntas y respuestas.  
+# <a name="get-started-with-power-bi-qa-quickstart"></a>Introducción a Preguntas y respuestas de Power BI (Guía de inicio rápido)
+## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Uso de Preguntas y respuestas de Power BI con el Ejemplo de análisis de minoristas
+A veces, la manera más rápida de obtener una respuesta de sus datos es formular una pregunta con un lenguaje natural.  En esta guía de inicio rápido veremos 2 formas distintas de crear la misma visualización: la primera creándola en un informe y la segunda preguntando con Preguntas y respuestas. Vamos a usar el servicio Power BI, pero el proceso es casi idéntico con Power BI Desktop.
+
+Para poder continuar, debe utilizar un informe que pueda editar, por lo que vamos a usar uno de los ejemplos disponibles con Power BI.
 
 ## <a name="method-1-using-the-report-editor"></a>Método 1: usar el editor de informes
 1. En el área de trabajo de Power BI, seleccione **Obtener datos** \> **Ejemplos** \> **Ejemplo de análisis de minoristas** > **Conectar**.
@@ -61,13 +63,9 @@ A veces, la manera más rápida de obtener una respuesta de sus datos es formula
 4. Para anclar el gráfico a su panel, seleccione el icono de anclaje ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
 
 ## <a name="next-steps"></a>Pasos siguientes
-[¿Qué tipo de preguntas puedo formular en Preguntas y respuestas?](service-q-and-a.md)
-
-[Preguntas y respuestas en Power BI](service-q-and-a.md)
+[Preguntas y respuestas en Power BI](power-bi-q-and-a.md)
 
 [Funcionamiento correcto de los datos con Preguntas y respuestas en Power BI](service-prepare-data-for-q-and-a.md)
-
-[Preparar un libro de Preguntas y respuestas](service-prepare-data-for-q-and-a.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

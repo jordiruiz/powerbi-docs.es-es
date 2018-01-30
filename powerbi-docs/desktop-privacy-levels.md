@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 733e24f44c63b8887c3c8b00999f7cea22581a86
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 743f9dc0a96c2816693695f4ca2878aba09873df
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Niveles de privacidad de Power BI Desktop
 En **Power BI Desktop**, los niveles de privacidad especifican un nivel de aislamiento que define el grado de aislamiento de un origen de datos respecto a los demás. Aunque un nivel de aislamiento restrictivo impide que la información se intercambie entre los orígenes de datos, puede reducir la funcionalidad e influir en el rendimiento.
@@ -69,6 +69,10 @@ Para configurar el nivel de privacidad de un origen de datos, seleccione el orig
 
 > **Nota de seguridad:** La habilitación de **Niveles de privacidad** mediante la selección de **Ignorar los niveles de privacidad y mejorar el rendimiento potencialmente** en el cuadro de diálogo **Niveles de privacidad** podría exponer los datos importantes o confidenciales a una persona no autorizada. No habilite **Niveles de privacidad** a menos que esté seguro de que el origen de datos no contiene datos importantes o confidenciales.
 > 
+> 
+
+> [!CAUTION]
+> La opción **Ignorar los niveles de privacidad y mejorar el rendimiento potencialmente** no funciona en el servicio Power BI. Por lo tanto, los informes de Power BI Desktop con esta opción habilitada que, a continuación, se publican en el servicio Power BI, *no* reflejan este comportamiento cuando se utilizan en el servicio.
 > 
 
 **Configuración de niveles de privacidad**

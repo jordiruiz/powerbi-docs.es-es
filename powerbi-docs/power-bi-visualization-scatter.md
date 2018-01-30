@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2d8ed3c30d289646504071daca098df1f41f6aab
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Gráficos de dispersión y de burbujas de Power BI (tutorial)
 Un gráfico de dispersión siempre tiene dos ejes de valores con el fin de mostrar un conjunto de datos numéricos en un eje horizontal y otro conjunto de valores numéricos a lo largo de un eje vertical. El gráfico muestra puntos en la intersección de un valor numérico x e y, y combina estos valores en puntos de datos únicos. Estos puntos de datos pueden estar distribuidos uniformemente o de forma desigual entre el eje horizontal, en función de los datos.
@@ -31,15 +31,17 @@ Un gráfico de burbujas reemplaza los puntos de datos con burbujas, cuyo *tamañ
 
 ![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
+Puede establecer el número de puntos de datos  
+
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>Cuándo se debe usar un gráfico de dispersión o un gráfico de burbujas
 ### <a name="scatter-charts-are-a-great-choice"></a>Los gráficos de dispersión son una opción excelente:
 * para mostrar las relaciones entre 2 (dispersión) o 3 (burbuja) valores **numéricos** .
-* Para trazar dos grupos de números como una serie de coordenadas xy.
+* para trazar dos grupos de números como una serie de coordenadas xy.
 * en lugar de un gráfico de líneas cuando quiere cambiar la escala del eje horizontal    
 * para convertir el eje horizontal en una escala logarítmica.
 * para mostrar datos de la hoja de cálculo que incluyen pares o conjuntos de valores agrupados. En un gráfico de dispersión, puede ajustar las escalas independientes de los ejes para obtener más información acerca de los valores agrupados.
 * para mostrar patrones en grandes conjuntos de datos, por ejemplo, al mostrar los valores atípicos, los clústeres y las tendencias lineales o no lineales.
-* para comparar grandes números de puntos de datos sin tener en cuenta el tiempo. Cuantos más datos incluya en un gráfico de dispersión, mejor serán las comparaciones que podrá realizar.
+* para comparar gran cantidad de números de puntos de datos sin tener en cuenta en el tiempo.  Cuantos más datos incluya en un gráfico de dispersión, mejores comparaciones podrá realizar.
 
 ### <a name="bubble-charts-are-a-great-choice"></a>Los gráficos de burbujas son una excelente opción:
 * si los datos tienen 3 series de datos que contienen un conjunto de valores.
@@ -76,13 +78,20 @@ Ahora tenemos un gráfico de dispersión que traza el porcentaje de varianza tot
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. Si quiere, puede [dar formato a los colores de visualización, etiquetas, títulos, fondo, etc](service-getting-started-with-color-formatting-and-axis-properties.md).
 
-## <a name="accessibility"></a>Accesibilidad
+   También puede cambiar la forma del marcador en forma de rombo, triángulo o cuadrado:
 
-Puede hacer que su gráfico de dispersión o burbujas sea más accesible para las personas con discapacidades gracias a *Formas de marcador*. 
+   ![Marcador cuadrado](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
-Para seleccionar la forma del marcador, seleccione la sección **Formato** del panel **Visualizaciones**, expanda la sección **Formas** y seleccione una forma de marcador.
+4. Si lo desea, para establecer el número de puntos de datos a mostrar en el gráfico de burbujas, en la sección **Formato** del panel **Visualizaciones**, expanda la tarjeta **General** y ajuste el **Volumen de datos**. El valor predeterminado es 3500. 
+ 
+    ![Volumen de datos](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-![Forma de marcador](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+   > [!NOTE]
+   > Dado que más puntos de datos pueden significar un tiempo de carga mayor, si opta por publicar informes con límites en el extremo superior de la escala, asegúrese de probar los informes a través de la web y dispositivos móviles para garantizar que el rendimiento coincide con las expectativas de los usuarios.
+
+5.   Opcionalmente, para seleccionar la forma del marcador, expanda la tarjeta **Formas** y, a continuación, seleccione una forma de marcador.
+
+      ![Forma de marcador](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**El gráfico de dispersión solo tiene un punto de datos**

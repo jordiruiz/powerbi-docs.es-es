@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 453a2a9dd4ea5e41d404d3e81cebbff7c35f1b6c
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Habilitación de preguntas y respuestas para conexiones dinámicas
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>¿Qué es una puerta de enlace de datos local?  ¿Qué es una conexión dinámica?
@@ -39,7 +39,7 @@ Debido a que Preguntas y respuestas de Power BI usa los valores de texto y esque
 Para más información, consulte:
 
 * ¿Qué es la [puerta de enlace de datos local](service-gateway-onprem.md)?
-* [Introducción a Preguntas y respuestas de Power BI](service-q-and-a.md)
+* [Introducción a Preguntas y respuestas de Power BI](power-bi-q-and-a.md)
 
 ## <a name="enable-qa"></a>Habilitación de Preguntas y respuestas
 Una vez que haya configurado la puerta de enlace de datos, conéctese a los datos desde Power BI.  Puede crear un panel con sus datos locales, o bien puede cargar un archivo .pbix que use datos locales.  Además, puede que ya tenga datos locales en paneles, informes y conjuntos de datos que le hayan compartido.
@@ -55,22 +55,20 @@ Una vez que haya configurado la puerta de enlace de datos, conéctese a los dato
     ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>¿Qué datos se almacenan en caché y cómo se protege la privacidad?
-Cuando habilita Preguntas y respuestas para los datos locales, se almacena un subconjunto de los datos en el caché del servicio. Esto se hace para garantizar que Preguntas y respuestas tenga un rendimiento razonable. Excluimos del almacenamiento en caché los valores que superan los 24 caracteres. La memoria caché se elimina dentro de unas horas cuando desactiva la opción **Activar Preguntas y respuestas para este conjunto de datos** para deshabilitar Preguntas y respuestas, o bien cuando elimina el conjunto de datos.
+Cuando habilita Preguntas y respuestas para los datos locales, se almacena un subconjunto de los datos en el caché del servicio. Esto se hace para garantizar que Preguntas y respuestas tenga un rendimiento razonable. Power BI excluye del almacenamiento en caché los valores que superan los 24 caracteres. La memoria caché se elimina dentro de unas horas cuando desactiva la opción **Activar Preguntas y respuestas para este conjunto de datos** para deshabilitar Preguntas y respuestas, o bien cuando elimina el conjunto de datos.
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 Existen varias limitaciones durante la fase de vista previa de esta característica:
 
-* Inicialmente, la característica solo está disponible para orígenes de datos tabulares de SQL Server 2016 Analysis Services. La característica está optimizada para trabajar con datos tabulares. Parte de la funcionalidad está disponible para orígenes de datos multidimensionales, pero la experiencia completa de preguntas y respuestas no se admite todavía para este tipo de origen de datos. Los orígenes de datos adicionales compatibles con la puerta de enlace de datos local se lanzarán durante la versión preliminar pública.
+* Inicialmente, la característica solo está disponible para orígenes de datos tabulares de SQL Server 2016 Analysis Services. La característica está optimizada para trabajar con datos tabulares. Parte de la funcionalidad está disponible para orígenes de datos multidimensionales, pero la experiencia completa de preguntas y respuestas no se admite todavía para este tipo de origen de datos. Los orígenes de datos adicionales admitidos por la puerta de enlace de datos local se lanzarán con el tiempo.
 * La compatibilidad total con la seguridad de nivel de fila definida en SQL Server Analysis Services no estará disponible inicialmente en la versión preliminar pública. Cuando se formulan preguntas en Preguntas y respuestas, la característica "Autocompletar" de las preguntas mientras se escribe puede mostrar los valores de cadena a los que un usuario no tiene acceso. Sin embargo, se respeta la RLS definida en el modelo para los objetos visuales de informe y gráfico, por lo que ningún dato numérico subyacente queda expuesto. En próximas actualizaciones se lanzarán opciones para controlar este comportamiento.
 * Las conexiones dinámicas solo se admiten con la puerta de enlace de datos local. Como resultado, no se puede usar dicha puerta con la puerta de enlace personal.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)  
 [Administrar el origen de datos: Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Power BI Quick Insights](service-insights.md)  
-[Optimizar los datos para Power BI Quick Insights](service-insights-optimize.md)  
 [Power BI: Conceptos básicos](service-basic-concepts.md)  
-[Paneles en Power BI](service-dashboards.md)  
+[Introducción a Preguntas y respuestas de Power BI](power-bi-q-and-a.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 
