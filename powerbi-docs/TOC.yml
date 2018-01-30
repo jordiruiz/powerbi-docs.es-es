@@ -922,8 +922,6 @@
           href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
         - name: Ver Power BI en modo de presentación en Surface Hub
           href: mobile-windows-10-app-presentation-mode.md
-        - name: "Compartir un icono desde la aplicación móvil de Power BI para Windows\_10"
-          href: mobile-share-tile-windows-10-phone-app.md
 - name: Desarrollador de Power BI
   items:
     - name: Información general
