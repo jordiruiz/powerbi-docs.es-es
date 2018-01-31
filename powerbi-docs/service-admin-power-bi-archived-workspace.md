@@ -3,7 +3,7 @@ title: "Área de trabajo de archivado de Power BI"
 description: "Área de trabajo de archivado de Power BI después de administrar al inquilino de Office 365"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: e321fc33eb32988c358ac87290150fe54c1e9479
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 7698a1207f19382430fb8e225543b32b6aebcd49
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-archived-workspace"></a>Área de trabajo de archivado de Power BI
 Con Power BI, cualquier usuario puede registrarse y empezar a usar el servicio en cuestión de minutos.  Más adelante, el departamento de TI de la organización puede optar por encargarse de la administración de Power BI para los usuarios de su organización.  Si esto se produce, se beneficiará de la administración central de usuarios y permisos de la organización y es posible que pueda aprovecharse del inicio de sesión mejorado con el mismo nombre de usuario y la misma contraseña que usó para otros servicios en su organización. 

@@ -3,7 +3,7 @@ title: "Enfoques de gobierno e implementación"
 description: "Notas del producto para obtener información sobre conceptos, opciones y sugerencias para el gobierno dentro del ecosistema de Power BI."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 2a26106bcd27f3be05ff1f0d195c605da8b13c90
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 574e54aa423c9cdc9b9146fde1a16686303e73f6
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>Enfoques de gobierno e implementación
 En las últimas décadas, las empresas han ido siendo cada vez más conscientes de la necesidad de aprovechar los recursos de datos estratégicamente aprovechar las oportunidades de mercado. Mediante la realización de análisis competitivo o comprendiendo los patrones operativos, muchas organizaciones ahora entienden que pueden beneficiarse de contar con una estrategia de datos como una manera de adelantarse a la competencia.  

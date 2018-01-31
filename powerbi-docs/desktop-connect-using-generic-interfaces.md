@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 2083343e8642470b8eb21bf13ba75fe784351b1c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b3ee7bacdb342b609d504771f4b8d57819958197
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Conectarse a los datos mediante las interfaces genéricas de Power BI Desktop
 **Power BI Desktop** permite conectarse a un gran número de orígenes de datos distintos gracias a los conectores de datos que lleva integrados, como por ejemplo las **bases de datos de Access** y los recursos de **Zendesk**, tal como se puede ver en la ventana **Obtener datos**. También es posible conectarse a muchos *otros* tipos de orígenes de datos a través de las interfaces genéricas (como **ODBC** o **API de REST**) integradas en **Power BI Desktop**, lo que amplía aún más las opciones de conectividad.

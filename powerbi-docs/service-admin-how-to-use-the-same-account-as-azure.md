@@ -3,7 +3,7 @@ title: Uso de la misma cuenta para Power BI y Azure
 description: "Uso del mismo inicio de sesión de la cuenta para Power BI y Azure"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: a601e4252e8c2b3bc130b61139ffb528742ea7ea
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: b2659747a875ee6bb14c0ec52f7d4fa71d233ed9
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Uso de la misma cuenta para Power BI y Azure
 Si es usuario de Power BI y Azure, es posible que desee usar el mismo inicio de sesión para ambos servicios, por lo que no es necesario escribir la contraseña dos veces.

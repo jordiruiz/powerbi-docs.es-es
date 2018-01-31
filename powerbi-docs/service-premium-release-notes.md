@@ -3,7 +3,7 @@ title: "Notas de la versión de Power BI Premium"
 description: "Lea las notas de la versión de Power BI Premium, una capacidad dedicada para su organización o equipo."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/11/2017
-ms.author: asaxton
-ms.openlocfilehash: 7d16d9676b2c97c330c4126927dd810e8ac6768a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: f729f20315d907cc2416723ba10b8c296e313899
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-premium-release-notes"></a>Notas de la versión de Power BI Premium
 Estas son las notas de la versión para Power BI Premium, una capacidad dedicada que proporciona a su organización o equipo un rendimiento más seguro, volúmenes de datos mayores y la posibilidad de distribuir contenido sin licencias por usuario a los usuarios que tienen que ver los datos.

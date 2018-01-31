@@ -3,7 +3,7 @@ title: Referencia de la API de REST de Power BI
 description: Referencia de la API de REST de Power BI
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 4e294db9a186d697d3602c0f6b30f8e088c80aac
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: b05eb753f709ccfcbd1eb0fa488edd2926575651
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-rest-api-reference"></a>Referencia de la API de REST de Power BI
 Power BI es un servicio basado en la nube que puede usar para crear aplicaciones de escritorio personalizadas. La API de REST de Power BI es una API basada en REST que proporciona acceso mediante programación a los recursos del **panel** , como **conjuntos de datos**, **tablas**y **filas** en Power BI.

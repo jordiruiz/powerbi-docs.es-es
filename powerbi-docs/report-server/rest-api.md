@@ -3,7 +3,7 @@ title: "Notas de la versión del servidor de informes de Power BI"
 description: "La API de REST proporciona acceso mediante programación a los objetos de un catálogo de Power BI Report Server."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: ede77374fab911ed77a993cc705b8caa00e48bf0
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 554270d3b7bdbd3de88a7d5865dae8cdf226a6b2
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Desarrollo con las API de REST para Power BI Report Server
 Power BI Report Server admite API de transferencia de estado representacional (REST). Las API de REST son puntos de conexión de servicio que admiten un conjunto de operaciones HTTP (métodos), logrando así crear, recuperar, actualizar o eliminar el acceso a los recursos de un servidor de informes.

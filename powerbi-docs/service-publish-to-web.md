@@ -3,7 +3,7 @@ title: Publicar en la web de Power BI
 description: "Con la característica Publicar en la web de Power BI, puede insertar fácilmente visualizaciones de Power BI interactivas en línea, como en publicaciones de blog y sitios web, a través de mensajes de correo electrónico o redes sociales, en cualquier dispositivo."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/27/2017
-ms.author: asaxton
-ms.openlocfilehash: ced24e81271c414101ddd7027a034814e9a7d609
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.author: maghan
+ms.openlocfilehash: 890c748c7e7502394fd2e6e024521e99082a1c77
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 

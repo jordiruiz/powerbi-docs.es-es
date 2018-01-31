@@ -3,7 +3,7 @@ title: "Integración de un informe de Power BI en una aplicación para la organi
 description: "Aprenda a integrar, o insertar, un informe, en una aplicación web mediante las API de Power BI."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 8285cbbc2d8dee653863cad50036da58362c32d1
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.author: maghan
+ms.openlocfilehash: 9ed341eb4428795bb4714ae8f1a34fd11c1bcbcd
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Integración de un informe en una aplicación para la organización
 Aprenda a integrar, o insertar, un informe en una aplicación web mediante llamadas a la API de REST, junto con la API de JavaScript de Power BI cuando la inserción se realiza para la organización.

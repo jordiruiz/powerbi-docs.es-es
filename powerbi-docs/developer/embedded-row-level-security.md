@@ -3,7 +3,7 @@ title: Uso de la seguridad de nivel de fila con contenido insertado de Power BI
 description: "Obtenga información sobre los pasos necesarios para insertar contenido de Power BI en su aplicación."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
-ms.author: asaxton
-ms.openlocfilehash: ffaf4439f48b23dcff8e965b5bea1aeaf19afcc0
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.author: maghan
+ms.openlocfilehash: b9d39e2214b20677141a6e6beb9d61b628c320c2
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Uso de la seguridad de nivel de fila con contenido insertado de Power BI
 La seguridad de nivel de fila (RLS) se puede usar para restringir el acceso de usuarios a los datos de paneles, iconos, informes y conjuntos de datos. Varios usuarios diferentes pueden trabajar con esos mismos artefactos mientras ven otros datos distintos. La inserción admite RLS.

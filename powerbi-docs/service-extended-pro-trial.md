@@ -3,7 +3,7 @@ title: "Activación de prueba de Pro extendida"
 description: "A partir del 1 de junio de 2017, todos los usuarios aptos podrán participar en la prueba de Power BI Pro extendida."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/18/2017
-ms.author: asaxton
-ms.openlocfilehash: 595f1b19ebe30980dcc22254853b9daa5dc4d3d4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 25e384b13f7161c3238e34bfc482570a1b29ec36
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="extended-pro-trial-activation"></a>Activación de prueba de Pro extendida
 Desde el 1 de junio de 2017, todos los usuarios aptos podrán participar en la prueba de Power BI Pro extendida.

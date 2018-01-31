@@ -3,7 +3,7 @@ title: "Configurar aplicaciones móviles con Microsoft Intune"
 description: "Cómo configurar aplicaciones móviles de Power BI con Microsoft Intune Incluye cómo agregar e implementar la aplicación. También incluye cómo crear la directiva de aplicación móvil para controlar la seguridad."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 793734acf8e5d5a11747ec850cdf0faeda8448dd
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: 97f28a845be24baa7633f0cf4fcac29d4d1e74e9
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Configurar aplicaciones móviles con Microsoft Intune
 Microsoft Intune permite a las organizaciones administrar dispositivos y aplicaciones. Las aplicaciones móviles de Power BI, para iOS y Android, se integran con Intune para permitirle administrar la aplicación en los dispositivos y controlar la seguridad. A través de las directivas de configuración, puede controlar elementos como requerir un PIN de acceso, controlar la manera en que la aplicaciones gestiona los datos o incluso cifrar los datos de la aplicación cuando la aplicación no está en uso.

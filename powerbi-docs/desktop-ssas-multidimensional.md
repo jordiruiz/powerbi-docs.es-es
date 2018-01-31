@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/26/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 6fb91243415063f3a9fafc197e14ebb39bc3cc0b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ad803107e158ac22068422d49ed3fff840fd0c5f
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Conectarse a modelos SSAS multidimensionales en Power BI Desktop
 Con Power BI Desktop, ahora puede acceder a **modelos SSAS multidimensionales**, que suelen denominarse **SSAS MD**.

@@ -3,7 +3,7 @@ title: "Notas de la versión del servidor de informes de Power BI"
 description: En este tema se describe las limitaciones del servidor de informes de Power BI y los problemas que pueden aparecer al usarlo.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: aa0f8870396980edfdb85739e0459c365d1e2163
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 7f59e3788b24344b5f86b146fb41e440eb0a2098
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-report-server-release-notes"></a>Notas de la versión del servidor de informes de Power BI
 En este tema se describe las limitaciones del servidor de informes de Power BI y los problemas que pueden aparecer al usarlo.

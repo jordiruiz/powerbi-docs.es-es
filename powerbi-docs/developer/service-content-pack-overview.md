@@ -3,7 +3,7 @@ title: "Introducción al programa de paquetes de contenido del servicio Power BI
 description: "Programa de certificación del paquete de contenido"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/04/2018
 ms.author: maghan
-ms.openlocfilehash: 1eaa549bf42c17cd2bd857efd4d50b991e862ea0
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: f0a50c0aba1a05c55236192a730c3187cb37c055
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Introducción al programa de paquetes de contenido del servicio Power BI
 Un paquete de contenido es un conjunto de contenido integrado que permite a los usuarios obtener información inmediata de un origen. Un paquete de contenido se centra normalmente en un escenario de negocio específico que proporciona información para un rol, dominio o flujo de trabajo.

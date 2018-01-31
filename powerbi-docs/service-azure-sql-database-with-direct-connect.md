@@ -3,7 +3,7 @@ title: Azure SQL Database con DirectQuery
 description: Azure SQL Database con DirectQuery
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/18/2017
-ms.author: asaxton
-ms.openlocfilehash: 6ee8ab6d30d84857de9cd415ee58caade4e94a57
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.author: maghan
+ms.openlocfilehash: 319fcf174d18bd7c4bf43ab205c2b483659e7218
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database con DirectQuery
 Obtenga información sobre cómo puede conectarse directamente a Azure SQL Database y crear informes que usan datos activos. Puede mantener los datos en el origen y no en Power BI.

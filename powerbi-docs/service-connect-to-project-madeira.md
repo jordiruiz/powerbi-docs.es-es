@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 449f6a9363a40895a2b53c7a778ee02129facb7f
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Conexión a Project "Madeira" con Power BI
 Obtener información sobre los datos de Project "Madeira" es fácil con Power BI y el paquete de contenido de Project "Madeira". Power BI recupera los datos (tanto de ventas como financieros) y, a continuación, crea un panel integrado e informes basados en esos datos.
@@ -63,7 +63,8 @@ Conéctese al [paquete de contenido de Project "Madeira"](https://app.powerbi.co
 
 ## <a name="system-requirements"></a>Requisitos del sistema
 Para importar los datos de Project “Madeira” en Power BI, debe tener permisos para las tablas de datos de ventas y finanzas de las que se recuperan los datos. Las tablas (con distinción entre mayúsculas y minúsculas) necesarias para el paquete de contenido incluyen:  
-
+ 
+    ´´´ 
     - ItemSalesAndProfit  
     - ItemSalesByCustomer  
     - powerbifinance  
@@ -71,6 +72,7 @@ Para importar los datos de Project “Madeira” en Power BI, debe tener permiso
     - SalesOpportunities  
     - SalesOrdersBySalesPerson  
     - TopCustomerOverview  
+    ´´´ 
 
 <a name="FindingParams"></a>
 
