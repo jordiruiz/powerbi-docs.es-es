@@ -1,11 +1,11 @@
 ---
-title: "Uso compartido de informes de Power BI con compañeros"
-description: "Aprenda a compartir informes de Power BI e informes filtrados, con compañeros de su organización."
+title: "Filtrado y uso compartido de informes de Power BI con compañeros"
+description: "Aprenda a compartir informes de Power BI filtrados con compañeros de su organización."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: lukaszp
 editor: 
 tags: 
 featuredvideoid: 0tUwn8DHo3s
@@ -16,43 +16,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/18/2018
 ms.author: maggies
-ms.openlocfilehash: 2a7b4cc652e600b9a368f6f7eda657c06e131da3
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: fff70dc8e0fa1eaafd68d5995881b2c416d4e29d
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/24/2018
 ---
-# <a name="share-power-bi-reports-with-your-coworkers"></a>Uso compartido de informes de Power BI con los compañeros
-*Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece [varias maneras de colaborar y distribuir sus informes](service-how-to-collaborate-distribute-dashboards-reports.md) y, el uso compartido, es solo una de ellas.
+# <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Uso compartido de un informe de Power BI filtrado con los compañeros de trabajo
+*Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece también [varias maneras de colaborar y distribuir sus informes](service-how-to-collaborate-distribute-dashboards-reports.md).
 
 Con el uso compartido, usted y sus destinatarios necesitarán una [licencia de Power BI Pro](service-free-vs-pro.md) o que el contenido esté en una [capacidad premium](service-premium.md). ¿Sugerencias? Al equipo de Power BI le interesa siempre su opinión, así que vaya a [sitio de Power BI Community](https://community.powerbi.com/) y déjenos sus comentarios.
 
-Puede compartir un informe con compañeros de su mismo dominio de correo electrónico, de su propia área de trabajo o de un área de trabajo de la aplicación. Cuando comparte un informe, los usuarios con quienes lo comparte pueden verlo e interactuar con él, pero no pueden modificarlo. Ellos ven los mismos datos que usted ve en el informe, a menos que se aplique la [seguridad de nivel de fila (RLS)](service-admin-rls.md). 
+Puede compartir un informe con compañeros de trabajo en el mismo dominio de correo electrónico que usted, desde la mayoría de los lugares del servicio Power BI: Favoritos, Recientes, Compartido conmigo (si el propietario lo permite), Mi área de trabajo u otras áreas de trabajo. Cuando comparte un informe, los usuarios con quienes lo comparte pueden verlo e interactuar con él, pero no pueden modificarlo. Ellos ven los mismos datos que usted ve en el informe, a menos que se aplique la [seguridad de nivel de fila (RLS)](service-admin-rls.md). 
 
-## <a name="share-a-power-bi-report"></a>Compartir un informe de Power BI
-1. En el servicio Power BI, [cree un panel](service-dashboard-create.md) con al menos un icono vinculado al informe que desee compartir. 
-   
-    Incluso si solo desea compartir el informe, primero deberá crear un panel que vincule al informe y compartirlo. 
-
-1. En la esquina superior derecha del panel, seleccione **Compartir**.
-
-     ![Seleccionar Compartir](media/service-share-reports/power-bi-share-upper-right.png)
-  
-2. Envíeselo a los destinatarios. Si no desea enviarles un correo electrónico sobre el panel, desactive la casilla **Enviar notificación por correo electrónico a los destinatarios**.
-
-     ![Desactivar la casilla Enviar notificación por correo electrónico](media/service-share-reports/power-bi-share-dont-send-mail.png)
-
-4. Seleccione **Compartir**.
-
-      Las personas con las que comparte el panel tienen ahora permiso para ver el informe subyacente. 
-
-1. Abra el informe en el servicio Power BI, copie la dirección URL de la página de informe y envíesela a sus compañeros de trabajo. 
-   
-    Cuando estos seleccionen el vínculo, Power BI abrirá una versión de solo lectura del informe.
-
-## <a name="share-a-filtered-version-of-a-report"></a>Compartir una versión filtrada de un informe
+## <a name="filter-and-share-a-report"></a>Filtrado y uso compartido de un informe
 ¿Qué sucede si quiere compartir una versión filtrada de un informe? Quizás un informe que muestra solamente los datos de una ciudad, vendedor o año determinados. La forma de hacerlo es mediante la creación de una dirección URL personalizada.
 
 1. Abra el informe en [vista de edición](service-reading-view-and-editing-view.md), aplique el filtro y guarde el informe.
@@ -74,11 +53,13 @@ Puede compartir un informe con compañeros de su mismo dominio de correo electr�
    
    El explorador agrega caracteres especiales para representar espacios, apóstrofos y barras diagonales, así que es resultado es:
    
-   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-10a61f70f2f5/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
+   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-xxxxxxxxxxxx/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
 
-3. Envíe esta dirección URL a sus compañeros. 
-   
-   Cuando ellos seleccionan el vínculo, Power BI abre una versión de solo lectura del informe filtrado.
+3. [Comparta el informe](service-share-dashboards.md), pero desactive la casilla **Enviar notificación por correo electrónico a los destinatarios**. 
+
+    ![Cuadro de diálogo Compartir informe](media/service-share-reports/power-bi-share-report-dialog.png)
+
+4. Envíe el vínculo con el filtro que creó anteriormente.
 
 ## <a name="next-steps"></a>Pasos siguientes
 * ¿Quiere hacer algún comentario? Vaya al [sitio de la comunidad de Power BI](https://community.powerbi.com/) para efectuar sus sugerencias.

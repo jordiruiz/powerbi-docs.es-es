@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2b3f25c772a049d10bc03941db677c67c844da8b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 40d6ee1f1448856b444201532caffd4b8c904c85
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>Parte II, Incorporación de visualizaciones a un informe de Power BI (tutorial)
 En la [parte I](power-bi-report-add-visualizations-ii.md), creó una visualización básica activando las casillas junto a los nombres de campo.  En la parte II, aprenderá a usar arrastrar y colocar, y a emplear toda la funcionalidad de los paneles **Campos** y **Visualizaciones** para crear y modificar visualizaciones.
+
+### <a name="prerequisites"></a>Requisitos previos
+- [Parte 1](power-bi-report-add-visualizations-ii.md)
+- Servicio Power BI: se pueden agregar visualizaciones a los informes con el servicio Power BI o Power BI Desktop. Este tutorial usa el servicio Power BI. 
+- Ejemplo Análisis de venta directa
 
 ## <a name="create-a-new-visualization"></a>Creación de una nueva visualización
 En este tutorial, nos adentraremos en el conjunto de datos de análisis de minoristas y crearemos algunas visualizaciones clave.
@@ -64,7 +69,6 @@ En este tutorial, nos adentraremos en el conjunto de datos de análisis de minor
 ## <a name="next-steps"></a>Pasos siguientes
 * Para más información sobre el panel Campos, consulte el [paseo por el editor de informes](service-the-report-editor-take-a-tour.md).   
 * Para más información sobre cómo filtrar y resaltar las visualizaciones, consulte [Filtros y resaltado en informes de Power BI](power-bi-reports-filters-and-highlighting.md).  
-* Para más información sobre cómo usar y cambiar agregaciones, consulte [Agregados en informes de Power BI](service-aggregates.md).  
 * Más información sobre [Visualizaciones en Power BI](power-bi-report-visualizations.md).  
-* ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).
+* ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

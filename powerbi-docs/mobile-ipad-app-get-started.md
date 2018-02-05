@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: b9bdde9e258af733dd182f3ea3bd814520a31e8c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Introducción a la aplicación móvil de Power BI en un iPad
 La aplicación móvil de Microsoft Power BI para iOS en iPad ofrece la experiencia de BI móvil para Power BI, el servidor de informes de Power BI y Reporting Services. Con el acceso móvil directo y táctil a la información importante local y en la nube de la empresa, puede ver los paneles de la empresa e interactuar con ellos fácilmente y desde cualquier lugar. Explore los datos de los paneles y compártalos con sus compañeros en mensajes de texto o correo electrónico. 
@@ -41,7 +41,7 @@ Descubra las [novedades de las aplicaciones móviles de Power BI](mobile-whats-n
 [Descargue la aplicación de iPad](http://go.microsoft.com/fwlink/?LinkId=522062) desde App Store de Apple.
 
 > [!NOTE]
-> El iPad debe ejecutar, al menos, iOS 9.0. 
+> El iPad debe ejecutar, al menos, iOS 10. 
 > 
 > 
 
@@ -54,7 +54,7 @@ Si aún no se ha registrado para el servicio, vaya a Power BI (https://powerbi.c
    
    Para ver los informes móviles de Reporting Services y los KPI, pulse **SQL Server Reporting Services**. Inicie sesión con sus credenciales de SQL Server Reporting Services.
    
-   ![Inicio de sesión en Power BI](media/mobile-ipad-app-get-started/power-bi-connect-to-login.png)
+   ![Iniciar sesión en Power BI](media/mobile-ipad-app-get-started/power-bi-connect-to-login.png)
    
    Cuando se encuentre en la aplicación, solo tiene que pulsar el botón de navegación global ![Botón de navegación global](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) de la esquina superior izquierda para pasar de un servicio a otro. 
 

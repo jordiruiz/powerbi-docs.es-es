@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -63,7 +63,7 @@ Al ver el informe en un teléfono, se abre en la vista vertical.
 Más información sobre los [informes optimizados para la vista de teléfono](mobile-apps-view-phone-report.md).
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>Uso de segmentaciones de datos para filtrar una página de informe
-Al diseñar un informe en el servicio Power BI [(https://powerbi.com)](https://powerbi.com), tenga en cuenta que, en un teléfono, no puede ver el panel Filtros pero puede [ver segmentaciones de datos en una página de informe](power-bi-visualization-slicers.md). Agregue segmentaciones de datos a un informe para que usted y sus compañeros puedan usar las segmentaciones de datos para filtrar la página en un teléfono.
+Al diseñar un informe en el servicio Power BI Desktop o Power BI, considere la posibilidad de [agregar segmentaciones a una página del informe](power-bi-visualization-slicers.md). Usted y sus compañeros pueden usar segmentaciones para filtrar la página en un explorador y en las aplicaciones móviles. Cuando ve el informe en un teléfono, puede ver e interactuar con las segmentaciones en modo horizontal y en una página optimizada para el modo vertical del teléfono.
 
 * Al seleccionar un valor en una segmentación de datos de la página de informe, se filtran los demás objetos visuales de la página.
   

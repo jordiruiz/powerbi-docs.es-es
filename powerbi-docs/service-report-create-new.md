@@ -1,5 +1,5 @@
 ---
-title: "Creación de un nuevo informe a partir de un conjunto de datos "
+title: "Tutorial: Creación de un nuevo informe a partir de un conjunto de datos "
 description: "Creación de un informe de Power BI nuevo a partir de un conjunto de datos"
 services: powerbi
 documentationcenter: 
@@ -15,20 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: f4afb1eaa1b3012fdbdb0eff35e9eff695cc32e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7405f2c5663c071d58253f2103c9c7d778ea8299
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Creación de un informe de Power BI nuevo mediante la importación de un conjunto de datos
 Ha leído [Informes en Power BI](service-reports.md) y ahora desea crear los suyos propios. Hay muchas formas distintas de crear un informe y en este artículo comenzaremos por crear un informe muy básico de un conjunto de datos de Excel. Una vez que conozca los fundamentos de la creación de informes, la sección **Pasos siguientes** de la parte inferior le dirigirá a temas de informes más avanzados.  
 
 > **Sugerencia**: para crear un informe mediante la copia de un informe existente, consulte [Copia de un informe](power-bi-report-copy.md)
 > 
-> 
+### <a name="prerequisites"></a>Requisitos previos
+- Servicio Power BI (para la creación de informes con Power BI Desktop, consulte [Vista de informes en Power BI Desktop](desktop-report-view.md)   
+- Conjunto de datos de ejemplo Retail Analysis
 
 ## <a name="import-the-dataset"></a>Importación del conjunto de datos
 Este método de creación de informes comienza con un conjunto de datos y un lienzo de informe en blanco. Para seguir el tutorial, [descargue el conjunto de datos de Excel Retail Analysis Sample](http://go.microsoft.com/fwlink/?LinkId=529778) y guárdelo en OneDrive para la Empresa (opción preferida) o localmente.
@@ -36,7 +38,7 @@ Este método de creación de informes comienza con un conjunto de datos y un lie
 1. El informe lo crearemos en un área de trabajo de un servicio Power BI, así que seleccione un área de trabajo existente o cree una nueva.
    
    ![](media/service-report-create-new/power-bi-workspaces2.png)
-2. En la parte inferior de la barra de exploración izquierda, seleccione **Obtener datos**.
+2. En la parte inferior del panel de navegación izquierdo, seleccione **Obtener datos**.
    
    ![](media/service-report-create-new/power-bi-get-data3.png)
 3. Seleccione **Archivos** y navegue hasta la ubicación en que guardó el archivo 
@@ -84,7 +86,7 @@ Nuestro director de marketing quiere que respondamos a varias preguntas más. Qu
 4. Seleccione **Tiempo** > **Período** para agregarlo al área **Ejes**.
    
     ![](media/service-report-create-new/power-bi-report-step5.png)
-5. Para ordenar la visualización, seleccione los puntos suspensivos y elija **Ordenar por período**.
+5. Para ordenar la visualización por período de tiempo, seleccione los puntos suspensivos y elija **Sort by Period**.
 6. Ahora vamos a agregar la segmentación de datos. Seleccione un área vacía en el lienzo y elija la plantilla Segmentación de datos ![](media/service-report-create-new/power-bi-slicer-icon.png). Así se agrega una segmentación de datos vacía al lienzo.
    
     ![](media/service-report-create-new/power-bi-report-step6.png)    
@@ -94,12 +96,11 @@ Nuestro director de marketing quiere que respondamos a varias preguntas más. Qu
 8. Use la segmentación de datos para buscar patrones e información por distrito.
    
    ![](media/service-report-create-new/power-bi-slicer-video2.gif)  
-9. Opcionalmente, siga agregando visualizaciones.
+
+Continúe explorando los datos y agregando visualizaciones. Cuando encuentre una información especialmente interesante, [ánclela a un panel](service-dashboard-pin-tile-from-report.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Cree una copia de un informe](power-bi-report-copy.md)
-* [Guarde el informe](service-report-save.md)    
 * [Incorpore una página al informe](power-bi-report-add-page.md)  
-* Aprenda a [anclar visualizaciones a un panel](service-dashboard-pin-tile-from-report.md)    
+* Aprenda a [anclar visualizaciones a un panel](service-dashboard-pin-tile-from-report.md)   
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

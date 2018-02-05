@@ -3,7 +3,7 @@ title: "Portal de administración de Power BI"
 description: "El portal de administración permite la administración de inquilinos de Power BI en su organización. Incluye elementos como métricas de uso, acceso al Centro de administración de Office 365 y configuración."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
-ms.author: asaxton
-ms.openlocfilehash: d831363d6afa88aa94d78776f59f81ba8ba96299
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.date: 01/02/2018
+ms.author: maghan
+ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
@@ -209,6 +209,16 @@ Los usuarios de la organización pueden utilizar Excel para ver e interactuar co
 ### <a name="user-arcgis-maps-for-power-bi-preview"></a>Usar los mapas de ArcGIS para Power BI (versión preliminar)
 
 Los usuarios de la organización pueden utilizar los mapas de ArcGIS para la visualización de datos en Power BI (versión preliminar) proporcionada por Esri. [Más información](power-bi-visualization-arcgis.md)
+
+
+## <a name="custom-visuals-settings"></a>Configuración de objetos visuales personalizados
+### <a name="enable-custom-visuals-for-the-entire-organization"></a>Habilitación de objetos visuales personalizados para toda la organización
+Los usuarios de la organización pueden interactuar con objetos visuales personalizados y compartirlos. [Más información](power-bi-custom-visuals.md)
+
+![Configuración de objetos visuales personalizados](media/service-admin-portal/powerbi-admin-custom-visuals.png)
+
+> [!NOTE]
+> Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
 
 ## <a name="r-visuals-settings"></a>Configuración de objetos visuales de R
 

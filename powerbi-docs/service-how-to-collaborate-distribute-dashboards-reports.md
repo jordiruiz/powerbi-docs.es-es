@@ -1,11 +1,11 @@
 ---
-title: "¿Cómo debo compartir paneles e informes y colaborar en ellos en Power BI?"
+title: "¿Cómo debo colaborar y compartir en Power BI?"
 description: En Power BI, puede compartir paneles, informes e iconos de distintas maneras, y colaborar en ellos. Cada una tiene sus ventajas.
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: lukaszp
 editor: 
 tags: 
 qualityfocus: monitoring
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/24/18
 ms.author: maggies
-ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>¿Cómo debo compartir paneles e informes y colaborar en ellos en Power BI?
-Cuando crea paneles e informes y, a veces,  colabora en ellos con sus compañeros, puede que luego desee que otros usuarios tengan también acceso a ellos. ¿Cuál es la mejor manera de distribuirlos?
+Ha creado paneles e informes, colabora en ellos con sus compañeros, puede que luego desee que otros usuarios tengan también acceso a ellos. ¿Cuál es la mejor manera de distribuirlos?
 
 En este artículo, compararemos estas opciones de colaboración y uso compartido en Power BI: 
 
@@ -34,7 +34,7 @@ En este artículo, compararemos estas opciones de colaboración y uso compartido
 * Publicarlos en la web, donde cualquier usuario puede verlos e interactuar con ellos.
 * Imprimirlos. 
 
-Con independencia de la opción que se elija, para compartir un panel se necesita una [licencia de Power BI Pro](service-free-vs-pro.md) o que el contenido esté en una [capacidad premium](service-premium.md). Los requisitos de licencia para los compañeros que ven sus paneles varían en función de la opción que elija. En las secciones siguientes puede encontrar más detalles. ¿Sugerencias? Al equipo de Power BI le interesa siempre su opinión, así que vaya a [sitio de Power BI Community](https://community.powerbi.com/) y déjenos sus comentarios.
+Con independencia de la opción que se elija, para compartir un panel se necesita una [licencia de Power BI Pro](service-free-vs-pro.md) o que el contenido esté en una [capacidad premium](service-premium.md). Los requisitos de licencia para los compañeros que ven sus paneles varían en función de la opción que elija. En las secciones siguientes puede encontrar más detalles. 
 
 ![Aplicaciones en el servicio Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -54,7 +54,7 @@ Supongamos que desea distribuir el panel a un público amplio. Junto con sus com
 
 ![Icono de publicar aplicación](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Es muy fácil buscar e instalar aplicaciones en el servicio Power BI ([https://powerbi.com](https://powerbi.com)). Puede enviar a los usuarios de la empresa un vínculo directo a la aplicación, o bien pueden buscarla en AppSource. Obtenga más información sobre cómo [publicar aplicaciones](service-create-distribute-apps.md#publish-your-app). 
+Es muy fácil buscar e instalar aplicaciones en el servicio Power BI ([https://powerbi.com](https://powerbi.com)). Puede enviar a los usuarios de la empresa un vínculo directo a la aplicación, o bien pueden buscarla en AppSource. Si el administrador de Power BI le concede permisos, puede instalar una aplicación automáticamente en las cuentas de Power BI de sus compañeros de trabajo. Obtenga más información sobre cómo [publicar aplicaciones](service-create-distribute-apps.md#publish-your-app). 
 
 Después de instalar una aplicación, pueden verla en sus exploradores o dispositivos móviles.
 
@@ -69,9 +69,7 @@ Para compartir el contenido necesitará una licencia de Power BI Pro (y aquellos
 
 También puede compartir con usuarios que no pertenezcan a su organización. Pueden ver el panel e interactuar con él, pero no pueden compartirlo. 
 
-Más información sobre cómo [compartir un panel](service-share-dashboards.md) desde el servicio Power BI.
-
-También puede [compartir un vínculo directo a un informe](service-share-reports.md) y omitir el panel. Puede agregar un filtro al vínculo para que los destinatarios obtengan una vista filtrada del informe.
+Más información sobre cómo [compartir paneles e informes](service-share-dashboards.md) desde el servicio Power BI. También puede agregar un filtro a un vínculo y [compartir una vista filtrada del informe](service-share-reports.md).
 
 ## <a name="annotate-and-share-from-the-power-bi-mobile-apps"></a>Anotación y uso compartido de un panel desde aplicaciones móviles de Power BI
 En las aplicaciones móviles de Power BI para dispositivos iOS y Android, puede anotar un icono, un informe o un objeto visual, y después compartirlo con otros usuarios por correo electrónico. 

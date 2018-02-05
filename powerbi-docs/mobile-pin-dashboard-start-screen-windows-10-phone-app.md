@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 278b421114363ab5fea4591e39a20089501b9724
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: f06793bc6620e27ab5937a0043e9dc6a94119110
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Anclaje de un panel a la pantalla Inicio de Windows 10 desde la aplicación móvil de Power BI
-Puede anclar iconos y paneles de Power BI a la pantalla Inicio de Windows desde la aplicación móvil de Power BI para Windows 10. Estos se convierten en *iconos dinámicos*, por lo que verá las métricas más importantes de un vistazo. Al pulsar el icono en la pantalla Inicio, el panel se abre en la aplicación móvil de Power BI para Windows 10.
+Puede anclar iconos y paneles de Power BI a la pantalla Inicio de Windows desde la aplicación móvil de Power BI para Windows 10. Se convierten en *iconos dinámicos*. Al pulsar el icono en la pantalla Inicio, el panel se abre en la aplicación móvil de Power BI para Windows 10.
 
-![Icono dinámico de Windows](media/mobile-pin-dashboard-start-screen-windows-10-phone-app/pbi_win10_livetile.gif)
+![Icono dinámico de Windows](media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-screen.png)
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-live-tile"></a>Anclaje de un panel a la pantalla Inicio en forma de icono dinámico
 1. Abra un panel.

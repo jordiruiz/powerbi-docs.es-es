@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: efab2e6be1d376a0da70c13bb66144ba34afa58c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: edae145e8eef6dfe7a2c4cea3a7f467f6f7961a9
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow y Power BI
 
@@ -35,7 +35,9 @@ Observe cómo Sirui crea un flujo que envía un correo electrónico detallado a 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Crear un flujo que se desencadene con una alerta de datos de Power BI
-En este tutorial se le mostrará cómo crear dos flujos distintos: uno a partir de una plantilla y otro desde cero. Para seguir, [cree una alerta de datos en Power BI](service-set-data-alerts.md) y [regístrese en Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup) (¡es gratis!).
+
+### <a name="prerequisites"></a>Requisitos previos
+En este tutorial se le mostrará cómo crear dos flujos distintos: uno a partir de una plantilla y otro desde cero. Para seguir, [cree una alerta de datos en Power BI](service-set-data-alerts.md), cree una cuenta de Slack gratuita y [regístrese en Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup) (es gratis).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Crear un flujo que utilice Power BI a partir de una plantilla
 En esta tarea utilizaremos una plantilla para crear un flujo sencillo que se desencadene mediante una alerta de datos de Power BI (notificación).
@@ -47,39 +49,40 @@ En esta tarea utilizaremos una plantilla para crear un flujo sencillo que se des
 3. Seleccione **Crear desde plantilla**.
    
     ![](media/service-flow-integration/power-bi-template.png)
-4. Utilice el cuadro de búsqueda para encontrar plantillas de Power BI y seleccione **Post a message to a Slack channel when a Power BI data alert is triggered** (Publicar un mensaje en un canal de Slack cuando se desencadene una alerta de datos de Power BI).
+4. Utilice el cuadro de búsqueda para encontrar plantillas de Power BI y active **Enviar un correo electrónico al público cuando se desencadene una alerta de datos de Power BI > Continuar**.
    
-    ![](media/service-flow-integration/power-bi-template2.png)
-5. Seleccione **Usar esta plantilla**.
-   
-   ![](media/service-flow-integration/power-bi-use-template.png)
-6. Si se le solicita, conéctese a Slack y Power BI. Para ello, seleccione **Iniciar sesión** y después siga las indicaciones. Sabrá que ha iniciado sesión porque aparecerá una marca de verificación verde.  Después de confirmar sus conexiones, seleccione **Continuar**.
-   
-   ![](media/service-flow-integration/power-bi-flow-signin.png)
+    ![](media/service-flow-integration/power-bi-flow-alert.png)
+
 
 ### <a name="build-the-flow"></a>Crear un flujo
-Esta plantilla tiene un desencadenador (alerta de datos de Power BI sobre las nuevas medallas olímpicas de Irlanda) y una acción (publicar un mensaje en Slack). Cuando seleccione un campo, Flow mostrará el contenido dinámico que puede incluir.  En este ejemplo incluiremos el valor y la URL del icono en el cuerpo del mensaje.
+Esta plantilla tiene un desencadenador (alerta de datos de Power BI sobre las nuevas medallas olímpicas de Irlanda) y una acción (enviar un correo electrónico). Cuando seleccione un campo, Flow mostrará el contenido dinámico que puede incluir.  En este ejemplo incluiremos el valor y la URL del icono en el cuerpo del mensaje.
 
-![](media/service-flow-integration/power-bi-flow-template.png)
+![](media/service-flow-integration/power-bi-template1.png)
 
 1. En la lista desplegable del desencadenador, seleccione una alerta de datos de Power BI. Seleccione **Nueva medalla para Irlanda**. Para obtener información sobre cómo crear una alerta, consulte [Alertas de datos de Power BI](service-set-data-alerts.md).
    
    ![](media/service-flow-integration/power-bi-trigger-flow.png)
-2. Para publicar en Slack, escriba un nombre de canal y un texto de mensaje (también puede seleccionar el mensaje predeterminado que crea Flow). Observe el contenido dinámico que hemos incluido en el campo de texto de mensaje.
+2. Escriba una o varias direcciones de correo electrónico válida y, a continuación, seleccione **Editar** (se muestra a continuación) o **Agregar contenido dinámico**. 
    
-   > [!NOTE]
-   > Incluya "@" al principio del nombre del canal.  Por ejemplo, si el canal de Slack se llama “channelA”, en Flow escriba "@channelA".
-   > 
-   > 
-   
-   ![](media/service-flow-integration/power-bi-flow-slacker.png)
-3. Cuando haya terminado, seleccione **Crear flujo** o **Guardar flujo**.  A continuación, se creará un flujo y se evaluará.  Recibirá un aviso en caso de que Flow detecte errores.
-4. Si se detectan, seleccione **Editar flujo** para corregirlos. En caso contrario, seleccione **Listo** para ejecutar el nuevo flujo.
+   ![](media/service-flow-integration/power-bi-flow-email.png)
+
+3. Flow crea un título y un mensaje que se pueden conservar o modificar. Todos los valores que se establecen al crear la alerta en Power BI están disponibles para su uso: solo tiene que colocar el cursor y seleccionar el área resaltada en gris. 
+
+   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+
+1.  Por ejemplo, si crea un título de alerta en Power BI de **Hemos ganado otra medalla**, puede seleccionar **Título de la alerta** para agregar texto al campo Asunto del correo electrónico.
+
+    ![](media/service-flow-integration/power-bi-flow-message.png)
+
+    Y puede aceptar el cuerpo del correo electrónico predeterminado o crear el suyo propio. El ejemplo anterior contiene algunas modificaciones al mensaje.
+
+1. Cuando haya terminado, seleccione **Crear flujo** o **Guardar flujo**.  A continuación, se creará un flujo y se evaluará.  Recibirá un aviso en caso de que Flow detecte errores.
+2. Si se detectan, seleccione **Editar flujo** para corregirlos. En caso contrario, seleccione **Listo** para ejecutar el nuevo flujo.
    
    ![](media/service-flow-integration/power-bi-flow-running.png)
-5. Abra su cuenta de Slack para ver el mensaje.  
+5. Cuando se desencadena la alerta de datos, se envía un correo electrónico a las direcciones que se han indicado.  
    
-   ![](media/service-flow-integration/power-bi-slack-message.png)
+   ![](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Crear un flujo que use Power BI (desde cero)
 En esta tarea crearemos desde cero un flujo sencillo que se desencadene mediante una alerta de datos de Power BI (notificación).
@@ -88,12 +91,12 @@ En esta tarea crearemos desde cero un flujo sencillo que se desencadene mediante
 2. Seleccione **Mis flujos** > **Crear desde cero**.
    
    ![](media/service-flow-integration/power-bi-my-flows.png)
-3. Utilice el cuadro de búsqueda para encontrar un desencadenador de Power BI y seleccione **Desencadenar un flujo con una alerta por datos de Power BI**.
+3. Utilice el cuadro de búsqueda para encontrar un desencadenador de Power BI y seleccione **Power BI - When a data driven alert is triggered** (Power BI: cuando se desencadene una alerta por datos).
 
 ### <a name="build-your-flow"></a>Crear un flujo
 1. Seleccione el nombre de la alerta en la lista desplegable.  Para obtener información sobre cómo crear una alerta, consulte [Alertas de datos de Power BI](service-set-data-alerts.md).
    
-    ![](media/service-flow-integration/power-bi-totalstores.png)
+    ![](media/service-flow-integration/power-bi-totalstores2.png)
 2. Seleccione **Nuevo paso** > **Agregar una acción**.
    
    ![](media/service-flow-integration/power-bi-new-step.png)

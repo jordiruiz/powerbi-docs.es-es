@@ -1,5 +1,5 @@
 ---
-title: Anclar un icono a un panel de Power BI desde Excel
+title: "Cómo anclar un icono a un panel de Power BI desde Excel"
 description: "Anclar un icono a un panel de Power BI desde Excel en OneDrive para la Empresa. Anclar rangos, gráficos o tablas"
 services: powerbi
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/26/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 855ecbe74fa4bf4ab1b1f81f22f2bab278adddb9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 06edf8aae58dbcf2e22cf5d1ea13bf6350465853
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Anclar un icono a un panel de Power BI desde Excel
 Antes de poder anclar un icono del libro de Excel, deberá conectar ese libro al servicio Power BI (app.powerbi.com). Al conectar un libro, básicamente se incorpora una versión vinculada de solo lectura de ese libro al servicio Power BI, lo que permite anclar intervalos a los paneles. Puede incluso anclar una hoja de cálculo entera a un panel.  
@@ -40,13 +40,18 @@ Si elige **Conectar**, aparecerá el libro en Power BI tal como lo haría en Exc
 No puede editar el libro en Power BI, Pero si necesita realizar algunos cambios, seleccione el icono de lápiz de la pestaña **Libros** del área de trabajo y, a continuación, edite el libro en Excel Online o ábralo en Excel en el equipo. Todos los cambios que realice se guardarán en el libro en OneDrive.
 
 1. Cargue un libro en su OneDrive para la Empresa.
-2. Desde Power BI, [conéctese a ese libro](service-excel-workbook-files.md).
+2. Desde Power BI, [conéctese a ese libro](service-excel-workbook-files.md) seleccionando **Obtener datos > Archivos > OneDrive - Business** y desplácese a la ubicación donde guardó el archivo de Excel. Seleccione el archivo y elija **Conectar > Conectar**.
+
+   ![](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+
 3. En Power BI, el libro se agrega a la pestaña **Libros** del área de trabajo.  El icono ![](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) indica que se trata de un libro de Excel y el asterisco amarillo indica que es nuevo.
    
-    Los cambios realizados en el libro en Power BI no se guardan y no afectan el libro original de OneDrive para la Empresa. Si ordena, filtra o cambia valores en Power BI, esos cambios no se pueden guardar ni anclar. Para actualizar el libro, seleccione el icono de lápiz para abrirlo en Excel Online. Es posible que los cambios en el libro abierto en Excel Online tarden unos minutos en actualizarse en los iconos.     
-   
+    
    ![](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. Para abrir el libro en Power BI, seleccione el nombre del libro.
+
+    Los cambios realizados en el libro en Power BI no se guardan y no afectan el libro original de OneDrive para la Empresa. Si ordena, filtra o cambia valores en Power BI, esos cambios no se pueden guardar ni anclar. Si tiene que hacer cambios que se van a guardar, seleccione **Editar** desde la esquina superior derecha para abrirlo y editarlo en Excel Online o Excel. Los cambios realizados en este modo pueden tardar unos minutos en actualizar los iconos en los paneles.
+   
    
    ![](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
@@ -62,7 +67,7 @@ Una manera de agregar un nuevo [icono de panel](service-dashboard-tiles.md) es d
    * Panel existente: seleccione el nombre del panel en la lista desplegable.
    * Nuevo panel: escriba el nombre del nuevo panel.
    
-   ![](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+    ![](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. Seleccione **Anclar**. Se mostrará un mensaje de confirmación (cerca de la esquina superior derecha) que le permitirá saber que se agregó el rango, en forma de icono, en su panel. 
    
     ![](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
@@ -80,6 +85,8 @@ Un icono creado a partir de una tabla o de una tabla dinámica mostrará toda la
 ## <a name="view-the-workbook-linked-to-the-tile"></a>Ver el libro vinculado en el icono
 Al seleccionar un icono de libro se abre el libro vinculado en Power BI. Puesto que el archivo del libro se encuentra en OneDrive para la Empresa del propietario, para ver el vídeo, debe tener permisos de lectura para el libro. Si no tiene permiso, recibirá un mensaje de error.  
 
+ ![](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
+
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 Características no compatibles: Power BI usa Excel Services para recuperar los iconos del libro. Por lo tanto, dado que no se admiten algunas características de Excel en la API de REST de Excel Services, no se verán en los iconos de Power BI. Por ejemplo: minigráficos, formato condicional del conjunto de iconos y segmentaciones de tiempo. Para una lista completa de características no compatibles, consulte [Características no admitidas en la API de REST de Excel Services](http://msdn.microsoft.com/library/office/ff394477.aspx).
 
@@ -87,8 +94,6 @@ Características no compatibles: Power BI usa Excel Services para recuperar los 
 [Compartir un panel que contiene vínculos a un libro de Excel](service-share-dashboard-that-links-to-excel-onedrive.md)
 
 [Obtención de datos de archivos de libro de Excel](service-excel-workbook-files.md)
-
-[Paneles en Power BI](service-dashboards.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 5e5bc8eaa4e710e6564ee6f1d3ea1bfcf7f28127
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7a76cc071a114a7bbd4ccc8ade61ff10b7b2e4c5
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="treemaps-in-power-bi-tutorial"></a>Gráficos de rectángulos de Power BI (tutorial)
 Los gráficos de rectángulos muestran los datos jerárquicos como un conjunto de rectángulos anidados.  Cada nivel de la jerarquía se representa mediante un rectángulo de color (llamado "rama") que contiene otros rectángulos ("hojas").  El espacio dentro de cada rectángulo se asigna según el valor cuantitativo medido, con los rectángulos dispuestos por el tamaño desde la esquina superior izquierda (mayor) a la esquina inferior derecha (menor).
@@ -41,20 +41,25 @@ Los gráficos de rectángulos son una excelente opción:
 * Para mostrar los atributos mediante códigos de color y tamaño.
 * Para detectar patrones, valores atípicos, colaboradores más importantes y excepciones.
 
+### <a name="prerequisites"></a>Requisitos previos
+ - Servicio Power BI o Power BI Desktop
+ - Ejemplo Análisis de venta directa
+
 ## <a name="create-a-basic-treemap"></a>Crear un gráfico de rectángulos básico
 ¿Quiere ver primero a otra persona creando un gráfico de rectángulos?  Vaya al minuto 2:10 de este vídeo para ver cómo Amanda crea un gráfico de rectángulos.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-También puede crear su propio gráfico de rectángulos. Estas instrucciones usan el Ejemplo de análisis de minoristas. Para seguir el tutorial, [descargue el ejemplo](sample-datasets.md), inicie sesión en Power BI y seleccione **Obtener datos \> Libro de Excel \> Conectar \> Ejemplo de análisis de minoristas**.**xlsx**.
+También puede crear su propio gráfico de rectángulos. Estas instrucciones usan el Ejemplo de análisis de minoristas. Para continuar, inicie sesión en el servicio Power BI (no Desktop) y seleccione **Obtener datos \> Ejemplos \> Retail Analysis Sample \> Conectar \> Ir al panel**. La creación de visualizaciones en un informe requiere permisos de edición para el conjunto de datos y los informes. Por suerte, los ejemplos de Power BI son todos editables. Pero si un usuario comparte un informe con usted, no podrá agregar nuevas visualizaciones.
 
-1. Comience en [Vista de edición](service-interact-with-a-report-in-editing-view.md) y seleccione la medida **Ventas** > **Ventas del último año**.   
-   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)
-2. Convierta el gráfico en un gráfico de rectángulos.  
-   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)
-3. Arrastre **Elemento** > **Categoría** al área **Grupo**. Power BI crea un gráfico de rectángulos donde el tamaño de los rectángulos refleja las ventas totales y el color representa la categoría.  En esencia, creó una jerarquía que describe visualmente el tamaño relativo de las ventas totales por categoría.  La categoría **Hombres** tiene las ventas más altas y la categoría **Calcetería** tiene los valores más bajos.
-   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)
-4. Arrastre **Store** > **Chain** al área **Detalles** para completar el gráfico de rectángulos. Ahora puede comparar las ventas del último año por categoría y cadena.   
+1. En el panel, seleccione el icono "Total stores" para abrir el informe de ejemplo Retail Analysis.    
+2. Abra la [vista de edición](service-interact-with-a-report-in-editing-view.md) y seleccione la medida **Sales** > **Last Years Sales**.   
+   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)   
+3. Convierta el gráfico en un gráfico de rectángulos.  
+   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)   
+4. Arrastre **Elemento** > **Categoría** al área **Grupo**. Power BI crea un gráfico de rectángulos donde el tamaño de los rectángulos refleja las ventas totales y el color representa la categoría.  En esencia, creó una jerarquía que describe visualmente el tamaño relativo de las ventas totales por categoría.  La categoría **Hombres** tiene las ventas más altas y la categoría **Calcetería** tiene los valores más bajos.   
+   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)   
+5. Arrastre **Store** > **Chain** al área **Detalles** para completar el gráfico de rectángulos. Ahora puede comparar las ventas del último año por categoría y cadena.   
    ![](media/power-bi-visualization-treemaps/treemap_addgroup_new.png)
    
    > [!NOTE]
@@ -73,17 +78,15 @@ Al resaltar una Categoría o Detalles en un gráfico de rectángulos, se realiza
 
 1. En el gráfico de rectángulos, seleccione una Categoría o una Cadena dentro de una Categoría.  Esto realiza un resaltado cruzado de las demás visualizaciones de la página. Seleccionar **050-Zapatos**, por ejemplo, muestra que las ventas de zapatos del último año fueron de 3.640.471 USD, de los que 2.174.185 procedieron de Fashions Direct.  
    ![](media/power-bi-visualization-treemaps/treemaphiliting.png)
-2. En el gráfico circular **Ventas del último año por cadena** , seleccione el sector **Fashions Direct** .  
-   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)
+
+2. En el gráfico circular **Last Year Sales by Chain**, seleccione el sector **Fashions Direct**.  
+   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
+
 3. Para administrar cómo se realiza un resaltado y un filtrado cruzados de los gráficos, consulte [Interacciones de visualización en un informe de Power BI](service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Informes en Power BI](service-reports.md)  
-[Agregar una visualización a un informe](power-bi-report-add-visualizations-i.md)  
-[Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-[ Anclar una visualización a un panel](service-dashboard-pin-tile-from-report.md)  
+[Anclar una visualización a un panel](service-dashboard-pin-tile-from-report.md)  
 [Power BI: Conceptos básicos](service-basic-concepts.md)  
-[Pruébelo, es gratis](https://powerbi.com/)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)  
 

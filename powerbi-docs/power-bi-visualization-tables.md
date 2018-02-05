@@ -1,6 +1,6 @@
 ---
-title: "Visualización de tablas en los informes y los paneles de Power BI (Tutorial)"
-description: "Sugerencias para trabajar con visualizaciones de tablas en informes y paneles de Power BI, incluida la forma de cambiar el tamaño de los anchos de columna."
+title: "Tutorial: Visualización de tablas en los informes y los paneles de Power BI (Tutorial)"
+description: "Tutorial para trabajar con visualizaciones de tablas en informes y paneles de Power BI, incluida la forma de cambiar el tamaño de los anchos de columna."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e4a2e162ca193af756e7182fb118bc7e72d38d28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4785df6bbc14bf0da4500a9cffdcd47381e412f4
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Trabajar con tablas en informes y paneles de Power BI (Tutorial)
 Una tabla es una cuadrícula que contiene datos relacionados en una serie lógica de filas y columnas. También puede contener encabezados y una fila de totales. Las tablas funcionan bien con comparaciones cuantitativas en las que está mirando muchos valores para una única categoría. Por ejemplo, esta tabla muestra 5 medidas distintas para **Categoría**.
@@ -40,11 +40,16 @@ Las tablas son una excelente opción:
 > Si una tabla tiene demasiados valores, considere la posibilidad de convertirla en una matriz o de realizar una exploración en profundidad.
 > 
 > 
+## <a name="prerequisites"></a>Requisitos previos
+ - Servicio Power BI o Power BI Desktop
+ - Ejemplo Análisis de venta directa
+
 
 ## <a name="create-a-table"></a>Crear una tabla
-Para continuar, inicie sesión en Power BI y seleccione **Obtener datos > Ejemplos > Ejemplo de análisis de minoristas**. Vamos a crear la tabla de la imagen anterior para mostrar los valores de ventas por categoría de producto.
+Vamos a crear la tabla de la imagen anterior para mostrar los valores de ventas por categoría de producto. Para continuar, inicie sesión en el servicio Power BI y seleccione **Obtener datos \> Ejemplos \> Retail Analysis Sample > Conectar** y elija ***Ir al panel. La creación de una visualización requiere permisos de edición para el conjunto de datos e informes. Por suerte, los ejemplos de Power BI son todos editables. Si el informe se ha compartido con usted, no podrá crear visualizaciones en los informes.
 
-1. En **Mi área de trabajo**, seleccione la pestaña Conjuntos de datos y desplácese hasta el conjunto de datos Ejemplo de análisis de venta directa que acaba de agregar.  Seleccione el icono **Crear informe**.
+1. En el panel de navegación izquierdo, seleccione **Áreas de trabajo > Mi área de trabajo**.    
+2. Seleccione la pestaña Conjuntos de datos y desplácese hasta el conjunto de datos del ejemplo Retail Analysis que acaba de agregar.  Seleccione el icono **Crear informe**.
    
     ![](media/power-bi-visualization-tables/power-bi-create-report.png)
 2. En el editor de informes, seleccione **Elemento** > **Categoría**.  Power BI crea automáticamente una tabla que enumera todas las categorías.

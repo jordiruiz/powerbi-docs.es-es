@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a707a7b590804d24d60d17590408afbdf8f81f4c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: ef2e89ba2bac451ce0230829bbf4aa0b60713899
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Tareas de consultas comunes en Power BI Desktop
 Cuando se trabaja en la ventana **Editor de consultas** de Power BI Desktop, hay una serie de tareas de uso frecuente. En este documento se muestran las tareas comunes y vínculos para obtener información adicional. 
@@ -69,7 +69,7 @@ Las demás conexiones de datos son similares. Si se requiere autenticación para
 Para una demostración paso a paso de la conexión a datos en Power BI Desktop, consulte [Conectarse a los datos en Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471635).
 
 ## <a name="shape-and-combine-data"></a>Dar forma a los datos y combinarlos
-Puede fácilmente combinar y dar forma a los datos con el Editor de consultas. Esta sección incluye algunos ejemplos de cómo puede dar forma a los datos. Para una demostración completa de cómo combinar y dar forma a los datos, consulte ***[Combinar datos y darles forma en Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644).
+Puede fácilmente combinar y dar forma a los datos con el Editor de consultas. Esta sección incluye algunos ejemplos de cómo puede dar forma a los datos. Para una demostración completa de cómo combinar y dar forma a los datos, consulte **[Combinar datos y darles forma en Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644)**.
 
 En la sección anterior se han conectado dos conjuntos de datos, un libro de Excel y un recurso web. Una vez cargados en el Editor de consultas, se mostrará lo siguiente junto con la consulta desde la página web seleccionada (de las consultas disponibles que aparecen en el panel **Consultas** situado a la izquierda de la ventana Editor de consultas).
 

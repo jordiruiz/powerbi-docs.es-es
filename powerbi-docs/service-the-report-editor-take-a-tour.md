@@ -1,5 +1,5 @@
 ---
-title: Un paseo por el editor de informes...
+title: "Inicio rápido: Un paseo por el editor de informes..."
 description: Un paseo por el editor de informes.
 services: powerbi
 documentationcenter: 
@@ -16,20 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: e5ee6db22fe0fa7fd1e61ebbfb7dbee9d3458159
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>Un paseo por el editor de informes...
+## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Edición de informes en el servicio Power BI y en Power BI Desktop
 El editor de informes del servicio Power BI y el editor de informes de Power BI Desktop son muy similares. En el vídeo se muestra el editor de informes en Power BI Desktop y, en este artículo, se muestra el editor de informes en el servicio Power BI. 
+
+## <a name="the-difference-between-report-creators-and-report-consumers"></a>Diferencia entre *creadores* y *consumidores* de informes
+La capacidad de crear y editar un informe está restringida a los propietarios de los informes (es decir, los *creadores*). Si está *consumiendo* un informe que se ha compartido con usted, aún podrá abrirlo e interactuar con el informe en el servicio Power BI [solo en la vista de lectura](service-reading-view-and-editing-view.md), pero no dispondrá de las sólidas y amplias características disponibles al creador del informe.  
+
+Para más información sobre la vista de lectura del informe, consulte [Vista de lectura y vista de edición de informes del servicio Power BI](service-reading-view-and-editing-view.md). 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-En el servicio Power BI, el *editor de informes* solo está disponible en la [vista de edición](service-reading-view-and-editing-view.md). Para abrir un informe en la vista de edición, debe ser propietario de un informe.
+En el servicio Power BI, el *editor de informes* solo está disponible en la [vista de edición](service-reading-view-and-editing-view.md). Para abrir un informe en la vista de edición, debe ser el propietario o el creador del informe.
 
 El editor de informes de Power BI se compone de tres secciones:  
 
@@ -87,7 +93,9 @@ Con el panel de análisis del servicio Power BI, puede agregar líneas de refere
 
 - - -
 ## <a name="the-filters-pane"></a>El panel Filtros
-Vea, establezca y modifique la página, el informe y los filtros de obtención de detalles y de nivel de objeto visual.
+Utilice el panel Filtros para ver, establecer y modificar filtros persistentes en los informes en el nivel de página, informe, obtención de detalles y objetos visuales. Sí, se puede hacer el filtrado ad-hoc en las páginas de informe y en los objetos visuales mediante la selección de elementos de los objetos visuales o con herramientas como las segmentaciones, pero con el panel Filtros se guarda el estado de los filtros con el informe. 
+
+El panel Filtros cuenta con otra eficaz función: la capacidad de filtrar mediante un campo ***que no se esté utilizando en uno de los objetos visuales del informe***. Vamos a explicarlo. Cuando se crea una página del informe, Power BI agrega automáticamente todos los campos que se usan en las visualizaciones al área de filtros de nivel de objetos visuales del panel Filtros.  Sin embargo, si desea establecer un filtro de objeto visual, de página, de obtención de detalles o de informe mediante un campo que no se está utilizando en ninguna visualización, solo hay que arrastrarlo a uno de los cubos de filtros.   
 
 ![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -125,11 +133,7 @@ El lienzo del informe es donde se muestra el trabajo. Al utilizar los paneles Vi
 ## <a name="next-steps"></a>Pasos siguientes:
 [Crear un informe](service-report-create-new.md)
 
-[Editar un informe](service-interact-with-a-report-in-editing-view.md)
-
-Más información sobre [informes de Power BI](service-reports.md)
-
-[Introducción a Power BI](service-get-started.md)
+Lea más sobre los informes del [servicio Power BI](service-reports.md), [Power BI Desktop](desktop-report-view.md) y [Power BI Mobile](mobile-apps-view-phone-report.md).
 
 [Power BI: Conceptos básicos](service-basic-concepts.md)
 

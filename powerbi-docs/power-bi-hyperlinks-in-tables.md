@@ -1,5 +1,5 @@
 ---
-title: "Hipervínculos en tablas"
+title: "Cómo agregar un hipervínculo a una tabla"
 description: "Hipervínculos en tablas"
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e399553b9a31adb79bed73977409d5d88140ad88
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a5a38934ab684691921c480a02024376a4655b8b
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="hyperlinks-in-tables"></a>Hipervínculos en tablas
-En este tema se explica cómo usar Power BI Desktop para crear hipervínculos. Una vez creados, utilice el servicio Desktop o Power BI para agregar los hipervínculos a las tablas y matrices de informe. 
+En este tema se explica cómo usar Power BI Desktop para crear hipervínculos. Después, una vez creados, utilice el servicio Desktop o Power BI para agregar los hipervínculos a las tablas y matrices de informe. 
 
 ![](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
@@ -84,6 +84,11 @@ Otra manera de agregar hipervínculos a las tablas y matrices de Power BI es cre
 7. Cree una visualización de la tabla que incluya el campo de dirección URL.
    
    ![](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
+
+## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
+P: ¿Puedo usar una dirección URL personalizada como un hipervínculo en una tabla o matriz?    
+A: No. Puede utilizar un icono de vínculo. Si necesita texto personalizado para los hipervínculos y la lista de direcciones URL es breve, considere la posibilidad de utilizar un cuadro de texto en su lugar.
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Visualizaciones en informes de Power BI](power-bi-report-visualizations.md)

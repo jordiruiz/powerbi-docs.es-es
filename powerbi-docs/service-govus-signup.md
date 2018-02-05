@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/26/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: b2750766e46ad0be2ec455f7c74cfa5adb9bd17e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8ff1d5be4e360aa5afb8b6bd704f3426957466ef
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Inscribir una organización de la Administración Pública de Estados Unidos en el servicio Power BI
 El **servicio Power BI** tiene una versión disponible para clientes de la Administración Pública de Estados Unidos como parte de las suscripciones **Office 365 US Government Community**. La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la Administración Pública de Estados Unidos y es independiente de la versión comercial del **servicio Power BI**.
@@ -121,7 +121,7 @@ Al utilizar una combinación de licencias Gratis y Pro en un inquilino de la Adm
   * Los archivos PBIX se deben cargar manualmente desde el servicio Power BI comercial.
   * Las aplicaciones móviles de Power BI no están disponibles.
 
-**Después de su *inclusión en la lista de permitidos***:
+**Después de la *inclusión en la lista de permitidos***:
 
 * Los usuarios de la versión Gratis que ejecutan el servicio Power BI comercial pueden seguir haciéndolo, pero dejarán de autenticarse según lo previsto.
 * Los usuarios Pro que ejecutan en la nube de la Administración Pública de Estados Unidos pueden usar el servicio **Power BI para clientes de la Administración Pública de Estados Unidos** como se esperaba.
