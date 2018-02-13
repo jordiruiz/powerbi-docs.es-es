@@ -128,8 +128,6 @@
           href: service-connect-to-azure-consumption-insights.md
         - name: Azure Search
           href: service-connect-to-azure-search.md
-        - name: Azure Security Center
-          href: service-connect-to-azure-security-center.md
         - name: Bing
           href: service-connect-to-bing.md
         - name: Circuit ID
@@ -980,8 +978,6 @@
       items:
         - name: Crear un objeto visual personalizado con las herramientas de desarrollo
           href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: Revisar la seguridad y la privacidad de los objetos visuales personalizados
-          href: service-custom-visuals-review-for-security-and-privacy.md
         - name: Obtención de un objeto visual personalizado certificado
           href: power-bi-custom-visuals-certified.md
     - name: Insertar datos en un panel
