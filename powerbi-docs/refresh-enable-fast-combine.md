@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/06/2018
 ms.author: davidi
-ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: 5d754dbdd5d52e7a5b123755015e656d9fb2cea2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Deshabilitar la configuración de privacidad en Power BI Gateway - Personal
 > [!NOTE]
@@ -45,7 +45,7 @@ Para evitar este error, puede activar **Combinación rápida**. **Combinación r
 > 
 
 ## <a name="what-is-fast-combine"></a>¿Qué es Combinación rápida?
-Para más información sobre los niveles de privacidad y la opción Combinación rápida, puede consultar [Niveles de privacidad](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540). De forma predeterminada, el nivel de privacidad se establecerá en privado, lo que podría provocar el error mencionado anteriormente. Esto es porque un valor de privado aislará el origen de datos de otros orígenes. Un ejemplo de donde supondría un problema sería una consulta parametrizada que obtuviese entradas de otro origen de datos.
+Para más información sobre los niveles de privacidad y la opción Combinación rápida, puede consultar [Niveles de privacidad](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540). De forma predeterminada, el nivel de privacidad se establecerá en privado, lo que podría provocar el error mencionado anteriormente. Esto es porque un valor de privado aislará el origen de datos de otros orígenes. Un ejemplo de donde supondría un problema sería una consulta parametrizada que obtuviese entradas de otro origen de datos.
 
 Al activar Combinación rápida se ignorará el valor de privado y se podrá producir la ejecución.
 
@@ -85,7 +85,7 @@ Puede usar los pasos siguientes para habilitar Combinación rápida para la puer
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Puerta de enlace de datos local (modo personal): la nueva versión de la puerta de enlace personal](service-gateway-personal-mode.md)
-[Niveles de privacidad](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
+[Niveles de privacidad](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
 [Tareas de consultas comunes en Power BI Desktop](desktop-common-query-tasks.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

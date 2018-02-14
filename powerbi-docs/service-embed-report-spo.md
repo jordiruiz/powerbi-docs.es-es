@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/19/2017
 ms.author: maghan
-ms.openlocfilehash: 99b6391dc48772e21dd64038699a3365225167eb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78be1a631a167a3b32ecb7d884a3428dc6a362b0
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insertar el elemento web de informes en SharePoint Online
 
@@ -98,12 +98,6 @@ Como alternativa, puede conceder a los usuarios acceso a un informe mediante los
 
 2. Comparta el panel con los usuarios que necesitan tener acceso al informe. Para más información, consulte [Compartir un panel con compañeros y otros usuarios](service-share-dashboards.md).
 
-## <a name="allowing-free-users-access-to-reports"></a>Acceso a los informes por parte de usuarios gratuitos
-
-Los usuarios con acceso gratuito pueden ver insertado con la parte web de Power BI para SharePoint Online. A dichos usuarios el acceso se les proporciona de la misma forma que a los usuarios Pro, como se ha descrito en el apartado [Conceder acceso a los informes](#granting-access-to-reports). El área de trabajo en que se encuentra el informe también debe tener el respaldo de la capacidad de Power BI Premium. 
-
-Por ejemplo, si tiene un informe en un área de trabajo de la aplicación, tendrá que asignar dicha área de trabajo a una capacidad de Power BI Premium. También tendrá que agregar el usuario de acceso gratuito a la lista de miembros de dicha área de trabajo.
-
 ## <a name="web-part-settings"></a>Configurar el elemento web
 
 A continuación, se muestra una descripción de las opciones que se pueden ajustar para el elemento web de Power BI para SharePoint Online.
@@ -160,5 +154,5 @@ Póngase en contacto con el propietario de la página de SharePoint Online para 
 [Compartir un panel con compañeros y otros usuarios](service-share-dashboards.md)  
 [¿Qué es Power BI Premium?](service-premium.md)  
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/) 
 

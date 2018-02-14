@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 72445988ff4080b7c24f09f797f2038b957631ef
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Administrar el origen de datos: Analysis Services
 Una vez que haya instalado la puerta de enlace de datos local, tendrá que agregar orígenes de datos que se puedan usar con ella. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de Analysis Services para la actualización programada o las conexiones dinámicas.
@@ -89,17 +89,6 @@ Una vez lo haya rellenado todo, podrá hacer clic en **Agregar** .  Ahora puede 
 Puede configurar el nivel de privacidad del origen de datos. Este controla cómo se pueden mezclar los datos. Solo se usa para la actualización programada. No se aplica a las conexiones dinámicas. [Más información](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
-
-## <a name="get-data-experience-for-analysis-services-in-power-bi-site"></a>Experiencia 'Obtener datos' para Analysis Services en el sitio de Power BI
-Una opción única para Analysis Services es usar Obtener datos dentro del servicio Power BI directamente. Puede conectarse a un origen de datos de Analysis Services activo configurado dentro de la puerta de enlace sin necesidad de Power BI Desktop. La cuenta debe aparecer en la ficha **Usuarios** del origen de datos, en la puerta de enlace, para que se muestre en la lista. Para conectarse al origen de datos, puede hacer lo siguiente.
-
-1. Dentro del servicio Power BI, seleccione **Obtener datos**.
-2. Seleccione **Bases de datos**.
-3. Seleccione **SQL Server Analysis Services** > **Conectar**.
-4. Seleccione un origen de datos en la lista. Cualquier origen de datos de Analysis Services al que tenga acceso aparecerá aquí.
-5. Seleccione el modelo al que desea conectarse. Después, seleccione **Conectar**.
-
-Verá que aparece un conjunto de datos con el nombre del servidor. A continuación, puede seleccionar ese conjunto de datos y empezar a crear informes en él. Esto funcionará en datos activos.
 
 ## <a name="usernames-with-analysis-services"></a>Nombres de usuario con Analysis Services
 Cada vez que un usuario interactúa con un informe conectado a Analysis Services, el nombre de usuario efectivo se envía a la puerta de enlace y después al servidor de Analysis Services local. La dirección de correo electrónico, con la que inicia sesión en Power BI, es lo que se pasará a Analysis Services como usuario efectivo. Se pasa en la propiedad de conexión [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth). Esta dirección de correo electrónico debe coincidir con un UPN definido en el dominio de Active Directory local. El UPN es una propiedad de una cuenta de Active Directory. Por lo tanto, esa cuenta de Windows debe estar presente en una función de Analysis Services. Si no se encuentra una coincidencia en Active Directory, el inicio de sesión no será correcto. [Más información](https://msdn.microsoft.com/library/ms677605.aspx)
