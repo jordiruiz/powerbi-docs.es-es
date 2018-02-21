@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/01/2017
-ms.author: sirsu
-ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.date: 02/07/2018
+ms.author: nikhilga
+ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
 Consulte esta página para obtener información sobre los problemas conocidos y las características publicadas recientemente del **servicio Power BI**. Para obtener información sobre novedades, vea:
@@ -35,6 +35,23 @@ También puede consultar los canales de YouTube para obtener información acerca
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+## <a name="january-2018"></a>Enero de 2018
+*   Compartir y marcar como favoritos los informes de Power BI.
+*   OAuth2 e inicio de sesión único de DirectQuery para Azure SQL Database y Data Warehouse.
+*   Auditoría por región: los registros de auditoría ahora se pueden almacenar en la misma región de Office 365 que su inquilino.
+*   Disponibilidad general de la [parte web del informe de Power BI](https://go.microsoft.com/fwlink/p/?LinkId=825698) de SharePoint Online
+*   Control de administración para desactivar la visualización de los objetos visuales personalizados para todos los usuarios en un inquilino.
+*   Compatibilidad con la actualización programada para Azure Analysis Services (AAS).
+
+## <a name="previous-months-2017"></a>Meses anteriores (2017)
+## <a name="october-and-november-2017"></a>Octubre y noviembre de 2017
+*   Publicación selectiva de contenido con [aplicaciones de Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps).
+*   Distribución de usuario externo con [B2B de Azure Active Directory](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/).
+* Recomendaciones para la aplicación con tecnología de AI.
+* Actualizaciones de la IU de en el icono del panel.
+* Compatibilidad con las suscripciones de correo electrónico para las aplicaciones. 
+* Control de administración detallado para [publicar en la Web](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings).
+
 ## <a name="september-2017"></a>Septiembre de 2017
 * Comparta paneles con usuarios gratuitos con Premium.
 * Asigne capacidad para satisfacer sus necesidades de negocio con la agrupación de núcleo virtual.
@@ -42,7 +59,6 @@ También puede consultar los canales de YouTube para obtener información acerca
 * [Bloque de PubNub](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards) para insertar fácilmente datos en las API de REST
 * Mejor rendimiento de carga para las [métricas de uso](service-usage-metrics.md).
 
-## <a name="previous-months-2017"></a>Meses anteriores (2017)
 ### <a name="august-2017"></a>Agosto de 2017
 * Conozca a su público con las [métricas de uso por usuario](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/).
 * Empezar a trabajar con aplicaciones del [servicio Power BI](service-connect-to-services.md) para servicios en línea.

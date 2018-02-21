@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Crear y publicar aplicaciones con los paneles e informes de Power BI
 
@@ -64,6 +64,8 @@ Agregar contenido es igual que agregar contenido a Mi área de trabajo, excepto 
 
 * [Conectarse a servicios](service-connect-to-services.md) como Microsoft Dynamics CRM, Salesforce o Google Analytics.
 * [Obtener datos de archivos](service-get-data-from-files.md) como archivos de Excel, CSV o Power BI Desktop (PBIX).
+
+Al ver el contenido en un área de trabajo de la aplicación, el propietario se muestra como el nombre del área de trabajo de aplicación.
 
 ## <a name="add-an-image-to-your-app-optional"></a>Agregar una imagen a la aplicación (opcional)
 De forma predeterminada, Power BI crea un pequeño círculo coloreado para la aplicación, con las iniciales de la aplicación. Pero tal vez desee personalizarlo con una imagen. Para agregar una imagen, necesita una licencia de Exchange Online.

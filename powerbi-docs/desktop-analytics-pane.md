@@ -15,26 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: add95532f645c143aea0f58200f9e3b1467320d0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02498ff745a2e06a49ed6064a4f7eefebff305f8
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Uso del panel Análisis en Power BI Desktop
-Con el panel **Análisis** en **Power BI Desktop**, puede agregar *líneas de referencia* dinámicas en objetos visuales y destacar las tendencias o detalles importantes. El panel **Analysis** se encuentra en el área **Visualizaciones** de Power BI Desktop desde la versión de agosto de 2016 (versión 2.37.4464.321 o posterior), tal y como se muestra a continuación.
+Con el panel **Análisis** en **Power BI Desktop**, puede agregar *líneas de referencia* dinámicas en objetos visuales y destacar las tendencias o detalles importantes. El panel **Análisis** se encuentra en el área **Visualizaciones** de Power BI Desktop.
 
 ![](media/desktop-analytics-pane/analytics-pane_1.png)
 
 > [!NOTE]
 > El panel **Analytics** solo se muestra cuando se selecciona un objeto visual en el lienzo de Power BI Desktop.
-> 
-> 
 
-## <a name="enable-forecasting-preview"></a>Habilitar Previsión (vista previa)
-Además, con la versión septiembre de 2016 de **Power BI Desktop** (versión 2.39.4526.362 o posterior), también puede realizar la *previsión* desde el panel **Análisis**. Debe habilitar esta función de vista previa, yendo a **Archivo > Opciones y configuración > Opciones** y, luego, seleccionando **Características de vista previa** en el panel izquierdo. Active la casilla junto a **Previsión** para habilitar la función, tal como se muestra en la siguiente imagen. Para que el cambio se aplique, debe reiniciar **Power BI Desktop**.
+## <a name="search-within-the-analytics-pane"></a>Búsqueda en el panel Análisis
+Desde la versión de febrero de 2018 de **Power BI Desktop** (versión 2.55.5010.201 o posterior), puede buscar en el panel **Análisis**, que es una subsección del panel **Visualizaciones** . Como se muestra en la siguiente imagen, aparecerá el cuadro de búsqueda cuando se seleccione el panel **Análisis**.
 
 ![](media/desktop-analytics-pane/analytics-pane_1b.png)
 

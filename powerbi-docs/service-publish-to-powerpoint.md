@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: 4ca79e960bc0370789ee735ba6b5391cbb8b110f
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 5ebfa2f54c26c0b4c3321120558e1cccb8bce146
+ms.sourcegitcommit: ed49510adee96042c02d6bdadbfcf8a2e566fbf8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/13/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Exportar informes de Power BI a PowerPoint (vista previa)
 Con Power BI, ahora puede publicar el informe en **Microsoft PowerPoint** y crear fácilmente una presentación de diapositivas basada en el informe de Power BI. Cuando se **exporta a PowerPoint**, ocurre lo siguiente:
@@ -64,6 +64,8 @@ Al abrir el archivo de PowerPoint que exportó Power BI, encontrará unos cuanto
 1. La primera página de la presentación de diapositivas incluye el nombre del informe y un vínculo para que pueda **Ver en Power BI** el informe en el que se basa la presentación de diapositivas.
 2. Obtendrá información útil acerca del informe, incluidos la *última actualización de datos* en los que se basa el informe exportado y la fecha y hora de *descarga*, que es la hora y fecha en que se exportó el informe de Power BI a un archivo de PowerPoint.
 3. Cada página del informe es una diapositiva independiente, tal como se muestra en el panel de navegación izquierdo.
+4. El informe publicado se representa en el idioma configurado en Power BI, o de acuerdo con el valor de configuración regional del explorador. Para ver o configurar las preferencias de idioma, seleccione el icono de engranaje ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Configuración > General > Idioma**. Para obtener información sobre la configuración regional, consulte [Idiomas y países o regiones admitidos para Power BI](supported-languages-countries-regions.md).
+5. La presentación de PowerPoint incluye una diapositiva de portada con la hora exportada en la zona horaria correcta.
 
 Cuando vaya a una diapositiva individual, observará que cada página del informe es una imagen independiente.
 

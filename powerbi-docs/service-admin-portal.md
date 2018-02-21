@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/02/2018
+ms.date: 02/06/2018
 ms.author: maghan
-ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
@@ -40,7 +40,7 @@ La cuenta debe estar marcada como **Administrador global** dentro de Office 365 
 
 ![](media/service-admin-portal/powerbi-admin-settings.png)
 
-En el portal, hay cinco pestañas. Estas fichas se describen a continuación.
+En el portal, hay seis pestañas. Estas fichas se describen a continuación.
 
 * [Métricas de uso](#usage-metrics)
 * [Usuarios](#users)
@@ -48,6 +48,7 @@ En el portal, hay cinco pestañas. Estas fichas se describen a continuación.
 * [Configuración de inquilinos](#tenant-settings)
 * [Configuración de Premium](#premium-settings)
 * [Códigos para insertar](#embed-codes)
+* [Objetos visuales de la organización](#Organization-visuals)
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -269,6 +270,46 @@ Para más información acerca de cómo administrar la configuración de Premium,
 
 Como administrador, puede ver los códigos para insertar que se generan para su inquilino. Puede ver el informe y eliminar el código para insertar para revocarlo.
 
+## <a name="organization-visuals"></a>Objetos visuales de la organización
+
+La pestaña de objetos visuales de la organización le permite implementar y administrar los objetos visuales personalizados dentro de la organización, por lo que puede implementar con facilidad sus propios objetos visuales personalizados en la organización con el fin de que los autores de los informes detecten e importen fácilmente los objetos visuales directamente desde Power BI Desktop en sus informes.
+ 
+La página muestra todos los objetos visuales personalizados que están implementados actualmente en el repositorio de la organización.
+ 
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+### <a name="add-a-new-custom-visual"></a>Adición de un nuevo objeto visual personalizado
+
+Para agregar un nuevo objeto visual personalizado a la lista, seleccione **Agregar objeto visual personalizado**.
+
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+
+> [!WARNING]
+> Un objeto visual personalizado podría contener código con riesgos para la seguridad o la privacidad; asegúrese de que confía en el autor y del origen del objeto visual personalizado antes de implementar en el repositorio de origen.
+> 
+
+Complete los campos:
+ 
+* Elija un archivo .pbiviz (obligatorio): seleccione un archivo visual personalizado para cargar. Se admiten solo objetos visuales de API con control de versiones (lea aquí lo que esto significa).
+Antes de cargar un objeto visual personalizado, debe revisar la seguridad y privacidad de dicho objeto visual para asegurarse de que se ajusta a los estándares de su organización. Obtenga más información acerca de la seguridad de los objetos visuales personalizados.
+ 
+* Ponga un nombre a los objetos visuales personalizados (obligatorio): asigne un título corto al objeto visual para que los usuarios de Power BI Desktop sepan fácilmente para qué sirve.
+ 
+* Icono (obligatorio): el archivo de icono que se mostrará en la interfaz de usuario de Power BI Desktop.
+ 
+* Descripción: una descripción breve del objeto visual para proporcionar más contexto e información al usuario.
+ 
+Seleccione "Aplicar" para iniciar la solicitud de carga. Si se realiza correctamente, verá el nuevo elemento en la lista. Si el proceso no se completa, recibirá el mensaje de error pertinente.
+ 
+### <a name="delete-a-custom-visual-from-the-list"></a>Eliminación de un objeto visual personalizado de la lista
+
+Seleccione el icono de la Papelera de reciclaje para eliminar permanentemente el objeto visual del repositorio.
+Importante: la eliminación es irreversible. Una vez eliminado, el objeto visual dejará de representarse de inmediato en los informes existentes. Incluso si vuelve a cargar el mismo elemento visual, este no reemplazará al anterior que se eliminó; los usuarios tendrán que volver a importar el nuevo objeto visual y reemplazar la instancia que tienen en sus informes.
+ 
+### <a name="how-to-update-a-visual"></a>Actualización de un objeto visual
+
+Si desea actualizar un objeto visual del repositorio porque hay una nueva versión (p. ej. correcciones de errores, nuevas funcionalidades, etc.), cargue el nuevo archivo (asegúrese de que el identificador del objeto visual no cambia) como una nueva entrada en la lista y asegúrese de proporcionar los detalles adecuados en el título y la descripción (p. ej. "Mi objeto visual v2.0"). La próxima vez que los usuarios especifiquen el repositorio de la organización desde Power BI Desktop, podrán importar la nueva versión. En este proceso se les pedirá que reemplacen la versión actual que tienen en el informe.
+ 
 ## <a name="next-steps"></a>Pasos siguientes
 
 [Descripción del rol de administrador de Power BI](service-admin-role.md)  

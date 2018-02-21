@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 0d6d66016663ed0e12d8f3da854ec1e9f7da7eae
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ceccf00879d3ac17f907f5dce296bb03bb0227d2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Uso de DirectQuery en Power BI
 Puede conectarse a todo tipo de orígenes de datos distintos cuando usa **Power BI Desktop** o el **servicio Power BI** y puede establecer esas conexiones de datos de distintas formas. Puede *importar* datos a Power BI, que es la forma más común de obtener datos, o bien puede conectarse directamente a los datos en su repositorio de origen original, que se conoce como **DirectQuery**. En este artículo se describe **DirectQuery** y sus funcionalidades, incluidos los temas siguientes:
@@ -269,14 +269,21 @@ Cuando defina el modelo, considere hacer lo siguiente:
 ### <a name="report-design-guidance"></a>Instrucciones para el diseño de informes
 Cuando cree un informe usando una conexión de DirectQuery, siga las instrucciones siguientes:
 
+* **Considere la posibilidad de utilizar las opciones de reducción de consulta:** Power BI proporciona opciones en el informe para enviar menos consultas, y para deshabilitar ciertas interacciones que darían como resultado una experiencia deficiente si las consultas resultantes tardaran mucho tiempo en ejecutarse. Para tener acceso a estas opciones en **Power BI Desktop**, vaya a **Archivo > Opciones y configuración > Opciones** y seleccione **Reducción de consulta**. 
+
+   ![](media/desktop-directquery-about/directquery-about_03b.png)
+
+    Al activar las casillas de la **Reducción de consulta** podrá deshabilitar el resaltado cruzado en todo el informe. También puede hacer que aparezca un botón *Aplicar* para las segmentaciones de datos o las selecciones de filtro. Así, tendrá la posibilidad de seleccionar varias segmentaciones y filtros antes de aplicarlos y no se enviará ninguna consulta hasta que seleccione el botón **Aplicar**  de la segmentación de datos. Luego se usarán sus selecciones para filtrar los datos.
+
+    Estas opciones se aplicarán a un informe mientras interactúe con él en **Power BI Desktop**, así como cuando los usuarios utilicen el informe en el **servicio Power BI**.
+
 * **Aplique primero los filtros:** siempre aplique los filtros correspondientes al comienzo de la creación de un objeto visual. Por ejemplo, en lugar de arrastrar en el valor TotalSalesAmount y ProductName, y luego filtrar según un año determinado, aplique el filtro en Año en el primer momento. Esto se debe a que cada paso de la creación de un objeto visual enviará una consulta y, si bien es posible hacer entonces otro cambio antes de que se complete la primera consulta, sigue habiendo una carga innecesaria en el origen subyacente. Si aplica los filtros al comienzo, generalmente esas consultas intermedias serán menos costosas. Además, los filtros no se aplican al comienzo, el resultado podría alcanzar el límite mencionado de un millón de filas.
 * **Limite la cantidad de objetos visuales de una página:** cuando se abre una página (o cambia un filtro o una segmentación a nivel de página), se actualizan todos los objetos visuales de una página. También hay un límite en el número de consultas que se envían en paralelo; por lo tanto, a medida que aumenta la cantidad de objetos visuales, algunos de estos se actualizarán en serie, lo que aumenta el tiempo que se tarda en actualizar la página completa. Por este motivo se recomienda limitar la cantidad de objetos visuales de una sola página y, en su lugar, tener más páginas y más simples.
 * **Considere desactivar la interacción entre objetos visuales**: de forma predeterminada, las visualizaciones en una página de informe pueden usarse para el filtro cruzado y el resaltado cruzado de las otras visualizaciones en la página. Por ejemplo, si selecciona "1999" en el gráfico circular, el gráfico de columnas se resalta de forma cruzada para mostrar las ventas por categoría para "1999".                                                                  
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  Sin embargo, es posible controlar esta interacción, tal como se describe [en este artículo](service-reports-visual-interactions.md). En DirectQuery, dicho filtrado cruzado y resaltado cruzado requiere que se envíen consultas al origen subyacente, por lo que se debe desactivar la interacción si el tiempo que se tarda en responder a las selecciones de los usuarios sería excesivamente largo.
-* **Considere compartir solo el informe:** hay distintas formas de compartir contenido después de su publicación en el **servicio Power BI**. En el caso de DirectQuery, se recomienda considerar solo compartir el informe terminado en lugar de permitir que otros usuarios creen informes nuevos (y potencialmente encuentren problemas de rendimiento para los objetos virtuales determinados que generan).
+  En DirectQuery, dicho filtrado cruzado y resaltado cruzado requieren que se envíen consultas al origen subyacente, por lo que se debe desactivar la interacción si el tiempo que se tarda en responder a las selecciones de los usuarios fuera excesivamente largo. Sin embargo, esta interacción se puede desactivar, ya sea para todo el informe (tal y como se describió anteriormente para las *opciones de reducción de consulta*), o caso por caso como se describe [en este artículo](service-reports-visual-interactions.md).
 
 Además de la lista anterior de sugerencias, tenga en cuenta que cada una de las funcionalidades de creación de informes puede generar problemas de rendimiento:
 
@@ -294,6 +301,8 @@ Además de la lista anterior de sugerencias, tenga en cuenta que cada una de las
 * **Median:** generalmente, cualquier agregación (Sum, Count Distinct, etc.) se inserta en el origen subyacente. Sin embargo, esto no sucede con Median, ya que habitualmente este agregado no es compatible con el origen subyacente. En dichos casos, se recuperan los datos detallados del origen subyacente y el valor Median se calcula a partir de los resultados devueltos. Esto es razonable cuando la mediana se calcula sobre un número relativamente pequeño de resultados, pero los problemas de rendimiento (o errores de consulta debido al límite de un millón de filas) se producirán si la cardinalidad es grande.  Por ejemplo, el valor medio de la población de un país podría ser razonable, pero el valor medio del precio de ventas podría no serlo.
 * **Filtros de texto avanzados ("contains" y similares):** cuando se filtra según una columna de texto, el filtrado avanzado permite filtros como "contains" y "begins with", etc. Por supuesto, estos filtros pueden producir un rendimiento deteriorado para algunos orígenes de datos. En concreto, el filtro "contains" predeterminado no se debería usar si lo que se requiere es una coincidencia exacta ("is" o "is not"). Si bien los resultados podrían ser iguales, según los datos reales, el rendimiento podría ser completamente distinto debido al uso de los índices.
 * **Segmentaciones de selección múltiple:** de manera predeterminada, las segmentaciones solo permiten que se haga una selección. Permitir la selección múltiple en los filtros puede provocar algunos problemas de rendimiento, porque el usuario selecciona un conjunto de elementos en la segmentación (por ejemplo, los 10 productos que les interesan) y luego cada selección nueva hará que se envíen consultas al origen de back-end. Si bien el usuario puede seleccionar el elemento siguiente antes de que se complete la consulta, esto genera una carga adicional en el origen subyacente.
+
+* **Considere la posibilidad de desactivar los totales en objetos visuales:** de forma predeterminada, las tablas y matrices muestran los totales y subtotales. En muchos casos, hay que enviar consultas independientes al origen subyacente a fin de obtener los valores para estos totales. Esto se aplica siempre que use la agregación *DistinctCount*, o en todos los casos al usar DirectQuery en SAP BW o SAP HANA. Estos totales deben desactivarse (mediante el uso del panel **Formato**) si no se necesitan. 
 
 ### <a name="diagnosing-performance-issues"></a>Diagnóstico de problemas de rendimiento
 En esta sección se describe cómo diagnosticar problemas de rendimiento o cómo obtener información más detallada para permitir que se optimicen los informes.

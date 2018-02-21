@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -29,6 +29,24 @@ Para obtener información sobre novedades, vea:
 * [Blog del equipo de Power BI para aplicaciones móviles](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novedades de Power BI Desktop](desktop-latest-update.md)  
 * [Novedades en el servicio Power BI](service-whats-new.md)  
+
+## <a name="january-2018"></a>Enero de 2018
+
+### <a name="report-favorites"></a>Marca de informes como favoritos
+
+Etiquete los informes como favoritos para que aparezcan en la página**Favoritos**. Obtenga más información sobre los [favoritos en las aplicaciones móviles Power BI](mobile-apps-favorites.md).
+
+### <a name="view-shared-reports"></a>Vista de informes compartidos
+
+Cuando un usuario comparta ahora un informe con usted, este se muestra en la página **Compartido conmigo** junto con los paneles.
+
+### <a name="improved-hyperlink-support"></a>Compatibilidad con hipervínculos mejorada
+
+Ahora puede pulsar los vínculos de los objetos visuales personalizados para abrirlos en el explorador móvil.
+
+### <a name="intune-integration-android"></a>Integración de Intune (Android)
+
+Compatibilidad con acceso condicional mediante la administración de dispositivos móviles de Intune.
 
 ## <a name="december-2017"></a>Diciembre de 2017
 

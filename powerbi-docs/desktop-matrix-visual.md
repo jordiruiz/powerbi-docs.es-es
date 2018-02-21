@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: ff29fa49cc3ad1a57ae0d09596b6e0d086b4d349
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 0056fe1d5a2881f1415fe5889ab563a27bb8648d
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Uso del objeto visual de matriz en Power BI Desktop
 Con el objeto visual de **matriz**, puede crear objetos visuales de matriz (a veces también denominados *tablas*) en informes de **Power BI Desktop** y elementos de resaltado cruzado dentro de la matriz con otros objetos visuales. Además, puede seleccionar filas, columnas y e incluso celdas individuales y realizar un resaltado cruzado. Por último, para hacer un mejor uso del espacio de diseño, el objeto visual de matriz es compatible con un diseño escalonado.
@@ -34,6 +34,19 @@ Hay muchas características asociadas a la matriz que iremos revisando en las si
 > A partir de la versión de julio de 2017, los objetos visuales Matriz y Tabla de **Power BI Desktop** reflejan el estilo (incluso colores) del **tema del informe** aplicado. Si no son los colores previstos para el objeto visual Matriz, los puede cambiar en la configuración del **tema del informe**. Para más información sobre los temas, consulte [**Uso de los temas para los informes en Power BI Desktop**](desktop-report-themes.md).
 > 
 > 
+
+## <a name="understanding-how-power-bi-calculates-totals"></a>Descripción del cálculo de los totales por Power BI
+
+Antes de pasar a analizar el uso del objeto visual **Matriz**, es importante entender cómo hace Power BI para calcular los valores totales y subtotales en tablas y matrices. Para las filas de total y subtotal, se evalúa la medida a través de todas las filas en los datos subyacentes: *no* es simplemente una suma de los valores de las filas visibles o que se muestran. Esto significa que obtendrá valores diferentes en la fila de total de lo que cabría esperar. 
+
+Eche un vistazo a los siguientes objetos visuales **Matriz**. 
+
+![](media/desktop-matrix-visual/matrix-visual_3.png)
+
+En este ejemplo, cada fila del objeto visual **Matriz** situado más a la derecha muestra la *cantidad* para cada combinación de fecha y vendedor. Sin embargo, puesto que un vendedor se muestra con varias fechas, los números pueden aparecer más de una vez. Por lo tanto, el total de los datos subyacentes y una simple suma de los valores visibles no coincide. Se trata de un patrón común cuando el valor que está sumando está en el lado "uno" de una relación de uno a varios.
+
+Cuando se examinan los totales y subtotales, recuerde que los valores se basan en los datos subyacentes, y no solo en los valores visibles. 
+
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Uso de la exploración en profundidad con el objeto visual Matriz
 Con el objeto visual **Matriz**, puede realizar todo tipo de actividades interesantes de exploración en profundidad que no estaban disponibles anteriormente. Esto incluye la capacidad de explorar en profundidad mediante filas, columnas e incluso en celdas y secciones individuales. Echemos un vistazo a cómo funciona cada una de estas.
@@ -144,16 +157,12 @@ Con cada enfoque se consigue el mismo resultado. Al seleccionar *Controles avanz
 
 ![](media/desktop-matrix-visual/matrix-visual_19.png)
 
-## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
-En esta versión del objeto visual **Matriz**, hay algunas limitaciones y consideraciones que debe tener en cuenta.
+## <a name="next-steps"></a>Pasos siguientes
 
-* La exploración en profundidad de las columnas solo puede realizarse mediante el menú contextual y actualmente no hay nada relacionado con el objeto visual que indique que se permite la exploración en profundidad de grupos de filas o columnas
-* Solo puede expandir todos los elementos de un nivel a la vez, en lugar de expandir una categoría cada vez
-* La opción **Ver registros** puede aparecer en un menú si hace clic con el botón derecho en los encabezados de columna, pero no está operativa
-* Actualmente no hay ninguna fila de *Total general*
-* Desactivar la fila de subtotal en el diseño escalonado no surte ningún efecto
-* Los encabezados de columna pueden truncarse si los grupos internos tienen texto más corto que el grupo externo
-* Cambiar la sangría del diseño escalonado no debería aplicar sangría a la sangría del grupo de filas más externo
+Puede que también esté interesado en los siguientes artículos:
 
-Nos encanta escuchar sus ideas. Actualmente, estamos realizando una **encuesta** sobre el objeto visual **Matriz**, por lo que, si tiene unos minutos, [responda a la encuesta](https://www.instant.ly/s/PYXT1).
+* [Usar líneas de cuadrícula y ajustar a la cuadrícula en los informes de Power BI Desktop](desktop-gridlines-snap-to-grid.md)
+* [Orígenes de datos en Power BI Desktop](desktop-data-sources.md)
+* [Tipos de datos en Power BI Desktop](desktop-data-types.md)
 
+ 

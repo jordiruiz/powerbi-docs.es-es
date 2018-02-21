@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Busque sus paneles, informes y aplicaciones en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -41,7 +41,11 @@ Sus paneles, informes y aplicaciones se almacenan en distintos lugares en las ap
 5. [Áreas de trabajo](mobile-apps-find-content-mobile-devices.md#5-workspaces)
 
 ## <a name="1-favorites"></a>1 Favoritos
-Etiquete como favoritos los paneles y las aplicaciones que visualice más a menudo para recopilarlos. Obtenga más información sobre los [favoritos en las aplicaciones móviles Power BI](mobile-apps-favorites.md).
+Etiquete como favoritos los paneles, informes y aplicaciones que visualice más a menudo para recopilarlos. 
+
+![Elementos favoritos en las aplicaciones móviles de Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-android-favorites-reports.png)
+
+Obtenga más información sobre los [favoritos en las aplicaciones móviles Power BI](mobile-apps-favorites.md).
 
 ## <a name="2-report-servers"></a>2 Servidores de informes
 Puede tener conexiones a uno o varios servidores de informes de Power BI o de SQL Server Reporting Services locales. En ese caso, los KPI, los informes de Power BI y los informes paginados en el servidor se muestran aquí. Si ha hecho de algunos de ellos sus favoritos en el servidor, también se presentan en la lista Favoritos. Lea más sobre cómo [ver informes y KPI locales en las aplicaciones móviles de Power BI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
@@ -65,9 +69,9 @@ En las aplicaciones móviles de Power BI, puede ver todas las aplicaciones que y
 En el servicio Power BI, puede ir a Microsoft AppSource para buscar otras aplicaciones pero no en las aplicaciones móviles de Power BI. 
 
 ## <a name="4-shared-with-me"></a>4 Compartido conmigo
-Aquí encontrará los paneles que sus compañeros comparten con usted. Puede filtrar por el propietario del panel o buscar para encontrar lo que busca. Puede marcar el contenido que visite con frecuencia como favorito al pulsar sobre los puntos suspensivos (...) en la vista **Compartido conmigo**.
+Aquí encontrará los paneles e informes que sus compañeros comparten con usted. Puede filtrar por el propietario o buscar para encontrar lo que busca. Puede marcar el contenido que visite con frecuencia como favorito al pulsar sobre los puntos suspensivos **(...)** en la vista **Compartido conmigo**.
 
-![Nueva navegación de Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-shared-with-me-fave.png)
+![Compartido conmigo en Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-android-shared-fave.png)
 
 ## <a name="5-workspaces"></a>5 Áreas de trabajo
 También se denominan *Áreas de trabajo de la aplicación* y son entornos de ensayo en el servicio Power BI ([https://powerbi.com](https://powerbi.com)) donde puede colaborar con compañeros para crear una colección de paneles e informes. A continuación, puede distribuir la colección como una *aplicación*. 

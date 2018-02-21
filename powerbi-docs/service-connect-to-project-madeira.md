@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Conexión a Project "Madeira" con Power BI
 Obtener información sobre los datos de Project "Madeira" es fácil con Power BI y el paquete de contenido de Project "Madeira". Power BI recupera los datos (tanto de ventas como financieros) y, a continuación, crea un panel integrado e informes basados en esos datos.
@@ -47,7 +47,7 @@ Conéctese al [paquete de contenido de Project "Madeira"](https://app.powerbi.co
     >[!NOTE]
     >Debe ser un superusuario en Project “Madeira”.
    
-    ![](media/service-connect-to-project-madeira/creds.png)
+   ![](media/service-connect-to-project-madeira/creds.png)
 6. Una vez conectado, se cargarán automáticamente un panel, un informe y un conjunto de datos. Una vez completado, los iconos se actualizarán con los datos de su cuenta.  
    
     ![](media/service-connect-to-project-madeira/dashboard.png)
@@ -95,12 +95,14 @@ Cuando elija Aceptar, se creará una clave, que pueda copiar en el campo Contras
 ## <a name="troubleshooting"></a>Solución de problemas
 El panel de Power BI se basa en los servicios web publicados anteriormente y mostrará datos de la compañía de demostración o su compañía si importa datos desde la solución actual de finanzas. Sin embargo, si algo va mal, en esta sección se proporciona una solución alternativa para los problemas más habituales.
 
-**"Error al validar los parámetros. Compruebe que todos los parámetros son válidos." ** Si ve este error después de escribir la dirección URL de Project "Madeira", asegúrese de que se cumplen los requisitos siguientes:  
+**"Error en la validación de parámetros. Compruebe que todos los parámetros son válidos"**
 
-    - La dirección URL sigue exactamente este patrón: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-    - Elimine todo el texto que haya después del nombre de la compañía entre paréntesis  
-    - Asegúrese de que no hay ninguna barra diagonal al final de la dirección URL.  
-    - Asegúrese de que la dirección URL usa una conexión segura, como indica la dirección URL que empieza por https.  
+Si ve este error después de escribir la dirección URL de Project "Madeira", asegúrese de que se cumplen los requisitos siguientes:  
+
+   - La dirección URL sigue exactamente este patrón: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
+   - Elimine todo el texto que haya después del nombre de la compañía entre paréntesis  
+   - Asegúrese de que no hay ninguna barra diagonal al final de la dirección URL.  
+   - Asegúrese de que la dirección URL usa una conexión segura, como indica la dirección URL que empieza por https.  
 
 **"Error de inicio de sesión."** Si recibe el error "Error de inicio de sesión." cuando inicia sesión en el panel, mediante las credenciales de Project “Madeira” , esto puede deberse a uno de los siguientes problemas:  
 

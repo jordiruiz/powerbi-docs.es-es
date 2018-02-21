@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/30/2018
+ms.date: 02/07/2018
 ms.author: maikelson
-ms.openlocfilehash: 21bd243f56b077c3dfbeaeffd5db108670029937
-ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+ms.openlocfilehash: a16ed05732f5031f0a6f33522d52bb501e241c4f
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 
@@ -49,6 +49,22 @@ Empiece por estos seminarios web a petición populares
 
 Regístrese si quiere escuchar a los expertos en Power BI y participar en sesiones presenciales de preguntas y respuestas
 
+**Office 365 Finance Pros Webinar Series - Episode 2: Automate Recurring Reports & Enable Self-Serve Analytics** (Serie de seminarios web profesionales sobre finanzas en Office 365. Episodio 2: automatización de informes periódicos y habilitación del autoanálisis)
+<br>de Mark Traverso y Miguel Martínez
+<br>*15 de febrero, 12:00 (Hora estándar del Pacífico), 15:00 (Hora estándar del Este)*
+
+Obtenga sugerencias, trucos y procedimientos recomendados para obtener un mayor rendimiento en su trabajo cotidiano con Office 365.
+
+[Regístrese para verlo el 15 de febrero](https://aka.ms/Office365FinanceProsPBI)
+
+**Selling BI Solutions with Microsoft** (Venta de soluciones de BI con Microsoft)
+<br>de Farag Tamer
+<br>*15 de febrero, 08:00 (Hora estándar del Pacífico), 11:00 (Hora estándar del Este)*
+
+Participe en este seminario web para aprender cómo asociarse correctamente con Microsoft para aprovechar la oportunidad de mercado que ofrece la inteligencia empresarial. Obtenga una visión general de nuestros recursos de capacitación, materiales de marketing, incentivos y ofertas más actualizados que le ayudarán a generar y hacer crecer su práctica. Además, aprenda a presentar en PowerBI.com y AppSource.com para asegurarse de que las soluciones y las ofertas se colocan estratégicamente ante los clientes y distribuidores de Microsoft.
+
+[Regístrese para verlo el 15 de febrero](https://infopedia.eventbuilder.com/event?eventid=l9d4s7)
+
 **Learn to Navigate Your Way Through a Power BI Dashboard in 20 Minutes** (Aprender a navegar por un panel de Power BI en 20 minutos)
 <br>de Miguel Martinez
 <br>*21 de febrero, 10:00 (PST), 13:00 (EST)*
@@ -56,6 +72,13 @@ Regístrese si quiere escuchar a los expertos en Power BI y participar en sesion
 ¿Alguna vez ha abierto un panel de Power BI y se ha quedado en blanco?  ¿Cómo se navega por un panel para encontrar los datos importantes? ¿Usa poco los filtros y la segmentación por miedo a romper algo?  No se preocupe y únase; le enseñaremos cómo navegar por un panel de Power BI. Conocerá las características más comunes, aquellas que usan otros administradores para explorar en profundidad los datos que buscan en cualquier momento.
 
 [Regístrese para verlo el 21 de febrero](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**Visualize public or private datasets with the new Power BI and data.world connector** (Visualización de los conjuntos de datos públicos o privados con el nuevo conector de Power BI y data.world)
+<br>*22 de febrero, 10:00 (Hora estándar del Pacífico), 13:00 (Hora estándar del Este)*
+
+En colaboración con data.world, Microsoft ha lanzado un nuevo conector de datos que le permite importar conjuntos de datos de data.world en Power BI Desktop. Participe para aprender a sacar partido de este nuevo conector excelente y aprovechar la eficacia de la comunidad de data.world para compartir y colaborar con otras personas sobre su historia de datos.
+
+[Regístrese para verlo el 22 de febrero](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
 >[Asista a los próximos seminarios web de la comunidad de Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 

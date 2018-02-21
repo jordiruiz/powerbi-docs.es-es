@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 10557146b0b640450779049a30dd8f394686f57a
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 8abb327181af031df508f0629cbc09053a9a7927
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery y SAP Business Warehouse (BW)
 Puede conectarse a los orígenes de datos de **SAP Business Warehouse (BW)** directamente mediante **DirectQuery**. Dada la naturaleza multidimensional/de procesamiento analítico en línea de SAP BW, existen muchas diferencias importantes entre DirectQuery a través de SAP BW frente a los orígenes relacionales como SQL Server. Estas diferencias se resumen como sigue:
@@ -74,13 +74,9 @@ En la tabla siguiente se enumera todas las características de SAP BW que no son
 | Atributos |En Power BI, no se puede acceder a los atributos de una característica. |
 | Configuración del idioma del usuario final |La configuración regional que se utiliza para conectarse a SAP BW se establece como parte de los detalles de la conexión y no refleja la configuración regional del consumidor final del informe. |
 | Variables de texto |SAP BW permite que los nombres de campo contengan marcadores de posición en variables (por ejemplo, "$YEAR$ Actuals") que, posteriormente, se reemplazarían por el valor seleccionado. Por ejemplo, el campo aparece como "2016 Actuals" en las herramientas de BEX, si se seleccionara el campo 2016 para la variable. <br/> <br/> El nombre de columna en Power BI no se cambiará en función del valor de la variable y, por tanto, aparecería como "$YEAR$ Actuals".  Sin embargo, el nombre de columna se podrá cambiar posteriormente en Power BI. |
+| Variables de salida del cliente | La API pública no expone las variables de salida del cliente y, por tanto, no se admiten en Power BI. |
+| Estructuras de características | Cualquier estructura de características en el origen de SAP BW subyacente dará como resultado una "expansión" de las medidas que se exponen en Power BI. Por ejemplo, con dos medidas Ventas y Costos y una estructura de características que contenga Previsto y Real, se expondrán cuatro medidas: Ventas.Previsto, Ventas.Real, Costos.Previsto, Costos.Real. |
 
-## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
-En la tabla siguiente se enumeran las limitaciones de la versión beta del conector de SAP BW.
-
-| Limitación | Descripción |
-| --- | --- |
-| Sin actualización |El botón de actualización está deshabilitado, por lo que lo que no se pueden actualizar los objetos visuales ni los metadatos. |
 
 ## <a name="next-steps"></a>Pasos siguientes
 Para más información acerca de DirectQuery, revise los siguientes recursos:
