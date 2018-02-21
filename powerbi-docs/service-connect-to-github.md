@@ -3,7 +3,7 @@ title: "Conexión a GitHub con Power BI"
 description: GitHub para Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 952b2a2eacd941347a6d3fb232110adef06230a7
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 565fa325617ee6eced80266e2a76bed57551adb5
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-github-with-power-bi"></a>Conexión a GitHub con Power BI
 El paquete de contenido de GitHub para Power BI permite obtener información sobre un repositorio de GitHub (también conocido como repositorio) con datos en torno a las contribuciones, problemas, las solicitudes de extracción y usuarios activos.

@@ -3,7 +3,7 @@ title: "Conexión a Planview Enterprise con Power BI"
 description: Planview Enterprise para Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: cef43b20a6c7fe91ef35567caa511d125c536bf5
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: cd7026fe72bff40fd28aadf4ed3d2f9ee2b5d2fe
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>Conexión a Planview Enterprise con Power BI
 El paquete de contenido de Planview Enterprise permite visualizar los datos de administración de recursos y del trabajo de una forma totalmente nueva directamente en Power BI. Utilice sus credenciales de inicio de sesión de Planview Enterprise para ver de forma interactiva el gasto de la inversión de cartera, comprender dónde supera el presupuesto y dónde no lo alcanza, y averiguar el grado de alineación de sus proyectos con las prioridades estratégicas corporativas. También puede ampliar el panel integrado y los informes para obtener la información más importante para usted.

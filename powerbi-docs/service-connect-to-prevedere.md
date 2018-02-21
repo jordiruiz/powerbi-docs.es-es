@@ -3,7 +3,7 @@ title: "Conexión a Prevedere con Power BI"
 description: Prevedere para Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: fd9426a8fce0ed1d707184b421a93f989852a33d
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: aeccf059f1af3c017b05298831689ee61be4e54d
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-prevedere-with-power-bi"></a>Conexión a Prevedere con Power BI
 Acceda a información financiera exclusiva y crítica para impulsar su negocio con confianza y de forma proactiva.
