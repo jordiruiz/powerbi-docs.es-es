@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: a666099d55b70f088a101738e3ffea8fcf218659
-ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
+LocalizationGroup: Get started
+ms.openlocfilehash: 0d6282f1b0e89fbe1deb4fbea6a578b831fafd98
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-free-vs-pro"></a>Comparación entre las versiones gratis y Pro de Power BI
 Todos los usuarios de Power BI lo son de las versiones gratis o Pro. Es importante comprender las diferencias entre estos dos tipos de usuarios.
