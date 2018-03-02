@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/07/2018
 ms.author: nikhilga
-ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+LocalizationGroup: Get started
+ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
 Consulte esta página para obtener información sobre los problemas conocidos y las características publicadas recientemente del **servicio Power BI**. Para obtener información sobre novedades, vea:
@@ -633,7 +634,7 @@ Eche un vistazo al [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/pow
 
 * Los paneles de **GitHub** tienen nuevos objetos visuales que se centran en la creación de comunidades, y en los cálculos y el diseño mejorado.
 * Se han renovado los objetos visuales y el diseño de los paneles de **SendGrid** para que resulte más fácil encontrar la información.
-* Ahora puede usar **gráficos de rectángulos en Preguntas y respuestas**. Para ello, incluya la frase 'como gráfico de rectángulos' al final de la consulta.
+* Ahora puede usar **gráficos de rectángulos en Preguntas y respuestas**. Para ello, incluya la frase "como gráfico de rectángulos" al final de la consulta.
 * Ahora puede **anclar gráficos de rectángulos** de Preguntas y respuestas e informes. 
 * Y muchas correcciones más.
 

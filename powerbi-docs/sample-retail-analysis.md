@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 97c8f3f74bea0629107b68b9e42a4a449863b066
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 54a12f7e3b2ecee65701ca6c629d078ad7b9c0c9
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de venta directa para Power BI: un paseo
 
@@ -31,7 +32,7 @@ Este panel de ejemplo del sector y el informe subyacente analizan datos de venta
 
 ## <a name="prerequisites"></a>Requisitos previos
 
- Para poder usar el ejemplo, primero debe descargarlo como un paquete de contenido, un archivo .pbix o un libro de Excel.
+ Para poder usar el ejemplo, primero debe descargarlo como un [paquete de contenido](https://docs.microsoft.com/en-us/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service), un [archivo .pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) o un [libro de Excel](http://go.microsoft.com/fwlink/?LinkId=529778).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obtención del paquete de contenido de este ejemplo
 
@@ -166,7 +167,8 @@ Se trata de un entorno seguro en el que experimentar. Siempre puede elegir no gu
 Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecer recomendaciones sobre los datos de venta directa. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Más información sobre [cómo empezar a usar Power BI](service-get-started.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Descargar el paquete de contenido de ejemplo de análisis de venta directa](sample-tutorial-connect-to-the-samples.md)    
+* [Descargar el paquete de contenido de ejemplo de análisis de venta directa](sample-tutorial-connect-to-the-samples.md)
+* [Descargar un archivo ZIP con todos los archivos de ejemplo](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [Descargar el libro de Excel para este ejemplo de Power BI](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Obtener datos (para Power BI)](service-get-data.md)    
 * [Power BI: Conceptos básicos](service-basic-concepts.md)    
