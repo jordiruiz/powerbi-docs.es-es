@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/09/2018
 ms.author: mihart
-ms.openlocfilehash: c7a782880c2bc3fe4743d635bbc76dfc41660909
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Get started
+ms.openlocfilehash: 38a3923469d64cc0761ea0e1b1b39005f6904d40
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="getting-around-in-power-bi-service"></a>Moverse por el servicio Power BI
 ## <a name="the-left-navigation-pane"></a>Panel de navegación izquierdo
@@ -97,7 +98,7 @@ Si tiene una versión gratuita de Power BI, solo verá un área de trabajo, **Mi
 Para obtener más información, consulte [Favoritos](service-dashboard-favorite.md).
 
 ### <a name="recents"></a>Recientes
-Acceda rápidamente al contenido al que haya accedido más recientemente en el panel **Recientes**. Este incluye contenido de todas sus áreas de trabajo.
+Acceda con rapidez al contenido al que haya accedido más recientemente en el panel **Recientes**. Este incluye contenido de todas sus áreas de trabajo.
 
   ![](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
 
@@ -115,7 +116,7 @@ Una aplicación es una colección de paneles e informes creados para proporciona
 Para más información, consulte a continuación **Áreas de trabajo de la aplicación** y [¿Qué son las aplicaciones en Power BI?](service-install-use-apps.md).
 
 ### <a name="shared-with-me"></a>Compartido conmigo
-**Compartido conmigo** es la ubicación donde se encuentran todo el contenido que han compartido los compañeros de trabajo con usted.  Filtre por propietario del panel, utilice el campo de búsqueda para encontrar lo que sea pertinente y ordene los elementos por fecha.  Y para el contenido compartido que visita con frecuencia, es incluso más fácil marcarlo como favorito desde la vista **Compartido conmigo**.
+**Compartido conmigo** es la ubicación donde se encuentran todo el contenido que han compartido los compañeros de trabajo con usted.  Filtre por propietario del panel, use el campo de búsqueda para encontrar lo que sea pertinente y ordene los elementos por fecha.  Y para el contenido compartido que visita con frecuencia, es incluso más fácil marcarlo como favorito desde la vista **Compartido conmigo**.
 
 ![](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
 
