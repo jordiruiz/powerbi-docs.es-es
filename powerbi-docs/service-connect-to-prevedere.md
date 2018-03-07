@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: aeccf059f1af3c017b05298831689ee61be4e54d
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 31a8aa77e103ff51281e26ef5668cf7527987e2b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-prevedere-with-power-bi"></a>Conexión a Prevedere con Power BI
 Acceda a información financiera exclusiva y crítica para impulsar su negocio con confianza y de forma proactiva.

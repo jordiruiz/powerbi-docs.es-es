@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: 55855d8ecfaacd9134a37e3be2e95caa13a070e3
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Troubleshooting
+ms.openlocfilehash: bc65df8704804133e2fe47d16ae79e4a4fba7bfc
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="forgot-your-password-for-power-bi"></a>¿Olvidó su contraseña de Power BI?
 Si ha olvidado la contraseña, puede utilizar el siguiente vínculo para solicitar su restablecimiento.

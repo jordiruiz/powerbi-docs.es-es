@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: 0288e9613a187b64e5bc71c952e01d70f1f56012
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 717451afc35614e9c356e5748f39f0302fa6244e
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Clústeres de alta disponibilidad para puerta de enlace de datos local
 Puede crear **clústeres de alta disponibilidad** de instalaciones de **puertas de enlace de datos locales**, para acceder a los recursos de datos locales utilizados en los informes y paneles de Power BI. Estos clústeres permiten a los administradores de puertas de enlace agrupar las puertas de enlace para evitar puntos únicos de error a la hora de acceder a los recursos de datos locales. En este artículo se describen los pasos que puede realizar para crear un clúster de alta disponibilidad de puertas de enlace de datos locales, así como los procedimientos recomendados para configurarlos. Los clústeres de puertas de enlace de alta disponibilidad requieren puertas de enlace de datos locales con la actualización de noviembre de 2017 o posteriores.

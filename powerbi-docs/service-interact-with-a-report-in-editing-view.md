@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: da4f81f1c97477f7e141c90bb841b6dcb7bb092c
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interacción con un informe en la vista de edición en el servicio Power BI
 Los informes pueden editarse en el servicio Power BI y en Power BI Desktop si tiene permisos de propietario. A diferencia de Power BI Desktop, el servicio Power BI tiene dos modos diferentes para interactuar con los informes, la [vista de lectura](service-reading-view-and-editing-view.md) para los *consumidores* del informe y la vista de edición para los propietarios y creadores de informes. Este tutorial artículo trata la vista de edición en el servicio Power BI. 

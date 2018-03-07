@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Conexión a Project "Madeira" con Power BI
 Obtener información sobre los datos de Project "Madeira" es fácil con Power BI y el paquete de contenido de Project "Madeira". Power BI recupera los datos (tanto de ventas como financieros) y, a continuación, crea un panel integrado e informes basados en esos datos.
@@ -106,8 +107,8 @@ Si ve este error después de escribir la dirección URL de Project "Madeira", as
 
 **"Error de inicio de sesión."** Si recibe el error "Error de inicio de sesión." cuando inicia sesión en el panel, mediante las credenciales de Project “Madeira” , esto puede deberse a uno de los siguientes problemas:  
 
-    - La cuenta que usa no tiene permisos para leer datos del proyecto "Madeira" de su cuenta. Compruebe su cuenta de usuario en Project "Madeira" y asegúrese de que ha utilizado la tecla de acceso de servicio web correcta como la contraseña y, luego, vuelva a intentarlo.  
-    - La instancia del proyecto "Madeira" a la que intenta conectarse no tiene un certificado SSL válido. En este caso, verá un mensaje de error más detallado ("no se puede establecer una relación SSL de confianza"). Tenga en cuenta que no se admiten certificados autofirmados.  
+   - La cuenta que usa no tiene permisos para leer datos del proyecto "Madeira" de su cuenta. Compruebe su cuenta de usuario en Project "Madeira" y asegúrese de que ha utilizado la tecla de acceso de servicio web correcta como la contraseña y, luego, vuelva a intentarlo.  
+   - La instancia del proyecto "Madeira" a la que intenta conectarse no tiene un certificado SSL válido. En este caso, verá un mensaje de error más detallado ("no se puede establecer una relación SSL de confianza"). Tenga en cuenta que no se admiten certificados autofirmados.  
 
 **"¡Vaya!"** Si ve un cuadro de diálogo de error "¡Vaya!" después de pasar el cuadro de diálogo de autenticación, suele deberse a un problema al conectarse a los datos del paquete de contenido. Compruebe que la dirección URL sigue el patrón que se especificó anteriormente:  
     https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: d747b357315e275fae2f65d7e4e961f4867807a3
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Conexión a Marketo con Power BI
 El paquete de contenido de Power BI para Marketo permite obtener información sobre la cuenta de Marketo con datos de clientes potenciales y sus actividades. Al crear esta conexión, recupera sus datos y proporciona automáticamente un panel e informes relacionados basados en dichos datos.
@@ -78,7 +79,7 @@ Todas las fechas están en UTC. Según la zona horaria en la que se encuentra la
 
 **Detalles de límite de API**
 
-La importación de datos de Marketo usa API de Marketo. Todos los clientes de Marketo tienen un límite total de 10.000 llamadas API diarias que se comparten entre todas las aplicaciones que usan las API de Marketo. Puede usar las API para otras integraciones, así como la integración de Power BI. Para obtener más información sobre las API, consulte: <http://developers.marketo.com/documentation/rest/>.
+La importación de datos de Marketo usa API de Marketo. Todos los clientes de Marketo tienen un límite total de 10.000 llamadas API diarias que se comparten entre todas las aplicaciones que usan las API de Marketo. Puede usar las API para otras integraciones, así como la integración de Power BI. Para obtener más información sobre las API, vea: <http://developers.marketo.com/documentation/rest/>.
 
 La cantidad de llamadas API que hace Power BI a Marketo depende de la cantidad de datos en la cuenta de Marketo. Power BI importa todos los clientes potenciales y las actividades para el año pasado. Este es un ejemplo de datos de Marketo y la cantidad de llamadas API que usa Power BI durante la importación:  
 

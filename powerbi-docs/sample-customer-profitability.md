@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 2ce970ee31b06447055d059ed9b604c169713030
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
+ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/01/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Ejemplo Rentabilidad del cliente para Power BI: paseo
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>Información general del ejemplo Customer Profitability
 El paquete de contenido "Ejemplo Rentabilidad del cliente" contiene un panel, un informe y un conjunto de datos de una compañía que fabrica materiales de marketing. Este panel lo creó una directora financiera para ver las métricas clave relacionadas con sus cinco gerentes de unidad de negocio (ejecutivos), los productos, los clientes y los márgenes brutos (GM). Así, de un vistazo, puede ver los factores que afectan a la rentabilidad.
 
-<<<<<<< HEAD ![](media/sample-customer-profitability/power-bi-dash.png)
+![](media/sample-customer-profitability/power-bi-dash.png)
 
 Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Estos son datos reales y anónimos de obviEnce ([www.obvience.com](http://www.obvience.com/)). Los datos están disponibles en varios formatos: paquete de contenido o app, libro de Excel o archivo .pbix de Power BI Desktop. Consulte [Conjuntos de datos de ejemplo](sample-datasets.md).
 
@@ -58,14 +58,7 @@ Como alternativa, puede descargar el ejemplo como un archivo .pbix, que está di
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obtención del libro de Excel de este ejemplo
 
-<a name="if-you-want-to-dig-into-the-datasource-for-this-sample-its-also-available-as-an-excel-workbookhttpgomicrosoftcomfwlinklinkid529781-the-workbook-contains-power-view-sheets-that-you-can-view-and-modify-to-see-the-raw-data-select-power-pivot--manage"></a>Si desea profundizar en el origen de datos para este ejemplo, también está disponible como un [(libro de Excel)](http://go.microsoft.com/fwlink/?LinkId=529781). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, seleccione **Power Pivot > Administrar**.
-=======
-
-Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Estos son datos reales y anónimos de obviEnce ([www.obvience.com](http://www.obvience.com/)). Los datos están disponibles en varios formatos: paquete de contenido o app, libro de Excel o archivo .pbix de Power BI Desktop. Consulte [Conjuntos de datos de ejemplo](sample-datasets.md).
-
-### <a name="prerequisites"></a>Requisitos previos
-¿Desea seguir adelante? En el [servicio Power BI](https://powerbi.com), vaya a **Obtener datos > Ejemplos > Customer Profitability > Conectar** para obtener su propia copia del ejemplo.
->>>>>>> def2c8e086d65b6a3fb92247175730746226ae3e
+Si desea profundizar en el origen de datos para este ejemplo, también está disponible como un [(libro de Excel)](http://go.microsoft.com/fwlink/?LinkId=529781). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, seleccione **Power Pivot > Administrar**.
 
 
 ## <a name="what-is-our-dashboard-telling-us"></a>¿Qué indica el panel?

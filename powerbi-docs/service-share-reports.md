@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: maggies
-ms.openlocfilehash: fff70dc8e0fa1eaafd68d5995881b2c416d4e29d
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Share your work
+ms.openlocfilehash: 3e3e8c315baa96d1af1eeaf40c7b60648d0b797e
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Uso compartido de un informe de Power BI filtrado con los compañeros de trabajo
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece también [varias maneras de colaborar y distribuir sus informes](service-how-to-collaborate-distribute-dashboards-reports.md).

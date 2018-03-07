@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 9e2c5bb215ffee880af56a1147dcd4adfbbf17d5
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Create reports
+ms.openlocfilehash: 7408d7f5c0dff6d1f04ea42a3f4dfefc8600524f
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Agregar una columna personalizada en Power BI Desktop
 Puede agregar fácilmente una nueva columna personalizada de datos al modelo mediante el **Editor de consultas** de **Power BI Desktop**. Puede crear y cambiar el nombre de la columna personalizada mediante sencillos botones para crear [fórmulas M](https://msdn.microsoft.com/library/mt270235.aspx) que definan la columna personalizada. La fórmula M tiene un [conjunto de contenido de referencia de función completo](https://msdn.microsoft.com/library/mt779182.aspx). 

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: amac
-ms.openlocfilehash: d9693d89561bc0f942226934bc401a587a6ae20d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: aed13e5bc7a21caa87e4c5b25fd61d55dcfc6129
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="dashboard-data-classification"></a>Clasificación de datos del panel
 Cada panel es diferente y, según el origen de datos al que se conecte, probablemente encontrará que usted y los compañeros con los que lo comparte deberán tomar diferentes precauciones en función de la confidencialidad de los datos. Algunos paneles nunca deberían compartirse con personas de fuera de su empresa o imprimirse, mientras que otros pueden compartirse libremente. Si usa la clasificación de los datos del panel, podrá informar a los usuarios que ven los paneles sobre el nivel de seguridad que debe utilizarse. Puede etiquetar sus paneles con clasificaciones definidas por el departamento informático de su empresa para que todos los usuarios que vean el contenido tengan el mismo nivel de conocimiento acerca de la confidencialidad de los datos.

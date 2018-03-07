@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 0f81b0fa87af5af281b40224bac3b5815461cb9e
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: dc39f23c192c8bbe1126551c20205bafd8be3a07
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Filtros y resaltado en informes de Power BI
 Los ***filtros*** eliminan todos los datos excepto aquellos en los que desea centrarse.  El ***resaltado*** no filtra, ya que no elimina los datos sino que resalta un subconjunto de los datos visibles; los datos sin resaltar permanecen visibles pero atenuados.

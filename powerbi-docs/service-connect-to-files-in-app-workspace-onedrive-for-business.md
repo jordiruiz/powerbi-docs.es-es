@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: fae3fb4e9ca6b6013538d0cb223909aea6c88271
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Share your work
+ms.openlocfilehash: 8a078475bc01dec37d49f654d1fa90162a9d8366
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Conéctese a los archivos almacenados en OneDrive del área de trabajo de aplicaciones de Power BI
 Una vez que [ha creado un área de trabajo de una aplicación en Power BI](service-create-distribute-apps.md), puede almacenar los archivos de Excel, CSV y Power BI Desktop en la instancia de OneDrive para la Empresa de dicho área. Los archivos que almacene en OneDrive se pueden seguir actualizando, y dichas actualizaciones se reflejarán automáticamente en los informes y paneles de Power BI en función de los archivos. 

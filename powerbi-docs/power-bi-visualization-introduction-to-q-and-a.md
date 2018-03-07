@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: mihart
-ms.openlocfilehash: d63c6479ed5f0bb9e882900fc5a653f08ad6a823
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 0f4f56431fd0c667411c302f4f30f0c395269e4a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="get-started-with-power-bi-qa-quickstart"></a>Introducción a Preguntas y respuestas de Power BI (Guía de inicio rápido)
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Uso de Preguntas y respuestas de Power BI con el Ejemplo de análisis de minoristas

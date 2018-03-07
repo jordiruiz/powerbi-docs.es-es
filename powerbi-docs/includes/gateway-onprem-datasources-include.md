@@ -7,6 +7,7 @@
 | Carpeta |No |Sí |
 | IBM DB2 |No |Sí |
 | Base de datos Informix de IBM |No |Sí |
+| IBM Netezza |Sí |Sí |
 | Impala |Sí |Sí |
 | MySQL |No |Sí |
 | OData |No |Sí |
