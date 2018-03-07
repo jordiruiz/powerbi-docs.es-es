@@ -1,7 +1,28 @@
--- title: Combinar datos y darles forma en Power BI Desktop description: Combinar datos y darles forma en los servicios de Power BI Desktop: powerbi documentationcenter: '' author: davidiseminger manager: kfile backup: '' editor: '' tags: '' qualityfocus: no qualitydate: ''
-
-ms.service: powerbi ms.devlang: NA ms.topic: article ms.tgt_pltfrm: NA ms.workload: powerbi ms.date: 01/30/2018 ms.author: davidi
-
+---
+title: Combinar datos y darles forma en Power BI Desktop
+description: Combinar datos y darles forma en Power BI Desktop
+services: powerbi
+documentationcenter: 
+author: davidiseminger
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 01/30/2018
+ms.author: davidi
+LocalizationGroup: Transform and shape data
+ms.openlocfilehash: c8f2419ae2898a59907763392eb86b4877b4fd75
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Combinar datos y darles forma en Power BI Desktop
 Con **Power BI Desktop**, puede conectarse a muchos tipos diferentes de orígenes de datos y después darles forma a los datos para satisfacer sus necesidades. *Forma de datos* significa transformar los datos, por ejemplo, al cambiar el nombre de columnas o tablas, convertir texto en números, quitar filas, configurar una primera fila como encabezado, etcétera. *Combinación de datos* significa conectarse a dos o más orígenes de datos, darles forma según sea necesario y después consolidarlos en una consulta útil.

@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: fe85f52bccc164fee896d1fd3e690264867b54fa
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Reports
+ms.openlocfilehash: 39d33965c45efe9ca063e658b42c00dcaea8ef26
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Duplicar una página del informe en Power BI
 Duplicar una página de informe requiere permisos de edición sobre este. En el servicio Power BI, esto significa abrir el informe en la [Vista de edición](service-reading-view-and-editing-view.md). 

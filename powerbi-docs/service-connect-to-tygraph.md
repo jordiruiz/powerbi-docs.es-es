@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 200438c1c7a488f963b44040324374905d643b6e
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 3ff0a65d32a95a6926e2c808af119e31effd7e05
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Conexión a tyGraph con Power BI
 Vea y explore los datos de tyGraph en Power BI con el paquete de contenido de Power BI. Empiece por conectar a su cuenta de tyGraph y cargar el panel, los informes y el conjunto de datos. El contenido original incluye información como, por ejemplo, la medida de contratación activa (puntuación MAE) y los principales colaboradores. Personalice el contenido para resaltar la información que más le interese.  Los datos se actualizarán automáticamente según la programación que establezca.
@@ -48,7 +49,7 @@ Conéctese a [tyGraph para Power BI](https://app.powerbi.com/getdata/services/ty
    
     **Si no es un administrador comprobado de Yammer**
    
-    El paquete de contenido de tyGraph requiere que un administrador comprobado de Yammer haya creado una cuenta de tyGraph. Una vez creada, es posible emitir claves adicionales a los usuarios de la misma organización. Si su administrador comprobado aún no ha creado una cuenta de tyGraph, póngase en contacto con ellos para que lo haga. Si ya tiene la cuenta creada, puede solicitar una clave mediante el envío de un correo electrónico a <mailto:support@unlimitedviz.com>.
+    El paquete de contenido de tyGraph requiere que un administrador comprobado de Yammer haya creado una cuenta de tyGraph. Una vez creada, es posible emitir claves adicionales a los usuarios de la misma organización. Si su administrador comprobado aún no ha creado una cuenta de tyGraph, póngase en contacto con ellos para que lo haga. Si ya tiene la cuenta creada, puede solicitar una clave mediante el envío de un mensaje de correo electrónico a <mailto:support@unlimitedviz.com>.
    
     ![](media/service-connect-to-tygraph/creds.png)
 6. Después de la correcta autenticación, el proceso de importación se iniciará automáticamente. Cuando haya finalizado, aparecerá un nuevo panel, informes y modelo en el panel de navegación. Seleccione el panel para ver los datos importados.

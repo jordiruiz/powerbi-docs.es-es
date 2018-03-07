@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: dee83471e0c8e2506902ac5bdb163163430bbb9a
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 992c3cbeb9899a784cc8df9fdca9a29f57aa7e81
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Guía para la implementación de una puerta de enlace de datos para Power BI
 Este artículo proporciona instrucciones y algunas consideraciones para implementar una puerta de enlace de datos en el entorno de red. Una **puerta de enlace** es un software que facilita el acceso a los datos que residen en una red privada y local para su uso posterior en un servicio en la nube como Power BI. Este artículo le guía a través de la implementación de la **puerta de enlace de datos local** y le proporciona instrucciones para su configuración.
