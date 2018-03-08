@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: c5139c6f9f7b2098b51a608fb7719f371173c291
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: 9650f0be6ca795fdea3395721c0eb02e80464821
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="analyzing-web-page-data-using-power-bi-desktop-tutorial"></a>Analizar datos de página web con Power BI Desktop (tutorial)
 En este tutorial, descubrirá cómo importar una tabla de datos desde una página web y crear un informe para visualizar estos datos. Como parte de este proceso, navegue en las tablas disponibles en una página web y aplique los pasos de transformación de datos para darle a la tabla una nueva forma.
@@ -42,14 +43,14 @@ En este tutorial, descubrirá cómo importar una tabla de datos desde una págin
   * Paso 2: Crear una visualización de mapa
 
 ## <a name="task-1-connect-to-a-web-data-source"></a>Tarea 1: Conectarse a un origen de datos de web
- En la tarea 1, importe una tabla de resumen de torneo desde la página de Wikipedia Eurocopa en la siguiente ubicación: http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship
+ En la tarea 1, importe una tabla de resumen de torneo desde la página de Wikipedia Eurocopa en la siguiente ubicación: https://es.wikipedia.org/wiki/Eurocopa
 
 ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
 ### <a name="add-a-wikipedia-page-data-source"></a>Agregar un origen de datos de la página de Wikipedia
 1. En el cuadro de diálogo **Introducción** o en la pestaña **Inicio** de la cinta de opciones , elija **Obtener datos**.
 2. Se abrirá el cuadro de diálogo **Obtener datos** , donde puede elegir entre una amplia gama de orígenes de datos para importar datos en Power BI Desktop. Vamos a seleccionar **Web** , que está disponible en el grupo **Todos** u **Otros** .
-3. En el cuadro de diálogo **Contenido web**, en el cuadro de texto **URL**, pegue la dirección URL de Wikipedia (http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship).
+3. En el cuadro de diálogo **Contenido web**, en el cuadro de texto **URL**, pegue la dirección URL de Wikipedia (https://es.wikipedia.org/wiki/Eurocopa).
 4. Haga clic en **Aceptar**.
 
 Tras establecer la conexión con la página web, verá una lista de tablas disponibles en esta página de Wikipedia en el cuadro de diálogo **Navegador** . Puede hacer clic en cada una de estas tablas para obtener una vista previa de los datos.

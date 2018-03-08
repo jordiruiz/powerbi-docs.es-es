@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 6246e46cae9b44fbc9858b8fa9979dd01b80a6ab
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Create reports
+ms.openlocfilehash: 9d5675b17973839f52699c5af9bfad9c8714a58e
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Uso de etiquetas de jerarquía alineadas en Power BI Desktop
 **Power BI Desktop** admite el uso de las **etiquetas de jerarquía alineadas**, que es la primera de las dos características diseñadas para explorar mejor la jerarquía. La segunda característica, que actualmente está en desarrollo, es la capacidad de usar etiquetas de jerarquía anidadas (esté atento, porque las actualizaciones se realizan con frecuencia).   
@@ -51,7 +52,7 @@ Ahora, veamos un gráfico distinto que usa datos que incluyen jerarquías inform
 
 ![](media/desktop-inline-hierarchy-labels/inlinehierarchy_7.png)
 
-Si selecciona **Expandir todo**, se muestra el nivel siguiente con la visualización alineada de las etiquetas de jerarquía. De manera predeterminada, las jerarquías alineadas se orden según el valor de la medida, en este caso, **SalesAmount**. Con las etiquetas de jerarquía alineadas habilitadas, puede optar por ordenar estos datos también según la jerarquía; para ello, seleccione los puntos suspensivos que se encuentran en la esquina superior derecha (**...**) y, luego, seleccione **Ordenar por &gt; Color Class**, tal como aparece en la imagen siguiente.
+Si selecciona **Expandir todo**, se muestra el nivel siguiente con la visualización alineada de las etiquetas de jerarquía. De manera predeterminada, las jerarquías alineadas se orden según el valor de la medida, en este caso, **SalesAmount**. Con las etiquetas de jerarquía alineadas habilitadas, puede optar por ordenar estos datos también según la jerarquía; para ello, seleccione los puntos suspensivos que se encuentran en la esquina superior derecha (**...**) y, luego, seleccione **Ordenar por > Color Class**, tal como aparece en la imagen siguiente.
 
 ![](media/desktop-inline-hierarchy-labels/inlinehierarchy_8.png)
 
