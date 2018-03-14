@@ -19,10 +19,10 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 26308afc86ce83a24a40b078770db35213f600e0
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navegación: búsqueda, detección y ordenación de contenido en el servicio Power BI
 Hay muchas maneras de navegar por el contenido en el servicio Power BI. El contenido de las áreas de trabajo está organizado por tipos: paneles, informes, libros y conjuntos de datos.  Y también se organiza el contenido por usos: favoritos, reciente, aplicaciones, compartido conmigo y destacado. Estos diferentes métodos de acceso al contenido le permiten encontrar rápidamente lo que necesita en el servicio Power BI.  
@@ -41,7 +41,7 @@ ________________________________________
 ## <a name="searching-and-sorting-in-workspaces"></a>Búsqueda y ordenación en áreas de trabajo
 Un área de trabajo tiene cuatro pestañas de contenido: Paneles, Informes, Libros y Conjuntos de datos.  Cada una de estas pestañas contiene un campo de búsqueda y un botón de ordenación.  Es posible que al empezar a usar el servicio Power BI, no las considere útiles porque solo tendrá uno o dos elementos por pestaña.  Sin embargo, con el tiempo puede terminar con listas largas de contenido.  Use la búsqueda y la ordenación para encontrar fácilmente lo que necesita.
 
-![Pestaña de paneles](media/service-navigation-search-filter-sort/power-bi-search-sort2.png)
+![Pestaña Paneles](media/service-navigation-search-filter-sort/power-bi-search-sort2.png)
 
 * Escriba un término de búsqueda para encontrar una coincidencia en la pantalla actual.
   

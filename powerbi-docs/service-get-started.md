@@ -20,10 +20,10 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: cbb7697e3d3dbc92c2917b0a80deadfc0b9fd5a0
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="get-started-with-power-bi-service-apppowerbicom"></a>Introducción al servicio Power BI (app.powerbi.com)
 Este tutorial le ayudará a empezar a trabajar con el ***servicio Power BI***. Para entender cómo encaja el servicio Power BI con las otras ofertas de Power BI, se recomienda que lea primero [¿Qué es Power BI?](guided-learning/gettingstarted.yml#step-1).
@@ -99,7 +99,7 @@ Ahora que se ha conectado a los datos, empiece a explorar.  Cuando encuentre alg
 
 3. Esto parece interesante, así que lo vamos a *anclar* a un panel. Mantenga el mouse encima de la visualización y seleccione el icono **Anclar**.  Al anclar la visualización, esta se almacenará en el panel y se mantendrá actualizada para que pueda comprobar sus valores más recientes de un vistazo.
    
-   ![Icono de Anclar](media/service-get-started/pinnew.png)
+   ![icono de anclaje](media/service-get-started/pinnew.png)
 
 5. Como se trata de un nuevo informe, se le pedirá que lo guarde antes de poder anclar una visualización a un panel. Asigne un nombre a un informe (p. ej., *Ventas de un período*) y seleccione **Guardar y continuar**. 
    
