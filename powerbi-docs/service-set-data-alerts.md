@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 187ca632ad947e5cb657f3a5d19e1d62262259b4
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Alertas de datos en el servicio Power BI
 Establezca alertas que le envíen notificaciones cada vez que los datos de sus paneles cambien más allá de los límites establecidos. 
@@ -31,7 +32,7 @@ Las alertas solo se pueden configurar en los iconos anclados desde objetos visua
 
 Nadie más podrá ver las alertas que establezca, aunque comparta el panel. Las alertas de datos están completamente sincronizadas en las plataformas; establezca y vea las alertas de datos [en las aplicaciones móviles de Power BI](mobile-set-data-alerts-in-the-mobile-apps.md) y en el servicio Power BI. No están disponibles para Power BI Desktop. Además, las alertas se pueden [automatizar e integrar con Microsoft Flow](https://flow.microsoft.com). [Pruébelo](service-flow-integration.md).
 
-![](media/service-set-data-alerts/powerbi-alert-types-new.png)
+![Iconos](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
 > [!WARNING]
 > Las notificaciones de alerta controladas por datos proporcionan información acerca de los datos. Si ve los datos de Power BI en un dispositivo móvil y roban ese dispositivo, se recomienda usar el servicio Power BI para desactivar todas las reglas de alertas controladas por datos.
@@ -47,15 +48,15 @@ Este ejemplo utiliza un icono de tarjeta del panel de ejemplo de análisis de mi
 
 1. Empiece en un panel. En un icono de tarjeta, KPI o medidor del panel, seleccione el botón de puntos suspensivos.
    
-   ![](media/service-set-data-alerts/powerbi-card.png)
-2. Seleccione el icono de la campana ![](media/service-set-data-alerts/power-bi-bell-icon.png) para agregar una o varias alertas para **los almacenes totales**.
+   ![Icono Total Stores](media/service-set-data-alerts/powerbi-card.png)
+2. Seleccione el icono de campana ![icono de alerta](media/service-set-data-alerts/power-bi-bell-icon.png) para agregar una o varias alertas para **Total stores**.
    
 1. Para empezar, seleccione **Agregar regla de alertas**, asegúrese de que el control deslizante esté **activado** y asigne un título a la alerta. Los títulos le ayudan a reconocer fácilmente las alertas.
    
-   ![](media/service-set-data-alerts/powerbi-alert-title.png)
+   ![Ventana Administrar alertas](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Desplácese hacia abajo y escriba los detalles de la alerta.  En este ejemplo, vamos a crear una alerta que nos enviará una notificación una vez al día si el número de almacenes totales supera los 100. Las alertas aparecen en nuestro Centro de notificaciones. Y haremos que Power BI nos envíe también un correo electrónico.
    
-   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
+   ![Ventana Administrar alertas, establecimiento de umbral](media/service-set-data-alerts/power-bi-set-alert-details.png)
 5. Seleccione **Guardar**.
 
 ## <a name="receiving-alerts"></a>Recibir alertas
@@ -65,13 +66,13 @@ Después, Power BI envía una alerta a su centro de notificaciones y, opcionalme
 
 1. Si ha configurado la alerta para que se envíe un correo electrónico, encontrará algo parecido a esto en su bandeja de entrada.
    
-   ![](media/service-set-data-alerts/powerbi-alerts-email.png)
+   ![Correo electrónico de alerta](media/service-set-data-alerts/powerbi-alerts-email.png)
 2. Power BI añade un mensaje a su **Centro de notificaciones** y una nueva alerta en el icono aplicable.
    
-   ![](media/service-set-data-alerts/powerbi-alert-notifications.png)
+   ![Icono de notificación en el servicio Power BI](media/service-set-data-alerts/powerbi-alert-notifications.png)
 3. Abra el Centro de notificaciones para ver los detalles de la alerta.
    
-    ![](media/service-set-data-alerts/powerbi-alert-notfication.png)
+    ![Lectura de la alerta](media/service-set-data-alerts/powerbi-alert-notfication.png)
    
    > [!NOTE]
    > Las alertas solo funcionan en los datos que se actualizan. Cuando los datos se actualizan, Power BI busca si se ha configurado una alerta para esos datos. Si los datos han alcanzado un umbral de alerta, se activará una alerta.
@@ -82,23 +83,23 @@ Después, Power BI envía una alerta a su centro de notificaciones y, opcionalme
 Hay varias maneras de administrar las alertas: desde el icono del panel, desde el menú de configuración de Power BI y en un icono individual en la [aplicación móvil de Power BI en el iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) o en la [aplicación móvil de Power BI para Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md).
 
 ### <a name="from-the-tile-itself"></a>Desde el icono
-1. Si necesita cambiar o quitar una alerta para un icono, vuelva a abrir la ventana **Administrar alertas** seleccionando el icono de la campana ![](media/service-set-data-alerts/power-bi-bell-icon.png). Se muestran todas las alertas que ha configurado para ese icono.
+1. Si necesita cambiar o quitar una alerta de un icono, vuelva a abrir la ventana **Administrar alertas** al seleccionar el icono de campana ![icono de alerta](media/service-set-data-alerts/power-bi-bell-icon.png). Se muestran todas las alertas que ha configurado para ese icono.
    
-    ![](media/service-set-data-alerts/powerbi-see-alerts.png).
+    ![Ventana Administrar alertas](media/service-set-data-alerts/powerbi-see-alerts.png).
 2. Para modificar una alerta, seleccione la flecha situada a la izquierda del nombre de la alerta.
    
-    ![](media/service-set-data-alerts/powerbi-see-alerts-arrow.png).
+    ![Flecha junto al nombre de la alerta](media/service-set-data-alerts/powerbi-see-alerts-arrow.png).
 3. Para eliminar una alerta, seleccione la papelera situada a la derecha del nombre de la alerta.
    
-      ![](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
+      ![Icono de papelera seleccionado](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
 
 ### <a name="from-the-power-bi-settings-menu"></a>Desde el menú de configuración de Power BI
 1. Seleccione el icono de engranaje de la barra de menús de Power BI.
    
-    ![](media/service-set-data-alerts/powerbi-gear-icon.png).
+    ![Icono de engranaje](media/service-set-data-alerts/powerbi-gear-icon.png).
 2. En **Configuración**, seleccione **Alertas**.
    
-    ![](media/service-set-data-alerts/powerbi-alert-settings.png)
+    ![Pestaña Alertas de la ventana Configuración](media/service-set-data-alerts/powerbi-alert-settings.png)
 3. Desde aquí, puede activar y desactivar alertas, abrir la ventana **Administrar de alertas** para realizar cambios o eliminar alertas.
 
 ## <a name="tips-and-troubleshooting"></a>Sugerencias y solución de problemas

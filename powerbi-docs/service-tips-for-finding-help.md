@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 67b9dd605f5de2de1e824948143011797ad1f937
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Get started
+ms.openlocfilehash: 0984e00dbe6b82a2b5b9cfc07f318ded03961f64
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 sugerencias para obtener ayuda con sus preguntas sobre Power BI
 ¿Alguna vez se ha sentido frustrado cuando utiliza Power BI o tiene problemas porque no recibe respuestas a sus preguntas sobre Power BI justo cuando lo necesita? 
@@ -56,7 +57,7 @@ Las opciones de formación disponibles son casi infinitas, desde la formación p
 
 Puede buscar opciones adicionales en línea, como las siguientes:
 
-* **edX.org** ofrece un curso gratuito, [Analyzing and Visualizing Data with Power BI](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4) (Análisis y visualización de datos con Power BI). 
+* **edX.org** ofrece un curso gratuito, [Analyzing and Visualizing Data with Power BI](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4) (Análisis y visualización de datos con Power BI).
 * **Lynda.com** tiene cursos como [Power BI Pro Essential Training](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html) (Formación esencial de Power BI Pro).
 * Busque sesiones de formación presenciales "**Dashboard in a Day**" (Panel en un día).
 
@@ -67,15 +68,14 @@ Plantee preguntas y busque respuestas en la [comunidad de Power BI](http://commu
 Incorpórese a un [grupo de usuarios de Power BI](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups) y pida ayuda al grupo sobre sus preguntas. O bien inicie su propio grupo de usuarios y cree una comunidad de usuarios que se ayuden entre sí, centrada en sus necesidades: en su área, sus datos y su zona horaria.
 
 ## <a name="9-check-the-service-status"></a>9 Comprobación del estado del servicio técnico
-Si tiene un problema con el servicio técnico, es posible que el propio servicio esté teniendo problemas. Compruebe la página [Soporte técnico](https://powerbi.microsoft.com/support/) para ver cualquier informe. 
+Si tiene un problema con el servicio técnico, es posible que el propio servicio esté teniendo problemas. Compruebe la página [Soporte técnico](https://powerbi.microsoft.com/support/) para ver cualquier informe.
 
 ## <a name="10-just-try-it"></a>10 Intentar
-Si todo lo demás no da ningún resultado, la sugerencia final es observar el sistema. Con frecuencia, los usuarios preguntan qué funcionalidades tiene Power BI. Puede responder a menudo a este tipo de preguntas entrando en el servicio Power BI o Power BI Desktop, examinando las opciones de la interfaz de usuario e intentando utilizarlas. 
+Si todo lo demás no da ningún resultado, la sugerencia final es observar el sistema. Con frecuencia, los usuarios preguntan qué funcionalidades tiene Power BI. Puede responder a menudo a este tipo de preguntas entrando en el servicio Power BI o Power BI Desktop, examinando las opciones de la interfaz de usuario e intentando utilizarlas.
 
 Por ejemplo, supongamos que se pregunta si puede compartir paneles con un grupo de seguridad. Para responder a esta pregunta, vaya al cuadro de diálogo de uso compartido e intente agregar un grupo de seguridad. En cualquier caso, obtendrá la respuesta después de esta prueba.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Introducción a Power BI](service-get-started.md) 
+* [Introducción a Power BI](service-get-started.md)
 * Pruebe a preguntar a la [comunidad de Power BI](http://community.powerbi.com/).
 * ¿Sigue teniendo problemas? Visite la [página de soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
-
