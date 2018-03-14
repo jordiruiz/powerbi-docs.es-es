@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 01e4f19cc1a3a57179be37cf0f36adf15ac47fdc
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 5623667cd1a39b05795d162055ad0d3351d127bc
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Generación automática de información sobre los datos con Power BI
 ¿Tiene un nuevo conjunto de datos y no está muy seguro de por dónde debe empezar?  ¿Necesita crear un panel rápidamente?  ¿Quiere buscar información que puede que le falte?
@@ -45,43 +46,42 @@ Ahora es su turno. Explore la característica de información detallada con el [
 
 1. En la pestaña **Conjuntos de datos**, seleccione el botón de puntos suspensivos (...) y elija **Obtener información**.
    
-    ![](media/service-insights/power-bi-ellipses.png)
+    ![Pestaña Conjuntos de datos](media/service-insights/power-bi-ellipses.png)
    
-    ![](media/service-insights/power-bi-tab.png)
+    ![Menú del botón de puntos suspensivos](media/service-insights/power-bi-tab.png)
 2. Power BI usa [distintos algoritmos](service-insight-types.md) para buscar tendencias en el conjunto de datos.
    
-    ![](media/service-insights/pbi_autoinsightssearching.png)
+    ![Cuadro de diálogo Buscando información](media/service-insights/pbi_autoinsightssearching.png)
 3. Su información está lista en cuestión de segundos.  Seleccione **Ver información** para mostrar visualizaciones.
    
-    ![](media/service-insights/pbi_autoinsightsuccess.png)
+    ![Mensaje de proceso correcto](media/service-insights/pbi_autoinsightsuccess.png)
    
    > **NOTA**: Algunos conjuntos de datos no pueden generar información porque los datos no son estadísticamente significativos.  Para más información, consulte [Optimización de los datos para información detallada](service-insights-optimize.md).
    > 
    > 
 1. Las visualizaciones se muestran en un lienzo especial de **información rápida** con un máximo 32 tarjetas de información independientes. Cada tarjeta tiene un gráfico o un gráfico con una breve descripción.
    
-    ![](media/service-insights/power-bi-insights.png)
+    ![Lienzo Información rápida](media/service-insights/power-bi-insights.png)
 
 ## <a name="interact-with-the-insight-cards"></a>Interacción con las tarjetas de información
-  ![](media/service-insights/pbi_hover.png)
+  ![icono de anclaje](media/service-insights/pbi_hover.png)
 
 1. Mantenga el puntero sobre una tarjeta y seleccione el icono de anclaje para agregar la visualización a un panel.
 2. Mantenga el puntero sobre una tarjeta, seleccione los puntos suspensivos (...) y elija **Ver información**. Se abrirá la pantalla completa de información.
    
-    ![](media/service-insights/power-bi-insight-focus.png)
+    ![Pantalla completa de información](media/service-insights/power-bi-insight-focus.png)
 3. En el Modo enfocado, puede:
    
    * Filtrar las visualizaciones.  Para mostrar los filtros, en la esquina superior derecha, seleccione la flecha para expandir el panel Filtros.
+        ![Información y menú Filtros expandido](media/service-insights/power-bi-insights-filter-new.png)
+   * Ancle la tarjeta de información a un panel al seleccionar el icono de anclaje ![icono de anclaje](media/service-insights/power-bi-pin-icon.png) o **Anclar visualización**.
+   * Información en la propia tarjeta. A esto se le conoce como **información con ámbito**. En la esquina superior derecha, seleccione el icono de bombilla ![icono de Obtener información](media/service-insights/power-bi-bulb-icon.png) u **Obtener información**.
      
-        ![](media/service-insights/power-bi-insights-filter-new.png)
-   * Ancle la tarjeta de información a un panel seleccionando el icono de pin ![](media/service-insights/power-bi-pin-icon.png) o mediante **Anclar visualización**.
-   * Información en la propia tarjeta. A esto se le conoce como **información con ámbito**. En la esquina superior derecha, seleccione el icono de bombilla ![](media/service-insights/power-bi-bulb-icon.png) u **Obtener información**.
-     
-       ![](media/service-insights/pbi-autoinsights-tile.png)
+       ![Barra de menús con el icono de Obtener información](media/service-insights/pbi-autoinsights-tile.png)
      
      A la izquierda, se muestra la información y, a la derecha, nuevas tarjetas basadas solo en los datos de esa única información.
      
-       ![](media/service-insights/power-bi-insights-on-insights-new.png)
+       ![Información sobre información](media/service-insights/power-bi-insights-on-insights-new.png)
 4. Para volver al lienzo original de información, en la esquina superior izquierda, seleccione **Salir del modo de enfoque**.
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>Información en un icono del panel
@@ -90,7 +90,7 @@ En lugar de buscar información en un conjunto de datos entero, limite la búsqu
 1. Abra un panel.
 2. Mantenga el puntero encima de un icono. Seleccione el botón de puntos suspensivos (...) y elija **Ver información**. El icono se abre en [modo de enfoque](service-focus-mode.md) con las tarjetas de información a la derecha.    
    
-    ![](media/service-insights/pbi-insights-tile.png)    
+    ![Modo de enfoque](media/service-insights/pbi-insights-tile.png)    
 4. ¿Alguna información capta su interés? Seleccione esa tarjeta de información para profundizar aún más. A la izquierda, se muestra la información seleccionada y, a la derecha, nuevas tarjetas de información, basadas solo en los datos de esa única información.    
 6. Siga profundizando en los datos y, cuando encuentre una información interesante, ancle esta al panel mediante la selección de **Anclar objeto visual** en la esquina superior derecha.
 

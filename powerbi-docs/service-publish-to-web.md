@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/27/2017
 ms.author: maghan
-ms.openlocfilehash: 890c748c7e7502394fd2e6e024521e99082a1c77
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Share your work
+ms.openlocfilehash: ee1b403eaa8456266b452ff34814dc4f4059d9a6
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
@@ -135,7 +136,7 @@ Los objetos visuales personalizados se admiten en **Publicar en Web**. Si usa Pu
 La característica **Publicar en Web** se admite para la gran mayoría de los orígenes de datos e informes del servicio Power BI, aunque los siguientes no se admiten o no están disponibles actualmente con esta característica:
 
 1. Informes que usan la seguridad de nivel de fila.
-2. Informes que usan Analysis Services Tabular hospedado de forma local.
+2. Informes que usan cualquier origen de datos de conexión dinámica, incluido Analysis Services Tabular hospedado en local, Analysis Service Multidimensional, Azure Analysis Services y el servicio Power BI.
 3. Informes compartidos con usted directamente o a través de un paquete de contenido organizativo.
 4. Informes en un grupo en el que no es miembro de edición.
 5. Los objetos visuales "R" no se admiten actualmente en informes de Publicar en Web.

@@ -16,17 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 6c29f0915009fced89c80e05f40b91c467e505ce
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>Mostrar los paneles de Power BI que se han compartido conmigo
 ## <a name="shared-with-me"></a>Compartido conmigo
-![](media/service-shared-with-me/power-bi-share-dash.png)
+![Icono de uso compartido](media/service-shared-with-me/power-bi-share-dash.png)
 
 Cuando algún compañero comparta un panel con usted, su título se agrega a la lista **Compartido conmigo**. El panel solo está disponible en **Compartido conmigo** y no en las áreas de trabajo ni en las **Aplicaciones**.
 
@@ -38,8 +39,8 @@ Tendrá muchas opciones para interactuar con el panel y el informe subyacente, e
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>Acciones disponibles en la pantalla **Compartido conmigo**
 * Selección del icono de estrella para añadir [un panel a Favoritos](service-dashboard-favorite.md).
-* [Eliminación de paneles](service-delete.md)  ![](media/service-shared-with-me/power-bi-delete-icon.png)
-* Algunos paneles se pueden volver a compartir  ![](media/service-shared-with-me/power-bi-share-icon-new.png)
+* [Quitar un panel](service-delete.md) ![icono de papelera](media/service-shared-with-me/power-bi-delete-icon.png)
+* Algunos paneles se pueden volver a compartir  ![Icono de uso compartido](media/service-shared-with-me/power-bi-share-icon-new.png)
 * Además, si las listas de paneles son largas, puede [usar el campo de búsqueda y la ordenación para encontrar lo que necesite](service-navigation-search-filter-sort.md).
   
   > [!NOTE]
@@ -51,7 +52,7 @@ Tendrá muchas opciones para interactuar con el panel y el informe subyacente, e
 ## <a name="filter-shared-dashboards-by-owner"></a>Filtro de los paneles compartidos por propietario
 El contenido de la pantalla **Compartido conmigo** se puede filtrar aún más, por el propietario del contenido. Por ejemplo, si seleccionamos **Amanda**, veremos solo el panel que Amanda haya compartido conmigo.
 
-![](media/service-shared-with-me/power-bi-owner.png)
+![Panel filtrado por propietario](media/service-shared-with-me/power-bi-owner.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Power BI: Conceptos básicos](service-basic-concepts.md)  

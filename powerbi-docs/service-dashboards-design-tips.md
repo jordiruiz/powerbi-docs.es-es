@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 83b813ccdc9ed0ef232f5eede715ad3a795253d0
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Sugerencias para diseñar un panel de Power BI fantástico
 Ahora que ya creó un panel y agregó algunos iconos, piense en cómo conseguir un panel atractivo, a la par que funcional. En general, esto se consigue destacando la información más importante y manteniéndolo limpio y despejado.
@@ -50,7 +51,7 @@ Muestre su panel en [pantalla completa](service-fullscreen-mode.md) sin distracc
 
 ### <a name="make-the-most-important-information-biggest"></a>Muestre la información más importante a mayor tamaño
 Si el texto y las visualizaciones son del mismo tamaño en el panel, a los lectores les costará centrarse en lo más importante. Por ejemplo, las visualizaciones de tarjeta son una buena forma de mostrar un número importante de forma destacada:  
-![](media/service-dashboards-design-tips/pbi_card.png)
+![Visualización de tarjeta](media/service-dashboards-design-tips/pbi_card.png)
 
 Pero no olvide proporcionar un contexto.  
 

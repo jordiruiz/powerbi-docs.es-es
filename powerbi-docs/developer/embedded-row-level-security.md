@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: b9d39e2214b20677141a6e6beb9d61b628c320c2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2dde59bba1c5d9ded1c82cf2dd1086be14f19304
+ms.sourcegitcommit: d6e013eb6291ae832970e220830d9862a697d1be
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Uso de la seguridad de nivel de fila con contenido insertado de Power BI
 La seguridad de nivel de fila (RLS) se puede usar para restringir el acceso de usuarios a los datos de paneles, iconos, informes y conjuntos de datos. Varios usuarios diferentes pueden trabajar con esos mismos artefactos mientras ven otros datos distintos. La inserción admite RLS.
@@ -140,6 +140,47 @@ Una [puerta de enlace de datos local](../service-gateway-onprem.md) se usa cuand
 
 Los roles se pueden proporcionar con la identidad en un token de inserción. Si no se proporciona ningún rol, se utilizará el nombre de usuario que se proporcionó para resolver los roles asociados.
 
+**Uso de la característica CustomData**
+
+La característica CustomData permite pasar texto sin formato (cadena) mediante la propiedad de cadena de conexión CustomData, un valor que va a usar AS (mediante la función CUSTOMDATA()).
+Puede usarla como una manera alternativa de personalizar el uso de datos.
+Se puede usar dentro de la consulta DAX de rol y también sin ningún rol en una consulta DAX de medida.
+La característica CustomData forma parte de la funcionalidad de generación de tokens para los siguientes artefactos: panel, informe e icono. Los paneles pueden tener varias identidades CustomData (una por icono o modelo).
+
+> [!NOTE]
+> La característica CustomData solo funciona para los modelos que residen en Azure Analysis Services y únicamente en modo real. A diferencia de los usuarios y los roles, la característica CustomData no se puede establecer en un archivo .pbix. Cuando genere un token con la característica CustomData, debe tener un nombre de usuario.
+>
+>
+
+**Adiciones del SDK de CustomData**
+
+La propiedad de cadena CustomData se ha agregado a la identidad efectiva en el escenario de generación de tokens.
+        
+        [JsonProperty(PropertyName = "customData")]
+        public string CustomData { get; set; }
+
+La identidad se puede crear con CustomData mediante la siguiente llamada:
+
+        public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+
+**Uso del SDK de CustomData**
+
+Si llama a la API REST, puede agregar CustomData dentro de cada identidad, p. ej.:
+
+```
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "username": "EffectiveIdentity",
+            "roles": [ "Role1", "Role2" ],
+            "customData": "MyCustomData",
+            "datasets": [ "fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc" ]
+        }
+    ]
+}
+```
+
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 * La asignación de usuarios a roles dentro del servicio Power BI no afecta a RLS cuando se usa un token de inserción.
 * Aunque el servicio Power BI no aplicará valores de RLS a administradores o miembros con permisos de edición, cuando se suministre una identidad con un token de inserción, se aplicará a todos los datos.
@@ -150,4 +191,3 @@ Los roles se pueden proporcionar con la identidad en un token de inserción. Si 
 * Una lista de identidades habilita varios tokens de identidad para la inserción del panel. Para todos los demás artefactos, la lista contiene una sola identidad.
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

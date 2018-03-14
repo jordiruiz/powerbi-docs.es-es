@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Habilitación de preguntas y respuestas para conexiones dinámicas
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>¿Qué es una puerta de enlace de datos local?  ¿Qué es una conexión dinámica?
@@ -44,15 +45,15 @@ Para más información, consulte:
 ## <a name="enable-qa"></a>Habilitación de Preguntas y respuestas
 Una vez que haya configurado la puerta de enlace de datos, conéctese a los datos desde Power BI.  Puede crear un panel con sus datos locales, o bien puede cargar un archivo .pbix que use datos locales.  Además, puede que ya tenga datos locales en paneles, informes y conjuntos de datos que le hayan compartido.
 
-1. En la esquina superior derecha de Power BI, seleccione el icono de engranaje ![](media/service-q-and-a-direct-query/power-bi-cog.png) y elija **Configuración**.
+1. En la esquina superior derecha de Power BI, seleccione el icono de engranaje ![icono de engranaje](media/service-q-and-a-direct-query/power-bi-cog.png) y elija **Configuración**.
    
-   ![](media/service-q-and-a-direct-query/powerbi-settings.png)
+   ![Menú Configuración](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. Seleccione **conjuntos de datos** y elija el conjunto de datos que se va a habilitar para Preguntas y respuestas.
    
-   ![](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
+   ![Pantalla Conjuntos de datos del menú Configuración](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
 3. Expanda **Preguntas y respuestas y Cortana**, active la casilla **Activar Preguntas y respuestas para este conjunto de datos** y elija **Aplicar**.
    
-    ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
+    ![Área Preguntas y respuestas expandida](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>¿Qué datos se almacenan en caché y cómo se protege la privacidad?
 Cuando habilita Preguntas y respuestas para los datos locales, se almacena un subconjunto de los datos en el caché del servicio. Esto se hace para garantizar que Preguntas y respuestas tenga un rendimiento razonable. Power BI excluye del almacenamiento en caché los valores que superan los 24 caracteres. La memoria caché se elimina dentro de unas horas cuando desactiva la opción **Activar Preguntas y respuestas para este conjunto de datos** para deshabilitar Preguntas y respuestas, o bien cuando elimina el conjunto de datos.

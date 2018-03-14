@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 527978a3559abdc7c46b08569af40b769e9054e4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b38866b2a9989af529e89cd358f25716072c46bb
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow y Power BI
 
@@ -46,44 +46,44 @@ En esta tarea utilizaremos una plantilla para crear un flujo sencillo que se des
 1. Inicie sesión en Microsoft Flow (flow.microsoft.com).
 2. Seleccione **Mis flujos**.
    
-   ![](media/service-flow-integration/power-bi-my-flows.png)
+   ![Barra de menús de Flow](media/service-flow-integration/power-bi-my-flows.png)
 3. Seleccione **Crear desde plantilla**.
    
-    ![](media/service-flow-integration/power-bi-template.png)
+    ![Barra de menús Mis flujos](media/service-flow-integration/power-bi-template.png)
 4. Utilice el cuadro de búsqueda para encontrar plantillas de Power BI y active **Enviar un correo electrónico al público cuando se desencadene una alerta de datos de Power BI > Continuar**.
    
-    ![](media/service-flow-integration/power-bi-flow-alert.png)
+    ![Resultados de búsqueda](media/service-flow-integration/power-bi-flow-alert.png)
 
 
 ### <a name="build-the-flow"></a>Crear un flujo
 Esta plantilla tiene un desencadenador (alerta de datos de Power BI sobre las nuevas medallas olímpicas de Irlanda) y una acción (enviar un correo electrónico). Cuando seleccione un campo, Flow mostrará el contenido dinámico que puede incluir.  En este ejemplo incluiremos el valor y la URL del icono en el cuerpo del mensaje.
 
-![](media/service-flow-integration/power-bi-template1.png)
+![Plantilla de flujo](media/service-flow-integration/power-bi-template1.png)
 
 1. En la lista desplegable del desencadenador, seleccione una alerta de datos de Power BI. Seleccione **Nueva medalla para Irlanda**. Para obtener información sobre cómo crear una alerta, consulte [Alertas de datos de Power BI](service-set-data-alerts.md).
    
-   ![](media/service-flow-integration/power-bi-trigger-flow.png)
+   ![Menú desplegable de alertas](media/service-flow-integration/power-bi-trigger-flow.png)
 2. Escriba una o varias direcciones de correo electrónico válida y, a continuación, seleccione **Editar** (se muestra a continuación) o **Agregar contenido dinámico**. 
    
-   ![](media/service-flow-integration/power-bi-flow-email.png)
+   ![Pantalla para enviar correo electrónico](media/service-flow-integration/power-bi-flow-email.png)
 
 3. Flow crea un título y un mensaje que se pueden conservar o modificar. Todos los valores que se establecen al crear la alerta en Power BI están disponibles para su uso: solo tiene que colocar el cursor y seleccionar el área resaltada en gris. 
 
-   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+   ![Pantalla para enviar correo electrónico](media/service-flow-integration/power-bi-flow-email-default.png)
 
 1.  Por ejemplo, si crea un título de alerta en Power BI de **Hemos ganado otra medalla**, puede seleccionar **Título de la alerta** para agregar texto al campo Asunto del correo electrónico.
 
-    ![](media/service-flow-integration/power-bi-flow-message.png)
+    ![Creación del texto del correo electrónico](media/service-flow-integration/power-bi-flow-message.png)
 
     Y puede aceptar el cuerpo del correo electrónico predeterminado o crear el suyo propio. El ejemplo anterior contiene algunas modificaciones al mensaje.
 
 1. Cuando haya terminado, seleccione **Crear flujo** o **Guardar flujo**.  A continuación, se creará un flujo y se evaluará.  Recibirá un aviso en caso de que Flow detecte errores.
 2. Si se detectan, seleccione **Editar flujo** para corregirlos. En caso contrario, seleccione **Listo** para ejecutar el nuevo flujo.
    
-   ![](media/service-flow-integration/power-bi-flow-running.png)
+   ![Mensaje de proceso correcto](media/service-flow-integration/power-bi-flow-running.png)
 5. Cuando se desencadena la alerta de datos, se envía un correo electrónico a las direcciones que se han indicado.  
    
-   ![](media/service-flow-integration/power-bi-flow-email2.png)
+   ![Correo electrónico de alerta](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Crear un flujo que use Power BI (desde cero)
 En esta tarea crearemos desde cero un flujo sencillo que se desencadene mediante una alerta de datos de Power BI (notificación).
@@ -91,28 +91,28 @@ En esta tarea crearemos desde cero un flujo sencillo que se desencadene mediante
 1. Inicie sesión en Microsoft Flow.
 2. Seleccione **Mis flujos** > **Crear desde cero**.
    
-   ![](media/service-flow-integration/power-bi-my-flows.png)
+   ![Barra de menús superior de Flow](media/service-flow-integration/power-bi-my-flows.png)
 3. Utilice el cuadro de búsqueda para encontrar un desencadenador de Power BI y seleccione **Power BI - When a data driven alert is triggered** (Power BI: cuando se desencadene una alerta por datos).
 
 ### <a name="build-your-flow"></a>Crear un flujo
 1. Seleccione el nombre de la alerta en la lista desplegable.  Para obtener información sobre cómo crear una alerta, consulte [Alertas de datos de Power BI](service-set-data-alerts.md).
    
-    ![](media/service-flow-integration/power-bi-totalstores2.png)
+    ![Selección del nombre de la alerta](media/service-flow-integration/power-bi-totalstores2.png)
 2. Seleccione **Nuevo paso** > **Agregar una acción**.
    
-   ![](media/service-flow-integration/power-bi-new-step.png)
+   ![Adición de un nuevo paso](media/service-flow-integration/power-bi-new-step.png)
 3. Busque **Outlook** y seleccione **Crear evento**.
    
-   ![](media/service-flow-integration/power-bi-create-event.png)
+   ![Creación del flujo](media/service-flow-integration/power-bi-create-event.png)
 4. Rellene los campos del evento. Cuando seleccione un campo, Flow mostrará el contenido dinámico que puede incluir.
    
-   ![](media/service-flow-integration/power-bi-flow-event.png)
+   ![Continuación de la creación del flujo](media/service-flow-integration/power-bi-flow-event.png)
 5. Seleccione **Crear flujo** cuando haya terminado.  A continuación, el flujo se guardará y evaluará en Flow. Si no hay ningún error, seleccione **Listo** para ejecutar el flujo.  El nuevo flujo se agregará a la página **Mis flujos**.
    
-   ![](media/service-flow-integration/power-bi-flow-running.png)
+   ![Finalización del flujo](media/service-flow-integration/power-bi-flow-running.png)
 6. Cuando una alerta de datos de Power BI desencadene el flujo, recibirá una notificación de evento de Outlook similar a esta.
    
-    ![](media/service-flow-integration/power-bi-flow-notice.png)
+    ![Flujo desencadena notificación de Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Empezar a utilizar Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)

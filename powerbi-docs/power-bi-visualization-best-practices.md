@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 202f92b9c7089a4bd9bb5dd976051bba47da632e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 634dc4efe6553a9de91716552a21563f5405fa69
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Prácticas recomendadas de diseño para informes y elementos visuales
 <!-- Shared newnav Include -->
@@ -215,7 +216,7 @@ Al configurar los fondos para las páginas del informe, seleccione colores que n
 
 No está creando una obra de arte, sino un informe funcional. Seleccione un color que mejore la legibilidad y que haga destacar los elementos del informe.  
 
-Según un estudio sobre el uso de colores y las visualizaciones en páginas web, un mayor contraste entre colores aumenta la velocidad de comprensión (*El efecto del color del texto y el fondo en la búsqueda visual de páginas web** y **Determinar la percepción de los usuarios de la complejidad visual y las características estéticas de las páginas web*).
+Según un estudio sobre el uso de colores y visualizaciones en páginas web, un mayor contraste entre colores aumenta la velocidad de comprensión (The effect of text and background colour on visual search of Web pages [El efecto del color del texto y el fondo en la búsqueda visual de páginas web] y **Determining Users’ Perception of Web Page Visual Complexity and Aesthetic Characteristics** [Determinar la percepción de los usuarios de la complejidad visual y las características estéticas de las páginas web]).
 
 Hemos aplicado algunos procedimientos recomendados para los colores en nuestro informe de ejemplo (ilustraciones 20 y 21) más abajo. El cambio que más se aprecia ha sido cambiar el color del fondo a negro.  El amarillo era demasiado brillante y dañaba a los ojos.  Además, en el gráfico “Nombres de atletas por año y clase”, la parte amarilla de las barras desaparecía en el fondo amarillo.  Al usar un fondo negro (o blanco), se consigue un contraste máximo y hace que los objetos visuales sean del foco de atención.
 

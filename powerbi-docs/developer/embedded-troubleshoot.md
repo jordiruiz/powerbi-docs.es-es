@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 1/17/2018
+ms.date: 2/26/2018
 ms.author: maghan
-ms.openlocfilehash: 2936fa40700895d9953bb227cc30e68d64ae9205
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78e3361578b82a9ebf69feae1f7a8ac54966bbc9
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Solución de problemas de una aplicación insertada
 
@@ -82,6 +82,7 @@ La **llamada a la API devuelve 403**
 
 Es posible que se necesite una captura de Fiddler para poder investigar más. En error 403 puede deberse a varios motivos.
 
+* El usuario ha superado la cantidad de tokens de inserción que se pueden generar en una capacidad compartida. Debe adquirir capacidades de Azure para generar tokens de inserción y asignar el área de trabajo a esa capacidad. Vea [Creación de una capacidad de Power BI Embedded en Azure Portal](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity).
 * El token de autenticación de Azure AD ha expirado.
 * El usuario autenticado no es miembro del grupo (área de trabajo de la aplicación).
 * El usuario autenticado no es administrador del grupo (área de trabajo de la aplicación).

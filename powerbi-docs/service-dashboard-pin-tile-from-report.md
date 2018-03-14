@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 34574cf73d12d91df7a497cf297a9ecda9f5cc57
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 8fbc2ecafb34339a68b4ca5ecd0fa063082644a2
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Anclaje de un icono a un panel de Power BI desde un informe
 ## <a name="pinning-tiles-from-a-report"></a>Anclar iconos desde un informe
@@ -45,7 +46,7 @@ Ahora cree su propio panel con uno de los informes de ejemplo de Power BI.
 
 1. Mantenga el puntero sobre la visualización que desea anclar y seleccione el icono de anclaje ![](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png). Power BI abre la pantalla **Anclar en el panel** .
    
-     ![](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
+     ![Ventana Anclar al panel](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
 2. Decida si va a anclar el icono a un panel existente o a uno nuevo.
    
    * Panel existente: seleccione el nombre del panel en la lista desplegable. Los paneles compartidos con usted no aparecerán en la lista desplegable.
@@ -55,7 +56,7 @@ Ahora cree su propio panel con uno de los informes de ejemplo de Power BI.
    
    Un mensaje de confirmación (cerca de la esquina superior derecha) le permitirá saber que se ha agregado la visualización al panel como un icono.
    
-   ![](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
+   ![Mensaje de proceso correcto](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
 5. En el panel de navegación, seleccione el panel con el nuevo icono. Seleccione el icono para volver al informe. O bien, [edite la presentación y el comportamiento del icono](service-dashboard-edit-tile.md).
 
 ## <a name="pin-an-entire-report-page"></a>Anclar una página de informe completa

@@ -15,18 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 918047b08fe5b30bcdda7b0097c53381a476b98b
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Reports
+ms.openlocfilehash: e137a0af200da7c32d3261eb43d53c9d82a3b476
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="reorder-pages-in-a-report-in-power-bi"></a>Reordenación de páginas en un informe de Power BI
 En Power BI, un informe se compone de una o varias páginas.  Cada página tiene una pestaña en la parte inferior.  Para cambiar el orden de un informe, seleccione y arrastre la pestaña a su nueva ubicación.
 
-![](media/service-report-reorder-pages/reorder.gif)
+![Vídeo](media/service-report-reorder-pages/reorder.gif)
 
 ### <a name="next-steps"></a>Pasos siguientes
 Más información sobre [informes de Power BI](service-reports.md)  

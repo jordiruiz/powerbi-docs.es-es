@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: a7c4db0044772c28a3cb7a62649de3001945246c
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Reports
+ms.openlocfilehash: 7e2ef4a1ec49335a49e7f934a7606b2fe64f755c
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="visualization-interactions-in-a-power-bi-report"></a>Interacciones de visualización en un informe de Power BI
 Si tiene permisos de edición de un informe, puede usar las **Interacciones de objetos visuales** para cambiar cómo afectan las visualizaciones de una página de informe entre sí. 
@@ -44,24 +45,24 @@ En este artículo se le enseña a usar **interacciones de objetos visuales** en 
 2. Muestre las opciones de **Interacciones de objetos visuales**.
     - En el servicio Power BI, seleccione el menú desplegable de la barra de menús de informes.
 
-       ![](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
+       ![Menú desplegable de interacciones de un objeto visual](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
 
     - En Escritorio, seleccione **Formato > Interacciones**.
 
-        ![](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
+        ![Selección de Formato e Interacciones](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
 
 3. Para activar los controles de interacción de objetos visuales, seleccione **Editar interacciones**. Power BI agrega iconos de filtro cruzado y de resaltado cruzado a todas las demás visualizaciones de la página de informe.
    
-    ![](media/service-reports-visual-interactions/power-bi-icons-on.png)
+    ![Informe con interacciones de un objeto visual activadas](media/service-reports-visual-interactions/power-bi-icons-on.png)
 3. Determine el impacto que tendrá la visualización seleccionada en las otras.  Opcionalmente, repita el proceso para todas las otras visualizaciones en la página del informe.
    
-   * Si debe aplicar un filtro cruzado a la visualización, seleccione el icono de **filtro** ![](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png).
-   * Si debe aplicar un resaltado cruzado a la visualización, seleccione el icono de **resaltado** ![](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png).
-   * Si no debe tener ningún impacto, seleccione el icono de **sin impacto**.![](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png)
+   * Si debe aplicar un filtro cruzado a la visualización, seleccione el icono de **filtro** ![icono de filtro](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png).
+   * Si debe aplicar un resaltado cruzado a la visualización, seleccione el icono de **resaltado** ![icono de resaltado](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png).
+   * Si no debe tener ningún impacto, seleccione el icono de **sin impacto** ![icono de sin impacto](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png).
 
 4. Para activar los controles de obtención de detalles, seleccione **Filtros de detalles en otros objetos visuales**.  Ahora, al explorar una visualización, las demás visualizaciones de la página de informes cambiarán para reflejar la selección de obtención de detalles actual. 
 
-   ![](media/service-reports-visual-interactions/drill2.gif)
+   ![Vídeo de la activación de los controles de obtención de detalles](media/service-reports-visual-interactions/drill2.gif)
 
 ### <a name="next-steps"></a>Pasos siguientes
 [Uso de filtros de informe](power-bi-how-to-report-filter.md)

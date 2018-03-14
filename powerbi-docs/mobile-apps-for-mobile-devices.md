@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6803c8aa2898c9ab27b515c04d7db813e7d44ea4
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 7285e15b6f63cc53b9221a46e0a524313c413cda
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="take-power-bi-anywhere-in-mobile-apps-for-your-mobile-device"></a>Use Power BI en cualquier parte gracias a sus aplicaciones móviles para dispositivos de este tipo
 Consulte los informes y paneles de Power BI en el servicio Power BI ([https://powerbi.com](https://powerbi.com)), así como los informes locales de Power BI en [Power BI Report Server](report-server/get-started.md). Ahora ya puede conectarse a sus datos, de forma local y en la nube, con las aplicaciones móviles de Power BI. Intente ver los paneles e informes de Power BI e interactuar con ellos en el dispositivo móvil, ya sea un dispositivo iOS (iPad, iPhone, iPod Touch o Apple Watch), un teléfono o tableta Android, o un dispositivo con Windows 10.
@@ -51,4 +51,5 @@ Obtenga más información sobre cómo [configurar aplicaciones móviles de Power
 ## <a name="next-steps"></a>Pasos siguientes
 * [Power BI gratuito frente a licencias profesionales](service-free-vs-pro.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+
 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: eb6c5c5c6ff010e8ed117c643e9763acfa73cfee
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 33e003c4e45cf851dbdf2bc602807a57d1ba49af
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creación de un panel de Power BI desde un informe
 Ha leído [Paneles en Power BI](service-dashboards.md) y ahora desea crear los suyos propios. Hay muchas maneras diferentes de crear un panel: desde un informe, desde cero, desde un conjunto de datos, al duplicar un panel existente, etc.  
@@ -36,7 +36,7 @@ La creación de un panel es una característica del **creador** y necesita permi
 >
 > 
 
-![](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![Panel](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 ## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Vídeo: Creación de un panel con objetos visuales e imágenes anclados desde un informe
 Vea cómo crea Amanda un nuevo panel anclando visualizaciones de un informe. Después, siga los pasos que aparecen debajo del vídeo para probarlo usted mismo mediante el ejemplo Procurement Analysis.
@@ -54,62 +54,62 @@ Vamos a importar uno de los conjuntos de datos de ejemplo de Power BI y usarlo p
 3. Seleccione **Mi área de trabajo**.
 4. En el panel de navegación izquierdo, seleccione **Obtener datos**.
 
-    ![](media/service-dashboard-create/power-bi-get-data3.png)
+    ![Panel de navegación izquierdo](media/service-dashboard-create/power-bi-get-data3.png)
 5. Seleccione **Archivos**.
 
-   ![](media/service-dashboard-create/power-bi-select-files.png)
+   ![Obtención de archivos](media/service-dashboard-create/power-bi-select-files.png)
 6. Navegue hasta la ubicación donde guardó el archivo de Excel del ejemplo de análisis de adquisiciones. Selecciónelo y elija **Conectar**.
 
-   ![](media/service-dashboard-create/power-bi-connectnew.png)
+   ![Conexión a archivos](media/service-dashboard-create/power-bi-connectnew.png)
 7. Para este ejercicio, seleccione **Importar**.
 
-    ![](media/service-dashboard-create/power-bi-import.png)
+    ![Ventana OneDrive para la Empresa](media/service-dashboard-create/power-bi-import.png)
 8. Cuando aparezca el mensaje de operación correcta, seleccione la **x** para cerrarlo.
 
-   ![](media/service-dashboard-create/power-bi-view-datasetnew.png)
+   ![Mensaje de proceso correcto](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 ### <a name="open-the-report-and-pin-some-tiles-to-a-dashboard"></a>Abra el informe y ancle algunos iconos en un panel
 1. En la misma área de trabajo, seleccione la pestaña **Informes**. El informe recién importado se muestra con un asterisco amarillo. Seleccione el nombre del informe para abrirlo.
 
-    ![](media/service-dashboard-create/power-bi-reports.png)
+    ![Pestaña Informes](media/service-dashboard-create/power-bi-reports.png)
 2. El informe se abrirá en [Vista de lectura](service-reading-view-and-editing-view.md). Observe que tiene dos pestañas en la parte inferior: "Análisis de descuento" y "Resumen de gastos". Cada pestaña representa una página del informe.
     Seleccione **Editar informe** para abrir el informe en la vista de edición.
 
-    ![](media/service-dashboard-create/power-bi-reading-view.png)
+    ![Informe en vista de lectura](media/service-dashboard-create/power-bi-reading-view.png)
 3. Mantenga el mouse sobre una visualización para mostrar las opciones disponibles. Para agregar una visualización a un panel, seleccione el icono ![](media/service-dashboard-create/power-bi-pin-icon.png) de anclaje.
 
-    ![](media/service-dashboard-create/power-bi-hover.png)
+    ![Puntero sobre icono](media/service-dashboard-create/power-bi-hover.png)
 4. Puesto que estamos creando un nuevo panel, seleccione la opción de **Nuevo panel** y asígnele un nombre.
 
-   ![](media/service-dashboard-create/power-bi-pin-tile.png)
+   ![Cuadro de diálogo Anclar al panel](media/service-dashboard-create/power-bi-pin-tile.png)
 5. Al seleccionar **Anclar**, Power BI crea el nuevo panel en el área de trabajo actual. Cuando aparece el mensaje **Anclado al panel**, seleccione **Ir al panel**. Si se le pide que guarde el informe, elija **Guardar**.
 
-     ![](media/service-dashboard-create/power-bi-pin-success.png)
+     ![Mensaje de proceso correcto](media/service-dashboard-create/power-bi-pin-success.png)
 6. Power BI abre el nuevo panel y aparece un icono: la visualización que acaba de anclar.
 
-   ![](media/service-dashboard-create/power-bi-pinned.png)
+   ![Panel con un icono](media/service-dashboard-create/power-bi-pinned.png)
 7. Para volver al informe, seleccione el icono. Ancle algunos iconos más en el nuevo panel. Esta vez, cuando se muestra la ventana **Anclar en el panel**, seleccione **Panel existente**.  
 
-   ![](media/service-dashboard-create/power-bi-existing-dashboard.png)
+   ![Cuadro de diálogo Anclar al panel](media/service-dashboard-create/power-bi-existing-dashboard.png)
 
 ## <a name="pin-an-entire-report-page-to-the-dashboard"></a>Anclado de una página de informe completa al panel
 En lugar de anclado un objeto visual a la vez, puede [anclar una página de informe completo como un *icono dinámico*](service-dashboard-pin-live-tile-from-report.md). Hagámoslo.
 
 1. En el editor de informes, seleccione la pestaña **Spend Overview** para abrir la segunda página del informe.
 
-   ![](media/service-dashboard-create/power-bi-page-tab.png)
+   ![Pestaña Informe](media/service-dashboard-create/power-bi-page-tab.png)
 
 2. Querrá todos estos objetos visuales en el panel.  En la esquina superior derecha de la barra de menús, seleccione **Página Anclar elemento activo**. En el panel, los iconos de la página activa se actualizan cada vez que se actualice la página.
 
-   ![](media/service-dashboard-create/power-bi-pin-live.png)
+   ![Parte superior derecha del editor de informes](media/service-dashboard-create/power-bi-pin-live.png)
 
 3. Cuando se muestra la ventana **Anclar en el panel**, seleccione **Panel existente**.
 
-   ![](media/service-dashboard-create/power-bi-pin-live2.png)
+   ![Cuadro de diálogo Anclar al panel](media/service-dashboard-create/power-bi-pin-live2.png)
 
 4. Cuando aparezca el mensaje de operación correcta, seleccione **Ir al panel**. Allí verá los iconos que ha anclado en el informe. En el ejemplo siguiente, hemos anclado dos iconos de la página 1 del informe y un icono activo que es la segunda página del informe.
 
-   ![](media/service-dashboard-create/power-bi-dashboard.png)
+   ![Panel](media/service-dashboard-create/power-bi-dashboard.png)
 
 Enhorabuena por crear su primer panel. Ahora que tiene un panel, puede hacer mucho más con él.  Pruebe uno de los **Pasos siguientes** sugeridos que aparece a continuación o inicie la reproducción y exploración por su cuenta.   
 
