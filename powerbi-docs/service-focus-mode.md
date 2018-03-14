@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1a4290d06d623b21b64e1ff03fb0382a55dc2a3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Muestra de un icono de panel o un objeto visual de informe en modo de enfoque
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
@@ -36,39 +36,41 @@ El modo ***Enfoque*** permite expandir (hacer emerger) un icono del panel o un o
 > El modo de enfoque es diferente al [modo de pantalla completa](service-fullscreen-mode.md).
 > 
 ## <a name="focus-mode-for-dashboard-tiles"></a>Modo de enfoque para iconos de paneles
-1. Mantenga el puntero sobre la visualización del icono, seleccione el botón de puntos suspensivos (...) y elija **Abrir en modo de enfoque** ![](media/service-focus-mode/power-bi-dashboard-focus-mode.png).  
+1. Mantenga el puntero sobre la visualización del icono, seleccione el botón de puntos suspensivos (...) y elija **Abrir en modo de enfoque** 
+
+    ![menú del botón de puntos suspensivos de icono](media/service-focus-mode/power-bi-dashboard-focus-mode.png).
    
 2. El icono se abre y pasa a ocupar todo el lienzo del informe. 
 
-   ![](media/service-focus-mode/power-bi-tile-focus.png)
+   ![Icono que rellena el lienzo del informe](media/service-focus-mode/power-bi-tile-focus.png)
 
 3. Expanda el panel Filtros para ver todos los filtros aplicados a este objeto visual.
    
-   ![](media/service-focus-mode/power-bi-focus-filters.png)
+   ![Modo de enfoque con panel Filtros](media/service-focus-mode/power-bi-focus-filters.png)
 
 4. Si desea explorar más, modifique los filtros y, si encuentra algo interesante, ancle el objeto visual a un panel.
 
 5. Cierre el modo de enfoque y vuelva al panel. Para ello, seleccione **< Salir del modo de enfoque** (en la esquina superior izquierda del objeto visual).
    
-    ![](media/service-focus-mode/power-bi-tile-exit-focus.png)    
+    ![Cierre del modo de enfoque](media/service-focus-mode/power-bi-tile-exit-focus.png)    
 
 
 ## <a name="focus-mode-for-report-visualizations"></a>Modo de enfoque para las visualizaciones de informes
 
-1. Mantenga el puntero sobre la visualización del informe y seleccione el icono del **modo de enfoque** ![](media/service-focus-mode/pbi_popout.jpg).  
+1. Mantenga el puntero sobre la visualización del informe y seleccione el icono del **modo de enfoque** ![icono del modo de enfoque](media/service-focus-mode/pbi_popout.jpg).  
    
-   ![](media/service-focus-mode/power-bi-hover-focus.png)
+   ![Icono de enfoque sobre icono](media/service-focus-mode/power-bi-hover-focus.png)
 2. La visualización se abre y pasa a ocupar todo el lienzo. 
 
    
-   ![](media/service-focus-mode/power-bi-display-focus-newer2.png)
+   ![Objeto visual en modo de enfoque](media/service-focus-mode/power-bi-display-focus-newer2.png)
 3. Expanda el panel Filtros para ver todos los filtros aplicados a este objeto visual.
    
-   ![](media/service-focus-mode/power-bi-display-focus-filters.png)
+   ![Modo de enfoque con pantalla Filtros](media/service-focus-mode/power-bi-display-focus-filters.png)
 4. Si desea explorar más, modifique los filtros y, si encuentra algo interesante, ancle el objeto visual a un panel.   
 5. Cierre el modo de enfoque y vuelva al informe. Para ello, seleccione **Volver al informe** (en la esquina superior izquierda del objeto visual). 
    
-    ![](media/service-focus-mode/power-bi-exit-focus-report.png)  
+    ![Cierre del modo de enfoque](media/service-focus-mode/power-bi-exit-focus-report.png)  
 
 ## <a name="go-from-focus-mode-to-full-screen-mode"></a>Ir del modo de enfoque al modo de pantalla completa
 Una vez que esté en el modo de enfoque, el icono o el objeto visual se pueden [ver en pantalla completa (modo de televisión).](service-fullscreen-mode.md) El modo de pantalla completa muestra los objetos sin la distracción de menús y botones de navegación.

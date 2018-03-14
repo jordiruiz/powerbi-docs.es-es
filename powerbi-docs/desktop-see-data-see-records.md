@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/22/2018
 ms.author: davidi
-ms.openlocfilehash: a61a5d46c2f663ff7e8388a862f5649487504092
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Learn more
+ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Usar Ver datos y Ver registros en Power BI Desktop
 En **Power BI Desktop** puede profundizar en los detalles de cualquier objeto visual y ver una representación textual de los datos o de elementos de datos individuales de un objeto visual seleccionado. Estas características se conocen a veces como *click-through*, o *drill-through* u *obtención de detalles*.
@@ -69,6 +70,9 @@ También puede centrarse en un elemento de datos de un objeto visual y profundiz
 Una vez que **Ver registros** está seleccionado, **Power BI Desktop** se centra en ese elemento de datos individuales y dedica el área del lienzo a mostrar los datos de dicho elemento, tal como se ve en la siguiente imagen.
 
 ![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+
+> [!NOTE]
+> No se pueden guardar los cambios de datos que se ven (o son modificados por los usuarios) en la vista **Ver registros** para un informe.
 
 Para volver al informe, seleccione el botón **Volver al informe** en la esquina superior izquierda del lienzo.
 

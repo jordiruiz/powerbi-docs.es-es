@@ -15,18 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Reports
+ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Vista de lectura y vista de edición de informes del servicio Power BI
 En el servicio Power BI (no en Power BI Desktop) existen dos modos para ver e interactuar con los informes: la vista de lectura y la vista de edición. La vista de lectura está disponible para todos los usuarios y está diseñada especialmente para los *consumidores* de datos, mientras que la vista de edición solo está disponible para los propietarios y *creadores* de informes. 
 
-![](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
+![Ilustración de creadores de informes y consumidores de informes](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>Vista de lectura del informe
 
@@ -83,17 +84,17 @@ Recuerde que solo los propietarios y los creadores de informes pueden abrir un i
 
 1. De forma predeterminada, el informe se abre normalmente en la Vista de lectura. Puede ver que está en la vista de lectura si ve una opción para **Editar informe**. Si la opción **Editar informe** aparece deshabilitada significa que no tiene permisos para abrir el informe en la vista de edición.
 
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
+   ![Opción Editar informe atenuada](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
 2. Si la opción **Editar informe** está habilitada, selecciónela para abrir el informe en la vista de edición. 
    
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
+   ![Opción Editar informe](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
    
    El informe ya está en la vista de edición y usa la misma [configuración de pantalla](power-bi-report-display-settings.md) que se usó por última vez en la vista de lectura.
 
 2. Para volver a la **vista de lectura**, seleccione esta vista en la barra de navegación superior.
    
-    ![](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
+    ![Opción Vista de lectura](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
 

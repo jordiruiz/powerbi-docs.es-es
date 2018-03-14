@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Iconos de paneles en Power BI
 Los paneles y los iconos de paneles son una característica del servicio Power BI y no de Power BI Desktop. Aunque los iconos de paneles no se pueden crear ni anclar en Power BI Mobile, [se pueden ver y compartir](mobile-tiles-in-the-mobile-apps.md). Y, en Power BI Mobile, puede [agregar imágenes al panel con su aplicación de iPhone](mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>Iconos de panel
-![](media/service-dashboard-tiles/power-bi-dashboard.png)
+![Panel de Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
 
 Un icono es una instantánea de sus datos, anclado en el panel. Un icono se puede crear desde un informe, un conjunto de datos, un panel, un cuadro de Preguntas y respuestas, desde Excel, desde SQL Server Reporting Services (SSRS), etc.  Esta captura de pantalla muestra muchos iconos diferentes anclados a un panel.
 
@@ -53,34 +54,34 @@ Existen muchas maneras diferentes de agregar (anclar) un icono al panel. Los ico
 
 Asimismo, los iconos independientes de imágenes, cuadros de texto, vídeos, datos de transmisión y contenido web se pueden crear directamente en el panel mediante [Agregar icono](service-dashboard-add-widget.md).
 
-  ![](media/service-dashboard-tiles/add_widgetnew.png)
+  ![Icono de Agregar icono](media/service-dashboard-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Interactuar con los iconos en un panel
 ### <a name="move-and-resize-a-tile"></a>Mover un icono y cambiar su tamaño
-Capte un icono y [muévalo por el panel](service-dashboard-edit-tile.md). Mantenga el puntero en el identificador ![](media/service-dashboard-tiles/resize-handle.jpg) y selecciónelo para cambiar el tamaño del icono.
+Capte un icono y [muévalo por el panel](service-dashboard-edit-tile.md). Mantenga el puntero sobre el controlador ![controlador](media/service-dashboard-tiles/resize-handle.jpg) y selecciónelo para cambiar el tamaño del icono.
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Mantener el puntero sobre un icono para cambiar la apariencia y comportamiento
 1. Mantenga el puntero sobre el icono para que se muestren los puntos suspensivos.
    
-    ![](media/service-dashboard-tiles/ellipses_new.png)
+    ![Icono de botón de puntos suspensivos](media/service-dashboard-tiles/ellipses_new.png)
 2. Seleccione los puntos suspensivos (...) para abrir el menú de acciones del icono.
    
-    ![](media/service-dashboard-tiles/power-bi-tile-menu.png)
+    ![Icono de botón de puntos suspensivos](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     Desde aquí, puede:
    
-   * [Abra el informe que se usó para crear este icono ](service-reports.md)![](media/service-dashboard-tiles/chart-icon.jpg)  
+   * [Abrir el informe que se ha usado para crear este icono ](service-reports.md) ![icono de informe](media/service-dashboard-tiles/chart-icon.jpg)  
    
-   * [Abra la hoja de cálculo que se usó para crear este icono ](service-reports.md)![](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
+   * [Abrir la hoja de cálculo que se ha usado para crear este icono ](service-reports.md) ![icono de hoja de cálculo](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Vista en el modo de enfoque](service-focus-mode.md) ![](media/service-dashboard-tiles/fullscreen-icon.jpg)  
-     * [Exportar los datos que se usan en el icono](power-bi-visualization-export-data.md)![](media/service-dashboard-tiles/export-icon.png)
-     * [Editar el título y el subtítulo, agregar un hipervínculo y mostrar la hora de la última actualización](service-dashboard-edit-tile.md) ![](media/service-dashboard-tiles/pencil-icon.jpg).
-     * [Ejecutar Insights ](service-insights.md)![](media/service-dashboard-tiles/power-bi-insights.png)
+     * [Ver en modo de enfoque](service-focus-mode.md) ![icono de enfoque](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+     * [Exportar los datos usados en el icono](power-bi-visualization-export-data.md) ![icono de exportación de datos](media/service-dashboard-tiles/export-icon.png)
+     * [Editar el título y el subtítulo, agregar un hipervínculo y mostrar la hora de la última actualización](service-dashboard-edit-tile.md) ![icono de edición](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Ejecutar información ](service-insights.md) ![icono de información](media/service-dashboard-tiles/power-bi-insights.png)
      * [Anclar el icono a otro panel](service-pin-tile-to-another-dashboard.md)
-       ![](media/service-dashboard-tiles/pin-icon.jpg)
-   * [Quitar el icono](service-dashboard-edit-tile.md)
-     ![](media/service-dashboard-tiles/trash-icon.png)
+       ![icono de anclaje](media/service-dashboard-tiles/pin-icon.jpg)
+     * [Quitar el icono](service-dashboard-edit-tile.md)
+     ![icono de eliminación](media/service-dashboard-tiles/trash-icon.png)
 3. Para cerrar el menú Acción, seleccione un área en blanco en el lienzo.
 
 ### <a name="select-click-a-tile"></a>Seleccionar (hacer clic en) un icono

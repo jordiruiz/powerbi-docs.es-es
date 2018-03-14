@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 03be98e9aa2bd4d91357cc00208d82bd0116f69c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
+ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar objetos visuales personalizados en AppSource
 Aprenda a publicar objetos visuales personalizados en AppSource para que otros usuarios puedan descubrirlos y usarlos. Office
@@ -86,7 +86,7 @@ Siga estos pasos para completar el envío.
    * *Título del envío*: cómo se denominará el envío en el Centro para desarrolladores
    * *Versión*: el número de versión se rellena automáticamente desde el paquete de la aplicación del complemento.
    * *Fecha de lanzamiento (UTC)*: seleccione la fecha en que la aplicación se publicará en la tienda. Si se elige una fecha futura, la aplicación no estará disponible en la tienda hasta dicha fecha.
-   * *Categoría:* la primera categoría se rellenará como "Visualización de datos + BI" de forma automática. Así es como se etiquetarán todos los objetos visuales personalizados de Power BI. Puede especificar hasta dos categorías adicionales, lo ayuda a los usuarios a buscar fácilmente un objeto visual
+   * *Categoría:* la primera categoría se rellenará como "Visualización de datos + BI" de forma automática. Así es como se etiquetan todos los objetos visuales personalizados de Power BI. Puede proporcionar hasta dos categorías adicionales para ayudar a los usuarios a buscar fácilmente el objeto visual.
    * *Notas de pruebas:* opcional, si desea proporcionar instrucciones para los evaluadores de Microsoft
    * *Mi aplicación llama, admite, contiene o usa criptografía o cifrado*: déjela desactivada
    * *Establecer este complemento como disponible en el catálogo de complementos de Office para iPad*: déjela desactivada
@@ -121,7 +121,7 @@ Siga estos pasos para completar el envío.
     > Si selecciona cualquier otra opción que no sea la gratuita, o bien si en el objeto visual enviado hay contenido para compras desde la aplicación, el envío se rechazará.
     > 
     > 
-17. Ahora puede seleccionar **Guardar como borrador" y enviarlo más tarde, o bien **Enviar para aprobación** para enviar el objeto visual personalizado a la Tienda Office.
+17. Ahora puede seleccionar **Guardar como borrador** o **Enviar para aprobación** para enviar el objeto visual personalizado a la Tienda Office.
 
 ## <a name="tracking-submission-status-and-usage"></a>Seguimiento del uso y estado del envío
 Puede revisar las [directivas de validación](https://dev.office.com/officestore/docs/validation-policies#13-power-bi-custom-visuals).

@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/23/2018
 ms.author: maghan
-ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Administration
+ms.openlocfilehash: 15d1f391ba7a9c32ce1f8abd9620e84f16206e26
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
@@ -192,6 +193,19 @@ Los usuarios de la organización pueden publicar paquetes de contenido para toda
 ### <a name="create-template-organizational-content-packs"></a>Crear paquetes de plantilla de contenido de organización
 
 Los usuarios de la organización pueden crear paquetes de plantilla de contenido que utilizan conjuntos de datos integrados en un origen de datos de Power BI Desktop.
+
+### <a name="push-apps-to-end-users"></a>Insertar aplicaciones para los usuarios finales
+
+El administrador de inquilinos ofrece la posibilidad de insertar aplicaciones en **Configuración de inquilinos**.
+
+   ![Habilitar la inserción de aplicaciones](media/service-create-distribute-apps/power-bi-apps-pushapps01.png)
+
+Puede cambiar el valor a **Habilitado** y luego especificar quién obtiene esta capacidad (toda la organización o grupos de seguridad específicos).
+
+> [!NOTE]
+> Recuerde que los cambios de configuración de inquilinos pueden tardar algún tiempo en aplicarse.
+
+Vaya aquí para obtener más información sobre cómo [insertar aplicaciones](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users).
 
 ## <a name="integration-settings"></a>Configuración de integración
 

@@ -15,20 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 7c0bd2f342385f71fd91bb81a284ef41deb46169
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Reports
+ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Exportar un informe desde el servicio Power BI a Desktop (versión preliminar)
 En Power BI Desktop, puede exportar (también se denomina *descargar*) un informe al servicio Power BI, guardando este y seleccionando **Publicar**. También puede exportar en la otra dirección y descargar un informe desde el servicio Power BI a Desktop. La extensión de los archivos que se van a exportar, en cualquier dirección, es *.pbix*.
 
 Más adelante en este artículo se describen algunas limitaciones y consideraciones que deben tenerse en cuenta.
 
-![](media/service-export-to-pbix/power-bi-file-export.png)
+![Menú desplegable de archivos](media/service-export-to-pbix/power-bi-file-export.png)
 
 ## <a name="download-the-report-as-a-pbix"></a>Descargar el informe como un archivo .pbix
 Para descargar el archivo .pbix, haga lo siguiente:
@@ -42,18 +43,18 @@ Para descargar el archivo .pbix, haga lo siguiente:
    > 
 3. Mientras se crea el archivo .pbix, un banner de estado muestra el progreso. Cuando el archivo esté listo, se le pedirá que guarde o abra el archivo .pbix. El nombre del archivo coincide con el título del informe.
    
-    ![](media/service-export-to-pbix/power-bi-save-pbix.png)
+    ![Apertura, guardado o cancelación](media/service-export-to-pbix/power-bi-save-pbix.png)
    
     Ahora tiene la opción de abrir el archivo .pbix en el servicio Power BI (app.powerbi.com) o en Power BI Desktop.     
 4. Para abrir el informe inmediatamente en Desktop, seleccione **Abrir**. Para guardar el archivo en una ubicación específica, seleccione **Guardar > Guardar como**. Si no lo ha hecho ya, [instale Power BI Desktop](desktop-get-the-desktop.md).
    
     Cuando abra el informe en Desktop, puede que vea un mensaje de advertencia que indica que algunas características disponibles en el informe del servicio Power BI no están disponibles en Desktop.
    
-    ![](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
+    ![Cuadro de diálogo de advertencia](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
 
 5. El editor de informes del servicio Power BI y el editor de informes de Power BI Desktop son muy similares.  
    
-    ![](media/service-export-to-pbix/power-bi-desktop.png)
+    ![Editor de informes de Desktop](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 Hay algunas consideraciones y limitaciones importantes asociadas con la descarga (exportación) de un archivo *.pbix* desde el servicio Power BI.

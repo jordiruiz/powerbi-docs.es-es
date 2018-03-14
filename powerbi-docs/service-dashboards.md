@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 800808a8c09166b8a5b1389b9a54fb57cfa13b12
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 223df3a898c925d2a8ffc6d004a26c1a67807fc2
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="dashboards-in-power-bi-service"></a>Paneles del servicio Power BI
 
 Un ***panel*** de Power BI tiene una sola página, a menudo denominada lienzo, que usa visualizaciones para contar una historia. Dado que se limita a una sola página, un panel bien diseñado contiene únicamente los elementos más importantes de esa historia.
 
-![](media/service-dashboards/power-bi-dashboard2.png)
+![Panel](media/service-dashboards/power-bi-dashboard2.png)
 
 Las visualizaciones que se ven en el panel se denominan *iconos* y están *ancladas* al panel de informes. Si no está familiarizado con Power BI, puede obtener una buena base leyendo [Conceptos básicos de Power BI](service-basic-concepts.md).
 
@@ -38,7 +39,7 @@ Las visualizaciones que se ven en el panel se denominan *iconos* y están *ancla
 
 Las visualizaciones de un panel proceden de informes y cada informe se basa en un conjunto de datos. De hecho, una manera de pensar en un panel es como vía de entrada a los informes y conjuntos de datos subyacentes. La selección de una visualización lleva al informe (y al conjunto de datos) utilizado para crearla.
 
-![](media/service-dashboards/power-bi-diagram.png)
+![Diagrama que muestra la relación entre paneles, informes, conjuntos de datos](media/service-dashboards/power-bi-diagram.png)
 
 ## <a name="advantages-of-dashboards"></a>Ventajas de los paneles
 Los paneles son una magnífica manera de supervisar su empresa, buscar respuestas y ver las métricas más importantes de un vistazo. Las visualizaciones de un panel pueden proceder de un conjunto de datos subyacente o de varios y de un informe subyacente o de varios. Un panel combina datos locales y procedentes de la nube, lo que proporciona una vista consolidada, independientemente de donde residen los datos.

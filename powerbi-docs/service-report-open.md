@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/07/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 1d9c183a7fab95caa44221bd2d252ab92889b3f4
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Apertura de un informe en el servicio Power BI (app.powerbi.com)
 Los informes están disponibles en el servicio Power BI, Power BI Desktop, Power BI para dispositivos móviles e incluso Power BI Embedded. Este artículo trata sobre la apertura de informes en el ***servicio Power BI***.
@@ -32,11 +32,11 @@ En el servicio Power BI existen dos modos para ver e interactuar con los informe
 
 1. Comience en un área de trabajo y seleccione la pestaña **Informes** para mostrar todos los informes de esta área de trabajo.  
    
-   ![](media/service-report-open/power-bi-open-report.png)
-1. Seleccione el nombre del informe para abrirlo en la vista de lectura.  
+   ![Pestaña Informes de un área de trabajo](media/service-report-open/power-bi-open-report.png)
+2. Seleccione el nombre del informe para abrirlo en la vista de lectura.  
    
-    ![](media/service-report-open/power-bi-reading-view.png)
-1. Hay [muchas cosas que puede hacer en la vista de lectura](service-reading-view-and-editing-view.md).  Este informe de ejemplo tiene varias páginas, así que, para empezar a explorar, seleccione cada una de las pestañas en la parte inferior del lienzo del informe. 
+    ![Informe en vista de lectura](media/service-report-open/power-bi-reading-view.png)
+3. Hay [muchas cosas que puede hacer en la vista de lectura](service-reading-view-and-editing-view.md).  Este informe de ejemplo tiene varias páginas, así que, para empezar a explorar, seleccione cada una de las pestañas en la parte inferior del lienzo del informe. 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Apertura de un informe desde un panel
 Hay muchas otras maneras de abrir un informe; por ejemplo, puede comenzar en un panel y seleccionar un icono creado a partir de un informe.  Al seleccionar el icono, se abre el informe en la vista de lectura. Para continuar, [abra el panel de ejemplo de Ventas y Marketing](sample-datasets.md).
@@ -47,34 +47,34 @@ Hay muchas otras maneras de abrir un informe; por ejemplo, puede comenzar en un 
 
 2.  En este ejemplo hemos seleccionado el icono del gráfico de columnas "Total unidades hasta la fecha...".
 
-    ![](media/service-report-open/power-bi-dashboard.png)
+    ![Panel con icono seleccionado](media/service-report-open/power-bi-dashboard.png)
 
 3.  El informe asociado se abre en la vista de lectura. Tenga en cuenta que estamos en la página "Categoría hasta la fecha". Se trata de la página del informe que contiene el gráfico de columnas que hemos seleccionado desde el panel.
 
-    ![](media/service-report-open/power-bi-report.png)
+    ![Informe abierto en vista de lectura](media/service-report-open/power-bi-report.png)
 
 4. Permanezca en la vista de lectura o seleccione **Editar informe** para abrir el informe en la vista de edición. Recuerde que solo aquellos que tengan permisos de edición del informe pueden abrirlo en la vista de edición.
 
-    ![](media/service-report-open/power-bi-edit-report.png)
+    ![Editor de informes que muestra el icono de edición de informes](media/service-report-open/power-bi-edit-report.png)
 
 ## <a name="create-a-brand-new-report-from-a-dataset"></a>Creación de un informe completamente nuevo a partir de un conjunto de datos
 Una manera más para abrir un informe es a partir de un conjunto de datos. Cuando se comienza a partir de un conjunto de datos, el lienzo del informe estará en blanco, por lo que se recomienda este método para los *creadores* de informes interesados en la creación de un nuevo informe a partir de un conjunto de datos que poseen. Al igual que en el ejemplo anterior, para poder continuar, descargue la [aplicación de ejemplo de Ventas y Marketing](sample-datasets.md).
 
 1. Comience en el área de trabajo que contiene el conjunto de datos que le gustaría usar como base para un informe.
 
-   ![](media/service-report-open/power-bi-workspace.png)
+   ![Panel de navegación izquierdo que muestra áreas de trabajo de la aplicación](media/service-report-open/power-bi-workspace.png)
 
 2. Seleccione la pestaña **Conjuntos de datos** para mostrar la lista de todos los conjuntos de datos del área de trabajo. Esto se llama la lista de la vista de contenido **Conjuntos de datos**.
    
-   ![](media/service-report-open/power-bi-dataset.png)
+   ![Lista de conjuntos de datos](media/service-report-open/power-bi-dataset.png)
 
 1. Localice el conjunto de datos y seleccione el icono **Crear informe** para abrir el conjunto de datos en la vista de edición. Si no tiene permisos de edición para un conjunto de datos, no podrá abrirlo. 
    
-    ![](media/service-report-open/power-bi-create-report.png)
+    ![Conjunto de datos con icono de Crear informe](media/service-report-open/power-bi-create-report.png)
 
 3. El conjunto de datos se abre en el editor de informes. Podrá ver los campos de datos a la derecha, esperando a que comience a explorar y crear visualizaciones. 
 
-   ![](media/service-report-open/power-bi-blank-canvas.png)
+   ![el lienzo del informe](media/service-report-open/power-bi-blank-canvas.png)
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Más maneras aún de abrir un informe
 A medida que se vaya sintiendo cómodo al navegar por el servicio Power BI, averiguará los flujos de trabajo que funcionan mejor en su caso. Algunas otras maneras de acceder a los informes:

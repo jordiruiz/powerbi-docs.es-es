@@ -16,18 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 5015886d0314c767bc16fe223c7db91adb0fd2bb
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtro de un informe con parámetros de cadena de consulta en la URL
 Al abrir un informe en el servicio Power BI, cada página del informe tiene su propia URL única. Para filtrar esa página del informe, podría utilizar el panel Filtros del lienzo de informes.  También podría agregar parámetros de cadena de consulta a la URL para filtrar el informe. Es posible que tenga un informe que quiera prefiltrarlo para mostrarlo a sus compañeros. Una manera de hacerlo es comenzar con la URL predeterminada del informe, agregar los parámetros de filtro a la URL y, luego, enviarles por correo electrónico la URL completa.
 
-![](media/service-url-filters/power-bi-report2.png)
+![Informe de Power BI en el servicio](media/service-url-filters/power-bi-report2.png)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/WQFtN8nvM4A?list=PLv2BtOtLblH3YE_Ycas5B1GtcoFfJXavO&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -36,7 +37,7 @@ La sintaxis es bastante sencilla: empiece con la URL del informe, agregue un sig
 
 URL?filter=***Tabla***/***Campo*** eq '***valor***'
 
-![](media/service-url-filters/power-bi-filter-urls7b.png)
+![Dirección URL con filtro](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * Los nombres de **Tabla** y **Campo** distinguen mayúsculas de minúsculas, pero **valor** no.
 * Todavía se pueden seguir filtrando los campos que están ocultos en la vista de informes.
@@ -49,7 +50,7 @@ Si le sigue sin quedar claro, siga leyendo.
 ## <a name="filter-on-a-field"></a>Filtrado por un campo
 Supongamos que la URL del informe es la siguiente.
 
-![](media/service-url-filters/power-bi-filter-urls6.png)
+![Dirección URL de inicio](media/service-url-filters/power-bi-filter-urls6.png)
 
 Y que tenemos almacenes en Carolina del Norte, tal como vemos en nuestra visualización de mapas (arriba).
 
@@ -61,7 +62,7 @@ Para filtrar el informe para que solo muestre los datos de tiendas de "NC" (Caro
 
 ?filter=Tienda/Territorio eq 'NC'
 
-![](media/service-url-filters/power-bi-filter-urls7.png)
+![Dirección URL con filtro](media/service-url-filters/power-bi-filter-urls7.png)
 
 >[!NOTE]
 >*NC* es un valor almacenado en el campo **Territorio** de la tabla **Almacén**.

@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: b9e72c57ccd165ed02424e303c5ec54f179868e0
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: b85fe5cf70c915a3355c80a61f01a32216450f03
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Mostrar los datos que se utilizaron para crear la visualización
 ## <a name="show-data"></a>Mostrar datos
@@ -38,16 +39,16 @@ También puede exportar los datos que se usan para crear la visualización como 
 1. En el servicio Power BI, abra un informe en [Vista de lectura o Vista de edición](service-reading-view-and-editing-view.md) y seleccione un objeto visual.  En Power BI Desktop, abra la vista Informes.
 2. Para que se muestren los datos que hay detrás del objeto visual, seleccione **Explorar** > **Mostrar datos**.
    
-   ![](media/service-reports-show-data/power-bi-show-data.png)
+   ![Selección de Mostrar datos](media/service-reports-show-data/power-bi-show-data.png)
 3. De manera predeterminada, los datos aparecen debajo del objeto visual.
    
-   ![](media/service-reports-show-data/power-bi-explore-show-data.png)
+   ![Presentación vertical de objeto visual y datos](media/service-reports-show-data/power-bi-explore-show-data.png)
 4. Para cambiar la orientación, seleccione el diseño vertical ![](media/service-reports-show-data/power-bi-vertical-icon-new.png) en la esquina superior derecha de la visualización.
    
-   ![](media/service-reports-show-data/power-bi-explore-show-data2.png)
+   ![Presentación horizontal de objeto visual y datos](media/service-reports-show-data/power-bi-explore-show-data2.png)
 5. Para exportar los datos a un archivo .csv, seleccione los puntos suspensivos y elija **Exportar datos**.
    
-    ![](media/service-reports-show-data/power-bi-export-data-new.png)
+    ![Selección de Exportar datos](media/service-reports-show-data/power-bi-export-data-new.png)
    
     Para obtener más información sobre cómo exportar los datos a Excel, consulte [Exportar datos de visualizaciones de Power BI](power-bi-visualization-export-data.md).
 6. Para ocultar los datos, anule la selección de **Explorar** > **Mostrar datos**.

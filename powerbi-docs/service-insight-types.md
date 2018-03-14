@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 53e5e67da9bacd9fc9dcbb770747823647aa3a3c
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: c295eea46e6e8d182147f877548a385ce4602bad
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de información compatibles con Power BI
 ## <a name="how-does-insights-work"></a>¿Cómo funciona la búsqueda de información?
@@ -35,47 +36,47 @@ Estos son algunos de los algoritmos que se usan:
 ## <a name="category-outliers-topbottom"></a>Valores atípicos de categoría (superior o inferior)
 Resalta los casos en los que, en relación con una medida del modelo, uno o dos miembros de una dimensión tienen valores mucho más altos que otros miembros de la dimensión.  
 
-![](media/service-insight-types/pbi_auto_insight_types_category_outliers.png)
+![Ejemplo de valores atípicos de categoría](media/service-insight-types/pbi_auto_insight_types_category_outliers.png)
 
 ## <a name="change-points-in-a-time-series"></a>Cambiar los puntos de una serie temporal
 Resalta cuando hay cambios significativos en las tendencias de datos de una serie temporal.
 
-![](media/service-insight-types/pbi_auto_insight_types_changepoint.png)
+![Ejemplo de cambio de puntos de una serie temporal](media/service-insight-types/pbi_auto_insight_types_changepoint.png)
 
 ## <a name="correlation"></a>Correlación
 Detecta los casos en los que varias medidas muestran una correlación entre sí al trazarse en una dimensión del conjunto de datos.
 
-![](media/service-insight-types/pbi_auto_insight_types_correlation.png)
+![Ejemplo de correlación](media/service-insight-types/pbi_auto_insight_types_correlation.png)
 
 ## <a name="low-variance"></a>Baja varianza
 Detecta aquellos casos en los que los puntos de datos no están lejos de la media.
 
-![](media/service-insight-types/power-bi-low-variance.png)
+![Ejemplo de baja varianza](media/service-insight-types/power-bi-low-variance.png)
 
 ## <a name="majority-major-factors"></a>Mayoría (factores principales)
 Busca los casos en los que una mayoría de un valor total puede atribuirse a un único factor cuando se desglosa con otra dimensión.  
 
-![](media/service-insight-types/pbi_auto_insight_types_majority.png)
+![Ejemplo de factores principales](media/service-insight-types/pbi_auto_insight_types_majority.png)
 
 ## <a name="overall-trends-in-time-series"></a>Tendencias generales de la serie temporal
 Detecta las tendencias hacia arriba o hacia abajo de los datos de la serie temporal.
 
-![](media/service-insight-types/pbi_auto_insight_types_trend.png)
+![Ejemplo de tendencias generales de serie temporal](media/service-insight-types/pbi_auto_insight_types_trend.png)
 
 ## <a name="seasonality-in-time-series"></a>Estacionalidad de la serie temporal
 Busca patrones periódicos en los datos de series temporales, por ejemplo, semanales, mensuales o de estacionalidad anual.
 
-![](media/service-insight-types/pbi_auto_insight_types_seasonality_new.png)
+![Ejemplo de estacionalidad](media/service-insight-types/pbi_auto_insight_types_seasonality_new.png)
 
 ## <a name="steady-share"></a>Recurso compartido constante
 Resalta los casos en los que hay una correlación de elementos primarios y secundarios entre el recurso compartido de un valor de secundario en relación con el valor global del elemento primario a través de una variable continua.
 
-![](media/service-insight-types/pbi_auto_insight_types_steadyshare.png)
+![Ejemplo de recurso compartido constante](media/service-insight-types/pbi_auto_insight_types_steadyshare.png)
 
 ## <a name="time-series-outliers"></a>Valores atípicos de la serie temporal
 En el caso de los datos de una serie temporal, detecta si hay determinadas fechas u horas con valores significativamente diferentes de los demás valores de fecha y hora.
 
-![](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
+![Ejemplo de valores atípicos de serie temporal](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Información de Power BI](service-insights.md)

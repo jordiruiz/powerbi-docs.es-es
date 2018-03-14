@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 5c208ab13398987350d2acd72e29dbc4d6a6c4a1
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 98856d551e0f124d7ea3e038623e2340ceeb18b8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Editar o quitar un icono de panel
 
@@ -54,23 +55,23 @@ En este artículo se tratan los temas siguientes:
 ## <a name="create-a-new-visualization-and-pin-it-to-the-dashboard"></a>Creación de una nueva visualización y su anclaje al panel
 1. En el panel de Análisis de gastos en TI, seleccione el icono "Cantidad" para abrir el informe.
 
-    ![](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
+    ![Icono de cantidad](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
 
 2. Seleccione **Editar informe** en la barra de menús superior para abrir el informe en la Vista de edición.
 
 3. Agregue una nueva página del informe mediante el signo de suma (+) de la parte inferior del informe.
 
-    ![](media/service-dashboard-edit-tile/power-bi-add-page.png)
+    ![Icono de signo más](media/service-dashboard-edit-tile/power-bi-add-page.png)
 
 4. En el panel CAMPOS, seleccione **Hecho > cantidad** y **Área de negocio > Área de negocio**.
  
 5. En el panel VISUALIZACIONES, seleccione el icono de gráfico de anillos para convertir la visualización en un gráfico de anillos.
 
-    ![](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
+    ![Panel Visualizaciones](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
 
 5. Seleccione el icono de anclaje y ancle el gráfico de anillos en el panel del Ejemplo de análisis de gastos de TI.
 
-   ![](media/service-dashboard-edit-tile/power-bi-pin.png)
+   ![Puntero sobre icono](media/service-dashboard-edit-tile/power-bi-pin.png)
 
 6. Cuando aparezca el mensaje de operación correcta, seleccione **Ir al panel**. Se le pedirá que guarde los cambios. Seleccione **Guardar**.
 
@@ -86,24 +87,23 @@ En el panel, localice el nuevo icono. Seleccione y mantenga el icono para arrast
 ## <a name="resize-the-tile"></a>Cambio de tamaño del icono
 Puede hacer que los iconos tengan muchos tamaños diferentes, desde 1 x 1 unidades de icono hasta 5 x 5. Seleccione y arrastre el control (en la esquina inferior derecha) para cambiar el tamaño del icono.
 
-![](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
+![Vídeo](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
 ## <a name="the-ellipses--menu"></a>El menú del botón de puntos suspensivos (...)
 
 1. Seleccione los puntos suspensivos (...) en la esquina superior derecha del icono. 
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile.png)
+   ![Icono de botón de puntos suspensivos](media/service-dashboard-edit-tile/power-bi-tile.png)
 
 2. Mantenga el puntero sobre el icono "Cuenta" y seleccione los puntos suspensivos para mostrar las opciones. Las opciones disponibles varían en función del tipo de icono.  Por ejemplo, las opciones disponibles para un icono dinámico son diferentes de las opciones disponibles para un icono de visualización estándar. Además, si un panel se comparte con usted (no es el propietario), tendrá menos opciones.
 
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
+   ![Menú de opciones de botón de puntos suspensivos](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 3. Seleccione **Editar detalles** para abrir la ventana "Detalles del icono". 
 
     Cambie el título y el comportamiento predeterminado del icono.  Por ejemplo, puede decidir que cuando un *consumidor* selecciona un icono, en lugar de abrir el informe que se usó para crear ese icono, se muestre un nuevo panel en su lugar.  
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 
 <a name="rename"></a>
@@ -111,7 +111,7 @@ Puede hacer que los iconos tengan muchos tamaños diferentes, desde 1 x 1 unidad
 ### <a name="rename-the-tile"></a>Cambio de nombre del icono
 En la parte superior de la ventana "Detalles del icono", cambie el **Título** a **Importe gastado**.
 
-![](media/service-dashboard-edit-tile/power-bi-tile-title.png)
+![Ventana Detalles del icono](media/service-dashboard-edit-tile/power-bi-tile-title.png)
 
 
 <a name="hyperlink"></a>
@@ -123,27 +123,27 @@ De forma predeterminada, la selección de un icono normalmente le lleva al infor
 
 2. Seleccione **Vincular a un panel o informe del área de trabajo actual** y, a continuación, seleccione en la lista desplegable.  En este ejemplo se ha seleccionado el panel del ejemplo de recursos humanos. Si no tiene este ejemplo todavía en el área de trabajo, puede agregarlo y volver a este paso o puede seleccionar otro panel. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-custom-link.png)
+    ![Cuadro de diálogo de funcionalidad](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
 3. Seleccione **Aplicar**.
 
 4. El nuevo título se muestra en el icono.  Y, cuando se selecciona el icono, Power BI abre el panel Recursos humanos. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-title.png)
+    ![Título de icono](media/service-dashboard-edit-tile/power-bi-title.png)
 
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>Anclaje del icono en un panel diferente
-1. En el menú desplegable del botón de puntos suspensivos, seleccione **Anclar icono** ![](media/service-dashboard-edit-tile/pinnooutline.png).
+1. En el menú desplegable del botón de puntos suspensivos, seleccione **Anclar icono** ![icono de anclaje](media/service-dashboard-edit-tile/pinnooutline.png).
 2. Decida si va a anclar un duplicado de este icono a un panel existente o a uno nuevo. 
    
-   ![](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
+   ![Cuadro de diálogo Anclar al panel](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
 3. Seleccione **Anclar**.
 
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>Eliminación del icono
-1. Para eliminar permanentemente un icono de un panel, seleccione **Eliminar icono** ![](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) en el menú desplegable del botón de puntos suspensivos. 
+1. Para eliminar permanentemente un icono de un panel, seleccione **Eliminar icono** ![icono de eliminación](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) en el menú desplegable del botón de puntos suspensivos. 
 
 2. La eliminación de un icono no elimina la visualización subyacente. Abra el informe subyacente seleccionando el icono "Cantidad". Abra la última página en el informe para verificar que la visualización original no se ha eliminado del informe. 
 

@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 352efd894eb58823c9f506089ee28b7d11b30687
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 80fb45e8f0d181779c699c081006b6610248dc50
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Solución de problemas de Cortana para Power BI
 Este artículo forma parte de una serie. Si no lo ha hecho ya, le recomendamos que lea los siguientes tres artículos:
@@ -95,7 +96,7 @@ Si sigue teniendo problemas para conseguir que Cortana se integre con Power BI, 
    Dado que tenemos un resultado, ahora sabemos que Cortana **está** habilitado en Power BI. Esto acota el problema del lado de Windows, a la configuración de idioma de Cortana o a tener más de 100 conjuntos de datos habilitados para Cortana.
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>¿Tiene problemas para recuperar las respuestas de un panel?
-¿Busca un panel que se ha compartido con usted?  Abra Power BI > **Compartido conmigo** y busque el nombre del panel.  A continuación, escriba ese nombre en el campo *Utterances** (Dictados).
+¿Busca un panel que se ha compartido con usted?  Abra Power BI > **Compartido conmigo** y busque el nombre del panel.  Luego escriba ese nombre en el campo **Utterances**.
 
 ![Abra Compartido conmigo en Power BI](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 

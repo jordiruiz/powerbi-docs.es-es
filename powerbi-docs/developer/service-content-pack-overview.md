@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: f0a50c0aba1a05c55236192a730c3187cb37c055
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
+ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Introducción al programa de paquetes de contenido del servicio Power BI
 Un paquete de contenido es un conjunto de contenido integrado que permite a los usuarios obtener información inmediata de un origen. Un paquete de contenido se centra normalmente en un escenario de negocio específico que proporciona información para un rol, dominio o flujo de trabajo.
@@ -64,9 +64,9 @@ Los paquetes de contenido proporcionan la visión y métricas centradas en un es
 * Tenga en cuenta que ofrece más de un paquete de contenido para escenarios únicos independientes  
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
-**¿Puedo crear un paquete de contenido del servicio Power BI para una aplicación de SaaS de terceros que no sea de mi propiedad?**
+**Como tercero, ¿puedo crear un paquete de contenido del servicio Power BI para una aplicación SaaS que no es de mi propiedad?**
 
-No, actualmente, se necesita firmar un acuerdo de asociado con el propietario de la aplicación de SaaS antes de publicar el paquete de contenido en el servicio.
+Se exige firmar un acuerdo entre socios con el propietario de la aplicación SaaS para poder publicar un paquete de contenido del servicio. Como tercero, debe facilitar la firma del acuerdo entre socios con el propietario de la aplicación SaaS.
 
 **No tengo una API para desarrolladores pública para mi servicio. ¿Puedo crear un paquete de contenido del servicio Power BI que extraiga los datos directamente del almacenamiento de datos?**
 
@@ -76,9 +76,13 @@ No, los paquetes de contenido del servicio Power BI requieren una API para desar
 
 Los paquetes de contenido del servicio Power BI admiten cualquier API de REST o fuente OData. Power BI puede trabajar con varios tipos de autenticación como autenticación básica, OAuth2.0 y clave de la API de web. Consulte más detalles sobre los requisitos técnicos en el artículo [Creación del paquete de contenido de plantillas](template-content-pack-authoring.md#dashboard).
 
+**Tengo un paquete de contenido publicado en Power BI. ¿Cómo puedo actualizarlo?**
+
+Los paquetes de contenido publicados se pueden actualizar una vez al mes. Las solicitudes de actualización enviadas a [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com) antes del último día del mes en curso se publican en la primera semana del mes siguiente.
+
 **Tengo más preguntas acerca de los paquetes de contenido del servicio. ¿Cómo puedo ponerme en contacto con usted?**
 
-No dude en enviarnos un mensaje de correo electrónico con sus preguntas a pbiservicesapps@microsoft.com
+No dude en enviarnos un mensaje de correo electrónico con sus preguntas a [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
 ## <a name="support"></a>Soporte técnico
 Para obtener soporte técnico durante el desarrollo, use [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Se realiza la supervisión y administración de forma activa. Los incidentes del cliente encuentran rápidamente la forma de llegar al equipo adecuado.

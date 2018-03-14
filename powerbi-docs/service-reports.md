@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 664e07b1a772c0eb5d14372061511bc86c671b64
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="reports-in-power-bi"></a>Informes en Power BI
 ## <a name="what-is-a-power-bi-report"></a>¿Qué es un informe de Power BI?
 Un ***informe*** de Power BI es una vista de varias perspectivas de un conjunto de datos, con visualizaciones que representan diferentes resultados e información detallada de ese conjunto de datos.  Un informe puede tener una sola visualización o páginas enteras de visualizaciones. Dependiendo de su rol de trabajo, es posible que pueda *crear* informes o que pueda *consumir* o usar estos informes.
 
-![](media/service-reports/reportview.png)
+![Página del informe](media/service-reports/reportview.png)
 
 Este informe tiene 3 páginas (o pestañas) y actualmente estamos viendo la página "Información general de las ventas de la tienda". En esta página hay 6 diferentes visualizaciones y un título de página. Las visualizaciones se pueden *anclar* a los paneles y si se selecciona esa visualización anclada, se abre el informe desde la que se ancló.
 

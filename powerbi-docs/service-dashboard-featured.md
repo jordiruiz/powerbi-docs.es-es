@@ -16,19 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 81ea6b32c6f61299c410325a432c521d8b402549
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: efa6d0266ae6fc8418ff4a6f2f78e47f5481d166
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Paneles destacados en el servicio Power BI
 ## <a name="create-a-featured-dashboard"></a>Creación de un panel destacado
 Muchos de los usuarios tienen un panel que visitan con más frecuencia que otros.  Puede ser el panel que usa para administrar el negocio o quizás uno que contenga una agregación de iconos de muchos paneles e informes distintos.
 
-![](media/service-dashboard-featured/power-bi-feature-nav.png)
+![Icono de Establecer como destacado](media/service-dashboard-featured/power-bi-feature-nav.png)
 
 Cuando selecciona un panel para que sea *destacado*, cada vez que abra el servicio Power BI, se abrirá mostrando ese panel.  
 
@@ -47,22 +48,22 @@ Observe cómo Amanda crea un panel destacado y, luego, siga las instrucciones qu
 
 
 1. Abra el panel que desee establecer como *destacado*. 
-2. En la barra de navegación superior, verá **Establecer como destacado** o simplemente el icono Destacado ![](media/service-dashboard-featured/power-bi-featured-icon.png). Seleccione uno de ellos.
+2. En la barra de navegación superior, verá **Establecer como destacado** o simplemente el icono de destacado ![icono de destacado](media/service-dashboard-featured/power-bi-featured-icon.png). Seleccione uno de ellos.
    
-    ![](media/service-dashboard-featured/power-bi-set-as-featured.png)
+    ![Icono de Establecer como destacado](media/service-dashboard-featured/power-bi-set-as-featured.png)
 3. Confirme la selección.
    
-    ![](media/service-dashboard-featured/power-bi-create-featured.png)
+    ![Panel Establecer como destacado](media/service-dashboard-featured/power-bi-create-featured.png)
 
 ## <a name="change-the-featured-dashboard"></a>Cambio del panel destacado
 Por supuesto, si cambia de opinión más adelante, puede establecer un nuevo panel como panel destacado.
 
 1. Siga los pasos 1 y 2 anteriores.
    
-    ![](media/service-dashboard-featured/power-bi-change-feature.png)
+    ![Ventana Cambiar panel destacado](media/service-dashboard-featured/power-bi-change-feature.png)
 2. Seleccione **Establecer como destacado**. Dejar de destacar un panel no lo quita del área de trabajo.  
    
-    ![](media/service-dashboard-featured/power-bi-success.png)
+    ![Mensaje de proceso correcto](media/service-dashboard-featured/power-bi-success.png)
 
 ## <a name="remove-the-featured-dashboard"></a>Quitar el panel destacado
 Si decide que no desea que haya ningún panel designado como destacado, esta es la forma de hacer que un panel deje de serlo.
@@ -70,7 +71,7 @@ Si decide que no desea que haya ningún panel designado como destacado, esta es 
 1. Abra el panel destacado actualmente.
 2. En la barra de menús superior, seleccione **Deshabilitar destacado**.
    
-    ![](media/service-dashboard-featured/power-bi-unfeature.png)
+    ![Eliminación de destacado](media/service-dashboard-featured/power-bi-unfeature.png)
 
 Ahora Power BI se abrirá en el último panel que haya usado.  
 

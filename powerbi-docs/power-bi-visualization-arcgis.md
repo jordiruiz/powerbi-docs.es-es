@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: 
 author: mihart
 manager: kfile
-backup: 
+backup: lukaszp
 editor: 
 tags: 
 featuredvideoid: EKVvOZmxg9s
@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: a1f424229a05b7f4b5507100287719f8d4cac005
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: e2a56510b409e001db94164d5856e4c036e3f391
+ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/01/2018
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Tutorial de mapas de ArcGIS de Esri en el servicio Power BI y Power BI Desktop
 Este tutorial se ha escrito desde el punto de vista de la persona que está creando un mapa de ArcGIS. Si un creador comparte un mapa de ArcGIS con un compañero, este podrá ver e interactuar con el mapa pero no guardar los cambios. Para más información acerca de cómo ver un mapa de ArcGIS, consulte [Interactuación con mapas de ArcGIS](power-bi-visualizations-arcgis.md).
@@ -43,7 +44,7 @@ En el ejemplo siguiente, se usa un lienzo de color gris oscuro para mostrar las 
 > Visite la [página de Esri en Power BI](https://www.esri.com/powerbi) para ver numerosos ejemplos y leer recomendaciones. Y después consulte la [página de introducción a ArcGIS Maps para Power BI](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm) de Esri.
 
 ## <a name="user-consent"></a>Consentimiento del usuario
-[Esri](https://www.esri.com) proporciona ArcGIS Maps para Power BI. Su uso de ArcGIS Maps para Power BI está sujeto a los términos y a la directiva de privacidad de Esri. Los usuarios de Power BI que quieran usar objetos visuales de ArcGIS Maps para Power BI tienen que aceptar el cuadro de diálogo de consentimiento.
+Esri (www.esri.com) proporciona ArcGIS Maps for Power BI. Su uso de ArcGIS Maps para Power BI está sujeto a los términos y a la directiva de privacidad de Esri. Los usuarios de Power BI que quieran usar objetos visuales de ArcGIS Maps para Power BI tienen que aceptar el cuadro de diálogo de consentimiento.
 
 **Recursos**
 
@@ -316,6 +317,14 @@ En los servicios o aplicaciones donde ArcGIS Maps para Power BI no está disponi
 En la geocodificación de direcciones postales, solo se geocodifican las primeras 1500 direcciones. La geocodificación de nombres de lugares o países no está sujeto al límite de 1500 direcciones.
 
 <br/>
+
+**¿Cómo funciona ArcGIS Maps for Power BI?**
+Esri (www.esri.com) proporciona ArcGIS Maps for Power BI. Su uso de ArcGIS Maps for Power BI está sujeto a los [términos](https://go.microsoft.com/fwlink/?LinkID=8263222) y a la [directiva de privacidad](https://go.microsoft.com/fwlink/?LinkID=826323) de Esri. Los usuarios de Power BI que quieran usar objetos visuales de ArcGIS Maps for Power BI tienen que aceptar el cuadro de diálogo de consentimiento (vea Consentimiento del usuario para más detalles).  El uso de ArcGIS Maps for Power BI de Esri está sujeto a los términos y a la directiva de privacidad de Esri, a los que puede acceder desde el vínculo del cuadro de diálogo de consentimiento. Cada usuario debe dar su consentimiento antes de usar ArcGIS Maps for Power BI por primera vez. Una vez que el usuario acepta el consentimiento, los datos enlazados al objeto visual se envían a los servicios de Esri al menos para su geocodificación, lo que implica transformar la información de ubicación en información de latitud y longitud que se pueda representar en un mapa. Debe tener en cuenta que los datos enlazados a la visualización de datos pueden enviarse a los servicios de Esri. Esri proporciona servicios como mapas base, análisis espacial, geocodificación, etc. El objeto visual de ArcGIS Maps for Power BI interactúa con estos servicios mediante una conexión SSL protegida por un certificado proporcionado y mantenido por Esri. Puede obtener más información sobre ArcGIS Maps for Power BI en la [Página del producto ArcGIS Maps for Power BI](https://www.esri.com/powerbi) de Esri.
+
+Cuando un usuario se suscribe a una suscripción Plus ofrecida por Esri a través de ArcGIS Maps for Power BI, está entablando una relación directa con Esri. Power BI no envía información personal sobre el usuario a Esri. El usuario inicia sesión en una aplicación AAD proporcionada por Esri, y confía en ella, mediante su propia identidad AAD. Al hacerlo, el usuario comparte su información personal directamente con Esri. Una vez que el usuario agrega contenido Plus a un objeto visual de ArcGIS Maps for Power BI, otros usuarios de Power BI también necesitan una suscripción Plus de Esri para ver o editar ese contenido. 
+
+Para realizar preguntas técnicas detalladas sobre el funcionamiento de ArcGIS Maps for Power BI de Esri, póngase en contacto con Esri a través de su sitio de soporte técnico.
+
 
 **¿Hay algún cargo por usar ArcGIS Maps para Power BI?**
 

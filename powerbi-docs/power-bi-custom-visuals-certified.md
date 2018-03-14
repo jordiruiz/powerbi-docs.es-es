@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 94a01f1d302d455dbcfe52ce39f5cb0b1ac4aa29
-ms.sourcegitcommit: 05018ef2fe8439a9e8f599c696b8c3cee67e3958
+ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Obtención de un objeto visual personalizado *certificado*
 ## <a name="what-is-meant-by-certified"></a>¿Qué se entiende por *certificado*?
@@ -50,7 +50,9 @@ Para enviar un objeto visual personalizado para su certificación:
    * Título: Solicitud de certificación visual    
    * Vínculo al repositorio de GitHub donde se hospeda el código fuente visual    
    * Cumplimiento de los requisitos (consulte más arriba)    
-   * Aprobación de la revisión del código y seguridad    2. El equipo de objetos visuales personalizados de Microsoft le notificará cuando el objeto visual personalizado se haya certificado y agregado a la lista de objetos visuales certificados (más abajo), o se haya rechazado con un informe de los problemas que deben corregirse. Es responsabilidad del desarrollador mantener una línea abierta de comunicación con Microsoft y actualizar sus objetos visuales certificados como sea necesario.
+   * Aprobación de la revisión del código y seguridad    
+
+2. El equipo de objetos visuales personalizados de Microsoft le notificará cuando el objeto visual personalizado se haya certificado y agregado a la lista de objetos visuales certificados (más abajo), o se haya rechazado con un informe de los problemas que deben corregirse. Es responsabilidad del desarrollador mantener una línea abierta de comunicación con Microsoft y actualizar sus objetos visuales certificados como sea necesario.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Eliminación de objetos visuales personalizados certificados de Power BI
 Microsoft, a su discreción, puede quitar un objeto visual de la lista de objetos visuales certificados.  
@@ -102,7 +104,7 @@ Microsoft, a su discreción, puede quitar un objeto visual de la lista de objeto
 | [Gantt Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [Vídeo](https://youtu.be/vJLV9JRCpI8) |
 | [Globe Data Bars](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
 | [Hierarchy Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [Vídeo](https://youtu.be/0ZGzJaq_KT4) |
-| [Gráfico de histograma](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
+| [Histogram Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
 | [Gráfico de histograma con puntos de MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381032) | [Vídeo](https://youtu.be/-ILF--wExrw) |
 | [Horizontal Funnel by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380846) | [Vídeo](https://youtu.be/SudZei68PPo) |
 | [Image by CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381297) | |
@@ -117,6 +119,7 @@ Microsoft, a su discreción, puede quitar un objeto visual de la lista de objeto
 | [Play Axis (Dynamic Slicer)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Vídeo](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Vídeo](https://youtu.be/1enze8pcGzY) |
+| [Quadrant Chart de MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [Vídeo](https://youtu.be/ppBnyhqWNC0) |
 | [Radar Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [Ring Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [Vídeo](https://youtu.be/pDToHDFHnq8) |
 | [Rotating Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [Vídeo](https://youtu.be/d5xBCMmb3hU) |
@@ -129,6 +132,7 @@ Microsoft, a su discreción, puede quitar un objeto visual de la lista de objeto
 | [Sunburst](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [Table Heatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
 | [Tachometer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [Vídeo](https://youtu.be/C3OXdETbS9o) |
+| [Filtro de texto](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [Text Wrapper by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Thermometer](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
 | [Time series decomposition chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |

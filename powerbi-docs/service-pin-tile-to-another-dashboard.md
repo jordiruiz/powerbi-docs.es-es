@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: bf0146bf8cd57c515b0572b6a485e8da1a50f159
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 4784a5d07cab1f637afa6cf6622ea00fd264d501
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Anclar un icono desde un panel a otro panel
 Una forma de agregar un nuevo [icono del panel](service-dashboard-tiles.md) es copiándolo desde otro panel. Cada uno de estos iconos, al hacer clic, es un vínculo que lleva a donde se creó, ya sea en Preguntas y respuestas o un informe. 
@@ -34,17 +35,17 @@ Una forma de agregar un nuevo [icono del panel](service-dashboard-tiles.md) es c
 2. Abra un [panel](service-dashboards.md).
 3. Mueva el puntero sobre el icono que quiere anclar, seleccione los puntos suspensivos y, después, el **icono de anclaje**.  
    
-   ![](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
+   ![Menú del botón de puntos suspensivos](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. Ancle el icono a un panel existente o a un nuevo panel. 
    
    * **Panel existente**: seleccione el nombre del panel en la lista desplegable.
    * **Nuevo panel**: escriba el nombre del nuevo panel.
    
-   ![](media/service-pin-tile-to-another-dashboard/pbi_pintoanotherdash.png)
+   ![Cuadro de diálogo Anclar al panel](media/service-pin-tile-to-another-dashboard/pbi_pintoanotherdash.png)
 5. Seleccione **Anclar**.
    Un mensaje de confirmación (cerca de la esquina superior derecha) le permitirá saber que se ha agregado la visualización al panel seleccionado como un icono.
    
-   ![](media/service-pin-tile-to-another-dashboard/power-bi-pin-success.png)
+   ![Ventana Anclado al panel](media/service-pin-tile-to-another-dashboard/power-bi-pin-success.png)
 6. Seleccione **Ir al panel** para ver el nuevo icono anclado. Allí puede [cambiar el nombre, cambiar el tamaño, vincular y mover](service-dashboard-edit-tile.md) la visualización anclada.
 
 ## <a name="next-steps"></a>Pasos siguientes

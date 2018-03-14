@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 62796d9eb376ab4c92cc5596176ac501a69c0e62
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d8b4175f83415821e1ff9b63e3c53cd8f869b54f
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="printing-from-power-bi-service"></a>Imprimir desde el servicio Power BI
 Imprima todo un panel, un icono de panel, una página de informe o un objeto visual de informe desde el servicio Power BI. Solo se puede imprimir una página de informe a la vez; no es posible imprimir todo el informe de una vez.
@@ -41,25 +41,24 @@ En este vídeo, Amanda realiza impresiones desde su panel e informe. Luego, siga
 1. Abra el panel que quiere imprimir.
 2. En la esquina superior derecha, seleccione el botón de puntos suspensivos (...) y elija **Imprimir panel**.
    
-    ![](media/service-print/pbi_print_dash_ellipses.png)
+    ![Opción de impresión de panel](media/service-print/pbi_print_dash_ellipses.png)
 3. Se abre la ventana de impresión del explorador. Elija la configuración y el destino de la impresión y seleccione **Imprimir**.
    
    > [!NOTE]
    > El cuadro de diálogo de impresión que vea dependerá del explorador que use.
    > 
-   > 
    
-    ![](media/service-print/pbi_print_dash_new2.png)
+    ![Cuadro de diálogo de impresión](media/service-print/pbi_print_dash_new2.png)
 
 ## <a name="print-a-dashboard-tile"></a>Imprimir un icono de panel
-1. [Abra el icono en Modo de enfoque](service-focus-mode.md) seleccionando el botón de puntos suspensivos y el icono de enfoque ![](media/service-print/power-bi-focus-icon.png).
+1. [Abra el icono en Modo de enfoque](service-focus-mode.md) al seleccionar el botón de puntos suspensivos y elegir el icono de enfoque ![icono de enfoque](media/service-print/power-bi-focus-icon.png).
    
-    ![](media/service-print/menu-options.png)
-2. Abra el icono en [modo de pantalla completa](service-fullscreen-mode.md), para lo que debe seleccionar el icono de pantalla completa ![](media/service-print/power-bi-full-screen-icon.png) en la barra de navegación superior.
+    ![Menú del botón de puntos suspensivos](media/service-print/menu-options.png)
+2. Abra el icono en [modo de pantalla completa](service-fullscreen-mode.md) al seleccionar el icono de pantalla completa ![icono de pantalla completa](media/service-print/power-bi-full-screen-icon.png) en la barra de navegación superior.
 3. Mantenga el mouse sobre el icono para que se muestren las opciones de menú.
    
-    ![](media/service-print/menu-options-new.png)
-4. Seleccione el icono de impresión ![](media/service-print/print-icon.png).     
+    ![Menú de opciones de pantalla completa](media/service-print/menu-options-new.png)
+4. Seleccione el icono de impresión ![icono de impresión](media/service-print/print-icon.png).     
    
    > [!NOTE]
    > El cuadro de diálogo de impresión que vea dependerá del explorador que use.
@@ -72,7 +71,7 @@ Los informes se pueden imprimir una página a la vez.
 1. Abra el informe en la Vista de lectura o en la Vista de edición.
 2. Seleccione **Archivo** > **Imprimir** para imprimir la página de informe actual.
    
-    ![](media/service-print/power-bi-print.png)
+    ![Menú Archivo de Power BI](media/service-print/power-bi-print.png)
 3. Se abre la ventana de impresión del explorador.
    
    > [!NOTE]
@@ -81,7 +80,7 @@ Los informes se pueden imprimir una página a la vez.
    > 
 
 ## <a name="print-a-report-visual"></a>Imprimir un objeto visual de informe
-1. [Abra el objeto visual en el modo enfocado](service-focus-mode.md), para lo que debe mantener el puntero sobre el icono y seleccionar el icono del foco ![](media/service-print/power-bi-focus-icon.png) en la esquina superior derecha.
+1. [Abra el objeto visual en modo de enfoque](service-focus-mode.md) al mantener el puntero sobre el icono y seleccionar el icono de enfoque ![icono de enfoque](media/service-print/power-bi-focus-icon.png) en la esquina superior derecha.
 2. Siga los pasos 2 y 3 indicados anteriormente en *Imprimir una página de un informe*.
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas

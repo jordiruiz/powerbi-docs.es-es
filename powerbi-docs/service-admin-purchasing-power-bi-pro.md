@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: maghan
-ms.openlocfilehash: 6019cde4864087c75b22663ff5461790d4e24961
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: c4fa2e0e2927f8050648884e1833adf618a7d4f5
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Adquisición de Power BI Pro
 Power BI Pro está destinado a aquellos usuarios que publican informes, comparten paneles, colaboran con compañeros en áreas de trabajo y se ocupan de otras actividades relacionadas, como la capacidad de:
@@ -63,7 +64,7 @@ Después, puede seleccionar **Iniciar período de prueba**.
 > Con la disponibilidad de Power BI Premium y los cambios en la oferta gratuita de Power BI del 1 de junio de 2017, podría optar a una prueba extendida de Power BI Pro. Para más información, consulte [Extended Pro Trial activation](service-extended-pro-trial.md) (Activación de la extensión del período de prueba de Power BI Pro).
 
 ### <a name="what-this-looks-like-within-the-service"></a>Aspecto dentro del servicio
-Cuando esté en el servicio, puede comprobar que tiene una cuenta de prueba de Power BI Pro; para ello, vaya al icono de **engranaje* y seleccione **Administrar almacenamiento personal**.
+Cuando esté en el servicio, puede comprobar que tiene una cuenta de prueba Pro si va al icono de **engranaje** y selecciona **Administrar almacenamiento personal**.
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro-trial3.png)
 

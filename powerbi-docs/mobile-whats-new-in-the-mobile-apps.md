@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/09/2018
+ms.date: 02/15/2018
 ms.author: maggies
-ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -29,6 +29,12 @@ Para obtener información sobre novedades, vea:
 * [Blog del equipo de Power BI para aplicaciones móviles](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novedades de Power BI Desktop](desktop-latest-update.md)  
 * [Novedades en el servicio Power BI](service-whats-new.md)  
+
+## <a name="february-2018"></a>Febrero de 2018
+
+### <a name="share-reports"></a>Compartir informes
+
+Ahora puede compartir un informe directamente desde las aplicaciones móviles. Obtenga más información sobre cómo [compartir paneles e informes desde aplicaciones móviles](mobile-share-dashboard-from-the-mobile-apps.md)
 
 ## <a name="january-2018"></a>Enero de 2018
 

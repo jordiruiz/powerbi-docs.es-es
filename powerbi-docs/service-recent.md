@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 103edc93dafb9615e08692965258ffc61905baf1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 972e816dcd833b6ae0e7bd26b760952066aa5ac8
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="recent-content-in-power-bi-service"></a>Contenido **reciente** en el servicio Power BI
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="what-is-recent-content"></a>¿Qué es el contenido reciente?
 El contenido reciente son los últimos elementos visitados, hasta un máximo de 20 elementos.  Estos incluyen: paneles, informes, aplicaciones y libros en todas las áreas de trabajo.
 
-![](media/service-recent/power-bi-recent-screen.png)
+![Ventana de contenido reciente](media/service-recent/power-bi-recent-screen.png)
 
 Amanda le muestra cómo se rellenan las listas de contenido **Recientes**; después, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
 
@@ -40,11 +40,11 @@ Amanda le muestra cómo se rellenan las listas de contenido **Recientes**; despu
 ## <a name="display-recent-content"></a>Mostrar el contenido reciente
 Para ver los cinco elementos visitados más recientemente, en el panel de navegación izquierdo, seleccione la flecha a la derecha de **Reciente**.  Desde aquí puede seleccionar contenido reciente para abrirlo. Solo se muestran los cinco elementos más recientes.
 
-![](media/service-recent/power-bi-recent-flyout-new.png)
+![Control flotante de contenido reciente](media/service-recent/power-bi-recent-flyout-new.png)
 
-Si tiene más de cinco elementos visitados recientemente, seleccione **Ver todo** para abrir la pantalla Reciente (consulte a continuación). También puede seleccionar **Reciente** o el icono de Reciente ![](media/service-recent/power-bi-recent-icon.png) en la barra de navegación izquierda.
+Si tiene más de cinco elementos visitados recientemente, seleccione **Ver todo** para abrir la pantalla Reciente (consulte a continuación). También puede seleccionar **Reciente** o el ![icono de Reciente](media/service-recent/power-bi-recent-icon.png) en la barra de navegación izquierda.
 
-![](media/service-recent/power-bi-recent-list.png)
+![Visualización de todo el contenido reciente](media/service-recent/power-bi-recent-list.png)
 
 Desde aquí puede interactuar con el contenido como haría en cada pestaña [**Paneles**](service-dashboards.md), [ **Informes**](service-reports.md) y **Libros** y en la pantalla [**Aplicaciones**](service-install-use-apps.md).
 
