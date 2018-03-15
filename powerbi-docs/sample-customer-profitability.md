@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Ejemplo Rentabilidad del cliente para Power BI: paseo
 
@@ -40,21 +40,22 @@ Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Powe
 
 1. Abra el servicio Power BI (app.powerbi.com) e inicie sesión.
 2. En la esquina inferior izquierda, seleccione **Obtener datos**.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. En la página que aparece, seleccione el icono **Ejemplos**.
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Seleccione el **Ejemplo de rentabilidad del cliente** y, a continuación, elija **Conectar**.  
-   
+
    ![Obtener datos](media/sample-customer-profitability/get-supplier-sample.png)
 5. Power BI importa el paquete de contenido y agrega un nuevo panel, informe y conjunto de datos en el área de trabajo actual. El contenido nuevo viene indicado con un asterisco amarillo. Utilice los ejemplos para realizar una serie de pruebas en Power BI.  
-   
+
    ![Asterisco](media/sample-customer-profitability/supplier-sample-asterisk.png)
-  
+
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obtención del archivo .pbix de este ejemplo
 
-Como alternativa, puede descargar el ejemplo como un archivo .pbix, que está diseñado para su uso con Power BI Desktop. [Ejemplo de rentabilidad del cliente](<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> Profitability Sample PBIX.pbix)
+Como alternativa, puede descargar el ejemplo como un archivo .pbix, que está diseñado para su uso con Power BI Desktop.
+[Ejemplo de rentabilidad del cliente](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obtención del libro de Excel de este ejemplo
 
@@ -87,13 +88,13 @@ Los iconos del lado derecho del panel proporcionan un panel del equipo. La direc
 
 ![](media/sample-customer-profitability/power-bi-manager2.png)
 
-- Todos los ejecutivos, excepto Carlos, ya han superado su objetivo de ventas. Pero las ventas reales de Carlos son las más elevadas. 
+- Todos los ejecutivos, excepto Carlos, ya han superado su objetivo de ventas. Pero las ventas reales de Carlos son las más elevadas.
 - El porcentaje de margen bruto de Annelie es el más bajo, si bien se observa un incremento continuado desde marzo.
-- Por otro lado, el porcentaje de margen bruto de Valery se ha reducido considerablemente. 
-- Andrew ha tenido un año inestable. 
+- Por otro lado, el porcentaje de margen bruto de Valery se ha reducido considerablemente.
+- Andrew ha tenido un año inestable.
 
 ## <a name="explore-the-dashboards-underlying-data"></a>Exploración de los datos subyacentes del panel
-En este panel hay iconos que se vinculan a un informe y a un libro de Excel. 
+En este panel hay iconos que se vinculan a un informe y a un libro de Excel.
 
 ### <a name="open-the-excel-online-data-source"></a>Apertura del origen de datos de Excel Online
 Dos iconos en este panel, "Target vs Actual" y "Year Over Year Revenue Growth" se han anclado desde un libro de Excel. Por lo que cuando se selecciona cualquiera de estos iconos, Power BI abre el origen de datos; en este caso, Excel Online.
@@ -112,14 +113,14 @@ Dos iconos en este panel, "Target vs Actual" y "Year Over Year Revenue Growth" s
 
 4. Siga explorando y, si encuentra algo interesante, seleccione **Anclar** ![](media/sample-customer-profitability/power-bi-excel-pin.png) en la esquina superior derecha para [anclarlo al panel](service-dashboard-pin-tile-from-excel.md).
 
-5. Utilice la flecha Atrás del explorador para volver al panel. 
+5. Utilice la flecha Atrás del explorador para volver al panel.
 
 ### <a name="open-the-underlying-power-bi-report"></a>Apertura del informe de Power BI subyacente
-La mayoría de los iconos en el panel de ejemplo Customer Profitability se anclaron desde el informe de ejemplo Customer Profitability subyacente. 
+La mayoría de los iconos en el panel de ejemplo Customer Profitability se anclaron desde el informe de ejemplo Customer Profitability subyacente.
 
-1. Seleccione uno de estos iconos para abrir el informe en la vista de lectura. 
+1. Seleccione uno de estos iconos para abrir el informe en la vista de lectura.
 
-2. El informe tiene tres páginas. Cada pestaña de la parte inferior del informe representa una página. 
+2. El informe tiene tres páginas. Cada pestaña de la parte inferior del informe representa una página.
 
     ![](media/sample-customer-profitability/power-bi-report-tabs.png)
 
@@ -155,10 +156,10 @@ Esta página del informe ofrece un segmento de datos distinto. Se examina el mar
 
 En el gráfico de burbujas, la directora financiera busca las burbujas más grandes porque son las que tienen el mayor impacto en los ingresos. Filtrar la página por gerente, al hacer clic en los nombres respectivos en el gráfico de áreas, facilita ver el impacto de cada gerente por sector industrial.
 
-* La zona de influencia de Andrew abarca muchos segmentos distintos de la industria con un porcentaje de margen bruto y de variación muy amplio (sobre todo positivo). 
-* El gráfico de Annelie es similar, salvo que se concentra solo en unos pocos segmentos industriales, sobre todo en el segmento federal, y se centra en el producto Gladius. 
-* Carlos tiene un claro enfoque en el segmento de servicios, con beneficios importantes. Ha mejorado enormemente el porcentaje de variación para el segmento de alta tecnología y un nuevo segmento para él, el industrial, ha obtenido unos resultados extraordinariamente buenos en comparación con el presupuesto. 
-* Tina trabaja con pocos segmentos y tiene el porcentaje más alto de margen bruto, pero el hecho de que el tamaño de sus burbujas sea más bien pequeño muestra que su impacto en los resultados de la compañía es mínimo. 
+* La zona de influencia de Andrew abarca muchos segmentos distintos de la industria con un porcentaje de margen bruto y de variación muy amplio (sobre todo positivo).
+* El gráfico de Annelie es similar, salvo que se concentra solo en unos pocos segmentos industriales, sobre todo en el segmento federal, y se centra en el producto Gladius.
+* Carlos tiene un claro enfoque en el segmento de servicios, con beneficios importantes. Ha mejorado enormemente el porcentaje de variación para el segmento de alta tecnología y un nuevo segmento para él, el industrial, ha obtenido unos resultados extraordinariamente buenos en comparación con el presupuesto.
+* Tina trabaja con pocos segmentos y tiene el porcentaje más alto de margen bruto, pero el hecho de que el tamaño de sus burbujas sea más bien pequeño muestra que su impacto en los resultados de la compañía es mínimo.
 * Valery, que es responsable de un solo producto, trabaja solamente en cinco segmentos de la industria. Su influencia en el sector es estacional, pero siempre genera una burbuja de gran tamaño, lo que indica un impacto significativo en los resultados de la compañía. ¿Explica el sector concreto su rendimiento negativo?
 
 ### <a name="executive-scorecard"></a>Cuadro de mandos ejecutivo
@@ -174,9 +175,9 @@ Para nuestro análisis, sería útil determinar qué sector genera más ingresos
     ![](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. Escriba **total de ingresos por sector para Valery**. Observe cómo se actualiza la visualización a medida que escribe la pregunta.
-   
+
     ![](media/sample-customer-profitability/power-bi-qna.png)
-   
+
    La distribución es el área de ingresos más importante para Valery.
 
 ### <a name="dig-deeper-by-adding-filters"></a>Agregar filtros para profundizar
@@ -184,15 +185,15 @@ Echemos un vistazo al sector *Distribución* .
 
 1. Abra la página de informe "Industry Margin Analysis".
 2. Si no selecciona las visualizaciones en la página del informe, expanda el panel de filtro en la derecha (si todavía no está expandido). El panel Filtros debe mostrar solo filtros de nivel de página.  
-   
+
    ![](media/sample-customer-profitability/power-bi-filters.png)
 3. Busque el filtro **Sector** y seleccione la flecha para expandir la lista. Vamos a agregar un filtro de página para el sector de distribución. En primer lugar, borre todas las selecciones desactivando la casilla **Seleccionar todo**. A continuación, seleccione solo **Distribución**.  
-   
+
    ![](media/sample-customer-profitability/customer7.png)
 4. El gráfico de áreas "Margen bruto por mes y nombre del ejecutivo" nos indica que solo Valery y Tina tienen clientes en este sector y, además, Valery solo trabajó para este sector de junio a noviembre.   
-5. Seleccione **Tina** y después **Valery** en la leyenda del gráfico de áreas "Margen bruto por mes y ejecutivo". Observe que la parte correspondiente a Tina en "Total de ingresos por producto" es muy reducida en comparación con la de Valery. 
+5. Seleccione **Tina** y después **Valery** en la leyenda del gráfico de áreas "Margen bruto por mes y ejecutivo". Observe que la parte correspondiente a Tina en "Total de ingresos por producto" es muy reducida en comparación con la de Valery.
 6. Para ver los ingresos reales, vuelva a Preguntas y respuestas para preguntar el **total de ingresos por ejecutivo por distribución por escenario**.  
-   
+
      ![](media/sample-customer-profitability/power-bi-qna2.png)
 
     Podemos explorar otros sectores de forma similar e incluso agregar clientes a nuestros elementos visuales para entender los motivos del rendimiento de Valery.
@@ -205,4 +206,3 @@ También puede [descargar únicamente el conjunto de datos (libro de Excel) para
 Esperamos que este paseo le haya mostrado cómo los paneles, la sección Preguntas y respuestas y los informes de Power BI pueden proporcionar información detallada de los clientes. Ahora es su turno: conéctese a sus propios datos Con Power BI puede conectarse a una gran variedad de orígenes de datos. Más información sobre [cómo empezar a usar Power BI](service-get-started.md).
 
 [Volver a los ejemplos de Power BI](sample-datasets.md)  
-
