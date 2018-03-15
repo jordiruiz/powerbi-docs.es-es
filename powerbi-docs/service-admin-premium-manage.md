@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: maghan
 LocalizationGroup: Premium
-ms.openlocfilehash: c94cbdbeaf6c7186b21a22c318a4195dbc509da3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a6040871652484ad5de70a0d73e14a13742fe56a
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Administración de la capacidad en Power BI Premium y Power BI Embedded
 Aprenda a administrar la capacidad de Power BI Premium y Power BI Embedded que ofrece recursos dedicados para su contenido.
@@ -44,7 +44,7 @@ Para más información, consulte [What is Power BI Pro?](service-premium.md) (¿
 Para aprovechar las ventajas de la capacidad dedicada, debe comprar una suscripción a Power BI Premium en el centro de administración de Office 365, o crear un recurso de Power BI Embedded en Microsoft Azure Portal. Para más información, consulte los artículos siguientes:
 
 * **Power BI Premium:** [Adquisición de Power BI Premium](service-admin-premium-purchase.md)
-* **Power BI Embedded:** Próximamente.
+* **Power BI Embedded**: [Creación de una capacidad de Power BI Embedded en Azure Portal](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
 
 Al adquirir SKU de Power BI Premium, su inquilino recibirá el número correspondiente de núcleos virtuales para usarlos en la capacidad de ejecución. Por ejemplo, si compra una SKU P3 de Power BI Premium, proporciona al inquilino 32 núcleos virtuales.
 
