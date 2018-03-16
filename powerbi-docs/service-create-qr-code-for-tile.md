@@ -15,21 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a01f7c8ab679e2820261c7947a9561ff5513d60
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e7f37a076f913d50f5a6b654aa79b50d61bc5add
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Crear un código QR para un icono en Power BI para su uso en aplicaciones móviles
 Los códigos QR de Power BI pueden conectar  cualquier cosa del mundo real directamente con información de BI relacionada &#151; no es necesario realizar ninguna exploración o búsqueda.
 
 Puede crear un código QR en el servicio Power BI para iconos en cualquier panel, incluso en los que no pueda editar. A continuación, coloque el código QR en una ubicación clave. Por ejemplo, podría pegarlo en un correo electrónico, o imprimirlo y pegarlo en una ubicación específica. 
 
-Los compañeros con quienes haya compartido el panel pueden [detectar el código QR para tener acceso al icono directamente desde sus dispositivos móviles](mobile-apps-qr-code.md). Puede usar el escáner de código QR ubicado en la aplicación Power BI o cualquier otro escáner QR instalado en su dispositivo. .
+Los compañeros con quienes haya compartido el panel pueden [detectar el código QR para tener acceso al icono directamente desde sus dispositivos móviles](mobile-apps-qr-code.md). Puede usar el escáner de código QR ubicado en la aplicación Power BI o cualquier otro escáner QR instalado en su dispositivo.
+
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Crear un código QR para un icono
 1. Abra un panel en el servicio Power BI.
