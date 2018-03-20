@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0863b41ecc0f7053ae0d958d25c756c8597880ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Uso del conector de SAP BW en Power BI Desktop
 Con Power BI Desktop, puede acceder a los datos de **SAP BusinessWarehouse (BW)**.
@@ -33,12 +33,16 @@ Para usar el **conector de SAP BW**, siga los pasos de instalación siguientes:
 1. Instale la biblioteca **SAP NetWeaver** en la máquina local. Puede obtener la biblioteca **SAP Netweaver** del administrador de SAP o directamente desde el [Centro de descarga de software de SAP](https://support.sap.com/swdc). Puesto que el **Centro de descarga de software de SAP** cambia su estructura con frecuencia, no hay disponibles instrucciones más específicas para navegar por ese sitio. Normalmente, la biblioteca **SAP Netweaver** se incluye también en la instalación de las herramientas de cliente de SAP.
    
    Puede buscar la *nota de SAP #1025361* para obtener la ubicación de descarga de la versión más reciente. Asegúrese de que la arquitectura de la biblioteca **SAP NetWeaver** (32 o 64 bits) coincida con su instalación de **Power BI Desktop**. Después, instale todos los archivos incluidos en **SAP NetWeaver RFC SDK** según la nota de SAP.
-2. El cuadro de diálogo **Obtener datos** incluye una entrada para **SAP Business Warehouse Server** en la categoría de **Base de datos**.
+2. El cuadro de diálogo **Obtener datos** incluye una entrada para el **Servidor de aplicaciones de SAP Business Warehouse** y el **Servidor de mensajería de SAP Business Warehouse** en la categoría **Base de datos**.
    
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>Características del conector de SAP BW
-La vista previa del **conector de SAP BW** en Power BI Desktop permite a los usuarios importar datos desde sus cubos de **SAP Business Warehouse Server**. También puede usar DirectQuery con el **conector de SAP BW**. Debe especificar un *servidor*, un *numero de sistema* y el *id. de cliente* para establecer la conexión.
+El **conector de SAP BW** de Power BI Desktop le permite importar datos de los cubos del **Servidor de SAP Business Warehouse**. También puede usar DirectQuery con el **conector de SAP BW**. 
+
+Para obtener más información sobre el **conector de SAP BW** y cómo usarlo con DirectQuery, eche un vistazo al artículo [DirectQuery y SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
+
+Al establecer la conexión, debe especificar un *servidor*, un *número de sistema* y el *id. de cliente* para establecer la conexión.
 
 ![](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
@@ -105,3 +109,9 @@ Esta sección proporciona situaciones de diagnóstico de problemas (y soluciones
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
 
+## <a name="next-steps"></a>Pasos siguientes
+Para más información sobre SAP HANA y DirectQuery, revise los siguientes recursos:
+
+* [DirectQuery y SAP HANA](desktop-directquery-sap-hana.md)
+* [DirectQuery en Power BI](desktop-directquery-about.md)
+* [Orígenes de datos compatibles con DirectQuery](desktop-directquery-data-sources.md)

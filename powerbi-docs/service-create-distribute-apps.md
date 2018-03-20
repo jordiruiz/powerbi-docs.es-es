@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c2f2fcca7c1d915f94960824d32a5d4f18a978b6
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Crear y publicar aplicaciones con los paneles e informes de Power BI
 
@@ -174,6 +174,8 @@ Estos son algunos aspectos que debe tener en cuenta al publicar aplicaciones par
 * Si el usuario no ve inmediatamente la aplicación en la lista de aplicaciones, debe actualizar o cerrar y volver a abrir el explorador.
 
 * Intente no abrumar a los usuarios. Tenga cuidado de no insertar demasiadas aplicaciones para que los usuarios perciban que las aplicaciones preinstaladas son útiles. Es mejor controlar quién puede insertar aplicaciones para los usuarios finales a fin de coordinar la programación. Puede establecer un punto de contacto para obtener aplicaciones de la organización insertadas para los usuarios finales.
+
+* A los usuarios invitados que no hayan aceptado una invitación no se les instalarán las aplicaciones automáticamente.  
 
 ## <a name="unpublish-an-app"></a>Cancelar la publicación de una aplicación
 Cualquier miembro de un área de trabajo de la aplicación puede cancelar la publicación de la aplicación.

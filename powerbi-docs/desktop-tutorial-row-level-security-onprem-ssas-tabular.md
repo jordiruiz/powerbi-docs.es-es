@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 982b027ebf7605cdc0ce122759d5f3837d23c0ed
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 67b347be9974605156d02cbbf179126c68ae91e8
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Tutorial: Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services
 En este tutorial se muestran los pasos necesarios para implementar la **seguridad de nivel de fila** dentro del **modelo tabular de Analysis Services** y se muestra cómo usarla en un informe de Power BI. Los pasos de este tutorial se han diseñado para permitirle seguir adelante y conocer los pasos necesarios al completar un conjunto de datos de ejemplo.

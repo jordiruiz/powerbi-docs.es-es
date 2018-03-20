@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: e824c1e582b8ed3cf0953b59b790e90271a6d38c
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 9a2f381ea97fb62d85841cbfcace8352007dd60b
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>Introducción a la aplicación móvil de Power BI en un iPhone o iPod Touch
 La aplicación Microsoft Power BI para iOS, en su iPhone o iPod, proporciona la experiencia de BI móvil para Power BI, el servidor de informes de Power BI y Reporting Services. Con el acceso móvil directo y táctil a la información importante local y en la nube de la empresa, puede ver los paneles de la empresa e interactuar con ellos fácilmente y desde cualquier lugar. Explore los datos de los paneles y compártalos con sus compañeros en mensajes de texto o correo electrónico. Y manténgase al día y a tiempo con los datos en su [Apple Watch](mobile-apple-watch.md).  
@@ -31,7 +31,7 @@ La aplicación Microsoft Power BI para iOS, en su iPhone o iPod, proporciona la 
 Podrá crear informes de Power BI en Power BI Desktop y publicarlos:
 
 * [Publíquelos en el servicio Power BI](service-get-started.md) y cree paneles.
-* [Publíquelos en el servidor de informes de Power BI local](report-server/quickstart-create-powerbi-report.md).
+* [Publíquelos en Power BI Report Server](report-server/quickstart-create-powerbi-report.md).
 
 A continuación, en la aplicación de Power BI para iPhone, podrá interactuar con los paneles y los informes locales y en la nube.
 
@@ -140,4 +140,5 @@ Estas son algunas de las cosas que puede hacer en la aplicación de Power BI par
 ### <a name="see-also"></a>Vea también
 * [Introducción a Power BI](service-get-started.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+
 

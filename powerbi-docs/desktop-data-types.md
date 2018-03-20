@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d15aeaf90e748b9ba14a0160042d2db4f36d3150
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 71a2908357164cf93870800947ae5fa0aa04c75c
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de datos en Power BI Desktop
 Este artículo describe los tipos de datos admitidos en Power BI Desktop y Expresiones de análisis de datos (DAX). 
 
 Cuando se cargan datos en Power BI Desktop, intentará convertir el tipo de datos de la columna de origen en un tipo de datos que admita mejor una visualización de datos, unos cálculos y un almacenamiento más eficiente. Por ejemplo, si una columna de valores que importa desde Excel no tiene ningún valor fraccionario, Power BI Desktop convertirá toda la columna de datos en un tipo de datos de número entero, que es más adecuado para almacenar números enteros.
 
-Esto es importante porque algunas funciones DAX tienen requisitos de tipo de datos especiales. Aunque en muchos casos DAX convertirá implícitamente un tipo de datos para usted, hay algunos casos donde no puede.  Por ejemplo, si una función DAX requiere un tipo de datos de fecha y el tipo de datos para la columna es de texto, la función DAX no funcionará correctamente.  Por lo tanto, es importante y útil obtener el tipo de datos correcto para una columna. Las conversiones implícitas se describen más adelante en este artículo.
+Este concepto es importante porque algunas funciones DAX tienen requisitos de tipo de datos especiales. Aunque en muchos casos DAX convertirá implícitamente un tipo de datos para usted, hay algunos casos donde no puede.  Por ejemplo, si una función DAX requiere un tipo de datos de fecha y el tipo de datos para la columna es de texto, la función DAX no funcionará correctamente.  Por lo tanto, es importante y útil obtener el tipo de datos correcto para una columna. Las conversiones implícitas se describen más adelante en este artículo.
 
 ## <a name="determine-and-specify-a-columns-data-type"></a>Determinar y especificar el tipo de datos de una columna
 En Power BI Desktop, puede determinar y especificar un tipo de datos de una columna en el Editor de consultas en la vista de datos o la vista de informes:
@@ -42,14 +42,14 @@ En Power BI Desktop, puede determinar y especificar un tipo de datos de una colu
 
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
-El menú desplegable de tipo de datos en el Editor de consultas tiene dos tipos de datos que no se encuentran presentes actualmente en la vista de informes o de datos: **Fecha/hora/zona horaria** y **Duración**. Cuando una columna con estos tipos de datos se carga en el modelo y se visualiza en la vista de datos o de informes, una columna con tipo de datos de fecha/hora/zona horaria se convertirá en una fecha/hora y una columna con un tipo de datos de duración en un número decimal.
+El menú desplegable de tipo de datos en el Editor de consultas tiene dos tipos de datos que no se encuentran presentes actualmente en la vista de informes o de datos: **Fecha/hora/zona horaria** y **Duración**. Cuando una columna con estos tipos de datos se carga en el modelo y se visualiza en la vista de datos o informes, una columna con tipo de datos de fecha/hora/zona horaria se convertirá en una fecha/hora y una columna con un tipo de datos de duración en un número decimal.
 
 ### <a name="number-types"></a>Tipos de número
 Power BI Desktop admite tres tipos de números:
 
 **Números decimales** : representa un número de punto flotante de 64 bits (8 bytes). Es el tipo de número más común y se corresponde con los números de la forma en la que suele pensar en ellos.  Aunque se ha diseñado para controlar los números con valores fraccionarios, también controla números enteros.  El tipo de número decimal puede controlar los valores negativos entre - 1,79E +308 y -2,23E -308, 0 y valores positivos entre 2,23E -308 y 1,79E +308. Por ejemplo, los números como 34, 34,01 y 34,000367063 son números decimales válidos. El valor más grande que se puede representar en un tipo de número decimal es de 15 dígitos.  El separador decimal puede colocarse en cualquier parte del número. El tipo de número decimal se corresponde con la forma en la que Excel almacena sus números.
 
-**Número decimal fijo** : tiene una ubicación fija para el separador decimal. El separador decimal siempre tiene cuatro dígitos a la derecha y permite 19 dígitos de importancia.  El valor más grande que puede representar es 922.337.203.685.477,5807 (positivo o negativo).  El tipo de número decimal fijo es útil en casos donde el redondeo podría producir errores.  Cuando se trabaja con muchos números que tienen valores fraccionarios pequeños, pueden acumularse a veces y hacer que un número sea ligeramente inferior.  Puesto que se truncan los valores que superan los cuatro dígitos a la derecha del separador decimal, el tipo de decimal fijo puede ayudarle a evitar estos tipos de errores.   Si está familiarizado con SQL Server, este tipo de datos se corresponde con un decimal de SQL Server (19.4), o con el tipo de datos de moneda en Power Pivot. 
+**Número decimal fijo** : tiene una ubicación fija para el separador decimal. El separador decimal siempre tiene cuatro dígitos a la derecha y permite 19 dígitos de importancia.  El valor más grande que puede representar es 922.337.203.685.477,5807 (positivo o negativo).  El tipo de número decimal fijo es útil en casos donde el redondeo podría producir errores.  Cuando se trabaja con muchos números que tienen valores fraccionarios pequeños, a veces pueden acumularse y hacer que un número sea ligeramente inferior.  Puesto que se truncan los valores que superan los cuatro dígitos a la derecha del separador decimal, el tipo de decimal fijo puede ayudarle a evitar estos tipos de errores.   Si está familiarizado con SQL Server, este tipo de datos se corresponde con un decimal de SQL Server (19.4), o con el tipo de datos de moneda en Power Pivot. 
 
 **Número entero** : representa un valor entero de 64 bits (8 bytes). Puesto que es un entero, no tiene dígitos a la derecha del separador decimal. Permite 19 dígitos; números enteros positivos o negativos entre -9.223.372.036.854.775.808 (-2^63) y 9.223.372.036.854.775.807 (2^63-1).  Puede representar el mayor número posible de los distintos tipos de datos numéricos.  Como ocurre con el tipo de decimal fijo, el tipo de número entero puede usarse en casos en los que tenga que controlar el redondeo. 
 
@@ -125,7 +125,7 @@ Por ejemplo, si se usa una fecha en una operación de resta con cualquier otro t
 > 
 > 
 
-**Multiplication(*)**
+**Multiplicación (*)**
 
 | Operator(*) | ENTERO | MONEDA | REAL | Fecha y hora |
 | --- | --- | --- | --- | --- |

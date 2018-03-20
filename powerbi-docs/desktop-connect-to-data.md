@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b61285c54d337ce85ab470180f8cfa2a66f0820e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 94e52d2d56cd7ba0ec04db47bc93dd18fc880f39
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Conectarse a los datos en Power BI Desktop
 Con Power BI Desktop puede conectarse fácilmente con el mundo de los datos en expansión continua. Si no dispone de Power BI Desktop, puede [descargarlo](http://go.microsoft.com/fwlink/?LinkID=521662) e instalarlo.
@@ -80,7 +80,7 @@ Se puede hacer todo tipo de cosas con Power BI Desktop. Para obtener más inform
 * [Combinar datos y darles forma con Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tareas de consultas comunes en Power BI Desktop](desktop-common-query-tasks.md)   
 
-¿Desea enviar comentarios? Muy bien, use el elemento de menú **Enviar comentarios** en Power BI Desktop. ¡Esperamos tener noticias suyas!
+¿Desea enviar comentarios? Genial. Utilice el elemento de menú **Enviar una idea** en Power BI Desktop o visite [Comentarios de la comunidad](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). ¡Esperamos tener noticias suyas!
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

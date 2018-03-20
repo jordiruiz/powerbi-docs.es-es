@@ -1,4 +1,4 @@
-## <a name="install-the-on-premises-data-gateway"></a>Instalación de la puerta de enlace de datos local
+## <a name="install-the-on-premises-data-gateway"></a>Instalar la puerta de enlace de datos local
 La puerta de enlace de datos se instala y se ejecuta en el equipo. Es mejor instalar la puerta de enlace en un equipo que puede dejarse en ejecución todo el tiempo.
 
 > [!NOTE]
@@ -15,9 +15,9 @@ Hay algunas cosas que debe saber sobre la instalación de cualquiera de los modo
 
 * ambas puertas de enlace requieren sistemas operativos Windows de 64 bits
 * las puertas de enlace no se pueden instalar en un controlador de dominio
-* puede instalar hasta dos puertas de enlace de datos locales en el mismo equipo y cada una se ejecutará en cada modo (personal y estándar). 
+* Puede instalar hasta dos puertas de enlace de datos locales en el mismo equipo y cada una se ejecutará en cada modo (personal y estándar). 
 * no puede tener más de una puerta de enlace en ejecución en el mismo modo del mismo equipo.
-* se pueden instalar varias puertas de enlace de datos locales en equipos diferentes y administrarlas todas desde la misma interfaz de administración de puertas de enlace de Power BI (excepto en el modo personal, consulte el siguiente punto)
+* Se pueden instalar varias puertas de enlace de datos locales en equipos diferentes y administrarlas todas desde la misma interfaz de administración de puertas de enlace de Power BI (excepto en el modo personal, consulte el siguiente punto).
 * solo puede tener una puerta de enlace en modo personal en ejecución por cada usuario de Power BI. Si instala otra puerta de enlace en modo personal para el mismo usuario, incluso en un equipo diferente, la instalación más reciente reemplazará la ya existente.
 
 ![On-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)

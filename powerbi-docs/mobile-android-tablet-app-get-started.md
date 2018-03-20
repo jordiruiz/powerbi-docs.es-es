@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: bd96466a8a8c19a495540b93a512cb62746a6837
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 407f4d8c2faf26b9837b24318c24c118786e21ae
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-tablets"></a>Introducción a la aplicación móvil de Power BI en tabletas Android
 La aplicación móvil de Power BI para tabletas Android ofrece la experiencia de BI móvil para Power BI, el servidor de informes de Power BI y Reporting Services. Con el acceso móvil directo y táctil a la información importante local y en la nube de la empresa, puede ver los paneles de la empresa e interactuar con ellos fácilmente y desde cualquier lugar. Explore los datos de los paneles y compártalos con sus compañeros en mensajes de texto o correo electrónico. 
@@ -64,7 +64,7 @@ Si aún no se ha registrado, vaya al [servicio Power BI (http://powerbi.com/)](h
    
    Para ver informes y KPI locales del servidor de informes de Power BI y Reporting Services, pulse **Servidor de informes**.
    
-   ![Inicio de sesión en Power BI](media/mobile-android-tablet-app-get-started/power-bi-connect-to-login.png)
+   ![Iniciar sesión en Power BI](media/mobile-android-tablet-app-get-started/power-bi-connect-to-login.png)
    
    Proporcione la información de inicio de sesión del servidor de informes para [ver informes y KPI del servidor de informes de Power BI y Reporting Services](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) en la aplicación Power BI de la tableta Android.
 
@@ -142,3 +142,4 @@ Estas son algunas de las cosas que puede hacer en la aplicación de Power BI par
 * [Descarga de la aplicación Android](http://go.microsoft.com/fwlink/?LinkID=544867) desde la tienda de aplicaciones Android.
 * [Introducción a Power BI](service-get-started.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+
