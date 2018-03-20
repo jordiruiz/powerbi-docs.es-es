@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6d5e4592d1bf041672f89dd38f03ddc6ff196735
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 43263afb63fa0350a240cae602f4a2acf8ef8edd
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Resolver problemas cuando no Power BI Desktop no se inicia
 En **Power BI Desktop**, es posible que los usuarios que tengan instaladas y ejecuten versiones anteriores de **puertas de enlace de datos locales de Power BI** no puedan iniciar Power BI Desktop, debido a las restricciones de directiva administrativa que las puertas de enlace locales de Power BI aplican a las canalizaciones con nombre en el equipo local. 
@@ -42,7 +42,7 @@ Como alternativa, puede iniciar correctamente Power BI Desktop como administrado
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Ayuda con otros problemas al iniciar Power BI Desktop
 Nos esforzamos por abarcar todos los problemas posibles que se producen con **Power BI Desktop**. Revisamos con regularidad los problemas que pueden afectar a muchos clientes y los incluimos en nuestros artículos.
 
-Si el problema al iniciar **Power BI Desktop** no está relacionado con la puerta de enlace de datos local o si las soluciones anteriores no funcionan, puede enviar una incidencia al equipo de [soporte técnico de Power BI](https://support.powerbi.com) (https://support.powerbi.com) para facilitar la identificación y resolución del problema.
+Si el problema al iniciar **Power BI Desktop** no está relacionado con la puerta de enlace de datos local, o si las soluciones anteriores no funcionan, puede enviar un incidente al equipo de [soporte técnico de Power BI](https://support.powerbi.com) (https://support.powerbi.com) para ayudar a identificar y resolver el problema.
 
 Para otros problemas que puedan surgir en el futuro con **Power BI Desktop** (esperamos que no haya ninguno o muy pocos), resulta útil activar el seguimiento y recopilar los archivos de registro, para aislar e identificar mejor el problema. Para activar el seguimiento, seleccione **Archivo > Opciones y configuración > Opciones** y, a continuación, seleccione **Diagnósticos** y, finalmente, **Habilitar seguimiento** en *Opciones de diagnóstico*. Somos conscientes de que se debe ejecutar **Power BI Desktop** para poder establecer esta opción ya que es más útil para futuros problemas relacionados con el inicio de **Power BI Desktop**.
 

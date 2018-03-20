@@ -1,5 +1,5 @@
 ---
-title: "Uso de marcadores en Power BI (versión preliminar)"
+title: Uso de marcadores en Power BI
 description: Los marcadores de Power BI Desktop le permiten guardar vistas y configuraciones en los informes y crear presentaciones a modo de historias
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a56983f48d80cf39b89958db4327e3632ee733e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Uso de marcadores para compartir información detallada y crear historias en Power BI (versión preliminar)
+# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Uso de marcadores para compartir información detallada y crear historias en Power BI 
 El uso de **marcadores** en Power BI le permite capturar la vista configurada actualmente de una página del informe, incluidos los filtros y el estado de los objetos visuales y, posteriormente, volver a ese estado simplemente seleccionando el marcador guardado. 
 
 También puede crear una colección de marcadores, organizarlos en el orden que desee y, posteriormente, usarlos en una presentación para resaltar una serie de informaciones detalladas o la historia que desea contar a través de los objetos visuales e informes. 
@@ -33,12 +33,14 @@ También puede crear una colección de marcadores, organizarlos en el orden que 
 
 Los marcadores tienen muchos usos. Puede utilizarlos para hacer un seguimiento de su progreso en la creación de un informe (los marcadores son fáciles de agregar, eliminar y cambiar de nombre), y también puede usar marcadores para crear una presentación similar a las de PowerPoint que recorra los marcadores en orden, lo cual permite contar una historia a través del informe. También podría haber otros usos en función de cómo crea que los marcadores le pueden ayudar.
 
-### <a name="enable-the-bookmarks-preview"></a>Habilitar la versión preliminar de los marcadores
-Puede probar la nueva característica de **marcadores** a partir de la versión de **octubre de 2017** de **Power BI Desktop** y, en el caso de informes habilitados para marcadores, también en el **servicio Power BI**. Para habilitar esta característica en versión preliminar, seleccione **Archivo > Opciones y configuración > Opciones > Características en vista previa** y, a continuación, marque la casilla situada junto a **Marcadores**. Deberá reiniciar Power BI Desktop después de realizar la selección.
+### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Habilitar la versión preliminar de los marcadores (versiones anteriores a marzo de 2018)
+Los marcadores están disponibles con carácter general a partir de la versión de marzo de 2018 de Power BI Desktop. 
+
+Siempre se recomienda actualizar a la versión más reciente, pero si su versión de Power BI Desktop es anterior a esa versión, puede probar la característica de **marcadores** a partir de la versión de **octubre de 2017** de **Power BI Desktop** y, en el caso de los informes habilitados para marcadores, también en el **servicio Power BI**. Para habilitar la característica de la versión preliminar, seleccione **Archivo > Opciones y configuración > Opciones > Características en vista previa** y, a continuación, marque la casilla situada junto a **Marcadores**. 
 
 ![Habilitar marcadores en la ventana de opciones](media/desktop-bookmarks/bookmarks_02.png)
 
-Deberá reiniciar **Power BI Desktop** después de realizar la selección.
+Deberá reiniciar **Power BI Desktop** después de realizar la selección para habilitar la versión preliminar de los marcadores.
 
 ## <a name="using-bookmarks"></a>Uso de marcadores
 Para utilizar marcadores, seleccione la cinta de opciones de **Vista** y, a continuación, seleccione la casilla de **Panel Marcadores**. 
@@ -147,14 +149,13 @@ En el **servicio Power BI** el **panel Marcadores** funciona igual que en **Powe
 Tenga en cuenta que debe utilizar la barra de título del marcador atenuado para navegar por los marcadores y no las flechas negras (las flechas negras le permiten moverse a través de las páginas del informe, no de los marcadores).
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
-En esta versión preliminar de los **marcadores**, hay algunas limitaciones y consideraciones que debe tener en cuenta.
+En esta versión de los **marcadores** hay algunas limitaciones y consideraciones que debe tener en cuenta.
 
 * Los objetos visuales personalizados no funcionan con marcadores si estos constituyen el *origen* del filtro. Si usa objetos visuales personalizados para filtrar los elementos de una página (por ejemplo, la segmentación de datos de chiclet) y vuelve a la página mediante un marcador, se podrá filtrar la página pero no se actualizará el objeto visual personalizado para mostrar cómo se filtra la página. 
 * El estado del resaltado cruzado de un panel de informes *no* se guarda cuando se crea un marcador. 
 * Si agrega un objeto visual en una página de informe después de crear un marcador, se mostrará el objeto visual en su estado predeterminado. Esto también significa que si se introduce una segmentación de datos en una página en la que previamente creó marcadores, la segmentación de datos se comportará según su estado predeterminado.
 * Si se desplaza por los objetos visuales después de haber creado un marcador se reflejará en este. 
 * *Deberá* crear al menos un marcador en el informe cuando lo publique en el **servicio Power BI**, para que los marcadores estén disponibles en el servicio. Se trata de un requisito obligatorio para cada informe que publique.
-* Como los marcadores son una característica en versión preliminar, aún no están disponibles en [**Power BI Desktop para Report Server**](report-server/quickstart-create-powerbi-report.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 Para más información acerca de las características que son similares o que interactúan con los marcadores, eche un vistazo a los siguientes artículos:

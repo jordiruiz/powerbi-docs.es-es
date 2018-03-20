@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/23/2018
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 15d1f391ba7a9c32ce1f8abd9620e84f16206e26
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
@@ -142,9 +142,13 @@ Puede también habilitar la característica solo para un grupo específico de us
 
 Los usuarios de la organización pueden compartir paneles con usuarios de fuera de la organización.
 
+![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+
+Este es el mensaje que aparecerá cuando los comparta con un usuario externo.
+
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
-### <a name="publish-to-web"></a>Publicar en Web
+### <a name="publish-to-web"></a>Publicar en web
 
 Los usuarios de la organización pueden publicar informes en la web. [Más información](service-publish-to-web.md)
 

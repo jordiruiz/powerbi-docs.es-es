@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f9e30b3feb5f9b85a87686e4484bba035ff839aa
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f2749976772d2bc2e3d48ca355925cafad93fe0c
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Orígenes de datos del servicio Power BI
-Los datos son la esencia de Power BI. Cada vez que explora datos, crea gráficos y paneles, plantea preguntas con Preguntas y respuestas, todas las visualizaciones y respuestas que ve se basan en un conjunto de datos. Pero, ¿de dónde procede ese conjunto de datos? De un origen de datos.
+Los datos son la esencia de Power BI. Todo lo que ve al explorar datos, crear gráficos y paneles o plantear preguntas con Preguntas y respuestas, se basa en un conjunto de datos. Pero, ¿de dónde procede ese conjunto de datos? De un origen de datos.
 
-En este artículo, se examinarán los distintos tipos de orígenes de datos a los que puede conectarse desde el servicio Power BI. Tenga en cuenta que hay muchos otros tipos de orígenes de datos de los que también puede obtener datos. Para trabajar con ellos, podría ser necesario en primer lugar usar las características avanzadas de modelado y consulta de datos de Excel o Power BI Desktop. Se verá más adelante de manera detallada. Por ahora, echemos un vistazo a los distintos tipos de orígenes de datos a los que puede conectarse directamente desde el sitio del servicio Power BI.
+En este artículo, vamos a examinar los distintos tipos de orígenes de datos a los que puede conectarse desde el servicio Power BI. Tenga en cuenta que hay muchos otros tipos de orígenes de datos de los que también puede obtener datos. Para trabajar con ellos podría ser necesario usar las características avanzadas de modelado y consulta de datos de Power BI Desktop o Excel. Lo veremos más detalladamente más adelante. Por ahora, echemos un vistazo a los distintos tipos de orígenes de datos a los que puede conectarse directamente desde el sitio del servicio Power BI.
 
 Para obtener datos desde cualquiera de estos orígenes de datos en Power BI, haga clic en **Mi área de trabajo** > **Obtener datos**.
 
@@ -44,7 +44,7 @@ Para obtener datos desde cualquiera de estos orígenes de datos en Power BI, hag
 
 Para otros tipos de archivo, como Tabla XML (.xml) o archivos de texto (.txt), puede usar primero Obtener y transformar para consultar, transformar y cargar los datos en un archivo de Excel o Power BI Desktop. Después, puede importar el archivo de Excel o Power BI Desktop en Power BI.
 
-El lugar donde se almacenan los archivos supone una gran diferencia. OneDrive para la Empresa proporciona la máxima flexibilidad e integración con Power BI. Si guarda los archivos en la unidad local, no hay problema, pero si necesita actualizar los datos, se requieren unos pasos adicionales. Encontrará más detalles en los artículos a los que le llevan los vínculos.
+El lugar donde se almacenan los archivos supone una gran diferencia. OneDrive para la Empresa proporciona la máxima flexibilidad e integración con Power BI. Si guarda los archivos en la unidad local, no hay problema, pero si necesita actualizar los datos, hay unos pasos adicionales. Encontrará más detalles en los artículos a los que le llevan los vínculos.
 
 ## <a name="content-packs"></a>Paquetes de contenido
 ![](media/service-get-data/pbi_getdata_contentpacks.png)
@@ -76,7 +76,7 @@ Probablemente esté pensando: "Pero los datos de logística de esa base de datos
 Que no pueda conectar directamente con el origen de datos desde el servicio Power BI no significa que no pueda obtener esos datos en Power BI. Tal vez se requieran algunos pasos más y la ayuda del departamento de TI. Consulte [Orígenes de datos en Power BI Desktop](desktop-data-sources.md) para más información.
 
 ## <a name="some-more-details"></a>Algunos detalles más
-Verá que los términos "conjunto de datos" y "origen de datos" se usan mucho en Power BI. A menudo se usan como sinónimos, pero en realidad son dos cosas distintas, aunque relacionadas.
+Verá que los términos "conjunto de datos" y "origen de datos" se usan mucho en Power BI. A menudo se usan como sinónimos, pero realmente son dos cosas distintas, aunque relacionadas.
 
 Un ***conjunto de datos*** se crea automáticamente en Power BI al usar Obtener datos para conectarse a los datos e importarlos desde un paquete de contenido o archivo, o bien al conectarse a un origen de datos dinámico. Un conjunto de datos contiene información sobre el origen de datos, las credenciales de dicho origen y, con frecuencia, un subconjunto de datos copiados desde el origen de datos. En la mayoría de los casos, al crear visualizaciones en informes y paneles, se consultan los datos del conjunto de datos.
 

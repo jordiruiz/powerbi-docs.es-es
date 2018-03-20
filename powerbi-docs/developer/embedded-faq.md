@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/15/2018
+ms.date: 03/07/2018
 ms.author: maghan
-ms.openlocfilehash: 9d387208b1ace0b0f0fd700b471e07e3b2584883
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 52ff1095c063be867354a23e0e8e4908a4b4e1d7
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Preguntas más frecuentes acerca de Power BI Embedded
 
@@ -66,7 +66,7 @@ Power BI Embedded ya está disponible.
 
 ## <a name="technical"></a>Preguntas técnicas
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-em-skus-in-office-365"></a>¿En qué se diferencian las SKU A de Azure y las SKU EM de Office 365?
+### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>¿En qué se diferencian las SKU A de Azure y las SKU EM de Office 365?
 
 PowerBI.com es una solución empresarial que incluye numerosas funcionalidades, como la colaboración social, la suscripción al correo electrónico, etc. en una oferta de software como servicio
 
@@ -128,6 +128,10 @@ Utilice PowerBI.com para asignar o desasignar áreas de trabajo a su capacidad d
 
 Sudeste de Australia, Sur de Brasil, Centro de Canadá, Este de EE. UU. 2, India occidental, Japón Oriental, Centro y norte de EE. UU., Europa del Norte, Centro y Sur de EE. UU., Asia Suroriental, Sur de Reino Unido, Europa Occidental, Oeste de EE. UU. y Oeste de EE. UU. 2.
 
+### <a name="what-type-of-content-pack-data-can-be-embedded"></a>¿Qué tipo de datos de paquetes de contenido se puede insertar?
+
+Los **paneles** e **iconos** que se generan a partir de conjuntos de datos de paquetes de contenido *no se pueden* insertar, pero *sí* los **informes** generados a partir de un conjunto de datos de paquetes de contenido.
+
 ## <a name="licensing"></a>Administración de licencias
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>¿Cómo se adquiere Power BI Embedded?
@@ -170,7 +174,7 @@ Los clientes pueden cambiar su uso cada hora. No hay compromiso mensual o anual 
 
 ### <a name="where-is-power-bi-embedded-available-us-government-germany-china-what-is-the-timing"></a>¿Dónde está disponible Power BI Embedded? ¿Gobierno de EE. UU.? ¿Alemania? ¿China? ¿Cuál es la previsión temporal?
 
-Power BI Embedded estará disponible en las nubes comerciales de Azure en disponibilidad general.  La disponibilidad de la nube independiente se agregará en el futuro.
+Power BI Embedded está disponible en las nubes comerciales de Azure y en la nube gubernamental de los Estados Unidos.  En el futuro se incorporará disponibilidad de nube soberana para Alemania y China.
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>¿Está Power BI Embedded disponible para entidades educativas y sin ánimo de lucro?
 

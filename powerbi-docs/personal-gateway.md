@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 06ed973b3b16f5ac8ed8bef484d48af994a4e5f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7a523284bd777d87b7ac42ba7e9ff82ee7bdf623
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 > [!NOTE]
@@ -90,11 +90,11 @@ Analicemos cada paso más detenidamente.
 
 ### <a name="download-and-install-a-gateway"></a>Descargar e instalar una puerta de enlace
 > [!NOTE]
-> Hay una nueva versión de la puerta de enlace personal para Power BI, denominada **puerta de enlace de datos local (modo personal)**. En este artículo se describe la versión anterior de la puerta de enlace personal, denominada **Power BI Gateway - Personal**, que se va a retirar y dejará de funcionar a partir del 31 de julio de 2017. Para más información acerca de la nueva versión de la puerta de enlace personal, incluido cómo instalar la nueva versión, consulte el artículo [**Puerta de enlace de datos local (modo personal)**](service-gateway-personal-mode.md).
+> Hay una nueva versión de la puerta de enlace personal para Power BI, denominada **Puerta de enlace de datos local (modo personal)**. En este artículo se describe la versión anterior de la puerta de enlace personal, denominada **Power BI Gateway - Personal**, que se va a retirar y dejará de funcionar a partir del 31 de julio de 2017. Para más información acerca de la nueva versión de la puerta de enlace personal, incluido cómo instalar la nueva versión, consulte el artículo [**Puerta de enlace de datos local (modo personal)**](service-gateway-personal-mode.md).
 > 
 > 
 
-Se le pedirá que instale una puerta de enlace al hacer clic en ACTUALIZAR AHORA o PROGRAMAR ACTUALIZACIÓN para un conjunto de datos compatible por primera vez. O bien, para descargar la puerta de enlace, seleccione **Puerta de enlace de datos** en el menú Descargas. Descargue la [puerta de enlace de datos local](http://go.microsoft.com/fwlink/?LinkID=820925).
+Se le pedirá que instale una puerta de enlace al hacer clic en ACTUALIZAR AHORA o PROGRAMAR ACTUALIZACIÓN para un conjunto de datos compatible por primera vez. O bien, para descargar la puerta de enlace, seleccione **Puerta de enlace de datos** en el menú Descargas. Descargue la [Puerta de enlace de datos local](http://go.microsoft.com/fwlink/?LinkID=820925).
 
 Seleccione **Puerta de enlace personal** en lugar de **Puerta de enlace de datos local** para tener una puerta de enlace para usted.
 

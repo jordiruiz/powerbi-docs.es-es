@@ -1042,8 +1042,6 @@
           href: report-server/get-started.md
         - name: Novedades
           href: report-server/whats-new.md
-        - name: Notas de la versión
-          href: report-server/release-notes.md
         - name: Registro de cambios
           href: report-server/changelog.md
         - name: Escala de tiempo de soporte técnico

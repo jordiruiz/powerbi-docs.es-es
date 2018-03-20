@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8b7fb21e533fecbfe93481741ae53b0073f6a776
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 937cbf39d08bd830c16e9b2634f3d5a747689f54
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Información general sobre consultas en Power BI Desktop
 **Power BI Desktop** le permite conectarse con el mundo de los datos, crear informes básicos y atractivos y compartir sus esfuerzos con otros usuarios, quienes a su vez pueden basarse en el trabajo que comparte con ellos y expandir sus propios esfuerzos de inteligencia empresarial.
@@ -102,7 +102,7 @@ El panel izquierdo muestra el número de consultas activas, así como el nombre 
 ![](media/desktop-query-overview/queryoverview_theleftpane.png)
 
 ## <a name="the-center-data-pane"></a>El panel central (panel de datos)
-En el panel central, o panel de datos, se muestran los datos de la consulta seleccionada. Aquí es donde se realiza gran parte del trabajo de la vista de consultas.
+En el panel central, o en el panel Datos, se muestran los datos de la consulta seleccionada. Aquí es donde se realiza gran parte del trabajo de la vista de consultas.
 
 En la siguiente imagen, se muestra la conexión de datos web establecida anteriormente, la columna **Puntuación general** está seleccionada y el encabezado muestra los elementos de menú disponibles al hacer doble clic en él. Tenga en cuenta que muchos de estos elementos de menú contextual son los mismos que los botones que se encuentran en las fichas de la cinta.  
 

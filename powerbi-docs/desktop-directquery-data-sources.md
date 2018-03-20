@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3630d876f3e32cbe981d7fb5bcc38d9da1a257f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Orígenes de datos admitidos por DirectQuery en Power BI
 **Power BI Desktop** y el **servicio Power BI** dispone de muchos orígenes de datos a la que puede conectarse y obtener acceso a datos. En este artículo se describe qué orígenes de datos de Power BI son compatibles con el método de conexión que se conoce como **DirectQuery**. Para más información acerca de DirectQuery, consulte [**DirectQuery en Power BI**](desktop-directquery-about.md).
@@ -37,7 +37,8 @@ Los siguientes orígenes de datos admiten DirectQuery en Power BI:
 * IBM Netezza (Beta)
 * Impala (versión 2.x)
 * Base de datos de Oracle (versión 12 y versiones posteriores)
-* SAP Business Warehouse (Beta)
+* Servidor de aplicaciones de SAP Business Warehouse
+* Servidor de mensajería de SAP Business Warehouse (Beta)
 * SAP HANA
 * Snowflake
 * Spark (Beta) (versión 0.9 y versiones posteriores)
@@ -50,7 +51,7 @@ Los orígenes de datos en los que **(Beta)** o **(versión preliminar)** aparezc
 La única diferencia entre los orígenes de datos **(beta)** y **(versión preliminar)** es que los segundos deben habilitarse como una característica de versión preliminar para poder usarse. Para habilitar un conector de datos en **(versión preliminar)**, en **Power BI Desktop** vaya a **Archivo > Opciones y configuración**y, después, **Configuración > Opciones > Características de versión preliminar**.
 
 ## <a name="on-premises-gateway-requirements"></a>Requisitos de puerta de enlace local
-La tabla siguiente especifica si se requiere una **puerta de enlace de datos local** para conectarse al origen de datos especificado después de publicar un informe en el **servicio Power BI**.
+La tabla siguiente especifica si se requiere una **puerta de enlace de datos local** para conectarse al origen de datos especificado, después de publicar un informe en el **servicio Power BI**.
 
 | Origen | ¿Se requiere puerta de enlace? |
 | --- | --- |
@@ -62,11 +63,14 @@ La tabla siguiente especifica si se requiere una **puerta de enlace de datos loc
 | Base de datos de Teradata |Sí |
 | Amazon Redshift |No |
 | Impala (versión 2.x) |Sí |
-| Snowflake (versión preliminar) |Aún no se admite en el **servicio Power BI** |
+| Snowflake |Sí |
 | Spark (Beta), versiones 0.9 y posteriores |Aún no se admite en el **servicio Power BI** |
-| Azure HDInsight Spark (Beta) |Aún no se admite en el **servicio Power BI** |
-| IBM Netezza (Beta) |Aún no se admite en el **servicio Power BI** |
-| SAP Business Warehouse (Beta) |Aún no se admite en el **servicio Power BI** |
+| Azure HDInsight Spark (Beta) |No |
+| IBM Netezza |Sí |
+| Servidor de aplicaciones de SAP Business Warehouse |Sí |
+| Servidor de mensajería de SAP Business Warehouse |Aún no se admite en el **servicio Power BI** |
+| Google BigQuery |No |
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 Para más información acerca de DirectQuery, revise los siguientes recursos:

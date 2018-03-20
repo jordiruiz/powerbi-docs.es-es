@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ab73dde22fdb0603a900ac67b6e76e8f5aaf3872
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3903a4d7351ab00da24750736840c6ba35cffa2b
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Usar una IDE de R externa con Power BI
 Con **Power BI Desktop**, puede usar un IDE de R externo (entorno de desarrollo integrado) para crear y perfeccionar los scripts de R y después usar esos scripts en Power BI.
@@ -53,7 +53,7 @@ De forma predeterminada, **Power BI Desktop** iniciará **R Studio** como el IDE
 Y si no hay ninguna asociación de archivos **.R**, es posible especificar una ruta de acceso a un IDE personalizado en la sección *Navegue hasta el IDE de R que prefiera* del cuadro de diálogo **Opciones**. También puede iniciar un IDE de R diferente seleccionando el icono de engranaje **Configuración** situado junto al icono de flecha **Iniciar IDE de R** en **Power BI Desktop**.
 
 ## <a name="launch-an-r-ide-from-power-bi-desktop"></a>Iniciar un IDE de R desde Power BI Desktop
-Para iniciar un IDE de R desde **Power BI Desktop**, siga estos pasos.
+Para iniciar un IDE de R desde **Power BI Desktop**, siga estos pasos:
 
 1. Cargue los datos en **Power BI Desktop**.
 2. Seleccione algunos campos del panel **Campos** con los que quiera trabajar. Si no ha habilitado los objetos visuales de scripts, se le pedirá que lo haga.
@@ -62,7 +62,7 @@ Para iniciar un IDE de R desde **Power BI Desktop**, siga estos pasos.
 3. Al habilitar los objetos visuales de scripts, puede seleccionar un objeto visual de R del panel **Visualizaciones**, que crea un objeto visual de R en blanco que está listo para mostrar los resultados del script. También aparece el panel **Editor de script R**.
    
    ![](media/desktop-r-ide/r-ide_4.png)
-4. Ahora puede seleccionar los campos que quiera usar en el script de R. Al seleccionar un campo, el campo **Editor de script R** crea de forma automática el código de script según el campo o campos seleccionados. Puede crear (o pegar) el script de R directamente en el panel **Editor de script R**, o puede dejarlo vacío.
+4. Ahora puede seleccionar los campos que quiera usar en el script de R. Al seleccionar un campo, el campo **Editor de script R** crea de forma automática el código de script según el campo o campos seleccionados. Puede crear (o pegar) el script de R directamente en el panel **Editor de script R** o puede dejarlo vacío.
    
    ![](media/desktop-r-ide/r-ide_5.png)
    
@@ -81,7 +81,7 @@ Para iniciar un IDE de R desde **Power BI Desktop**, siga estos pasos.
    > **Power BI Desktop** agrega las tres primeras líneas del script para poder importar los datos desde **Power BI Desktop** una vez que ejecute el script.
    > 
    > 
-7. Cualquier script creado en el **panel Editor de script R** de **Power BI Desktop** aparece a partir de la línea 4 en el IDE de R. En este momento, puede crear el script de R en el IDE de R. Una vez que esté completo el script de R en el IDE de R, deberá copiarlo y pegarlo en el panel **Editor de script R** de **Power BI Desktop**, *excepto* las tres primeras líneas del script que **Power BI Desktop** ha generado de forma automática. No vuelva a copiar las tres primeras líneas del script en **Power BI Desktop**, esas líneas solo se han usado para importar los datos en el IDE de R desde **Power BI Desktop**.
+7. Cualquier script creado en el **panel Editor de script R** de **Power BI Desktop** aparece a partir de la línea 4 en el IDE de R. En este momento puede crear el script de R en el IDE de R. Una vez que esté completo el script de R en el IDE de R, deberá copiarlo y pegarlo en el panel **Editor de script R** de **Power BI Desktop**, *excepto* las tres primeras líneas del script que **Power BI Desktop** ha generado de forma automática. No vuelva a copiar las tres primeras líneas del script en **Power BI Desktop**, esas líneas solo se han usado para importar los datos en el IDE de R desde **Power BI Desktop**.
 
 ### <a name="known-limitations"></a>Limitaciones conocidas
 Iniciar un IDE de R directamente desde Power BI Desktop tiene algunas limitaciones:
