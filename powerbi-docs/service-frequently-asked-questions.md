@@ -1,13 +1,13 @@
 ---
-title: "Preguntas más frecuentes de Power BI"
-description: "Examine una lista de las preguntas más frecuentes sobre las aplicaciones móviles del servicio Power BI, Power BI Desktop y Power BI y sus respuestas."
+title: Preguntas más frecuentes de Power BI
+description: Examine una lista de las preguntas más frecuentes sobre las aplicaciones móviles del servicio Power BI, Power BI Desktop y Power BI y sus respuestas.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 04/04/2016
 ms.service: powerbi
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: af02b57fefaf9764e7a1eac8172d6dc0111dfccd
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7f1c42d46568723706bcdd349790c963f204a33c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Preguntas más frecuentes acerca de Power BI
 * Si tiene otras preguntas, [pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/).
@@ -72,10 +72,10 @@ En la actualidad no se admiten las que terminan en **.gov** y **.mil**.
 Sí, si la adquisición se realiza directamente a Microsoft, las organizaciones sin ánimo de lucro disponen de precios especiales. Puede obtener más información y registrarse a través del sitio de [Microsoft Producto Donations](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/). Los precios para las organizaciones académicas y gubernamentales se ofrecen a través de los programas de licencias MOSP/Direct, EA y Open. También se ofrecen precios para la administración pública a través de redifusión. Power BI aún no está disponible para la nube de la comunidad de la administración pública de EE. UU. (GCC).
 
 ## <a name="is-power-bi-available-on-premises"></a>¿Power BI está disponible de forma local?
-El servicio Power BI [https://powerbi.com](https://powerbi.com) no está disponible como un servicio en la nube privado interno. Sin embargo, tiene otras tres opciones para ver y trabajar con datos de forma local. 
+El servicio Power BI [https://powerbi.com](https://powerbi.com) no está disponible como un servicio en la nube privada interna. Sin embargo, tiene otras tres opciones para ver y trabajar con datos de forma local. 
 
 ### <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
-Con Power BI y Power BI Desktop, puede conectarse de forma segura a sus propios orígenes de datos locales. Con la [puerta de enlace de datos local](service-gateway-onprem.md), puede conectarse en directo su servidor de SQL Server Analysis Services local y a otros orígenes de datos. También puede establecer una actualización programada con una puerta de enlace centralizada. Si una puerta de enlace no está disponible, puede actualizar los datos desde los orígenes de datos locales mediante [Power BI Gateway - Personal](personal-gateway.md).
+Con Power BI y Power BI Desktop, puede conectarse de forma segura a sus propios orígenes de datos locales. Con la [puerta de enlace de datos local](service-gateway-onprem.md), puede conectarse en directo a su servidor de SQL Server Analysis Services local y a otros orígenes de datos. También puede establecer una actualización programada con una puerta de enlace centralizada. Si una puerta de enlace no está disponible, puede actualizar los datos desde los orígenes de datos locales mediante [Power BI Gateway - Personal](personal-gateway.md).
 
 ### <a name="power-bi-report-server"></a>Servidor de informes de Power BI
 El servidor de informes de Power BI es una solución que puede implementar a nivel local para crear, publicar y administrar informes, y posteriormente entregarlos a distintos usuarios de maneras diferentes: en un explorador web, en su dispositivo móvil o, en forma de correo electrónico, en su bandeja de entrada. Obtenga más información sobre el [servidor de informes de Power BI](report-server/get-started.md).
