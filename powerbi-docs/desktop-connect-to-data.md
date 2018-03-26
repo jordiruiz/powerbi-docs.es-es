@@ -2,14 +2,14 @@
 title: Conectarse a los datos en Power BI Desktop
 description: Conectarse a los datos en Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 94e52d2d56cd7ba0ec04db47bc93dd18fc880f39
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: eb6d31864570a2078cf46b7e30fa771fd7773e93
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Conectarse a los datos en Power BI Desktop
-Con Power BI Desktop puede conectarse fácilmente con el mundo de los datos en expansión continua. Si no dispone de Power BI Desktop, puede [descargarlo](http://go.microsoft.com/fwlink/?LinkID=521662) e instalarlo.
+Con Power BI Desktop puede conectarse fácilmente con el mundo de los datos en continua expansión. Si no dispone de Power BI Desktop, puede [descargarlo](http://go.microsoft.com/fwlink/?LinkID=521662) e instalarlo.
 
 Existe *todo tipo* de orígenes de datos disponibles en Power BI Desktop. La siguiente imagen muestra cómo conectarse a datos, seleccionando la cinta de opciones **Archivo** y, a continuación, **Obtener datos \> Más**.
 

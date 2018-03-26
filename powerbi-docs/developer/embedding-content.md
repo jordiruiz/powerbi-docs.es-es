@@ -1,27 +1,27 @@
 ---
 title: Procedimiento para insertar paneles, informes e iconos de Power BI
-description: "Obtenga información sobre los pasos necesarios para insertar contenido de Power BI en su aplicación."
+description: Obtenga información sobre los pasos necesarios para insertar contenido de Power BI en su aplicación.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/11/2018
+ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: ff39d6847a296622d8ce0903370d17d41662df0c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Inserción de paneles, informes e iconos de Power BI
 
@@ -88,6 +88,10 @@ Para realizar llamadas a la API de REST será preciso registrar la aplicación e
 Si va a insertar paneles e informes para los clientes, estos deben haberse colocado en un área de trabajo de la aplicación. La cuenta *maestra* mencionada anteriormente debe corresponder a un administrador del área de trabajo de la aplicación.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
+
+> [!NOTE]
+> Un usuario que no sea administrador solo puede crear hasta 250 áreas de trabajo de aplicación. Para crear más áreas de trabajo de aplicación, debe usar una cuenta de administrador de inquilinos.
+>
 
 ### <a name="create-and-upload-your-reports"></a>Crear y cargar los informes
 

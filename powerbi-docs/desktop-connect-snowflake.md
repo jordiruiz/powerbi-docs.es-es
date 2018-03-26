@@ -1,15 +1,15 @@
 ---
-title: "Conexión a un almacén de Snowflake Computing en Power BI Desktop"
-description: "Conexión y uso sencillos de un almacén de Snowflake Computing en Power BI Desktop"
+title: Conexión a un almacén de Snowflake Computing en Power BI Desktop
+description: Conexión y uso sencillos de un almacén de Snowflake Computing en Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8e4ad8d1780684ee122565dee29c0cea78dc8131
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 762a8bebfa757b41bfeafb54b278eca41a57f35d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>Conectarse a Snowflake en Power BI Desktop
 En Power BI Desktop, puede conectarse a un almacén de **Snowflake** Computing y usar los datos subyacentes como cualquier otro origen de datos en Power BI Desktop. 
@@ -33,7 +33,7 @@ En Power BI Desktop, puede conectarse a un almacén de **Snowflake** Computing y
 > 
 
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>Conectar a un almacén de Snowflake Computing
-Seleccione **Obtener datos** en la cinta **Inicio** para conectarse a un almacén de **Snowflake** Computing. Seleccione **Base de datos** en las categorías de la izquierda para que se muestre **Snowflake**.
+Seleccione **Obtener datos** en la cinta **Inicio** para conectarse a un almacén de **Snowflake** Computing en Power BI Desktop. Seleccione **Base de datos** en las categorías de la izquierda para que se muestre **Snowflake**.
 
 ![](media/desktop-connect-snowflake/connect_snowflake_2b.png)
 

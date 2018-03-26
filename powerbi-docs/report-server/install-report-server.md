@@ -1,27 +1,27 @@
 ---
 title: Instalar un servidor de informes de Power BI
-description: 'Aprenda a instalar un servidor de informes de Power BI. '
+description: Aprenda a instalar un servidor de informes de Power BI.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 340e4a79e4ab0950143ea1af4f1c9a1f9c54b64c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 8b8bb3867ec1630dc5163148e4aa20e10c0504b7
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="install-power-bi-report-server"></a>Instalar un servidor de informes de Power BI
 
@@ -29,18 +29,17 @@ Aprenda a instalar un servidor de informes de Power BI.
 
  **Descargar** ![descargar](media/install-report-server/download.png "descargar")
 
-Para descargar el servidor de informes de Power BI, vaya a [Publicar informes en almacenamiento local con el Servidor de informes de Power BI](https://powerbi.microsoft.com/report-server/). 
+Para descargar el servidor de informes de Power BI, vaya a [Publicar informes en almacenamiento local con el Servidor de informes de Power BI](https://powerbi.microsoft.com/report-server/) y seleccione **Descargar evaluación de prueba**. 
 
-Vaya al Centro de descarga de Microsoft para descargar [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (optimizado para Power BI Report Server, octubre de 2017).
-
-![Sugerencia](media/install-report-server/fyi-tip.png "tip") Para ver las notas de la versión actual, consulte [Notas de la versión del servidor de informes de Power BI](release-notes.md).
+## <a name="video-install-power-bi-report-server"></a>Vídeo: Instalar Power BI Report Server
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="before-you-begin"></a>Antes de empezar
-Antes de instalar el servidor de informes de Power BI, se recomienda que revise [Requisitos de hardware y software para instalar el servidor de informes de Power BI](system-requirements.md).
+Antes de instalar Power BI Report Server, se recomienda que revise el tema [Requisitos de hardware y software para instalar el servidor de informes de Power BI](system-requirements.md).
 
 ### <a name="power-bi-report-server-product-key"></a>Clave de producto del servidor de informes de Power BI
+
 #### <a name="power-bi-premium"></a>Power BI Premium
 Si ha adquirido Power BI Premium, dentro de la pestaña **Configuración de Premium** del portal de administración de Power BI, tendrá acceso a la clave de producto del servidor de informes de Power BI. Esta opción solo estará disponible para los administradores globales o los usuarios a quienes se haya asignado el rol de administrador del servicio Power BI.
 
@@ -54,12 +53,9 @@ Al seleccionar **Clave del servidor de informes de Power BI**, se mostrará un c
 Si tiene un contrato de SA de SQL Server Enterprise, puede obtener la clave de producto en el [Centro de servicios de licencias por volumen](https://www.microsoft.com/Licensing/servicecenter/).
 
 ## <a name="install-your-report-server"></a>Instalación del servidor de informes
-Instalar el servidor de informes de Power BI es sencillo. Solo hay que seguir unos pocos pasos para instalar los archivos.
+Instalar Power BI Report Server es muy fácil. Solo hay que seguir unos pocos pasos para instalar los archivos.
 
-> [!NOTE]
-> No es necesario tener un servidor de motor de base de datos de SQL Server disponible en el momento de la instalación. Necesitará uno para configurar Reporting Services después de la instalación.
-> 
-> 
+No es necesario tener un servidor de motor de base de datos de SQL Server disponible en el momento de la instalación. Necesitará uno para configurar Reporting Services después de la instalación.
 
 1. Busque la ubicación de PowerBIReportServer.exe e inicie el instalador.
 2. Seleccione **Install Power BI Report Server** (Instalar servidor de informes de Power BI).
@@ -84,15 +80,14 @@ Instalar el servidor de informes de Power BI es sencillo. Solo hay que seguir un
    
     ![Especificar la ruta de instalación](media/install-report-server/pbireportserver-install-file-path.png)
    
-   > [!NOTE]
-   > La ruta predeterminada es C:\Archivos de programa\Microsoft Power BI Report Server.
-   > 
-   > 
-7. Después de una instalación correcta, seleccione **Configure Report Server** (Configurar servidor de informes) para iniciar el Administrador de configuración de Reporting Services.
+    La ruta predeterminada es C:\Archivos de programa\Microsoft Power BI Report Server.
+
+1. Después de una instalación correcta, seleccione **Configure Report Server** (Configurar servidor de informes) para iniciar el Administrador de configuración de Reporting Services.
    
     ![Configurar el servidor de informes](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuration-your-report-server"></a>Configurar su servidor de informes
+## <a name="configuring-your-report-server"></a>Configurar un servidor de informes
+
 Después de seleccionar **Configure Report Server** (Configurar servidor de informes) en el programa de instalación, aparecerá el Administrador de configuración de Reporting Services. Para más información, consulte [Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) (Administrador de configuración de Reporting Services).
 
 Necesita [crear una base de datos de servidor de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) para completar la configuración inicial de Reporting Services. Se necesita un servidor de base de datos de SQL Server para completar este paso.

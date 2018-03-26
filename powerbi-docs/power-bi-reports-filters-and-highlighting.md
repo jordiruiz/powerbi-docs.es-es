@@ -2,27 +2,27 @@
 title: Filtros y resaltado en informes de Power BI
 description: Filtros y resaltado en informes de Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc39f23c192c8bbe1126551c20205bafd8be3a07
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ffbab0c1e203ce3fd8779b4eebca90debbb531e5
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Filtros y resaltado en informes de Power BI
 Los ***filtros*** eliminan todos los datos excepto aquellos en los que desea centrarse.  El ***resaltado*** no filtra, ya que no elimina los datos sino que resalta un subconjunto de los datos visibles; los datos sin resaltar permanecen visibles pero atenuados.
@@ -41,20 +41,22 @@ Hay muchas formas distintas de filtrar y resaltar informes en Power BI. Colocar 
 > 
 
 ## <a name="introduction-to-filters-and-highlighting-in-reports-using-the-filters-pane"></a>Introducción a los filtros y resaltados en los informes mediante el panel Filtros
+ En este artículo se explica de forma general en qué consiste el filtrado y el resaltado en el servicio Power BI,  aunque la experiencia es casi exactamente la misma que en Power BI Desktop.  
+
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-reading-view.png)
 
-Los filtros y resaltados se pueden aplicar con el panel **Filtros** o bien seleccionando contenido directamente en el propio informe (ad-hoc, consulte el final de la página). En el panel Filtros se muestran las tablas y los campos que se usan en el informe, así como los filtros que se han aplicado, si hay alguno. Los filtros se dividen en **Filtros de nivel de página**, **Filtros de nivel de informe** y **Filtros de nivel visual**.  Solo verá los filtros de nivel visual en caso de haber seleccionado una visualización en el lienzo del informe.
+Los filtros y resaltados se pueden aplicar con el panel **Filtros** o bien seleccionando contenido directamente en el propio informe (ad-hoc, consulte el final de la página). En el panel Filtros se muestran las tablas y los campos que se usan en el informe, así como los filtros que se han aplicado, si hay alguno. Los filtros se dividen en **Filtros de nivel de página**, **Filtros de nivel de informe**, **Obtención de detalles** y **Filtros de nivel visual**.  Solo verá los filtros de nivel visual en caso de haber seleccionado una visualización en el lienzo del informe.
 
 > [!TIP]
 > Si el filtro contiene la palabra **Todo** junto a él, el campo en su totalidad se incluirá como filtro.  Por ejemplo, **Cadena(Todo)**, como se puede ver en la captura de pantalla siguiente, indica que esta página del informe incluye datos sobre todas las cadenas.  Por otro lado, el filtro de nivel de informe **AñoFiscal es 2013 o 2014** nos indica que el informe solo incluye los datos de los años fiscales de 2013 y 2014.
 > 
 > 
 
-## <a name="filters-in-reading-view-versus-editing-view"></a>Filtros en la Vista de edición en comparación con la Vista de lectura
+## <a name="filters-in-reading-view-versus-editing-view"></a>Filtros en la vista de lectura y filtros en la vista de edición
 Existen dos modos de interactuar con los informes: [la vista de lectura y la vista de edición](service-reading-view-and-editing-view.md).  Y las funcionalidades de filtrado disponibles dependen del modo en el que se encuentre.
 
-* En la Vista de edición, puede agregar filtros de informes, de páginas y de objetos visuales. Al guardar el informe, los filtros se guardan con él. Las personas que examinen el informe en la Vista de lectura pueden interactuar con los filtros que agregue, pero no guardar los cambios.
-* En la Vista de lectura, puede interactuar con cualquier filtro de página y de objeto visual que ya exista en el informe, pero no podrá guardar los cambios en los filtros.
+* En la Vista de edición, puede agregar filtros de informes, de páginas, de obtención de detalles y de objetos visuales. Al guardar el informe, los filtros se guardan con el informe, aunque se abra en una aplicación móvil. Las personas que consulten el informe en la vista de lectura pueden interactuar con los filtros que haya agregado, pero no pueden agregar nuevos filtros.
+* En la vista de lectura, puede interactuar con los filtros que ya existen en el informe y guardar la selección que haya hecho,  pero no podrá agregar nuevos filtros.
 
 ### <a name="the-filters-pane-in-reading-view"></a>Panel Filtros en la Vista de lectura
 Si solo tiene acceso a un informe en la Vista de lectura, el panel Filtros se mostrará de una forma similar a la siguiente:
@@ -67,7 +69,7 @@ Para ver si existen filtros de nivel visual, seleccione un objeto visual. En la 
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-En la Vista de lectura puede modificar los filtros existentes para explorar los datos. Obtenga más información sobre cómo hacerlo en el artículo [Interacción con un informe en la vista de lectura en Power BI](service-reading-view-and-editing-view.md).
+En la Vista de lectura puede modificar los filtros existentes para explorar los datos. Los cambios que realice se guardan con el informe, aunque se abra en una aplicación móvil. En el artículo [Vista de lectura y vista de edición de informes del servicio Power BI](service-reading-view-and-editing-view.md) se explica cómo ocurre esto.
 
 ### <a name="the-filters-pane-in-editing-view"></a>Panel Filtros en la Vista de edición
 Si dispone de permisos de propietario sobre un informe y lo abre en la Vista de edición, verá que **Filtros** solo es uno de los varios paneles de edición disponibles.
@@ -78,10 +80,14 @@ Como sucede en la Vista de edición (arriba), vemos que esta página del informe
 
 Sin embargo, en la Vista de edición, los filtros y resaltados nos ofrecen muchas más posibilidades. La diferencia principal radica en que podemos agregar nuevos filtros. Obtenga más información sobre cómo hacer esto y mucho más en el artículo [Incorporación de un filtro a un informe en Power BI](power-bi-report-add-filter.md).
 
-## <a name="ad-hoc-filterting-and-highlighting"></a>Resaltado y filtrado ad-hoc
-Seleccione un campo del lienzo del informe para filtrar y resaltar el resto de la página. Seleccione cualquier espacio vacío del mismo objeto visual para quitarlo. Este tipo de filtrado y resaltado no se guarda con el informe, sino que más bien se trata de una forma muy interesante de explorar diferentes impactos sobre los datos. Para modificar el funcionamiento de este tipo de filtrado y resaltado cruzado, consulte [Interacciones de objetos visuales](service-reports-visual-interactions.md).
+## <a name="ad-hoc-filtering-and-highlighting"></a>Resaltado y filtrado ad-hoc
+Seleccione un campo del lienzo del informe para filtrar y resaltar el resto de la página. Seleccione cualquier espacio vacío del mismo objeto visual para quitarlo. Este tipo de filtrado y resaltado es una forma muy interesante de explorar rápidamente diferentes impactos sobre los datos. Para profundizar en el funcionamiento de este tipo de filtrado y resaltado cruzado, vea [Interacciones de objetos visuales](service-reports-visual-interactions.md).
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
+
+Cuando se cierra el informe, se guardan los cambios. Para deshacer el filtrado, seleccione **Restablecer valores predeterminados** en la barra de menús superior.
+
+![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Interacción con filtros y resaltado (en la Vista de lectura)](service-reading-view-and-editing-view.md)

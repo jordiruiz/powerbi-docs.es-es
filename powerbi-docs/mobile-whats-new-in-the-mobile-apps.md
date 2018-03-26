@@ -1,27 +1,27 @@
 ---
-title: "Novedades en las aplicaciones móviles para Power BI"
-description: "Novedades en las aplicaciones móviles para Power BI"
+title: Novedades en las aplicaciones móviles para Power BI
+description: Novedades en las aplicaciones móviles para Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -30,11 +30,21 @@ Para obtener información sobre novedades, vea:
 * [Novedades de Power BI Desktop](desktop-latest-update.md)  
 * [Novedades en el servicio Power BI](service-whats-new.md)  
 
+## <a name="march-2018"></a>Marzo de 2018
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicación Power BI for Mixed Reality (versión preliminar)
+
+Nuestros esfuerzos más recientes por llevar los datos allá donde se encuentren los usuarios se han materializado con la creación de la aplicación Power BI for Mixed Reality. Esta aplicación permite consultar paneles e informes mientras el usuario está inmerso en la realidad virtual, o colocarlos y consultarlos en ubicaciones específicas en el contexto de su entorno. Si quiere saber más, vea [Aplicación Power BI for Mixed Reality (versión preliminar)](mobile-mixed-reality-app.md).
+
 ## <a name="february-2018"></a>Febrero de 2018
 
 ### <a name="share-reports"></a>Compartir informes
 
 Ahora puede compartir un informe directamente desde las aplicaciones móviles. Obtenga más información sobre cómo [compartir paneles e informes desde aplicaciones móviles](mobile-share-dashboard-from-the-mobile-apps.md)
+
+### <a name="improved-tooltips"></a>Mejoras en información sobre herramientas
+
+Cuando mantiene pulsado un objeto visual de informe visual para acceder a información sobre herramientas, ahora puede arrastrar el dedo en el objeto visual para explorar los detalles sobre cada punto de datos sobre la marcha.
 
 ## <a name="january-2018"></a>Enero de 2018
 
@@ -162,7 +172,7 @@ Ahora es posible desplazarse en los gráficos de barras y columnas de un informe
 #### <a name="ios-devices"></a>Dispositivos iOS
 **Formulación de preguntas de sus datos con una versión preliminar de Preguntas y respuestas** 
 
-Con Preguntas y respuestas puede formular preguntas sobre sus datos con sus propias palabras y Power BI le proporcionará las respuestas pertinentes. Q&A ya está en el servicio de Power BI en http://powerbi.com. Ahora también está [disponible en la aplicación móvil de su iPhone o iPad](mobile-apps-ios-qna.md).
+Con Preguntas y respuestas puede formular preguntas sobre sus datos con sus propias palabras y Power BI le proporcionará las respuestas pertinentes. Ya hay disponible una sección de Preguntas y respuestas en el servicio de Power BI en http://powerbi.com. Ahora también está [disponible en la aplicación móvil de su iPhone o iPad](mobile-apps-ios-qna.md).
 
 **Conexión a más de un servidor SSRS** 
 

@@ -1,15 +1,15 @@
 ---
-title: "Conexión a los datos de Azure Consumption Insights en Power BI Desktop (Beta)"
-description: "Conéctese fácilmente a Azure y obtenga información detallada sobre el consumo y el uso con Power BI Desktop"
+title: Conexión a los datos de Azure Consumption Insights en Power BI Desktop (Beta)
+description: Conéctese fácilmente a Azure y obtenga información detallada sobre el consumo y el uso con Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Conexión a Azure Consumption Insights en Power BI Desktop (Beta)
 Con el conector de **Azure Consumption Insights**, puede usar **Power BI Desktop** para conectarse a Azure y obtener datos e información detallada sobre el uso de los servicios de Azure por parte de su organización. También puede crear medidas, columnas personalizadas y objetos visuales en los informes, y compartir los datos sobre el uso de Azure por parte de su organización. Esta versión del conector de **Azure Consumption Insights** está en versión Beta y está sujeta a cambios.
@@ -42,7 +42,7 @@ En el cuadro de diálogo que aparece, proporcione su *número de inscripción*.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
-* Puede obtener este número en [Azure Enterprise Portal](https://ea.azure.com), en la ubicación que se muestra en la siguiente imagen.
+* Puede obtener este número en [Azure Enterprise Portal](https://ea.azure.com), en la ubicación que se muestra en esta imagen:
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
   
@@ -61,7 +61,7 @@ Una vez que proporcione su *clave de acceso* y seleccione **Conectar**, aparecer
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
 
 > [!NOTE]
-> Las tablas *Summary y *PriceSheet* solo están disponibles para la clave de API en el nivel de inscripción. Además, los datos de estas tablas son, de forma predeterminada, los datos del mes actual de las tablas *Usage* y *PriceSheet*. Las tablas *Summary* y *MarketPlace* no se limitan al mes actual.
+> Las tablas *Summary* y *PriceSheet* solo están disponibles para la clave de API en el nivel de inscripción. Además, los datos de estas tablas son, de forma predeterminada, los datos del mes actual de las tablas *Usage* y *PriceSheet*. Las tablas *Summary* y *MarketPlace* no se limitan al mes actual.
 > 
 > 
 
@@ -84,16 +84,16 @@ En la **barra de fórmulas**, escriba lo siguiente:
 
     = MicrosoftAzureConsumptionInsights.Contents
 
-Aparece una colección de ejemplos, como se muestra en la siguiente imagen.
+Aparece una colección de ejemplos, como se muestra en esta imagen:
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 Al trabajar con informes y crear consultas, utilice lo siguiente:
 
-* Para definir el número de meses a partir de la fecha actual, use *noOfMonths*
+* Para definir el número de meses a partir de la fecha actual, use *numberOfMonth*.
   * Utilice un valor entre 1 y 36 para indicar el número de meses, a partir de la fecha actual, que desea importar. Le recomendamos que consulte menos de 12 meses de datos para evitar superar los límites de importación y de volumen de datos permitidos para las consultas de Power BI.
 * Para definir un intervalo de meses en un período de tiempo histórico, utilice *startBillingDataWindow* y *endBillingDataWindow*
-* *No* use *noOfMonths* junto con *startBillingDataWindow* ni *endBillingDataWindow*
+* *No* use *numberOfMonth* junto con *startBillingDataWindow* ni *endBillingDataWindow*.
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Migración desde el conector de Azure Enterprise
 Algunos clientes creaban objetos visuales mediante el *conector de Azure Enterprise (Beta)*, cuyo uso finalmente se interrumpirá y se sustituirá por el uso del conector de **Azure Consumption Insights**. Entre las características y mejoras del conector de **Azure Consumption Insights** cabe destacar las siguientes:
@@ -108,7 +108,7 @@ Para ayudar a los clientes durante la transición al conector más reciente de *
 El primer paso consiste en conectarse con el conector de **Azure Consumption Insights** que se describió anteriormente en este artículo con detalle. En este paso, seleccione **Obtener datos > Consulta en blanco** en la cinta de opciones de **Inicio** en **Power BI Desktop**.
 
 ### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>Paso 2: Uso del Editor avanzado para crear una consulta
-En el **Editor de consultas**, seleccione **Editor avanzado** en la sección **Consulta** de la cinta de opciones de **Inicio**. En la ventana **Editor avanzado** que aparece, escriba la siguiente consulta.
+En el **Editor de consultas**, seleccione **Editor avanzado** en la sección **Consulta** de la cinta de opciones de **Inicio**. En la ventana **Editor avanzado** que aparece, escriba esta consulta:
 
     let    
         enrollmentNumber = "100",
@@ -127,14 +127,14 @@ Una vez que seleccione **Listo** en la ventana **Editor avanzado** se actualizar
 A continuación, deberá mover todas las columnas o medidas personalizadas que creó a la nueva tabla de detalles. Estos son los pasos que debe realizar.
 
 1. Abra el Bloc de notas (u otro editor de texto).
-2. Seleccione la medida que desea mover y copie el texto del campo *Fórmula* y colóquelo en el Bloc de notas.
+2. Seleccione la medida que quiere mover y copie el texto del campo *Fórmula* y colóquelo en el Bloc de notas.
    
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. Cambie el nombre de *Query1* al nombre original de la tabla de detalles.
-4. Cree nuevas medidas y columnas personalizadas en la tabla haciendo clic con el botón derecho en la tabla y eligiendo **Nueva medida** y, a continuación, corte y pegue las columnas y medidas almacenadas hasta que haya terminado con todas.
+4. Para crear nuevas medidas y columnas personalizadas en la tabla, haga clic con el botón derecho en la tabla y elija **Nueva medida**. Después, corte y pegue las columnas y medidas almacenadas hasta que haya terminado con todas.
 
 ### <a name="step-4-re-link-tables-that-had-relationships"></a>Paso 4: Volver a vincular tablas que tenían relaciones
-Muchos paneles tienen tablas adicionales que se usan para buscar o filtrar, como tablas de fechas o tablas que se utilizan para proyectos personalizados. Volver a establecer esas relaciones puede resolver la mayoría de los problemas restantes. Aquí se muestra cómo hacerlo.
+Muchos paneles tienen tablas adicionales que se usan para buscar o filtrar, como tablas de fechas o tablas que se usan para proyectos personalizados. Volver a establecer esas relaciones puede resolver la mayoría de los problemas restantes. Aquí se muestra cómo hacerlo.
 
 - En la pestaña **Modelado** de **Power BI Desktop**, seleccione **Administrar relaciones** para que aparezca una ventana que le permita administrar las relaciones dentro del modelo. Vuelva a vincular las tablas según sea necesario.
    

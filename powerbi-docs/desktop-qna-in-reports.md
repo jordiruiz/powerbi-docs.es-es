@@ -2,14 +2,14 @@
 title: Usar Preguntas y respuestas en Power BI Desktop
 description: Ahora puede realizar consultas en lenguaje natural en Power BI Desktop mediante el uso de Preguntas y respuestas
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dacbb31e8e32abfcb34e565958620d579f68b4f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Usar Preguntas y respuestas en Power BI Desktop para consultas en lenguaje natural
 El uso del lenguaje natural y frases comunes para formular preguntas sobre los datos resulta muy eficaz. Y es más eficaz aún cuando los datos responden, que es lo que permite hacer la característica Preguntas y respuestas de **Power BI Desktop**.
@@ -113,7 +113,7 @@ Si tiene varias columnas que actúan como una sola unidad distinta dentro de una
 
 Si tiene bolsas de propiedades en el modelo, debe reestructurarlos para tener una única columna por cada propiedad. Las bolsas de propiedades, aunque resultan útiles para administrar un gran número de propiedades, sufren de una serie de limitaciones inherentes para la que ni Power BI ni Preguntas y respuestas están diseñados para solucionar.
 
-Por ejemplo, considere una tabla *DatosDemográficosCliente* con las columnas Identificador del cliente, Propiedad y Valor, donde cada fila representa una propiedad diferente del cliente (por ejemplo: edad, estado civil, ciudad, etcétera). Sobrecargar el significado de la columna Valor en función del contenido de la columna Propiedad hace imposible que Preguntas y respuestas interprete la mayoría de las consultas que hacen referencia a ella. Una pregunta sencilla, como "Mostrar la edad de cada cliente" podría funcionar, ya que podría interpretarse como "Mostrar los clientes y datos demográficos de cliente donde la propiedad es edad". Sin embargo, la estructura del modelo simplemente no admite preguntas ligeramente más complejas, como "edad media de los clientes en Chicago". Aunque los usuarios que crean los informes de Power BI directamente a veces pueden encontrar una forma inteligente para obtener los datos que están buscando, Preguntas y respuestas solo funciona cuando cada columna tiene solo un único significado.
+Por ejemplo, considere una tabla *DatosDemográficosCliente* con las columnas Identificador del cliente, Propiedad y Valor, donde cada fila representa una propiedad diferente del cliente (por ejemplo: edad, estado civil, ciudad, etcétera). Sobrecargar el significado de la columna Valor en función del contenido de la columna Propiedad hace imposible que Preguntas y respuestas interprete la mayoría de las consultas que hacen referencia a ella. Una pregunta sencilla, como "Mostrar la edad de cada cliente" podría funcionar, ya que podría interpretarse como "Mostrar los clientes y datos demográficos de cliente donde la propiedad es edad". Sin embargo, la estructura del modelo simplemente no admite preguntas ligeramente más complejas, como "edad media de los clientes en Chicago". Aunque los usuarios que crean directamente informes de Power BI a veces pueden encontrar maneras interesantes de obtener los datos que están buscando, Preguntas y respuestas solo funciona cuando cada columna tiene solo un único significado.
 
 **Necesita ajustes**
 
@@ -180,11 +180,11 @@ La única excepción a la regla "la normalización es mejor" se produce cuando h
 
 Este paso se aplica específicamente a Preguntas y respuestas (y no a los informes de Power BI en general). Los usuarios suelen tener una variedad de términos que se usan para hacer referencia a la misma cosa, como ventas totales, ventas netas o total de ventas netas. El modelo de Power BI permite agregar estos sinónimos a las tablas y las columnas del modelo. 
 
-Esto puede ser un paso muy importante. Incluso con nombres de columnas y tablas sencillos, los usuarios de Preguntas y respuestas formulan preguntas utilizando el vocabulario que les viene en mente y no eligen entre una lista predefinida de columnas. Cuantos más sinónimos significativos agregue, mejor será la experiencia de los usuarios con el informe. Para agregar sinónimos, en la vista **Relaciones**, seleccione el botón Sinónimos en la cinta de opciones, como se muestra en la siguiente imagen.
+Esto puede ser un paso muy importante. Incluso con nombres de columnas y tablas sencillos, los usuarios de Preguntas y respuestas formulan preguntas utilizando el vocabulario que les viene en mente y no eligen entre una lista predefinida de columnas. Cuantos más sinónimos significativos agregue, mejor será la experiencia de los usuarios con el informe. Para agregar sinónimos, en la vista **Relaciones**, seleccione el botón Sinónimos en la cinta de opciones, como se muestra en esta imagen.
 
 ![Agregar sinónimos para Preguntas y respuestas](media/desktop-qna-in-reports/desktop-qna_21.png)
 
-El campo **Sinónimos** aparece en el lado derecho de **Power BI Desktop**, donde puede agregar los sinónimos, como se ilustra en la siguiente imagen.
+El campo **Sinónimos** aparece en el lado derecho de **Power BI Desktop**, donde puede agregar los sinónimos, como se muestra aquí.
 
 ![Agregar sinónimos para Preguntas y respuestas](media/desktop-qna-in-reports/desktop-qna_22.png)
 

@@ -1,15 +1,15 @@
 ---
 title: Registro de cambios del servidor de informes de Power BI
-description: "Este registro de cambios es para el servidor de informes de Power BI y enumera los elementos nuevos junto con las correcciones de errores de cada versión publicada."
+description: Este registro de cambios es para el servidor de informes de Power BI y enumera los elementos nuevos junto con las correcciones de errores de cada versión publicada.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: jtarquino
 manager: jonhp
 backup: maggies
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,17 +17,35 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
-ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
+ms.openlocfilehash: 7c460955aba71bfb3a89d94aa6000c7bdd451ac2
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registro de cambios del servidor de informes de Power BI
 
 Este registro de cambios es para el servidor de informes de Power BI y enumera los elementos nuevos junto con las correcciones de errores de cada versión publicada.
 
-Para obtener información detallada sobre las nuevas características, consulte [Novedades en el servidor de informes de Power BI](whats-new.md).
+Para obtener información detallada sobre las nuevas características, consulte [Novedades en el servidor de informes de Power BI](whats-new.md). 
+
+## <a name="march-2018"></a>Marzo de 2018
+- **Servidor de informes de Power BI**
+    - *Versión 1.2.6648.38132 (Build 15.0.2.378). Fecha de publicación: 19 de marzo de 2018*
+        - Actualizaciones de seguridad
+        - Mejoras de accesibilidad
+        - Correcciones de errores
+            - Para informes paginados (RDL), corrección de la visibilidad de los parámetros en un informe vinculado que se revierte después de editar sus propiedades
+            - Corrección del portal web con autenticación de formularios personalizada que omite la cookie de expiración deslizante
+            - Corrección para las exportaciones a Word que crean un alto de filas desigual si el contenido de la fila está vacío
+            - Para informes paginados (RDL), corrección de la cadena de conexión basada en expresiones que se elimina cuando se cambia la credencial para el origen de datos
+            - Corrección de la capacidad de usar KPI con valores de texto
+            - Para informes paginados (RDL), corrección de la capacidad de asignar un nuevo conjunto de datos a un informe paginado existente (RDL)
+            - Otras correcciones de estabilidad y facilidad de uso
+
+- **Power BI Desktop (optimizado para Power BI Report Server)**
+    - Versión: 2.56.5023.1043 (marzo de 2018). Fecha de publicación: 19 de marzo de 2018
+        - Contiene los cambios necesarios para la conexión con Power BI Report Server (marzo de 2018)
 
 ## <a name="october-2017"></a>Octubre de 2017
 

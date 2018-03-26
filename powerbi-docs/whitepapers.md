@@ -1,27 +1,27 @@
 ---
 title: Notas del producto de Power BI
-description: "Las notas del producto permiten explorar temas de Power BI con más profundidad."
+description: Las notas del producto permiten explorar temas de Power BI con más profundidad.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/16/2018
 ms.author: maghan
-ms.openlocfilehash: ac3f2b52374df0ea9a153a97548e40420388181d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 5e9e0ea009e403b89af7ff67e81062433ba56b80
+ms.sourcegitcommit: 863df35192b9aba1e7c22a64bc8df24418416730
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Notas del producto de Power BI
 
@@ -42,5 +42,6 @@ Las notas del producto permiten explorar temas de Power BI con más profundidad.
 | [Securing the Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (Protección del modelo semántico de BI tabular) |En este documento se presenta el modelo de seguridad para la semántica de BI tabular y Power BI. Aprenderá a crear roles, implementar la seguridad dinámica, configurar opciones de suplantación, administrar roles y elegir un método para conectarse a modelos que funcione en su contexto de seguridad de red. |
 | [Instrucciones para el planeamiento de la capacidad de Power BI Report Server](report-server/capacity-planning.md) |Este documento pretende ofrecer instrucciones sobre el planeamiento de la capacidad de Power BI Report Server mediante el uso compartido de los resultados de numerosas ejecuciones de pruebas de carga en un servidor de informes. |
 | [Planeamiento e implementación de Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Este documento proporciona instrucciones y procedimientos recomendados para planear e implementar la capacidad premium para cargas de trabajo bien definidas.|
+| [Power BI y SAP BW](https://aka.ms/powerbiandsapbw)| En este documento se describe cómo los clientes de SAP pueden beneficiarse al conectar Power BI a sus sistemas SAP Business Warehouse (BW) existentes.|
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

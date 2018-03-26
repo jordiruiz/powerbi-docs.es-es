@@ -1,30 +1,30 @@
 ---
-title: "Inicio rápido: Creación de un informe de Power BI para el servidor de informes de Power BI"
+title: 'Inicio rápido: Creación de un informe de Power BI para el servidor de informes de Power BI'
 description: Aprenda a crear un informe de Power BI para el servidor de informes de Power BI en sencillos pasos.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 3/5/2018
+ms.date: 3/19/2018
 ms.author: maggies
-ms.openlocfilehash: 0f0e8422edd2f8c1a34d82be065ffde554c96400
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5295a62897c740872480b905f3aef4af37ca0942
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Inicio rápido: Creación de un informe de Power BI para el servidor de informes de Power BI
-Puede almacenar y administrar informes de Power BI en el portal web de Power BI Report Server, así como también puede almacenarlos en la nube del servicio Power BI (https://powerbi.com). Cree y edite informes en Power BI Desktop y publíquelos en el portal web. Luego, los lectores de informes de su organización pueden verlos en un explorador o en una aplicación móvil de Power BI de un dispositivo móvil.
+Puede almacenar y administrar informes de Power BI en el portal web de Power BI Report Server, así como también puede almacenarlos en la nube del servicio Power BI (https://powerbi.com)). Cree y edite informes en Power BI Desktop y publíquelos en el portal web. Luego, los lectores de informes de su organización pueden verlos en un explorador o en una aplicación móvil de Power BI de un dispositivo móvil.
 
 ![Informe de Power BI en el portal web](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
@@ -38,7 +38,7 @@ Si ya ha creado informes de Power BI en Power BI Desktop, estará casi listo par
 
     ![Descarga de Power BI Desktop desde el portal web](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    O bien, vaya directamente a [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (optimizado para Power BI Report Server, octubre de 2017) en el Centro de descarga de Microsoft.
+    O bien, vaya directamente a [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (optimizado para Power BI Report Server, marzo de 2018) en el Centro de descarga de Microsoft.
 
 2. En la página del Centro de descarga, seleccione **Descargar**.
 
@@ -48,13 +48,13 @@ Si ya ha creado informes de Power BI en Power BI Desktop, estará casi listo par
 
     - **PBIDesktopRS_x64.msi** (versión de 64 bits).
 
-4. Después de descargar el instalador, ejecute el Asistente para la instalación de Power BI Desktop (octubre de 2017).
+4. Después de descargar el instalador, ejecute el Asistente para la instalación de Power BI Desktop (marzo de 2018).
 
 2. Al final del proceso de instalación, seleccione **Iniciar Power BI Desktop ahora**.
    
-    Se inicia automáticamente y está listo para funcionar. Sabrá que tiene la versión correcta porque aparece "Power BI Desktop (octubre 2017)" en la barra de título.
+    Se inicia automáticamente y está listo para funcionar. Sabrá que tiene la versión correcta porque aparece "Power BI Desktop (marzo de 2018)" en la barra de título.
 
-    ![Power BI Desktop versión de octubre de 2017](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+    ![Power BI Desktop versión de marzo de 2018](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
 
 3. Si no conoce Power BI Desktop, considere la posibilidad de ver los vídeos de la pantalla de inicio de sesión.
    
@@ -100,7 +100,7 @@ Cuando el informe esté listo, guárdelo en la instancia de Power BI Report Serv
     ![Ver informe en el portal web](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
-Los informes del servidor de informes de Power BI y del servicio Power BI (http://powerbi.com) actúan prácticamente igual, pero hay algunas características diferentes.
+Los informes de Power BI Report Server y del servicio Power BI (http://powerbi.com)) actúan prácticamente igual, pero hay algunas características diferentes.
 
 ### <a name="in-a-browser"></a>En un explorador
 Los informes del servidor de informes de Power BI admiten todas las visualizaciones, entre las que se incluyen:
@@ -135,6 +135,7 @@ Hay muchos recursos excelentes para crear informes en Power BI Desktop. Estos v�
 
 * [Introducción a Power BI Desktop](../desktop-getting-started.md)
 * Aprendizaje guiado: [Introducción a Power BI Desktop](../guided-learning/gettingdata.yml#step-2)
+
 
 ### <a name="power-bi-report-server"></a>Servidor de informes de Power BI
 * [Instalar Power BI Desktop optimizado para el servidor de informes de Power BI](install-powerbi-desktop.md)  
