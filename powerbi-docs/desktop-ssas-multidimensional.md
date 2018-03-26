@@ -2,14 +2,14 @@
 title: Datos de Analysis Services multidimensionales en Power BI Desktop
 description: Datos de Analysis Services multidimensionales en Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6009f938d2dc8961dc63cb0ac6b08459f41f3ea3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 18f80073bf690cd6fc64f94d25f8aad8bf5044e1
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Conectarse a modelos SSAS multidimensionales en Power BI Desktop
 Con Power BI Desktop, ahora puede acceder a **modelos SSAS multidimensionales**, que suelen denominarse **SSAS MD**.
 
-Para conectarse a una base de datos **SSAS MD**, seleccione **Obtener datos &gt; Base de datos &gt; Base de datos de SQL Server Analysis Services** tal como se muestra en la siguiente imagen.
+Para conectarse a una base de datos **SSAS MD**, seleccione **Obtener datos &gt; Base de datos &gt; Base de datos de SQL Server Analysis Services**, como se muestra esta imagen:
 
 ![](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
 
@@ -43,7 +43,7 @@ La siguiente tabla muestra la correspondencia entre los objetos multidimensional
 | --- | --- |
 | Cubo |Modelo |
 | Dimensión de cubo |Tabla |
-| Atributos de dimensión (Keys), Name) |Columnas |
+| Atributos de dimensión (Keys), Name |Columnas |
 | Grupo de medida |Tabla |
 | Medida |Medida |
 | Medidas sin grupo de medida asociado |En la tabla llamada *Medidas* |

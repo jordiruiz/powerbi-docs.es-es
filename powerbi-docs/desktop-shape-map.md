@@ -1,15 +1,15 @@
 ---
-title: "Usar mapas de formas en Power BI Desktop (versión preliminar)"
+title: Usar mapas de formas en Power BI Desktop (versión preliminar)
 description: Crear comparaciones relativas a las regiones con mapas de formas en Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 335e9800be3d2a2cd30cc84835ab7b0173922c46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de formas en Power BI Desktop (versión preliminar)
 En Power BI Desktop, puede crear un objeto visual **Mapa de formas** para mostrar comparaciones relativas de las regiones en un mapa al aplicar colores diferentes para distintas regiones. A diferencia del objeto visual **Mapa**, **Mapa de formas** no puede mostrar ubicaciones geográficas precisas de los puntos de datos en un mapa; en su lugar, su propósito principal es mostrar comparaciones relativas de regiones en un mapa al colorearlas de forma diferente.
@@ -73,6 +73,23 @@ Puede usar mapas personalizados con **Mapa de formas** siempre que tengan el for
 Para usar el archivo de mapa **TopoJSON**, agregue un objeto visual de ShapeMap al informe y algunos datos a los depósitos *Ubicación* y *Valores*. Después, en el panel **Visualizaciones**, con la sección **Formato** seleccionada (el icono de pincel, mostrado como (1) en la imagen siguiente), expanda la sección **Forma** y seleccione **+ Agregar mapa**.
 
 ![](media/desktop-shape-map/shape-map_6.png)
+
+## <a name="sample-custom-map"></a>Ejemplo de mapa personalizado
+*Offices of the United States Attorneys* publica un informe fiscal anual con datos sobre litigios y cantidad de procesos judiciales.  Todos sus informes se encuentran en este vínculo:
+
+https://www.justice.gov/usao/resources/annual-statistical-reports
+
+Como los estados se pueden dividir en varios distritos, es necesario usar un mapa de formas personalizado.  Si importamos el mapa **TopoJSON** de los distritos judiciales de Estados Unidos en **Power BI Desktop**, conseguimos visualizar los datos anuales de los abogados por distrito fiscal.  En la imagen de abajo se muestra un ejemplo de este mapa.
+
+![](media/desktop-shape-map/shape-map_7a.png)
+
+Puede hacer otras cosas interesantes con los mapas de estados individuales y mostrar más detalles en función de los distritos que contiene. 
+
+![](media/desktop-shape-map/shape-map_7b.png)
+
+Si quiere probar con este conjunto de datos y visualización, en este vínculo podrá descargar el archivo PBIX original que se usó para generar este informe.
+
+* [Demo de archivo .PBIX de mapa de formas personalizado](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>Obtener datos de mapa
 Para obtener rápidamente datos en un modelo para que pueda probar **Mapa de formas**, puede copiar una de las tablas al final de este artículo y luego seleccionar **Especificar datos** en la cinta **Inicio**.

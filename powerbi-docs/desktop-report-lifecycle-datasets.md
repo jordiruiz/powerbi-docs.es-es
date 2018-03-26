@@ -1,15 +1,15 @@
 ---
-title: "Conexión a conjuntos de datos del servicio Power BI desde Power BI Desktop"
-description: "Uso de un conjunto de datos común para varios informes de Power BI Desktop y administración del ciclo de vida de los informes"
+title: Conexión a conjuntos de datos del servicio Power BI desde Power BI Desktop
+description: Uso de un conjunto de datos común para varios informes de Power BI Desktop y administración del ciclo de vida de los informes
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 09da52bea3486d95b730836a393ac0ffe9b10cc4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conexión a conjuntos de datos del servicio Power BI desde Power BI Desktop
 Puede establecer una conexión dinámica a un conjunto de datos compartido en el servicio Power BI y crear muchos informes diferentes del mismo conjunto de datos. Es decir, puede generar el modelo de datos perfecta en Power BI Desktop, publicarlo en el servicio Power BI. Después, tanto usted como otros usuarios podrán crear varios informes diferentes (en archivos .pbix independientes) de ese mismo modelo de datos común. Esta característica se denomina "**Conexión dinámica al servicio Power BI**".
@@ -59,7 +59,7 @@ En la siguiente imagen, verá cómo Ana crea un informe de **Power BI Desktop** 
 Ahora que sabemos lo útil que es **Conexión dinámica al servicio Power BI** y cómo puede usarse como enfoque de procedimiento recomendado para administrar el ciclo de vida de los informes, vamos a seguir los pasos que convirtieron un informe excelente de Ana (y conjunto de datos) en un conjunto de datos compartido que pueden usar los compañeros de equipo en el área de trabajo de Power BI.
 
 ### <a name="publish-a-power-bi-report-and-dataset"></a>Publicación de un informe y un conjunto de datos de Power BI
-El primer paso para administrar el ciclo de vida de los informes mediante **Conexión dinámica al servicio Power BI** es tener un informe (y un conjunto de datos) que los compañeros de equipo quieran utilizar. Por tanto, en primer lugar, Ana debe **publicar** su informe desde **Power BI Destkop**. Para ello, selecciona **Publicar** en la cinta de opciones **Inicio** de Power BI Desktop.
+El primer paso para administrar el ciclo de vida de los informes mediante **Conexión dinámica al servicio Power BI** es tener un informe (y un conjunto de datos) que los compañeros de equipo quieran utilizar. Por tanto, en primer lugar, Ana debe **publicar** su informe desde **Power BI Desktop**. Para ello, selecciona **Publicar** en la cinta de opciones **Inicio** de Power BI Desktop.
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 

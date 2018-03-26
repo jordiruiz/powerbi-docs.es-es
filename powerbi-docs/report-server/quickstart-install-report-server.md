@@ -1,48 +1,45 @@
 ---
-title: "Inicio rápido: instalar un servidor de informes de Power BI"
-description: "Instalar un servidor de informes de Power BI es muy rápido. Desde la descarga hasta la instalación y configuración, estará listo y en ejecución en pocos minutos."
+title: 'Inicio rápido: instalar un servidor de informes de Power BI'
+description: Instalar un servidor de informes de Power BI es muy rápido. Desde la descarga hasta la instalación y configuración, estará listo y en ejecución en pocos minutos.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 625864384f73260ec0f62b74ff9a95e966289da0
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>Inicio rápido: instalar un servidor de informes de Power BI
 Instalar un servidor de Power BI es muy rápido. Desde la descarga hasta la instalación y configuración, estará listo y en ejecución en pocos minutos.
 
 Este artículo es una guía rápida para la instalación de un servidor de informes si solo necesita disponer de un nuevo servidor listo y en ejecución. Para una información más detallada sobre cómo instalar un servidor de informes, consulte [Instalar Power BI Report Server](install-report-server.md).
 
- **Descargar** ![descargar](media/quickstart-install-report-server/download.png "descargar")
-
-Para descargar el servidor de informes de Power BI, vaya a [Publicar informes en almacenamiento local con el Servidor de informes de Power BI](https://powerbi.microsoft.com/report-server/). 
-
-Vaya al Centro de descarga de Microsoft para descargar [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (optimizado para Power BI Report Server, octubre de 2017).
-
-![Sugerencia](media/quickstart-install-report-server/fyi-tip.png "tip") Para ver las notas de la versión actual, consulte [Notas de la versión del servidor de informes de Power BI](release-notes.md).
+## <a name="video-install-power-bi-report-server"></a>Vídeo: Instalar Power BI Report Server
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="before-you-begin"></a>Antes de empezar
-Antes de instalar el servidor de informes de Power BI, se recomienda que revise [Requisitos de hardware y software para instalar el servidor de informes de Power BI](system-requirements.md).
+Antes de instalar Power BI Report Server, se recomienda que revise el tema [Requisitos de hardware y software para instalar el servidor de informes de Power BI](system-requirements.md).
 
 ## <a name="step-1-download"></a>Paso 1: Descargar
-Descargue localmente los archivos de instalación del servidor de informes de Power BI. Para descargar el servidor de informes de Power BI, vaya al [Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=839351).
+
+Para descargar Power BI Report Server y Power BI Desktop optimizado para Power BI Report Server, vaya a [Publicar informes en almacenamiento local con el servidor de informes de Power BI](https://powerbi.microsoft.com/report-server/) y seleccione **Descargar evaluación gratuita**.
+
+Siga las instrucciones para descargar localmente los archivos de instalación de Power BI Report Server. 
 
 ![Descargar el servidor de informes de Power BI](media/quickstart-install-report-server/download-pbireportserver.png)
 

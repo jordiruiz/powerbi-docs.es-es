@@ -1,15 +1,15 @@
 ---
-title: "Uso del panel Análisis en Power BI Desktop"
-description: "Crear líneas de referencia dinámicas para objetos visuales de Power BI Desktop"
+title: Uso del panel Análisis en Power BI Desktop
+description: Crear líneas de referencia dinámicas para objetos visuales de Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 24f6f9037937049d24321791046aaf7a14e9fb6f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 369d99406cd286be7cf1afb3c02c98c1711531ae
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Uso del panel Análisis en Power BI Desktop
 Con el panel **Análisis** en **Power BI Desktop**, puede agregar *líneas de referencia* dinámicas en objetos visuales y destacar las tendencias o detalles importantes. El panel **Análisis** se encuentra en el área **Visualizaciones** de Power BI Desktop.
@@ -60,7 +60,7 @@ Para ver las líneas de referencia dinámicas disponibles para un objeto visual,
    ![](media/desktop-analytics-pane/analytics-pane_3.png)
 3. Para crear una nueva línea, seleccione **+ Agregar**. A continuación, puede especificar un nombre para la línea haciendo doble clic en el cuadro de texto y escribiendo su nombre.
    
-   Tiene todo tipo de opciones para la línea, como el *color*, la *transparencia*, el *estilo* y la *posición* (con respecto a los elementos de datos del objeto visual); también puede definir si quiere incluir la etiqueta. Asimismo, puede seleccionar en qué **Medida** del objeto visual se debe basar la línea seleccionándola en el menú desplegable **Medida**, que se rellena automáticamente con los elementos de datos del objeto visual. En este caso, seleccionaremos *Weather* (Tiempo) como medida, lo etiquetaremos como *Average Weather* (Tiempo promedio) y personalizaremos algunas de las otras opciones, como se muestra a continuación.
+   Tiene todo tipo de opciones para la línea, como el *color*, la *transparencia*, el *estilo* y la *posición* (con respecto a los elementos de datos del objeto visual); también puede definir si quiere incluir la etiqueta. También puede elegir en qué **Medida** del objeto visual se debe basar la línea. Para ello, selecciónela en el menú desplegable **Medida**, que se rellena automáticamente con los elementos de datos del objeto visual. En este caso, seleccionaremos *Weather* (Tiempo) como medida, lo etiquetaremos como *Average Weather* (Tiempo promedio) y personalizaremos algunas de las otras opciones, como se muestra a continuación.
    
    ![](media/desktop-analytics-pane/analytics-pane_4.png)
 4. Si desea hacer que aparezca una etiqueta de datos, active el control deslizante de **Etiqueta de datos**. Al hacerlo, obtendrá una gran variedad de opciones adicionales para la etiqueta de datos, tal y como se muestra en la siguiente imagen.

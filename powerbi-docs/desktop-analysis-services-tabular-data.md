@@ -2,14 +2,14 @@
 title: Uso de datos tabulares de Analysis Services en Power BI Desktop
 description: Datos tabulares de Analysis Services en Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 02ce801db4eb6f5040c1d0e31ee0746a475c0bbb
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: ac5786c51fdf3f927605fdf20123a8ea93e74f8a
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Uso de datos tabulares de Analysis Services en Power BI Desktop
 Con Power BI Desktop existen dos maneras puede conectarse y obtener datos de los modelos tabulares de Analysis Services de SQL Server: exploración mediante una conexión activa o selección de elementos e importación en Power BI Desktop.
@@ -54,7 +54,7 @@ Cuando haya creado los informes dinámicos en Power BI Desktop, podrá compartir
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_live.png)
 * Si ha elegido la opción de selección de elementos y obtención de datos, en el explorador, seleccione un modelo tabular o una perspectiva. También puede seleccionar solo las columnas o tablas determinadas que cargar. Para dar forma a los datos antes de la carga, haga clic en Editar para abrir el Editor de consultas. Cuando esté listo, haga clic en Cargar para importar los datos en Power BI Desktop.
 
-![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
+  ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 **Pregunta:** ¿Se necesita una puerta de enlace de datos local?
@@ -73,7 +73,7 @@ Si elige la selección de elementos y la obtención de datos, se importan los da
 
 **Pregunta:** Si creo una conexión dinámica, ¿puedo modificar el modelo o la consulta en Power BI Desktop?
 
-**Respuesta:** puede crear medidas de nivel de informe en Power BI Desktop, pero se deshabilitan todas las demás características de consulta y el modelado al explorar datos activos.
+**Respuesta:** Puede crear medidas de nivel de informe en Power BI Desktop, pero se deshabilitan todas las demás características de consulta y el modelado al explorar datos activos.
 
 **Pregunta:** ¿Es seguro crear una conexión dinámica?
 

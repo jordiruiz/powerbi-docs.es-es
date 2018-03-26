@@ -1,15 +1,15 @@
 ---
-title: "Crear una segmentación con capacidad de respuesta que se puede cambiar de tamaño en Power BI"
-description: "Obtenga información acerca de cómo crear una segmentación con capacidad de respuesta que se puede cambiar de tamaño para ajustarse a su informe"
+title: Crear una segmentación con capacidad de respuesta que se puede cambiar de tamaño en Power BI
+description: Obtenga información acerca de cómo crear una segmentación con capacidad de respuesta que se puede cambiar de tamaño para ajustarse a su informe
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: feba171d6a81f7e9760df2d9fabecce2cc544dc2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2ab907dd15e43892147967902fbb94d09ef4125b
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>Crear una segmentación con capacidad de respuesta que se puede cambiar de tamaño en Power BI (versión preliminar)
 

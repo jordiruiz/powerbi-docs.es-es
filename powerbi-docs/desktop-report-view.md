@@ -2,14 +2,14 @@
 title: Vista de informes en Power BI Desktop
 description: Vista de informes en Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e68a819325e601f869b34c4ccbe3e873fe9408b3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af10699ea30b9d8e8dd8e3495860c43387a7e0be
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Vista de informes en Power BI Desktop
 Si ha estado trabajando con Power BI, sabrá lo fácil que es crear informes que ofrecen perspectivas dinámicas e información sobre los datos. Power BI también tiene características más avanzadas en Power BI Desktop. Con Power BI Desktop, puede crear consultas avanzadas, mezclar datos de varios orígenes, crear relaciones entre tablas y mucho más.
@@ -44,7 +44,7 @@ Una vez que haya agregado algunos datos, puede agregar campos a una nueva visual
 
 ![](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-Para cambiar el tipo de visualización, puede seleccionarlo en el grupo **Visualización** en la cinta de opciones o puede hacer clic con el botón secundario y seleccionar otro en el icono **Cambiar tipo de visualización** .
+Para cambiar el tipo de visualización, puede seleccionarlo en el grupo **Visualización** en la cinta de opciones o puede hacer clic con el botón derecho y seleccionar otro en el icono **Cambiar tipo de visualización**.
 
 ![](media/desktop-report-view/pbid_reportview_changevis.gif)
 
@@ -53,7 +53,7 @@ Para cambiar el tipo de visualización, puede seleccionarlo en el grupo **Visual
 > 
 > 
 
-Un informe tendrá al menos una página en blanco al inicio. Las páginas aparecen en el panel de navegación a la izquierda del lienzo. Puede agregar todo tipo de visualizaciones a una página, pero es importante no abusar. Demasiadas visualizaciones en una página le darán un aspecto ocupado y dificultarán la búsqueda de información adecuada. Para agregar nuevas páginas a un informe, simplemente haga clic en **Nueva página** en la cinta de opciones.
+Un informe tendrá al menos una página en blanco al inicio. Las páginas aparecen en el panel de navegación a la izquierda del lienzo. Puede agregar todo tipo de visualizaciones a una página, pero es importante no abusar. Demasiadas visualizaciones en una página le darán un aspecto ocupado y dificultarán la búsqueda de información adecuada. Puede agregar nuevas páginas a un informe. Solo tiene que hacer clic en **Nueva página** en la cinta de opciones.
 
 ![](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 
