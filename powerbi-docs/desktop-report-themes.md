@@ -1,15 +1,15 @@
 ---
-title: "Uso de los temas para los informes en Power BI Desktop (versión preliminar)"
+title: Uso de los temas para los informes en Power BI Desktop (versión preliminar)
 description: Aprenda a usar una paleta de colores personalizada y a aplicarla a un informe completo en Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8893e9f048f10f2c9c4d5bf787382b7cf65f54a9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Uso de los temas para los informes en Power BI Desktop (versión preliminar)
 Con **Temas para informes** puede aplicar un tema de color a todo el informe como, por ejemplo, colores corporativos, colores de temporada o cualquier otro tema de color que desee aplicar a un informe. Al aplicar un **tema para informes**, todos los objetos visuales del informe usan los colores del tema seleccionado (hay algunas excepciones que se describen más adelante en este artículo).
@@ -163,7 +163,7 @@ Para crear un archivo JSON de formato extendido, con un control más granular y 
         }
     }
 
-Para las secciones **visualName** y **cardName**, puede enumerar un valor de visualName y cardName específico o puede usar un asterisco ("*") si desea que la configuración se aplique a todos los objetos visuales o todas las tarjetas que contengan una propiedad para un objeto visual específico. Puede usar el asterisco ("*") cuando desee aplicar una configuración global en el informe, como un tamaño de fuente o una familia de fuentes específica que se debería utilizar en todos los objetos visuales del informe.
+Para las secciones **visualName** y **cardName**, puede enumerar un valor de visualName y cardName específico o puede usar un asterisco ("\*") si desea que la configuración se aplique a todos los objetos visuales o todas las tarjetas que contengan una propiedad para un objeto visual específico. Puede usar el asterisco ("\*") cuando desee aplicar una configuración global en el informe, como un tamaño de fuente o una familia de fuentes específica que se debería utilizar en todos los objetos visuales del informe.
 
 > [!NOTE]
 > Solo debe especificar los elementos de formato que desea aplicar. Los elementos de formato no incluidos en el archivo JSON simplemente vuelven a sus valores y configuración predeterminados.
