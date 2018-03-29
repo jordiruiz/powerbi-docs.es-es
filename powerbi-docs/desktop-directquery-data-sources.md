@@ -1,15 +1,15 @@
 ---
-title: "Orígenes de datos admitidos por DirectQuery en Power BI"
-description: "Obtener una lista de los orígenes de datos que pueden usar DirectQuery."
+title: Orígenes de datos admitidos por DirectQuery en Power BI
+description: Obtener una lista de los orígenes de datos que pueden usar DirectQuery.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: fcd8e4705fe5ee3a3a567c0e7a44a5a4d1a73e76
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Orígenes de datos admitidos por DirectQuery en Power BI
 **Power BI Desktop** y el **servicio Power BI** dispone de muchos orígenes de datos a la que puede conectarse y obtener acceso a datos. En este artículo se describe qué orígenes de datos de Power BI son compatibles con el método de conexión que se conoce como **DirectQuery**. Para más información acerca de DirectQuery, consulte [**DirectQuery en Power BI**](desktop-directquery-about.md).
@@ -48,7 +48,7 @@ Los siguientes orígenes de datos admiten DirectQuery en Power BI:
 
 Los orígenes de datos en los que **(Beta)** o **(versión preliminar)** aparezca después de su nombre están sujetos a cambios y no se admiten para su uso en producción. Es posible que tampoco se admitan después de publicar un informe en el **servicio Power BI**, lo que implica que se puede producir un error al abrir un informe publicado o explorar el conjunto de datos.
 
-La única diferencia entre los orígenes de datos **(beta)** y **(versión preliminar)** es que los segundos deben habilitarse como una característica de versión preliminar para poder usarse. Para habilitar un conector de datos en **(versión preliminar)**, en **Power BI Desktop** vaya a **Archivo > Opciones y configuración**y, después, **Configuración > Opciones > Características de versión preliminar**.
+La única diferencia entre los orígenes de datos **(beta)** y **(versión preliminar)** es que los segundos deben habilitarse como una característica de versión preliminar para poder usarse. Para habilitar un conector de datos **(versión preliminar)**, vaya a **Power BI Desktop**, vaya a **Archivo > Opciones y configuración > Opciones** y, después, seleccione **Características de versión preliminar**.
 
 ## <a name="on-premises-gateway-requirements"></a>Requisitos de puerta de enlace local
 La tabla siguiente especifica si se requiere una **puerta de enlace de datos local** para conectarse al origen de datos especificado, después de publicar un informe en el **servicio Power BI**.

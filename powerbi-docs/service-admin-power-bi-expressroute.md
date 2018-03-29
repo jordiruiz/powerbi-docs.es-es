@@ -2,14 +2,14 @@
 title: Power BI y ExpressRoute
 description: Power BI y ExpressRoute
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 30bc1c58d02634748acfc2dce4fbfbec51fa6cba
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: faf438e9f76a7a929f7369dc91ef4edb4fbef42d
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI y ExpressRoute
 Con **Power BI** y **ExpressRoute**, puede crear una conexión de red privada entre su organización y Power BI (o mediante una instalación de colocación del ISP), omitiendo Internet para proteger mejor las conexiones y los datos confidenciales de Power BI.
@@ -94,5 +94,5 @@ Algunos **objetos visuales personalizados** son creados por terceros, otros son 
 Este documento no cubre el uso de aplicaciones móviles de Power BI.  
 
 ### <a name="on-premises-data-gateway-and-expressroute"></a>Puerta de enlace de datos local y ExpressRoute
-Cuando una **puerta de enlace de datos local** se utiliza con Power BI, las transmisiones son compatibles con ExpressRoute, excepto las actividades de usuario documentadas en la sección **ExpressRoute y aplicaciones SaaS de Power BI** de este mismo tema.  
+Cuando una **puerta de enlace de datos local** se usa con Power BI, las transmisiones son compatibles con ExpressRoute, excepto las actividades de usuario documentadas en la sección **ExpressRoute y aplicaciones SaaS de Power BI** de este mismo tema.  
 

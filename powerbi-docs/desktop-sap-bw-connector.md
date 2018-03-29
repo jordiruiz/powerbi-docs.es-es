@@ -2,14 +2,14 @@
 title: Uso del conector de SAP BW en Power BI Desktop
 description: Uso del conector de SAP BW en Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 84ee8e7c6dd92c5400b6e9d44fab03ad347084d9
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Uso del conector de SAP BW en Power BI Desktop
 Con Power BI Desktop, puede acceder a los datos de **SAP BusinessWarehouse (BW)**.
@@ -38,7 +38,7 @@ Para usar el **conector de SAP BW**, siga los pasos de instalación siguientes:
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>Características del conector de SAP BW
-El **conector de SAP BW** de Power BI Desktop le permite importar datos de los cubos del **Servidor de SAP Business Warehouse**. También puede usar DirectQuery con el **conector de SAP BW**. 
+Los **conectores de SAP BW** de Power BI Desktop le permiten importar datos de los cubos del **Servidor de SAP Business Warehouse** o usar DirectQuery. 
 
 Para obtener más información sobre el **conector de SAP BW** y cómo usarlo con DirectQuery, eche un vistazo al artículo [DirectQuery y SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
@@ -50,7 +50,7 @@ También puede especificar dos **Opciones avanzadas** adicionales: el código de
 
 ![](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
-Si no especificó ninguna instrucción MDX aparecerá la ventana **Navegador**, que le mostrará la lista de los cubos disponibles en el servidor, la opción para explorar en profundidad y la de seleccionar elementos de los cubos disponibles, incluyendo las dimensiones y las medidas. Power BI muestra las consultas y los cubos que muestran las [BAPI de OLAP de Open Analysis Interface de BW](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm).
+Si no especificó ninguna instrucción MDX aparecerá la ventana **Navegador**, que le mostrará la lista de los cubos disponibles en el servidor, con la opción para explorar en profundidad y la de seleccionar elementos de los cubos disponibles, incluyendo las dimensiones y las medidas. Power BI muestra las consultas y los cubos que muestran las [BAPI de OLAP de Open Analysis Interface de BW](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm).
 
 Al seleccionar uno o varios elementos del servidor, se crea una vista previa de la tabla de salida en función de su selección.
 

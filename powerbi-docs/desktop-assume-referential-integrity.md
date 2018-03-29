@@ -1,15 +1,15 @@
 ---
-title: "Configuración de Asumir integridad referencial en Power BI Desktop"
-description: "Con DirectQuery, obtenga información sobre cómo conseguir que Power BI Desktop asuma la integridad referencial"
+title: Configuración de Asumir integridad referencial en Power BI Desktop
+description: Con DirectQuery, obtenga información sobre cómo conseguir que Power BI Desktop asuma la integridad referencial
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0d92fc16a6bde09f3783c2035a4a6b5c97e7b933
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9494b7774c8ba7d91398b14fb6ae2f21649050fa
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Configuración de Asumir integridad referencial en Power BI Desktop
 Al conectarse con un origen de datos mediante **DirectQuery**, puede seleccionar **Asumir integridad referencial** para habilitar la ejecución de consultas más eficientes en el origen de datos. Esta característica tiene unos cuantos requisitos de datos subyacentes y solo está disponible cuando se utiliza **DirectQuery**.
@@ -48,7 +48,7 @@ En el ejemplo siguiente se muestra cómo se comporta **Asumir integridad referen
 2. En la siguiente imagen, tenga en cuenta que no existe ninguna integridad referencial entre **Orders[DepotID]** y **Depots[DepotID]**, porque **DepotID** es *Null* para algunos *Orders*. Por tanto, **Asumir integridad referencial** no se *debe* establecer.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
-3. Por último, no existe integridad referencial entre **Orders[CustomerID]** y **Customers[CustID]** en las siguientes tablas; **CustomerID** contiene algunos valores (en este caso, *CustX*) que no existen en la tabla *Customers*. Por tanto, **Asumir integridad referencial** no se *debe* establecer.
+3. Por último, no existe ninguna integridad referencial entre **Orders[CustomerID]** y **Customers[CustID]** en las siguientes tablas; **CustomerID** contiene algunos valores (en este caso, *CustX*) que no existen en la tabla *Customers*. Por tanto, **Asumir integridad referencial** no se *debe* establecer.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
 
@@ -62,7 +62,7 @@ Cuando se activa, la configuración se valida con los datos para asegurarse de q
 Además, la validación se produce en el momento de la edición de la relación y *no* refleja ningún cambio posterior en los datos.
 
 ## <a name="what-happens-if-you-incorrectly-set-assume-referential-integrity"></a>¿Qué ocurre si se establece incorrectamente Asumir la integridad referencial?
-Si establece **Asumir integridad referencial** cuando hay problemas de integridad referencial en los datos no se producirán errores. Sin embargo, dará lugar a incoherencias evidentes en los datos. Por ejemplo, en el caso de la relación con la tabla **Depots** descrita anteriormente, el resultado sería el siguiente:
+Si establece **Asumir integridad referencial** cuando hay problemas de integridad referencial en los datos, no se producirán errores. Sin embargo, dará lugar a incoherencias evidentes en los datos. Por ejemplo, en el caso de la relación con la tabla **Depots** descrita anteriormente, el resultado sería el siguiente:
 
 * Un objeto visual que muestra el total de *Order Qty* mostraría un valor de 40.
 * Un objeto visual que muestra el total de *Order Qty by Depot City* mostraría un valor total de *30* solamente, porque no incluiría el identificador de pedido 1, donde **DepotID** es *Null*.
