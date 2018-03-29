@@ -1,15 +1,15 @@
 ---
-title: "Desactivar Configuración de privacidad"
-description: "Cómo habilitar Combinación rápida en Personal Gateway para deshabilitar la configuración de privacidad para la actualización."
+title: Desactivar Configuración de privacidad
+description: Cómo habilitar Combinación rápida en Personal Gateway para deshabilitar la configuración de privacidad para la actualización.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 54d5f5ec2db890de0fbcef5ef0633548b90a6079
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b8ec52f3c8bcb4051bd0ac9064786ddbfd15d9fe
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Deshabilitar la configuración de privacidad en Power BI Gateway - Personal
 > [!NOTE]

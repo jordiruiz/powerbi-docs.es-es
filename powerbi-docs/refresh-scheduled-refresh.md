@@ -1,14 +1,14 @@
 ---
-title: "Configuración de actualización programada"
-description: "Esta sección abarca los pasos para seleccionar una puerta de enlace y configurar la actualización programada."
+title: Configuración de actualización programada
+description: Esta sección abarca los pasos para seleccionar una puerta de enlace y configurar la actualización programada.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dec6b60b4dfddd9a4c55ee01cb7b9dc6b8c71cd3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af8895b90b2f3315fb0cfd71351dbe65c108071e
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="configuring-scheduled-refresh"></a>Configuración de la actualización programada
 
@@ -70,7 +70,7 @@ Solo es necesario que inicie sesión en los orígenes de datos la primera vez qu
 Cuando existe algún problema, suele deberse a que la puerta de enlace está sin conexión porque no pudo iniciar sesión en Windows e iniciar el servicio o porque Power BI no pudo iniciar sesión en los orígenes de datos para consultar los datos actualizados. Si se produce un error en la actualización, compruebe la configuración del conjunto de datos. Si el servicio de la puerta de enlace está sin conexión, verá el error en el estado de la puerta de enlace. Si Power BI no puede iniciar sesión en los orígenes de datos, verá un error en Credenciales del origen de datos.
 
 ### <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
-Si utiliza la puerta de enlace de datos local para actualizar los datos, no es preciso que especifique sus credenciales, ya que el administrador de la puerta de enlace las define para el origen de datos.
+Si usa la puerta de enlace de datos local para actualizar los datos, no es preciso que especifique sus credenciales, ya que el administrador de la puerta de enlace las define para el origen de datos.
 
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 

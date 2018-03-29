@@ -2,14 +2,14 @@
 title: DirectQuery para SAP HANA en Power BI
 description: Consideraciones importantes al utilizar DirectQuery con SAP HANA
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7b1b56ee467dfdf6dc8c63557a9a9f4ab86e965e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 966399c2ad11ac6a04400e3c009927deb6d35b94
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery y SAP HANA
 Puede conectarse a los orígenes de datos de **SAP HANA** directamente mediante **DirectQuery**. Hay dos opciones para conectarse a SAP HANA:
@@ -43,7 +43,7 @@ Fijémonos con más detalle en cada uno de estos enfoques (primero uno y luego e
 
 ## <a name="treat-sap-hana-as-a-multi-dimensional-source-default"></a>Tratar SAP HANA como un origen multidimensional (opción predeterminada)
 
-Todas las conexiones nuevas establecidas con SAP HANA usan este método de conexión de forma predeterminada, tratando SAP HANA como un origen multidimensional. Si desea tratar una conexión a SAP HANA como origen relacional, seleccione **Archivo > Opciones y configuración** y luego active la casilla junto a **DirectQuery > Tratar SAP HANA como origen relacional**. Mientras esta característica esté en **versión preliminar**, los informes creados con el enfoque multidimensional *no* se podrán publicar en el servicio Power BI. Si lo hace, se producirán errores al abrir el informe dentro del servicio Power BI.  
+Todas las conexiones nuevas establecidas con SAP HANA usan este método de conexión de forma predeterminada, tratando SAP HANA como un origen multidimensional. Si quiere tratar una conexión con SAP HANA como origen relacional, debe seleccionar **Archivo > Opciones y configuración > Opciones** y, después, activar la casilla situada debajo de **DirectQuery > Tratar SAP HANA como origen relacional**. Mientras esta característica esté en **versión preliminar**, los informes creados con el enfoque multidimensional *no* se podrán publicar en el servicio Power BI. Si lo hace, se producirán errores al abrir el informe dentro del servicio Power BI.  
 
 Al conectarse a SAP HANA como origen multidimensional, son aplicables estas condiciones:
 
@@ -63,11 +63,11 @@ La lista **Campo** incluirá todas las medidas, atributos y jerarquías de la vi
 
 * En SAP HANA se puede definir un atributo para que use otro atributo como etiqueta. Por ejemplo, **Producto** (con valores 1, 2, 3, etc.) podría utilizar **NombreProducto** (con valores Bicicleta, Camisa, Guantes, etc.) como etiqueta. En este caso, aparecería un solo campo **Producto** en la lista de campos, cuyos valores serán las etiquetas Bicicleta, Camisa, Guantes, etc., pero aparecerán ordenados por los valores clave 1, 2, 3, que determinarán también su carácter único. Se creará también una columna oculta **Clave.Producto**, que permite el acceso a los valores de clave subyacentes si fuera necesario. 
 
-Las variables definidas en la vista de SAP HANA subyacente se mostrarán en el momento de la conexión y se podrán introducir los valores necesarios. Dichos valores se pueden cambiar posteriormente seleccionando **Editar consultas** en la cinta de opciones y, a continuación, **Editar variables** en el menú desplegable que aparece. 
+Las variables definidas en la vista de SAP HANA subyacente se mostrarán en el momento de la conexión y se podrán introducir los valores necesarios. Dichos valores se pueden cambiar posteriormente seleccionando **Editar consultas** en la cinta de opciones y, luego, **Administrar parámetros** en el menú desplegable que aparece. 
 
-Las operaciones de modelado permitidas son más restrictivas que en el caso general al utilizar DirectQuery, dada la necesidad de comprobar que siempre pueden obtenerse los datos agregados correctos de SAP HANA. Sin embargo, resulta todavía posible realizar muchas adiciones y cambios, como definir medidas, cambiar el nombre y ocultar campos, así como definir los formatos de presentación. Todos esos cambios se conservarán en la actualización y se aplicarán los cambios que no planteen conflictos realizados en la vista de SAP HANA. 
+Las operaciones de modelado permitidas son más restrictivas que en el caso general al usar DirectQuery, dada la necesidad de comprobar que siempre pueden obtenerse los datos agregados correctos de SAP HANA. Sin embargo, resulta todavía posible realizar muchas adiciones y cambios, como definir medidas, cambiar el nombre y ocultar campos, así como definir los formatos de presentación. Todos esos cambios se conservarán en la actualización y se aplicarán los cambios que no planteen conflictos realizados en la vista de SAP HANA. 
 
-### <a name="additional-modelling-restrictions"></a>Restricciones de modelado adicionales
+### <a name="additional-modeling-restrictions"></a>Restricciones de modelado adicionales
 
 Las restricciones de modelado adicionales principales al conectarse a SAP HANA mediante DirectQuery (tratado como origen multidimensional) son las siguientes: 
 
@@ -80,7 +80,7 @@ Las restricciones de modelado adicionales principales al conectarse a SAP HANA m
 
 ### <a name="additional-visualization-restrictions"></a>Restricciones de visualización adicionales
 
-Hay algunas restricciones en los objetos visuales al conectarse a SAP HANA mediante DirectQuery (tratado como origen multidimensional): 
+Hay una serie de restricciones en los objetos visuales a la hora de conectarse a SAP HANA mediante DirectQuery (tratado como origen multidimensional): 
 * **No se permite la agregación de columnas:** no es posible cambiar la agregación de una columna en un objeto visual; es siempre *No resumir*.
 
 ## <a name="treat-sap-hana-as-a-relational-source"></a>Tratar SAP HANA como origen relacional 
@@ -138,7 +138,7 @@ Esto se debe a que Power BI accede a SAP HANA por medio de la interfaz SQL, y no
 * **Otros metadatos de la jerarquía**: en Power BI se muestra la estructura básica de jerarquías; sin embargo, algunos metadatos de la jerarquía (por ejemplo, el control del comportamiento de las jerarquías desiguales) no surten ningún efecto.
 De nuevo, esto se debe a las limitaciones impuestas por la interfaz SQL.
 * **Conexión mediante SSL**: no se puede conectar a instancias de SAP HANA configuradas para usar SSL.
-Compatibilidad con vistas de atributo: Power BI puede conectar con las vistas de análisis y cálculo, pero no puede conectar directamente con las vistas de atributo.
+* **Compatibilidad con vistas de atributo**: Power BI puede conectar con las vistas de análisis y cálculo, pero no puede conectar directamente con las vistas de atributo.
 * **Compatibilidad con los objetos de catálogo**: Power BI no puede conectar con los objetos de catálogo.
 * **Cambio en las variables después de publicar**: no se pueden cambiar los valores de las variables de SAP HANA directamente en el servicio Power BI una vez publicado el informe. 
  

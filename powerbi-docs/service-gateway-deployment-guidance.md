@@ -1,15 +1,15 @@
 ---
-title: "Guía para la implementación de una puerta de enlace de datos para Power BI"
-description: "Obtenga información acerca de los procedimientos recomendados y las consideraciones para implementar una puerta de enlace para Power BI."
+title: Guía para la implementación de una puerta de enlace de datos para Power BI
+description: Obtenga información acerca de los procedimientos recomendados y las consideraciones para implementar una puerta de enlace para Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 992c3cbeb9899a784cc8df9fdca9a29f57aa7e81
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9438b9563d17cff8ce334e48bc34a4f3fa6acf1c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Guía para la implementación de una puerta de enlace de datos para Power BI
-Este artículo proporciona instrucciones y algunas consideraciones para implementar una puerta de enlace de datos en el entorno de red. Una **puerta de enlace** es un software que facilita el acceso a los datos que residen en una red privada y local para su uso posterior en un servicio en la nube como Power BI. Este artículo le guía a través de la implementación de la **puerta de enlace de datos local** y le proporciona instrucciones para su configuración.
+Este artículo proporciona instrucciones y algunas consideraciones para implementar una puerta de enlace de datos en el entorno de red. Una **puerta de enlace** es un software que facilita el acceso a los datos que residen en una red privada y local para su uso posterior en un servicio en la nube como Power BI. Este artículo le guía a través de la implementación y proporciona instrucciones para la configuración de la **puerta de enlace de datos local**.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
 
-Para más información acerca de la **puerta de enlace de datos local**, incluido un vínculo para su instalación, consulte la siguiente [entrada de blog](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
+Para más información acerca de la **puerta de enlace de datos local**, incluido un vínculo para su instalación, consulte la siguiente [entrada del blog](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
 
 ## <a name="installation-considerations-for-the-on-premises-data-gateway"></a>Consideraciones para la instalación de la puerta de enlace de datos local
 Antes de entrar en los detalles de instalación e implementación, hay una serie de consideraciones que debe tener en cuenta. En las siguientes secciones se describen aspectos importantes a tener en cuenta.
@@ -53,7 +53,7 @@ Dependiendo del tipo de conexión en uso, la utilización de la puerta de enlace
 * Para **Actualización programada**: según el tamaño de la consulta y el número de actualizaciones que se producen al día, puede elegir entre permanecer con los requisitos mínimos de hardware recomendados o actualizar a una máquina de rendimiento superior. Si una consulta determinada no se dobla, las transformaciones se producen en el equipo de la puerta de enlace y, por lo tanto, la máquina de la puerta de enlace se beneficia de tener más RAM disponible.
 * Para **DirectQuery**: se enviará una consulta cada vez que cualquier usuario abre el informe o examine datos. Por lo que si prevé que más de 1.000 usuarios tendrán acceso a los datos simultáneamente, querrá asegurarse de que el equipo tiene componentes de hardware sólidos y eficaces. Más núcleos de CPU darán como resultado un mejor rendimiento para una conexión **DirectQuery**.
 
-Estos son los requisitos para el equipo en el se instala una **puerta de enlace de datos local**:
+Los requisitos para el equipo en el que instale una **puerta de enlace de datos local** son los siguientes:
 
 **Mínimo:**
 

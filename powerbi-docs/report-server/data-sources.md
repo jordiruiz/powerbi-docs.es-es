@@ -1,27 +1,27 @@
 ---
-title: "Orígenes de datos de los informes de Power BI en Power BI Report Server"
-description: "Los informes de Power BI pueden conectarse a orígenes de datos diferentes. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos."
+title: Orígenes de datos de los informes de Power BI en Power BI Report Server
+description: Los informes de Power BI pueden conectarse a orígenes de datos diferentes. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 03/21/2018
 ms.author: maghan
-ms.openlocfilehash: caa45aab2c31974abb041a82eb2216ebee2eb148
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 3777c58bae36d6115b51b64e0422529fe390a13c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Orígenes de datos de los informes de Power BI en Power BI Report Server
 Los informes de Power BI pueden conectarse a orígenes de datos diferentes. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos. Se pueden importar datos o se pueden consultar datos directamente mediante DirectQuery o una conexión dinámica con SQL Server Analysis Services.
@@ -34,6 +34,7 @@ Estos orígenes de datos son específicos de los informes de Power BI que se uti
 > 
 
 ## <a name="list-of-supported-data-sources"></a>Lista de orígenes de datos admitidos
+
 Otros orígenes de datos pueden funcionar aunque no estén en la lista de admitidos.
 
 | **Origen de datos** | **Datos almacenados en caché** | **Actualización programada** | **Dinámica/DirectQuery** |
@@ -48,7 +49,7 @@ Otros orígenes de datos pueden funcionar aunque no estén en la lista de admiti
 | Amazon Redshift |Sí |No |No |
 | Azure Blob Storage |Sí |Sí |No |
 | Azure Data Lake Store |Sí |No |No |
-| Azure HDInsight (HDFS) |Sí |Sí |No |
+| Azure HDInsight (HDFS) |Sí |No |No |
 | Azure HDInsight (Spark) |Sí |Sí |No |
 | Azure Table Storage |Sí |Sí |No |
 | Dynamics 365 (en línea) |Sí |No |No |
@@ -119,6 +120,100 @@ Otros orígenes de datos pueden funcionar aunque no estén en la lista de admiti
 > La seguridad de nivel de fila configurada en el origen de datos debería funcionar para determinados DirectQuery (SQL Server, Azure SQL Database, Oracle y Teradata) y las conexiones activas, suponiendo que Kerberos esté configurado correctamente en su entorno.
 > 
 > 
+
+## <a name="list-of-supported-authentication-methods-for-model-refresh"></a>Lista de métodos de autenticación admitidos para la actualización del modelo
+
+Power BI Report Server no admite la autenticación basada en OAuth para la actualización del modelo. Algunos orígenes de datos, como las bases de datos de Access o Excel, usan un paso independiente, como Archivo o Web, para conectarse a los datos.
+
+| **Origen de datos** | **Autenticación anónima** | **Autenticación de clave** | **Nombre de usuario y contraseña** | **Autenticación de Windows** |
+| --- | --- | --- | --- | --- |
+| Base de datos de SQL Server |No |No |Sí |Sí |
+| SQL Server Analysis Services |No |No |Sí |Sí |
+| Web |Sí |No |Sí |Sí |
+| Azure SQL Database |No |No |Sí |No |
+| Azure SQL Data Warehouse |No |No |Sí |No |
+| Active Directory |No |No |Sí |Sí |
+| Amazon Redshift |No |No |No |No |
+| Azure Blob Storage |Sí |Sí |No |No |
+| Azure Data Lake Store |No |No |No |No |
+| Azure HDInsight (HDFS) |No |No |No |No |
+| Azure HDInsight (Spark) |Sí |Sí |No |No |
+| Azure Table Storage |No |Sí |No |No |
+| Dynamics 365 (en línea) |No |No |No |No |
+| Facebook |No |No |No |No |
+| Carpeta |No |No |No |Sí |
+| Google Analytics |No |No |No |No |
+| Archivo Hadoop (HDFS) |No |No |No |No |
+| Base de datos IBM DB2 |No |No |Sí |Sí |
+| Impala |No |No |No |No |
+| Microsoft Exchange |No |No |No |No |
+| Microsoft Exchange Online |No |No |No |No |
+| Base de datos de MySQL |No |No |Sí |Sí |
+| Fuente de OData |Sí |Sí |Sí |Sí |
+| ODBC |Sí |No |Sí |Sí |
+| OLE DB |Sí |No |Sí |Sí |
+| Base de datos de Oracle |No |No |Sí |Sí |
+| Base de datos de PostgreSQL |No |No |Sí |No |
+| Servicio Power BI |No |No |No |No |
+| Script R |No |No |No |No |
+| Objetos de Salesforce |No |No |No |No |
+| Informes de Salesforce |No |No |No |No |
+| Servidor de SAP Business Warehouse |No |No |Sí |No |
+| Base de datos SAP HANA |No |No |Sí |Sí |
+| Carpeta de SharePoint (local) |Sí |No |No |Sí |
+| Lista de SharePoint (local) |Sí |No |No |Sí |
+| Lista de SharePoint Online |No |No |No |No |
+| Snowflake |No |No |No |No |
+| Base de datos de Sybase |No |No |Sí |Sí |
+| Base de datos de Teradata |No |No |Sí |Sí |
+| appFigures (Beta) |No |No |No |No |
+| Base de datos de Azure Analysis Services (Beta) |No |No |No |No |
+| Azure Cosmos DB (beta) |No |No |No |No |
+| Azure HDInsight Spark (Beta) |No |No |No |No |
+| Common Data Service (Beta) |No |No |No |No |
+| comScore Digital Analytix (beta) |No |No |No |No |
+| Dynamics 365 para Customer Insights (Beta) |No |No |No |No |
+| Dynamics 365 for Financials (Beta) |No |No |No |No |
+| GitHub (Beta) |No |No |No |No |
+| Google BigQuery (beta) |No |No |No |No |
+| Base de datos Informix de IBM (beta) |No |No |No |No |
+| IBM Netezza (Beta) |No |No |No |No |
+| Kusto (Beta) |No |No |No |No |
+| MailChimp (Beta) |No |No |No |No |
+| Microsoft Azure Consumption Insights (Beta) |No |No |No |No |
+| Mixpanel (Beta) |No |No |No |No |
+| Planview Enterprise (beta) |No |No |No |No |
+| Projectplace (Beta) |No |No |No |No |
+| QuickBooks Online (Beta) |No |No |No |No |
+| Smartsheet |No |No |No |No |
+| Spark (Beta) |No |No |No |No |
+| SparkPost (Beta) |No |No |No |No |
+| SQL Sentry |No |No |No |No |
+| Stripe (Beta) |No |No |No |No |
+| SweetIQ (Beta) |No |No |No |No |
+| Troux (beta) |No |No |No |No |
+| Twilio (Beta) |No |No |No |No |
+| tyGraph (Beta) |No |No |No |No |
+| Vertica (Beta) |No |No |No |No |
+| Visual Studio Team Services (Beta) |No |No |No |No |
+| Webtrends (Beta) |No |No |No |No |
+| Zendesk (Beta) |No |No |No |No |
+
+## <a name="list-of-supported-authentication-methods-for-directquery"></a>Lista de métodos de autenticación admitidos para DirectQuery
+
+Power BI Report Server no admite la autenticación basada en OAuth para DirectQuery.
+
+| **Origen de datos** | **Autenticación anónima** | **Autenticación de clave** | **Nombre de usuario y contraseña** | **Autenticación de Windows** | **Autenticación integrada de Windows** |
+| --- | --- | --- | --- | --- | --- |
+| Base de datos de SQL Server |No |No |Sí |Sí |Sí |
+| SQL Server Analysis Services |No |No |Sí |Sí |Sí |
+| Azure SQL Database |No |No |Sí |No |No |
+| Azure SQL Data Warehouse |No |No |Sí |No |No |
+| Base de datos de Oracle |No |No |Sí |Sí |Sí |
+| Servidor de SAP Business Warehouse |No |No |Sí |No |Sí |
+| Base de datos SAP HANA |No |No |Sí |Sí |No |
+| Base de datos de Teradata |No |No |Sí |Sí |Sí |
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 Ahora que se ha seleccionado el origen de datos, [cree un informe](quickstart-create-powerbi-report.md) con los datos de ese origen de datos.

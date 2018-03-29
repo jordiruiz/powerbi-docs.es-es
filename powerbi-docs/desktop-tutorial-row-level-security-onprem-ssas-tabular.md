@@ -1,15 +1,15 @@
 ---
-title: "Tutorial: Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services en Power BI"
-description: "Tutorial: Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services"
+title: 'Tutorial: Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services en Power BI'
+description: 'Tutorial: Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: selvarms
 manager: amitaro
 backup: davidi
 editor: davidi
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 67b347be9974605156d02cbbf179126c68ae91e8
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Tutorial: Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services
 En este tutorial se muestran los pasos necesarios para implementar la **seguridad de nivel de fila** dentro del **modelo tabular de Analysis Services** y se muestra cómo usarla en un informe de Power BI. Los pasos de este tutorial se han diseñado para permitirle seguir adelante y conocer los pasos necesarios al completar un conjunto de datos de ejemplo.
@@ -38,31 +38,31 @@ Durante este tutorial, los pasos siguientes se describen en detalle, lo que le a
 * Crear un nuevo panel basado en el informe y, finalmente,
 * Compartir el panel con sus compañeros
 
-Para seguir los pasos de este tutorial necesita la base de datos **AdventureworksDW2012**, que puede descargar **[aquí.](http://msftdbprodsamples.codeplex.com/releases/view/55330)**
+Para seguir los pasos de este tutorial, necesita la base de datos **AdventureworksDW2012**, que puede descargar del **[repositorio](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)**.
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>Tarea 1: Crear la tabla de seguridad del usuario y definir la relación de los datos
-Hay muchos artículos publicados que describen cómo definir la seguridad de nivel de fila dinámica con el modelo **tabular de SQL Server Analysis Services (SSAS)**. [Para nuestro ejemplo, seguimos este artículo.](https://msdn.microsoft.com/library/hh479759.aspx) En los pasos siguientes se le guía a través de la primera tarea de este tutorial.
+Hay muchos artículos publicados que describen cómo definir la seguridad de nivel de fila dinámica con el modelo **tabular de SQL Server Analysis Services (SSAS)**. Para nuestro ejemplo seguiremos el artículo [Implement Dynamic Security by Using Row Filters](https://msdn.microsoft.com/library/hh479759.aspx) (Implementar la seguridad dinámica mediante filtros de fila). En los siguientes pasos se describe la primera tarea de este tutorial:
 
 1. Para nuestro ejemplo, usamos la base de datos relacional **AdventureworksDW2012**. En esa base de datos, cree la tabla **DimUserSecurity**, tal y como se muestra en la siguiente imagen. En este ejemplo, usamos SQL Server Management Studio (SSMS) para crear la tabla.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable.png)
-2. Una vez que se ha creado y guardado la tabla, hay que crear la relación entre la columna **SalesTerritoryID** de la tabla **DimUserSecurity** y la columna **SalesTerritoryKey** de la tabla **DimSalesTerritory**, tal y como se muestra en la siguiente imagen. Para hacerlo desde **SSMS**, haga clic con el botón derecho en la tabla **DimUserSecurity** y seleccione **Editar**.
+2. Una vez que se ha creado y guardado la tabla, hay que crear la relación entre la columna **SalesTerritoryID** de la tabla **DimUserSecurity** y la columna **SalesTerritoryKey** de la tabla **DimSalesTerritory**, tal y como se muestra en la siguiente imagen. Para hacerlo desde **SSMS**, haga clic con el botón derecho en la tabla **DimUserSecurity** y seleccione **Diseño**. Después, seleccione **Diseñador de tablas -> Relaciones...** en el menú.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_keys.png)
-3. Guarde la tabla, vuelva a hacer clic con el botón derecho en la tabla **DimUserSecurity** y después seleccione **Edit top 200 rows** (Editar las primeras 200 filas) para agregar algunas filas de información de usuario en la tabla. Una vez que haya agregado esos usuarios, las filas de la tabla **DimUserSecurity** tendrán una apariencia similar a las de la siguiente imagen:
+3. Guarde la tabla, vuelva a hacer clic con el botón derecho en la tabla **DimUserSecurity** y, después, seleccione **Editar las primeras 200 filas** para agregar algunas filas de información de usuario a la tabla. Una vez que haya agregado esos usuarios, las filas de la tabla **DimUserSecurity** tendrán una apariencia similar a las de la siguiente imagen:
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_users.png)
    
    Volveremos a estos usuarios en tareas futuras.
 4. Después, realizamos una *combinación interna* con la tabla **DimSalesTerritory**, que muestra los detalles de la región asociados con el usuario. El siguiente código realiza la *combinación interna* y la imagen siguiente muestra la apariencia de la tabla una vez que la *combinación interna* se ha realizado correctamente.
    
-       **select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeKey, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryKey]**
+       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. Tenga en cuenta que la imagen anterior muestra información como qué usuario es responsable de qué región de ventas. Esos datos se muestran debido a la relación que hemos creado en el **Paso 2**. Además, tenga en cuenta que el usuario **Jon Doe es parte de la región de ventas de Australia**. Volveremos a John Doe en tareas y pasos futuros.
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>Tarea 2: Crear el modelo tabular con tablas de hechos y dimensiones
-1. Una vez que el almacenamiento de datos relacionales está en su sitio, es el momento de definir el modelo tabular. El modelo se puede crear con **SQL Server Data Tools (SSDT)**. Para obtener más información sobre cómo definir un modelo tabular, [consulte este artículo](https://msdn.microsoft.com/library/hh231689.aspx).
+1. Una vez que el almacenamiento de datos relacionales está en su sitio, es el momento de definir el modelo tabular. El modelo se puede crear con **SQL Server Data Tools (SSDT)**. Para obtener más información sobre cómo definir un modelo tabular, consulte [Create a New Tabular Model Project](https://msdn.microsoft.com/library/hh231689.aspx) (Crear un proyecto de modelo tabular).
 2. Importe todas las tablas necesarias en el modelo tal y como se muestra a continuación.
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
@@ -76,32 +76,33 @@ Hay muchos artículos publicados que describen cómo definir la seguridad de niv
 6. En este paso, usamos la función **LOOKUPVALUE** para devolver valores para una columna en la que el nombre de usuario de Windows es el mismo que el nombre de usuario devuelto por la función **USERNAME**. Después, se pueden restringir las consultas en las que los valores devueltos por **LOOKUPVALUE** coinciden con los valores de la misma tabla o de la tabla relacionada. En la columna **Filtro DAX**, escriba la siguiente fórmula:
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
-7. En esta fórmula, la función **LOOKUPVALUE** devuelve todos los valores de la columna **DimUserSecurity[SalesTerritoryID]**, donde **DimUserSecurity[UserName]** es igual que el nombre de usuario de Windows que ha iniciado sesión actualmente y **DimUserSecurity[SalesTerritoryID]** es el mismo que **DimSalesTerritory[SalesTerritoryKey]**.
+    En esta fórmula, la función **LOOKUPVALUE** devuelve todos los valores de la columna **DimUserSecurity[SalesTerritoryID]**, donde **DimUserSecurity[UserName]** es igual que el nombre de usuario de Windows que ha iniciado sesión actualmente y **DimUserSecurity[SalesTerritoryID]** es el mismo que **DimSalesTerritory[SalesTerritoryKey]**.
    
    El conjunto de Sales SalesTerritoryKey devuelto por **LOOKUPVALUE** se usa después para restringir las filas que se muestran en **DimSalesTerritory**. Solo se muestran las filas donde **SalesTerritoryKey** para la fila se encuentra en el conjunto de identificadores devueltos por la función **LOOKUPVALUE**.
-8. Para la tabla **DimUserSecurity**, en la columna **Filtro DAX**, escriba la siguiente fórmula.
+8. Para la tabla **DimUserSecurity**, en la columna **Filtro DAX**, escriba la siguiente fórmula:
    
        =FALSE()
-9. Esta fórmula especifica que todas las columnas se resuelven en la condición booleana falsa; por tanto, no se pueden consultar columnas de la tabla **DimUserSecurity**.
-10. Ahora hay que procesar e implementar el modelo. Puede consultar [este artículo](https://msdn.microsoft.com/library/hh231693.aspx) para obtener asistencia para implementar el modelo.
+
+    Esta fórmula especifica que todas las columnas se resuelven en la condición booleana falsa; por tanto, no se pueden consultar columnas de la tabla **DimUserSecurity**.
+1. Ahora hay que procesar e implementar el modelo. Puede consultar el [artículo sobre implementación](https://msdn.microsoft.com/library/hh231693.aspx) para obtener ayuda a la hora de implementar el modelo.
 
 ## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>Tarea 3: Agregar orígenes de datos a una puerta de enlace de datos local
 1. Una vez que el modelo tabular está implementado y listo para usarlo, debe agregar una conexión de origen de datos al servidor tabular de Analysis Services local en el portal de Power BI.
-2. Para permitir que el **servicio Power BI** acceda a su servicio de análisis local, es preciso que tenga una **[puerta de enlace de datos local](service-gateway-onprem.md)** instalada y configurada en su entorno.
-3. Una vez que la puerta de enlace esté configurada correctamente, debe crear una conexión de origen de datos para la instancia tabular de **Analysis Services**. Este artículo le ayudará a [agregar el origen de datos en el portal de Power BI](service-gateway-enterprise-manage-ssas.md).
+2. Para permitir que el **servicio Power BI** acceda a su servicio de análisis local, es preciso disponer de una **[puerta de enlace de datos local](service-gateway-onprem.md)** instalada y configurada en su entorno.
+3. Una vez que la puerta de enlace esté configurada correctamente, debe crear una conexión de origen de datos para la instancia tabular de **Analysis Services**. Este artículo le ayudará a [agregar un origen de datos al portal de Power BI](service-gateway-enterprise-manage-ssas.md).
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)
-4. Una vez completado el paso anterior, la puerta de enlace está configurada y lista para interactuar con el origen de datos local de **Analysis Services**.
+4. Una vez concluido el paso anterior, la puerta de enlace estará configurada y lista para interactuar con el origen de datos local de **Analysis Services**.
 
 ## <a name="task-4-creating-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>Tarea 4: Crear un informe basado en el modelo tabular de Analysis Services con Power BI Desktop
 1. Inicie **Power BI Desktop** y seleccione **Obtener datos > Base de datos** .
-2. En la lista de orígenes de datos, seleccione la **Base de datos de SQL Server Analysis Services** y seleccione **Conectar**.
+2. En la lista de orígenes de datos, seleccione **Base de datos de SQL Server Analysis Services** y seleccione **Conectar**.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
-3. Rellene los detalles de la instancia tabular de **Analysis Services** y seleccione **Conectar en directo**. Seleccione Aceptar. Con **Power BI**, la seguridad dinámica solo funciona con **Conexión dinámica**.
+3. Rellene los detalles de la instancia tabular de **Analysis Services** y seleccione **Conectar en directo**. Seleccione **Aceptar**. Con **Power BI**, la seguridad dinámica solo funciona con **Conexión dinámica**.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
-4. Verá el modelo que se ha implementado en la instancia de **Analysis Services**. Seleccione el modelo correspondiente y seleccione **Aceptar**.
+4. Verá que el modelo que se ha implementado está en la instancia de **Analysis Services**. Seleccione el modelo correspondiente y seleccione **Aceptar**.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 5. **Power BI Desktop** ahora muestra todos los campos disponibles a la derecha del lienzo en el panel **Campos**.
@@ -134,7 +135,7 @@ Hay muchos artículos publicados que describen cómo definir la seguridad de niv
 2. La sesión se inicializa tan pronto como el usuario (Jon Doe, en este caso) obtiene acceso al panel en el servicio Power BI. Puede ver que el rol **salesterritoryusers** tiene efecto inmediato con el nombre de usuario vigente como **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>**.
    
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>jondoe@moonneo.com</EffectiveUserName></PropertyList>
-3. Según la solicitud de nombre de usuario vigente, Analysis Services convierte la solicitud a la credencial real de moonneo\jondoe después de consultar Active Directory local. Una vez que **Analysis Services** obtiene la credencial real de Active Directory, después, según el acceso para el que el usuario tiene permisos en los datos, **Analysis Services** devuelve solo los datos para los que tiene permiso.
+3. Según la solicitud de nombre de usuario vigente, Analysis Services convierte la solicitud a la credencial real de moonneo\jondoe después de consultar Active Directory local. Una vez que **Analysis Services** obtiene la credencial real de Active Directory, según el acceso y los permisos de los que dispone el usuario para los datos, **Analysis Services** devuelve solo los datos para los que tiene permiso.
 4. Si se produce más actividad con el panel, por ejemplo, si Jon Doe va del panel al informe subyacente, con SQL Profiler verá una consulta específica que vuelve al modelo tabular de Analysis Services como una consulta DAX.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/profiler1.png)
@@ -165,8 +166,8 @@ Hay muchos artículos publicados que describen cómo definir la seguridad de niv
    ```
 
 ## <a name="considerations"></a>Consideraciones
-Hay algunas consideraciones que tener en cuenta al trabajar con la seguridad de nivel de fila, SSAS y Power BI.
+Hay algunas consideraciones que tener en cuenta al trabajar con la seguridad de nivel de fila, SSAS y Power BI:
 
 1. La seguridad de nivel de fila local con Power BI solo está disponible con conexión dinámica.
-2. Cualquier cambio en los datos después de procesar el modelo estaría inmediatamente disponible para los usuarios que obtienen acceso al informe que se basa en **conexión dinámica** desde el servicio Power BI.
+2. Cualquier cambio efectuado en los datos después de procesar el modelo estaría inmediatamente disponible para los usuarios (que acceden al informe con **Conexión dinámica**) desde el servicio Power BI.
 
