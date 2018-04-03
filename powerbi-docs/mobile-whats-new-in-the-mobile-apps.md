@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -35,6 +35,18 @@ Para obtener información sobre novedades, vea:
 ### <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicación Power BI for Mixed Reality (versión preliminar)
 
 Nuestros esfuerzos más recientes por llevar los datos allá donde se encuentren los usuarios se han materializado con la creación de la aplicación Power BI for Mixed Reality. Esta aplicación permite consultar paneles e informes mientras el usuario está inmerso en la realidad virtual, o colocarlos y consultarlos en ubicaciones específicas en el contexto de su entorno. Si quiere saber más, vea [Aplicación Power BI for Mixed Reality (versión preliminar)](mobile-mixed-reality-app.md).
+
+### <a name="share-reports-and-dashboards-externally"></a>Uso compartido externo de informes y paneles
+
+Comparta paneles e informes con usuarios externos a la organización, directamente desde la aplicación. El uso compartido externo está habilitado tanto para cuentas sociales o de la organización. 
+
+### <a name="persistent-filters"></a>Filtros persistentes
+
+Cuando establece filtros y segmentaciones en Power BI en la Web, las opciones de filtro se guardan también en la aplicación móvil, para que pueda continuar el trabajo donde lo dejó.
+
+### <a name="refresh-reports-on-the-ipad"></a>Actualización de informes en dispositivos iPad
+
+Los informes de Power BI ahora tienen un botón de actualización en la aplicación para iPad.
 
 ## <a name="february-2018"></a>Febrero de 2018
 
