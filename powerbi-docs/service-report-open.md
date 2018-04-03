@@ -1,15 +1,15 @@
 ---
-title: "Apertura de un informe en vista de lectura o vista de edición en el servicio Power BI"
-description: "Apertura de un informe de Power BI en vista de Lectura o Edición"
+title: Apertura de un informe en vista de lectura o vista de edición en el servicio Power BI
+description: Apertura de un informe de Power BI en vista de Lectura o Edición
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
