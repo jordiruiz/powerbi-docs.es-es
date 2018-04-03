@@ -1,27 +1,27 @@
 ---
-title: "Exploración de informes en las aplicaciones móviles de Power BI"
-description: "Aprenda a ver informes e interactuar con ellos en las aplicaciones móviles de Power BI del teléfono o la tableta. Cree informes en el servicio Power BI o en Power BI Desktop y, luego, interactúe con ellos en las aplicaciones móviles. "
+title: Exploración de informes en las aplicaciones móviles de Power BI
+description: 'Aprenda a ver informes e interactuar con ellos en las aplicaciones móviles de Power BI del teléfono o la tableta. Cree informes en el servicio Power BI o en Power BI Desktop y, luego, interactúe con ellos en las aplicaciones móviles. '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/25/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -33,7 +33,7 @@ Se aplica a:
 Un informe de Power BI es una vista interactiva de los datos, con objetos visuales que describen distintas conclusiones e información a partir de esos datos. Ver informes en las aplicaciones móviles de Power BI es el tercer paso de un proceso de tres pasos.
 
 1. [Crear informes en Power BI Desktop](desktop-report-view.md). Puede incluso [optimizar un informe para teléfonos](mobile-apps-view-phone-report.md) en Power BI Desktop. 
-2. Publicar estos informes en el servicio Power BI [(https://powerbi.com)](https://powerbi.com) o en el [servidor de informes de Power BI](report-server/get-started.md).  
+2. Publique esos informes en el servicio Power BI [(https://powerbi.com)](https://powerbi.com) o [Power BI Report Server](report-server/get-started.md).  
 3. Interactuar luego con estos informes en las aplicaciones móviles de Power BI.
 
 ## <a name="open-a-power-bi-report-in-the-mobile-app"></a>Apertura de un informe de Power BI en la aplicación móvil
@@ -50,7 +50,9 @@ Los informes de Power BI se almacenan en distintos lugares de la aplicación mó
   ![Informe de teléfono en modo horizontal](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Visualización de informes optimizados para teléfonos
-Los autores de informes de Power BI pueden crear un diseño de informe optimizado especialmente para teléfonos. Se ha agregado funcionalidad a las páginas de informes optimizadas para teléfonos; por ejemplo, puede explorar en profundidad y ordenar los objetos visuales en el modo de enfoque y puede tener acceso a los [filtros que el autor del informe ha agregado a la página del informe](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). En una lista de informes, un informe optimizado tiene un icono especial ![icono de informe de teléfono](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+Los autores de informes de Power BI pueden crear un diseño de informe optimizado especialmente para teléfonos. Se ha agregado funcionalidad a las páginas de informes optimizadas para teléfonos; por ejemplo, puede explorar en profundidad y ordenar los objetos visuales en el modo de enfoque y puede tener acceso a los [filtros que el autor del informe ha agregado a la página del informe](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). El informe se abre en el teléfono filtrado según los valores que se filtran en el informe en la Web, además de un mensaje que indica que hay filtros activos en la página. Puede cambiar los filtros en el teléfono.
+
+En una lista de informes, un informe optimizado tiene un icono especial ![Icono de informe de teléfono](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
 ![Abrir informe de teléfono](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -63,7 +65,7 @@ Al ver el informe en un teléfono, se abre en la vista vertical.
 Más información sobre los [informes optimizados para la vista de teléfono](mobile-apps-view-phone-report.md).
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>Uso de segmentaciones de datos para filtrar una página de informe
-Al diseñar un informe en el servicio Power BI Desktop o Power BI, considere la posibilidad de [agregar segmentaciones a una página del informe](power-bi-visualization-slicers.md). Usted y sus compañeros pueden usar segmentaciones para filtrar la página en un explorador y en las aplicaciones móviles. Cuando ve el informe en un teléfono, puede ver e interactuar con las segmentaciones en modo horizontal y en una página optimizada para el modo vertical del teléfono.
+Al diseñar un informe en el servicio Power BI Desktop o Power BI, considere la posibilidad de [agregar segmentaciones a una página del informe](power-bi-visualization-slicers.md). Usted y sus compañeros pueden usar segmentaciones para filtrar la página en un explorador y en las aplicaciones móviles. Cuando ve el informe en un teléfono, puede ver e interactuar con las segmentaciones en modo horizontal y en una página optimizada para el modo vertical del teléfono. Si selecciona un valor en una segmentación o un filtro del explorador, el valor también se seleccionará cuando vea la página en la aplicación móvil. Verá un mensaje que indica que hay filtros activos en la página.  
 
 * Al seleccionar un valor en una segmentación de datos de la página de informe, se filtran los demás objetos visuales de la página.
   
