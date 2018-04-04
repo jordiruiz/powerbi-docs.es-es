@@ -2,14 +2,14 @@
 title: Sugerencias y trucos para hacer preguntas con Preguntas y respuestas en Power BI
 description: Sugerencias y trucos para hacer preguntas con Preguntas y respuestas en Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bdf1f161e0a95bda5b37d9c43a3bdcc6bde1066a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 28ebd938b1121e1d2d453a9c9e72592b1c814742
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Sugerencias para hacer preguntas con Preguntas y respuestas de Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Palabras y terminología que reconoce Preguntas y respuestas
@@ -94,9 +94,6 @@ Preguntas y respuestas hará todo lo posible para garantizar que la respuesta re
 * sugiere automáticamente términos de reemplazo de los conjuntos de datos subyacentes cuando mueve el mouse en el cuadro de pregunta.
 * redefine la pregunta en función de los datos de los conjuntos de datos subyacentes. Esto permite garantizar que Preguntas y respuestas comprendió su pregunta, ya que reemplaza las palabras utilizadas con sinónimos de los conjuntos de datos subyacentes.
 * atenúa palabras que no comprende.
-
-## <a name="combine-results-from-more-than-one-dataset"></a>Combinación de resultados de más de un conjunto de datos
-Una de las características más eficaces de Power BI es la capacidad de combinar datos provenientes de distintos conjuntos de datos.  Por lo tanto, no necesita limitar sus preguntas a un solo conjunto de datos: formule preguntas que recuperen datos de más de un conjunto de datos. Por ejemplo, si mi panel tiene iconos del Ejemplo de análisis de minoristas y un conjunto de datos sobre la población de un estado, puedo pedir que *se muestre el número de tiendas por población de estado como un gráfico de barras en orden descendente*
 
 ## <a name="dont-stop-now"></a>No se detenga ahora
 Cuando Preguntas y respuestas muestre los resultados, mantenga el curso de la conversación. Use las características interactivas de la visualización y de Preguntas y respuestas para obtener más información.
