@@ -2,14 +2,14 @@
 title: Sugerencias para crear informes impactantes
 description: Sugerencias y trucos para crear informes en el servicio Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 4ad78f3c776fcb5aa44332e23fdf5a14531b2bdf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d19cc60ea23f87e14e78db9e896a4b17c19aeb66
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tips-for-creating-stunning-reports"></a>Sugerencias para crear informes impactantes
 Crear informes en el servicio Power BI y trabajar con ellos es semejante a hacerlo en Power BI Desktop, por lo que la mayoría de estos vínculos se aplican a ambos servicios.
@@ -45,7 +45,7 @@ Miguel Myers, miembro de la comunidad, es científico de datos y diseñador grá
 * [Leer el blog](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
 * [Ver el seminario web](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Pasos siguientes 
 [Power BI: Conceptos básicos](service-basic-concepts.md)
 
 [Informes en Power BI](service-reports.md)
