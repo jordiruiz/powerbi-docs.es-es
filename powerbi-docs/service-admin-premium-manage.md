@@ -1,15 +1,15 @@
 ---
-title: "Administración de la capacidad en Power BI Premium y Power BI Embedded"
-description: "Obtenga información sobre cómo puede administrar Power BI Premium y habilitar el acceso a contenido para toda la organización."
+title: Administración de la capacidad en Power BI Premium y Power BI Embedded
+description: Obtenga información sobre cómo puede administrar Power BI Premium y habilitar el acceso a contenido para toda la organización.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: maghan
 LocalizationGroup: Premium
-ms.openlocfilehash: a6040871652484ad5de70a0d73e14a13742fe56a
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 556f91464e8a08b5cb149648be2b097578964af9
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Administración de la capacidad en Power BI Premium y Power BI Embedded
 Aprenda a administrar la capacidad de Power BI Premium y Power BI Embedded que ofrece recursos dedicados para su contenido.
@@ -47,6 +47,10 @@ Para aprovechar las ventajas de la capacidad dedicada, debe comprar una suscripc
 * **Power BI Embedded**: [Creación de una capacidad de Power BI Embedded en Azure Portal](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
 
 Al adquirir SKU de Power BI Premium, su inquilino recibirá el número correspondiente de núcleos virtuales para usarlos en la capacidad de ejecución. Por ejemplo, si compra una SKU P3 de Power BI Premium, proporciona al inquilino 32 núcleos virtuales.
+
+> [!NOTE]
+> Tendrá 30 días de acceso completo una vez caducada su suscripción, pero después el contenido volverá a una capacidad compartida. Los modelos superiores a 1 GB no se admitirán con una licencia compartida normal.
+>
 
 ## <a name="capacity-admins"></a>Administradores de capacidad
 > [!NOTE]
