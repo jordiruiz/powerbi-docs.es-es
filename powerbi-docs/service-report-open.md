@@ -18,10 +18,10 @@ ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
 ms.openlocfilehash: 17921d1fe28a1b4c0640748123efe4b70982b18d
-ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Apertura de un informe en el servicio Power BI (app.powerbi.com)
 Los informes están disponibles en el servicio Power BI, Power BI Desktop, Power BI para dispositivos móviles e incluso Power BI Embedded. Este artículo trata sobre la apertura de informes en el ***servicio Power BI***.
