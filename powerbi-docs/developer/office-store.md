@@ -2,26 +2,26 @@
 title: Publicar objetos visuales personalizados en AppSource
 description: Aprenda a publicar objetos visuales personalizados en AppSource para que otros usuarios puedan descubrirlos y usarlos.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/5/2017
+ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 5dc5cda126943bbb6da25e384b789c169187b249
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 9730f92a7f50e2e0d0ad824f8a5f74f6a09ded97
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar objetos visuales personalizados en AppSource
 Aprenda a publicar objetos visuales personalizados en AppSource para que otros usuarios puedan descubrirlos y usarlos. Office
@@ -39,16 +39,20 @@ Una vez que haya acabado de codificar y probar el objeto visual y lo haya empaqu
 | --- | --- | --- |
 | El paquete pbiviz contiene todos los metadatos requeridos |Sí |Nombre de objeto visual<br>Nombre para mostrar<br>GUID<br>Versión<br>Descripción<br>Nombre y correo electrónico del autor |
 | Archivo de informe .pbix de ejemplo |Sí |Para presentar el objeto visual, debe ayudar a los usuarios a familiarizarse con él. Debe resaltar el valor que el objeto visual aporta al usuario y ofrecen ejemplos de uso, opciones de formato, etc. También puede agregar una página de *"sugerencias"* al final que contenga trucos y sugerencias, acciones que conviene evitar y cosas similares.<br>El archivo de informe .pbix de ejemplo debe funcionar sin conexión, sin ninguna conexión externa |
-| Icono |Sí |Debe incluir el logotipo del objeto visual personalizado que aparecerá en el escaparate. Su formato puede ser .png, .jpg, .jpeg o .gif. Debe tener, exactamente, 300 px (ancho) x 300 px (alto). El tamaño del archivo no puede superar los 512 KB. |
+| Icono |Sí |Debe incluir el logotipo del objeto visual personalizado que aparecerá en el escaparate. Su formato puede ser .png, .jpg, .jpeg o .gif. Debe tener, exactamente, 300 px (ancho) x 300 px (alto). **Importante** Revise cuidadosamente la [guía breve](https://docs.microsoft.com/en-us/office/dev/store/craft-effective-appsource-store-images) antes de enviar el icono. |
 | Capturas de pantalla |Sí |Debe incluir al menos una captura de pantalla. Su formato puede ser .png, .jpg, .jpeg o .gif. Debe tener, exactamente, 1366 px de ancho x 768 px de alto. El tamaño del archivo no puede superar los 1024 kB. *Si el uso va a ser mayor, agregue burbujas de texto para articular la propuesta de valor de las características clave que se muestran en cada captura.* |
 | Vínculo de descarga de soporte técnico |Sí |Especifique la dirección URL en la que se proporcionará soporte técnicos a los clientes que tengan problemas con el objeto visual. El formato de la dirección URL debe incluir https:// o http://. |
 | Vínculo de documento de privacidad |Sí |Especifique un vínculo a la directiva de privacidad para los clientes que usen el objeto visual. El formato del vínculo debe incluir https:// o http://. |
-| Contrato de licencia de usuario final (CLUF) |Sí |Debe cargar un archivo con el CLUF. Puede ser su propio CLUF, o bien puede usar el CLUF predeterminado de la Tienda Office para objetos visuales personalizados de Power BI. Para usar el CLUF predeterminado, pegue la siguiente dirección URL en el cuadro de diálogo de carga del archivo del "Contrato de licencia para el usuario final" del panel del vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf). |
+| Contrato de licencia de usuario final (CLUF) |Sí |Debe cargar un archivo con el CLUF. Puede ser su propio CLUF, o bien puede usar el CLUF predeterminado de la Tienda Office para objetos visuales personalizados de Power BI. Para usar el CLUF predeterminado, pegue la siguiente dirección URL en el cuadro de diálogo de carga del archivo del "Contrato de licencia para el usuario final" del panel del vendedor: [https://visuals.azureedge.net/app-store/Power BI: Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf). |
 | Enlace de vídeo |No |Para aumentar el interés de los usuarios por el objeto visual personalizado, se recomienda incluir un vínculo a un vídeo acerca de dicho objeto. El formato de la dirección URL debe incluir https:// o http://. |
 | Repositorio de GitHub |No |Es preferible tener un vínculo válido y público a un repositorio de [GitHub](https://www.github.com) con orígenes del objeto visual y datos de ejemplo que permitir que otros desarrolladores incluyan comentarios y sugieran mejoras en el código. |
 
 ## <a name="submitting-to-power-bi"></a>Envío a Power BI
 Todo comienza con el envío de un correo electrónico al equipo de envío de objetos visuales personalizados de Power BI. Dicho correo electrónico se puede dirigir a [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com).
+
+> [!IMPORTANT]
+> Debe rellenar los campos siguientes en el archivo pbiviz.json: "description", "supportUrl", "author", "name" y "email" antes de crear el paquete .pbiviz.
+> 
 
 Adjunte tanto el archivo .pbiviz como el archivo .pbix del informe de ejemplo. El equipo de Power BI responderá con instrucciones y un archivo XML del paquete de la aplicación que se debe cargar. Dicho paquete se requiere para enviar cualquier objeto visual a través del Centro para desarrolladores de Office.
 
@@ -100,7 +104,7 @@ Siga estos pasos para completar el envío.
    * Enlace de vídeo
    * Contrato de licencia de usuario final (CLUF)
      
-       Debe cargar un archivo con el CLUF. Puede ser su propio CLUF, o bien puede usar el CLUF predeterminado de la Tienda Office para objetos visuales personalizados de Power BI. Para usar el CLUF predeterminado, pegue la siguiente dirección URL en el cuadro de diálogo de carga del archivo del "Contrato de licencia para el usuario final" del panel del vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf).
+       Debe cargar un archivo con el CLUF. Puede ser su propio CLUF, o bien puede usar el CLUF predeterminado de la Tienda Office para objetos visuales personalizados de Power BI. Para usar el CLUF predeterminado, pegue la siguiente dirección URL en el cuadro de diálogo de carga del archivo del "Contrato de licencia para el usuario final" del panel del vendedor: [https://visuals.azureedge.net/app-store/Power BI: Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf).
 8. Seleccione **Siguiente** para pasar a la página **Detalles**.
 9. Seleccione **Idioma** y elija uno de los idiomas de la lista.
    

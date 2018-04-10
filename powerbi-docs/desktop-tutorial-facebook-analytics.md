@@ -1,15 +1,15 @@
 ---
-title: "Tutorial: Análisis de Facebook mediante Power BI Desktop"
-description: "Tutorial: Análisis de Facebook mediante Power BI Desktop"
+title: 'Tutorial: Análisis de Facebook mediante Power BI Desktop'
+description: 'Tutorial: Análisis de Facebook mediante Power BI Desktop'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,213 +18,234 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e0bdec7d2774fd5c6641041af14b2170d7223151
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6113ab53e36dd035772c0bd9812f9870a6404eac
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Tutorial: Análisis de Facebook mediante Power BI Desktop
-En este tutorial aprenderá a importar y ver datos de **Facebook**. Aprenderá a conectarse a una página específica de Facebook (la página de Power BI), aplicar los pasos de transformación de datos y crear algunas visualizaciones.
 
-Estos son los pasos que debe realizar:
+En este tutorial aprenderá a importar datos desde Facebook y a usarlos en Power BI Desktop. Se conectará a la página de Power BI en Facebook e importará datos desde ahí, aplicará transformaciones a los datos importados y los usará en las visualizaciones de informe.
 
-* **Tarea 1:** conectarse a una página de Facebook
-* **Tarea 2:**crear visualizaciones con la vista Informes
-  
-  * **Paso 1**: crear una visualización Treemap
-* **Tarea 3:**dar forma a los datos en la vista Consulta
-  
-  * **Paso 1**: dividir en dos la columna de fecha y hora
-  * **Paso 2:**agregar un valor agregado de una tabla relacionada
-* **Tarea 4:**crear visualizaciones adicionales con la vista Informes
-  
-  * **Paso 1**: cargar la consulta en el informe
-  * **Paso 2**: crear un gráfico de líneas y un gráfico de barras
+## <a name="connect-to-a-facebook-page"></a>Conexión a una página de Facebook
 
-## <a name="task-1-connect-to-a-facebook-page"></a>**Tarea 1: conectarse a una página de Facebook**
-En esta tarea importará datos desde el sitio de [Microsoft Power BI Facebook](https://www.facebook.com/microsoftbi) (esta es la dirección URL: *https://www.facebook.com/microsoftbi )*.
+En este tutorial se usan datos de la [página de Microsoft Power BI en Facebook](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*). No necesita ninguna credencial especial para conectarse e importar datos de esta página, excepto una cuenta personal de Facebook.
 
-Cualquiera puede conectarse a esta página y seguir estos pasos; no se necesitan credenciales especiales (aparte de su propia cuenta de Facebook, que se utiliza en este paso).
-
-![](media/desktop-tutorial-facebook-analytics/1.png)
-
-1. En el cuadro de diálogo **Introducción** o en la pestaña **Inicio** de la cinta de opciones , elija **Obtener datos**.
-2. Aparecerá el cuadro de diálogo **Obtener datos** , que le permite seleccionar todo tipo de orígenes de datos. Elija **Facebook** desde el grupo **Otros** .
+1. Abra Power BI Desktop y seleccione **Obtener datos** en el cuadro de diálogo **Introducción** o bien, en la pestaña de la cinta de opciones **Inicio**, seleccione **Obtener datos** y, luego, seleccione **Más...**.
    
-   ![](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
+2. En el cuadro de diálogo **Obtener datos**, seleccione **Facebook** en el grupo **Servicios en línea** y, luego, seleccione **Conectar**.
    
-   Al seleccionar **Conectar**, aparecerá un cuadro de diálogo para avisarle de los riesgos que implica usar un servicio de terceros.
+   ![Obtener datos](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
-3. Al seleccionar la opción Continuar, se abrirá el cuadro de diálogo **Facebook** , donde deberá pegar el nombre de la página (**microsoftbi**) en el cuadro de texto **Nombre de usuario** . Seleccione **Publicaciones** desde la lista desplegable **Conexión** .
+   Aparecerá un cuadro de diálogo para avisarle de los riesgos que implica usar un servicio de terceros.
    
-   ![](media/desktop-tutorial-facebook-analytics/2.png)
-4. Haga clic en **Aceptar**.
-5. Cuando se le piden credenciales, inicie sesión con su cuenta de Facebook y conceda a Power BI acceso a su cuenta.
+   ![Advertencia de terceros](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/facebookcredentials.png)
-
-Después de establecer conexión con la página, verá cómo se cargan los datos en el modelo. 
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadpreview.png)
-
-Desde ahí, el **Editor de consultas** muestra los datos. El **Editor de consultas** forma parte de Power BI Desktop, pero se carga en una ventana independiente. Ahí es donde se realizan todas las transformaciones en las conexiones de datos.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
-
-Cuando los datos estén como desea, podrá cargarlos en Power BI Desktop. Seleccione **Cargar y cerrar** desde la cinta de opciones **Inicio**.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
-
-Se mostrará un cuadro de diálogo que indica el progreso de la carga de los datos en el modelo de datos de Power BI Desktop.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loading.png)
-
-Una vez cargados los datos, se le dirigirá a la vista **Informe** , donde se muestran las columnas de la tabla se en la lista **Campos** de la derecha.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner1.png)
-
-## <a name="task-2-create-visualizations-using-the-report-view"></a>**Tarea 2: crear visualizaciones con la vista Informes**
-Ahora que ha descargado los datos de la página, puede usar las visualizaciones para obtener perspectivas sobre los datos.
-
-**Paso 1:** crear una visualización Treemap
-
-Crear una visualización es fácil, solo tiene que arrastrar un campo de la lista **Campos** y soltarlo en el lienzo **Informe**.
-
-Arrastre el campo **Tipo** y suéltelo en el lienzo **Informe** . Power BI Desktop crea una nueva visualización en el lienzo **Informe**. A continuación, arrastre **Tipo** desde **Campos** (el mismo campo que acaba de arrastrar al lienzo **Informe** ) hasta el área **Valor** para crear una visualización de **Barra** .
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner2.png)
-
-El tipo de visualización se puede cambiar fácilmente seleccionando un icono diferente del panel **Visualización** . Vamos a cambiar el tipo a un **Gráfico de rectángulos** seleccionando su icono en **Visualizaciones**, tal como se muestra en la siguiente imagen.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3.png)
-
-A continuación, vamos agregar una leyenda para, a continuación, cambiar el color de un punto de datos. Seleccione el icono de **Formato** en el panel **Visualizaciones** ; el icono de **Formato** se parece a un pincel.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3a.png)
-
-Al seleccionar la flecha abajo junto a la **Leyenda**, la sección se expande para mostrar cómo personalizar la leyenda para la visualización seleccionada. En este caso, hemos realizado las selecciones siguientes:
-
-* Hemos movido el control deslizante **Leyenda** a **Activado** para que aparezca una leyenda.
-* Hemos seleccionado la opción **Derecha** de la lista desplegable **Posición de la leyenda** .
-* Hemos movido el control deslizante **Título** a **Activado** para que aparezca un título para la leyenda.
-* Hemos especificado el **tipo** del título de la leyenda.
-
-En la imagen siguiente, la configuración ya está especificada y se ve reflejada en la visualización.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3b.png)
-
-A continuación, vamos a cambiar el color de uno de los puntos de datos. El punto de datos de vínculo debe ser azul para que sea más parecido al color común de los hipervínculos.
-
-Seleccione la flecha situada junto a **Colores de datos** para expandir esa sección. Se muestran los puntos de datos, con flechas de selección al lado de cada color que permiten seleccionar un color distinto para cada punto de datos.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3c.png)
-
-Al hacer clic en la flecha abajo situada junto a cualquier punto, aparecerá un cuadro de diálogo de selección de color que permite elegir el color. En este caso, elegiremos el color azul.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3d.png)
-
-Eso está mejor. En la siguiente imagen, puede ver cómo se aplica el color al punto de datos en la visualización y que la leyenda se actualiza automáticamente al color de la sección **Colores de datos** .
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3e.png)
-
-## <a name="task-3-shape-data-in-the-table"></a>**Tarea 3: dar forma a los datos en la tabla**
-Ahora que ha importado la tabla seleccionada y ha empezado a visualizarla, verá que es necesario realizar varios pasos de modelado de datos y limpieza para sacar el máximo partido a los datos.
-
-**Paso 1:** dividir en dos la columna de fecha y hora
-
-En este paso, dividirá la columna **created\_time** para obtener los valores de fecha y hora. Cada vez que se encuentre en Power BI Desktop y desee modificar una consulta existente, deberá iniciar el **Editor de consultas**. Para ello, seleccione **Editar consultas** desde la pestaña **Inicio** .
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
-
-1. En la cuadrícula **Editor de consultas**, desplácese hacia la derecha hasta que encuentre la columna **created\\_time**.
-2. Haga clic con el botón secundario en un encabezado de columna de la cuadrícula **Vista previa de consulta** y luego haga clic en **División de columna \> Por delimitador** para dividir las columnas. Elija **Personalizado** en la lista desplegable de delimitadores y escriba **“T”**. Esta operación también está disponible en el grupo **Administrar columnas** de la pestaña de la cinta **Inicio**.
+3. Seleccione **Continuar**. Aparece el cuadro de diálogo **Facebook**.
    
-   ![](media/desktop-tutorial-facebook-analytics/9.png)
+4. Escriba o pegue el nombre de la página **microsoftbi** en el cuadro de texto **Nombre de usuario**, seleccione **Publicaciones** en el menú desplegable **Conexión** y, luego, seleccione **Aceptar**.
    
-   ![](media/desktop-tutorial-facebook-analytics/10.png)
-3. Asigne a las columnas creadas los nombres **created\_date** y **created\_time** respectivamente.
-4. Seleccione la nueva columna **created\_time** ****y, en la cinta de opciones **Vista de consulta**, vaya a la pestaña **Agregar columna** y elija **Hora\>Hora** en el grupo **De fecha y hora**. Esto agregará una nueva columna que es solo el componente horario de la hora.
+   ![Conectar](media/desktop-tutorial-facebook-analytics/2.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/11.png)
-5. Cambie el tipo de la nueva columna **Hora** a **Número entero**. Para ello, vaya a la pestaña **Inicio** y seleccione el tipo en el menú desplegable **Tipo de datos**, o bien haga clic con el botón secundario en la columna y elija **Transformar\>Número entero**.
+5. Cuando se le pidan credenciales, inicie sesión con su cuenta de Facebook y permita que Power BI acceda a su cuenta.
    
-   ![](media/desktop-tutorial-facebook-analytics/12.png)
+   ![Credenciales](media/desktop-tutorial-facebook-analytics/facebookcredentials.png)
 
-**Paso 2:** agregar un valor agregado de una tabla relacionada
-
-En este paso se agrega el número de veces que se ha compartido el recurso a partir del valor anidado para que pueda usarlo en las visualizaciones.
-
-1. Siga desplazándose hacia la derecha hasta que vea la columna **Recursos compartidos** . El valor anidado indica que tenemos que realizar otra transformación para obtener los valores reales.
-2. En la parte superior derecha del encabezado de columna, seleccione el icono ![](media/desktop-tutorial-facebook-analytics/14.png) para abrir el generador **Expandir/agregar**. Seleccione **recuento** y elija **Aceptar**. Esto agrega el recuento de recursos compartidos para cada fila de nuestra tabla.
+   Después de conectarse a la página de Power BI en Facebook, verá una vista previa de los datos **Posts** de la página. 
    
-   ![](media/desktop-tutorial-facebook-analytics/15.png)
+   ![Vista previa de los datos](media/desktop-tutorial-facebook-analytics/t_fb_1-loadpreview.png)
    
-   Después de cargar los datos, cambie el nombre de la columna a **recursos compartidos** haciendo doble clic en el nombre de la columna, haciendo clic con el botón secundario en la columna o en la cinta de opciones **Vista de consulta** y seleccionando **Cambiar nombre** en la pestaña **Transformar** y, a continuación, en el grupo **Cualquier columna** .
-3. Por último, cambie el tipo de la nueva columna **recursos compartidos** a **Número entero**. Con la columna seleccionada, el tipo puede cambiarse haciendo clic con el botón secundario en la columna y eligiendo **Transformar\>Número entero** o ****yendo a la pestaña **Inicio** y eligiendo **Tipo de datos** en la lista desplegable.
+## <a name="shape-and-transform-the-imported-data"></a>Dar forma y transformar los datos importados
 
-### <a name="query-steps-created"></a>Pasos de consulta creados
-A medida que realiza transformaciones en la Vista de consulta, se van creando pasos que se muestran en el panel **Configuración de consulta** , de la lista **PASOS APLICADOS** . Cada paso de consulta tiene una fórmula de consulta correspondiente, lo que se conoce como lenguaje "M".
+Desea ver y mostrar las publicaciones que tienen más comentarios en el tiempo, pero en la vista previa de los datos **Posts** observa que los datos **created_time** son difíciles de leer y comprender y que no hay ningún dato de los comentarios. Debe dar forma y limpiar de alguna manera los datos para aprovecharlos al máximo. Puede usar el **Editor de Power Query** de Power BI Desktop para editar los datos, antes o después de importarlos a Power BI Desktop. 
 
-![](media/desktop-tutorial-facebook-analytics/16.png)
+### <a name="split-the-datetime-column"></a>División de la columna de fecha y hora
 
-| Tarea | Paso de consulta | Fórmula |
-| --- | --- | --- |
-| Conectarse a una página de Facebook |Origen |Facebook.Graph  (&quot;https://graph.facebook.com/microsoftbi/posts&quot;) |
-| **Dividir columnas** para obtener los valores necesarios |División de columna por delimitador |Table.SplitColumn  (Source,&quot;created_time&quot;,Splitter.SplitTextByDelimiter(&quot;T&quot;),{&quot;created_time.1&quot;, &quot;created_time.2&quot;}) |
-| **Cambiar el tipo** de las nuevas columnas (paso automático) |Tipo cambiado |Table.TransformColumnTypes  (#&quot;Split Column by Delimiter&quot;,{{&quot;created_time.1&quot;, type date}, {&quot;created_time.2&quot;, type time}}) |
-| **Cambiar el nombre **de una columna**** |Columnas con el nombre cambiado |Table.RenameColumns  (#&quot;Changed Type&quot;,{{&quot;created_time.1&quot;, &quot;created_date&quot;}, {&quot;created_time.2&quot;, &quot;created_time&quot;}}) |
-| **Insertar **una columna**** |Hora insertada |Table.AddColumn  (#&quot;Renamed Columns&quot;, &quot;Hour&quot;, each Time.Hour([created_time]), type number) |
-| **Cambiar tipo ** |Tipo1 cambiado |Table.TransformColumnTypes  (#&quot;Inserted Hour&quot;,{{&quot;Hour&quot;, type text}}) |
-| **Expandir **valores en una tabla anidada**** |Expandir recursos compartidos |Table.ExpandRecordColumn  (#&quot;Changed Type1&quot;, &quot;shares&quot;, {&quot;count&quot;}, {&quot;shares.count&quot;}) |
-| **Cambiar **el nombre de la columna**** |Columnas1 con el nombre cambiado |Table.RenameColumns  (#&quot; Expand shares&quot;,{{&quot;shares.count&quot;, &quot;shares&quot;}}) |
-| **Cambiar tipo** |Tipo2 cambiado |Table.TransformColumnTypes  (#&quot;Renamed Columns1&quot;,{{&quot;shares&quot;, Int64.Type}}) |
+En primer lugar, separe los valores de fecha y hora en la columna **created_time** para que sean más legibles. 
 
-## <a name="task-4-create-additional-visualizations-using-the-report-view"></a>**Tarea 4: crear visualizaciones adicionales con la vista Informes**
-Ahora que hemos convertido los datos en la forma que necesitamos para el resto de nuestro análisis, podemos cargar la tabla resultante en el informe y crear visualizaciones adicionales.
-
-**Paso 1:** cargar la consulta en el informe
-
-Para cargar los resultados de la consulta en el informe, debe seleccionar **Cargar y cerrar** desde el **Editor de consultas**. Esto cargará los cambios en Power BI Desktop y cerrará el **Editor de consultas**.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
-
-En Power BI Desktop, necesitamos asegurarnos de que estamos en la vista **Informe** . Seleccione el icono superior de la barra izquierda en Power BI Desktop.
-
-![](media/desktop-tutorial-facebook-analytics/17.png)
-
-**Paso 2:** crear un gráfico de líneas y un gráfico de barras
-
-Para crear una visualización, podemos arrastrar campos de la **Lista de campos** y soltarlos en el lienzo **Informe**.
-
-1. Arrastre el campo de **recursos compartidos** hasta el lienzo **Informes** , que creará un gráfico de barras. A continuación, arrastre created\_date al gráfico y Power BI Desktop cambiará la visualización a un **Gráfico de líneas**.
+1. Seleccione **Editar** en la vista previa de los datos de Facebook. 
    
-   ![](media/desktop-tutorial-facebook-analytics/19.png)
-2. Luego, arrastre el campo **recursos compartidos** y suéltelo en el lienzo **Informe**. Arrastre el campo **Hora** a la sección **Eje** , que se encuentra debajo de **Lista de campos**.
+   ![Edición de la vista previa de los datos](media/desktop-tutorial-facebook-analytics/t_fb_1-editpreview.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/20.png)
-3. El tipo de visualización se puede cambiar fácilmente haciendo clic en un icono diferente del panel **Visualización** . La flecha de la imagen siguiente señala al icono **Gráfico de barras** .
+   El **Editor de Power Query** de Power BI Desktop se abre en una ventana nueva y muestra la vista previa de los datos de la página de Power BI en Facebook. 
    
-   ![](media/desktop-tutorial-facebook-analytics/21.png)
-4. Cambie el tipo de visualización a **Gráfico de barras**.
-5. El **Gráfico de barras** se crea, pero el eje no es lo que queremos: queremos que esté ordenado en la otra dirección (de mayor a menor). Seleccione la flecha abajo situada junto a **Eje Y** para expandir esa sección. Es necesario cambiar el tipo de eje de **Continuo** a **Categórico**, por lo que lo ordenaré tal como deseamos (la imagen siguiente muestra el eje antes de realizar la selección; compruebe la imagen siguiente para ver cómo queremos que se muestre).
+   ![Editor de Power Query](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
+   
+2. Seleccione la columna **created_time**. Observe que actualmente es un tipo de datos de texto, que se indica con un icono **ABC** en el encabezado de la columna. Haga clic con el botón derecho en el encabezado y seleccione **Dividir columna > por delimitador** en la lista desplegable o seleccione **Dividir columna > por delimitador** en **Transformar** de la pestaña Inicio de la cinta de opciones.  
+   
+   ![División de columna por delimitador](media/desktop-tutorial-facebook-analytics/delimiter1.png)
+   
+3. En el cuadro de diálogo **Dividir columna por delimitador**, seleccione **Personalizar** en la lista desplegable, escriba **T** (el carácter con que empieza la parte de la hora de los valores created_time) en el campo de entrada y seleccione **Aceptar**. 
+   
+   ![Cuadro de diálogo Dividir columna por delimitador](media/desktop-tutorial-facebook-analytics/delimiter2.png)
+   
+   La columna se divide en dos columnas que contienen las cadenas antes y después del delimitador **T** y que se denominan **created_time.1** y **created_time.2**, respectivamente. Tenga en cuenta que Power BI detectó y cambió automáticamente los tipos de datos a **Date** para la primera columna y **Time** para la segunda columna, y dieron formato a los valores de fecha y hora para hacerlos más legibles.
+   
+4. Cambie el nombre de las columnas con un doble clic en el encabezado de cada columna, o bien seleccione cada columna y, luego, seleccione **Cambiar nombre** en el grupo **Any Column** de la ficha **Transformar** en la cinta de opciones, y escriba los nuevos encabezados de columna **created_date** y **created_time**, respectivamente.
+   
+   ![Nuevas columnas de fecha y hora](media/desktop-tutorial-facebook-analytics/delimiter3.png)
+   
+### <a name="expand-the-nested-column"></a>Expansión de la columna anidada
 
-![](media/desktop-tutorial-facebook-analytics/22.png)
+Ahora que los datos de fecha y hora tienen el formato que desea, expondrá los datos de comentarios mediante la expansión de una columna anidada. 
 
-Eso está mejor. Ahora tenemos tres visualizaciones en esta página cuyo tamaño podemos ajustar como queramos para ocupar la página del informe
+1. Seleccione la columna **object_link** y, luego, seleccione el icono ![expandir](media/desktop-tutorial-facebook-analytics/14.png) para abrir el cuadro de diálogo **Expandir/agregar**. Seleccione **connections** (conexiones) y, luego, **Aceptar**. 
+   
+   ![Expansión de object_link](media/desktop-tutorial-facebook-analytics/expand1.png)
+   
+   El encabezado de columna cambia a **object_link.connections**.
+2. Vuelva a seleccione el icono ![expandir](media/desktop-tutorial-facebook-analytics/14.png) que se encuentra en la parte superior de la columna **object_link.connections**, seleccione **comments** (comentarios) y, luego, **Aceptar**. El encabezado de columna cambia a **object_link.connections.comments**.
+   
+3. Seleccione el icono ![expandir](media/desktop-tutorial-facebook-analytics/14.png) que se encuentra en la parte superior de la columna **object_link.connections.comments** y esta vez seleccione **Aggregate** (Agregar) en lugar de Expand (Expandir) en el cuadro de diálogo. Seleccione **# Count of id** (Recuento de identificador) y seleccione **Aceptar**. 
+   
+   ![Agregación de comentarios](media/desktop-tutorial-facebook-analytics/expand2.png)
+   
+   Ahora la columna muestra el número de comentarios para cada mensaje. 
+   
+4. Cambie el nombre de la columna **Count of object_link.connections.comments.id** (Recuento de object_link.connections.comments.id) a **Number of comments** (Número de comentarios).
+   
+5. Seleccione la flecha hacia abajo que se encuentra junto al encabezado **Number of comments** (Número de comentarios) y seleccione **Orden descendente** para ver primero las publicaciones que tienen más comentarios. 
+   
+   ![Comentarios por mensaje](media/desktop-tutorial-facebook-analytics/data-fixed.png)
+   
+### <a name="review-query-steps"></a>Revisión de los pasos de la consulta
 
-![](media/desktop-tutorial-facebook-analytics/23.png)
+A medida que dio forma a los datos y los transformó en el **Editor de Power Query**, cada paso se registró en el área **Pasos aplicados** del panel de **configuración de consulta** que se encuentra a la derecha de la ventana del Editor de Power Query. Puede retroceder en los pasos aplicados para ver exactamente los cambios que realizó y editarlos, eliminarlos o reorganizarlos si es necesario, a pesar de que esto podría resultar un riesgo, porque cualquier cambio que se haga en los pasos anteriores podría afectar los pasos posteriores. 
 
-Como puede ver, es muy fácil personalizar las visualizaciones del informe para que muestre los datos tal como queremos. Power BI Desktop ofrece una experiencia perfectamente integrada que va desde la obtención de datos procedentes de una amplia gama de orígenes hasta su manipulación para adaptarlos a cualquier necesidad de análisis y su visualización de forma enriquecida e interactiva. Cuando el informe esté listo, podrá [cargarlo en Power BI](desktop-upload-desktop-files.md) y crear paneles basados en él, paneles que podrá compartir con otros usuarios de Power BI.
+Después de aplicar las transformaciones de los datos, los pasos aplicados deben ser similares a los siguientes:
+   
+   ![Pasos aplicados](media/desktop-tutorial-facebook-analytics/applied-steps.png)
+   
+   >[!TIP]
+   >Subyacentes a los pasos aplicados se encuentran las fórmulas escritas en el **lenguaje de Power Query**, que también se conoce como el lenguaje **M**. Para ver y editar las fórmulas, seleccione **Editor avanzado** en el grupo de **consultas** de la pestaña Inicio de la cinta de opciones. 
 
-Puede descargar el resultado final de este tutorial [aquí](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/FacebookAnalytics.pbix).
+### <a name="import-the-transformed-data"></a>Importación de los datos transformados
 
-### <a name="where-else-can-i-get-more-information"></a>¿Dónde puedo obtener más información?
+Cuando esté satisfecho con los datos, seleccione **Cerrar y aplicar** > **Cerrar y aplicar** en la pestaña Inicio de la cinta de opciones para importarlos a Power BI Desktop. 
+   
+   ![Cerrar y aplicar](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
+   
+   Un cuadro de diálogo muestra el progreso de la carga de los datos en el modelo de datos de Power BI Desktop. 
+   
+   ![Cargando datos](media/desktop-tutorial-facebook-analytics/t_fb_1-loading.png)
+   
+   Una vez que se cargan los datos, aparecen en la vista del informe como una consulta nueva en la lista de campos.
+   
+   ![Nueva consulta](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
+   
+## <a name="use-the-data-in-report-visualizations"></a>Uso de los datos en visualizaciones de informe 
+
+Ahora que importó datos desde la página de Facebook, puede obtener rápida y fácilmente conclusiones sobre los datos mediante las visualizaciones. Crear una visualización es un proceso sencillo: solo debe seleccionar un campo o arrastrarlo de la lista de **campos** al lienzo del informe.
+
+### <a name="create-a-bar-chart"></a>Creación de un gráfico de barras
+
+1. En la vista de informe de Power BI Desktop, seleccione**message** en la lista de campos o arrástrelo al lienzo. Aparece una tabla que muestra todos los mensajes de publicaciones en el lienzo. 
+   
+   ![Nueva consulta](media/desktop-tutorial-facebook-analytics/table-viz.png)
+   
+2. Con esa tabla seleccionada, seleccione también **Number of comments** (Número de comentarios) en la lista de campos o arrástrelo a la tabla. 
+   
+3. Seleccione el icono **Gráfico de barras apiladas** en el panel de visualizaciones. La tabla cambia a un gráfico de barras que muestra el número de comentarios por publicación. 
+   
+   ![Gráfico de barras](media/desktop-tutorial-facebook-analytics/barchart1.png)
+   
+4. Seleccione los puntos suspensivos (…) que se encuentran en la esquina superior derecha de la visualización y, luego, seleccione **Ordenar por número de comentarios** para mostrar primero la mayor cantidad de comentarios en la tabla. 
+   
+   ![Ordenar por número de comentarios](media/desktop-tutorial-facebook-analytics/barchart2.png)
+   
+5. Observe que la mayoría de los comentarios estaban asociados con mensajes **en blanco** (estas publicaciones pueden haber sido historias, vínculos, vídeos u otro tipo de contenido no de texto). Para filtrar la fila en blanco, seleccione **message (all)** en **Filtros** en la parte inferior del panel de visualizaciones, seleccione **Seleccionar todo** y, luego, seleccione **En blanco** para anular la selección. La entrada de los filtros cambia a **message is not (Blank)** (el mensaje no está en blanco) y la fila En blanco ahora desaparece de la visualización del gráfico. 
+   
+   ![Filtrado de las entradas en blanco](media/desktop-tutorial-facebook-analytics/barchart3.png)
+   
+### <a name="format-the-chart"></a>Dar formato al gráfico
+
+La visualización se vuelve cada vez más interesante, pero no puede ver gran parte del texto de las publicaciones en el gráfico. Para mostrar más del texto de las publicaciones:
+
+1. Con los controladores de la visualización de gráfico, ajuste el gráfico al mayor tamaño posible. 
+   
+2. Con el gráfico seleccionado, seleccione el **icono de formato** (rodillo de pintura) en el panel de visualizaciones.
+   
+3. Seleccione la flecha hacia abajo que se encuentra junto al **eje Y** y arrastre el control deslizante junto a **Tamaño máximo** completamente a la derecha (50 %). 
+4. Reduzca también el **tamaño del texto** a **10** para que quepa más texto.
+   
+   ![Cambios de formato](media/desktop-tutorial-facebook-analytics/barchart4.png)
+   
+   Ahora el gráfico muestra más contenido de las publicaciones. 
+   
+   ![Mostrar más publicaciones](media/desktop-tutorial-facebook-analytics/barchart5.png)
+   
+El eje X (número de comentarios) del gráfico no muestra los valores exactos y se ve perdido en la parte inferior del gráfico. En su lugar, puede decidir usar etiquetas de datos. 
+
+1. Seleccione el icono de formato y, luego, el control deslizante que se encuentra junto al **eje X** para **desactivarlo**. 
+   
+2. Seleccione el control deslizante junto a las **etiquetas de datos** para **activarlas**. El gráfico ahora muestra el número exacto de comentarios de cada publicación.
+   
+   ![Aplicación de etiquetas de datos](media/desktop-tutorial-facebook-analytics/barchart6.png)
+   
+### <a name="edit-the-data-type"></a>Edición del tipo de datos
+
+Así está mejor, pero todas las etiquetas de datos tienen una posición decimal **.0**, que es confusa y puede inducir a error, porque el **número de publicaciones** debe ser un número entero. Necesita cambiar el tipo de datos de la columna **Number of posts** (Número de publicaciones) a Número entero.
+
+1. Para editar el tipo de datos, haga clic con el botón derecho en **Query1** (Consulta1) en la lista de campos o mantenga el puntero sobre ella y seleccione los puntos suspensivos (…) **Más opciones** y, luego, seleccione **Editar consulta**. También puede seleccionar **Editar consultas** en el área de **datos externos** de la pestaña Inicio de la cinta de opciones y, luego, seleccionar **Editar consultas** en el menú desplegable. El **Editor de Power Query** de Power BI Desktop se abre en una ventana independiente.
+   
+   ![Edición de consulta desde la lista de campos](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![Edición de consultas desde la cinta de opciones](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
+   
+2. En el Editor de Power Query, seleccione la columna **Number of comments** (Número de comentarios) y cambie el tipo de datos a **Whole Number** (Número entero) de una de estas formas: 
+   - Seleccione el icono **1.2** que aparece junto al encabezado de la columna **Number of comments** (Número de comentarios) y seleccione **Whole number** (Número entero) desde el menú desplegable, o bien
+   - Haga clic con el botón derecho en el encabezado de columna y seleccione **Cambiar tipo > Número entero**, o bien
+   - Seleccione **Tipo de datos: número decimal** en el grupo **Transformar** de la pestaña Inicio o el grupo **Cualquier columna** de la pestaña **Transformar** y seleccione **Número entero**.
+   
+   El icono del encabezado de columna cambia a **123**, lo que indica un tipo de datos de número entero.
+   
+   ![Cambio del tipo de datos](media/desktop-tutorial-facebook-analytics/change-datatype.png)
+   
+3. Seleccione **Cerrar y aplicar** o solo **Aplicar** para aplicar los cambios y mantener abierta la ventana del Editor de Power Query. Cuando se cargan los cambios, las etiquetas de datos del gráfico se convierten en números enteros. 
+   
+   ![Gráfico con números enteros](media/desktop-tutorial-facebook-analytics/vis-3.png)
+   
+### <a name="create-a-date-slicer"></a>Creación de una segmentación de fecha
+
+Desea visualizar el número de comentarios en las publicaciones en el tiempo. Puede crear una visualización de segmentación para filtrar los datos de gráfico para distintos intervalos de tiempo. 
+
+1. Haga clic en un área en blanco del lienzo y, luego, seleccione el **icono de segmentación** en el panel de visualizaciones. Aparece una visualización de segmentación en blanco. 
+   
+   ![Selección del icono de segmentación](media/desktop-tutorial-facebook-analytics/slicer1.png)
+   
+2. Seleccione el campo **created_date** en la lista de campos o arrástrelo a la nueva segmentación. La segmentación cambia a un control deslizante de intervalo de fecha, en función del tipo de datos de fecha del campo.
+   
+   ![Segmentación del control deslizante de intervalo de fecha](media/desktop-tutorial-facebook-analytics/slicer2.png)
+   
+3. Mueva los manipuladores del control deslizante para seleccionar distintos intervalos de fecha y observe cómo los filtros de datos del gráfico cambian según corresponda. También puede seleccionar los campos de fecha en la segmentación y escribir fechas específicas o seleccionarlas en un calendario emergente.
+    
+   ![Segmentación de los datos](media/desktop-tutorial-facebook-analytics/slicer3.png)
+   
+### <a name="format-the-visualizations"></a>Formato de las visualizaciones
+
+Puede decir dar al gráfico un título más descriptivo y atractivo. 
+
+1. Con el gráfico seleccionado, seleccione el icono de **formato** y seleccione la flecha desplegable para expandir el **título**.
+2. Cambie el **texto del título** a **Comentarios por publicación**. 
+3. Seleccione la flecha desplegable que está junto a **Color de fuente** y seleccione un color verde que coincida con las barras verdes de la visualización.
+4. Aumente el **tamaño del texto** a **10** y cambie la **familia de fuentes** a **Segoe (negrita)**.
+
+![Formato del título del gráfico](media/desktop-tutorial-facebook-analytics/formatting1.png)
+
+Experimente con otras configuraciones y opciones de formato para cambiar la apariencia de las visualizaciones. 
+
+![Visualizaciones](media/desktop-tutorial-facebook-analytics/vis-1.png)
+
+## <a name="create-more-visualizations"></a>Creación de más visualizaciones
+
+Como puede ver, es fácil personalizar las visualizaciones del informe para mostrar los datos tal como quiera hacerlo. Por ejemplo, intente usar los datos importados de Facebook para crear este gráfico de líneas que muestra el número de comentarios en el tiempo.
+
+![Gráfico de líneas](media/desktop-tutorial-facebook-analytics/moreviz.png)
+
+Power BI Desktop ofrece una experiencia perfectamente integrada que va desde la obtención de datos procedentes de una amplia gama de orígenes hasta su manipulación para adaptarlos a cualquier necesidad de análisis y su visualización de forma enriquecida e interactiva. Cuando el informe esté listo, podrá [cargarlo en Power BI](desktop-upload-desktop-files.md) y crear paneles basados en él, paneles que podrá compartir con otros usuarios de Power BI.
+
+## <a name="next-steps"></a>Pasos siguientes
 * [Lea otros tutoriales de Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [Vea vídeos de Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Visite el foro de Power BI](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Lea el blog de Power BI](http://go.microsoft.com/fwlink/?LinkID=519327)
-
-
 

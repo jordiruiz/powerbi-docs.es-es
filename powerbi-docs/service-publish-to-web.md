@@ -1,28 +1,28 @@
 ---
 title: Publicar en la web de Power BI
-description: "Con la característica Publicar en la web de Power BI, puede insertar fácilmente visualizaciones de Power BI interactivas en línea, como en publicaciones de blog y sitios web, a través de mensajes de correo electrónico o redes sociales, en cualquier dispositivo."
+description: Con la característica Publicar en la web de Power BI, puede insertar fácilmente visualizaciones de Power BI interactivas en línea, como en publicaciones de blog y sitios web, a través de mensajes de correo electrónico o redes sociales, en cualquier dispositivo.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 089cd84f493343822293cb6e74330d26e2a8bcd6
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 31e40efee8c4d67ec524212996ac6d7a8caf1852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
@@ -133,13 +133,16 @@ Los objetos visuales personalizados se admiten en **Publicar en Web**. Si usa Pu
 
 ## <a name="limitations"></a>Limitaciones
 
-La característica **Publicar en Web** se admite para la gran mayoría de los orígenes de datos e informes del servicio Power BI, aunque los siguientes no se admiten o no están disponibles actualmente con esta característica:
+La característica **Publicar en Web** se admite para la gran mayoría de los orígenes de datos e informes del servicio Power BI, aunque los siguientes **no se admiten o no están disponibles actualmente** con esta característica:
 
 1. Informes que usan la seguridad de nivel de fila.
-2. Informes que usan cualquier origen de datos de conexión dinámica, incluido Analysis Services Tabular hospedado en local, Analysis Service Multidimensional, Azure Analysis Services y el servicio Power BI.
+2. Informes que usan cualquier origen de datos de conexión dinámica, incluido Analysis Services Tabular hospedado en local, Analysis Service Multidimensional y Azure Analysis Services.
 3. Informes compartidos con usted directamente o a través de un paquete de contenido organizativo.
 4. Informes en un grupo en el que no es miembro de edición.
 5. Los objetos visuales "R" no se admiten actualmente en informes de Publicar en Web.
+6. Exportación de datos desde los objetos visuales de un informe que se ha publicado en la Web
+7. Objetos visuales de ArcGIS Maps for Power BI
+8. [Información confidencial o de su propiedad](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Configuración de inquilinos
 
@@ -177,7 +180,7 @@ Debe ser usuario de Microsoft Power BI para poder usar la características **Pub
 
 ## <a name="how-it-works-technical-details"></a>Cómo funciona (detalles técnicos)
 
-Cuando se crea un código para insertar mediante **Publicar en Web**, el informe se hace visible para los usuarios en Internet. Está disponible públicamente, por lo que puede esperar que los lectores compartan fácilmente el informe a través de redes sociales en el futuro. Cuando los usuarios ven el informe, ya sea con la dirección URL pública directa o insertado en una página web o un blog, Power BI almacena en caché la definición de informe y los resultados de las consultas necesarias para ver el informe. Este enfoque garantiza que miles de usuarios simultáneos sin puedan ver el informe sin que ello afecte al rendimiento.  
+Cuando se crea un código para insertar mediante **Publicar en Web**, el informe se hace visible para los usuarios en Internet. Está disponible públicamente, por lo que puede esperar que los lectores compartan fácilmente el informe a través de redes sociales en el futuro. Cuando los usuarios ven el informe, ya sea con la dirección URL pública directa o insertado en una página web o un blog, Power BI almacena en caché la definición de informe y los resultados de las consultas necesarias para ver el informe. Este enfoque garantiza que miles de usuarios simultáneos sin puedan ver el informe sin que ello afecte al rendimiento.
 
 La memoria caché es de larga duración, por lo que si se actualiza la definición de informe (por ejemplo, si cambia el modo de vista) o se actualizan los datos del informe, los cambios pueden tardar aproximadamente una hora en reflejarse en la versión del informe que ven los usuarios. Por lo tanto, se recomienda organizar el trabajo con antelación y crear el código para insertar de **Publicar en Web** solo cuando esté satisfecho con la configuración.
 

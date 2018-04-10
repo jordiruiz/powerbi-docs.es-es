@@ -1,15 +1,15 @@
 ---
-title: "Uso de Medidas rápidas para realizar fácilmente cálculos eficaces y comunes en Power BI"
-description: "Medidas rápidas proporciona fórmulas DAX listas para usar que permiten realizar rápidamente tareas de cálculos comunes."
+title: Uso de Medidas rápidas para realizar fácilmente cálculos eficaces y comunes en Power BI
+description: Medidas rápidas proporciona fórmulas DAX listas para usar que permiten realizar rápidamente tareas de cálculos comunes.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9cc94593ca6fd98590d69bee3a2fa4cae6d0050
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Uso de Medidas rápidas realizar fácilmente cálculos eficaces y comunes
 Puede usar **Medidas rápidas** para realizar fácilmente cálculos eficaces y comunes. Una **medida rápida** ejecuta una serie de comandos DAX en segundo plano (no es necesario escribir la fórmula DAX, se hace automáticamente) basados en lo que escriba en un cuadro de diálogo. Después, se muestran los resultados para poder usarlos en el informe. Y lo mejor de todo: puede ver la fórmula DAX que está ejecutando la medida rápida, y empezar a poner en práctica sus conocimientos sobre DAX, o ampliarlos.
@@ -48,7 +48,7 @@ El modelado debe estar disponible en el conjunto de datos cargado actualmente pa
 
 Al usar las conexiones dinámicas de SQL Server Analysis Services (SSAS), algunas **medidas rápidas** están disponibles. **Power BI Desktop** muestra solo la colección de **Medidas rápidas** que son compatibles con la versión de SSAS en la que se realiza la conexión. Por tanto, si está conectado a un origen de datos dinámico de SSAS y no ve determinadas **medidas rápidas** en la lista, es porque la versión de SSAS a la que está conectado no es compatible con la medida DAX usada para implementar esa **medida rápida**.
 
-Cuando se selecciona desde el menú contextual, se muestra la siguiente ventana **Medidas rápidas**, que permite al usuario seleccionar el cálculo deseado y los campos en los que quiere que se ejecute dicho cálculo.
+Cuando se selecciona desde el menú contextual, se muestra la siguiente ventana **Medidas rápidas**, que permite al usuario seleccionar el cálculo deseado y los campos en los que quiere que se ejecute el cálculo.
 
 ![](media/desktop-quick-measures/quick-measures_03.png)
 
@@ -59,14 +59,14 @@ Cuando se selecciona el menú desplegable, verá una larga lista de **medidas r�
 Hay cinco grupos distintos de tipos de cálculo de Medidas rápidas, cada uno con un conjunto de cálculos. Los grupos y los cálculos son los siguientes:
 
 * **Agregado por categoría**
-  * Promedio de la categoría
-  * Varianza de la categoría
-  * Valor máximo de la categoría
-  * Valor mínimo de la categoría
+  * Promedio por categoría
+  * Varianza por categoría
+  * Valor máximo por categoría
+  * Valor mínimo por categoría
   * Media ponderada por categoría
 * **Filtros**
   * Valor filtrado
-  * Diferencia respecto a la línea base
+  * Diferencia respecto al valor filtrado
   * Diferencia porcentual respecto al valor filtrado
   * Ventas de nuevas categorías
 * **Inteligencia de tiempo**
@@ -92,7 +92,7 @@ Hay cinco grupos distintos de tipos de cálculo de Medidas rápidas, cada uno co
   * Clasificación por estrellas
   * Lista de valores concatenados
 
-Tenemos previsto agregar estos cálculos y queremos conocer su opinión sobre qué **medidas rápidas** le gustaría ver, así como si tiene ideas (por ejemplo, fórmulas DAX subyacentes) para **Medidas rápidas** que quiera enviar para que las tengamos en cuenta. Obtenga más información al final de este artículo.
+Tenemos previsto agregar estos cálculos, queremos conocer su opinión sobre qué **medidas rápidas** le gustaría ver, y si tiene ideas (por ejemplo, fórmulas DAX subyacentes) para **Medidas rápidas** que quiera enviar para que las tengamos en cuenta. Obtenga más información al final de este artículo.
 
 ## <a name="example-of-quick-measures"></a>Ejemplo de Medidas rápidas
 Consulte un ejemplo de cómo funcionan estas **Medidas rápidas**.
@@ -101,7 +101,7 @@ El siguiente objeto visual **Matriz** muestra una tabla de ventas de distintos p
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 
-Al hacer clic con el botón derecho en el área de campos **Valores** y seleccionar **Medidas rápidas**, podremos elegir *Promedio de la categoría* como *cálculo*. Después, *Suma de SalesAmount* como *valor base*, luego, especifique *SalesAmount* arrastrando ese campo desde el cuadro *Campos* del panel derecho hasta la sección *Categoría* de la izquierda.
+Al hacer clic con el botón derecho en el área de campos **Valores** y seleccionar **Medidas rápidas**, podremos elegir *Promedio por categoría* como *cálculo*. Después, *Suma de SalesAmount* como *valor base*, luego, especifique *SalesAmount* arrastrando ese campo desde el cuadro *Campos* del panel derecho hasta la sección *Categoría* de la izquierda.
 
 ![](media/desktop-quick-measures/quick-measures_06.png)
 

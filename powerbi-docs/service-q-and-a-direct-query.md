@@ -1,15 +1,15 @@
 ---
-title: "Uso de preguntas y respuestas con conexiones dinámicas"
-description: "Documentación para usar consultas de lenguaje natural de preguntas y respuestas de Power BI con conexiones dinámicas a datos de Analysis Services y la puerta de enlace de datos local."
+title: Uso de preguntas y respuestas con conexiones dinámicas
+description: Documentación para usar consultas de lenguaje natural de preguntas y respuestas de Power BI con conexiones dinámicas a datos de Analysis Services y la puerta de enlace de datos local.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: mihart
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: c6fa26d85d362af0d66276509f4e52ba718d338a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Habilitación de preguntas y respuestas para conexiones dinámicas
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>¿Qué es una puerta de enlace de datos local?  ¿Qué es una conexión dinámica?
@@ -63,7 +63,7 @@ Existen varias limitaciones durante la fase de vista previa de esta característ
 
 * Inicialmente, la característica solo está disponible para orígenes de datos tabulares de SQL Server 2016 Analysis Services. La característica está optimizada para trabajar con datos tabulares. Parte de la funcionalidad está disponible para orígenes de datos multidimensionales, pero la experiencia completa de preguntas y respuestas no se admite todavía para este tipo de origen de datos. Los orígenes de datos adicionales admitidos por la puerta de enlace de datos local se lanzarán con el tiempo.
 * La compatibilidad total con la seguridad de nivel de fila definida en SQL Server Analysis Services no estará disponible inicialmente en la versión preliminar pública. Cuando se formulan preguntas en Preguntas y respuestas, la característica "Autocompletar" de las preguntas mientras se escribe puede mostrar los valores de cadena a los que un usuario no tiene acceso. Sin embargo, se respeta la RLS definida en el modelo para los objetos visuales de informe y gráfico, por lo que ningún dato numérico subyacente queda expuesto. En próximas actualizaciones se lanzarán opciones para controlar este comportamiento.
-* Las conexiones dinámicas solo se admiten con la puerta de enlace de datos local. Como resultado, no se puede usar dicha puerta con la puerta de enlace personal.
+* Solo se admiten conexiones dinámicas con la puerta de enlace de datos local. Como resultado, no se puede usar dicha puerta con la puerta de enlace personal.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)  

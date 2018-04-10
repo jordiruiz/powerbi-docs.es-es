@@ -1,15 +1,15 @@
 ---
-title: "Clústeres de alta disponibilidad para puerta de enlace de datos local"
-description: "Puede crear clústeres de puertas de enlace de datos locales para ofrecer alta disponibilidad a su empresa."
+title: Clústeres de alta disponibilidad para puerta de enlace de datos local
+description: Puede crear clústeres de puertas de enlace de datos locales para ofrecer alta disponibilidad a su empresa.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 717451afc35614e9c356e5748f39f0302fa6244e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9ad1d4288184368dbb294bfafa69fe005780b322
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Clústeres de alta disponibilidad para puerta de enlace de datos local
 Puede crear **clústeres de alta disponibilidad** de instalaciones de **puertas de enlace de datos locales**, para acceder a los recursos de datos locales utilizados en los informes y paneles de Power BI. Estos clústeres permiten a los administradores de puertas de enlace agrupar las puertas de enlace para evitar puntos únicos de error a la hora de acceder a los recursos de datos locales. En este artículo se describen los pasos que puede realizar para crear un clúster de alta disponibilidad de puertas de enlace de datos locales, así como los procedimientos recomendados para configurarlos. Los clústeres de puertas de enlace de alta disponibilidad requieren puertas de enlace de datos locales con la actualización de noviembre de 2017 o posteriores.
@@ -73,7 +73,7 @@ Después de realizar estos pasos, puede usar los comandos de la tabla siguiente 
 
 | **Comando** | **Descripción** | **Parámetros** |
 | --- | --- | --- |
-| *Login-OnPremisesDataGateway* |Este comando permite a un usuairo iniciar sesión para administrar sus clústeres de puertas de enlaces de datos locales.  Debe ejecutar este comando e iniciar sesión *antes* para que otros comandos de alta disponibilidad funcionen correctamente. Nota: El token de autenticación de AAD adquirido como parte de la llamada de Login solo es válido durante una hora y, después, expira. Puede volver a ejecutar el comando Login para adquirir un nuevo token.| Nombre de usuario y contraseña de AAD (se proporciona como parte de la ejecución del comando, no en la invocación inicial).|
+| *Login-OnPremisesDataGateway* |Este comando permite a un usuario iniciar sesión para administrar sus clústeres de puertas de enlaces de datos locales.  Debe ejecutar este comando e iniciar sesión *antes* para que otros comandos de alta disponibilidad funcionen correctamente. Nota: El token de autenticación de AAD adquirido como parte de la llamada de Login solo es válido durante una hora y, después, expira. Puede volver a ejecutar el comando Login para adquirir un nuevo token.| Nombre de usuario y contraseña de AAD (se proporciona como parte de la ejecución del comando, no en la invocación inicial).|
 | *Get-OnPremisesDataGatewayClusters* | Recupera la lista de clústeres de puertas de enlace del usuario que ha iniciado sesión. | También puede pasar los parámetros de formato a este comando para mejorar la legibilidad, por ejemplo: *Format-Table -AutoSize -Wrap* |
 | *Get-OnPremisesDataClusterGateways* | Recupera la lista de puertas de enlace dentro del clúster especificado, así como información adicional sobre cada puerta de enlace (estado de conexión o desconexión, nombre de máquina, etc.). | *-ClusterObjectID xyz*  (donde *xyz* se reemplaza por un identificador de objeto de clúster, que se puede recuperar mediante el comando *Get-OnPremisesDataGatewayClusters*)|
 | *Set-OnPremisesDataGateway* | Permite establecer los valores de las propiedades de una puerta de enlace determinada dentro de un clúster, incluida la posibilidad de habilitar o deshabilitar una instancia de puerta de enlace específica.  | *-ClusterObjectID xyz* (*xyz* debe reemplazarse por un identificador de objeto de clúster real, que puede recuperarse con el comando *Get-OnPremisesDataGatewayClusters*) *-GatewayObjectID abc*  (*abc* debe reemplazarse por un identificador de objeto de clúster real, que puede recuperarse con el comando *Get-OnPremisesDataClusterGateways*, con un identificador de objeto de clúster) |

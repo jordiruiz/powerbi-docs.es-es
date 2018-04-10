@@ -1,15 +1,15 @@
 ---
 title: 'Administrar el origen de datos: Analysis Services'
-description: "Cómo administrar la puerta de enlace de datos local y los orígenes de datos que pertenecen a esa puerta de enlace. Esto es para Analysis Services en modo tabular y multidimensional."
+description: Cómo administrar la puerta de enlace de datos local y los orígenes de datos que pertenecen a esa puerta de enlace. Esto es para Analysis Services en modo tabular y multidimensional.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6ce9a6d962098b3f40c351d0319c4b7908f4e4f7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 59fc3db101de246aaf4ab08c7916b25497b74fd2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Administrar el origen de datos: Analysis Services
 Una vez que haya instalado la puerta de enlace de datos local, tendrá que agregar orígenes de datos que se puedan usar con ella. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de Analysis Services para la actualización programada o las conexiones dinámicas.
@@ -76,7 +76,7 @@ A continuación, deberá rellenar la información del origen de datos que incluy
 La puerta de enlace usará el **nombre de usuario** y la **contraseña** que especifique para conectarse a la instancia de Analysis Services.
 
 > [!NOTE]
-> La cuenta de Windows que especifique debe tener permisos de administrador del servidor para la instancia con la que se va a conectar. Si la contraseña de la cuenta se configura para caducar, los usuarios podrían obtener un error de conexión si no se actualiza la contraseña para el origen de datos. Para obtener más información, consulte el artículo principal de puerta de enlace de datos local para saber cómo se almacenan las [credenciales](service-gateway-onprem.md#credentials).
+> La cuenta de Windows que especifique debe tener permisos de administrador del servidor para la instancia con la que se va a conectar. Si la contraseña de la cuenta se configura para caducar, los usuarios podrían obtener un error de conexión si no se actualiza la contraseña para el origen de datos. Para más información, consulte el artículo principal de puerta de enlace de datos local para saber cómo se almacenan las [credenciales](service-gateway-onprem.md#credentials).
 > 
 > 
 

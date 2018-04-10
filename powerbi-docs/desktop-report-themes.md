@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: 8f5b80497850b8e61bd7df97c3c88777265d7a6b
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Uso de los temas para los informes en Power BI Desktop (versión preliminar)
-Con **Temas para informes** puede aplicar un tema de color a todo el informe como, por ejemplo, colores corporativos, colores de temporada o cualquier otro tema de color que desee aplicar a un informe. Al aplicar un **tema para informes**, todos los objetos visuales del informe usan los colores del tema seleccionado (hay algunas excepciones que se describen más adelante en este artículo).
+Con **Temas para informes** puede aplicar un tema de color a todo el informe como, por ejemplo, colores corporativos, colores de temporada o cualquier otro tema de color que desee aplicar. Al aplicar un **tema para informes**, todos los objetos visuales del informe usan los colores del tema seleccionado (hay algunas excepciones que se describen más adelante en este artículo).
 
 ![](media/desktop-report-themes/report-themes_1.png)
 
@@ -100,7 +100,7 @@ Además, la sección **Colores de datos** del panel **Formato** refleja el tema 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Situaciones en las que los colores del tema no se aplican a los informes
 Si aplica un conjunto de colores personalizado (o un color individual) a un punto de datos determinado de un objeto visual, la aplicación de un tema para informes *no* invalidará ese color personalizado del punto de datos.
 
-Además, si ha configurado manualmente el color de un punto de datos mediante la sección Colores del tema de la paleta, ese (o esos) colores *no* se actualizarán al aplicar un nuevo tema para informes. Para volver a los colores predeterminados (y así permitir que se actualicen cuando aplique un nuevo tema para informes), puede seleccionar **Volver al valor predeterminado** en la paleta **Colores del tema**.
+Además, si ha configurado manualmente el color de un punto de datos mediante la sección Colores del tema de la paleta de colores, ese color (o esos colores) *no* se actualizará al aplicar un nuevo tema para informes. Para volver a los colores predeterminados (y así permitir que se actualicen cuando aplique un nuevo tema para informes), puede seleccionar **Volver al valor predeterminado** en la paleta **Colores del tema**.
 
 ![](media/desktop-report-themes/report-themes_9.png)
 

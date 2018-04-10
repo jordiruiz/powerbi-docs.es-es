@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 0b2ff8d7b7367e29e62b373ca9cb1312f7ddd10f
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de formas en Power BI Desktop (versión preliminar)
 En Power BI Desktop, puede crear un objeto visual **Mapa de formas** para mostrar comparaciones relativas de las regiones en un mapa al aplicar colores diferentes para distintas regiones. A diferencia del objeto visual **Mapa**, **Mapa de formas** no puede mostrar ubicaciones geográficas precisas de los puntos de datos en un mapa; en su lugar, su propósito principal es mostrar comparaciones relativas de regiones en un mapa al colorearlas de forma diferente.
@@ -32,7 +32,7 @@ Los objetos visuales **Mapa de formas** se basan en mapas ESRI/TopoJSON, que tie
 ## <a name="creating-shape-maps"></a>Crear mapas de formas
 Puede probar el control **Mapa de formas** con los mapas que se proporcionan en esta versión preliminar o puede usar su propio mapa personalizado siempre que cumpla los requisitos descritos en la sección siguiente denominada **Usar mapas personalizados**.
 
-El objeto visual **Mapa de formas** está en versión preliminar y debe habilitarse en Power BI Desktop. Para habilitar el **Mapa de formas**, seleccione **Archivo > Opciones y configuración > Opciones > Características de versión preliminar** y, después, seleccione la casilla **Mapa de formas**. Deberá reiniciar Power BI Desktop después de realizar la selección.
+El objeto visual **Mapa de formas** está en versión preliminar y debe habilitarse en Power BI Desktop. Para habilitar el **Mapa de formas**, seleccione **Archivo > Opciones y configuración > Opciones > Características de versión preliminar** y, después, active la casilla **Dar forma a objeto visual de mapa**. Deberá reiniciar Power BI Desktop después de realizar la selección.
 
 ![](media/desktop-shape-map/shape-map_1a.png)
 
@@ -46,7 +46,7 @@ Power BI Desktop crea un lienzo de diseño del objeto visual **Mapa de formas** 
 
 Siga los siguientes pasos para crear un **mapa de formas**:
 
-1. En el panel **Campos**, arrastre un campo de datos que contenga los nombres de región (o abreviaturas) al depósito **Ubicación** y un campo de medida de datos al depósito **Valores** (aún no verá un mapa).
+1. En el panel **Campos**, arrastre un campo de datos que contenga los nombres de región (o abreviaturas) al cubo **Ubicación** y un campo de medida de datos al cubo **Saturación de color** (aún no verá un mapa).
    
    > [!NOTE]
 > Consulte la sección **Obtener datos del mapa** a continuación para obtener información sobre cómo obtener rápidamente datos de mapa para probar **Mapa de formas**.
@@ -70,7 +70,7 @@ Siga los siguientes pasos para crear un **mapa de formas**:
 ## <a name="use-custom-maps"></a>Usar mapas personalizados
 Puede usar mapas personalizados con **Mapa de formas** siempre que tengan el formato **TopoJSON**. Si el mapa tiene otro formato, puede usar herramientas en línea, como [**Conformador de mapa**](http://mapshaper.org/), para convertir los *archivos de forma* o los mapas *GeoJSON* al formato **TopoJSON**.
 
-Para usar el archivo de mapa **TopoJSON**, agregue un objeto visual de ShapeMap al informe y algunos datos a los depósitos *Ubicación* y *Valores*. Después, en el panel **Visualizaciones**, con la sección **Formato** seleccionada (el icono de pincel, mostrado como (1) en la imagen siguiente), expanda la sección **Forma** y seleccione **+ Agregar mapa**.
+Para usar el archivo de mapa **TopoJSON**, agregue un objeto visual de ShapeMap al informe y algunos datos a los cubos *Ubicación* y *Saturación de color*. Después, en el panel **Visualizaciones**, con la sección **Formato** seleccionada (que se muestra como (1) en la imagen siguiente), expanda la sección **Forma** y seleccione **+ Agregar mapa**.
 
 ![](media/desktop-shape-map/shape-map_6.png)
 
@@ -96,7 +96,7 @@ Para obtener rápidamente datos en un modelo para que pueda probar **Mapa de for
 
 ![](media/desktop-shape-map/shape-map_4.png)
 
-Después, puede pegar la tabla en Power BI Desktop. La fila superior se identifica automáticamente como encabezado.
+Si los datos tienen varias columnas, deberá usar un editor como Excel para pegar los datos y después copiar cada columna de datos por separado. Después, puede pegar los datos en Power BI Desktop. La fila superior se identifica automáticamente como encabezado.
 
 ![](media/desktop-shape-map/shape-map_5.png)
 
@@ -112,9 +112,9 @@ Puede especificar una nueva columna al escribir un nuevo nombre de columna (en l
 ## <a name="preview-behavior-and-requirements"></a>Comportamiento y requisitos de la versión preliminar
 Hay algunas consideraciones y requisitos para esta versión preliminar de **Mapa de formas**:
 
-* El objeto visual **Mapa de formas** está en versión preliminar y debe habilitarse en Power BI Desktop. Para habilitar el **Mapa de formas**, seleccione **Archivo > Opciones y configuración > Opciones > Características de versión preliminar** y, después, seleccione la casilla **Mapa de formas**.
-* Actualmente, también debe tener el depósito **Valores** establecido para que la clasificación **Leyenda** funcione correctamente.
-* La versión de lanzamiento final de **Mapa de formas** tendrá una interfaz de usuario que muestre las claves de mapa del mapa seleccionado actualmente (no hay fecha establecida para la versión final, y **Mapa de formas** todavía está en versión preliminar). En esta versión preliminar, puede hacer referencia a las claves de región de mapa en las tablas que se encuentran en la siguiente sección **Claves de región** de este artículo.
+* El objeto visual **Mapa de formas** está en versión preliminar y debe habilitarse en Power BI Desktop. Para habilitar el **Mapa de formas**, seleccione **Archivo > Opciones y configuración > Opciones > Características de versión preliminar** y, después, active la casilla **Dar forma a objeto visual de mapa**.
+* Actualmente, también debe tener el cubo **Saturación de color** establecido para que la clasificación **Leyenda** funcione correctamente.
+* La versión final de **Mapa de formas** tendrá una interfaz de usuario que mostrará las claves del mapa actualmente seleccionado (no hay fecha establecida para la versión final y **Mapa de formas** todavía está en la versión preliminar). En esta versión preliminar, puede hacer referencia a las claves de región de mapa en las tablas que se encuentran en la sección **Claves de región** siguiente de este artículo.
 * El objeto visual **Mapa de formas** podrá trazar hasta un máximo de 1000 puntos de datos.
 
 ## <a name="region-keys"></a>Claves de región

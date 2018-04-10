@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 369d99406cd286be7cf1afb3c02c98c1711531ae
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: d0386f384698e0e66ce927466975eca7f25656db
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Uso del panel Análisis en Power BI Desktop
 Con el panel **Análisis** en **Power BI Desktop**, puede agregar *líneas de referencia* dinámicas en objetos visuales y destacar las tendencias o detalles importantes. El panel **Análisis** se encuentra en el área **Visualizaciones** de Power BI Desktop.
@@ -113,6 +113,8 @@ Por último, los objetos visuales no cartesianos no pueden aplicar actualmente l
 * Gráfico circular
 * Anillo
 * Tabla
+
+La línea de percentil solo está disponible cuando se usan datos importados en **Power BI Desktop** o cuando se establece una conexión dinámica con un modelo en un servidor que ejecuta **Analysis Service 2016** o posterior, **Azure Analysis Services** o un conjunto de datos en el servicio Power BI. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 Se puede hacer todo tipo de cosas con Power BI Desktop. Para obtener más información sobre sus capacidades, consulte los siguientes recursos:

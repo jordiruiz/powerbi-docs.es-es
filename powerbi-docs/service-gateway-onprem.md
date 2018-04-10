@@ -1,28 +1,28 @@
 ---
 title: Puerta de enlace de datos local
-description: "Esta es información general acerca de la puerta de enlace de datos local para Power BI. Puede usar esta puerta de enlace para trabajar con orígenes de datos DirectQuery. También puede usar esta puerta de enlace para actualizar conjuntos de datos en la nube con datos locales."
+description: Se trata de información general sobre la puerta de enlace de datos local para Power BI. Puede usar esta puerta de enlace para trabajar con orígenes de datos DirectQuery. También puede usar esta puerta de enlace para actualizar conjuntos de datos en la nube con datos locales.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 02/22/2018
-ms.author: davidi
+ms.date: 03/26/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: c9025194ebe8ce6b1829aacd9d74bff5d9c55e3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1c0bd455d8b2dd34cc7d9ef20b0e75c5457034d2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
 La puerta de enlace de datos local actúa como un puente, proporcionando la transferencia de datos rápida y segura entre los datos locales (datos que no están en la nube) y los servicios Power BI, Microsoft Flow, Logic Apps y PowerApps.
@@ -53,7 +53,7 @@ Puede usar una conexión activa con instancias tabulares o multidimensionales.
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>Descargar e instalar la puerta de enlace de datos local
-Para descargar la puerta de enlace, seleccione **Puerta de enlace de datos** en el menú Descargas. Descargue la [puerta de enlace de datos local](http://go.microsoft.com/fwlink/?LinkID=820925).
+Para descargar la puerta de enlace, seleccione **Puerta de enlace de datos** en el menú Descargas. Descargue la [Puerta de enlace de datos local](http://go.microsoft.com/fwlink/?LinkID=820925).
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -90,6 +90,11 @@ Cuando agrega un origen de datos a la puerta de enlace, debe proporcionar las cr
 
 <!-- How the gateway works -->
 [!INCLUDE [gateway-onprem-how-it-works-include](./includes/gateway-onprem-how-it-works-include.md)]
+
+## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
+* [Azure Information Protection](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
+) no se admite actualmente
+* [Access Online](https://products.office.com/en-us/access) no se admite actualmente
 
 ## <a name="troubleshooting"></a>Solución de problemas
 Si tiene problemas al instalar y configurar una puerta de enlace, asegúrese de consultar [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md). Si cree que tiene un problema con el firewall, consulte la sección [Firewall o proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) del artículo de solución de problemas.

@@ -2,14 +2,14 @@
 title: Uso de marcadores en Power BI
 description: Los marcadores de Power BI Desktop le permiten guardar vistas y configuraciones en los informes y crear presentaciones a modo de historias
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Uso de marcadores para compartir información detallada y crear historias en Power BI 
 El uso de **marcadores** en Power BI le permite capturar la vista configurada actualmente de una página del informe, incluidos los filtros y el estado de los objetos visuales y, posteriormente, volver a ese estado simplemente seleccionando el marcador guardado. 
@@ -31,7 +31,7 @@ También puede crear una colección de marcadores, organizarlos en el orden que 
 
 ![Marcadores en Power BI](media/desktop-bookmarks/bookmarks_01.png)
 
-Los marcadores tienen muchos usos. Puede utilizarlos para hacer un seguimiento de su progreso en la creación de un informe (los marcadores son fáciles de agregar, eliminar y cambiar de nombre), y también puede usar marcadores para crear una presentación similar a las de PowerPoint que recorra los marcadores en orden, lo cual permite contar una historia a través del informe. También podría haber otros usos en función de cómo crea que los marcadores le pueden ayudar.
+Los marcadores tienen muchos usos. Puede usarlos para hacer un seguimiento de su progreso en la creación de un informe (los marcadores son fáciles de agregar, eliminar y cambiar de nombre), y también puede usar marcadores para crear una presentación similar a las de PowerPoint que recorra los marcadores en orden, lo cual permite contar una historia a través del informe. También podría haber otros usos en función de cómo crea que los marcadores le pueden ayudar.
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Habilitar la versión preliminar de los marcadores (versiones anteriores a marzo de 2018)
 Los marcadores están disponibles con carácter general a partir de la versión de marzo de 2018 de Power BI Desktop. 
@@ -84,7 +84,7 @@ Si tiene una colección de marcadores que le gustaría presentar en orden, puede
 Cuando está en el modo **Vista**, hay algunas características a tener en cuenta:
 
 1. El nombre del marcador aparece en la barra de título de este, la cual, a su vez, aparece en la parte inferior del lienzo.
-2. La barra de título del marcador tiene flechas que le permiten moverse al marcador siguiente o al anterior
+2. La barra de título del marcador tiene flechas que le permiten moverse al marcador siguiente o al anterior.
 3. Puede salir del modo **Vista** seleccionando **Salir** en el panel **Marcadores** o la **X** que se encuentra en la barra de título del marcador. 
 
 ![Características de la barra de título del marcador](media/desktop-bookmarks/bookmarks_07.png)

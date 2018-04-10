@@ -1,13 +1,13 @@
 ---
 title: Obtener Power BI Desktop
-description: "Descarga e instalación de Power BI Desktop"
+description: Descarga e instalación de Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 08/15/2017
 ms.service: powerbi
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0a0ffc46feadc5868b8e7a4bd273b7d8acc8bfb5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a03e859e769f880b0c627080a864b41e96fc138b
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="get-power-bi-desktop"></a>Obtener Power BI Desktop
 **Power BI Desktop** le permite crear consultas, modelos e informes avanzados para visualizar datos. Con **Power BI Desktop**, puede crear modelos de datos, crear informes y compartir su trabajo mediante su publicación en el servicio Power BI.  La descarga de **Power BI Desktop** es gratuita.
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/24/2018
 Puede obtener **Power BI Desktop** de dos maneras, que se describen en las secciones siguientes:
 
 * **Descargar** directamente (un paquete MSI que se descarga y se instala en el equipo)
-* Instalar como una aplicación desde la **Tienda Windows**
+* Instalar como una aplicación desde **Microsoft Store**
 
 Con cualquiera de ellos tendrá la versión más reciente de **Power BI Desktop** en el equipo, pero hay algunas diferencias que hay que tener en cuenta y que se describen en las secciones siguientes.
 
@@ -54,31 +54,32 @@ Con independencia de la opción que elija, una vez que se descargue **Power BI D
 ![](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
-> No se puede instalar la versión descargada (MSI) y la versión de la **Tienda Windows** de **Power BI Desktop** en el mismo equipo (lo que a veces se denomina instalación *en paralelo*).
+> No se puede instalar la versión descargada (MSI) y la versión de **Microsoft Store** de **Power BI Desktop** en el mismo equipo (lo que a veces se denomina instalación *en paralelo*).
 > 
 > 
 
-## <a name="install-as-an-app-from-the-windows-store"></a>Instalar como una aplicación desde la Tienda Windows
-Para obtener **Power BI Desktop** en la Tienda Windows, use el siguiente vínculo:
+## <a name="install-as-an-app-from-the-microsoft-store"></a>Instalar como una aplicación desde Microsoft Store
+Para obtener **Power BI Desktop** en Microsoft Store, use el siguiente vínculo:
 
-* [Instalar **Power BI Desktop** desde la **Tienda Windows**](http://aka.ms/pbidesktopstore)
+* [Instale **Power BI Desktop** desde **Microsoft Store**](http://aka.ms/pbidesktopstore)
 
 ![](media/desktop-get-the-desktop/getpbid_04.png)
 
-Obtener **Power BI Desktop** en la Tienda Windows ofrece algunas ventajas:
+Hay algunas ventajas si obtiene **Power BI Desktop** desde Microsoft Store:
 
 * **Actualizaciones automáticas**: Windows descargará la versión más reciente automáticamente en segundo plano en cuanto esté disponible, por lo que su versión siempre estará actualizada.
-* **Descargas de menor tamaño**: la **Tienda Windows** garantiza que solo los componentes que hayan cambiado de cada actualización se descargarán en el equipo, lo cual permite conseguir unas descargas de menor tamaño en cada actualización.
-* **No se necesitan privilegios de administrador**: si el MSI se descarga e instala directamente, deberá ser administrador para completar la instalación correctamente. Para obtener **Power BI Desktop** en la Tienda Windows, *no* se necesitan privilegios de administrador.
-* **Habilitado para lanzamiento de TI**: la versión de la **Tienda Windows** puede implementarse más fácilmente, o *lanzarse*, a todas las personas de su organización para que **Power BI Desktop** esté disponible en la **Tienda Microsoft para la empresa**.
-* **Detección de idioma**: la versión de la **Tienda Windows** incluye todos los idiomas admitidos y comprueba los idiomas que se están usando en el equipo cada vez que se inicie. Esto afecta también a la localización de los modelos creados en **Power BI Desktop**; por ejemplo, las jerarquías de fechas integradas coincidirán con el idioma que **Power BI Desktop** utilizaba cuando se creó el archivo .pbix.
+* **Descargas de menor tamaño**: **Microsoft Store** garantiza que solo los componentes que hayan cambiado de cada actualización se descargarán en el equipo, lo cual permite conseguir unas descargas de menor tamaño en cada actualización.
+* **No se necesitan privilegios de administrador**: si el MSI se descarga e instala directamente, deberá ser administrador para completar la instalación correctamente. Para obtener **Power BI Desktop** en Microsoft Store, *no* se necesitan privilegios de administrador.
+* **Habilitado para lanzamiento de TI**: la versión de **Microsoft Store** puede implementarse más fácilmente, o *lanzarse*, a todas las personas de su organización para que **Power BI Desktop** esté disponible en **Microsoft Store para la empresa**.
+* **Detección de idioma**: la versión de **Microsoft Store** incluye todos los idiomas admitidos y comprueba los idiomas que se están usando en el equipo cada vez que se inicie. Esto afecta también a la localización de los modelos creados en **Power BI Desktop**; por ejemplo, las jerarquías de fechas integradas coincidirán con el idioma que **Power BI Desktop** utilizaba cuando se creó el archivo .pbix.
 
-Para instalar **Power BI Desktop** desde la Tienda Windows, hay algunas limitaciones y aspectos a tener en cuenta, entre otros:
+Para instalar **Power BI Desktop** desde Microsoft Store, hay algunas limitaciones y aspectos a tener en cuenta, entre otros:
 
 * Si usa el conector de SAP, puede que necesite mover los archivos del controlador de SAP a la carpeta *Windows\System32*.
+* Instalar **Power BI Desktop** desde Microsoft Store no copia la configuración de usuario de la versión MSI. Puede que tenga que volver a conectarse con los orígenes de datos recientes y volver a escribir las credenciales de origen de datos. 
 
 > [!NOTE]
-> No se puede instalar la versión descargada (MSI) y la versión de la **Tienda Windows** de **Power BI Desktop** en el mismo equipo (lo que a veces se denomina instalación *en paralelo*).
+> No se puede instalar la versión descargada (MSI) y la versión de **Microsoft Store** de **Power BI Desktop** en el mismo equipo (lo que a veces se denomina instalación *en paralelo*). Debe desinstalar manualmente **Power BI Desktop** antes de descargarlo de **Microsoft Store**
 > 
 > [!NOTE]
 > La versión de Power BI Report Server de **Power BI Desktop** es una instalación distinta e independiente de las versiones descritas en este artículo. Para más información acerca de la versión de Report Server de **Power BI Desktop**, consulte el artículo [Inicio rápido: Creación de un informe de Power BI para Power BI Report Server](report-server/quickstart-create-powerbi-report.md).
