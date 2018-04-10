@@ -1,15 +1,15 @@
 ---
-title: "Uso de páginas de información en pantalla para informes en Power BI"
-description: "Las páginas de información en pantalla de Power BI Desktop le permiten crear información enriquecida para los objetos visuales de los informes que se muestra al mantener el puntero"
+title: Uso de páginas de información en pantalla para informes en Power BI
+description: Las páginas de información en pantalla de Power BI Desktop le permiten crear información enriquecida para los objetos visuales de los informes que se muestra al mantener el puntero
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,23 +18,23 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2905dbc51e684ec39ac36a76c7024db0fe15cc18
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 87733126c4772b88c4e58cf60f9640668faf9cc7
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Creación de información en pantalla basada en páginas de informes en Power BI Desktop (versión preliminar)
 Puede crear **información en pantalla para informes** enriquecida visualmente que aparezca cuando mantenga el puntero encima de objetos visuales, en función de las páginas de informe que cree en **Power BI Desktop**. Mediante la creación de una página de informe que sirva como información en pantalla, la información personalizada puede incluir objetos visuales, imágenes y cualquier otra colección de elementos que cree en la página del informe. 
 
 ![Información en pantalla para informes de Power BI Desktop](media/desktop-tooltips/desktop-tooltips_00a.png)
 
-Puede crear todas las páginas de información en pantalla que quiera. Todas las páginas de información en pantalla se pueden asociar a uno o varios campos del informe, de manera que al mantener el puntero encima de un objeto visual que incluye el campo seleccionado, la información creada en la página correspondiente aparecerá cuando mantenga el puntero encima del objeto visual, filtrado según el punto de datos encima del que se mantiene el puntero. 
+Puede crear todas las páginas de información en pantalla que quiera. Todas las páginas de información en pantalla se pueden asociar a uno o varios campos del informe, de manera que al mantener el puntero encima de un objeto visual que incluye el campo seleccionado, la información creada en la página correspondiente aparece cuando mantiene el puntero encima del objeto visual, filtrado según el punto de datos encima del que se mantiene el puntero. 
 
 Hay un montón de cosas interesantes que puede hacer con la información en pantalla para informes. Vea cómo crear información en pantalla y qué pasos debe seguir para configurarla.
 
 ### <a name="enable-the-tooltips-preview"></a>Habilitar la versión preliminar de la información en pantalla 
-Como la información en pantalla para informes está en versión preliminar, debe habilitarla para poder crearla. Para habilitar la característica de versión preliminar de la información en pantalla para informes, seleccione **Archivo > Opciones y configuración > Opciones > Características de versión preliminar** en Power BI Desktop y, después, marque la casilla situada junto a **Marcadores**. 
+Como la información en pantalla para informes está en versión preliminar, debe habilitarla para poder crearla. Para habilitar la característica de versión preliminar de la información en pantalla para informes, seleccione **Archivo > Opciones y configuración > Opciones > Características de versión preliminar** en Power BI Desktop y, después, active la casilla situada junto a **Información en pantalla de páginas para informes**. 
 
 ![Habilitación de la característica de versión preliminar de la información en pantalla para informes](media/desktop-tooltips/desktop-tooltips_01.png)
 

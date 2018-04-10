@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 17921d1fe28a1b4c0640748123efe4b70982b18d
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Apertura de un informe en el servicio Power BI (app.powerbi.com)
 Los informes están disponibles en el servicio Power BI, Power BI Desktop, Power BI para dispositivos móviles e incluso Power BI Embedded. Este artículo trata sobre la apertura de informes en el ***servicio Power BI***.
@@ -78,7 +78,7 @@ Una manera más para abrir un informe es a partir de un conjunto de datos. Cuand
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Más maneras aún de abrir un informe
 A medida que se vaya sintiendo cómodo al navegar por el servicio Power BI, averiguará los flujos de trabajo que funcionan mejor en su caso. Algunas otras maneras de acceder a los informes:
-- Desde el panel de navegación izquierdo con **Favoritos**, **Recientes**, **Aplicaciones* y **Compartido conmigo**. 
+- Desde el panel de navegación izquierdo con **Favoritos**, **Recientes**, **Aplicaciones** y **Compartido conmigo**. 
 - Mediante [Ver relacionados](service-related-content.md)
 - En un correo electrónico cuando alguien [comparte con usted](service-share-reports.md) o [se establece una alerta](service-set-data-alerts.md).    
 - Desde el [Centro de notificaciones](service-notification-center.md)    

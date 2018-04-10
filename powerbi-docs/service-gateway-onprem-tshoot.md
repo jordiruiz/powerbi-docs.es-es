@@ -1,28 +1,28 @@
 ---
-title: "Solución de problemas con la puerta de enlace de datos local"
-description: "En este artículo se indican distintas formas de solucionar los problemas que surjan con la puerta de enlace de datos local. Proporciona posibles soluciones a problemas conocidos, así como herramientas para ayudarle."
+title: Solución de problemas con la puerta de enlace de datos local
+description: En este artículo se indican distintas formas de solucionar los problemas que surjan con la puerta de enlace de datos local. Proporciona posibles soluciones a problemas conocidos, así como herramientas para ayudarle.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/21/2017
-ms.author: davidi
+ms.date: 03/23/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1651f18194cd47582376b52bb6359db10a330c27
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9742fd0d48f4a77b5019aa7547fa511404c6f63e
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Solución de problemas con la puerta de enlace de datos local
 En este artículo se examinan algunos problemas comunes que pueden aparecer al usar la **puerta de enlace de datos local**.
@@ -78,14 +78,14 @@ Para corregir este problema, haga lo siguiente.
 1. Desinstale la puerta de enlace.
 2. Elimine la siguiente carpeta.
    
-        c:\Program Files\on-premises data gateway
+        c:\Program Files\On-premises data gateway
 3. Vuelva a instalar la puerta de enlace.
 4. Opcionalmente, aplique la clave de recuperación para restaurar una puerta de enlace existente.
 
 ### <a name="support-for-tls-1112"></a>Compatibilidad con TLS 1.1 y 1.2
-Con la actualización de agosto de 2017 y posteriores, la puerta de enlace de datos local usa Seguridad de la capa de transporte (TLS) 1.1 o 1.2 para comunicarse con el **servicio Power BI** de forma predeterminada. Las versiones anteriores de la puerta de enlace de datos local usan TLS 1.0 de forma predeterminada. El 1 de noviembre de 2017 terminará la compatibilidad con TLS 1.0, por lo que antes de esa fecha debe actualizar las instalaciones de la puerta de enlace de datos local a la versión de agosto de 2017, o a otra más reciente, para asegurarse de que las puertas de enlace siguen funcionando.
+Con la actualización de agosto de 2017 y posteriores, la puerta de enlace de datos local usa Seguridad de la capa de transporte (TLS) 1.1 o 1.2 para comunicarse con el **servicio Power BI** de forma predeterminada. Las versiones anteriores de la puerta de enlace de datos local usa TLS 1.0 de forma predeterminada. El 1 de noviembre de 2017 la compatibilidad con TLS 1.0 terminará, por lo que debe actualizar las instalaciones de la puerta de enlace de datos local a la versión de agosto de 2017 o a otra más reciente para asegurarse de que las puertas de enlace sigan funcionando.
 
-Es importante tener en cuenta que la versión TLS 1.0 seguirá siendo compatible con la puerta de enlace de datos local antes del 1 de noviembre y la puerta de enlace la utilizará como un mecanismo de reserva. Para asegurarse de que todo el tráfico de la puerta de enlace usa TLS 1.1 o 1.2 (y para impedir el uso de TLS 1.0 en la puerta de enlace), debe agregar o modificar las siguientes claves de registro en la máquina que ejecuta el servicio de puerta de enlace:
+Es importante tener en cuenta que TLS 1.0 seguirá siendo compatible con la puerta de enlace de datos local antes del 1 de noviembre y la puerta de enlace la utilizará como un mecanismo de reserva. Para asegurarse de que todo el tráfico de la puerta de enlace usa TLS 1.1 o 1.2 (y para impedir el uso de TLS 1.0 en la puerta de enlace), debe agregar o modificar las siguientes claves de registro en la máquina que ejecuta el servicio de puerta de enlace:
 
         [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
         [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
@@ -314,11 +314,13 @@ from [dbo].[V_CustomerOrders] as [$Table])
 GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 ```
 
-### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
-En el archivo *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config*, cambie el valor `TraceVerbosity` de `4` a `5`. Este archivo se encuentra, de forma predeterminada, en *C:\Archivos de programa\Puerta de enlace de datos local*. Al cambiar esta configuración, comenzará a registrar entradas detalladas en el registro de la puerta de enlace. Esto incluye entradas que muestran la duración.
+### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
+En el archivo *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config*, cambie el valor `TracingVerbosity` de `4` a `5`. Este archivo se encuentra, de forma predeterminada, en *C:\Archivos de programa\Puerta de enlace de datos local*. Al cambiar esta configuración, comenzará a registrar entradas detalladas en el registro de la puerta de enlace. Esto incluye entradas que muestran la duración. También puede habilitar entradas detalladas si habilita el botón "Registro adicional" en la aplicación de puerta de enlace local.
+
+   ![registro adicional](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
-> Si habilita TraceVerbosity en `5`, podría aumentar el tamaño del registro considerablemente, en función del uso de la puerta de enlace. Una vez que haya terminado de revisar los registros, establezca TraceVerbosity en `4`. No se recomienda dejar esta opción habilitada a largo plazo.
+> Si habilita TracingVerbosity en `5`, podría aumentar el tamaño del registro considerablemente, en función del uso de la puerta de enlace. Una vez que haya terminado de revisar los registros, establezca TraceVerbosity en `4`. No se recomienda dejar esta opción habilitada a largo plazo.
 > 
 > 
 
@@ -352,6 +354,72 @@ Para determinar el tiempo que se ha tardado en consultar el origen de datos, pue
    > 
    > 
 
+## <a name="kerberos"></a>Kerberos
+
+Si el servidor de base de datos subyacente y la puerta de enlace de datos local no están configurados correctamente para la [Delegación restringida de Kerberos](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md), habilite el [registro detallado](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) en la puerta de enlace e investigue en función de los errores o seguimientos de los archivos de registro de la puerta de enlace como punto de partida para solucionar problemas.
+
+### <a name="impersonationlevel"></a>ImpersonationLevel
+
+ImpersonationLevel está relacionado con la configuración del SPN o la configuración de directiva local.
+
+```
+[DataMovement.PipeLine.GatewayDataAccess] About to impersonate user DOMAIN\User (IsAuthenticated: True, ImpersonationLevel: Identification)
+```
+
+**Solución**
+
+Siga estos pasos para solucionar el problema:
+1. Configuración de un SPM para la puerta de enlace local
+2. Configuración de la delegación restringida en Active Directory (AD)
+
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: no se pudo crear una identidad de Windows para el userId del usuario
+
+FailedToImpersonateUserException se producirá si no se puede suplantar a otro usuario. También puede ocurrir si la cuenta que intenta suplantar es de un dominio distinto del dominio en que está el servicio de puerta de enlace (es una limitación).
+
+**Solución**
+* Compruebe que la configuración sea correcta según los pasos descritos en la sección ImpersonationLevel anterior.
+* Asegúrese de que el userId que intenta suplantar es una cuenta de AD válida.
+
+### <a name="general-error-1033-error-while-parsing-protocol"></a>Error general, error 1033 al analizar el protocolo
+
+Recibirá el error 1033 cuando el identificador externo que está configurado en SAP HANA no coincida con el inicio de sesión si el usuario se suplanta con el UPN (alias@domain.com). En los registros, verá el UP original "alias@domain.com" reemplazado por un UPN "alias@domain.com" nuevo en la parte superior de los registros de errores, como se muestra a continuación.
+
+```
+[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'.
+```
+
+**Solución**
+* SAP HANA requiere que el usuario suplantado use el atributo sAMAccountName en AD (alias de usuario). Si esto no es correcto, verá el error 1033.
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+
+* En los registros debe ver el sAMAccountName (alias) y no el UPN, que es el alias seguido del dominio (alias@doimain.com).
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+
+```
+      <setting name="ADUserNameReplacementProperty" serializeAs="String">
+        <value>sAMAccount</value>
+      </setting>
+      <setting name="ADServerPath" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="CustomASDataSource" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ADUserNameLookupProperty" serializeAs="String">
+        <value>AADEmail</value>
+```
+
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Communication link failure;-10709 Connection failed (RTE:[-1] Kerberos error. Major: "Miscellaneous failure [851968]", minor: "No credentials are available in the security package
+
+Recibirá el mensaje de error -10709 Error de conexión si la delegación no está configurada correctamente en AD.
+
+**Solución**
+* Asegúrese de tener el servidor SAP HANA en la pestaña de delegación en AD para la cuenta de servicio de puerta de enlace.
+
+   ![pestaña delegación](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
 <!-- Shared Troubleshooting tools Include -->
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
@@ -378,4 +446,3 @@ Para obtener más información sobre cómo solucionar problemas de escenarios de
 [Administrar el origen de datos: SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Administrar el origen de datos: importación o actualización programada](service-gateway-enterprise-manage-scheduled-refresh.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
-

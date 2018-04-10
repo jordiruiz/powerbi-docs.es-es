@@ -1,15 +1,15 @@
 ---
-title: "Uso de Kerberos en la puerta de enlace local para el SSO (inicio de sesión único) de Power BI en los orígenes de datos locales"
-description: "Configuración de la puerta de enlace con Kerberos para habilitar SSO desde Power BI en los orígenes de datos locales"
+title: Uso de Kerberos en la puerta de enlace local para el SSO (inicio de sesión único) de Power BI en los orígenes de datos locales
+description: Configuración de la puerta de enlace con Kerberos para habilitar SSO desde Power BI en los orígenes de datos locales
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 834800b26e8dd3738f274a73aa4ff9b36402a3d9
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: f60709e45e844ff7ab1a9c6bf3cb669c567dfcc8
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos para el SSO (inicio de sesión único) de Power BI en orígenes de datos locales
-Puede lograr una conectividad de inicio de sesión único perfecta con la habilitación de la actualización de los informes y paneles de Power BI con datos locales, mediante la configuración de la puerta de enlace de datos local con Kerberos. La puerta de enlace de datos local facilita el inicio de sesión único (SSO) mediante DirectQuery, que es lo que utiliza para conectarse a los orígenes de datos locales.
+Puede lograr una conectividad de inicio de sesión único perfecta con la habilitación de la actualización de los informes y paneles de Power BI con datos locales, mediante la configuración de la puerta de enlace de datos local con Kerberos. La puerta de enlace de datos local facilita el inicio de sesión único (SSO) con DirectQuery, que utiliza para conectarse a los orígenes de datos locales.
 
 Se admiten actualmente los siguiente orígenes de datos, SQL Server, SAP HANA y Teradata, basados en la [delegación restringida de Kerberos](https://technet.microsoft.com/library/jj553400.aspx).
 
@@ -94,7 +94,7 @@ El resultado es que, debido a la insuficiente configuración de Kerberos, la pue
 Deben configurarse varios elementos para que la delegación restringida de Kerberos funcione correctamente, incluidos los *nombres principales de servicio* (SPN) y la configuración de delegación de cuentas de servicio.
 
 ### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>Requisito previo 1: Instalación y configuración de la puerta de enlace de datos local
-Esta versión de la puerta de enlace de datos local admite la actualización in situ, así como la adquisición de la configuración de las puertas de enlace existentes.
+Esta versión de la puerta de enlace de datos local admite la actualización en contexto, así como la recepción de la configuración de las puertas de enlace existentes.
 
 ### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Requisito previo 2: Ejecución del servicio de Windows de puerta de enlace como cuenta de dominio
 En una instalación estándar, la puerta de enlace se ejecuta como una cuenta de servicio de la máquina local (en concreto, *NT Service\PBIEgwService*) como se muestra en la siguiente imagen:
@@ -103,10 +103,10 @@ En una instalación estándar, la puerta de enlace se ejecuta como una cuenta de
 
 Para habilitar la **delegación restringida de Kerberos**, debe ejecutar la puerta de enlace como una cuenta de dominio, a menos que AAD ya esté sincronizado con su Active Directory local (mediante AAD DirSync o AAD Connect). Para que este cambio de cuenta funcione correctamente, tiene dos opciones:
 
-* Si comenzó con una versión anterior de la puerta de enlace de datos local, siga al pie de la letra los cinco pasos en secuencia (incluida la ejecución de la configuración de la puerta de enlace en el paso 3) que se describen en el siguiente artículo:
+* Si ha comenzado con una versión anterior de la puerta de enlace de datos local, siga con precisión los cinco pasos en secuencia (incluida la ejecución de la configuración de la puerta de enlace en el paso 3) que se describen en el siguiente artículo:
   
   * [Cambio de la cuenta de servicio de la puerta de enlace a un usuario de dominio](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/#changing-the-gateway-service-account-to-a-domain-user)
-  * Si ya ha instalado la versión preliminar de la puerta de enlace de datos local, hay un nuevo enfoque a través de la interfaz de usuario para cambiar de cuenta de servicio directamente desde dentro del configurador de la puerta de enlace. Consulte la sección **Cambio de la puerta de enlace a una cuenta de dominio** cerca del final de este artículo.
+  * Si ya instaló la versión preliminar de la puerta de enlace de datos local, hay un nuevo enfoque a través de la interfaz de usuario para cambiar la cuenta de servicio directamente desde dentro de la configuración de la puerta de enlace. Consulte la sección **Cambio de la puerta de enlace a una cuenta de dominio** cerca del final de este artículo.
 
 > [!NOTE]
 > Si AAD DirSync o AAD Connect están configurados y las cuentas de usuario están sincronizadas, el servicio de puerta de enlace no necesita realizar búsquedas de AD locales en tiempo de ejecución y puede usar el SID de servicio local (en lugar de requerir una cuenta de dominio) para el servicio de puerta de enlace. Los pasos de configuración de la delegación restringida de Kerberos que se describen en este artículo son los mismos que esa configuración (simplemente se aplican en función del SID de servicio, en lugar de la cuenta de dominio).
@@ -196,7 +196,7 @@ Después de completar todos los pasos de configuración que se describen anterio
 Esta configuración funciona en la mayoría de los casos. Sin embargo, con Kerberos puede haber distintas configuraciones en función de su entorno. Si todavía no se pudo cargar el informe, debe ponerse en contacto con el administrador de dominio para investigar en profundidad.
 
 ## <a name="switching-the-gateway-to-a-domain-account"></a>Cambio de la puerta de enlace a una cuenta de dominio
-En este artículo ya se ha analizado el cambio de la puerta de enlace de una cuenta de servicio local para que se ejecute como una cuenta de dominio, usando la interfaz de usuario de la **puerta de enlace de datos local**. Estos son los pasos necesarios para hacerlo.
+Anteriormente en este artículo, analizamos el cambio de la puerta de enlace de una cuenta de servicio local para que se ejecute como una cuenta de dominio, usando la interfaz de usuario **Puerta de enlace de datos local**. Estos son los pasos necesarios para hacerlo.
 
 1. Inicie la herramienta de configuración de la **puerta de enlace de datos local**.
    
@@ -208,7 +208,7 @@ En este artículo ya se ha analizado el cambio de la puerta de enlace de una cue
    ![](media/service-gateway-kerberos-for-sso-pbi-to-on-premises-data/kerberos-sso-on-prem_11.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-Para más información acerca de la **puerta de enlace de datos local** y **DirectQuery**, consulte los recursos siguientes:
+Para más información sobre la **Puerta de enlace de datos local** y **DirectQuery**, consulte los recursos siguientes:
 
 * [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)
 * [DirectQuery en Power BI](desktop-directquery-about.md)

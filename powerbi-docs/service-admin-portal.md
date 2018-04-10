@@ -1,28 +1,28 @@
 ---
-title: "Portal de administración de Power BI"
-description: "El portal de administración permite la administración de inquilinos de Power BI en su organización. Incluye elementos como métricas de uso, acceso al Centro de administración de Office 365 y configuración."
+title: Portal de administración de Power BI
+description: El portal de administración permite la administración de inquilinos de Power BI en su organización. Incluye elementos como métricas de uso, acceso al Centro de administración de Office 365 y configuración.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
-ms.author: maghan
+ms.date: 04/02/2018
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 54ddccf9ca6ffdc1d9cbe840dbfced8d978ad194
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
@@ -326,8 +326,8 @@ Importante: la eliminación es irreversible. Una vez eliminado, el objeto visual
  
 ### <a name="how-to-update-a-visual"></a>Actualización de un objeto visual
 
-Si desea actualizar un objeto visual del repositorio porque hay una nueva versión (p. ej. correcciones de errores, nuevas funcionalidades, etc.), cargue el nuevo archivo (asegúrese de que el identificador del objeto visual no cambia) como una nueva entrada en la lista y asegúrese de proporcionar los detalles adecuados en el título y la descripción (p. ej. "Mi objeto visual v2.0"). La próxima vez que los usuarios especifiquen el repositorio de la organización desde Power BI Desktop, podrán importar la nueva versión. En este proceso se les pedirá que reemplacen la versión actual que tienen en el informe.
- 
+Si desea actualizar un objeto visual en el repositorio porque hay una versión nueva del objeto visual (por ejemplo, correcciones de errores, una funcionalidad nueva, etc.), seleccione el icono **Actualizar** y cargue el archivo nuevo. Asegúrese de que el identificador del objeto visual no cambie. El archivo nuevo reemplazará el archivo anterior en todos los informes de toda la organización. Sin embargo, si la versión nueva del objeto visual puede generar errores en el uso o la estructura de datos de la versión anterior del objeto visual, no reemplace la versión anterior. En lugar de eso, debe crear una nueva lista para la versión nueva del objeto visual. Por ejemplo, agregue un número de versión nuevo (versión X.X) al título del objeto visual nuevo. De este modo, resulta claro que es el mismo objeto visual solo con un número de versión actualizado, por lo que los informes existentes no interrumpen su funcionalidad. Vuelva a asegurarse de que el identificador del objeto visual no cambie. Luego, la próxima vez que los usuarios ingresen al repositorio de la organización desde Power BI Desktop, podrán importar la versión nueva, donde se les pedirá reemplazar la versión actual que tienen en el informe.
+
 ## <a name="next-steps"></a>Pasos siguientes
 
 [Descripción del rol de administrador de Power BI](service-admin-role.md)  

@@ -1,15 +1,15 @@
 ---
-title: "Preguntas más frecuentes sobre la puerta de enlace de datos local"
-description: "Estas son las preguntas más frecuentes sobre la puerta de enlace de datos local. Aquí se reúnen en un solo lugar las preguntas más frecuentes sobre la puerta de enlace."
+title: Preguntas más frecuentes sobre la puerta de enlace de datos local
+description: Estas son las preguntas más frecuentes sobre la puerta de enlace de datos local. Aquí se reúnen en un solo lugar las preguntas más frecuentes sobre la puerta de enlace.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: d06a83584bb1b270eb10f6c7098358e718f3492f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 93771e4f6e7969ac0b26aaa87a240c2261150776
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-faq"></a>Preguntas más frecuentes sobre la puerta de enlace de datos local
 <!-- Shared FAQ shared Include -->
