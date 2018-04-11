@@ -1,28 +1,28 @@
 ---
-title: "Power BI (gratis) en su organización"
-description: "En este artículo se examinan las opciones de Power BI (gratis) desde la perspectiva de la organización. Si es el administrador del inquilino, le mostrará cómo administrar los registros gratuitos."
+title: Power BI (gratis) en su organización
+description: En este artículo se examinan las opciones de Power BI (gratis) desde la perspectiva de la organización. Si es el administrador del inquilino, le mostrará cómo administrar los registros gratuitos.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ec266cd2631797a1bbbef686824f78b0f1e3e14a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5da8b4cbb86766e6b411af902fce4bf18f480612
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>Power BI (gratis) en su organización
 Veremos cómo usar la oferta Power BI (gratis) en su organización. Una organización implica que tiene un inquilino y puede administrar usuarios y servicios dentro de ese inquilino. Como administrador, puede controlar la asignación de licencias o puede permitir que los usuarios se registren individualmente. Veremos la licencia de Power BI (gratis) y cómo controlar el registro individual.
