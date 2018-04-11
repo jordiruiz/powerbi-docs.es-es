@@ -1,15 +1,15 @@
 ---
-title: "Conexión a Adobe Analytics con Power BI"
-description: "Si se conecta a Adobe Analytics desde Power BI podrá disfrutar de una aplicación que muestra los datos de su cuenta en un panel e informes."
+title: Conexión a Adobe Analytics con Power BI
+description: Si se conecta a Adobe Analytics desde Power BI podrá disfrutar de una aplicación que muestra los datos de su cuenta en un panel e informes.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

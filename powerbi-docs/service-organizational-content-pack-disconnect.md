@@ -1,15 +1,15 @@
 ---
-title: "Desconexión de un paquete de contenido organizativo: Power BI"
-description: "Consulte cómo quitar la conexión de un paquete de contenido organizativo mediante la eliminación de su conjunto de datos en Power BI."
+title: 'Desconexión de un paquete de contenido organizativo: Power BI'
+description: Consulte cómo quitar la conexión de un paquete de contenido organizativo mediante la eliminación de su conjunto de datos en Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

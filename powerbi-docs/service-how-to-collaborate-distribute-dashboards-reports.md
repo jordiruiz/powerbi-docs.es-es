@@ -1,13 +1,13 @@
 ---
-title: "¿Cómo debo colaborar y compartir en Power BI?"
+title: ¿Cómo debo colaborar y compartir en Power BI?
 description: En Power BI, puede compartir paneles, informes, iconos y aplicaciones de distintas maneras, y colaborar en ellos. Cada una tiene sus ventajas.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 02/28/2017
 ms.service: powerbi

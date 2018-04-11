@@ -1,15 +1,15 @@
 ---
-title: "Conexión a Microsoft Dynamics NAV con Power BI"
+title: Conexión a Microsoft Dynamics NAV con Power BI
 description: Microsoft Dynamics NAV para Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Introducción a Preguntas y respuestas en el servicio Power BI y Power BI Desktop"
-description: "Tema de información general de la documentación acerca de las consultas en lenguaje natural de Preguntas y respuestas de Power BI."
+title: Introducción a Preguntas y respuestas en el servicio Power BI y Power BI Desktop
+description: Tema de información general de la documentación acerca de las consultas en lenguaje natural de Preguntas y respuestas de Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

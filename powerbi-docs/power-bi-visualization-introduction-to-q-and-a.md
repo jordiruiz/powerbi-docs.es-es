@@ -1,15 +1,15 @@
 ---
-title: "Guía de inicio rápido: Introducción a Preguntas y respuestas de Power BI"
-description: "Guía de inicio rápido: Introducción a Preguntas y respuestas en el servicio Power BI con el Ejemplo de análisis de minoristas"
+title: 'Guía de inicio rápido: Introducción a Preguntas y respuestas de Power BI'
+description: 'Guía de inicio rápido: Introducción a Preguntas y respuestas en el servicio Power BI con el Ejemplo de análisis de minoristas'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

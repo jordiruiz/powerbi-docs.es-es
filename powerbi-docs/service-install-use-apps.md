@@ -1,12 +1,12 @@
 ---
-title: "Instalación y uso de aplicaciones con los paneles e informes de Power BI"
+title: Instalación y uso de aplicaciones con los paneles e informes de Power BI
 description: En Power BI, las aplicaciones permiten reunir paneles e informes relacionados en un solo lugar.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 10/02/2017
 ms.service: powerbi

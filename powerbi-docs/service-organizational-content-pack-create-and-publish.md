@@ -1,15 +1,15 @@
 ---
-title: "Creación y publicación de un paquete de contenido organizativo: Power BI"
-description: "En este tutorial, vamos a crear un paquete de contenido organizativo, a restringir el acceso a un grupo específico y a publicarlo en la biblioteca de paquetes de contenido de su organización en Power BI."
+title: 'Creación y publicación de un paquete de contenido organizativo: Power BI'
+description: En este tutorial, vamos a crear un paquete de contenido organizativo, a restringir el acceso a un grupo específico y a publicarlo en la biblioteca de paquetes de contenido de su organización en Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

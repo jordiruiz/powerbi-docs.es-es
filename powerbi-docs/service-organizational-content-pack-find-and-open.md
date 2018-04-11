@@ -1,15 +1,15 @@
 ---
-title: "Búsqueda y conexión a paquetes de contenido organizativo: Power BI"
-description: "Búsqueda y apertura de un paquete de contenido organizativo en Power BI"
+title: 'Búsqueda y conexión a paquetes de contenido organizativo: Power BI'
+description: Búsqueda y apertura de un paquete de contenido organizativo en Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

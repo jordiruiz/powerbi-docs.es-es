@@ -1,15 +1,15 @@
 ---
-title: "Paquetes de contenido organizativos: Administración y actualización"
-description: "Obtenga más información sobre cómo administrar, actualizar y eliminar paquetes de contenido organizativos en Power BI."
+title: 'Paquetes de contenido organizativos: Administración y actualización'
+description: Obtenga más información sobre cómo administrar, actualizar y eliminar paquetes de contenido organizativos en Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

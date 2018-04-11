@@ -1,16 +1,16 @@
 ---
-title: "Cómo crear las preguntas destacadas para Preguntas y respuestas de Power BI"
-description: "Documentación sobre cómo crear preguntas destacadas para Preguntas y respuestas de Power BI."
+title: Cómo crear las preguntas destacadas para Preguntas y respuestas de Power BI
+description: Documentación sobre cómo crear preguntas destacadas para Preguntas y respuestas de Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: E1mIAyEXuF4
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
