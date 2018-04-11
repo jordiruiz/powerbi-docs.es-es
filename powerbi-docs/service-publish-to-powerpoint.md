@@ -1,15 +1,15 @@
 ---
 title: Exportar informes de Power BI a PowerPoint (vista previa)
-description: "Aprenda cómo exportar un informe de Power BI a PowerPoint."
+description: Aprenda cómo exportar un informe de Power BI a PowerPoint.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

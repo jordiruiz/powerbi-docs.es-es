@@ -1,15 +1,15 @@
 ---
-title: "Cómo hacer que los datos de Excel funcionen correctamente con Preguntas y respuestas en Power BI"
-description: "Cómo hacer que los datos funcionen correctamente con Preguntas y respuestas en Power BI"
+title: Cómo hacer que los datos de Excel funcionen correctamente con Preguntas y respuestas en Power BI
+description: Cómo hacer que los datos funcionen correctamente con Preguntas y respuestas en Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

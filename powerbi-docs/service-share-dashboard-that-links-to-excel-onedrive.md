@@ -1,15 +1,15 @@
 ---
 title: 'Uso compartido de un panel vinculado a un archivo de Excel en OneDrive: Power BI'
-description: "Lea información sobre cómo compartir paneles conectados a un libro de Excel en OneDrive para la Empresa con iconos anclados desde ese libro."
+description: Lea información sobre cómo compartir paneles conectados a un libro de Excel en OneDrive para la Empresa con iconos anclados desde ese libro.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

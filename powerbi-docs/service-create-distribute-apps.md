@@ -1,14 +1,14 @@
 ---
 title: Crear y publicar aplicaciones con los paneles e informes de Power BI
-description: "Aprenda a crear y publicar aplicaciones, que son una colección de paneles e informes creados para proporcionar métricas clave a su organización."
+description: Aprenda a crear y publicar aplicaciones, que son una colección de paneles e informes creados para proporcionar métricas clave a su organización.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

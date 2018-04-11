@@ -1,13 +1,13 @@
 ---
-title: "Filtrado y uso compartido de informes de Power BI con compañeros"
-description: "Aprenda a compartir informes de Power BI filtrados con compañeros de su organización."
+title: Filtrado y uso compartido de informes de Power BI con compañeros
+description: Aprenda a compartir informes de Power BI filtrados con compañeros de su organización.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 featuredvideoid: 0tUwn8DHo3s
 qualityfocus: complete
 qualitydate: 06/22/2016

@@ -1,15 +1,15 @@
 ---
-title: "Administración del área de trabajo de la aplicación en Power BI y Office 365"
-description: "Las áreas de trabajo de la aplicación en Power BI son una experiencia de colaboración basada en los grupos de Office 365. Administre el área de trabajo de la aplicación en Power BI y también en Office 365."
+title: Administración del área de trabajo de la aplicación en Power BI y Office 365
+description: Las áreas de trabajo de la aplicación en Power BI son una experiencia de colaboración basada en los grupos de Office 365. Administre el área de trabajo de la aplicación en Power BI y también en Office 365.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

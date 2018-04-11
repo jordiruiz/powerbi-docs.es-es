@@ -1,12 +1,12 @@
 ---
 title: 'Tutorial: Uso de Preguntas y respuestas en un panel o en un informe'
-description: "Tutorial sobre cómo usar Preguntas y respuestas de Power BI para crear nuevas visualizaciones en paneles e informes."
+description: Tutorial sobre cómo usar Preguntas y respuestas de Power BI para crear nuevas visualizaciones en paneles e informes.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

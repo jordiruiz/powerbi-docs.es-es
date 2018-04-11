@@ -1,11 +1,11 @@
 ---
-title: "Busque y vea rápidamente informes y paneles de Power BI mediante Cortana"
+title: Busque y vea rápidamente informes y paneles de Power BI mediante Cortana
 description: Use Cortana con Power BI para obtener respuestas a partir de los datos. Actualmente funciona con informes y paneles.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

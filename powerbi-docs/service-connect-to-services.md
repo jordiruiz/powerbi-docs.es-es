@@ -1,15 +1,15 @@
 ---
-title: "Conexión a los servicios que usa con Power BI"
-description: "Conéctese a varios de los servicios que usa en su empresa, como Salesforce, Microsoft Dynamics CRM y Google Analytics."
+title: Conexión a los servicios que usa con Power BI
+description: Conéctese a varios de los servicios que usa en su empresa, como Salesforce, Microsoft Dynamics CRM y Google Analytics.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
