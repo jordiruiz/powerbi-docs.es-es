@@ -2,14 +2,14 @@
 title: Uso de tablas calculadas en Power BI Desktop
 description: Tablas calculadas en Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8bf8d2629d6a0bd88a85fa468547586e93502721
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 41017e1570a518e26305b6195531bcff889dbd9c
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Uso de tablas calculadas en Power BI Desktop
 Con las tablas calculadas, puede agregar una nueva tabla al modelo. Sin embargo, en lugar de consultar y cargar los valores en las columnas de la nueva tabla desde un origen de datos, se crea una fórmula de expresiones de análisis de datos (DAX) que define los valores de la tabla. En Power BI Desktop, las tablas calculadas se crean mediante la característica Nueva columna en la vista de informe o la vista de datos.
@@ -36,7 +36,7 @@ Igual que con las tablas normales, las tablas calculadas pueden tener relaciones
 Las tablas calculadas calculan los resultados usando [expresiones de análisis de datos](https://msdn.microsoft.com/library/gg413422.aspx) (DAX), un lenguaje de fórmulas diseñado para trabajar con datos relacionales como en Power BI Desktop. DAX incluye una biblioteca de más de 200 funciones, operadores y construcciones, lo que ofrece una gran flexibilidad al momento de crear formulas para calcular los resultados de casi cualquier necesidad de análisis de datos.
 
 ## <a name="lets-look-at-an-example"></a>Veamos un ejemplo
-Juan, administrador de proyectos en Contoso, tiene una tabla con los empleados del noroeste de y otra tabla con empleados del suroeste. Juan desea combinar las dos tablas en una sola.
+Juan, administrador de proyectos en Contoso, tiene una tabla con los empleados del noroeste y otra tabla con los del suroeste. Juan desea combinar las dos tablas en una sola.
 
 **EmpleadosNoroeste**
 
@@ -71,7 +71,15 @@ Las tablas calculadas pueden definirse mediante cualquier expresión de DAX que 
 
 Puede usar tablas calculadas con DAX para resolver muchos problemas de análisis. Aquí hemos proporcionado únicamente una breve introducción a las tablas calculadas. Al comenzar a trabajar con tablas calculadas, estas son algunas de las funciones de tabla DAX más habituales que pueden resultarle útiles:
 
-&lt;TABLE&gt; DISTINCT VALUES CROSSJOIN UNION NATURALINNERJOIN NATURALLEFTOUTERJOIN INTERSECT CALENDAR CALENDARAUTO
+* DISTINCT
+* VALUES
+* CROSSJOIN
+* UNION
+* NATURALINNERJOIN
+* NATURALLEFTOUTERJOIN
+* INTERSECT
+* CALENDAR
+* CALENDARAUTO
 
 Consulte la [referencia de funciones DAX](https://msdn.microsoft.com/ee634396.aspx) para ellas y otra tabla que muestre las funciones DAX.
 
