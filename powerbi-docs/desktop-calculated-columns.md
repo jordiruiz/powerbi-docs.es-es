@@ -2,14 +2,14 @@
 title: Uso de columnas calculadas en Power BI Desktop
 description: Columnas calculadas en Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e9d1820bff2768f2169530ec49cfa2963bff9baa
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a47e707969b592ec27c79558699638ce14f8640
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Uso de columnas calculadas en Power BI Desktop
 Con las columnas calculadas, se pueden agregar nuevos datos a una tabla ya existente en el modelo. Pero en lugar de consultar y cargar los valores en la nueva columna desde un origen de datos, se crea una fórmula de expresiones de análisis de datos (DAX) que define los valores de columna. En Power BI Desktop, las columnas calculadas se crean mediante la característica Nueva columna en la vista de informe.
@@ -54,7 +54,7 @@ Ahora Juan tiene el campo que desea.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-Puede agregarlo al lienzo de su informe junto con el número de envíos. Muy rápidamente y con el mínimo esfuerzo, Juan tiene ahora un campo para la ciudad y el estado. Puede agregarlo a casi cualquier tipo de visualización. Juan puede ver que cuando crea una visualización de mapa, Power BI Desktop sabe incluso cómo leer los valores de ciudad y estado en la columna nueva.
+Puede agregarlo al lienzo de su informe junto con el número de envíos. En poco tiempo y con el mínimo esfuerzo, Juan tiene los campos de ciudad y estado, que puede agregar a casi cualquier tipo de visualización. Juan puede ver que cuando crea una visualización de mapa, Power BI Desktop sabe cómo leer los valores de ciudad y estado en la columna nueva.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
