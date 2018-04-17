@@ -8,13 +8,13 @@
           href: service-get-started.md
         - name: Suscripción de autoservicio para Power BI
           href: service-self-service-signup-for-power-bi.md
-        - name: Comparación entre las versiones gratuita y Pro de Power BI
+        - name: Comparación entre las versiones gratis y Pro de Power BI
           href: service-free-vs-pro.md
         - name: Orígenes de datos de Power BI
           href: service-get-data.md
         - name: Introducción a la nueva experiencia de navegación de Power BI
           href: service-the-new-power-bi-experience.md
-        - name: Diez sugerencias para obtener ayuda
+        - name: 10 sugerencias para obtener ayuda
           href: service-tips-for-finding-help.md
         - name: Búsqueda y ordenación de contenido
           href: service-navigation-search-filter-sort.md
@@ -226,7 +226,7 @@
           href: service-pin-tile-to-another-dashboard.md
         - name: Anclar un icono a un panel de Power BI desde Excel
           href: service-dashboard-pin-tile-from-excel.md
-        - name: Power BI Publisher for Excel
+        - name: Power BI Publisher para Excel
           href: publisher-for-excel.md
         - name: Anclaje de un icono a un panel de Power BI desde el cuadro de preguntas de Preguntas y respuestas
           href: service-dashboard-pin-tile-from-q-and-a.md
@@ -240,7 +240,7 @@
           href: service-set-data-alerts.md
         - name: Centro de notificaciones unificado de Power BI
           href: service-notification-center.md
-        - name: 'Adición de una imagen, un cuadro de texto, vídeo o código web al panel'
+        - name: 'Agregar una imagen, un cuadro de texto, un vídeo o código web al panel'
           href: service-dashboard-add-widget.md
         - name: 'Edición de un icono: cambiar el tamaño, mover, cambiar el nombre, anclar, eliminar, agregar un hipervínculo'
           href: service-dashboard-edit-tile.md
@@ -254,7 +254,7 @@
           href: service-insights-optimize.md
         - name: Paneles destacados en Power BI
           href: service-dashboard-featured.md
-        - name: Crear una vista de teléfono de un panel en Power BI
+        - name: Crear una vista de teléfono de un panel
           href: service-create-dashboard-mobile-phone-view.md
         - name: Crear un código QR para un icono
           href: service-create-qr-code-for-tile.md
@@ -316,7 +316,7 @@
           href: service-embed-report-spo.md
         - name: Conectarse a los archivos de su grupo de OneDrive para la Empresa
           href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
-        - name: Colaboración en el área de trabajo de su grupo de Power BI
+        - name: Colaboración en un área de trabajo de grupo de Power BI
           href: service-collaborate-power-bi-workspace.md
         - name: Administración del grupo en Power BI y Office 365
           href: service-manage-app-workspace-in-power-bi-and-office-365.md
@@ -326,7 +326,7 @@
           href: service-organizational-content-pack-find-and-open.md
         - name: 'Paquetes de contenido de la organización: Copia, actualización y acceso'
           href: service-organizational-content-pack-copy-refresh-access.md
-        - name: Eliminación de una conexión a un paquete de contenido organizativo
+        - name: Quitar la conexión a un paquete de contenido organizativo.
           href: service-organizational-content-pack-disconnect.md
         - name: Compartir un panel que se vincula a un libro de Excel en OneDrive para la Empresa
           href: service-share-dashboard-that-links-to-excel-onedrive.md
@@ -362,8 +362,6 @@
           href: service-reading-view-and-editing-view.md
         - name: Interacción con un informe en la vista de edición en Power BI
           href: service-interact-with-a-report-in-editing-view.md
-        - name: Sugerencias y trucos para crear informes en el servicio Power BI
-          href: power-bi-reports-tips-and-tricks-for-creating.md
         - name: Panel de análisis
           href: service-analytics-pane.md
         - name: Métrica de uso de informes
@@ -380,9 +378,9 @@
           href: service-report-reorder-pages.md
         - name: Duplicar una página del informe en Power BI
           href: power-bi-report-copy-paste-page.md
-        - name: Exportación de un informe de un servicio Power BI al Escritorio (versión preliminar)
+        - name: Exportar un informe desde el servicio Power BI a Desktop (versión preliminar)
           href: service-export-to-pbix.md
-        - name: Filtro de un informe mediante parámetros de cadena de búsqueda en la dirección URL
+        - name: Filtro de un informe con parámetros de cadena de consulta en la URL
           href: service-url-filters.md
         - name: Prácticas recomendadas para la creación de informes rápidos y confiables en Power BI
           href: power-bi-reports-performance.md
@@ -402,7 +400,7 @@
           href: power-bi-report-add-visualizations-i.md
         - name: 'Tutorial: Parte II, Incorporación de visualizaciones a un informe de Power BI'
           href: power-bi-report-add-visualizations-ii.md
-        - name: Los datos detrás del objeto visual
+        - name: Vista de los datos usados para crear el objeto visual
           href: service-reports-show-data.md
         - name: Exportar datos de una visualización
           href: power-bi-visualization-export-data.md
@@ -462,7 +460,7 @@
           href: power-bi-visualization-waterfall-charts.md
         - name: 'Tutorial: Tarjetas (iconos grandes de números) en Power BI'
           href: power-bi-visualization-card.md
-        - name: Creación de análisis y visualizaciones avanzados mediante scripts de R en Power BI
+        - name: Crear análisis y visualizaciones avanzados con scripts R en Power BI
           href: service-r-visuals.md
     - name: Datos de los archivos
       items:
@@ -476,7 +474,7 @@
           href: service-desktop-files.md
         - name: Obtención de datos de archivos .csv (valores separados por comas)
           href: service-comma-separated-value-files.md
-        - name: Streaming en directo en Power BI (vista previa)
+        - name: Transmisión en tiempo real en Power BI (vista previa)
           href: service-real-time-streaming.md
         - name: Publicación en Power BI desde Excel 2016
           href: service-publish-from-excel.md
@@ -592,7 +590,7 @@
           href: service-admin-closing-your-account.md
         - name: Configurar aplicaciones móviles con Intune
           href: service-admin-mobile-intune.md
-        - name: Power BI para Office 365 está pasando a Power BI
+        - name: Power BI para Office 365 pasa a Power BI
           href: service-admin-o365portal-retired.md
     - name: Solución de problemas
       items:
@@ -614,9 +612,9 @@
           href: service-admin-troubleshooting-power-bi-personal-gateway.md
         - name: Solución de problemas de origen de datos no admitido para la actualización
           href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-        - name: Solución de problemas de la actualización programada para Azure SQL Database
+        - name: Solución de problemas de actualización programada de bases de datos SQL de Azure
           href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-        - name: 'Error: no se encontraron datos en su libro de Excel'
+        - name: 'Error: No se encontraron datos en su libro de Excel'
           href: service-admin-troubleshoot-excel-workbook-data.md
         - name: Solución de problemas de errores de icono
           href: refresh-troubleshooting-tile-errors.md
@@ -634,7 +632,7 @@
           href: desktop-latest-update.md
         - name: Vídeos de Power BI Desktop
           href: desktop-videos.md
-        - name: Actualizaciones mensuales anteriores de Power BI Desktop
+        - name: Previous monthly updates to Power BI Desktop (Actualizaciones mensuales a Power BI Desktop anteriores)
           href: desktop-latest-update-archive.md
     - name: Conectar a datos
       items:
@@ -648,13 +646,13 @@
           href: desktop-import-excel-workbooks.md
         - name: Conexión a datos mediante interfaces genéricas
           href: desktop-connect-using-generic-interfaces.md
-        - name: Conexión a una base de datos de Oracle
+        - name: Conectarse a una base de datos de Oracle
           href: desktop-connect-oracle-database.md
         - name: Ejecución de scripts R en Power BI Desktop
           href: desktop-r-scripts.md
         - name: Uso de R en el Editor de consultas
           href: desktop-r-in-query-editor.md
-        - name: Uso de una IDE de R externa con Power BI
+        - name: Usar una IDE de R externa con Power BI
           href: desktop-r-ide.md
         - name: Paquetes R admitidos
           href: service-r-packages-support.md
@@ -676,7 +674,7 @@
           href: desktop-connect-odata.md
         - name: Conectarse a una base de datos de Amazon Redshift en Power BI Desktop
           href: desktop-connect-redshift.md
-        - name: Conectarse a una página web en Power BI Desktop
+        - name: Conectarse a una página web desde Power BI Desktop
           href: desktop-connect-to-web.md
         - name: Conexión a un almacén de Snowflake Computing en Power BI Desktop
           href: desktop-connect-snowflake.md
@@ -690,7 +688,7 @@
           href: desktop-use-directquery.md
         - name: Power BI y DirectQuery
           href: desktop-directquery-about.md
-        - name: Orígenes de datos admitidos por DirectQuery
+        - name: Orígenes de datos compatibles con DirectQuery
           href: desktop-directquery-data-sources.md
         - name: DirectQuery para las bases de datos Oracle y Teradata
           href: desktop-directquery-for-oracle-teradata.md
@@ -698,17 +696,17 @@
           href: desktop-directquery-sap-bw.md
         - name: DirectQuery y SAP HANA
           href: desktop-directquery-sap-hana.md
-        - name: Asumir la configuración de la integridad referencia en Power BI Desktop
+        - name: Configuración de Asumir integridad referencial en Power BI Desktop
           href: desktop-assume-referential-integrity.md
         - name: 'Tutorial: Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services'
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: Uso del conector de SAP BW en Power BI Desktop (versión preliminar)
           href: desktop-sap-bw-connector.md
-        - name: Uso de vínculos de OneDrive para la Empresa en Power BI Desktop
+        - name: Usar vínculos de OneDrive para la Empresa en Power BI Desktop
           href: desktop-use-onedrive-business-links.md
         - name: Requisitos previos de los orígenes de datos de Power BI
           href: desktop-data-source-prerequisites.md
-        - name: 'Bidirectional cross-filtering in Power BI Desktop (Preview) (Filtrado cruzado bidireccional en Power BI Desktop [versión preliminar])'
+        - name: Filtrado cruzado bidireccional en Power BI Desktop (versión preliminar)
           href: desktop-bidirectional-filtering.md
         - name: Niveles de privacidad de Power BI Desktop
           href: desktop-privacy-levels.md
@@ -726,7 +724,7 @@
           href: desktop-shape-and-combine-data.md
         - name: Tareas de consultas comunes en Power BI Desktop
           href: desktop-common-query-tasks.md
-        - name: Uso de mapas de formas en Power BI Desktop (versión preliminar)
+        - name: Usar mapas de formas en Power BI Desktop (versión preliminar)
           href: desktop-shape-map.md
         - name: Combinar archivos (binarios)
           href: desktop-combine-binaries.md
@@ -744,9 +742,9 @@
           href: desktop-quickstart-learn-dax-basics.md
         - name: Categorización de datos en Power BI Desktop
           href: desktop-data-categorization.md
-        - name: Etiquetado de códigos de barras en Power BI Desktop para las aplicaciones móviles de Power BI
+        - name: Tag barcodes in Power BI Desktop for the Power BI mobile apps (Etiquetado de códigos de barras en Power BI Desktop para las aplicaciones móviles de Power BI)
           href: desktop-mobile-barcodes.md
-        - name: Establecimiento del filtrado geográfico en Power BI Desktop para las aplicaciones móviles de Power BI
+        - name: Set geographic filtering in Power BI Desktop for the Power BI mobile apps (Establecimiento del filtrado geográfico en Power BI Desktop para las aplicaciones móviles de Power BI)
           href: desktop-mobile-geofiltering.md
         - name: Columnas calculadas en Power BI Desktop
           href: desktop-calculated-columns.md
@@ -762,7 +760,7 @@
           href: desktop-report-view.md
         - name: Preguntas y respuestas en Power BI Desktop
           href: desktop-qna-in-reports.md
-        - name: Panel Análisis en Power BI Desktop
+        - name: Panel de análisis en Power BI Desktop
           href: desktop-analytics-pane.md
         - name: Selección múltiple en Power BI
           href: desktop-multi-select.md
@@ -820,13 +818,13 @@
           href: service-cortana-answer-cards.md
         - name: Seguridad de nivel de fila
           href: desktop-rls.md
-        - name: Personalización de información sobre herramientas en Power BI Desktop
+        - name: Personalización de la información sobre herramientas en Power BI Desktop
           href: desktop-custom-tooltips.md
-        - name: Formato de tablas condicionales en Power BI Desktop
+        - name: Formato de tabla condicional en Power BI Desktop
           href: desktop-conditional-table-formatting.md
         - name: Ordenar por columnas en Power BI Desktop
           href: desktop-sort-by-column.md
-        - name: Creación de informes optimizados para las aplicaciones de teléfono de Power BI
+        - name: Crear informes optimizados para las aplicaciones de teléfono de Power BI
           href: desktop-create-phone-report.md
         - name: Publicar desde Power BI Desktop
           href: desktop-upload-desktop-files.md
@@ -864,7 +862,7 @@
           href: mobile-whats-new-in-the-mobile-apps.md
     - name: Todas las aplicaciones móviles
       items:
-        - name: Aplicaciones de Power BI para iOS
+        - name: Aplicaciones Power BI para iOS
           href: mobile-ios-ipad-iphone-apps.md
         - name: Power BI para Mixed Reality
           href: mobile-mixed-reality-app.md
@@ -874,7 +872,7 @@
           href: mobile-apps-view-dashboard.md
         - name: Informed en las aplicaciones móviles
           href: mobile-reports-in-the-mobile-apps.md
-        - name: Interacción con los iconos de las aplicaciones móviles
+        - name: Interacción con iconos de las aplicaciones móviles
           href: mobile-tiles-in-the-mobile-apps.md
         - name: Uso compartido de un panel desde las aplicaciones móviles
           href: mobile-share-dashboard-from-the-mobile-apps.md
@@ -892,7 +890,7 @@
           href: mobile-set-data-alerts-in-the-mobile-apps.md
         - name: Filtrar un informe por ubicación en las aplicaciones móviles
           href: mobile-apps-geographic-filtering.md
-        - name: Realización de preguntas acerca de sus datos en las aplicaciones móviles iOS (tutorial)
+        - name: Realice preguntas acerca de sus datos en las aplicaciones móviles de iOS (tutorial)
           href: mobile-apps-ios-qna.md
         - name: Creación de un vínculo profundo que va a una ubicación concreta
           href: mobile-apps-deep-link-specific-location.md
@@ -922,7 +920,7 @@
       items:
         - name: Introducción a la aplicación Android de Power BI
           href: mobile-android-app-get-started.md
-        - name: Corrección del error "su certificado SSL corporativo no es de confianza"
+        - name: Corregir el problema de "su certificado SSL corporativo no es de confianza"
           href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
     - name: Aplicación Power BI para tabletas con Android
       items:
@@ -1012,7 +1010,7 @@
           href: developer/walkthrough-push-data-complete-code.md
     - name: Certificación de paquete de contenido
       items:
-        - name: Programa de certificación de paquete de contenido
+        - name: Programa de certificación del paquete de contenido
           href: developer/service-content-pack-overview.md
         - name: Creación del paquete de contenido de plantillas
           href: developer/template-content-pack-authoring.md
@@ -1074,7 +1072,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
         - name: Orígenes de datos compatibles
           href: report-server/data-sources.md
-        - name: Conectar a orígenes de datos
+        - name: Conexión a orígenes de datos
           href: report-server/connect-data-sources.md
         - name: 'Acceso a conjuntos de datos compartidos como fuentes de OData '
           href: report-server/access-dataset-odata.md
@@ -1110,7 +1108,7 @@
           href: report-server/migrate-report-server.md
         - name: Compatibilidad del explorador
           href: report-server/browser-support.md
-        - name: Configuración de Kerberos para que use informes de Power BI
+        - name: Configuración de Kerberos para el uso de informes de Power BI
           href: report-server/configure-kerberos-powerbi-reports.md
         - name: Notas del producto sobre planeamiento de la capacidad
           href: report-server/capacity-planning.md
